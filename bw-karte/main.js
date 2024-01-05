@@ -6,12 +6,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-var gpx = 'wildschutzgebiet.gpx';
-new L.GPX(gpx, {async: true}).on('loaded', function(e) {
-  map.fitBounds(e.target.getBounds());
+L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
+  maxZoom: 19
 }).addTo(map);
 
 
-L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
-  maxZoom: 19
+var gpx = 'gpx/wildschutzgebiet.gpx';
+new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+  map.fitBounds(e.target.getBounds());
 }).addTo(map);
