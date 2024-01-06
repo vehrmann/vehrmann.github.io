@@ -11,7 +11,7 @@ const baselayer_topo_swisstopo = {
 };
 
 const baselayer_topo_stamen = {
-    'url':              'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.jpg',
+    'url':              'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}@2x.png',
     'minZoom':          3,
     'maxNativeZoom':    15,     // kann auch weiter gezoomt werden, aber dann wird Relief nicht angezeigt und zu viele Straßendetails etc. werden sichtbar
     'name':             'Topo Stamen'
