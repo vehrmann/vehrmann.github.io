@@ -10,6 +10,12 @@ const baselayer_topo_swisstopo = {
     'name':             'Swisstopo'
 };
 
+const baselayer_topo_opentopomap = {
+    'url':              'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+    'subdomains':       ['a', 'b', 'c'],
+    'name':             'Topo OpenTopoMap'
+};
+
 const baselayer_topo_stamen = {
     'url':              'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}@2x.png',
     'minZoom':          3,
@@ -47,12 +53,23 @@ const baselayer_topo_alpenverein = {
     'name':             'Topo Alpenverein'
 };
 
+const baselayer_topo_freemapsk = {
+    'url':              'https://outdoor.tiles.freemap.sk/{z}/{x}/{y}',
+    'name':             'Topo Freemap.sk'
+};
+
 const baselayer_topo_mapycz = {
     'url':              'https://{s}.mapy.cz/turist-en/{z}-{x}-{y}',
     'subdomains':       ['windytiles'],
     'minZoom':          3,
     'maxNativeZoom':    16,
     'name':             'Topo Mapy.cz'
+};
+
+const baselayer_topo_mtbmapcz = {
+    // legend depends on zoom level, see mtbmap.cz
+    'url':              'https://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png',
+    'name':             'Topo MTBmap.cz'
 };
 
 const baselayer_topo_google = {
@@ -63,8 +80,15 @@ const baselayer_topo_google = {
     'name':             'Topo Google'
 };
 
+const baselayer_topo_esri = {
+    'url':              'https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
+    'subdomains':       ['server', 'services'],
+    'name':             'Topo ESRI'
+};
+
 const baselayer_sat_esri = {
-    'url':              'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    'url':              'https://{s}.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    'subdomains':       ['server', 'services'],
     'minZoom':          3,
     'maxNativeZoom':    19,     // checked
     'name':             'Satellit ESRI'
@@ -119,26 +143,31 @@ const baselayer_street_oepnv = {
 };
 
 const baselayer_street_osm = {
-    'url':              'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    'url':              'https://{s}tile.openstreetmap.org/{z}/{x}/{y}.png',
+    'subdomains':       ['', 'a.', 'b.', 'c.'],
     'minZoom':          5,
     'maxNativeZoom':    19,
     'name':             'Street OpenStreetMap',
     'attribution':      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
 };
 
-
+const baselayer_street_basemapat = {
+    'url':              'https://maps{s}.wien.gv.at/basemap/bmaphidpi/normal/google3857/{z}/{y}/{x}.jpeg',
+    'subdomains':       ['', '1', '2', '3', '4'],
+    'name':             'Street basemap.at'
+}
 
 // OVERLAYS
 const overlay_openslopemap_low = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_LR_All_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'name':             'OpenSlopeMap Low Resolution 10m/20m'
+    'name':             'Low Resolution 10m/20m'
 };
 
 const overlay_openslopemap_med = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_MR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'name':             'Medium⭐Resolution 5m interpol.'
+    'name':             'Medium Resolution 5m interpol. ⭐'
 };
 
 const overlay_openslopemap_high = {

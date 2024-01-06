@@ -1,7 +1,7 @@
 let general_map_settings = {
     'center':               [47.66, 11.86],
     'zoom':                 14,
-    'minZoom':              6,
+    'minZoom':              3,
     'maxZoom':              22,
     'default_map':          baselayer_topo_bergfex,
     //'slopesOpacity':        0.4,
@@ -13,35 +13,51 @@ let general_map_settings = {
     //'slopesResolution':     'MR_AlpsEast'
 };
 
+
 let base_maps_list = [                                  // list with all map service variables which should be added to the base map menu    
+    // Topographisch
     baselayer_topo_swisstopo,
+    baselayer_topo_opentopomap,
     baselayer_topo_stamen,
     baselayer_topo_bergfex,
     baselayer_topo_various,
     baselayer_topo_alpenverein,
+    baselayer_topo_freemapsk,
     baselayer_topo_mapycz,
+    baselayer_topo_mtbmapcz,
     baselayer_topo_google,
+    baselayer_topo_esri,
+
+    // Satellit
     baselayer_sat_esri,
     baselayer_sat_bayern,
     baselayer_sat_google,
     baselayer_sat_googlehybrid,
+
+    // Straße
     baselayer_street_bkg,
     baselayer_street_google,
     baselayer_street_oepnv,
-    baselayer_street_osm
+    baselayer_street_osm,
+    baselayer_street_basemapat,
 ];
 
 let overlay_maps_list = [                               // list with all map service variables which should be added to the overlay map menu
+    // Wintersport
+    overlay_opensnowmap,
+    overlay_skirouten_av_sac,
+
+    // Hangneigung
     overlay_openslopemap_low,
     overlay_openslopemap_med,
     overlay_openslopemap_high,
-    overlay_openslopemap_ultrahigh,
-    overlay_opensnowmap,
-    overlay_skirouten_av_sac
+    overlay_openslopemap_ultrahigh
+
 ];
 
-let base_maps = create_tile_layers(base_maps_list);         // {L.tileLayer_1, L.tileLayer_2, ...}
-let overlay_maps = create_tile_layers(overlay_maps_list);   // {L.tileLayer_1, L.tileLayer_2, ...}
+let base_maps =         create_tile_layers(base_maps_list);
+let overlay_maps =      create_tile_layers(overlay_maps_list);
+
 
 let map = L.map(
     'map',
@@ -49,19 +65,54 @@ let map = L.map(
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
         maxZoom:            general_map_settings.maxZoom,
-        //zoominfoControl:    true,                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
-        //zoomControl:        false,                                  // default zoom control by Leaflet with +/- buttons
+        zoominfoControl:    true,                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
+        zoomControl:        false,                                  // default zoom control by Leaflet with +/- buttons
         //rotate:           true,
         //touchRotate:      true,
         //renderer:           labels_renderer,
-        //layers:             base_maps[default_map.name] // selected by default
         layers:             base_maps[general_map_settings.default_map.name]    // selected by default
     }
 );
 
-let map_scale =     L.control.scale({imperial: false}).addTo(map);
-let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
+let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
+let map_scale =     L.control.scale({imperial: false}).addTo(map);
+
+/*
+let grouped_maps = {
+    'Satellit': {
+        'ESRI':                                 create_single_tile_layer(baselayer_sat_esri),
+        'Bayern':                               create_single_tile_layer(baselayer_sat_bayern),
+        'Google':                               create_single_tile_layer(baselayer_sat_google),
+        'Google Hybrid':                        create_single_tile_layer(baselayer_sat_googlehybrid),
+    },
+
+    'Street': {
+        'BKG':                                  create_single_tile_layer(baselayer_street_bkg),
+        'Google':                               create_single_tile_layer(baselayer_street_google),
+        'ÖPNV':                                 create_single_tile_layer(baselayer_street_oepnv),
+        'OSM':                                  create_single_tile_layer(baselayer_street_osm),
+        'basemap.at':                           create_single_tile_layer(baselayer_street_basemapat),
+    },
+    'Hangneigung': {
+        'Low Resolution 10m/20m':               create_single_tile_layer(overlay_openslopemap_low),
+        'Medium Resolution 5m interpol. ⭐':    create_single_tile_layer(overlay_openslopemap_med),
+        'High Resolution 5m':                   create_single_tile_layer(overlay_openslopemap_high),
+        'UltraHigh Resolution 2,5m interpol.':  create_single_tile_layer(overlay_openslopemap_ultrahigh),
+    },
+    'Snow': {
+        'OpenSnowMap':          create_single_tile_layer(overlay_opensnowmap),
+        'Skirouten AV/SAC':     create_single_tile_layer(overlay_skirouten_av_sac),
+    },
+};
+
+let options = {
+    exclusiveGroups: ['Satellit', 'Street'],        // exclusive groups have radio buttons
+    //groupCheckboxes: true             // Show a checkbox next to non-exclusive group labels for toggling all
+};
+  
+let layer_control = L.control.groupedLayers(null, grouped_maps, options).addTo(map);
+*/
 
 /*
 BUGS:
