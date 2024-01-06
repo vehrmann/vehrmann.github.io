@@ -1,203 +1,66 @@
-// START: General map settings
-var center =    [47.66, 11.86];
-var zoom =      14;
-var maxZoom =   22;
-function getDefaultMap() {
-    return baselayer_street_bkg;
+let general_map_settings = {
+    'center':               [47.66, 11.86],
+    'zoom':                 14,
+    'minZoom':              6,
+    'maxZoom':              22,
+    'default_map':          baselayer_topo_bergfex,
+    //'slopesOpacity':        0.4,
+    //'heatmapOpacity':       0.5,
+    //'skiroutesOpacity':     0.5,
+    //'chronotrainsOpacity':  0.2,
+    //'heatmapType':          'winter',
+    //'heatmapColor':         'hot',
+    //'slopesResolution':     'MR_AlpsEast'
 };
 
-var slopesOpacity =         0.4;
-var heatmapOpacity =        0.5;
-var skiroutesOpacity =      0.5;
-var chronotrainsOpacity =   0.2;
-var heatmapType =           'winter';
-var heatmapColor =          'hot';
-var slopesResolution =      'MR_AlpsEast';
-// END : General map settings
+let base_maps_list = [                                  // list with all map service variables which should be added to the base map menu    
+    baselayer_topo_swisstopo,
+    baselayer_topo_stamen,
+    baselayer_topo_bergfex,
+    baselayer_topo_various,
+    baselayer_topo_alpenverein,
+    baselayer_topo_mapycz,
+    baselayer_topo_google,
+    baselayer_sat_esri,
+    baselayer_sat_bayern,
+    baselayer_sat_google,
+    baselayer_sat_googlehybrid,
+    baselayer_street_bkg,
+    baselayer_street_google,
+    baselayer_street_oepnv,
+    baselayer_street_osm
+];
 
+let overlay_maps_list = [                               // list with all map service variables which should be added to the overlay map menu
+    overlay_openslopemap_low,
+    overlay_openslopemap_med,
+    overlay_openslopemap_high,
+    overlay_openslopemap_ultrahigh,
+    overlay_opensnowmap,
+    overlay_skirouten_av_sac
+];
 
-// START: Define base map layers
-var baselayer_topo_swisstopo = L.tileLayer(
-    'https://wmts{s}.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg', {
-        subdomains:     [   '1','2','3','4','5','6','7','8','9',
-                            '10','11','12','13','14',
-                            '20','21','22','23','24',
-                            '100','101','102','103','104','105','106','107','108','109'],
-        minZoom:        0,
-        maxNativeZoom:  22,
-        name:           'Swisstopo'
-});
+let base_maps = create_tile_layers(base_maps_list);         // {L.tileLayer_1, L.tileLayer_2, ...}
+let overlay_maps = create_tile_layers(overlay_maps_list);   // {L.tileLayer_1, L.tileLayer_2, ...}
 
-var baselayer_topo_bergfex = L.tileLayer(
-    'https://tiles.bergfex.at/styles/bergfex-osm/{z}/{x}/{y}@2x.jpg', {
-        minZoom:        0,              // checked
-        maxNativeZoom:  22,             // checked
-        name:           'Topo Bergfex'
-});
+let map = L.map(
+    'map',
+    {   center:             general_map_settings.center,
+        zoom:               general_map_settings.zoom,
+        minZoom:            general_map_settings.minZoom,
+        maxZoom:            general_map_settings.maxZoom,
+        //zoominfoControl:    true,                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
+        //zoomControl:        false,                                  // default zoom control by Leaflet with +/- buttons
+        //rotate:           true,
+        //touchRotate:      true,
+        //renderer:           labels_renderer,
+        //layers:             base_maps[default_map.name] // selected by default
+        layers:             base_maps[general_map_settings.default_map.name]    // selected by default
+    }
+);
 
-var baselayer_topo_various = L.tileLayer(
-    'https://w{s}.oastatic.com/map/v1/topo/pro_ign_os_swisstopo/{z}/{x}/{y}/t.png', {
-        subdomains: ['0', '1', '2', '3'],
-        minZoom:        2,              // checked
-        maxNativeZoom:  17,             // checked
-        name:           'Topo Divers'
-});
-
-var baselayer_topo_alpenverein = L.tileLayer(
-    'https://w{s}.oastatic.com/map/v1/topo/avk_osm/{z}/{x}/{y}/t.png', {
-        subdomains: ['0', '1', '2', '3'],
-        minZoom:        2,              // checked
-        maxNativeZoom:  16,             // checked
-        name:           'Topo Alpenverein'
-});
-
-var baselayer_topo_mapycz = L.tileLayer(
-    'https://{s}.mapy.cz/turist-en/{z}-{x}-{y}', {
-        subdomains: ['windytiles'],
-        minZoom:        2,
-        maxNativeZoom:  16,
-        name:           'Topo Mapy.cz'
-});
-
-var baselayer_topo_google = L.tileLayer(
-    'http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
-        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-        minZoom:        0,              // checked
-        maxNativeZoom:  16,             // checked
-        name:           'Topo Google'
-});
-
-var baselayer_sat_esri = L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        minZoom:        0,              // checked
-        maxNativeZoom:  19,             // checked
-        name:           'Satellit ESRI'
-});
-
-var baselayer_sat_bayern = L.tileLayer.wms(
-    'https://geoservices.bayern.de/wms/v2/ogc_dop80_oa.cgi?', {
-        layers: 'by_dop80c',
-        minZoom:        7,              // checked
-        maxNativeZoom:  20,             // checked
-        name:           'Satellit Bayern'
-});
-
-var baselayer_sat_google = L.tileLayer(
-    'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-        minZoom:        0,              // checked
-        maxNativeZoom:  21,             // checked
-        name:           'Satellit Google'
-});
-
-var baselayer_sat_googlehybrid = L.tileLayer(
-    'http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
-        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-        minZoom:        0,              // checked
-        maxNativeZoom:  21,             // checked
-        name:           'Satellit Google Hybrid'
-});
-
-var baselayer_street_bkg = L.tileLayer(
-    'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/default/WEBMERCATOR/{z}/{y}/{x}.png', {
-        minZoom:        0,              // checked
-        maxNativeZoom:  18,             // checked
-        name:           'Street BKG'
-});
-
-var baselayer_street_google = L.tileLayer(
-    'http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-        minZoom:        0,              // checked
-        maxNativeZoom:  22,             // checked
-        name:           'Street Google'
-});
-
-var baselayer_street_oepnv = L.tileLayer(
-    'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
-        minZoom:        5,              // checked
-        maxNativeZoom:  18,             // checked
-        name:           'Street ÖPNV',
-        attribution:    '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
-});
-
-var baselayer_street_osm = L.tileLayer(
-    'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        minZoom:        5,
-        maxNativeZoom:  19,
-        name:           'Street OpenStreetMap',
-        attribution:    '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
-});
-// END: Define base map layers
-
-
-// START: Define overlay layers
-var overlay_opensnowmap = L.tileLayer(
-    'https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
-        maxZoom:        19,
-        name:           'OpenSnowMap',
-        attribution:    '&copy; <a href="https://www.opensnowmap.org" target="_blank">OpenSnowMap</a>'
-});
-
-var overlay_skirouten_av_sac = L.tileLayer(
-    'https://w{s}.oastatic.com/map/v1/png/oac_winter_alpine_overlay/{z}/{x}/{y}/t.png', {
-        subdomains:     ['0', '1', '2', '3'],
-        name:           'Skirouten AV/SAC',
-});
-
-var overlay_heatmap_strava_purple_all = L.tileLayer(
-    'https://strava-heatmap.tiles.freemap.sk/all/purple/{z}/{x}/{y}.png', {
-        name:           'Strava ✔️ Purple',
-});
-
-
-// END: Define overlay layers
-
-
-// START: Cluster maps
-var base_maps = {
-    'Topo Bergfex':             baselayer_topo_bergfex,
-    'Topo Alpenverein':         baselayer_topo_alpenverein,
-    'Topo divers':              baselayer_topo_various,
-    'Topo Mapy.cz':             baselayer_topo_mapycz,
-    'Topo Swisstopo':           baselayer_topo_swisstopo,
-    'Topo Google':              baselayer_topo_google,
-
-    'Satellit Esri':            baselayer_sat_esri,
-    'Satellit Bayern':          baselayer_sat_bayern,
-    'Satellit Google':          baselayer_sat_google,
-    'Satellit Google Hybrid':   baselayer_sat_googlehybrid,
-    'Street BKG':               baselayer_street_bkg,
-    'Street Google':            baselayer_street_google,
-    'Street ÖPNV':              baselayer_street_oepnv,
-    'Street OpenStreetMap':     baselayer_street_osm,
-};
-
-var overlay_maps = {
-    'OpenSnowMap':              overlay_opensnowmap,
-    'Skirouten AV/SAC':         overlay_skirouten_av_sac,
-    'Strava ✔️ Purple':         overlay_heatmap_strava_purple_all    
-//    'Hangneigung':  slopes,
-//    'Heatmap':      heatmap,
-//    'Skirouten':    skiroutes,
-//    'Chronotrains': chronotrains
-};
-// END: Cluster maps
-
-
-// START: Create map
-var map = L.map(
-    'map', {
-        center: center,
-        zoom: zoom,
-        //rotate: true,
-        //touchRotate: true,
-        layers: [getDefaultMap()]  // selected by default
-        //layers: [baselayer_osm, overlay_opensnowmap]
-});
-//END: Create map
-
-var layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
+let map_scale =     L.control.scale({imperial: false}).addTo(map);
+let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
 
 /*
@@ -220,7 +83,6 @@ EXTEND:
         - BayernAtlas
     OBERLAYS:
         - Strava Heatmaps
-        - OpenSlopeMap
         - ATHM
         - IsoChrones
         - Schutzgebiete
@@ -233,3 +95,36 @@ IDEAS:
 NICE TO HAVE:
     - Geo-Quiz
 */
+
+
+
+function create_single_tile_layer(layer_object) {
+    let tile_layer;
+    if (layer_object.wms) {
+        tile_layer = L.tileLayer.wms(
+                                layer_object.url,
+            {   layers:         layer_object.layers,
+                minZoom:        layer_object.minZoom,
+                maxNativeZoom:  layer_object.maxNativeZoom
+            }
+        );
+    } else {
+        tile_layer = L.tileLayer(
+                                layer_object.url,
+            {   ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
+                minZoom:        layer_object.minZoom,
+                maxNativeZoom:  layer_object.maxNativeZoom
+            }
+        );
+    };
+    return tile_layer;
+}
+
+function create_tile_layers(tile_layer_list) {
+    let tile_layers = {};
+    for (let t in tile_layer_list) {
+        let tile_layer = tile_layer_list[t];
+        tile_layers[tile_layer.name] = create_single_tile_layer(tile_layer);
+    };
+    return tile_layers;
+}
