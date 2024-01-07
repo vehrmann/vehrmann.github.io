@@ -35,10 +35,10 @@ let base_maps_list = [                                  // list with all map ser
     baselayer_sat_googlehybrid,
 
     // Straße
+    baselayer_street_osm,
     baselayer_street_bkg,
     baselayer_street_google,
     baselayer_street_oepnv,
-    baselayer_street_osm,
     baselayer_street_basemapat,
 ];
 

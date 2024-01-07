@@ -3,7 +3,7 @@ function alter_map_control() {
     let group_headers = {
         'Swisstopo':                'Topo',
         'ESRI..':                   'Satellit',    
-        'BKG':                      'Straße',
+        'OpenStreetMap':            'Straße',
         'OpenSnowMap':              'Wintersport',
         'Low Resolution 10m/20m':   'Hangneigung',
         'Rotwandgebiet':            'Schutzgebiete'
