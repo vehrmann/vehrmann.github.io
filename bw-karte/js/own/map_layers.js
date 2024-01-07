@@ -169,24 +169,29 @@ const baselayer_street_basemapat = {
 const overlay_openslopemap_low = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_LR_All_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'name':             'Low Resolution 10m/20m'
+    'maxNativeZoom':    16,
+    'name':             'Low Resolution 10m/20m',
+    //'className':        'tilelayer-overlay-openslopemap-low'
 };
 
 const overlay_openslopemap_med = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_MR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
+    'maxNativeZoom':    16,
     'name':             'Medium Resolution 5m interpol. ⭐'
 };
 
 const overlay_openslopemap_high = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_HR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
+    'maxNativeZoom':    16,
     'name':             'High Resolution 5m'
 };
 
 const overlay_openslopemap_ultrahigh = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_UHR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
+    'maxNativeZoom':    16,
     'name':             'UltraHigh Resolution 2,5m interpol.'
 };
 

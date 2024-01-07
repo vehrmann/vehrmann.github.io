@@ -8,6 +8,11 @@ body {
 
 .leaflet-control-layers-custom-header {
     font-weight: bold;
+    display: flex;
+}
+.leaflet-control-layers-custom-header input {
+    margin-left: auto;
+    width: 7em;
 }
 
 /* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */

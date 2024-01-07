@@ -18,9 +18,9 @@ map.pm.addControls({
     rotateMode:         false,
 
     oneBlock:           true
-  });
+});
 
-  map.pm.Toolbar.changeControlOrder([
+map.pm.Toolbar.changeControlOrder([
     'drawMarker',
     'drawCircle',
     'drawPolyline',
@@ -29,16 +29,14 @@ map.pm.addControls({
     'editMode',
     'dragMode',
     'removalMode',
-  ]);
+]);
   
-  // https://github.com/geoman-io/leaflet-geoman/blob/develop/src/assets/translations/de.json
-  const ownTranslation = {
+// https://github.com/geoman-io/leaflet-geoman/blob/develop/src/assets/translations/de.json
+const ownTranslation = {
     buttonTitles: {
-      drawLineButton:   'Track zeichnen',   // 'Polyline zeichnen'
-      drawPolyButton:   'Fläche zeichnen',  // 'Polygon zeichnen'
-      drawTextButton:   'Textbox einfügen', // 'Text zeichnen'
+        drawLineButton: 'Track zeichnen',   // 'Polyline zeichnen'
+        drawPolyButton: 'Fläche zeichnen',  // 'Polygon zeichnen'
+        drawTextButton: 'Textbox einfügen', // 'Text zeichnen'
     }
-  };
-  map.pm.setLang('customName', ownTranslation, 'de');
-
-// leaflet-control-zoominfo leaflet-bar leaflet-control border streichen
+};
+map.pm.setLang('customName', ownTranslation, 'de');

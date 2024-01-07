@@ -58,8 +58,7 @@ let overlay_maps_list = [                               // list with all map ser
     overlay_openslopemap_ultrahigh,
 
 ];
-
-let base_maps =     create_tile_layers(base_maps_list);
+let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
 let overlay_maps =  create_tile_layers(overlay_maps_list);
 
 
@@ -69,12 +68,12 @@ let map = L.map(
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
         maxZoom:            general_map_settings.maxZoom,
-        zoominfoControl:    true,                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
-        zoomControl:        false,                                  // default zoom control by Leaflet with +/- buttons
+        zoominfoControl:    true,                                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
+        zoomControl:        false,                                                  // default zoom control by Leaflet with +/- buttons
         //rotate:           true,
         //touchRotate:      true,
         //renderer:           labels_renderer,
-        layers:             base_maps[general_map_settings.default_map.name]    // selected by default
+        layers:             base_maps[general_map_settings.default_map.name]        // selected by default
     }
 );
 
@@ -92,6 +91,7 @@ let fullscreen_control = new L.control.fullscreen({
 });
 map.addControl(fullscreen_control);
 
+
 /*
 BUGS:
 IMPROVEMENTS:
@@ -99,7 +99,6 @@ IMPROVEMENTS:
     - add attribution links to all map layers
     - Country-Filter/Flag for some maps
     - opacity, blur etc. for overlays
-    - zoom-level between +/- buttons
     - GPS-location-button
     - Geo-Tools (Distance, Area, Drawing, ...)
     - Routing
