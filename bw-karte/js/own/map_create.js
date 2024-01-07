@@ -28,6 +28,8 @@ let base_maps_list = [                                  // list with all map ser
     baselayer_topo_alpenverein,
     baselayer_topo_freemapsk,
     baselayer_topo_mapycz,
+//    baselayer_topo_mapycz2,
+//    baselayer_topo_mapycz3,
     baselayer_topo_mtbmapcz,
     baselayer_topo_google,
     baselayer_topo_esri,
@@ -91,6 +93,10 @@ let fullscreen_control = new L.control.fullscreen({
 });
 map.addControl(fullscreen_control);
 
+L.control.measure({
+    position:   'topleft',
+    title:      'Messwerkzeuge'
+}).addTo(map);
 
 /*
 BUGS:
@@ -120,6 +126,7 @@ EXTEND:
         - übergabepunkte
 IDEAS:
     - Links zu Fahrplänen, Touren, Hütten
+    - https://jsfiddle.net/vehrmann/uoednqk7/14/
 NICE TO HAVE:
     - Geo-Quiz
 */
@@ -130,18 +137,20 @@ function create_single_tile_layer(layer_object) {
     let tile_layer;
     if (layer_object.wms) {
         tile_layer = L.tileLayer.wms(
-                                layer_object.url,
-            {   layers:         layer_object.layers,
+            layer_object.url, {
+                layers:         layer_object.layers,
                 minZoom:        layer_object.minZoom,
-                maxNativeZoom:  layer_object.maxNativeZoom
+                maxNativeZoom:  layer_object.maxNativeZoom,
+                attribution:    layer_object.attribution
             }
         );
     } else {
         tile_layer = L.tileLayer(
-                                layer_object.url,
-            {   ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
+            layer_object.url, {
+                ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
                 minZoom:        layer_object.minZoom,
-                maxNativeZoom:  layer_object.maxNativeZoom
+                maxNativeZoom:  layer_object.maxNativeZoom,
+                attribution:    layer_object.attribution
             }
         );
     };

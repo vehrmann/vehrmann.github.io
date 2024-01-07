@@ -6,6 +6,7 @@ const baselayer_topo_realitymaps = {
     'name':             'Realitymaps'
 };
 */
+const current_year = new Date().getFullYear();      // needed for some source attributions
 
 const baselayer_topo_swisstopo = {
     'url':              'https://wmts{s}.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg',
@@ -63,15 +64,32 @@ const baselayer_topo_alpenverein = {
 
 const baselayer_topo_freemapsk = {
     'url':              'https://outdoor.tiles.freemap.sk/{z}/{x}/{y}{r}',
-    'name':             'Freemap.sk'
+    'name':             'freemap.sk',
+    'attribution':      '&copy; <a href="https://www.freemap.sk" target="_blank">freemap.sk</a>'
 };
 
-const baselayer_topo_mapycz = {
+const baselayer_topo_mapycz = {     // Wanderkarte
     'url':              'https://{s}.mapy.cz/turist-en/{z}-{x}-{y}',
     'subdomains':       ['windytiles'],
     'minZoom':          3,
     'maxNativeZoom':    16,
     'name':             'Mapy.cz'
+};
+
+const baselayer_topo_mapycz2 = {    // Basiskarte
+    'url':              'https://{s}.mapy.cz/base-en/{z}-{x}-{y}',
+    'subdomains':       ['windytiles'],
+    'minZoom':          3,
+    'maxNativeZoom':    16,
+    'name':             'Mapy.cz2'
+};
+
+const baselayer_topo_mapycz3 = {    // Winterkarte
+    'url':              'https://windytiles.mapy.cz/winter-en{s}/{z}-{x}-{y}',
+    'subdomains':       ['', '-down'],
+    'minZoom':          3,
+    'maxNativeZoom':    16,
+    'name':             'Mapy.cz3'
 };
 
 const baselayer_topo_mtbmapcz = {
@@ -131,7 +149,8 @@ const baselayer_street_bkg = {
     'url':              'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/default/WEBMERCATOR/{z}/{y}/{x}.png',
     'minZoom':          3,
     'maxNativeZoom':    18,     // checked
-    'name':             'BKG'
+    'name':             'BKG',
+    'attribution':      `&copy; <a href="https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/Datenquellen_TopPlusOpen.html" target="_blank">Bundesamt für Kartographie und Geodäsie (${current_year})</a>`
 };
 
 const baselayer_street_google = {
