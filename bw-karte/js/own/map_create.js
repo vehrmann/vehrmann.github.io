@@ -1,3 +1,7 @@
+const fullscreen_button_position =      "topleft";
+const fullscreen_button_title =         "Vollbildmodus";
+const fullscreen_button_title_cancel =  "Vollbildmodus beenden";
+
 let general_map_settings = {
     'center':               [47.66, 11.86],
     'zoom':                 14,
@@ -77,7 +81,16 @@ let map = L.map(
 
 let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 let map_scale =     L.control.scale({imperial: false}).addTo(map);
-
+let fullscreen_control = new L.control.fullscreen({
+    position:               fullscreen_button_position,
+    title:                  fullscreen_button_title,
+    titleCancel:            fullscreen_button_title_cancel,
+    content:                null,   // change the content of the button, can be HTML, default null
+    forceSeparateButton:    false,  // force separate button to detach from zoom buttons, default false
+    forcePseudoFullscreen:  false,  // force use of pseudo full screen even if full screen API is available, default false
+    fullscreenElement:      false   // Dom element to render in full screen, false by default, fallback to map._container
+});
+map.addControl(fullscreen_control);
 
 /*
 BUGS:

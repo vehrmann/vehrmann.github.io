@@ -9,3 +9,8 @@ body {
 .leaflet-control-layers-custom-header {
     font-weight: bold;
 }
+
+/* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */
+.leaflet-tile-container img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
