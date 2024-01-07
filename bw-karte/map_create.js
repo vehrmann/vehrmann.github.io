@@ -78,41 +78,6 @@ let map = L.map(
 let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 let map_scale =     L.control.scale({imperial: false}).addTo(map);
 
-/*
-let grouped_maps = {
-    'Satellit': {
-        'ESRI':                                 create_single_tile_layer(baselayer_sat_esri),
-        'Bayern':                               create_single_tile_layer(baselayer_sat_bayern),
-        'Google':                               create_single_tile_layer(baselayer_sat_google),
-        'Google Hybrid':                        create_single_tile_layer(baselayer_sat_googlehybrid),
-    },
-
-    'Street': {
-        'BKG':                                  create_single_tile_layer(baselayer_street_bkg),
-        'Google':                               create_single_tile_layer(baselayer_street_google),
-        'ÖPNV':                                 create_single_tile_layer(baselayer_street_oepnv),
-        'OSM':                                  create_single_tile_layer(baselayer_street_osm),
-        'basemap.at':                           create_single_tile_layer(baselayer_street_basemapat),
-    },
-    'Hangneigung': {
-        'Low Resolution 10m/20m':               create_single_tile_layer(overlay_openslopemap_low),
-        'Medium Resolution 5m interpol. ⭐':    create_single_tile_layer(overlay_openslopemap_med),
-        'High Resolution 5m':                   create_single_tile_layer(overlay_openslopemap_high),
-        'UltraHigh Resolution 2,5m interpol.':  create_single_tile_layer(overlay_openslopemap_ultrahigh),
-    },
-    'Snow': {
-        'OpenSnowMap':          create_single_tile_layer(overlay_opensnowmap),
-        'Skirouten AV/SAC':     create_single_tile_layer(overlay_skirouten_av_sac),
-    },
-};
-
-let options = {
-    exclusiveGroups: ['Satellit', 'Street'],        // exclusive groups have radio buttons
-    //groupCheckboxes: true             // Show a checkbox next to non-exclusive group labels for toggling all
-};
-  
-let layer_control = L.control.groupedLayers(null, grouped_maps, options).addTo(map);
-*/
 
 /*
 BUGS:

@@ -13,21 +13,21 @@ const baselayer_topo_swisstopo = {
 const baselayer_topo_opentopomap = {
     'url':              'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
     'subdomains':       ['a', 'b', 'c'],
-    'name':             'Topo OpenTopoMap'
+    'name':             'OpenTopoMap'
 };
 
 const baselayer_topo_stamen = {
     'url':              'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}@2x.png',
     'minZoom':          3,
     'maxNativeZoom':    15,     // kann auch weiter gezoomt werden, aber dann wird Relief nicht angezeigt und zu viele Straßendetails etc. werden sichtbar
-    'name':             'Topo Stamen'
+    'name':             'Stamen'
 };
 
 const baselayer_topo_bergfex = {
     'url':              'https://tiles.bergfex.at/styles/bergfex-osm/{z}/{x}/{y}@2x.jpg',
     'minZoom':          3,
     'maxNativeZoom':    22,     // checked
-    'name':             'Topo Bergfex'
+    'name':             'Bergfex'
 };
 
 const baselayer_topo_various = {
@@ -35,7 +35,7 @@ const baselayer_topo_various = {
     'subdomains':       ['0', '1', '2', '3'],
     'minZoom':          2,      // checkend
     'maxNativeZoom':    17,     // checked
-    'name':             'Topo Divers'
+    'name':             'Divers'
 };
 
 const baselayer_topo_alpenverein = {
@@ -50,12 +50,12 @@ const baselayer_topo_alpenverein = {
     'show':             False,
     'tms':              False,
     'opacity':          0.5,*/
-    'name':             'Topo Alpenverein'
+    'name':             'Alpenverein'
 };
 
 const baselayer_topo_freemapsk = {
     'url':              'https://outdoor.tiles.freemap.sk/{z}/{x}/{y}',
-    'name':             'Topo Freemap.sk'
+    'name':             'Freemap.sk'
 };
 
 const baselayer_topo_mapycz = {
@@ -63,13 +63,13 @@ const baselayer_topo_mapycz = {
     'subdomains':       ['windytiles'],
     'minZoom':          3,
     'maxNativeZoom':    16,
-    'name':             'Topo Mapy.cz'
+    'name':             'Mapy.cz'
 };
 
 const baselayer_topo_mtbmapcz = {
     // legend depends on zoom level, see mtbmap.cz
     'url':              'https://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png',
-    'name':             'Topo MTBmap.cz'
+    'name':             'MTBmap.cz'
 };
 
 const baselayer_topo_google = {
@@ -77,13 +77,13 @@ const baselayer_topo_google = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
-    'name':             'Topo Google'
+    'name':             'Google.'
 };
 
 const baselayer_topo_esri = {
     'url':              'https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
     'subdomains':       ['server', 'services'],
-    'name':             'Topo ESRI'
+    'name':             'ESRI.'
 };
 
 const baselayer_sat_esri = {
@@ -91,7 +91,7 @@ const baselayer_sat_esri = {
     'subdomains':       ['server', 'services'],
     'minZoom':          3,
     'maxNativeZoom':    19,     // checked
-    'name':             'Satellit ESRI'
+    'name':             'ESRI..'
 };
 
 const baselayer_sat_bayern = {
@@ -100,7 +100,7 @@ const baselayer_sat_bayern = {
     'layers':           'by_dop80c',
     'minZoom':          7,      // checked
     'maxNativeZoom':    20,     // checked
-    'name':             'Satellit Bayern'
+    'name':             'Bayern'
 };
 
 const baselayer_sat_google = {
@@ -108,7 +108,7 @@ const baselayer_sat_google = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,
     'maxNativeZoom':    21,     // checked
-    'name':             'Satellit Google'
+    'name':             'Google..'
 };
 
 const baselayer_sat_googlehybrid = {
@@ -116,14 +116,14 @@ const baselayer_sat_googlehybrid = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,
     'maxNativeZoom':    21,     // checked
-    'name':             'Satellit Google Hybrid'
+    'name':             'Google Hybrid'
 };
 
 const baselayer_street_bkg = {
     'url':              'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/default/WEBMERCATOR/{z}/{y}/{x}.png',
     'minZoom':          3,
     'maxNativeZoom':    18,     // checked
-    'name':             'Street BKG'
+    'name':             'BKG'
 };
 
 const baselayer_street_google = {
@@ -131,14 +131,14 @@ const baselayer_street_google = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    22,     // checked
-    'name':             'Street Google'
+    'name':             'Google...'
 };
 
 const baselayer_street_oepnv = {
     'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
     'minZoom':          5,      // checked
     'maxNativeZoom':    18,     // checked
-    'name':             'Street OEPNV',
+    'name':             'OEPNV',
     'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
 };
 
@@ -147,14 +147,14 @@ const baselayer_street_osm = {
     'subdomains':       ['', 'a.', 'b.', 'c.'],
     'minZoom':          5,
     'maxNativeZoom':    19,
-    'name':             'Street OpenStreetMap',
+    'name':             'OpenStreetMap',
     'attribution':      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
 };
 
 const baselayer_street_basemapat = {
     'url':              'https://maps{s}.wien.gv.at/basemap/bmaphidpi/normal/google3857/{z}/{y}/{x}.jpeg',
     'subdomains':       ['', '1', '2', '3', '4'],
-    'name':             'Street basemap.at'
+    'name':             'basemap.at'
 }
 
 // OVERLAYS
@@ -213,7 +213,6 @@ const heatmap_strava_url_end =    '/{z}/{x}/{y}.png'
 /*
 TO BE ADDED
 Bing
-Esri
 Swisstopo
 AT Basemaps
 IGN
