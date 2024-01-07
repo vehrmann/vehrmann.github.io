@@ -1,18 +1,29 @@
 <html>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- LEAFLET / https://leafletjs.com -->
+    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
+    <script src="./node_modules/leaflet/dist/leaflet.js"></script>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+    <!-- OWN CSS STYLES -->
+    <link rel="stylesheet" href="./css/style.css">
 <body>
     <div id="map"></div>
 </body>
-    <!-- https://github.com/flaviocarmo/Leaflet.zoominfo -->
-    <script src="js_import/L.Control.Zoominfo.js"></script>
-    <link rel="stylesheet" href="js_import/L.Control.Zoominfo.css">
+    <!-- LEAFLET ZOOMINFO / https://github.com/flaviocarmo/Leaflet.zoominfo -->
+    <link rel="stylesheet" href="./js/imports/L.Control.Zoominfo.css">
+    <script src="./js/imports/L.Control.Zoominfo.js"></script>
 
-    <script src="map_layers.js"></script>
-    <script src="map_create.js"></script>
-    <script src="map_gpx.js"></script>  
-    <script src="map_control_alter.js"></script>
+    <!-- LEAFLET GEOMAN / https://github.com/geoman-io/leaflet-geoman -->
+    <link rel="stylesheet" href="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css">
+    <script src="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.min.js"></script>
+
+    <!-- LEAFLET GPX / https://github.com/mpetazzoni/leaflet-gpx        ### CONSIDER NODE/IMPORT ###-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+
+    <script src="./js/own/map_layers.js"></script>
+    <script src="./js/own/map_create.js"></script>
+    <script src="./js/own/map_control_group.js"></script>
+    <script src="./js/own/map_gpx.js"></script>
+    <script src="./js/own/map_geoman.js"></script>
+
+    <!-- <script src="./js/own/map_tests.js"></script> -->
 </html>
