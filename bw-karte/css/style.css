@@ -6,6 +6,27 @@ body {
   /* border: 1px solid red; */
 }
 
+/* own layer icons */
+.leaflet-control-layers-toggle {
+	background-image: url(../icons/layers_841577.png) !important;
+	width: 36px;
+	height: 36px;
+}
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(../icons/layers_841577.png) !important;
+	background-size: 30px 30px !important;
+}
+
+.layer-control-chronotrains {
+	background-image: url(../icons/train_1755475.png) !important;
+	width: 36px;
+	height: 36px;
+}
+.leaflet-retina .layer-control-chronotrains {
+    background-image: url(../icons/train_1755475.png) !important;
+	background-size: 30px 30px !important;
+}
+
 .leaflet-control-layers-custom-header {
     font-weight: bold;
     display: flex;
