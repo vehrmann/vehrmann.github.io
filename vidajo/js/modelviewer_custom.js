@@ -1,5 +1,3 @@
-//import * as THREE from 'three';
-
 function cons(text) {
     document.getElementById('cons').textContent = text;
 }
@@ -258,6 +256,7 @@ let raum_selected =                 false;
 
 modelviewer.addEventListener('load', function() {
     // registering scene and meshes, can only be done after modelviewer loaded
+    // makes it possible to manipulate the mesh of the glb-model (translation, rotation and maybe animation-mixer)
     const threeJsScene = modelviewer[Object.getOwnPropertySymbols(modelviewer).find(e => e.description === 'scene')];
     const meshes = mesh_names.reduce((acc, mesh_name) => {
         acc[mesh_name] = threeJsScene.getObjectByName(mesh_name);
