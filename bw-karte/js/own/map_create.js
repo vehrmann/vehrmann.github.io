@@ -59,6 +59,8 @@ let overlay_maps_list = [                               // list with all map ser
     overlay_openslopemap_high,
     overlay_openslopemap_ultrahigh,
 
+    // Seekarte
+    overlay_openseamap
 ];
 let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
 let overlay_maps =  create_tile_layers(overlay_maps_list);
@@ -98,38 +100,8 @@ L.control.measure({
     title:      'Messwerkzeuge'
 }).addTo(map);
 
-/*
-BUGS:
-IMPROVEMENTS:
-    - add min-/max-zooms to all map layers
-    - add attribution links to all map layers
-    - Country-Filter/Flag for some maps
-    - opacity, blur etc. for overlays
-    - GPS-location-button
-    - Geo-Tools (Distance, Area, Drawing, ...)
-    - Routing
-EXTEND:
-    BASELAYERS:
-        - Swisstopo
-        - Basemap.at
-        - CyclOSM
-        - Kartverket (NO)
-        - BayernAtlas
-    OBERLAYS:
-        - Strava Heatmaps
-        - ATHM
-        - IsoChrones
-        - Schutzgebiete
-        - Webcams
-        - Wetter / Schnee / Lawinenlage / LLB
-        - BW-spezifische Orte & Gebiete
-        - übergabepunkte
-IDEAS:
-    - Links zu Fahrplänen, Touren, Hütten
-    - https://jsfiddle.net/vehrmann/uoednqk7/14/
-NICE TO HAVE:
-    - Geo-Quiz
-*/
+
+
 
 
 
@@ -141,6 +113,7 @@ function create_single_tile_layer(layer_object) {
                 layers:         layer_object.layers,
                 minZoom:        layer_object.minZoom,
                 maxNativeZoom:  layer_object.maxNativeZoom,
+                maxZoom:        layer_object.maxZoom,
                 attribution:    layer_object.attribution
             }
         );
@@ -150,6 +123,7 @@ function create_single_tile_layer(layer_object) {
                 ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
                 minZoom:        layer_object.minZoom,
                 maxNativeZoom:  layer_object.maxNativeZoom,
+                maxZoom:        layer_object.maxZoom,
                 attribution:    layer_object.attribution
             }
         );

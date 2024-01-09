@@ -6,6 +6,10 @@ body {
   /* border: 1px solid red; */
 }
 
+.leaflet-container.crosshair-cursor-enabled {
+    cursor:crosshair;
+}
+
 /* own layer icons */
 .leaflet-control-layers-toggle {
 	background-image: url(../icons/layers_841577.png) !important;
@@ -17,15 +21,37 @@ body {
 	background-size: 30px 30px !important;
 }
 
-.layer-control-chronotrains {
-	background-image: url(../icons/train_1755475.png) !important;
+/* START: OWN CONTROL BUTTONS */
+.layer-control-bergwacht a {
+	background-image: url(../icons/bergwacht_blume.svg) !important;
+	width: 34px;
+	height: 34px;
+}
+.leaflet-retina .layer-control-bergwacht a {
+    background-image: url(../icons/bergwacht_blume.svg) !important;
+	background-size: 38px 38px !important;
+}
+
+.layer-control-schutzgebiete a {
+	background-image: url(../icons/schutzgebiete_7653227.svg) !important;
 	width: 36px;
 	height: 36px;
 }
-.leaflet-retina .layer-control-chronotrains {
-    background-image: url(../icons/train_1755475.png) !important;
+.leaflet-retina .layer-control-schutzgebiete a {
+    background-image: url(../icons/schutzgebiete_7653227.svg) !important;
 	background-size: 30px 30px !important;
 }
+
+.layer-control-chronotrains a {
+	background-image: url(../icons/chronotrains_1755475.png) !important;
+	width: 36px;
+	height: 36px;
+}
+.leaflet-retina .layer-control-chronotrains a {
+    background-image: url(../icons/chronotrains_1755475.png) !important;
+	background-size: 30px 30px !important;
+}
+/* END: OWN CONTROL BUTTONS */
 
 .leaflet-control-layers-custom-header {
     font-weight: bold;

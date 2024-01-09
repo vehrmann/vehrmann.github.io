@@ -12,6 +12,8 @@ fetch('./chronotrains/8004128.json')
     .then(response => response.json())
     .then(data => {
         // Process and add each set of polygons with respective colors
+       
+        /*
         processAndAddPolygons(data.isochrones[0], 'rgba(255, 255, 178, 0.60)');
         processAndAddPolygons(data.isochrones[1], 'rgba(254, 217, 118, 0.65)');
         processAndAddPolygons(data.isochrones[2], 'rgba(254, 204,  92, 0.70)');
@@ -20,33 +22,20 @@ fetch('./chronotrains/8004128.json')
         processAndAddPolygons(data.isochrones[5], 'rgba(250, 115,  51, 0.85)');
         processAndAddPolygons(data.isochrones[6], 'rgba(245,  90,  42, 0.90)');
         processAndAddPolygons(data.isochrones[7], 'rgba(240,  59,  32, 1)');
+        */
+
+        // https://colorswall.com/palette/171299
+        processAndAddPolygons(data.isochrones[0], 'rgb(199, 128, 232)');
+        processAndAddPolygons(data.isochrones[1], 'rgb(157, 148, 255)');
+        processAndAddPolygons(data.isochrones[2], 'rgb( 89, 173, 246)');
+        processAndAddPolygons(data.isochrones[3], 'rgb(  8, 202, 209)');
+        processAndAddPolygons(data.isochrones[4], 'rgb( 66, 214, 164)');
+        processAndAddPolygons(data.isochrones[5], 'rgb(248, 243, 141)');
+        processAndAddPolygons(data.isochrones[6], 'rgb(255, 180, 128)');
+        processAndAddPolygons(data.isochrones[7], 'rgb(255, 105,  97)');
     })
     .catch(error => console.error('Error fetching the JSON data:', error));
 
-/*
-L.Control.Chronotrains = L.Control.Layers.extend({
-    onAdd: function(map) {
-        var img = L.DomUtil.create('img');    
-        img.src = './icons/train_1755475.png';
-        //img.style.width = '200px';
-        return img;
-    },
-    onRemove: function(map) {
-        // Nothing to do here
-    }
-});
-
-L.control.chronotrains = function(options) {
-    return new L.Control.Chronotrains(options);
-}
-
-L.control.chronotrains({ position: 'topright' }).addTo(map);
-*/
-let layer_control_chronotrains_options = {
-    position:   'topright'
-}
-let layer_control_chronotrains = L.control.layers(null, null, layer_control_chronotrains_options).addTo(map);
+let layer_control_chronotrains = L.control.layers(null, null, {position: 'topright'}).addTo(map);
 let layer_control_chronotrains_html = layer_control_chronotrains.getContainer()
 layer_control_chronotrains_html.className = `${layer_control_chronotrains_html.className} layer-control-chronotrains`
-//alert(xyz.className)
-//alert(layer_control_chronotrains)

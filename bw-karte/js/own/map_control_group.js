@@ -15,6 +15,7 @@ function group_map_control() {
     let group_headers_overlays = {
         'OpenSnowMap':              'Wintersport',
         'Low Resolution 10m/20m':   'Hangneigung',
+        'OpenSeaMap':               'Seekarte',
         'Rotwandgebiet':            'Schutzgebiete'
     };
 
@@ -83,6 +84,9 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             overlay_maps[overlay_openslopemap_med.name].setOpacity(opacity_value);
             overlay_maps[overlay_openslopemap_high.name].setOpacity(opacity_value);
             overlay_maps[overlay_openslopemap_ultrahigh.name].setOpacity(opacity_value);
+            break;
+        case 'Seekarte':
+            overlay_maps[overlay_openseamap.name].setOpacity(opacity_value);
             break;
         case 'Schutzgebiete':
             //gpx.setOpacity(opacity_value)     // find the proper name of the gpx layer
