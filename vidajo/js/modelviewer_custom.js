@@ -495,6 +495,7 @@ modelviewer.addEventListener('load', function() {
             this.preventDefault();
         });
     });
+
     //alert(modelviewer.exportScene(animations)) //getAttribute('ar-status'));
 
 });

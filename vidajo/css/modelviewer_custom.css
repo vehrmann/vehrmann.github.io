@@ -164,7 +164,7 @@ model-viewer {
  
 @media (max-width: 600px) { /* Adjust breakpoint as needed */
     .variant-container {
-        flex-basis: 100%; /* Full width on smaller screens */
+        flex-basis: 100%;   /* Full width on smaller screens */
     }
 }
 
@@ -280,7 +280,7 @@ model-viewer {
     outline: 1px solid #4285f4;
 }
 
-/*
+
 model-viewer > #ar-prompt {
     position: absolute;
     left: 50%;
@@ -296,7 +296,7 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 model-viewer > #ar-prompt > img {
     animation: circle 4s linear infinite;
 }
-*/
+
 
 model-viewer > #ar-failure {
     position: absolute;
