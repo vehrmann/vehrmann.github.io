@@ -1,0 +1,312 @@
+:root {
+    --menu-bg-color: rgba(255, 255, 255, 0.9);
+}
+
+model-viewer {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    /* overflow-x: hidden; */
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+}
+
+/* This keeps child nodes hidden while the element loads */
+:not(:defined) > * {
+    display: none;
+}
+
+
+/* toggle-animation-controls and toggle-variant-controls */
+
+#toggle-animation-controls-open, #toggle-animation-controls-close,
+#toggle-variant-controls-open, #toggle-variant-controls-close {
+    position: relative;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--menu-bg-color);
+
+    border: 5px solid transparent;
+
+    z-index: 101;
+    cursor: pointer;
+}
+
+#toggle-animation-controls-open {
+    background-image: url("../assets/icons/toggle_animation_controls_open.png");
+    border-radius: 5px;
+}
+#toggle-animation-controls-close {
+    background-image: url("../assets/icons/toggle_model_controls_close.png");
+    border-radius: 0px 0px 5px 5px;
+}
+
+#toggle-variant-controls-open {
+    background-image: url("../assets/icons/toggle_variant_controls_open.png");
+    border-radius: 5px;
+}
+#toggle-variant-controls-close {
+    background-image: url("../assets/icons/toggle_model_controls_close.png");
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+#toggle-animation-controls-open, #toggle-animation-controls-close {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+#toggle-variant-controls-open, #toggle-variant-controls-close {
+    margin-top: 4px;
+}
+
+.toggle-animation-controls-invisible, .toggle-variant-controls-invisible {
+    display: none !important;
+}
+
+#toggle-animation-controls-open, #toggle-variant-controls-open,
+.animation-controls, .variant-controls {
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* animation-controls and variant-controls */
+.model-controls, .variant-container select {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+ }
+
+.model-controls, .toggle-animation-controls, .toggle-variant-controls {
+    pointer-events: none !important;
+}
+.model-controls * {
+    pointer-events: auto;
+}
+
+.model-controls {
+    max-width: 25%;     /* make this dependent on screen size */
+}
+
+
+@media (max-width: 600px) { /* Adjust breakpoint as needed */
+    .model-controls {
+        max-width: 50%; /* Full width on smaller screens */
+    }
+}
+
+
+.animation-controls, .variant-controls {
+    position: relative;
+    padding: 10px;
+    left: -100%;
+    transition: left 0.5s;
+
+    background-color: var(--menu-bg-color);
+    z-index: 100;
+}
+
+.animation-controls {
+    top: 8px;
+    border-radius: 5px 5px 5px 0px;
+}
+.variant-controls {
+    border-radius: 0px 5px 5px 5px;
+}
+
+.animation-controls-visible, .variant-controls-visible {
+    left: 8px !important;
+}
+
+/* appearance of variants- and animation-controls*/
+.variant-container, .animation-container, .select-color-griff-current-selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.variant-container:last-child, .animation-container:last-child {
+    margin-bottom: 0px;
+}
+
+.variant-container.select-color-griff {
+    align-items: normal;
+}
+
+.variant-container label {
+    text-align: left;
+    margin-right: 10px;
+    white-space: nowrap;        /*text does not break on overflow*/
+    overflow: hidden;           /*allows elements on right side of labels to stay within bounding div*/
+    text-overflow: ellipsis;    /*ellipsis: ...*/
+}
+
+.variant-container select {
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.variant-container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+ 
+@media (max-width: 600px) { /* Adjust breakpoint as needed */
+    .variant-container {
+        flex-basis: 100%; /* Full width on smaller screens */
+    }
+}
+
+.animation-container input[type="range"] {
+    width: 100%;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.label-inactive {
+    color: #ccc;
+}
+
+.icon-arrow img {
+    width: 30px;
+}
+
+.icon-arrow-inactive {
+    filter: opacity(30%);
+}
+
+#bluetooth-image-overlay {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: auto;
+}
+
+.input-container {
+    position: absolute;
+    top: 20px;
+    /* right: 20px; */
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+/* appearance of Griff-Color-Selection*/
+.select-color-griff {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-color-griff-current-selection > div,
+.select-color-griff-options > div,
+#current-selection-griff-circular-border {
+    width: 36px;
+    height: 36px;
+}
+
+.select-color-griff-current-selection > div,
+.select-color-griff-options > div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.select-color-griff-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* Creates 5 columns */
+    grid-template-rows: repeat(5, 1fr);     /* Creates 5 rows */
+    gap: 10px;                               /* Adjust the gap between images as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toggle-current-selection-griff-invisible {
+    visibility: hidden;
+}
+
+.toggle-select-color-griff-options-visible {
+    display: grid !important;
+}
+
+
+
+#ar-button {
+    background-image: url(https://modelviewer.dev/assets/ic_view_in_ar_new_googblue_48dp.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12px 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 132px;
+    padding: 0px 16px 0px 40px;
+    font-family: Roboto Regular, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color:#4285f4;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid #DADCE0;
+}
+
+#ar-button:active {
+    background-color: #E8EAED;
+}
+
+#ar-button:focus {
+    outline: none;
+}
+
+#ar-button:focus-visible {
+    outline: 1px solid #4285f4;
+}
+
+/*
+model-viewer > #ar-prompt {
+    position: absolute;
+    left: 50%;
+    bottom: 175px;
+    animation: elongate 2s infinite ease-in-out alternate;
+    display: none;
+}
+
+model-viewer[ar-status="session-started"] > #ar-prompt {
+    display: block;
+}
+
+model-viewer > #ar-prompt > img {
+    animation: circle 4s linear infinite;
+}
+*/
+
+model-viewer > #ar-failure {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    bottom: 175px;
+    display: none;
+}
+
+model-viewer[ar-tracking="not-tracking"] > #ar-failure {
+    display: block;
+}
