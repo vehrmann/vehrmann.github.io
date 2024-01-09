@@ -39,8 +39,8 @@ function getElevation(lat, lon) {
         let bytes = 3601;
         let filePath = './hgt/DTM_1/';
 
-        bytes = 7201;
-        filePath = './hgt/DTM_0.5/';
+        //bytes = 7201;
+        //filePath = './hgt/DTM_0.5/';
         //let { fileNameLat, fileNameLon } = getCoordDirection(lat, lon);
 
         // 1ARC / 3601*3601 pixels from https://sonny.4lima.de
