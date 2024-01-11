@@ -10,10 +10,13 @@
             
             xr-environment
             disable-pan
+
+            min-camera-orbit =  "91deg auto auto" 
+            max-camera-orbit =  "269deg auto auto"
         -->
         <model-viewer
             alt =               ""
-            src =               "./assets/wall-ti12.glb"
+            src =               "./assets/wall-ti_2024_02.glb"
             loading =           "eager"
             shadow-intensity=   "1"
 
@@ -21,8 +24,7 @@
 
             camera-controls 
             camera-orbit =      "65deg 80deg auto" 
-            min-camera-orbit =  "1deg auto auto" 
-            max-camera-orbit =  "179deg auto auto"
+
 
             max-field-of-view = "45deg"
             touch-action =      "pan-y"
@@ -40,10 +42,10 @@
 
             <button id="ar-failure">AR not tracking - please close and open AR window</button>
 
-            <!-- <button id="myButton1">Scale0</button>
-            <button id="myButton2">Scale1</button>
+            <button id="myButton1">Ani1</button>
+            <button id="myButton2">Ani2</button>
 
-            <span id="cons">XYZ</span> -->
+            <span id="cons">XYZ</span>
 
             <div class="model-controls">
                 <div class="animation-controls">
@@ -52,11 +54,11 @@
                         <div class="icon-arrow"><img src="./assets/icons/arrow_floorheight.png"></div>
                     </div>
                     <div class="animation-container">
-                        <input id="slider-animation-korpus-updown"      type="range" min="0" max="55" step="1" value="20">
+                        <input id="slider-animation-korpus-updown"      type="range" min="0" max="55" step="1" value="0">
                         <div class="icon-arrow"><img src="./assets/icons/arrow_updown.png" id="icon-arrow-updown"></div>
                     </div>
                     <div class="animation-container">
-                        <input id="slider-animation-klappe-openclose"   type="range" min="0" max="49" step="1" value="0">
+                        <input id="slider-animation-klappe-openclose"   type="range" min="0" max="55" step="1" value="0">
                         <div class="icon-arrow"><img src="./assets/icons/arrow_openclose.png"></div>
                     </div>
                 </div>
@@ -195,8 +197,7 @@
         <script type="importmap">
             {
                 "imports": {
-                    "three":        "https://cdn.jsdelivr.net/npm/three/build/three.module.min.js",
-                    "GLTFLoader":   "https://cdn.jsdelivr.net/npm/three/examples/jsm/loaders/GLTFLoader.js"
+                    "three":        "https://cdn.jsdelivr.net/npm/three/build/three.module.min.js"
                 }
             }
         </script>
