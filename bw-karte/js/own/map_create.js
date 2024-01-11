@@ -31,6 +31,9 @@ let base_maps_list = [                                  // list with all map ser
 //    baselayer_topo_mapycz2,
 //    baselayer_topo_mapycz3,
     baselayer_topo_mtbmapcz,
+    baselayer_topo_kartverketnoraster,
+    baselayer_topo_kartverketnoseamap,
+    baselayer_topo_kartverketnovector,
     baselayer_topo_google,
     baselayer_topo_esri,
 

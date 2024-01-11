@@ -115,8 +115,35 @@ const baselayer_topo_mtbmapcz = {
     'name':             'MTBmap.cz'
 };
 
+const baselayer_topo_kartverketnoraster = {
+    'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}',
+    // also available as wms
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    20,     // checked
+    'maxZoom':          22,
+    'name':             'Kartverket.no Raster'
+};
+
+const baselayer_topo_kartverketnoseamap = {
+    'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjokartraster&zoom={z}&x={x}&y={y}',
+    // also available as wms
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    20,     // checked
+    'maxZoom':          22,
+    'name':             'Kartverket.no Seamap'
+};
+
+const baselayer_topo_kartverketnovector = {
+    'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}',
+    'wms':              true,                   // only available as WMS
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    20,     // checked
+    'maxZoom':          22,
+    'name':             'Kartverket.no Vector'
+};
+
 const baselayer_topo_google = {
-    'url':              'http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',    
+    'url':              'https://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',    
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    15,     // checked, ab 16 werden Höhenlinien ausgeblendet
@@ -153,7 +180,7 @@ const baselayer_sat_bayern = {
 };
 
 const baselayer_sat_google = {
-    'url':              'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+    'url':              'https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    21,     // checked
@@ -162,7 +189,7 @@ const baselayer_sat_google = {
 };
 
 const baselayer_sat_googlehybrid = {
-    'url':              'http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',
+    'url':              'https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    21,     // checked
@@ -180,7 +207,7 @@ const baselayer_street_bkg = {
 };
 
 const baselayer_street_google = {
-    'url':              'http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+    'url':              'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checkec
     'maxNativeZoom':    22,     // checked
@@ -274,9 +301,45 @@ const overlay_openseamap = {
     'minZoom':          3,      // xx
     'maxNativeZoom':    18,     // xx
     'name':             'OpenSeaMap',
-    'attribution':      '&copy; <a href="http://www.openseamap.org" target="_blank">OpenSeaMap</a>'
+    'attribution':      '&copy; <a href="https://www.openseamap.org" target="_blank">OpenSeaMap</a>'
 };
 
+/*
+<!-- Bing Maps -->
+"Microsoft Maps"    'http://r0.ortho.tiles.virtualearth.net/tiles/r{q}.png?g=45'
+"Microsoft Hybrid"  'http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45'
+"Microsoft Earth"   'http://a0.ortho.tiles.virtualearth.net/tiles/a{q}.jpg?g=45'
+
+
+<tile_source name="Public Transport" url_template="http://openptmap.org/tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="5000"/>
+<tile_source name="Hike Bike Map" url_template="https://tiles.wmflabs.org/hikebike/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="8" avg_img_size="18000"/>
+<tile_source name="Hike Bike Map (Hills Underlay)" url_template="http://tiles.wmflabs.org/hillshading/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="18000"/>
+<tile_source name="OpenPisteMap" url_template="http://openpistemap.org/tiles/contours/{0}/{1}/{2}.png" ext=".png" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>-->
+<!-- Does not work -->
+<!--   <tile_source name="Relief" url_template="http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg" ext=".jpg" min_zoom="1" max_zoom="12" tile_size="256" img_density="32" avg_img_size="24000"/>
+<tile_source name="CyclOSM" url_template="https://c.tile-cyclosm.openstreetmap.fr/cyclosm/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="20" tile_size="256" img_density="16" avg_img_size="26000"/>
+
+<tile_source name="Yandex RU" url_template="https://core-renderer-tiles.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
+   <tile_source name="Top Yandex RU" url_template="https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
+   <!-- <tile_source name="Yandex NK" url_template="https://01.pvec.maps.yandex.net/?l=wmap&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/> -->
+<!--   <tile_source name="Top Yandex NK" url_template="https://wvec.maps.yandex.net/?l=wskl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>-->
+   <tile_source name="Yandex Satellite RU" url_template="https://sat01.maps.yandex.net/tiles?l=sat&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="19" tile_size="256" img_density="32" avg_img_size="18000" ellipsoid="true"/>
+<!--   <tile_source rule="yandex_traffic" name="Yandex Traffic RU"/>-->
+   <tile_source name="Yandex Traffic RU" url_template="https://core-jams-rdr-cache.maps.yandex.net/1.1/tiles?trf&amp;l=trf,trfe&amp;x={1}&amp;y={2}&amp;z={0}" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
+
+      <tile_source rule="template:1" name="Wikimapia" url_template="http://i{rnd}.wikimapia.org/?x={1}&amp;y={2}&amp;zoom={0}" randoms="wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"/>
+   <tile_source rule="template:1" name="Top Wikimapia" url_template="http://i{rnd}.wikimapia.org/?x={1}&amp;y={2}&amp;zoom={0}&amp;type=hybrid" randoms="wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"/>
+
+   <tile_source name="Wanderreitkarte Topo (DE, NL)" url_template="http://www.wanderreitkarte.de/topo/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   <tile_source name="Wanderreitkarte HillShade (DE, NL)" url_template="http://www.wanderreitkarte.de/hills/{0}/{1}/{2}.png" ext=".png" min_zoom="8" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   <tile_source name="Wanderreitkarte BaseLayer (DE, NL)" url_template="http://www.wanderreitkarte.de/base/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+
+ <tile_source rule="template:1" name="Eniro Map (NO,SE,FI,DK,PL))" url_template="http://map01.eniro.com/geowebcache/service/tms1.0.0/map/{0}/{1}/{2}.png" ext=".png" min_zoom="2" max_zoom="20" tile_size="256" img_density="16" avg_img_size="18000" inverted_y="true"/>
+   <tile_source rule="template:1" name="Eniro Aerial (NO,SE,DK)" url_template="http://map01.eniro.com/geowebcache/service/tms1.0.0/aerial/{0}/{1}/{2}.png" ext=".png" min_zoom="2" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000" inverted_y="true"/>
+   <tile_source rule="template:1" name="Eniro Nautical (NO,SE)" url_template="http://map01.eniro.com/geowebcache/service/tms1.0.0/nautical/{0}/{1}/{2}.png" ext=".png" min_zoom="5" max_zoom="16" tile_size="256" img_density="32" avg_img_size="18000" inverted_y="true"/>
+
+  <tile_source name="Geofabrik.routing_eu" url_template="https://tools.geofabrik.de/osmi/tiles/routing/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
+   */
 
 
 /*
