@@ -19,6 +19,11 @@ function cons(text) {
 }
 /* END: DEVELOPMENT STUFF */
 
+// needed to change mesh positions followed by model-update for meshes such as korpus, laptophalter etc.
+function changeMeshPosition(mesh, axis, value, needs_update = false) {
+    mesh.position[axis] = value;
+    needs_update && updateModelViewer(total_duration);                                // updateModelViewer() is only triggered when needed
+}
 
 // needed for conversion from angle in degree to radians
 function degToRad(value_in_degree) {
@@ -79,6 +84,9 @@ modelviewer.addEventListener('load', function() {
     // Animation-EventListener: slider-animation-all-updown & slider-animation-korpus-updown
     slider_animation_all_updown.addEventListener('input', function() {
         //changeMeshPosition(meshes['wallti_origin'], 'y', parseInt(this.value)/100, needs_update);
+        let mesh = scene_graph.getObjectByName('controller_schreibtisch');
+        changeMeshPosition(mesh, 'y', this.value/this.max * 0.8, false)
+        updateModelViewer(total_duration);
     });
 
     slider_animation_korpus_updown.addEventListener('input', function() {
