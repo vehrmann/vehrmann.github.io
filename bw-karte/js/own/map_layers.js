@@ -218,7 +218,7 @@ const baselayer_street_google = {
 const baselayer_street_oepnv = {
     'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
     'minZoom':          3,      // checked
-    'maxNativeZoom':    18,     // checked
+    'maxNativeZoom':    17,     // checked
     'maxZoom':          22,
     'name':             'ÖPNV',
     'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
