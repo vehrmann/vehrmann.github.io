@@ -97,7 +97,22 @@ let fullscreen_control = new L.control.fullscreen({
     fullscreenElement:      false   // Dom element to render in full screen, false by default, fallback to map._container
 });
 map.addControl(fullscreen_control);
-L.control.locate().addTo(map);
+
+let locate_options = {
+    position:               "topleft",
+    flyTo:                  true,
+    keepCurrentZoomLevel:   true,
+    drawCircle:             true,
+    drawMarker:             true,
+    //circleStyle
+    //markerStyle
+    strings:                {
+                                title: "Meine Position anzeigen",
+                                //text, metersUnit, feetUnit, popup, outsideMapBoundsMsg
+                            },
+    
+  }
+L.control.locate(locate_options).addTo(map);
 
 
 function create_single_tile_layer(layer_object) {
