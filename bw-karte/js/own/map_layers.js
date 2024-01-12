@@ -304,7 +304,10 @@ const overlay_openseamap = {
     'attribution':      '&copy; <a href="https://www.openseamap.org" target="_blank">OpenSeaMap</a>'
 };
 
+
 /*
+basemap.de
+
 <!-- Bing Maps -->
 "Microsoft Maps"    'http://r0.ortho.tiles.virtualearth.net/tiles/r{q}.png?g=45'
 "Microsoft Hybrid"  'http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45'

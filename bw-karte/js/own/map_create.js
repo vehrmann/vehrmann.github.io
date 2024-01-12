@@ -104,10 +104,6 @@ L.control.measure({
 }).addTo(map);
 
 
-
-
-
-
 function create_single_tile_layer(layer_object) {
     let tile_layer;
     if (layer_object.wms) {
