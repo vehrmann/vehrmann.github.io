@@ -1,3 +1,5 @@
+let current_altitude;
+
 function partAfterComma(number) {
     return parseFloat('0.' + (number + '').split('.')[1]);          // returns only the comma part of a float number
 }
@@ -33,14 +35,13 @@ function getData(file) {
     });
 }
 
-
 function getElevation(lat, lon) {
     return new Promise((resolve, reject) => {
         let bytes = 3601;
         let filePath = '../../../hgt/DTM_1/';
 
-        bytes = 7201;
-        filePath = '../../../hgt/DTM_0.5/';
+        //bytes = 7201;
+        //filePath = '../../../hgt/DTM_0.5/';
         //let { fileNameLat, fileNameLon } = getCoordDirection(lat, lon);
 
         // 1ARC / 3601*3601 pixels from https://sonny.4lima.de
@@ -63,7 +64,6 @@ function getElevation(lat, lon) {
                 // DTM3"   data.byteLength = 2884802   ( = 1201 * 1201 * 2 )
                 let ele = data.getInt16(offset, false);
                 resolve(ele);
-
                 // result can be cross-checked on https://r.oastatic.com/elevation?format=sjs&locations=47.1234,12.567&callback=alp.jsonp[12595776838]
                 // Read the two bytes of elevation data as a big-endian short                
             })
@@ -79,8 +79,9 @@ function onMapClick(e) {
     getElevation(lat, lng)
         .then(altitude => {
             let checkURL = `https://r.oastatic.com/elevation?format=sjs&locations=${lat},${lng}&callback=alp.jsonp[12595776838]`;
-            navigator.clipboard.writeText(checkURL);        // copy checkURL to clipboard
-            alert(`lat: ${lat.toFixed(4)} / lon: ${lng.toFixed(4)}\nAltitude: ${altitude} meters\n${checkURL}`);
+            current_altitude = altitude
+            //navigator.clipboard.writeText(checkURL);        // copy checkURL to clipboard
+            //alert(`lat: ${lat.toFixed(4)} / lon: ${lng.toFixed(4)}\nAltitude: ${altitude} meters\n\n${checkURL}`);
         })
         .catch(error => {
             alert(`Error: ${error}`);
@@ -89,11 +90,10 @@ function onMapClick(e) {
 
 
 L.DomUtil.addClass(map._container,'crosshair-cursor-enabled');
-map.on('click', onMapClick);
+function getElevationFromMapClick() {
+    map.on('click', onMapClick);
+}
 
-
-  
-  
   /*
   const track = [
     [47.750, 11.690],

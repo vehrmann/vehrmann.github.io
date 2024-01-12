@@ -61,7 +61,7 @@
         _buildItems: function () {
             var ele_ul = L.DomUtil.create("ul", "leaflet-measure-actions", this._contents);
             var ele_li = L.DomUtil.create("li", "leaflet-measure-action", ele_ul);
-            var ele_link_line = L.DomUtil.create("a", "start leaflet-measure-action-line", ele_li);     // added custom class "leaflet-measure-action-line"
+            var ele_link_line = L.DomUtil.create("a", "start leaflet-measure-action-line", ele_li);
             ele_link_line.innerText = L.Measure.linearMeasurement;
             ele_link_line.href = "#";
             L.DomEvent.disableClickPropagation(ele_link_line);
@@ -393,6 +393,9 @@
             this._trail.overlays.addLayer(marker);
         },
         _addLable: function (latlng, content, className, ended) {
+            //alert(`${content} / ${current_altitude}`)     // somehow get altitude...
+            getElevationFromMapClick()
+            content = `${content} / ${current_altitude}m`
             var lable = new L.MeasureLable({
                 latlng: latlng,
                 content: content,

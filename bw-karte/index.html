@@ -1,17 +1,18 @@
 <html>
     <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- needed for nice displaying on mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- LEAFLET / https://leafletjs.com -->
-    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
-    <script src="./node_modules/leaflet/dist/leaflet.js"></script>
+        <!-- LEAFLET / https://leafletjs.com -->
+        <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
+        <script src="./node_modules/leaflet/dist/leaflet.js"></script>
 
-    <!-- OWN CSS STYLES -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div id="map"></div>
-</body>
+        <!-- OWN CSS STYLES -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
     <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
     <script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script>
 
@@ -38,13 +39,31 @@
     <link rel="stylesheet" href="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css">
     <script src="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.min.js"></script> -->
 
+    <!-- LEAFLET side-by-side (map comparison via split screen) / https://github.com/digidem/leaflet-side-by-side -->
+    <!-- <script src="./js/imports/leaflet-side-by-side.js"></script> script updated like suggested here: https://github.com/digidem/leaflet-side-by-side/issues/47#issue-1438458238 --> 
+
+    <!-- OWN SCRIPTS -->
     <script src="./js/own/map_layers.js"></script>
-    <!-- <script src="./js/own/map_layers_vector.js"></script> -->
+    <!-- <script src="./js/own/map_layers_vector.js"></script> Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
     <script src="./js/own/map_control_group.js"></script>
 
-    <script src="./js/own/dev_map_gpx.js"></script>
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
+    <script src="./js/own/dev_measure.js"></script>
+
+
+    <!-- Settings control in development for entering preferences such as zoom-steps, layers, default positions etc.
+        Could this potentially be stored in a cookie?  
+    <script src="./js/own/dev_map_settingscontrol.js"></script>
+    <link rel="stylesheet" href="./css/dev_map_settingscontrol.css">
+    -->
+
+    <script src="./js/own/dev_map_gpx.js"></script>
+    
+
+    <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
+
+
     <!-- <script src="./js/own/map_geoman.js"></script> -->
 
     <!-- <script src="./js/own/dev_map_bergwacht.js"></script> -->
@@ -61,20 +80,23 @@
 
 <!--
 BUGS:
+
 IMPROVEMENTS:
+    - remove "Messwerkzeuge"-title and align items in slide-open-menu
+    - add elevation to measuring tool / labels    
     - add min-/max-zooms to all map layers
     - add attribution links to all map layers
     - Country-Filter/Flag for some maps
     - opacity, blur etc. for overlays
     - GPS-location-button
-    - Geo-Tools (Distance, Area, Drawing, ...)
+    - Geo-Tools (Altitude, dstance, Area, Drawing, ...)
     - Routing
+    - side-by-side: make optional and make maps selectable
 EXTEND:
     BASELAYERS:
         - Swisstopo
         - Basemap.at
         - CyclOSM
-        - Kartverket (NO)
         - BayernAtlas (different tms...)
         - Bing
         - IGN
@@ -86,12 +108,12 @@ EXTEND:
         - Schutzgebiete
         - Webcams
         - Wetter / Schnee / Lawinenlage / LLB
+        - ExoLabs?
         - BW-spezifische Orte & Gebiete
         - übergabepunkte
 IDEAS:
     - Links zu Fahrplänen, Touren, Hütten
     - https://jsfiddle.net/vehrmann/uoednqk7/14/
-
     - within HGT-file: check for maximum for an area
 NICE TO HAVE:
     - Geo-Quiz

@@ -75,15 +75,15 @@ let map = L.map(
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
         maxZoom:            general_map_settings.maxZoom,
-        zoominfoControl:    true,                                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
         zoomControl:        false,                                                  // default zoom control by Leaflet with +/- buttons
+        zoominfoControl:    true,                                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
+        //zoomSnap:           0.5,
         //rotate:           true,
         //touchRotate:      true,
         //renderer:           labels_renderer,
         layers:             base_maps[general_map_settings.default_map.name]        // selected by default
     }
 );
-
 
 let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 let map_scale =     L.control.scale({imperial: false}).addTo(map);
@@ -97,12 +97,6 @@ let fullscreen_control = new L.control.fullscreen({
     fullscreenElement:      false   // Dom element to render in full screen, false by default, fallback to map._container
 });
 map.addControl(fullscreen_control);
-
-L.control.measure({
-    position:   'topleft',
-    title:      'Messwerkzeuge'
-}).addTo(map);
-
 
 function create_single_tile_layer(layer_object) {
     let tile_layer;
