@@ -53,7 +53,7 @@ function toggleModelControls(control_type) {
 ///////////////////////////////
 //// SETTING UP THE SCENE /////
 ///////////////////////////////
-
+const loader =                              document.getElementById('loader');
 const modelviewer =                         document.querySelector('model-viewer');
 
 // registering animations
@@ -67,6 +67,10 @@ const klappe_rotation_max =         -105;                   // in degree
 //let klappe_offen =                  getKlappeRotation('deg') == klappe_rotation_max;
 
 modelviewer.addEventListener('load', function() {
+    // Hide the loader and show the model viewer
+    loader.style.display =      'none';
+    modelviewer.style.display = 'block';
+    
     // registering scene and meshes, can only be done after modelviewer loaded
     // makes it possible to manipulate the mesh of the glb-model (translation, rotation and animation-mixer)
     const scene_graph = modelviewer[Object.getOwnPropertySymbols(modelviewer).find(e => e.description === 'scene')];
@@ -106,8 +110,6 @@ modelviewer.addEventListener('load', function() {
 
     // Initial scene setup
     toggleAnimation();                                                                                            // start and stop animation so it is toggled and can be altered
-
-
     // do this after initializing everything
     // https://threejs.org/docs/#manual/en/introduction/Animation-system
 
@@ -147,6 +149,7 @@ modelviewer.addEventListener('load', function() {
     });
 
 });
+
 
 /*
 BUGS
