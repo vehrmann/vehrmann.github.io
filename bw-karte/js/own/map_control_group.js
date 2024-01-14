@@ -15,8 +15,9 @@ function group_map_control() {
     let group_headers_overlays = {
         'OpenSnowMap':              'Wintersport',
         'Low Resolution 10m/20m':   'Hangneigung',
+        'Schneehöhe':               'Schneehöhe',
+        'Rotwandgebiet':            'Schutzgebiete',
         'OpenSeaMap':               'Seekarte',
-        'Rotwandgebiet':            'Schutzgebiete'
     };
 
     let labels_baselayers = document.querySelectorAll('.leaflet-control-layers-base label');
@@ -87,6 +88,9 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             break;
         case 'Seekarte':
             overlay_maps[overlay_openseamap.name].setOpacity(opacity_value);
+            break;
+        case 'Schneehöhe':
+            document.querySelector('canvas').style.opacity = opacity_value;
             break;
         case 'Schutzgebiete':
             //gpx.setOpacity(opacity_value)     // find the proper name of the gpx layer

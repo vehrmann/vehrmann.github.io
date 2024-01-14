@@ -68,10 +68,14 @@ let overlay_maps_list = [                               // list with all map ser
 let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
 let overlay_maps =  create_tile_layers(overlay_maps_list);
 
-
 let map = L.map(
     'map',
-    {   center:             general_map_settings.center,
+    {   
+        //crs:                crs,
+        //continuousWorld:    true,
+        //worldCopyJump:      false,
+        //
+        center:             general_map_settings.center,
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
         maxZoom:            general_map_settings.maxZoom,
