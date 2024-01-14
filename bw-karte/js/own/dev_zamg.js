@@ -77,7 +77,7 @@ let snowheight = L.imageOverlay.arrugator(
     }
 ).addTo(map);
 
-//layer_control.addOverlay(snowheight, 'Schneehöhe');
+layer_control.addOverlay(snowheight, 'Schneehöhe');
 
 function showImage() {
     document.getElementById('hover-image').style.display = 'block';
