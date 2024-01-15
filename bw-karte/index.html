@@ -87,12 +87,10 @@
 
 <!--
 BUGS:
-    - hiding + showing Schneehöhen makes trouble, maybe solve via chaning opacity only and not actually removing layer (same for other layers?)
     - Grouping menu becomes crowded, maybe think about another layouting option
-    - consider useful z-indices for each overlay
-    - hide Schneehöhen-attributes when layer is hidden
     - implement latest-date/latest-available-file function for imageoverlay of weather
 IMPROVEMENTS:
+    - set default opacity for every overlay+respective slider individually
     - include other weather maps from lawine.report + respective legends + potentially slider for date range
     - insert legend for Schneehöhen (upon hover of attribution)
     - order layers, esp. Schneehöhe after it is added
@@ -107,6 +105,7 @@ IMPROVEMENTS:
     - Geo-Tools (Altitude, dstance, Area, Drawing, ...)
     - Routing
     - side-by-side: make optional and make maps selectable
+    - consider useful z-indices for each overlay
 EXTEND:
     BASELAYERS:
         - Swisstopo
@@ -126,6 +125,9 @@ EXTEND:
         - ExoLabs?
         - BW-spezifische Orte & Gebiete
         - übergabepunkte
+        - Wind direction for weather overlay (kind of normal map available)
+    LLB
+        - https://avalanche.report/albina_files
 IDEAS:
     - Links zu Fahrplänen, Touren, Hütten
     - https://jsfiddle.net/vehrmann/uoednqk7/14/
