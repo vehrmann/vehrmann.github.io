@@ -13,9 +13,11 @@ function group_map_control() {
     };
 
     let group_headers_overlays = {
+        // text of overlay-label:   header-label which is placed above that overlay-label
         'OpenSnowMap':              'Wintersport',
         'Low Resolution 10m/20m':   'Hangneigung',
-        'Schneehöhen':              'Schneehöhen',
+        //'Temperatur':               'Wetter',
+        'Wind':                     'Wetter',
         'Rotwandgebiet':            'Schutzgebiete',
         'OpenSeaMap':               'Seekarte',
     };
@@ -57,7 +59,7 @@ function group_map_control() {
                     let header_input = Object.assign(document.createElement('input'), header_input_attributes);
                     header_input.setAttribute('id', group_headers[label_text]);
                     header_input.setAttribute('onchange', 'updateOverlayOpacity(this.id, this.value)');
-                    header_input.value = 0.5
+                    header_input.value = 0.7
                     header_div.appendChild(header_input);
                 }
                 label.parentNode.insertBefore(header_div, label);
@@ -90,12 +92,24 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
         case 'Seekarte':
             overlay_maps[overlay_openseamap.name].setOpacity(opacity_value);
             break;
-        case 'Schneehöhen':
-            overlay_maps[overlay_snowheight.name].setOpacity(opacity_value);
-            //document.getElementsByClassName('overlay_snowheight')[0].style.opacity = opacity_value;
+        case 'Wetter':
+            //overlay_maps[overlay_weather_temperature.name].setOpacity(opacity_value);
+            overlay_maps[overlay_weather_wind.name].setOpacity(opacity_value);
+            overlay_maps[overlay_weather_snowheight.name].setOpacity(opacity_value);
+            //overlay_maps[overlay_weather_snownew.name].setOpacity(opacity_value);
+            //overlay_maps[overlay_weather_snowline.name].setOpacity(opacity_value);
+            //overlay_maps[overlay_weather_snowdiff.name].setOpacity(opacity_value);
             break;
         case 'Schutzgebiete':
             //gpx.setOpacity(opacity_value)     // find the proper name of the gpx layer
             break;
     }    
+}
+
+/* functions to show and hide overlay_weather_legends */
+function showImage(prev_sibling_id) {
+    document.getElementById(prev_sibling_id).nextElementSibling.style.display = 'block';
+}
+function hideImage(prev_sibling_id) {
+    document.getElementById(prev_sibling_id).nextElementSibling.style.display = 'none';
 }

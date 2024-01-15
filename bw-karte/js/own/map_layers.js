@@ -1,5 +1,76 @@
+function fetchHeader(url, header_item) {
+    try {
+        let req=new XMLHttpRequest();
+        req.open("HEAD", url, false);
+        req.send(null);
+        if(req.status== 200){
+            return req.getResponseHeader(header_item);
+        }
+        else return false;
+    } catch(er) {
+        return er.message;
+    }
+}
 
-const current_year = new Date().getFullYear();      // needed for some source attributions
+function getFormattedDatetimeString(datetime, hour_offset, format_type) {
+    const year =    datetime.getFullYear();
+    const month =   ('0' + (datetime.getMonth() + 1)).slice(-2);      // add 1 to month because months are zero-indexed
+    const day =     ('0' + datetime.getDate()).slice(-2);
+    const hours =   ('0' + (datetime.getHours() + hour_offset) ).slice(-2)
+    let formatted_datetime_string;
+    switch(format_type) {
+        case 'url':
+            formatted_datetime_string = `${year}-${month}-${day}_${hours}-00` 
+            break;
+        case 'legend':
+            formatted_datetime_string = `${day}.${month}.${year} ${hours}:00 Uhr`
+            break;
+    }
+    return formatted_datetime_string
+}
+
+function getActualWeather(type) {
+    let time =              new Date();
+    let utc_hour_offset =   time.getTimezoneOffset() / 60;
+    let formatted_datetime_string_utc, img_url, img_content_length;
+
+    const wording = overlay_weather_wording[type];
+
+    do {
+        formatted_datetime_string_utc = getFormattedDatetimeString(time, utc_hour_offset, 'url');
+        img_url = `https://static.avalanche.report/zamg_meteo/overlays/${wording.url_part}/${formatted_datetime_string_utc}_${wording.url_part}_V2.gif`;
+        img_content_length = fetchHeader(img_url, 'Content-Length');
+        time.setTime(time.getTime() - 60 * 60 * 1000);
+    } while (!img_content_length || img_content_length < 10000);
+
+    const formatted_datetime_string_local = getFormattedDatetimeString(time, 0, 'legend');
+    const attribution_text = `${wording.layer_control_label} am ${formatted_datetime_string_local} ` +
+        `(Quelle: <a href="https://lawinen.report/weather/map/${wording.url_part}" target="_blank">lawinen.report</a>` +
+        ` / <span id="weather_legend_${wording.class_name}" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
+        `<img style="position: absolute; right: 5; bottom: 22px; display: none;" src="./icons/weather_legend_${wording.class_name}.jpg">`;
+
+    return [img_url, attribution_text];
+}
+
+const overlay_weather_bbox =            [[45.6167, 9.4], [47.8167, 13.0333]]    // from weathermaps.settings.bbox @ https://gitlab.com/albina-euregio/albina-website/-/blob/master/app/config.json?ref_type=heads
+const overlay_weather_defaultopacity =  0.7
+
+const overlay_weather_wording =         {
+    //'identifier': ['Control Label', 'className', 'url-part']
+    'wind':         {   'layer_control_label':  'Wind',
+                        'class_name':           'wind',
+                        'url_part':             'wind'
+                    },
+    'snowheight':   {   'layer_control_label':  'Schneehöhen',
+                        'class_name':           'snowheight',
+                        'url_part':             'snow-height'
+                    }
+}
+
+// newsnow forecast intervalls: 6, 12, 24, 48, 72
+
+let [url_wind, attribution_wind] =              getActualWeather('wind');
+let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight');
 
 // BASELAYERS
 
@@ -184,7 +255,8 @@ const baselayer_street_bkg = {
     'minZoom':          3,      // checked
     'maxNativeZoom':    18,     // checked
     'name':             'BKG',
-    'attribution':      `&copy; <a href="https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/Datenquellen_TopPlusOpen.html" target="_blank">Bundesamt für Kartographie und Geodäsie (${current_year})</a>`
+    'attribution':      `&copy; <a href="https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/Datenquellen_TopPlusOpen.html" `+
+                        `target="_blank">Bundesamt für Kartographie und Geodäsie (${new Date().getFullYear()})</a>`
 };
 
 const baselayer_street_google = {
@@ -222,7 +294,7 @@ const baselayer_street_basemapat = {
 
 
 
-// OVERLAYS
+// OVERLAYS SLOPES
 const overlay_openslopemap_low = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_LR_All_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
@@ -260,17 +332,98 @@ const overlay_openslopemap_ultrahigh = {
     'name':             'UltraHigh Resolution 2,5m interpol.'
 };
 
-const overlay_snowheight = {
-    'url':              'https://static.avalanche.report/zamg_meteo/overlays/snow-height/2024-01-14_20-00_snow-height_V2.gif',
+// OVERLAYS WEATHER
+/*
+const overlay_weather_temperature = {
+    'url':              `https://static.avalanche.report/zamg_meteo/overlays/temp/${formatted_datetime_string_utc}_temp_V2.gif`,
     'imageoverlay':     true,
-    'bbox':             [[45.6167, 9.4], [47.8167, 13.0333]],        // from weathermaps.settings.bbox @ https://gitlab.com/albina-euregio/albina-website/-/blob/master/app/config.json?ref_type=heads
-    'opacity':          0.5,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
     'interactive':      false,
-    'className':        'overlay_snowheight',
-    'name':             'Schneehöhen',
-    'attribution':      'xxx'
+    'className':        'overlay_weather_temperature',
+    'name':             'Temperatur',
+    'attribution':      //`Temperatur vom ${formatted_dates[1]} ` +
+                        `Temperatur vom 14.01.2024 ` +
+                        '(Quelle: <a href="https://lawinen.report/weather/map/temp" target="_blank">lawinen.report</a>' +
+                        ` / <span id="weather_legend_temperature" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
+                        '<img style="position: absolute; right: 5; bottom: 22px; display: none;"' + 
+                        'src="./icons/weather_legend_temperature.jpg">'
+};
+*/
+
+const overlay_weather_wind = {
+    'url':              url_wind,
+    'imageoverlay':     true,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
+    'interactive':      false,
+    'className':        'overlay_weather_wind',
+    'name':             'Wind',
+    'attribution':      attribution_wind
 };
 
+const overlay_weather_snowheight = {
+    'url':              url_snowheight,
+    'imageoverlay':     true,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
+    'interactive':      false,
+    'className':        'overlay_weather_snowheight',
+    'name':             'Schneehöhen',
+    'attribution':      attribution_snowheight
+};
+
+/*
+const overlay_weather_snownew = {
+    'url':              'https://static.avalanche.report/zamg_meteo/overlays/new-snow/2023-12-31_18-00_new-snow_6h_V2.gif',
+    'imageoverlay':     true,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
+    'interactive':      false,
+    'className':        'overlay_weather_snownew',
+    'name':             'Neuschnee',
+    'attribution':      //`Neuschnee vom ${formatted_dates[1]} ` +
+                        `Neuschnee vom 14.01.2024 ` +
+                        '(Quelle: <a href="https://lawinen.report/weather/map/new-snow" target="_blank">lawinen.report</a>' +
+                        ` / <span id="weather_legend_snownew" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
+                        '<img style="position: absolute; right: 5; bottom: 22px; display: none;"' + 
+                        'src="./icons/weather_legend_snownew.jpg">'
+};
+
+const overlay_weather_snowline = {
+    'url':              'https://static.avalanche.report/zamg_meteo/overlays/snow-line/2024-01-19_00-00_snow-line_V2.gif',
+    'imageoverlay':     true,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
+    'interactive':      false,
+    'className':        'overlay_weather_snowline',
+    'name':             'Schneefallgrenze',
+    'attribution':      //`Schneefallgrenze vom ${formatted_dates[1]} ` +
+                        `Schneefallgrenze vom 14.01.2024 ` +
+                        '(Quelle: <a href="https://lawinen.report/weather/map/snow-line" target="_blank">lawinen.report</a>' +
+                        ` / <span id="weather_legend_snowline" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
+                        '<img style="position: absolute; right: 5; bottom: 22px; display: none;"' + 
+                        'src="./icons/weather_legend_snowline.jpg">'
+};
+
+const overlay_weather_snowdiff = {
+    'url':              'https://static.avalanche.report/zamg_meteo/overlays/diff-snow/2024-01-15_06-00_diff-snow_6h_V2.gif',
+    'imageoverlay':     true,
+    'bbox':             overlay_weather_bbox,
+    'opacity':          overlay_weather_defaultopacity,
+    'interactive':      false,
+    'className':        'overlay_weather_snowdiff',
+    'name':             'Schneedifferenz',
+    'attribution':      //`Schneedifferenz vom ${formatted_dates[1]} ` +
+                        `Schneedifferenz vom 14.01.2024 ` +
+                        '(Quelle: <a href="https://lawinen.report/weather/map/diff-snow" target="_blank">lawinen.report</a>' +
+                        ` / <span id="weather_legend_snowdiff" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
+                        '<img style="position: absolute; right: 5; bottom: 22px; display: none;"' + 
+                        'src="./icons/weather_legend_snowdiff.jpg">'
+};
+*/
+
+// OVERLAYS OTHER
 const overlay_opensnowmap = {
     'url':              'https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png',
     'minZoom':          9,      // checked
@@ -345,4 +498,27 @@ const heatmap_strava_activities = {
 };
 const heatmap_strava_url_base =   'https://strava-heatmap.tiles.freemap.sk/';
 const heatmap_strava_url_end =    '/{z}/{x}/{y}.png'
+*/
+
+/*
+lawine.report
+    Filename-Times seem to be in UTC (Lokalzeit ist UTC+1 im Winter sowie UTC+2 im Sommer)
+    - temp:
+        - stündlich
+            um 15:50
+            https://static.avalanche.report/zamg_meteo/overlays/temp/2024-01-15_14-00_temp_V2.gif   hat Messwerte, wird als 15 Uhr in Stundenauswahl/Legende angezeigt, erstellt um 15:41 (Lokalzeit?)
+            https://static.avalanche.report/zamg_meteo/overlays/temp/2024-01-15_15-00_temp_V2.gif   hat keine Messwerte, wird als 16 Uhr in Stundenauswahl/Legende angezeigt, erstellt um 8:27 (Lokalzeit?) 
+        - Vorhersage: 3 Tage
+    - wind
+        - wie temp
+        - zusätzlich PNG mit wind direction (normal map o.ä.)
+    - snow height
+        - stündlich
+        - bis aktuelle Zeit - 2h
+        - Bsp: 2024-01-15_12-00_snow-height_V2.gif (Dateiname in UTC!) wurde am 15.1.2024 13:38:20 erstellt (Lokalzeit!))
+    - snow new
+    - snow line
+    - snow diff
+
+
 */

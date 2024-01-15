@@ -62,8 +62,13 @@ let overlay_maps_list = [                               // list with all map ser
     overlay_openslopemap_high,
     overlay_openslopemap_ultrahigh,
 
-    // Schneehöhen
-    overlay_snowheight,
+    // Wetter
+    //overlay_weather_temperature,
+    overlay_weather_wind,
+    overlay_weather_snowheight,
+    //overlay_weather_snownew,
+    //overlay_weather_snowline,
+    //overlay_weather_snowdiff,
 
     // Seekarte
     overlay_openseamap
