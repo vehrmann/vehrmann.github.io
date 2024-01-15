@@ -62,6 +62,9 @@ let overlay_maps_list = [                               // list with all map ser
     overlay_openslopemap_high,
     overlay_openslopemap_ultrahigh,
 
+    // Schneehöhen
+    overlay_snowheight,
+
     // Seekarte
     overlay_openseamap
 ];
@@ -71,21 +74,18 @@ let overlay_maps =  create_tile_layers(overlay_maps_list);
 let map = L.map(
     'map',
     {   
-        //crs:                crs,
-        //continuousWorld:    true,
-        //worldCopyJump:      false,
-        //
         center:             general_map_settings.center,
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
         maxZoom:            general_map_settings.maxZoom,
         zoomControl:        false,                                                  // default zoom control by Leaflet with +/- buttons
         zoominfoControl:    true,                                                   // zoom control by plugin with +/- buttons and box for showing current zoom level
+
         //zoomSnap:           0.5,
         //rotate:           true,
         //touchRotate:      true,
         //renderer:           labels_renderer,
-        layers:             base_maps[general_map_settings.default_map.name]        // selected by default
+        layers:             base_maps[general_map_settings.default_map.name]       // selected by default
     }
 );
 
@@ -128,9 +128,17 @@ function create_single_tile_layer(layer_object) {
                 minZoom:        layer_object.minZoom,
                 maxNativeZoom:  layer_object.maxNativeZoom,
                 maxZoom:        layer_object.maxZoom,
+                opacity:        layer_object.opacity,
                 attribution:    layer_object.attribution
             }
         );
+    } else if (layer_object.imageoverlay) {
+        let overlay_options =   {   opacity:        layer_object.opacity,
+                                    interactive:    layer_object.interactive,
+                                    className:      layer_object.className,
+                                    attribution:    layer_object.attribution
+                                }
+        tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, overlay_options)
     } else {
         tile_layer = L.tileLayer(
             layer_object.url, {
@@ -138,6 +146,7 @@ function create_single_tile_layer(layer_object) {
                 minZoom:        layer_object.minZoom,
                 maxNativeZoom:  layer_object.maxNativeZoom,
                 maxZoom:        layer_object.maxZoom,
+                opacity:        layer_object.opacity,
                 attribution:    layer_object.attribution
             }
         );

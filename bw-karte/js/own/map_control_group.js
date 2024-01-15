@@ -15,7 +15,7 @@ function group_map_control() {
     let group_headers_overlays = {
         'OpenSnowMap':              'Wintersport',
         'Low Resolution 10m/20m':   'Hangneigung',
-        'Schneehöhe':               'Schneehöhe',
+        'Schneehöhen':              'Schneehöhen',
         'Rotwandgebiet':            'Schutzgebiete',
         'OpenSeaMap':               'Seekarte',
     };
@@ -57,6 +57,7 @@ function group_map_control() {
                     let header_input = Object.assign(document.createElement('input'), header_input_attributes);
                     header_input.setAttribute('id', group_headers[label_text]);
                     header_input.setAttribute('onchange', 'updateOverlayOpacity(this.id, this.value)');
+                    header_input.value = 0.5
                     header_div.appendChild(header_input);
                 }
                 label.parentNode.insertBefore(header_div, label);
@@ -89,8 +90,9 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
         case 'Seekarte':
             overlay_maps[overlay_openseamap.name].setOpacity(opacity_value);
             break;
-        case 'Schneehöhe':
-            document.querySelector('canvas').style.opacity = opacity_value;
+        case 'Schneehöhen':
+            overlay_maps[overlay_snowheight.name].setOpacity(opacity_value);
+            //document.getElementsByClassName('overlay_snowheight')[0].style.opacity = opacity_value;
             break;
         case 'Schutzgebiete':
             //gpx.setOpacity(opacity_value)     // find the proper name of the gpx layer

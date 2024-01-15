@@ -1,3 +1,15 @@
+/*worked for importing weather imageoverlay from ZAMG which is in another projection*/
+
+/*
+HTML imports
+<!-- Proj4 (adds support for using projections) / https://github.com/proj4js/proj4js -->
+<!-- <script src="https://unpkg.com/proj4/dist/proj4-src.js"></script> -->
+<!-- LEAFLET Proj4Leaflet (adds support for using projections supported by Proj4js) / https://github.com/kartena/Proj4Leaflet -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/proj4leaflet@1.0.2/src/proj4leaflet.min.js"></script> -->
+<!-- LEAFLET ImageOverlay.Arrugator (Displays reprojected raster images, needs Proj4) / https://gitlab.com/IvanSanchez/Leaflet.ImageOverlay.Arrugator -->
+<!-- <script src="https://unpkg.com/leaflet.imageoverlay.arrugator@1.0.0/dist/leaflet.imageoverlay.arrugator.js"></script> -->
+*/
+
 proj4.defs(
     'EPSG:31287',
     '+proj=lcc +lat_0=47.5 +lon_0=13.3333333333333 +lat_1=49 +lat_2=46 +x_0=400000 +y_0=400000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs +type=crs'
@@ -85,3 +97,49 @@ function showImage() {
 function hideImage() {
     document.getElementById('hover-image').style.display = 'none';
 }
+
+
+
+
+
+setTimeout(function() {
+            // used for setting up, mostly for dev reasons, move to own files later
+            setupSchneehoehenSlider()
+        }, 50);
+        //checkbox_schneehoehe.checked = false
+
+        // change slider for Schneehöhen-Layer, as the layer is warped when hidden and shown again due to projection
+        function setupSchneehoehenSlider() {
+            let opacity_value = document.querySelector('canvas').style.opacity
+            let checkbox_schneehoehe = null;
+            let spans = document.querySelectorAll('span');
+            
+            // iterate through all spans to find the Schneehöhe-span
+            spans.forEach(function(span) {
+                if (span.textContent === " Schneehöhe") {
+                    checkbox_schneehoehe = span.parentNode.querySelector('input');
+                }
+            });
+
+
+            // clone checkbox_schneehoehe so that checkbox_schneehoehe can be deleted (along with its eventlisteners) and new one can be set to the clone
+            if (checkbox_schneehoehe) {
+                let checkbox_schneehoehe_clone = checkbox_schneehoehe.cloneNode(true);
+                checkbox_schneehoehe.parentNode.replaceChild(checkbox_schneehoehe_clone, checkbox_schneehoehe);
+
+                checkbox_schneehoehe_clone.addEventListener('change', function() {
+                    if (this.checked) {
+                        document.querySelector('canvas').style.opacity = opacity_value;
+                    } else {
+                        opacity_value = document.querySelector('canvas').style.opacity
+                        document.querySelector('canvas').style.opacity = 0;
+                    }
+                });
+            }
+            
+
+            // setup initial opacity-value and slider-value (somehow not possible with arrugator)
+            let initial_schneehoehen_opacity = 0.5
+            document.querySelector('canvas').style.opacity = initial_schneehoehen_opacity
+            document.getElementById('Schneehöhe').value = initial_schneehoehen_opacity
+        }

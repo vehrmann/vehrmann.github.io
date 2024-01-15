@@ -14,7 +14,7 @@
         <div id="map"></div>
     </body>
     <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
-    <script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script>
+    <!-- <script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script> -->
 
     <!-- LEAFLET ZOOMINFO (shows current zoom level) / https://github.com/flaviocarmo/Leaflet.zoominfo -->
     <link rel="stylesheet" href="./js/imports/L.Control.Zoominfo.css">
@@ -40,11 +40,6 @@
     ### CONSIDER NODE/IMPORT ###-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
 
-    <!-- Proj4 (adds support for using projections) /  -->
-    <script src="https://unpkg.com/proj4/dist/proj4-src.js"></script>   <!-- for direct Leaflet integration see https://github.com/kartena/Proj4Leaflet -->
-    <!-- LEAFLET ImageOverlay.Arrugator (Displays reprojected raster images, needs Proj4) / https://gitlab.com/IvanSanchez/Leaflet.ImageOverlay.Arrugator -->
-    <script src="https://unpkg.com/leaflet.imageoverlay.arrugator@1.0.0/dist/leaflet.imageoverlay.arrugator.js"></script>
-
     <!-- LEAFLET GEOMAN (map tools) / https://github.com/geoman-io/leaflet-geoman 
     <link rel="stylesheet" href="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css">
     <script src="./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.min.js"></script> -->
@@ -52,71 +47,26 @@
     <!-- LEAFLET side-by-side (map comparison via split screen) / https://github.com/digidem/leaflet-side-by-side -->
     <!-- <script src="./js/imports/leaflet-side-by-side.js"></script> script updated like suggested here: https://github.com/digidem/leaflet-side-by-side/issues/47#issue-1438458238 --> 
 
+
+
     <!-- OWN SCRIPTS -->   
     <script src="./js/own/map_layers.js"></script>
     <!-- <script src="./js/own/dev_map_vector.js"></script> Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
 
-    <script src="./js/own/dev_zamg.js"></script>
     <script src="./js/own/dev_map_gpx.js"></script>
 
     <script src="./js/own/map_control_group.js"></script>
 
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
     <script src="./js/own/dev_measure.js"></script>
-    
-    <script>
-        setTimeout(function() {
-            // used for setting up, mostly for dev reasons, move to own files later
-            setupSchneehoehenSlider()
-        }, 50);
 
-        // change slider for Schneehöhen-Layer, as the layer is warped when hidden and shown again due to projection
-        function setupSchneehoehenSlider() {
-            let opacity_value = document.querySelector('canvas').style.opacity
-            let checkbox_schneehoehe = null;
-            let spans = document.querySelectorAll('span');
-            
-            // iterate through all spans to find the Schneehöhe-span
-            spans.forEach(function(span) {
-                if (span.textContent === " Schneehöhe") {
-                    checkbox_schneehoehe = span.parentNode.querySelector('input');
-                }
-            });
-
-
-            // clone checkbox_schneehoehe so that checkbox_schneehoehe can be deleted (along with its eventlisteners) and new one can be set to the clone
-            if (checkbox_schneehoehe) {
-                let checkbox_schneehoehe_clone = checkbox_schneehoehe.cloneNode(true);
-                checkbox_schneehoehe.parentNode.replaceChild(checkbox_schneehoehe_clone, checkbox_schneehoehe);
-
-                checkbox_schneehoehe_clone.addEventListener('change', function() {
-                    if (this.checked) {
-                        document.querySelector('canvas').style.opacity = opacity_value;
-                    } else {
-                        opacity_value = document.querySelector('canvas').style.opacity
-                        document.querySelector('canvas').style.opacity = 0;
-                    }
-                });
-            }
-            
-
-            // setup initial opacity-value and slider-value (somehow not possible with arrugator)
-            let initial_schneehoehen_opacity = 0.5
-            document.querySelector('canvas').style.opacity = initial_schneehoehen_opacity
-            document.getElementById('Schneehöhe').value = initial_schneehoehen_opacity
-        }
-
-    </script>
 
     <!-- Settings control in development for entering preferences such as zoom-steps, layers, default positions etc.
         Could this potentially be stored in a cookie?  
     <script src="./js/own/dev_map_settingscontrol.js"></script>
     <link rel="stylesheet" href="./css/dev_map_settingscontrol.css">
     -->
-
-
-    
 
     <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
 
@@ -140,7 +90,11 @@ BUGS:
     - hiding + showing Schneehöhen makes trouble, maybe solve via chaning opacity only and not actually removing layer (same for other layers?)
     - Grouping menu becomes crowded, maybe think about another layouting option
     - consider useful z-indices for each overlay
+    - hide Schneehöhen-attributes when layer is hidden
+    - implement latest-date/latest-available-file function for imageoverlay of weather
 IMPROVEMENTS:
+    - include other weather maps from lawine.report + respective legends + potentially slider for date range
+    - insert legend for Schneehöhen (upon hover of attribution)
     - order layers, esp. Schneehöhe after it is added
     - cluster all added controls and stuff into one .js
     - remove "Messwerkzeuge"-title and align items in slide-open-menu
