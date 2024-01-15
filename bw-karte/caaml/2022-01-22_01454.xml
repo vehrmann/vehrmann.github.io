@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1454RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1454RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee ist das Hauptproblem</avActivityHighlights>
+          <avActivityComment>Mit Neuschnee und stürmischem Wind entstehen oberhalb der Waldgrenze weiterhin leicht auslösbare Triebschneeablagerungen. Hier wird die Lawinengefahr mit ERHEBLICH beurteilt. Bei schlechter Sicht sind diese auch kaum zu erkennen. Gefahrenstellen sind in allen Expositionen in Mulden, Rinnen und hinter Geländekanten zu finden. Mit Anwachsen der Triebschneeablagerungen sind auch spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Entlang der nördlichen Landesgrenze sind rund 10 bis 20 cm Neuschnee gefallen. Der stürmische Nordwestwind verfrachtet den Neuschnee und bildet größere Triebschneeablagerungen. Die Altschneedecke ist überwiegend kompakt, in ihr sind in schattseitigen Expositionen aber auch kantige Schichten um Harschkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Über den Ostalpen dominiert weiterhin eine kalte und stürmische Nordströmung. Am Sonntag stauen sich weiterhin dichte Wolken in den nördlichen Gebirgsgruppen. Es kann auch noch ein wenig schneien. Im Süden wird es im Tagesverlauf zunehmend sonnig. Bei starkem Nordwest bis Nordwind, der nur noch in exponierten Lagen stürmisch ist, liegen die Temperaturen in 1000 m um +2 Grad, in 2000 m um -6 Grad und in 3000 m um -10 Grad. Am Montag dominiert in den Bergen meist sonniges Wetter, in den östlichen Gebirgsgruppen halten sich die Wolken noch länger.</wxSynopsisComment>
+          <tendencyComment>Langsamer Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1454RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1454RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit MÄSSIG beurteil. Frische Triebschneepakete gibt es in eingewehte Rinnen, Mulden und hinter Geländekanten. Eine Auslösung einer mittleren Lawinen kann hier auch durch eine geringe Zusatzbelastung möglich sein.</avActivityComment>
+          <snowpackStructureComment>Starker bis stürmischer Wind hat in den letzten Tagen für abgewehte Geländeteile gesorgt. Etwas Neuschnee und weiterhin starker bis stürmischer Wind sorgen für kleinere Triebschneeablagerungen. Der Triebschnee liegt dabei auf einer Harschkruste und auf schwächeren Schichten. Die Altschneedecke ist verbreitet recht kompakt. In schattseitigen Expositionen sind in der Altschneedecke vereinzelt Schichten mit kantigen Kristallen rund um eingelagerte Harschschichten vorhanden, welche als Schwachschichten zu bewerten sind.</snowpackStructureComment>
+          <wxSynopsisComment>Über den Ostalpen dominiert weiterhin eine kalte und stürmische Nordströmung. Am Sonntag stauen sich weiterhin dichte Wolken in den nördlichen Gebirgsgruppen. Es kann auch noch ein wenig schneien. Im Süden wird es im Tagesverlauf zunehmend sonnig. Bei starkem Nordwest bis Nordwind, der nur noch in exponierten Lagen stürmisch ist, liegen die Temperaturen in 1000 m um +2 Grad, in 2000 m um -6 Grad und in 3000 m um -10 Grad. Am Montag dominiert in den Bergen meist sonniges Wetter, in den östlichen Gebirgsgruppen halten sich die Wolken noch länger.</wxSynopsisComment>
+          <tendencyComment>Langsame Abnahme der Lawingefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1454RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1454RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Vereinzelte Gefahrenstellen, wo eine kleine Lawine durch eine große Zusatzbelastung ausgelöst werden kann, sind vorwiegend in schattseitigen Expositionen vorhanden. Die frischen geringmächtigen Triebschneelinsen im Sektor NO bis SW sind etwas leichter zu stören.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneemengen von Samstag waren sehr gering. Die Altschneedecke ist überwiegen sehr kompakt und stabil.  Mit stürmischem Wind bilden sich in den Expositionen NO bis SW frische kleinere Triebschneeablagerungen.</snowpackStructureComment>
+          <wxSynopsisComment>Über den Ostalpen dominiert weiterhin eine kalte und stürmische Nordströmung. Am Sonntag stauen sich weiterhin dichte Wolken in den nördlichen Gebirgsgruppen. Es kann auch noch ein wenig schneien. Im Süden wird es im Tagesverlauf zunehmend sonnig. Bei starkem Nordwest bis Nordwind, der nur noch in exponierten Lagen stürmisch ist, liegen die Temperaturen in 1000 m um +2 Grad, in 2000 m um -6 Grad und in 3000 m um -10 Grad. Am Montag dominiert in den Bergen meist sonniges Wetter, in den östlichen Gebirgsgruppen halten sich die Wolken noch länger.</wxSynopsisComment>
+          <tendencyComment>Kaum Änderung der Schnee- und Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

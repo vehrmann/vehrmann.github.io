@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1833RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1833RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im erweiterten Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Schwachschichten im Altschnee.</avActivityHighlights>
+          <avActivityComment>In den niederösterreichischen Alpen wird die Lawinengefahr weiterhin als gering bewertet. Nur vereinzelt können sich in schattseitigem Gelände bei großer Zusatzbelastung in extrem steilen Hängen noch kleine Schneebretter lösen. Die frisch gebildeten Triebschneelinsen können ausgelöst werden, allerdings wird höchstens Lawinengröße 1 erwartet.</avActivityComment>
+          <snowpackStructureComment>Der gefallene Neuschnee ist nicht lawinenrelevant. Westseitig haben sich in hinter Graten dünne Triebschneelinsen auf einer Oberflächenreifschicht abgelagert. Sonst ist die Schneedecke großteils gut verfestigt. Schattseitig befindet sich an der Schneeoberfläche älterer Triebschnee, der auf einer Abfolge von Schmelzkrusten und kantigen Kristallen liegt. Vereinzelt sind noch störanfällige Graupeleinlagerungen im ehemaligen Triebschnee zu finden, welche als mögliche Schwachschicht in Frage kommen. Die kantigen Schichten sind kaum noch störanfällig. Darunter befindet sich eine kompakte Altschneedecke, welche zum Boden hin bereits teilweise angefeuchtet ist. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit.&#13;
+In den Hochlagen ist es hart bzw. eisig. Vorsicht – Absturzgefahr!</snowpackStructureComment>
+          <wxSynopsisComment>Montag: Tiefe Wolkenschichten stauen sich an den Nordflanken der Gebirge, stellenweise schneit es leicht. Etwas Sonne ist nur am Alpenostrand dabei, aber auch hier machen sich Quellwolken bemerkbar. Der Höhenwind legt zu und bläst mäßig, im Osten auch lebhaft und bitterkalt aus Nord. Temperaturen auf 1500m Seehöhe maximal um minus 9 Grad.&#13;
+Dienstag: Restwolken halten sich am Vormittag oft noch hartnäckig im Bergland und stellenweise schneit es leicht. Im Tagesverlauf werden die sonnigen Abschnitte dann aber immer häufiger und länger. Der Höhenwind bläst vor allem am Alpenostrand noch lebhaft und bitterkalt aus Nord. </wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

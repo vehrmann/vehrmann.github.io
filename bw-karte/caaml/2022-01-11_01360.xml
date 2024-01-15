@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1360RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1360RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee oberhalb der Waldgrenze noch störanfällig und häufig von Neuschnee bedeckt.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, darunter gering. Der Triebschnee der letzten Tage ist das Hauptproblem. Schneebrettlawinen kleiner, in höheren Lagen mittlerer Größe, können teilweise noch mit geringer Zusatzbelastung, zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Gefahrenstellen finden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, in triebschneeverfüllten Rinnen und Mulden und hinter Geländekanten. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Mit der Sonneneinstrahlung ist die Selbstauslösung kleinerer Lockerschneelawinen im felsdurchsetzten Steilgelände und kleiner Gleitschneelawinen auf glatten Wiesenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Einige Zentimeter lockerer Neuschnee überdecken eine windgeprägte, teils eisige Altschneedecke und stellenweise umfangreiche Triebschneeansammlungen. Innerhalb der Triebschneeansammlungen finden sich störanfällige Schichtgrenzen aus kantigen Schneekristallen, die in Niederschlagspausen entstehen konnten. Besonders südseitig verbinden sich die Schichten aber zunehmend. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt. In tieferen Lagen und sonnseitig liegt geringmächtiger, pulvriger Schnee direkt auf dem Boden.</snowpackStructureComment>
+          <tendencyComment>Mit Sonneneinstrahlung und ruhigem Wetter wird die Lawinengefahr in den nächsten Tagen weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1360RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1360RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Umfangreiche Triebschneeansammlungen besonders in den Hochlagen störanfällig.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2000 m erheblich, darunter mäßig. Der Triebschnee der letzten Tage ist das Hauptproblem. Schneebrettlawinen mittlerer Größe können mit geringer Zusatzbelastung, zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Gefahrenstellen finden sich ab dem Waldübergangsbereich und besonders oberhalb 2000 m kammnah in Steilhängen aller Expositionen, in triebschneeverfüllten Rinnen und Mulden und hinter Geländekanten. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Zudem können sich auf steilen Wiesenhängen vereinzelt kleine bis mittelgroße Gleitschneelawinen von selbst lösen. Auch ist mit der Sonneneinstrahlung die Selbstauslösung kleinerer Lockerschneelawinen im felsigen Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Mit Wind aus unterschiedlichen Richtungen sind über die letzten Tage umfangreiche Triebschneeansammlungen entstanden. Innerhalb dieser finden sich störanfällige Schichtgrenzen aus aufgebaut umgewandelten Schneekristallen, die in Niederschlagspausen entstehen konnten und Oberflächenreif. Besonders in den Hochlagen ist die Altschneedecke vom Wind geprägt und teils eisig und glatt. Rinnen und Mulden sind verfüllt. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt. In tieferen Lagen und sonnseitig liegt bis zu einem halben Meter pulvriger Schnee direkt auf dem feuchten Boden.</snowpackStructureComment>
+          <tendencyComment>Mit Sonneneinstrahlung und ruhigem Wetter wird die Lawinengefahr in den nächsten Tagen weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1360RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1360RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeansammlungen noch störanfällig und häufig überschneit.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m mäßig, darunter gering. Der Triebschnee der letzten Tage ist das Hauptproblem. Schneebrettlawinen mittlerer Größe können stellenweise mit geringer Zusatzbelastung, zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Gefahrenstellen finden sich oberhalb 1800 m kammnah in Steilhängen der Expositionen Nord über Ost bis Südwest, in triebschneeverfüllten Rinnen und Mulden sowie hinter Geländekanten. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Mit der Sonneneinstrahlung ist die Selbstauslösung kleinerer Lockerschneelawinen im felsigen Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Einige Zentimeter lockerer Neuschnee überdecken eine windgeprägte, teils eisige Altschneedecke und örtlich umfangreiche Triebschneeansammlungen. Innerhalb der Triebschneeansammlungen finden sich störanfällige Schichtgrenzen aus kantigen Schneekristallen, die in Niederschlagspausen entstehen konnten. Besonders südseitig verbinden sich die Schichten aber zunehmend. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt. In tieferen Lagen und sonnseitig liegt geringmächtiger, pulvriger Schnee direkt auf dem Boden.</snowpackStructureComment>
+          <tendencyComment>Mit Sonneneinstrahlung und ruhigem Wetter wird die Lawinengefahr in den nächsten Tagen weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

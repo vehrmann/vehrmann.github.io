@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2914RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2914RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frischer Triebschnee mit zunehmender Höhe störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>verstärkt bei Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneefall in den Hochlagen und Sturm bilden frischen Triebschnee - hier mäßige Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit zunehmender Höhe als mäßig eingestuft. In den höheren Lagen und über der Schneefallgrenze entstehen durch Schneefell und Sturm im Tagesverlauf frische Triebschneeablagerungen, die unbedingt zu beachten sind. Eine Auslösung ist bereits bei geringer Zusatzbelastung im Steilgelände möglich. Andererseits ist durch Regen bis in die mittleren Lagen aus noch nicht entladenen Bereichen verstärkt mit Nassschnee- und Gleitschneelawinen zu rechnen. Hänge mit Rissen in der Schneedecke sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Ab den mittleren Lagen gibt es Neuschnee, der durch stürmischen Wind um West bis Nordwest stark verfrachtet wird. Die Bindung mit der Altschneedecke ist mit zunehmender Höhe ungenügend. Die Altschneedecke ist weitgehend gut gesetzt und je nach Höhe und Exposition unterschiedlich ausgeprägt. Sie ist oberflächig verharscht, teils sehr hart, je nach Höhe feucht bis nass, nur schattseitig noch trocken. Vor allem sonnseitig ist die Schneedecke bis weit hinauf im Inneren aber schon durchfeuchtet. Schattseitig können im Hochgebirge noch relevante Schwachschichten vorhanden sein.</snowpackStructureComment>
+          <wxSynopsisComment>Die Berge stecken am Sonntag oft in Wolken und es regnet häufig, oberhalb von etwa 1300 m bis 1600 m schneit es. Am Nachmittag lockern die Wolken zwischendurch etwas auf. In den Hochlagen weht zum Teil stürmischer West- bis Nordwestwind. In 1500 m hat es um 1 Grad, in 2000 m um -2 Grad Celsius.&#13;
+Am Montag stecken die Berge am Vormittag noch oft in Wolken und es kann da und dort vorerst noch unergiebig regnen oder schneien. Im Lauf des Tages werden die Wolken dünner und lassen die Sonne durchscheinen. Es weht zum Teil starker West- bis Nordwestwind. In 1500 m hat es -2 bis 4 Grad, in 2000 m -4 bis -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2914RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2914RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>verstärkt bei Regen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Trotz Regen aber einer nur geringmächtigen Schneedecke besteht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Geringe Lawinengefahr. Durch Regen sind Nassschneelawinen aus noch nicht entladenem Steilgelände und Gleitschneelawinen auf vergrasten Steilhängen je nach vorhandener Schneemenge möglich. Diese sind klein bis mittelgroß aber unbedingt zu beachten.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist weitgehend gut gesetzt. Sie ist oberflächig verharscht, teils hart, je nach Höhe feucht bis nass. Oft ist die Schneedecke durch die milden Temperaturen  im Inneren auch schon durchfeuchtet und wird zunehmend abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Die Berge stecken am Sonntag oft in Wolken und es regnet häufig, oberhalb von etwa 1300 m bis 1600 m schneit es. Am Nachmittag lockern die Wolken zwischendurch etwas auf. In den Hochlagen weht zum Teil stürmischer West- bis Nordwestwind. In 1500 m hat es um 1 Grad, in 2000 m um -2 Grad Celsius.&#13;
+Am Montag stecken die Berge am Vormittag noch oft in Wolken und es kann da und dort vorerst noch unergiebig regnen oder schneien. Im Lauf des Tages werden die Wolken dünner und lassen die Sonne durchscheinen. Es weht zum Teil starker West- bis Nordwestwind. In 1500 m hat es -2 bis 4 Grad, in 2000 m -4 bis -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

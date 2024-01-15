@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2137RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2137RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen in Hochlagen; Anstieg der Gefahr von spontanen feuchten und nassen Lawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird vormittags oberhalb rund 2200 m mit MÄSSIG, darunter mit GERING beurteilt. Mit den steigenden Temperaturen nimmt im Tagesverlauf die Wahrscheinlichkeit von spontanen nassen und feuchten Lawinen ab einer Höhe von 1500 m zu. Die Lawinengefahr steigt auf allgemein MÄSSIG. Oberhalb rund 2600 m sind aber weiterhin die Triebschneepakete vorsichtig zu beurteilen.</avActivityComment>
+          <snowpackStructureComment>Der Neu- und Triebschnee der letzten Tage hat sich allgemein recht gut mit der feuchten Altschneedecke verbunden. Die Bindung wird aber mit der Höhe schlechter. Mit dem Temperaturanstieg und der Sonneneinstrahlung im Tagesverlauf wird die Schneedecke durchfeuchtet und durchnässt, was zu einem Festigkeitsverlust der frischen Schneeauflage führt und zur weiteren Durchnässung der Altschneedecke in tieferen Lagen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Montag bietet herrlich sonniges und vor allem wieder milderes Bergwetter. Ab Mittag entstehen ein paar Quellwolken. Bei schwachem bis mäßigem West- bis Südwestwind steigt die Temperatur in 2000 m von -5 Grad auf +1 Grad und in 3000 m auf -4 Grad. Auch am Dienstag scheint meist die Sonne. Am Nachmittag werden die Wolken im Westen dichter. Die Temperaturen steigen weiter.</wxSynopsisComment>
+          <tendencyComment>Mit weiter steigenden Temperaturen nimmt auch die Wahrscheinlichkeit von nassen und feuchten Lawinen weiter zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2137RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2137RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen in Hochlagen; Anstieg der Gefahr von spontanen feuchten und nassen Lawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb rund 2000 m mit MÄSSIG beurteilt. Die Hauptgefahr geht am Vormittag von noch störanfälligen Triebschneeablagerungen aus, wird aber durch die Erwärmung durch das Nassschneeproblem abgelöst. Spontane nasse und feuchte Rutsche und Lawinen werden wahrscheinlicher. Auch die Gefahrengrenze sinkt im Tagesverlauf bis gegen 1500 m.</avActivityComment>
+          <snowpackStructureComment>Mit der tageszeitlichen Erwärmung können sich die Triebschneeablagerungen setzen, die Durchfeuchtung und auch Durchnässung der Schneedecke nimmt jedoch zu.</snowpackStructureComment>
+          <wxSynopsisComment>Der Montag bietet herrlich sonniges und vor allem wieder milderes Bergwetter. Ab Mittag entstehen ein paar Quellwolken. Bei schwachem bis mäßigem West- bis Südwestwind steigt die Temperatur in 2000 m von -5 Grad auf +1 Grad und in 3000 m auf -4 Grad. Auch am Dienstag scheint meist die Sonne. Am Nachmittag werden die Wolken im Westen dichter. Die Temperaturen steigen weiter.</wxSynopsisComment>
+          <tendencyComment>Mit steigenden Temperaturen steigt auch die Gefahr von nassen und feuchten Lawinen an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2137RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2137RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit der Erwärmung weitere Durchnässung der Schneedecke</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Die Triebschneelinsen können sich setzen und mit der weiteren Durchnässung der Schneedecke ist mit spontanen nassen Rutschen und kleineren Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung im Tagesverlauf wird die meist geringe Schneedecke weiter durchfeuchtet und nass.</snowpackStructureComment>
+          <wxSynopsisComment>Der Montag bietet herrlich sonniges und vor allem wieder milderes Bergwetter. Ab Mittag entstehen ein paar Quellwolken. Bei schwachem bis mäßigem West- bis Südwestwind steigt die Temperatur in 2000 m von -5 Grad auf +1 Grad und in 3000 m auf -4 Grad. Auch am Dienstag scheint meist die Sonne. Am Nachmittag werden die Wolken im Westen dichter. Die Temperaturen steigen weiter.</wxSynopsisComment>
+          <tendencyComment>Die Gefahr von spontanen kleinen und nassen Lawinen steigt weiter an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

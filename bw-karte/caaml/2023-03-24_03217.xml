@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3217RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3217RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneedecke in mittleren Lagen stark durchnässt.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m mäßig. Die Hauptgefahr geht vom Nassschnee aus. An noch nicht entladenen, sehr steilen Hängen können sich kleine bis mittlere nasse Lockerschneelawinen von selbst lösen. An Steilhängen mit glattem Untergrund sind zudem kleine bis mittelgroße nasse Gleitschneelawinen möglich - Gleitschneemäuler weisen auf Gefahrenstellen hin.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen gehen zwar etwas zurück, die Schneedecke ist in mittleren Lagen jedoch nach wie vor durchfeuchtet und zum Boden hin vielerorts nass. In den Hochlagen fällt begleitet von starkem Wind etwas Schnee. Kleine Triebschneelinsen sind jedoch kaum störanfällig. Unterhalb von 1500 m liegt auch schattseitig kaum noch Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit Niederschlägen und tiefen Temperaturen tritt zum Wochenbeginn das Nassschneeproblem in den Hinter-, der Neu- und Triebschnee in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3217RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3217RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nass- und Gleitschneelawinen in mittleren Lagen, frischer Triebschnee in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. In mittleren Lagen geht die Hauptgefahr vom Nassschnee aus. An noch nicht entladenen, sehr steilen Hängen können sich einzelne nasse Lockerschneelawinen von selbst lösen. An Steilhängen mit glattem Untergrund sind zudem nasse Gleitschneelawinen möglich - Gleitschneemäuler weisen auf Gefahrenstellen hin. Lawinen können mittlere Größe erreichen.&#13;
+In den Hochlagen kann frischer Triebschnee problematisch sein. Einzelne Personen können im kammnahen Steilgelände der Expositionen Nord über Ost bis Süd sowie in eingewehten Rinnen und Mulden Lawinen auslösen. Die Lawinen bleiben meist klein und die Absturzgefahr überwiegt die Gefahr verschüttet zu werden.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen gehen zwar etwas zurück, die Schneedecke ist in mittleren Lagen jedoch nach wie vor bis zum Boden hin nass und tief. In den Hochlagen fällt begleitet von starkem Wind Schnee. Dieser fällt auf eine weitgehend stabile, feuchte Altschneedecke. Es entstehen frische Triebschneeansammlungen, die in den Hochlagen störanfällig sein können. Unterhalb von 1400 m liegt auch schattseitig kaum noch Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit Niederschlägen und tiefen Temperaturen tritt zum Wochenbeginn das Nassschneeproblem in den Hinter-, der Neu- und Triebschnee in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3603RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3603RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee ist in der Höhe noch störanfällig.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist oberhalb von 1600 m mäßig, unterhalb davon gering. Das Hauptproblem ist Triebschnee. Oberhalb von 1600 m kann dieser stellenweise bereits durch geringe Zusatzbelastung wie z.B. durch einen einzelnen Skifahrer ausgelöst werden. Gefahrenstellen finden sich in kammnahen Steilhängen aller Expositionen und nehmen an Anzahl und Umfang mit der Höhe zu. Sie sind schwer zu erkennen, da sie von wenig Neuschnee überdeckt werden. Schneebrettlawinen bleiben meist klein, können aber vor allem in den Hochlagen auch mittlere Größe erreichen, wenn sie auf tiefer liegende Schwachschichten durchschlagen.&#13;
+An steilen Wiesenhängen und im Bergwald kann es daneben in allen Expositionen zur Selbstauslösung von kleinen und mittleren Gleitschneelawinen kommen. Gleitschneerisse weisen auf Gefahrenstellen hin.</avActivityComment>
+          <snowpackStructureComment>Innerhalb der Triebschneeansammlungen der letzten Tage sind in höheren Lagen Zwischenschichten eingelagert, die lokal zum Teil noch störanfällig sind. Bis in mittlere Lagen hinein haben sich potentielle Schwachschichten aufgelöst und die Schneedecke hat sich deutlich gesetzt. In mittleren und tiefen Lagen ist die Schneedeckenbasis oft nass und Gleitbewegungen auf glattem Untergrund sind die Folge. Die Schneehöhe ist für die Jahreszeit in allen Höhenlagen deutlich überdurchschnittlich.</snowpackStructureComment>
+          <tendencyComment>In tieferen Lagen wird mit steigenden Temperaturen langsam Nassschnee zum Problem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

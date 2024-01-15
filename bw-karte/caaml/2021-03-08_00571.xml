@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID571RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID571RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit Altschneeproblem im Nordsektor.</avActivityHighlights>
+          <avActivityComment>In Niederösterreich herrscht geringe Lawinengefahr. Ältere Triebschneelinsen befinden sich besonders kammnah und hinter Geländekanten. Im Nordsektor existieren einzelne Gefahrenstellen, wo eine Schneebrettauslösung durch große Zusatzbelastung möglich ist, allerdings werden nur kleine Lawinen erwartet. Auf exponierten, eisigen Graten und Gipfelbereichen gilt es die Absturzgefahr zu beachten!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein kompakt und feucht, in den Hochlagen ist die Oberfläche gefroren. Ältere Triebschneeablagerungen sind in den Schattenlagen schlecht mit der Altschneedecke verbunden. Die Ausaperung schreitet voran.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag gibt es in den Niederösterreichischen Bergen einige Wolkenfelder und nur zeitweise scheint die Sonne. Bis auf vereinzelte Schneeflocken bleibt es überwiegend niederschlagsfrei. Es bleibt weiterhin kalt mit Mittagstemperaturen in 1500m um -6 Grad bei mäßigem Süd- bis Westwind. &#13;
+Am Mittwoch ziehen dann immer wieder dichte Wolkenfelder mit Schneeschauern durch, wobei maximal 15 cm Neuschnee in den Ybbstaler Alpen zusammenkommen. </wxSynopsisComment>
+          <tendencyComment>Unbeständiges Wetter am Mittwoch und etwas Neuschnee lassen besonders in den Ybbstaler Alpen kleinräumig frische Triebschneelinsen entstehen. Die Lawinengefahr wird etwas ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

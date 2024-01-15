@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2020RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2020RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-28T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-29T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-29T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-29T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Von gering auf mäßig ansteigende Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang, der durch aufziehende Wolken in der zweiten Tageshälfte aber etwas weniger stark ausgeprägt ist, als an den Vortagen. Gefahrenstellen befinden sich in erster Linie im sonnseitigen Steilgelände, wo sich nasse Lockerschnee- und Schneebrettlawinen spontan bzw. auch durch die Zusatzlast von Wintersportlern lösen können. Zudem sind aus steilen Wald- und Wiesenhängen zu jeder Tageszeit Gleitschneerutschungen nicht ausgeschlossen. Diese kündigen sich durch Schneemäuler an, die als Gefahrenzeichen zu werten sind. Im Bereich von hart verharschten oder vereisten Oberflächen herrscht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>In einer noch weitgehend klaren Nacht kann sich die Schneedecke ausstrahlungsbedingt verfestigen. Durch frühlingshafte Temperaturen und zeitweilige Einstrahlung verliert die nächtlich verharschte Schneeoberfläche vorrangig sonnseitig (und abgeschwächt auch in den Schattlagen) an Festigkeit und wird destabilisiert. Auf einem bodennahen Schmierfilm kann die gesamte Schneedecke in Bewegung kommen und als Gleitschneelawine abgehen. Tiefe und mittlere Lagen apern zunehmend aus.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag beginnt in den Niederösterreichischen Alpen noch recht freundlich. Allerdings werden bis etwa Mittag mittelhohe Wolken mehr und verdichten sich, wobei vereinzelt auch der eine oder andere Regentropfen fallen kann. Es weht zunächst mäßiger bis starker Wind aus westlichen Richtungen, der im Tagesverlauf etwas nachlassen wird. Die Mittagstemperaturen liegen in 1500m um +7, in 2000m um etwa +3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch ist mit vielen Wolken und gedämpfteren Temperaturen zu rechnen, bevor sich in der zweiten Wochenhälfte bei voraussichtlich bis in Tallagen sinkender Schneefallgrenze Niederschläge ankündigen. Somit wird die Lawinengefahr in weiterer Folge – je nach tatsächlicher Ausprägung der Schneefälle – wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2020RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2020RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Gefahrenstellen betreffen vor allem das vergleichsweise noch schneereichere Gelände, an dem sich im Tagesverlauf mit Schwerpunkt an den Sonnseiten nasse Rutschungen lösen können. Aus steilen Wald- und Wiesenhängen können vereinzelt noch Gleitschneerutschungen abgehen, die sich vorab über geöffnete Schneemäuler ankündigen.</avActivityComment>
+          <snowpackStructureComment>In einer noch weitgehend klaren Nacht kann sich die Schneedecke ausstrahlungsbedingt verfestigen. Durch frühlingshafte Temperaturen und zeitweilige Einstrahlung verliert die nächtlich verharschte Schneeoberfläche vorrangig sonnseitig (und abgeschwächt auch in den Schattlagen) an Festigkeit und wird etwas destabilisiert. In noch schneereicheren Bereichen kann durch einen bodennahen Schmierfilm die gesamte Schneedecke in Bewegung kommen und als Gleitschneelawine abgehen. Tiefe und mittlere Lagen apern zunehmend aus, Wintersportaktivitäten sind nur mehr eingeschränkt möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag beginnt in den Niederösterreichischen Alpen noch recht freundlich. Allerdings werden bis etwa Mittag mittelhohe Wolken mehr und verdichten sich, wobei vereinzelt auch der eine oder andere Regentropfen fallen kann. Es weht zunächst mäßiger bis starker Wind aus westlichen Richtungen, der im Tagesverlauf etwas nachlassen wird. Die Mittagstemperaturen liegen in 1500m um +7, in 2000m um etwa +3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch ist mit vielen Wolken und gedämpfteren Temperaturen zu rechnen, bevor sich in der zweiten Wochenhälfte bei voraussichtlich bis in Tallagen sinkender Schneefallgrenze Niederschläge ankündigen. Somit wird die Lawinengefahr in weiterer Folge – je nach tatsächlicher Ausprägung der Schneefälle – wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

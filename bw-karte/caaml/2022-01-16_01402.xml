@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1402RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1402RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kalter, frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Nordalpen, in den Niederen Tauern und im Hochschwabgebiet oberhalb der Baumgrenze mit mäßig beurteilt. Kalter Neuschnee und Sturm lassen die Gefahrenstellen oberhalb der Baumgrenze rasch ansteigen. Vorsicht in den Expositionen Nord über Ost bis Süd! Hier können Schneebretter teils bei geringer Zusatzbelastung ausgelöst werden, die auch auf ältere Schwachschichten durschlagen können.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee bzw. Triebschnee überdeckt Oberflächenreif.  Die Altschneedecke in den Hochlagen wird stellenweise durch kantige Kornformen um Harscheinlagerungen etwas geschwächt, die auch als Schwachschicht fungieren können. Unterhalb der Baumgrenze fällt der Neuschnee auf eine teilweise aufbauend umgewandelte Altschneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Stürmisch und kälter! In den Nordalpen und entlang der Nordabdachung der Niederen Tauern schneit es bei schlechten Sichtverhältnisse etwas. Es werden zwischen 10 und 20cm Neuschnee erwartet. Vorsicht, es wird von Stunde zu Stunde windiger. Von den Niederen Tauern bis zu den Mürzsteger Alpen weht in den Hochlagen ein Orkan mit über  130 km/h! Die Temperatur bewegt sich in 2000m Höhe um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1402RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1402RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht im Nordsektor - Altschneeproblem.</avActivityHighlights>
+          <avActivityComment>Vereinzelte Gefahrenstellen finden sich in extrem steilen Hängen der Nordexpositionen. Ältere Triebschneeansammlungen können eventuell bei großer Zusatzbelastung ausgelöst werden. &#13;
+</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich in den letzten Tagen gut setzen. Die Altschneedecke wird in den Hochlagen stellenweise durch kantige Kornformen um Harscheinlagerungen etwas geschwächt. Sonst ist die Schneedecke hart und eisig. &#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Alpensüdseitig greift kaum Niederschlag über und hier scheint mit Nordföhn die Sonne. Nur vorübergehend ziehen Wolkenfelder durch. Vorsicht, es wird von Stunde zu Stunde windiger. In den Hochlagen weht ein Orkan mit über 130 km/h! Die Temperatur bewegt sich in 2000m Höhe um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

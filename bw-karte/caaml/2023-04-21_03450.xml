@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3450RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3450RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Sehr steile (&gt;35°) Hänge im Hochgebirge meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vorsicht besonders auch in Auslaufbereichen großer Nassschneelawinen wie z.B. auf Hüttenzustiegen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht vor schwachem Altschnee, rascher Anstieg der Gefahr von Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb 2200m mit ERHEBLICH, darunter mit MÄßIG beurteilt. &#13;
+Trockene Schneebrettlawinen im oberen Teil der Schneedecke können an West-, Nord- und Osthängen oberhalb etwa 2600m stellenweise bereits bei geringer Zusatzbelastung ausgelöst werden. Lawinen sind meist mittelgroß, können vereinzelt aber auch groß werden. Gefahrenstellen nehmen mit der Höhe zu und sind schwer zu erkennen. Frische Triebschneeansammlungen der vergangenen Tage sind an hochalpinen (&gt;3000m), sehr steilen Schattenhängen vereinzelt noch störanfällig. &#13;
+Zudem nimmt bereits am Vormittag die Gefahr von Nassschneelawinen rasch zu. Dies an allen Expositionen unterhalb etwa 2700m. Es sind im Tagesverlauf mittlere, vereinzelt auch große Nassschneelawinen möglich. Aus extrem steilen Hängen sind kleine spontane Lockerschneelawinen, aus steilen Grashängen aller Expositionen unterhalb ewa 2600m kleine bis  mittlere Gleitschneelawinen zu erwarten. &#13;
+Zurückhaltung sowie ein frühzeitiges Beenden von Skitouren wird empfohlen. Bereiche unter Gleitschneezonen sollten möglichst gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Die Nacht auf Samstag ist nur teilweise klar. Es bildet sich ein oft kaum tragfähiger Schmelzharschdeckel an der Schneeoberfläche, welcher bereits am Vormittag recht rasch aufweicht. Die Schneedecke hat auch an Nordhängen bis weit hinauf nur mehr geringe Kältereserven. Mit den warmen Temperaturen, feuchter Luft und Sonneneinstrahlung kommt es am Samstag im Tagesverlauf zu einer weiteren Durchfeuchtung der Schneedecke und einem damit einhergehenden Festigkeitsverlust. Unterhalb des Neuschnees, welcher seit vergangenen Donnerstag gefallen ist, hat sich eine Schwachschicht aus kantigen Kristallen ausgebildet, welche bei Sprengarbeiten in den vergangenen Tagen zu teils großen Lawinenabgängen führte. Auch spontane Lawinen wurden beobachtet. Schwachschichten tiefer in der Schneedecke sind v.a. an Nord- und Osthängen oberhalb rund 2600m vorhanden. Triebschnee ist nur mehr an hochalpinen Schattenhängen vereinzelt störanfällig, hat sich ansonsten aber bereits gut verfestigt. In mittleren Höhenlagen ist der Altschnee stark durchfeuchtet, unterhalb 1600m liegt nur wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint meist die Sonne bei guter Sicht. Hohe Wolkenfelder können den Sonnenschein zum Teil beeinträchtigen. Es weht schwacher bis mäßig starker Südwind bei 3 bis 8 Grad in 2000m und -3 bis 0 Grad in 3000 m.</wxSynopsisComment>
+          <tendencyComment>Weiterhin erhebliche Gefahr von Nassschneelawinen am Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3450RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3450RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Je wärmer und fauler die Schneedecke wird, desto wahrscheinlicher werden nasse Lockerschneelawinen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneelawinen bilden die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Bereits im Laufe des Vormittags sind kleine und vereinzelt mittelgroße Nassschneelawinen aus noch nicht entladenem Steilgelände möglich. Die Auslösewahrscheinlichkeit nimmt im Tagesverlauf zu, eine erhöhte Aktivität ist vor allem an Schattenhängen zu erwarten. Touren sollten frühzeitig beendet werden.</avActivityComment>
+          <snowpackStructureComment>Die Nacht auf Samstag ist nur teilweise klar. Es bildet sich ein meist nicht tragfähiger Schmelzharschdeckel an der Schneeoberfläche, welcher bereits am Vormittag rasch aufweicht. Die Schneedecke hat auch an Nordhängen in der Höhe kaum mehr Kältereserven. Mit den warmen Temperaturen, feuchter Luft und Sonneneinstrahlung kommt es am Samstag im Tagesverlauf zu einer weiteren Durchfeuchtung der Schneedecke und einem damit einhergehenden Festigkeitsverlust. In mittleren Höhenlagen ist der Altschnee stark durchfeuchtet, unterhalb 1600m liegt nur wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint meist die Sonne bei guter Sicht. Hohe Wolkenfelder können den Sonnenschein zum Teil beeinträchtigen. Es weht schwacher bis mäßig starker Südwind bei 3 bis 8 Grad in 2000m und -3 bis 0 Grad in 3000 m.</wxSynopsisComment>
+          <tendencyComment>Die Nassschneeproblematik bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3450RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3450RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Je wärmer und fauler die Schneedecke wird, desto wahrscheinlicher werden nasse Lockerschneelawinen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust durch Erwärmung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit MÄßIG beurteilt.&#13;
+ Bereits im Verlauf des Vormittags sind aus dem extrem steilen Gelände heraus spontan kleine und mittlere Nassschneelawinen möglich. Meist handelt es sich um Lockerschneelawinen oder Gleitschneelawinen. Vor allem an bisher noch nicht entladenen Nordhängen ist mit vermehrter Aktivität zu rechnen. Touren sollten frühzeitig beendet werden. </avActivityComment>
+          <snowpackStructureComment>Die Nacht ist überwiegend bewölkt und die Schneedecke kann kaum Wärme abstrahlen. Die Schneedecke gefriert somit kaum und  die tageszeitliche Erwärmung und Sonneneinstrahlung führen zu einer weiteren Durchfeuchtung und einem Festigkeitsverlust innerhalb der Schneedecke. Dies auch an Schattenhängen. Neu- und Triebschnee haben sich inzwischen gut gesetzt und verfestigt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint meist die Sonne bei guter Sicht. Hohe Wolkenfelder können den Sonnenschein zum Teil beeinträchtigen. Es weht schwacher bis mäßig starker Südwind bei 3 bis 8 Grad in 2000m und -3 bis 0 Grad in 3000 m.</wxSynopsisComment>
+          <tendencyComment>Weiterhin erhebliche Gefahr von Nassschneelawinen am Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2330RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2330RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Triebschnee und spontane Lockerschneelawinen aus steilem Gelände möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den niederösterreichischen Alpen mit GERING beurteilt. Vereinzelte Gefahrenbereiche, an denen kleine Schneebrettlawinen mit großer Zusatzbelastung ausgelöst werden können, sind schattseitig in steilen Rinnen und Mulden sowie im kammnahen Gelände zu finden. Auch Wechten stellen lokal Gefährungsbereiche dar, die gemieden werden sollten. Aus steilem  Gelände können sich vereinzelt kleine, spontane Lockerschneelawinen lösen. Große Lawinen sind derzeit nicht zu erwarten. </avActivityComment>
+          <snowpackStructureComment>Schattseitig sind in steilen Rinnen und Mulden sowie in Kammnähe noch vereinzelt ältere Triebschneepakete zu finden. Als Schwachsicht kommt hier lokal noch überdeckter Oberflächenreif  (aus der frostigen Nacht von Montag auf Dienstag) in Frage. Teilweise kann in schattigen Hochlagen auch noch lockerer Pulverschnee vorhanden sein. Sonnseitig setzt sich die Schneedecke zunehmend, an der Schneeoberfläche befindet sich weicher, gebundener Schnee aus filzigen Kristallen oder runden Schneekörnern. Dieser ist teilweise oberflächlich schon feucht oder mit einer dünnen Schmelzharschkruste überdeckt. Darunter ist die Altschneedecke meist noch unterbrochen. Exponierte Bereiche sind abgeweht.&#13;
+Mit weiterer Wärmeeinwirkung am Freitagvormittag sowie vorübergehendem Regen oder Nieseln bis auf über 1500 m stabilisiert sich die Schneedecke in allen Expositionen zunehmend. Im Laufe des Freitagnachmittags und - abends kann sich eine dünne Schicht Neuschnee (wenige Zentimeter) an der Schneeoberfläche bilden, diese wird vom Wind teils in südliche Expositionen verlagert und kann dort dünne Triebschneelinsen bilden (abhängig von der Niederschlagsmenge).</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht und am Freitag ist es meist dicht bewölkt, die Gipfel sind wolkenverhangen. Aus der Nacht heraus regnet oder nieselt es Freitagfrüh noch leicht, die Schneefallgrenze liegt meist zwischen 1500 - 1800 m, im Semmering-Wechselgebiet sowie im Bereich von Rax und Schneeberg kann es über Nacht vorübergehend auch unergiebigen Schneeregen oder Schneefall geben. Nach einer längeren Niederschlagspause setzt schließlich ab den mittleren Nachmittagsstunden von Süden erneut unergiebiger Schneefall ein, zu Beginn kann es noch gebietsweise regnen. Der Höhenwind weht speziell am Alpenostrand lebhaft aus westlichen Richtungen. In der Früh liegen die Temperaturen in 1500m teils  noch leicht im Plusbereich, dann kühlt es stetig ab. Zu Mittag hat es in gleicher Höhe meist nur noch um minus 1 oder minus 2 Grad.&#13;
+In der Nacht auf Samstag intensiviert sich der Niederschlag etwas und hält bis Samstagmittag an. Die Temperaturen in der Höhe sinken deutlich und liegen Samstagmittag in 1500 m um -7 Grad. Dazu kommt teils lebhafter bis kräftiger Nordwestwind auf. </wxSynopsisComment>
+          <tendencyComment>Unergiebiger Neuschnee und Wind lassen lokal ein kleinräumiges Triebschneeproblem entstehen.  Die Lawinengefahr steigt ein wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2218RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2218RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>fehlende nächtliche Verfestigung, stellenweise etwas Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - Nassschneeproblem sowie kleinräumiger Triebschnee auf den hohen Bergen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Aus steilem Gelände können im Tagesverlauf kleine spontane Nassschneelawinen nicht ausgeschlossen werden. Zudem besteht in schneereicheren Regionen weiterhin die Möglichkeit von spontanen Gleitschneelawinen an steilen Hängen mit glattem Untergrund. In den Hochlagen existieren im kammnahen, nordostexponierten Gelände vereinzelt frische Triebschneelinsen die ausgelöst werden können.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Ein Adriatief sorgte am Freitag - ausgenommen der nordwestlichen Regionen - verbreitet für etwas Regen bis ca. 1900m, darüber sind ein paar Zentimeter Neuschnee bei unterschiedlich starkem Windeinfluss gefallen.  Der Neu- bzw. Triebschnee lagerte auf einer feuchten, oberflächlich aber oft verharschten Altschneedecke ab, die Bindung ist stellenweise nicht ausreichend. Die Altschneedecke ist meist kompakt und bis in höhere Lagen isotherm und feucht. Regen, Erwärmung und Strahlung erhöhen den Festigkeitsverlust der Schneedecke. &#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Das Wochenende ist überwiegend von wechselhaftem Aprilwetter geprägt. Am Samstag stecken die Berge oft im Nebel, die Sichtverhältnisse sind meist schlecht. Bei einer Schneefallgrenze um 2000m sind kurze Schauer nicht ausgeschlossen. Mit etwas zunehmendem Südföhn lockert es am Nachmittag stellenweise auf. Das Temperaturniveau steigt in allen Lagen im Tagesverlauf etwas an und liegt am Nachmittag in 2000m bei +1 bis +3 Grad.&#13;
+Am Sonntag legt der Südwestföhn weiter zu, zudem können speziell in den Nordalpen am Nachmittag gewittrige Schauer entstehen. Es bleibt mild.</wxSynopsisComment>
+          <tendencyComment>Das am Wochenende dominierende Nassschneeproblem dürfte auch zum Wochenbeginn die Hauptgefahr darstellen. &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

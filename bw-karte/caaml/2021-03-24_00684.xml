@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID684RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID684RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in den Hochlagen! Schönes Wetter!</avActivityHighlights>
+          <avActivityComment>Es gibt keine wesentliche Änderung der Lawinensituation. Oberhalb der Waldgrenze herrscht weiterhin mäßige Lawinengefahr! Gefahrenstellen finden sich kammnah und allgemein hinter Geländekanten. Betroffen sind hauptsächlich die Expositionen  Ost bis Süd. Eine Auslösung von kleinen und  mittleren Schneebrettlawinen ist durch große, vereinzelt auch durch geringe Zusatzbelastung möglich.  Sonnseitig sind Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils stabil, eventuelle Schwachschichten sind Schichten aus kantigen Kristallen, eingeschneiter Oberflächenreif bzw. der Übergang zur Altschneedecke.  Der Triebschnee hat die genannten Schneeschichten überdeckt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint die Sonne von einem meist wolkenlosen Himmel, am Nachmittag ziehen ein paar wenige hohe Wolken durch. Dabei wird es recht mild, der Nordwind weht aber immer noch lebhaft. In 2000m werden 0 Grad erwartet.</wxSynopsisComment>
+          <tendencyComment>Am Freitag wird es sonnig. An der Lawinengefahr ändert sich wenig. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID684RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID684RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ober der Waldgrenze vereinzelte Gefahrenstellen durch frische Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>Es herrscht oberhalb der Waldgrenze mäßige Lawinengefahr. Der Wind hat in den letzten Tagen Spuren hinterlassen!  Gefahrenstellen finden sich kleinräumig kammnah und hinter Geländekanten hauptsächlich in den Expositionen Ost bis Süd. Vorsicht vor den frischen Wechten, diese sind instabil. Vereinzelt können  frische Triebschneelinsen als kleine Schneebrettlawinen ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Frischer Triebschnee liegt auf einer harten Altschneedecke oder auf einer weichen Schicht (Oberflächenreif). Die Verbindung dieser beiden Schichten ist nicht ausreichend.  Das Schneedeckenfundament ist großteils verharscht und stabil. Auf Rücken und Kämmen ist es hart und eisig. In den mittleren Lagen wurde der Schnee feucht. Oberflächlich entsteht in der Nacht von Mittwoch auf Donnerstag eine dünne Harschschicht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint die Sonne von einem meist wolkenlosen Himmel, am Nachmittag ziehen ein paar wenige hohe Wolken durch. Dabei wird es recht mild, der Nordwind weht aber immer noch lebhaft. In 1500m hat es +4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID684RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID684RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in den tiefen und mittleren Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht in den Nord- und Ostseiten - hier lauert noch die Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit erheblich beurteilt! Gefahrenstellen finden sich weiterhin kammnah, an den Einfahrten zu Rinnen und Mulden und allgemein hinter Geländekanten. Betroffen sind die Expositionen Ost und Nord. Eine Auslösung von Schneebrettlawinen ist schon durch geringe Zusatzbelastung möglich. Weiterhin sind spontane Schneebretter und Lockerschneelawinen südseitig möglich.  In den mittleren und tiefen Lagen ist mit nassen spontanen Lawinen zu rechnen. Auch die Gleitschneeaktivität wird ansteigen.</avActivityComment>
+          <snowpackStructureComment>Sonnseitig konnte sich die Schneedecke schon setzen. In den Hochlagen der Expositionen Nord und Ost hat der kalte spröde Triebschnee  wenig Bindung zur darunter liegenden Schicht. Die Schneeverteilung ist recht unterschiedlich. Aufgrund der Strahlung wurde der Schnee sonnseitig bis ca. 1500m oberflächlich angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint die Sonne von einem meist wolkenlosen Himmel, am Nachmittag ziehen ein paar wenige hohe Wolken durch. Dabei wird es recht mild, der Nordwind weht aber immer noch lebhaft. In 2000m werden 0 Grad erwartet.</wxSynopsisComment>
+          <tendencyComment>Am Freitag wird es mild und sonnig. Die Lawinengefahr nimmt langsam ab. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

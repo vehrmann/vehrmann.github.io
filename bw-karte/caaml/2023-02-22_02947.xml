@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2947RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2947RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur wenige Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Aus noch nicht entladenen steilen Hängen sind einzeln Gleitschneelawinen möglich. Hänge mit Rissen in der Schneedecke sollten gemieden werden. Nur in den Hochlagen könnte es einzelne Punkte im Gelände geben, an denen Schneebrettlawinen im extremen Gelände durch große Zusatzbelastung ausgelöst werden könnten.</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung kann sich die Schneeoberfläche etwas festigen. Die Schneedecke ist allgemein gut gesetzt und die Schichten sind gut verbunden. Schattseitig können im Hochgebirge noch Schwachschichten vorhanden sein. Die Schneehöhen sind unterdurchschnittlich. In tiefen, sonnseitigen mittleren Lagen ist es überwiegend aper oder es liegt nur mehr sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag kommt die Sonne bei wechselnden Sichtverhältnissen nur ab und zu heraus, höhere Lagen stecken zeitweise in Wolken und Nebel. Vor allem am Nachmittag ist stellenweise etwas Niederschlag möglich, die Schneefallgrenze liegt dabei um 1400 m. Der Wind weht in allen Höhen meist nur schwach. Temperaturen in 1500 m um 2 Grad, in 2000m um -1 Grad.&#13;
+Auf den Bergen der Nordalpen scheint am Freitag bei wechselnder Bewölkung zeitweise die Sonne, die Wolkenuntergrenze bleibt zunächst meist oberhalb der Gipfel. Erst zum Abend hin fällt Nebel ein, Niederschläge setzen ein. Die Schneefallgrenze liegt um 1300 m. Der Wind frischt lebhaft aus westlichen Richtungen auf. Temperaturen in 1500 m um 1 Grad, in 2000m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

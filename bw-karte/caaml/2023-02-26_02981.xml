@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2981RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2981RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee ist stellenweise störanfällig!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, unterhalb davon gering. Das Hauptproblem ist frischer Triebschnee. Vor allem im kammnahen Steilgelände der Expositionen Nord über West bis Süd und in eingewehten Rinnen und Mulden können mittlere Schneebrettlawinen bereits durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. Gefahrenstellen nehmen an Anzahl und Umfang mit der Höhe zu und sind schwer zu erkennen, wenn sie von Neuschnee überdeckt werden.&#13;
+An vereinzelten Stellen können sich zudem im extrem steilen Gelände trockene Lockerschneelawinen und an Steilhängen mit glattem Untergrund auch Gleitschneelawinen von selbst lösen. Diese Lawinen bleiben meist klein.</avActivityComment>
+          <snowpackStructureComment>Bis zu 60 cm lockerer Neuschnee vom Wochenende wird von mäßigem Ostwind beeinflusst, sodass kleinräumig frische, störanfällige Triebschneeansammlungen entstehen. Auch in der Niederschlagsphase am Wochenende sind stellenweise mit Wind aus Nordwest Triebschneeschichten entstanden und wieder überschneit worden. Schneedeckentests zeigen hier aber keine ausgeprägte Tendenz zur Bruchausbreitung. Das Altschneefundament ist stabil und bis weit in mittlere Lagen feucht, am Boden oft auch nass. In tieferen Lagen und südseitig bis fast in die Hochlagen hinauf liegt der Neuschnee vom Wochenende auf dem zuvor wieder ausgeaperten Boden.</snowpackStructureComment>
+          <tendencyComment>Anstieg der spontanen Lawinenaktivität mit Erwärmung und Sonnenschein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2981RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2981RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1500 m erheblich, unterhalb davon gering. Das Hauptproblem ist frischer Triebschnee. Vor allem im kammnahen Steilgelände der Expositionen Nord über West bis Süd und in eingewehten Rinnen und Mulden, aber auch kammfern unterhalb von Geländekanten, können mittlere und vereinzelt auch große Schneebrettlawinen bereits durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. Gefahrenstellen nehmen an Anzahl und Umfang mit der Höhe zu und sind schwer zu erkennen, wenn sie von Neuschnee überdeckt werden.&#13;
+An vereinzelten Stellen können sich zudem im extrem steilen Gelände trockene Lockerschneelawinen und an Steilhängen mit glattem Untergrund auch Gleitschneelawinen von selbst lösen und mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Bis zu 80 cm lockerer Neuschnee vom Wochenende wird vor allem in der Nacht zum Montag von stärkerem Ostwind beeinflusst, sodass frische, störanfällige und mancherorts umfangreiche Triebschneeansammlungen entstehen. Auch in der Niederschlagsphase am Wochenende sind stellenweise mit Wind aus Nordwest Triebschneeschichten entstanden und wieder überschneit worden. Schneedeckentests zeigen hier aber keine ausgeprägte Tendenz zur Bruchausbreitung. Das Altschneefundament ist stabil und bis weit in mittlere Lagen feucht, am Boden oft auch nass. In tieferen Lagen und südseitig bis fast in die Hochlagen hinauf liegt der Neuschnee vom Wochenende auf dem zuvor wieder ausgeaperten Boden.</snowpackStructureComment>
+          <tendencyComment>Anstieg der spontanen Lawinenaktivität mit Erwärmung und Sonnenschein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

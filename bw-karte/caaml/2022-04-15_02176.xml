@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2176RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2176RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelte spontane Lawinen, meist klein, im Nordsektor, sonst wenig Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleines Nassschneeproblem, insbesondere im erweiterten Nordsektor</avActivityHighlights>
+          <avActivityComment>Nassschneeproblem: Die Lawinengefahr ist wegen der geringen Schneelage GERING. Durch den Regen und fehlende nächtliche Ausstrahlung sind vereinzelte spontane nasse Lockerschneelawinen und wenige Gleitschneelawinen (im Nordsektor) möglich. Diese  bleiben meist klein, nur vereinzelt besteht noch das Potenzial für mittelgroße Abgänge. </avActivityComment>
+          <snowpackStructureComment>Nur noch wenig Schnee. Es apert von Tag zu Tag stark aus. Die verbliebene Schneedecke ist 0-Grad-isotherm und naß. Der meiste Teil der potenziellen Lawinen ist bereits abgegangen. Relevante Mengen gibt es kleinräumig im Nord- und Ostsektor.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht ist bedeckt und nicht kalt. Etwas Regen.&#13;
+Am Karsamstag dominieren Wolken und Nebel in den Gipfelbereichen. Am Vormittag und über Mittag kühlt es von Norden her um 7 Grad ab, mit auflebendem Nordwind. Am Vormittag und über Mittag regnet es immer wieder mal, Schneefallgrenze sinkt dann von 2200 auf 1400m. Neuschneemengen nicht relevant. In 2000m von +1 auf -4 sinkend im Tagesverlauf. &#13;
+Die Nacht auch Sonntag ist zumindest tlw. klar. &#13;
+Am Ostersonntag ist es sonnig, über weite Strecken wolkenlos. Dabei deutlich kälter als zuletzt. In 2000m um -6 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag und Montag ist nach klarer Nacht und kalten Temperaturen die Schneedecke am Vomittag gefroren und firnt dann auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2176RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2176RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelte spontane Lawinen, klein und mittelgroß, Lockernschnee und Gleitschnee, die größten im Nord/Ostsektor</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb etwa 2600m, kammnah und im Übergang von wenig zu viel; auf der Saharaschicht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Von Beginn an Nassschneeproblem, plus hochalpines Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab 1700 m aufwärts von Beginn an MÄßIG, darunter liegt nur noch wenig Schnee. &#13;
+Spontan sind unterhalb etwa 2400 m nasse Lockerschneelawinen und einzelne Gleitschneelawinen aus extrem steilem Grasmattengelände möglich. Diese können an einigen Stellen mittlere, in wenigen Fallem auch große Ausmaße annehmen. Problematisch sind am ehesten sehr steile und noch nicht entladene Einzugsgebiete im Nord- und Ostsektor. &#13;
+Vereinzelte Gefahrenstellen für Schneebrettlawinen gibt es in hochalpinen Lagen (oberhalb von etwa 2600m) im von Nordwest über Nord bis Ost schauenden, noch weiter oben mitunter auch noch im südseitigen Steilgelände. Dort kann insbesondere große Zusatzbelastung zur Auslösung eines mitunter gefährlich großen Schneebretts genügen. Gefahrenbereiche sind vor allem kammnahes Steilgelände.</avActivityComment>
+          <snowpackStructureComment>Es apert von Tag zu Tag stark aus. Die verbliebene Schneedecke ist 0-Grad-isotherm und verbreitet naß. Ein Großteil der potenziellen Lawinen ist bis etwa 2300 m hinauf bereits abgegangen. Darüber gibt es insbesondere im Nord- und Ostsektor noch relevante Rücklagen . Oberhalb etwa 2600m gibt es Schwachschichten im Altschnee (nahe der rotbraunen Saharastaubschicht), an denen zuletzt einige mittlere und einzelne Große Schneebrettauslösungen erfolgten.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht ist bedeckt und nicht kalt. Etwas Regen bis gegen 2200m.&#13;
+Am Karsamstag dominieren Wolken und Nebel in den Gipfelbereichen. Am Vormittag und über Mittag kühlt es von Norden her um 7 Grad ab, mit auflebendem Nordwind. Am Vormittag und über Mittag regnet es immer wieder mal, Schneefallgrenze sinkt dann von 2200 auf 1400m. Neuschneemengen im Hochgebirge sind nicht relevant. Am Nachmittag können die Wolken zwischen den Schneeschauern aufbrechen. In 2000m von +1 auf -4 sinkend im Tagesverlauf. In 3000m Abkühlung auf -11 Grad.&#13;
+Die Nacht auch Sonntag ist zumindest tlw. klar. &#13;
+Am Ostersonntag ist es dann sonnig, über weite Strecken wolkenlos. Dabei deutlich kälter als zuletzt. In 2000m um -6 Grad. Teilweise starker Nordwind.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag und Montag ist nach klarer Nacht und kalten Temperaturen die Schneedecke am Vomittag gefroren und firnt dann auf. Altschneeproblem im Hochgebirge geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2176RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2176RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelte spontane Lawinen, meist klein, wenig Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem, kleine spontane Lawinen möglich, allgemein wenig Schnee</avActivityHighlights>
+          <avActivityComment>Nassschneeproblem: Die Lawinengefahr ist wegen der geringen Schneelage GERING. Durch den Regen und fehlende nächtliche Ausstrahlung sind vereinzelte spontane nasse Lockerschneelawinen und wenige Gleitschneelawinen (insbesondere im Nordsektor) möglich. Diese bleiben meist klein.</avActivityComment>
+          <snowpackStructureComment>Nur noch wenig Schnee. Es apert von Tag zu Tag stark aus. Die verbliebene Schneedecke ist 0-Grad-isotherm und naß. Der meiste Teil der potenziellen Lawinen ist bereits abgegangen. Relevante Mengen gibt es kleinräumig im Nord- und Ostsektor.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht ist bedeckt und nicht kalt. Kurz kann es auflkockern. &#13;
+Am Karsamstag dominieren am Vormittag Wolken über Gipfelniveau.Niederschlag ist kaum dabei. Ab Mittag dominiert die Sonne. Nordwind mit bis zu 50 km/h. Es kühlt ab. In 2000m von +1 auf -4 sinkend im Tagesverlauf. &#13;
+Die Nacht auch Sonntag ist sternenklar. &#13;
+Am Ostersonntag ist es dann sonnig und wolkenlos. Dabei deutlich kälter als zuletzt. In 2000m um -6 Grad. Teilweise noch starker Nordwind.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag und Montag ist nach klarer Nacht und kalten Temperaturen die Schneedecke am Vomittag gefroren und firnt dann auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

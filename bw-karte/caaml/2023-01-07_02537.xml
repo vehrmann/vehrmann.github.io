@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2537RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2537RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Beim Bergwandern die Sturzgefahr wegen der vereisten Schneeoberfläche beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. In den höchsten Regionen der Bayerischen Alpen sind im kammnahen Steilgelände vereinzelt kleine Triebschneeansammlungen anzufinden, die bereits durch geringe Zusatzbelastung als kleine Schneebrettlawine ausgelöst werden können. Die Absturzgefahr überwiegt dabei die Gefahr einer Verschüttung.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Die Schneedecke ist gut gesetzt und oberflächlich verharscht. Kleine Triebschneeansammlungen im kammnahen Steilgelände der Hochlagen sind stellenweise nur schlecht mit der harten Altschneeoberfläche verbunden. Zwischenschichten mit größeren Kristallen im Altschnee sind kaum mehr störanfällig. In mittleren Lagen liegt nur noch wenig Schnee, vielerorts ist der Boden vollständig ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Mit einem Wetterumschwung wird das Triebschneeproblem ab Montag wieder größer werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

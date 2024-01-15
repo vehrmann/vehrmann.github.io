@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1510RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1510RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, leicht auslösbar, umfangreicher Triebschnee, auch in Waldbereichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Sturm - labilen Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Am Freitag haben sich durch Neuschnee und Sturm aus West bis Nordwest frische labile Triebschneeablagerungen gebildet. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Sie befinden sich in allen Hangrichtungen, vor allem aber im erweiterten Ost- und Südsektor. Schneebrettlawinen können an vielen Stellen bereits durch geringe Zusatzbelastung ausgelöst werden. Selbst in Waldbereichen ist leicht auslösbarer Triebschnee vorhanden.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind und Neuschnee (rund 25 cm, hochgelegen und gebietsweise auch mehr) führten am Freitag zu frischen Triebschneeablagerungen. Die Schneedecke ist stark windbeeinflusst. Exponiertes Gelände ist abgeweht. Auch in Waldbereichen gibt es labilen Triebschnee. Schwachschichten, wie dünne weichere oder härtere Schichten, überdeckter Oberflächenreifen und Graupeleinlagen, können in Triebschneepaketen oder am Übergang zur Altschneedecke auftreten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag geht es am Vormittag trocken weiter, bei einigen Wolkenfeldern sollte die Sicht noch in Ordnung sein. Im Lauf des Nachmittags verschlechtert sich diese, Schneefall setzt ein. Der Wind weht auf den Bergen weiterhin lebhaft bis stark aus West bis Nordwest. In 1500 m Erwärmung von -5 auf -1 Grad, in 2000 m von -7 auf -3 Grad.&#13;
+Am Sonntag ist auf den Bergen mit stürmischem Wind zu rechnen, in exponierten Lagen auch orkanartige Böen möglich! Dazu ist vor allem bis über Mittag die Sicht durch dichte Wolken und zeitweilige Schneefälle eingeschränkt. Der Niederschlagsschwerpunkt liegt in den klassischen Nordstaulagen, dort schneit es teils anhaltend, mitunter bis in den Nachmittag hinein. In 1500 m zu Mittag -5 Grad, in 2000 m -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag wenig Änderung. Danach wieder Neuschnee und Wind!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

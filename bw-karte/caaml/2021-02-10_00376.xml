@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID376RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID376RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammfern, in Waldschneisen, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Über 1500m herrscht mäßige Lawinengefahr. Durch den stürmischen Wind und etwas Neuschnee bilden sich vorrangig in den Expositionen Nord über Ost bis Südwest kleinräumig frische Triebschneepakete. Je nach Windeinfluss existieren die Gefahrenstellen hinter kammnahen und auch kammfernen Geländeübergängen sowie in Rinnen und Mulden bis in lichte Walbereiche und können schon durch die geringe Zusatzbelastung eines Alpinisten zu einer Schneebrettauslösung führen. Zudem schwächt in schattseitigen Hochlagen nach wie vor ein Altschneeproblem das Schneedeckenfundament. Schlechte Sichtverhältnisse erschweren die Beurteilung der Lawinengefahr im Gelände zusätzlich. Exponierte Bereiche gestalten sich oft hart, die Absturzgefahr darf nicht unterschätzt werden.</avActivityComment>
+          <snowpackStructureComment>Der frische, spröde Triebschnee ist meist schlecht mit der Altschneedecke verbunden. Störanfällige Schwachschichten befinden sich innerhalb der Auflage (eingelagerte weichere Schichten durch unterschiedlich starken Windeinfluss) sowie im Übergang zur Altschneedecke (lockerer Schnee). In den Hochlagen besteht vor allem schattseitig vereinzelt noch ein Altschneeproblem (Schwimmschneefundament), abgesehen davon ist die Altschneedecke stabil und kompakt.</snowpackStructureComment>
+          <wxSynopsisComment>Es herrscht unwirtliches Bergwetter! Die Berge stecken weitgehend in dichten Wolken, und immer wieder kann es etwas schneien. Der starke bis stürmische Nordwestwind verstärkt das Kälteempfinden bei ohnehin arktischen Temperaturen mit Werten um -16 Grad in 1500m und bis zu -20 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>Bei weitgehend sonnigem Bergwetter bleibt es bei trockener, arktischer Kaltluft und meist schwachem bis lebhaftem Nordwind bitter kalt. Das Triebschneeproblem bleibt in Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID376RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID376RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt frischer Triebschnee, geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Türnitzer Alpen herrscht geringe Lawinengefahr. Vereinzelt können frische Triebschneelinsen Gefahrenstellen bilden, die durch den stürmischen Wind auch in lichten Waldbereichen bzw. Schneisen existieren und gestört werden können.</avActivityComment>
+          <snowpackStructureComment>Auf der verharschten und stabilen Altschneedecke lagern sich kleinere Triebschneepakete ab, die Schwachschichten in Form von weicheren Schneeeinlagerungen enthalten können und nicht immer gut mit dem Untergrund verbunden sind. Ansonsten ist die Altschneedecke überwiegend kompakt und stabil.</snowpackStructureComment>
+          <wxSynopsisComment>Es herrscht unwirtliches Bergwetter! Die Berge stecken weitgehend in dichten Wolken, und immer wieder kann es unergiebig schneien. Der starke bis stürmische Nordwestwind verstärkt das Kälteempfinden bei ohnehin arktischen Temperaturen mit Werten um -12 Grad in 1000m und -16 Grad in 1500m.</wxSynopsisComment>
+          <tendencyComment>Bei weitgehend sonnigem Bergwetter bleibt es bei trockener, arktischer Kaltluft und meist schwachem bis lebhaften Nordwind bitter kalt. Vorerst keine Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

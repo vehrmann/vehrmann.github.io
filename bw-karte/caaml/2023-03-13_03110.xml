@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3110RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3110RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität, mit einsetzendem Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Waldgrenze - frischer, störanfälliger Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit MÄSSIG beurteilt, darunter mit GERING. In den Hochlagen bilden sich frische Triebschneeansammlungen in den Nord und Ostsektoren, hinter Geländekanten sowie in Rinnen und Mulden. Sie sind können stellenweise bereits durch geringe Zusatzbelastung ausgelöst werden und Lawinen können mittlere Größe erreichen. Die Gefahrenstellen sind aufgrund der eingeschränkten Sicht nur schwer zu erkennen und nehmen mit der Höhe zu. &#13;
+ Unterhalb von etwa  1600 m schwächt Regen die Schneedecke, hier sind nasse Lockerschneelawinen aus steilem Gelände zu erwarten. Aufgrund der unterdurchschnittlichen Schneemenge bleiben die Lockerschneelawinen meist klein, nur in noch nicht entladenen Hängen können vereinzelt auch mittlere Größen erreicht werden. </avActivityComment>
+          <snowpackStructureComment>In den vergangenen Tagen wurde die Schneedecke bis in hohe Lagen angefeuchtet, bodennah ist die Schneedecke meist feucht bzw. nass. Generell ist die Altschneedecke jedoch recht stabil. Schwachschichten in älteren Triebschneepaketen sowie am Übergang zur Altschneedecke sind mittlerweile meist abgebaut und nur noch vereinzelt in den schattigen Hochlagen ein Thema. Frische Triebschneepakete, welche sich im Laufe des Dienstags bilden, verbinden sich oft gut mit der bestehenden, feuchten Altschneedecke, störanfällige Schwachschichten können sich jedoch innerhalb der frischen Triebschneeansammlungen befinden.&#13;
+In mittleren Lagen ist die Schneedecke meist durchfeuchtet oder nass. Der Regeneintrag weicht die Schneedecke hier weiter auf, wodurch sie weiter an Stabilität verliert. In tiefen Lagen ist meist nur noch eine durchbrochene Schneedecke vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Gipfel der &#13;
+steirischen Berge zumeist in dichte Wolken gehüllt, von Westen her &#13;
+breiten sich Regen und Schneefall im Laufe des Vormittags auf alle Bergregionen aus. Die &#13;
+Schneefallgrenze liegt morgens noch zwischen 1600m in der &#13;
+Dachsteinregion und über 2000m auf der Koralpe, sinkt im Tagesverlauf &#13;
+aber auf 1000m bzw. 1500m ab. In Lagen oberhalb der Waldgrenze kommen im Bereich von Dachstein und dem Toten Gebirge bis zu den Niederen Tauern etwa 10 cm Neuschnee zusammen, sonst nur wenige Zentimeter. Der Höhenwind weht im Bereich der Koralpe &#13;
+bis Mittag teils stürmisch aus Südwest, sonst in Kammlagen meist nur &#13;
+mäßig aus Südwest bis West. In 2000m Seehöhe hat es zu Mittag um 0 Grad.&#13;
+ Gegen Abend dreht der Wind dann überall auf Nordwest und bringt weitere&#13;
+ Abkühlung.</wxSynopsisComment>
+          <tendencyComment>Wenig Veränderung der Lawinengefahr. Mit sinkenden Temperaturen nimmt die Nassschneeproblematik ab. Schwachschichten im frischen Triebschnee bleiben vorerst bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3110RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3110RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne, kammnahe Triebschneelinsen, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität, mit einsetzendem Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - dünne Triebschneelinsen über der Waldgrenze.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Dünne Triebschneelinsen bilden in Nord- und Ostsektoren über der Waldgrenze, diese können vereinzelt auch bei geringer Zusatzbelastung ausgelöst werden, bleiben jedoch klein. Dazu sind aus noch nicht entladenem Steilgelände  kleine, nasse Lockerschneerutsche möglich. Schattseitig ist in den Hochlagen auf die Absturzgefahr zu achten, hier ist es teils eisig. </avActivityComment>
+          <snowpackStructureComment>In den vergangenen Tagen wurde die Schneedecke bis in hohe Lagen angefeuchtet, bodennah ist die Schneedecke meist feucht bzw. nass. Generell ist die Altschneedecke jedoch recht stabil, in schattseitigen Hochlagen teils noch hart und vereist. Schwachschichten in älteren Triebschneepaketen sowie am Übergang zur Altschneedecke haben sich mittlerweile bis in die Gipfellagen gut stabilisert.  Frische, dünne Triebschneelinsen, welche sich im Laufe des Dienstags bilden, verbinden sich oft gut mit der bestehenden, feuchten Altschneedecke, störanfällige Schwachschichten können sich jedoch innerhalb der frischen Triebschneeansammlungen befinden.&#13;
+In mittleren Lagen ist die Schneedecke meist durchfeuchtet oder nass. Der Regeneintrag weicht die Schneedecke hier weiter auf, wodurch sie weiter an Stabilität verliert. Auch das Gleiten der Schneedecke auf steilen Grashängen nimmt wieder zu. Die Schneemächtigkeiten sind aber so gering, dass keine größeren Lawinen zu erwarten sind. In tiefen Lagen ist meist nur noch eine durchbrochene Schneedecke vorhanden, im Grazer Bergland liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Gipfel der &#13;
+steirischen Berge zumeist in dichte Wolken gehüllt, von Westen her &#13;
+breiten sich Regen und Schneefall im Laufe des Vormittags auf alle Bergregionen aus. Die &#13;
+Schneefallgrenze liegt morgens noch zwischen 1600m in der &#13;
+Dachsteinregion und über 2000m auf der Koralpe, sinkt im Tagesverlauf &#13;
+aber auf 1000m bzw. 1500m ab. In Lagen oberhalb der Waldgrenze kommen im Bereich von Dachstein und dem Toten Gebirge bis zu den Niederen Tauern etwa 10 cm Neuschnee zusammen, sonst nur wenige Zentimeter. Der Höhenwind weht im Bereich der Koralpe &#13;
+bis Mittag teils stürmisch aus Südwest, sonst in Kammlagen meist nur &#13;
+mäßig aus Südwest bis West. In 2000m Seehöhe hat es zu Mittag um 0 Grad.&#13;
+ Gegen Abend dreht der Wind dann überall auf Nordwest und bringt weitere&#13;
+ Abkühlung.</wxSynopsisComment>
+          <tendencyComment>Wenig Veränderung der Lawinengefahr. Mit sinkenden Temperaturen nimmt die Nassschneeproblematik ab. Schwachschichten im frischen Triebschnee bleiben vorerst bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

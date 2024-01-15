@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1442RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1442RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1400 m mäßig, darunter gering. Problematisch ist frischer Triebschnee. Gefahrenstellen befinden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, in frisch eingewehten Rinnen und Mulden auch im Waldübergangsbereich sowie unterhalb von Hangkanten. Schneebrettlawinen können stellenweise durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden und mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee wird von starkem Wind aus westlichen Richtungen verfrachtet und es bilden sich kleinräumig frische Triebschneeansammlungen. Diese kommen auf lockeren Schneeschichten oder aufgebaut umgewandelten Schneekristallen, die sich in der teils klaren Nacht bilden können, zu liegen und sind störanfällig. Zudem wurde im Waldübergangsbereich eine dünne Eislamelle eingeschneit, unter der sich stellenweise kantige Kristalle gebildet haben. Ansonsten ist die Altschneedecke allgemein kompakt und stabil. Insgesamt ist die Mächtigkeit der Schneedecke unterdurchschnittlich, in tieferen Lagen fehlt vielerorts eine solide Schneeunterlage.</snowpackStructureComment>
+          <tendencyComment>An der Lawinengefahr wird sich vorerst wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1442RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1442RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhöhte Lawinengefahr mit Neuschnee und Wind!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m erheblich, darunter mäßig. Das Hauptproblem ist störanfälliger Neuschnee. Dieser kann sich als Lockerschneelawine von selbst lösen oder als Schneebrettlawine bereits vom einzelnen Wintersportler ausgelöst werden. Von Lockerschneelawinen  ist besonders das felsige Steilgelände und Hänge unterhalb davon betroffen. Schneebrettlawinen können vom einzelnen Wintersportler an vielen Steilhängen aller Expositionen, kammnah, in Rinnen und Mulden und unterhalb von Geländekanten ausgelöst werden. Mit zunehmender Höhe, nach Osten hin und im Tagesverlauf werden die Gefahrenstellen umfangreicher. Große Lawinen sind nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Der angekündigte Neuschnee fällt auf eine pulvrige Schneeoberfläche und verbindet sich mit dieser nur schlecht. Wind aus westlichen Richtungen verfrachtet den Schnee und ältere Triebschneeansammlungen werden von frischen überdeckt. Insgesamt wächst die Schneemenge vor allem in leeseitigen Hängen und eingewehten Rinnen und Mulden stark an. Schwache Zwischenschichten konnten sich in Niederschlagspausen an der Schneeoberfläche bilden und finden sich nun unterhalb des Neuschneepakets. Zudem wurde im Waldübergangsbereich stellenweise eine dünne Eislamelle eingeschneit, unter der sich kantige Kristalle gebildet haben.</snowpackStructureComment>
+          <tendencyComment>Mit Schneefall und Wind wird die Lawinenlage angespannt bleiben, bevor sie sich nächste Woche wieder entspannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-43"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1442RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1442RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kritische Neuschneemenge wird im Tagesverlauf erreicht, erhöhte Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf in höheren Lagen von erheblich auf groß, in tieferen Lagen von mäßig auf erheblich an. Das Hauptproblem ist störanfälliger Neuschnee. Dieser kann sich als Lockerschneelawine oder als Schneebrettlawine von selbst lösen oder bereits vom einzelnen Wintersportler sehr leicht ausgelöst werden. Von Lockerschneelawinen  sind Steilhänge aller Expositionen und besonders Bereiche unterhalb felsigen Steilgeländes  betroffen. Schneebrettlawinen können sich durch die Auflast des Neuschnees an vielen Steilhängen aller Expositionen von selbst lösen oder vom einzelnen Wintersportler kammnah, in Rinnen und Mulden und unterhalb von Geländekanten ausgelöst werden. Mit zunehmender Höhe und im Tagesverlauf werden die Gefahrenstellen umfangreicher. Oberhalb der Waldgrenze ist dann mit vielen großen Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Ein halber Meter Neuschnee, bis zum Samstag Abend örtlich auch mehr fällt auf eine pulvrige Schneeoberfläche und verbindet sich mit dieser nur schlecht. Wind aus westlichen Richtungen verfrachtet den Schnee umfangreich und ältere Triebschneeansammlungen werden von frischen überdeckt. Insgesamt wächst die Schneemenge vor allem in leeseitigen Hängen und eingewehten Rinnen und Mulden stark an. Schwache Zwischenschichten konnten sich in Niederschlagspausen an der Schneeoberfläche bilden und finden sich nun unterhalb des Neuschneepakets. </snowpackStructureComment>
+          <tendencyComment>Mit weiterem Schneefall und Wind  wird die Lawinenlage vorerst sehr angespannt bleiben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1550RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1550RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Der viele Neuschnee kann sich von selbst lösen. Zusätzlich ist auf große Triebschneeansammlungen zu achten. Die Lawinensituation ist heikel.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze groß, darunter ist sie erheblich. Die Hauptgefahr geht vom vielen Neu- und Triebschnee aus. Viele Gefahrenstellen befinden sich im Steilgelände aller Hangrichtungen vor allem kammnah, in eingewehten Rinnen und Mulden und auch kammfern hinter Geländekanten. Große Schneebrettlawinen lassen sich vielerorts bereits durch einen einzelnen Skifahrer auslösen. Große und teils sehr große Lockerschnee- und Schneebrettlawinen können sich zudem aus steilen Hängen von selbst lösen und exponierte Verkehrswege gefährden.</avActivityComment>
+          <snowpackStructureComment>Bis Dienstagabend hat es verbreitet 30 bis 50 cm geschneit, lokal auch mehr. Weitere ergiebige Niederschläge sind angekündigt. Stürmischer Wind aus nordwestlichen Richtungen verfrachtet den Schnee laufend. Umfangreiche und störanfällige Triebschneeansammlungen sind entstanden und vergrößern sich. In Phasen mit weniger Wind konnten schwache Zwischenschichten innerhalb der Triebschneepakete entstehen, teilweise ist Graupel eingelagert. An der Grenze zur Altschneedecke finden sich stellenweise kantige Kristalle unterhalb einer dünnen Harschschicht. Insgesamt ist die Schneedecke stark vom Wind geprägt und die Schneehöhen sehr unterschiedlich.</snowpackStructureComment>
+          <tendencyComment>Unternehmungen abseits gesicherter Pisten erfordern große Vorsicht und sehr gutes lawinenkundliches Wissen! Mit Abklingen der Niederschläge kann die Lawinengefahr am Donnerstag leicht zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

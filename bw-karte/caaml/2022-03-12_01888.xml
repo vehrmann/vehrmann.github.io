@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1888RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1888RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation mit nur wenigen Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Es gibt nur sehr wenig Gefahrenstellen, welche vorwiegend in schattseitigen Expositionen bei den Übergängen von wenig zu mehr Schnee vorhanden sein können. Eine Lawinenauslösung ist hier vereinzelt noch durch eine große Zusatzbelastung möglich. Die Anzahl der Gefahrenstellen ist in den nordwestlichen Gebirgsgruppen etwas größer als in den restlichen Kärntner Gebirgsgruppen. Besonders im extremen Steilgelände sollte auf die Mitreiß- und Absturzgefahr Bedacht genommen werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist kompakt und verbreitet stabil. Sie ist auch mit abgeblasenen Geländekanten und Windzeichen gezeichnet. Ein ansprechen der aufbauend umgewandelten Schichten in der Altschneedecke ist kaum möglich. Vor allem sonnseitig wird die Schneedeckenoberfläche im Tagesverlauf etwas aufgeweicht. In tiefen Lagen liegt kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Sonntag strahlend sonnig und mit guter Fernsicht. Bei schwachem bis mäßigem Südwestwind erreichen die Temperaturen nach einer kalter Nacht in 2000 m -4 Grad. Am Montag scheint oft die Sonne und in der Höhe wird es milder.</wxSynopsisComment>
+          <tendencyComment>Weiterhin günstige Lawinensituation bei geringer Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

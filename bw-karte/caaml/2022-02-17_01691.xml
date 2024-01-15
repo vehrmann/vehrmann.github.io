@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1691RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1691RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleine bis mittlere Nassschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilen vergrasten Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In der Nacht auf Freitag Neuschnee und stürmischer Wind – untertags markanter Temperaturanstieg!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze gibt es frische Triebschneeablagerungen durch etwas Neuschnee und Sturm aus westlichen Richtungen. Schneebrettlawinen können in frisch eingewehten sehr steilen Hängen lokal bereits durch geringe Zusatzbelastung ausgelöst werden. Im Tagesverlauf steigen die Temperaturen stark an und die Sonne kann durchkommen. Somit steigt die Gefahr für spontane Lawinen an. Zu beachten sind dann in den höheren Lagen feuchte Lockerschneelawinen aus sehr steilem schroffem Gelände. Darunter sind spontane Gleit- und Nassschneelawinen aus nicht entladenen Bereichen möglich. Hänge mit Rissen in der Schneedecke sollten gemieden werden. In den Hochlagen schatt- und nordseitig lokal noch Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>In der Nacht von Donnerstag auf Freitag gibt es Neuschnee (10 – 15 cm) der durch stürmischen Wind verfrachtet wird. Zuletzt gebildete und vor allem die frischen Triebschneeablagerungen binden mit der Altschneedecke nicht immer ausreichend. Durch den Temperaturanstieg kann sich die Bindung aber bald bessern. Die Schneedecke wird aber je nach Höhe und Einstrahlung bald feucht bis nass und verliert somit an Stabilität. Schattseitig kann die Altschneedecke noch Schwachschichten enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag weht der Wind im Hochgebirge anfangs noch stark, in den unteren Höhenlagen beruhigt sich die Situation dagegen deutlich. Die Sicht ist in den Morgenstunden noch öfter durch tiefe Wolken mit ein wenig Schneefall eingeschränkt, tagsüber stellt sich zeitweise sonniges Wetter mit meist ausreichender Sicht ein. Temperaturen in 1500 m morgens -1, abends 9 Grad, in 2000 m Anstieg von -5 auf 5 Grad.&#13;
+Am Samstag stecken die Berge zunächst häufig in Wolken, die Sicht ist auf den Bergen der Nordalpen durch Nebel und Schneeschauer eingeschränkt. Im Tagesverlauf beruhigt sich das Wetter. Der Nachmittag bringt auch im Nordalpenbereich bessere Sicht und vermehrt Auflockerungen. Es weht starker Wind aus West bis Nordwest. Temperaturen in 1500 m um -4 Grad, in 2000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Abkühlung am Samstag geht die Gefahr für spontane Nassschneelawinen zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID915RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID915RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-21T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-22T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-22T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-22T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch Nass- und Gleitschnee!</avActivityHighlights>
+          <avActivityComment>Durch Erwärmung, Einstrahlung und Regeneintrag steigt die Lawinengefahr im Tagesverlauf rasch von gering auf mäßig an. Insbesondere in mittleren Lagen sorgt Durchfeuchtung für einen Festigkeitsverlust der Schneedecke und es können sich aus dem Steilgelände aller Expositionen Nassschneerutschungen spontan lösen. Auf steilen Wiesenhängen und Böschungen sind spontane Gleitschneelawinen zu erwarten, die allerdings nicht sehr groß werden.</avActivityComment>
+          <snowpackStructureComment>In den Schattseiten der Hochlagen gibt es vereinzelt noch kalte Triebschneeablagerungen, die aber gut mit der Altschneedecke verbunden sind. Sonnseitig und in mittleren und tiefen Lagen aller Expositionen wird der Schnee zunehmend nass und verliert an Stabilität. Auf steilen Wiesen und in Laubwäldern gleitet der Schnee am Untergrund ab.  </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag startet sonnig, aber schon zu Mittag bringt eine Störungszone dichte Wolken und Regen- und Schneeschauer. Die Schneefallgrenze liegt zwischen 1700 und 1400 m. Am Nachmittag nehmen die Schauer wieder ab. Die Temperaturen in 1500 m liegen bei +2 Grad, der Wind weht teilweise lebhaft aus Westen.</wxSynopsisComment>
+          <tendencyComment>Am Freitag bringt Hochdruckeinfluss ruhiges, aber noch kühles Bergwetter. Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID915RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID915RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber kleinere Nass- und Gleitschneerutsche zu erwarten!</avActivityHighlights>
+          <avActivityComment>Durch Erwärmung, Einstrahlung und Regeneintrag können sich aus dem Steilgelände aller Expositionen kleine Nassschneerutsche spontan lösen. Auf steilen Wiesenhängen und Böschungen kommt es zu spontanen Gleitschneerutschungen. Es sind aber keine größeren Lawinen zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wird nass und verliert an Festigkeit. Auf steilen Wiesen und in Laubwäldern kann die Schneedecke am Boden abgleiten. </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag startet sonnig, aber schon zu Mittag bringt eine Störungszone dichte Wolken und Regen- und Schneeschauer. Die Schneefallgrenze liegt zwischen 1700 und 1400 m. Am Nachmittag nehmen die Schauer wieder ab. Die Temperaturen in 1500 m liegen bei +2 Grad, der Wind weht teilweise lebhaft aus Westen.</wxSynopsisComment>
+          <tendencyComment>Am Freitag bringt Hochdruckeinfluss ruhiges, aber noch kühles Bergwetter. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

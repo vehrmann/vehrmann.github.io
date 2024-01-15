@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID336RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:10:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID336RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:10:52+00:00</beginPosition>
+          <endPosition>2021-02-05T18:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-04T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-05T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-05T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-05T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-04T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-05T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-05T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-05T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität aus stark besonnten Steilhängen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Brüchiger Harsch weicht auf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1400 m MÄßIG, darunter zunächst GERING und steigt mit der Tageserwärmung auch dort auf MÄßIG an. Kleinere Nassschneerutsche und einzelne, auch mittelgroße spontane Gleitschneelawinen aus dem extrem steilen Grasmattengelände oder aus Waldschneisen sind möglich. An vereinzelten Stellen in den Richtungen NW-NO-O ist vom lichten Hochwald aufwärts insbesondere bei großer Zusatzbelastung im sehr steilen Gelände eine Schneebrettauslösung denkbar. Schneebretter könnten mittelgroß werden.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf. Unter dem letzten Triebschnee verstecken sich teilweise noch schwache Schichten, die teilweise noch zu stören sind. Die Schneedecke ist beinahe in allen Richtungen schon ziemlich isotherm und im Inneren unterschiedlich feucht. Auch der bodennahe bindungslose Zuckerschnee ist meist schon feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Günstiges Tourenwetter: Zwar ziehen immer wieder Wolken über den Himmel, aber dazwischen scheint auch die Sonne. Es bleibt trocken, mild und die Sicht ist kaum eingeschränkt. Noch milder als am Donnerstag: In 1500 m 3 bis 8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag unverändert frühlingshaft. Der Südföhn wird stärker. Die Temperaturen steigen gegenüber Freitag noch geringfügig an. Tagesgang von Nass- und Gleitschneelawinen insbesondere aus besonnten Steilhängen unterhalb etwa 2200 m.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID336RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:10:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID336RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:10:52+00:00</beginPosition>
+          <endPosition>2021-02-05T18:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität, Festigkeitsverlust ab dem Vormittag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel oberhalb etwa 1800 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nass- und Gleitschneelawinen ab dem Vormittag, Altschneeproblem in Hochlagen</avActivityHighlights>
+          <avActivityComment>Sonnseitig steigt mit Einstrahlung und Erwärmung die Gefahr spontaner Nass- und Gleitschneelawinen schon am Vormittag unterhalb etwa 2000 m auf MÄßIG an. Bereiche unterhalb von Gleitschneemäulern meiden, Fußbereiche steiler Grasmattenhänge können gefährdet sein!&#13;
+Oberhalb von etwa 1800 m kann man nach wie vor an sehr steilen Stellen, insbesondere in den Richtungen NW-NO-SO, ein trockenes Schneebrett auslösen. An ungünstigen Geländepunkten kann dazu bereits geringe Zusatzbelastung ausreichen. Schneebretter können mittelgroß und vereinzelt groß werden. Heikel sind die letzten Triebschneepakete und hier vor allem deren Randbereiche, die gut zu erkennen sind (mehrheitlich kammnah, aber auch kammfern). Aufpassen bzw. meiden sollte man auch schneearme Steilbereiche und Übergänge von wenig zu viel Schnee.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf, schattseitig bis etwa 1800 m. Windexponiertes Gelände ist hart oder abgeweht. Unter dem letzten Triebschnee verstecken sich teilweise noch schwache Schichten, die teilweise noch zu stören sind. Tiefer liegende Altschneeprobleme im mittleren Drittel (kantige Zwischenschicht) der Schneedecke bzw. jenes vom Jänneranfang (bindungsloser Zuckerschnee im unteren Drittel der Schneedecke) ist nur noch mit starkem Impuls ansprechbar. Auf sehr steilen Grasmatten Gleitet die Schneedecke am Boden, Gleitschneerisse öffnen sich.</snowpackStructureComment>
+          <wxSynopsisComment>Günstiges Tourenwetter: Zwar ziehen immer wieder Wolken über den Himmel, aber dazwischen scheint auch die Sonne. Es bleibt trocken, mild und die Sicht ist kaum eingeschränkt. In den Hohen Tauern kommt gegen Abend schwacher Südföhn auf. Noch milder als am Donnerstag: In 2000 m 1 bis 6 Grad, in 3000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag unverändert frühlingshaft. Der Südföhn in den Tauern greift etwas mehr nach Norden aus. Die Temperaturen steigen gegenüber Freitag noch geringfügig an. Tagesgang von Nass- und Gleitschneelawinen insbesondere aus besonnten Steilhängen unterhalb etwa 2200 m.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID336RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:10:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID336RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:10:52+00:00</beginPosition>
+          <endPosition>2021-02-05T18:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität unterhalb etwa 2000 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, älterer Triebschnee auch im erweiterten Ostsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen im Triebschnee und spontane Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch spontane Nass- und Gleitschneelawinen steigt bereits am Vormittag auf MÄßIG an. Betroffen ist v.a. stark besonntes und sehr steiles Grasmattengelände unterhalb etwa 2000 m. Bereiche unter Gleitschneerissen meiden, Fußbereiche sehr steiler Grashänge können gefährdet sein!&#13;
+Oberhalb von ca. 1800 m kann man nach wie vor an sehr steilen Stellen, insbesondere in den Richtungen NW-NO-SO ein trockenes Schneebrett auslösen. An ungünstigen Geländepunkten kann dazu bereits geringe Zusatzbelastung ausreichen. Schneebretter können mittelgroß und vereinzelt groß werden. Heikel sind die frischen Triebschneepakete (dünn) sowie die Randbereiche des älteren Triebschnees, die gut zu erkennen sind (mehrheitlich kammnah, teilweise aber auch kammfern). Bewusst meiden sollte man schneearme Steilbereiche und Übergänge von wenig zu viel Schnee.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf, schattseitig bis etwa 1800 m. Windexponiertes Gelände ist hart oder abgeweht. Südföhn hat in den Hochlagen zuletzt noch kleinräumig dünne Triebschneelinsen gebildet. Unter dem Triebschnee verstecken sich noch schwache Schichten, die teilweise noch zu stören sind. Tiefer liegende Altschneeprobleme im mittleren Drittel (kantige Zwischenschicht) der Schneedecke bzw. jenes vom Jänneranfang (bindungsloser Zuckerschnee im unteren Drittel der Schneedecke) ist nur noch mit starkem Impuls ansprechbar.</snowpackStructureComment>
+          <wxSynopsisComment>Günstiges Tourenwetter: Zwar ziehen immer wieder Wolken über den Himmel, aber dazwischen scheint auch die Sonne. Es bleibt trocken, mild und die Sicht ist kaum eingeschränkt. Der Südföhn weht mit 30 bis 50 km/h. Noch milder als am Donnerstag: In 2000 m um 1 bis 6 Grad, in 3000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag unverändert frühlingshaft. Der Südföhn wird deutlich stärker, vermehrt stürmisch. Die Temperaturen steigen gegenüber Freitag noch geringfügig an. Tagesgang von Nass- und Gleitschneelawinen insbesondere aus besonnten Steilhängen unterhalb etwa 2200 m.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID336RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:10:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID336RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:10:52+00:00</beginPosition>
+          <endPosition>2021-02-05T18:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>auslösbar im Übergang von wenig zu viel von der Waldgrenze aufwärts</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>aus extrem steilem Grasmattengelände unterhalb etwa 2000 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefährdung durch älteren Triebschnee und Gleitschnee</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch spontane Nass- und Gleitschneelawinen (bis mittelgroß), insbesondere aus dem erweiterten Ost- und Südsektor, steigt schon am Vormittag auf MÄßIG an. Fußbereiche sehr steiler Grashänge können gefährdet sein, sofern erkennbar: Bereiche unter Gleitschneemäulern meiden!&#13;
+Oberhalb der Waldgrenze können Schneebretter an einigen Stellen im sehr steilen Gelände, insbesondere in den Richtungen NO-S-W, mitunter noch bei geringer Zusatzbelastung ausgelöst werden. Heikel sind insbesondere Übergänge von wenig zu viel, also etwa die Einfahrten aus abgewehten Zonen. Schneebretter können mittelgroß und vereinzelt groß werden. Gefahrenstellen sind für das geschulte Auge erkennbar. </avActivityComment>
+          <snowpackStructureComment>Mit dem milden Wetter werden die Oberflächen weich und feucht und tragen in den Morgenstunden unterschiedlich harte Krusten. Sonnseitig bis in die Hochlagen, schattseitig gibt es oberhalb etwa 1800 m noch Pulver auf harten Krusten. Die umfangreichen älteren Triebschneepakete sind oberhalb der Waldgrenze noch störanfällig (langlebiges Altschneeproblem). Süd- und ostseitig wird ein verstärktes Gleiten der Schneedecke auf sehr steilen Grasmatten beobachtet.</snowpackStructureComment>
+          <wxSynopsisComment>Günstiges Tourenwetter: Zwar ziehen immer wieder Wolken über den Himmel, aber dazwischen scheint auch die Sonne. Es bleibt trocken, mild und die Sicht ist kaum eingeschränkt. In den Nockbergen Südwind mit 30 bis 40 km/h. Noch milder als am Donnerstag: In 2000 m um 0 bis 4 Grad, in 3000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag unverändert frühlingshaft. Der Südwind legt zu. Die Temperaturen steigen gegenüber Freitag noch geringfügig an. Tagesgang von Nass- und Gleitschneelawinen insbesondere aus besonnten Steilhängen unterhalb etwa 2200 m.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

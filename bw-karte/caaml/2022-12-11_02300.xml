@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2300RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2300RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Höhe eingewehte Rinnen und Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb ca. 2200 m - überdeckte Schwachschichten sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>kleinräumig frischer und älterer Triebschnee sowie in sehr steilen Schattenhängen teilweise schwacher Altschnee sind die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe, in höheren Lagen mäßige Lawinengefahr. Gefahrenstellen sind vor allem oberhalb ca. 2000 m vorhanden. Kleinräumig frische und ältere, überdeckte Triebschneeansammlungen in eingewehten Rinnen und Mulden sowie hinter Geländekanten sind störanfällig. Zudem sind oberhalb ca. 2200 m in sehr steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelne Wintersportler können kleine, mit zunehmender Seehöhe vereinzelt auch mittlere Schneebrettlawinen auslösen. Dies ist bei Aktivitäten abseits gesicherter Bereiche zu beachten. Spontan sind aus sehr steilem Gelände kleine Lockerschneerutsche möglich. Auch in Bereichen mit geringer Lawinengefahr sind vereinzelte Gefahrenstellen im extremen Steilgelände vorhanden. Wintersportler können dort kleine Schneebretter oder Lockerschneelawinen auslösen. Neben einer Verschüttung sollte auch die Mitreiss- und Absturzgefahr beachtet werden.</avActivityComment>
+          <snowpackStructureComment>Auf Sonntag gab es meist um 10 bis 15 cm und untertags nur noch lokal bis 5 cm. Der Wind war am Sonntag meist nur schwach, sodaß nur in höheren Kamm- und Passlagen teilweise kleine Triebschneeansammlungen gebildet wurden. Solche und älterer, überschneiter Triebschnee sind mit zunehmender Seehöhe störbar. Durch die tiefen Temperaturen blieb der jüngste Neuschnee meist sehr locker. Teilweise wurde auch Oberflächenreif eingeschneit, wodurch die Bindung des Neuschnees dazu nur schwach ist. Speziell in sehr steilen Schattenhängen oberhalb ca. 2200 m ist die Altschneedecke vom Spätherbst teilweise kantig aufgebaut. Solche Zwischenschichten sind bei Belastung durch Wintersportler störanfällig und von aussen nicht erkennbar.  Insgesamt ist die Schneedecke noch unregelmäßig: Windexponierte Bereiche waren oft abgeweht und sind jetzt nur mit wenig Neuschnee bedeckt, in Rinnen, Mulden und hinter Geländekanten wurde oft älterer Triebschnee überschneit. Schitouren und Aktivitäten abseits präparierter Pisten und glatten Wiesenhängen  sind in tieferen und mittleren Lagen auf Grund des wenigen Schnees in den meisten Gebieten noch nicht lohnend. Weitere Schneedeckeninformationen und Stabilitätstests liegen dem Lawinenwarndienst derzeit noch nicht vor. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Montag: Es folgt eine überwiegend klare Nacht. Dazu wird es eisig kalt. In den Morgenstunden kommen in hohen Luftschichten Wolkenfelder dazu. Montag: Es wird ein freundlicher, aber eisiger Tag im Gebirge. Sonnenschein und Wolken wechseln sich ab. Die Wolkenbasis liegt zumeist über den höchsten Gipfeln, damit bleiben die Sichten gut. Temperatur in 2000m: -11 Grad; Höhenwind: der Wind dreht auf West bis Nordwest, weht meist mäßig, in Böen auch lebhaft</wxSynopsisComment>
+          <tendencyComment>Dienstag: Bis über Mittag sind im Bergland trotz hoher Wolkenfelder noch einige Sonnenstrahlen dabei und die Sichten bleiben passabel. Am Nachmittag sinkt die Wolkenbasis, die Gipfel geraten in Nebel und die Sonne kommt kaum noch durch. Der Frost im Gebirge schwächt sich etwas ab. Es kommt zunehmend starker Wind aus dem Westsektor auf, welcher zu Verfrachtungen von lockerem Schnee führt. Somit entstehen vor allem in Kamm- und Passlagen frische Triebschneeansammlungen und Umfang und Verbreitung der Gefahrenstellen nehmen somit zu. Die Lawinengefahr kann daher leicht ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

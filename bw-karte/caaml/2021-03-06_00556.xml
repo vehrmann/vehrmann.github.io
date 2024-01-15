@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID556RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID556RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen durch Triebschnee über der Waldgrenze und lokal sind im Tagesverlauf spontane Lawinen möglich!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze vor allem aber kammnah und in eingewehten steilen Mulden und Rinnen sind Gefahrenstellen durch den Triebschnee vom Freitag vorhanden. Hier können Schneebrettlawinen insbesondere durch große, stellenweise im Steilgelände durch geringe Zusatzbelastung ausgelöst werden. Spontane kleine bis selten mittlere Lawinen sind im Tagesverlauf überwiegend sonnseitig aus extrem steilen Gelände möglich. Punktuelles Altschneeproblem hochalpin.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee setzt sich weiter. Die Bindung des Triebschnees zur Altschneedecke verbessert sich, ist aber noch nicht immer ausreichend. Die Altschneedecke ist überwiegend stabil und tragfähig. In den tiefen und teils mittleren Lagen liegt der letzte Neuschnee auf aperem Boden. Allgemein sind die Schneehöhen sehr unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag herrscht über weite Strecken perfektes Bergwetter mit uneingeschränkter Fernsicht und wolkenlosem Himmel. Ab Mittag bilden sich vom Gosaukamm ostwärts Quellwolken, die Gipfelbereiche können dort dann in Nebel geraten. In freien Hochlagen weht mäßig starker Nordwestwind mit 30 km/h. In 1500 m -2 bis +1 Grad, in 2000 m um -5 Grad. In der Nacht auf Montag ist unergiebiger Neuschnee möglich.&#13;
+Am Montag schränken tiefe Wolken die Sicht in den Salzkammergutbergen und im Dachsteingebiet zunächst oft noch ein, weiter östlich und in den Voralpen sind die Bedingungen bereits besser. Ab Mittag lockern die Wolken überall auf. Winterlich kalt bei mäßig starkem Nordwind. In 1500 m -6 bis -3 Grad, in 2000 m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

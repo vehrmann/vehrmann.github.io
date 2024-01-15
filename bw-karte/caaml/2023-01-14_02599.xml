@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2599RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2599RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>tieferliegende Schwachschichten können immer noch zu gefährlich großen Lawinen führen: große Steilhänge möglichst meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frische Triebschneeansammlungen auch kammfern</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer, störanfälliger Triebschnee und schwacher Altschnee</avActivityHighlights>
+          <avActivityComment>Oberhalb 2000m ist die Lawinengefahr MÄßIG, darunter GERING.&#13;
+Lawinen können stellenweise durch das Gewicht eines einzelnen Wintersportlers im schwachen Altschnee ausgelöst werden, besonders am Übergang von wenig zu viel Schnee. Meist Bedarf es aber großer Zusatzbelastung oder extrem steiles Gelände für eine Auslösung. Die Schneebretter können mittlere Größe erreichen. Eine Auslösung ist  an Schattenhängen ab etwa 2000m und an Sonnenhängen oberhalb etwa 2600m möglich. Vorsicht besonders bei Übergängen von wenig zu viel Schnee.&#13;
+Frische Triebschneepakete liegen kammnah, in Föhnschneisen auch kammfern, von Nordwest bis Südost. Sie können mittlere Größe erreichen und sind störanfällig. Die Gefahrenstellen nehmen mit der Höhe zu.  Mit dem nachlassenden Wind am späten Nachmittag können die Triebschneepakete mit Neuschnee überdeckt werden und damit schwer zu erkennen sein.&#13;
+Am Vormittag sind an Südhängen kleinere Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der starke Südwind hat den Schnee umfangreich verfrachtet. Der frischer Triebschnee kommt auf einer vom Wind geprägten Schneedecke zu liegen und ist teilweise mit Graupel durchsetzt. An Schattenhängen in hohen Lagen und dem Hochgebirge, an Sonnenhängen oberhalb etwa 2600m finden sich im Altschnee kantig aufgebaute Schwachschichten. Die Schneedecke ist in der Höhe allgemein unregelmäßig.</snowpackStructureComment>
+          <wxSynopsisComment>Sonntag:&#13;
+Die Wolken lockern am Vormittag im Bereich der Tauern und Nockberge auf und lassen bei lebhaftem Südwind in der Höhe zeitweise die Sonne scheinen. Im Lauf des Nachmittags werden die Wolken dichter und hüllen die Gipfel ein. Eine Kaltfront bringt am Nachmittag  auffrischenden Wind aus westlicher bis nordwestlicher Richtung, eine markante Abkühlung und Schneeschauer mit insgesamt 10 bis 15 cm Neuschnee. In 2000m kühlt es im Lauf des Tages von 4 auf -6 Grad ab, in 3000m von -2 auf -12 Grad.&#13;
+Montag: &#13;
+Die Tauern stecken von Süden her oft in Wolken und es kann zeitweise unergiebig schneien. Im Bereich der Nordalpen scheint bis über die Mittagsstunden meist die Sonne bei guter Sicht, am Nachmittag schirmen Wolkenfelder die Sonne zunehmend ab. In den Hochlagen frischt der Südwind im Lauf des Tages auf und erreicht im Bereich der Tauern Spitzen um 80 km/h. In 2000m beträgt die Temperatur um -6 Grad, in 3000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Zunächst gleichbleibend, Anstieg mit frischen Schnee und Wind in den darauffolgenden Tagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2599RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2599RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah störanfällige Triebschnee;&#13;
+Rinnen und Mulden sind mit Triebschnee beladen, Vorsicht bei der Einfahrt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 2000m MÄßIG, darunter GERING. Frische und schon etwas ältere Triebschneeansammlungen können stellenweise von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen nehmen mit der Höhe zu, Lawinen können  v.a. in den schneereicheren Gebieten in der Höhe vereinzelt mittlere Größe erreichen. Triebschneepakete finden sich von Nordwest bis Südost, besonders in kammnahen Mulden und Rinnen. Mit nachlassendem Wind ab dem späten Nachmittag können Triebschneepakete überdeckt werden und schwer zu erkennen sein.&#13;
+Aus steilen besonnten Wiesenhängen sind vereinzelt kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Frische Triebschneeansammlungen (teilweise mit Graupel) sind meist klein und liegen an kammnahen Steilhängen. Älterer Triebschnee liegt in der Höhe mancherorts auf einer schwachen Altschneedecke, besonders in windgeschützten schattigen Rinnen und Mulden im Nord- und Ostsektor. Bei Schneedeckenuntersuchungen wurde teilweise eingeschneiter Oberflächenreif gefunden. Die Schneedecke ist in der Höhe allgemein stark windbeeinflusst und unregelmäßig.</snowpackStructureComment>
+          <wxSynopsisComment>Sonntag:&#13;
+Die Wolken lockern am Vormittag im Bereich der Tauern auf und lassen bei lebhaftem Südwind in der Höhe zeitweise die Sonne scheinen. Im Lauf des Nachmittags werden die Wolken dichter und hüllen die Gipfel ein. Eine Kaltfront bringt am Nachmittag  auffrischenden Wind aus westlicher bis nordwestlicher Richtung, eine markante Abkühlung und Schneeschauer mit insgesamt 10 bis 15 cm Neuschnee. In 2000m kühlt es im Lauf des Tages von 4 auf -6 Grad ab, in 3000m von -2 auf -12 Grad.&#13;
+Montag: &#13;
+Die Tauern stecken von Süden her oft in Wolken und es kann zeitweise unergiebig schneien. Im Bereich der Nordalpen scheint bis über die Mittagsstunden meist die Sonne bei guter Sicht, am Nachmittag schirmen Wolkenfelder die Sonne zunehmend ab. In den Hochlagen frischt der Südwind im Lauf des Tages auf und erreicht im Bereich der Tauern Spitzen um 80 km/h. In 2000m beträgt die Temperatur um -6 Grad, in 3000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Zunächst gleichbleibend, Anstieg mit frischen Schnee und Wind in den darauffolgenden Tagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2599RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2599RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleine Triebschneeansammlungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die frischen Triebschneepakete sind zu klein und die Schneedecke zu dünn als dass es zu einer Verschüttung kommen könnte - Absturzgefahr beachten.</avActivityComment>
+          <snowpackStructureComment>Auf wenig oder keinem Schnee wird frischer Neuschnee-/Triebschnee abgelegt.</snowpackStructureComment>
+          <wxSynopsisComment>Sonntag:&#13;
+Am Vormittag ziehen ausgebreitete Wolken über den Gipfeln durch, die zeitweise etwas aufhellen. Eine Kaltfront bringt am Nachmittag  auffrischenden Wind aus westlicher bis nordwestlicher Richtung, eine markante Abkühlung und Schneeschauer mit insgesamt bis zu 10 cm Neuschnee. In 2000m kühlt es im Lauf des Tages von 4 auf -6 Grad ab.&#13;
+Montag: &#13;
+Im Bereich der Nordalpen scheint bis über die Mittagsstunden meist die Sonne bei guter Sicht, am Nachmittag schirmen Wolkenfelder die Sonne zunehmend ab. In 2000m beträgt die Temperatur um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Zunächst gleichbleibend, Anstieg mit frischen Schnee und Wind in den darauffolgenden Tagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2599RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2599RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>kammnah, meist klein</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeansammlungen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 2000m MÄßIG, darunter GERING. Frische und schon etwas ältere Triebschneeansammlungen können stellenweise von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen nehmen mit der Höhe zu, Lawinen können  v.a. in den schneereicheren Gebieten in der Höhe vereinzelt mittlere Größe erreichen. Triebschneepakete finden sich von Nord bis Südost, besonders in kammnahen Mulden und Rinnen. In den Nockbergen sind die Gefahrenstellen seltener und die Lawinen kleiner.&#13;
+Aus steilen besonnten Wiesenhängen sind vereinzelt kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Kleine Triebschneepakete liegen an Nord- und Osthängen vereinzelt auf einer lockeren Altschneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntag:&#13;
+Die Wolken lockern am Vormittag im Bereich der Tauern und Nockberge auf und lassen bei lebhaftem Südwind in der Höhe zeitweise die Sonne scheinen. Am späten Nachmittag werden die Wolken dichter und hüllen die Gipfel ein. Eine Kaltfront bringt am Abend  auffrischenden Wind aus westlicher bis nordwestlicher Richtung, eine markante Abkühlung und Schneeschauer mit 10 bis 20 cm Neuschnee in der Nacht. In 2000m kühlt es im Lauf des Tages von 4 auf -6 Grad ab, in 3000m von -2 auf -12 Grad.&#13;
+Montag: &#13;
+Die Nockberge und Tauern stecken von Süden her oft in Wolken und es kann zeitweise unergiebig schneien. In den Hochlagen frischt der Südwind im Lauf des Tages auf. In 2000m beträgt die Temperatur um -6 Grad, in 3000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Anstieg der Gefahr mit frischen Schnee und Wind.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

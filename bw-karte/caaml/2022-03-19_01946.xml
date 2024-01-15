@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1946RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1946RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>durch viel Sonne, vorwiegend sonnseitig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - in höheren Lagen nur einzelne Gefahrenstellen und durch viel Sonne teilweise Nassschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>Überwiegend günstige Verhältnisse. In schattseitigen Hochlagen gibt es einzelne Gefahrenstellen durch eingelagerte ältere Schwachschichten (großer Zusatzbelastung) sowie kleinräumig, kammnahe im sehr steilen hochalpinen Gelände teils störanfälligen Triebschnee. Hänge mit Rissen in der Schneedecke und Gleitschneeaktivität sollten generell gemieden werden. Spontane Lawinen sind im stark besonnten Steilgelände vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich über Nacht gefestigt, ist verharscht und geht durch die kühlen Temperaturen nur vorwiegend sonnseitig vermehrt auf. Bis in die mittleren sonnseitigen Lagen ist sie oft schon durchfeuchtet. Nur in den Hochlagen ist teils zu störender Triebschnee durch starken Wind um Südost lokal vorhanden und die Altschneedecke enthält hier schattseitig teils noch ältere kantige, teils lockere Schwachschichten. </snowpackStructureComment>
+          <wxSynopsisComment>Die Sonne scheint am Sonntag ungetrübt und es gibt gute Sicht. In den Hochlagen weht Südostwind mit Spitzen um 40 km/h. In 1500 m beträgt die Temperatur -4 bis -1 Grad, in 2000 m um -3 Grad&#13;
+Am Montag gibt es strahlenden Sonnenschein bei einem wolkenlosen Himmel. Es weht schwacher bis mäßig starker Nordostwind. In 1500 m beträgt die Temperatur um 3 Grad, in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird langsam milder und es ist sehr sonnig. Zunehmender Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

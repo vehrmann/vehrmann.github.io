@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID704RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID704RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Es herrscht generell geringe Lawinengefahr. Das Triebschneeproblem der vergangenen Tage ist kaum noch ein Thema, nur sehr vereinzelt, z.B. in sehr hoch liegenden, schattigen, extrem steilen Einfahrten zu Rinnen können noch Schneebrettlawinen ausgelöst werden. Durch die Abkühlung lässt auch die Nassschneeproblematik nach, sonnseitig ist aber nach wie vor vereinzelt mit kleinen bis mittleren spontanen Gleitschneelawinen zu rechen.  </avActivityComment>
+          <snowpackStructureComment>Der Triebschnee der vergangenen Schneefallperiode hat sich gut gesetzt und enthält kaum noch Schwachschichten. Sonnseitig überdeckt eine Harschkruste die Schneedecke, schattseitig ist in den höchsten Lagen vereinzelt noch lockerer Schnee zu finden. Über etwa 1000 m kommen im Tagesverlauf wenige Zentimeter Neuschnee dazu. In tiefen Lagen ist die Schneedecke durchnässt.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstagvormittag scheint die Sonne nur noch zeitweise. Ab Mittag nimmt die Bewölkung von Westen her zu und Niederschlag setzt ein. Die Schneefallgrenze sinkt bis etwa 1000 m. Der Wind weht lebhaft aus Nordwest, die Temperaturen in 1500 m sinken im Laufe des Tages bis -1 Grad. </wxSynopsisComment>
+          <tendencyComment>Der Sonntag wird wechselhaft, bleibt aber niederschlagsfrei und die Temperaturen steigen leicht an. Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

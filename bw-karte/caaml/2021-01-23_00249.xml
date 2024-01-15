@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID249RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID249RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze mäßige Lawinengefahr durch Alt- und Triebschnee</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen sowie vom Göller überRax/Schneeberg bis zum Wechsel besteht oberhalb der Waldgrenze mäßige, darunter geringe Lawinengefahr. In den Schattseiten kann in steilen Rinnen und Mulden aufgrund der weiterhin ungünstig aufgebauten Altschneedecke eine Lawinenauslösung durch Alpinisten nicht ausgeschlossen werden. Gefahrenstellen in Form von frischen, kleinräumig auftretenden Triebschneelinsen existieren speziell im erweiterten Ostsektor. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich in den letzten Tagen temperaturbedingt in allen Höhenlagen setzten. Speziell in südexponierten bzw. mittleren und tiefen Lagen wurde sie feucht. Einige spontane Lawinenabgänge (Gleitschnee in steilen Böschungen bzw. im Wald bzw. Schneebretter auf einer bodennahen, kantigen Schwachschicht) waren die Folge. Mit dem Temperatursturz und dem Windeinfluss wurde die Schneeoberfläche verharscht (Bruchharsch). Darauf fielen bis zu 15cm Neuschnee, der mit oft starkem Westwind in nordost- bis südostseitige Hänge verfrachtet wurde. In den Schattseiten ist die Altschneedecke weiterhin durch weiche Schichten kantiger Kristalle geschwächt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag dominieren die Wolken, am Vormittag kann es auch noch ein wenig schneien. Am Nachmittag besteht am ehesten in den westlichen Regionen eine Chance auf kurze Auflockerungen. Der Westwind legt am Vormittag wieder zu und kann stellenweise stark bis stürmisch werden. Die Temperaturen gehen weiter zurück auf Mittagswerte in 1500m um -6 Grad, in 2000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Nachdem es in der Nacht auf Montag kurzzeitig auflockert, stecken die Berge tagsüber meist in dichten Wolken. Am Nachmittag setzt von Westen her mitunter leichter Schneefall ein. Es bleibt kalt. An der Lawinensituation ändert sich vorerst nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID249RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID249RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>sehr vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die Schneedecke ist großsteils gut verfestigt. Aus extrem steilen Wiesen bzw. Waldböschungen sind mitunter noch kleine Gleitschneerutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich mit den steigenden Temperaturen der letzten Tage setzten bzw. wurde feucht und nass. Dies führte zu kleineren spontanen Gleitschneelawinen aus steilen Böschungsbereichen. Mit der markanten Abkühlung konnte sich die Schneedecke am Samstag großteils verfestigen. Ihre Oberfläche ist verharscht. Bei noch bestehenden bodennahen Gleitschichten kann die Schneedecke auf steilen Böschungen mitunter noch abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag dominieren die Wolken, am Vormittag kann es auch noch ein wenig schneien. Am Nachmittag besteht eine Chance auf kurze Auflockerungen. Der Westwind legt am Vormittag wieder zu und kann stellenweise stark bis stürmisch werden. Die Temperaturen zu Mittag erreichen in 1000m Werte um -2 Grad, in 1500m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Nachdem es in der Nacht auf Montag kurzzeitig auflockert, stecken die Berge tagsüber in meist dichten Wolken. Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1776RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1776RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee vorsichtig beurteilen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb rund 2000 m mit MÄSSIG, sonst mit GERING beurteilt. Frische Triebschneeablagerungen, sind meist gut zu erkennen und können vereinzelt noch durch eine geringe Zusatzbelastung gestört werden . In den nördlichen Gebirgsgruppen sind Gefahrenstellen häufiger vorhanden.</avActivityComment>
+          <snowpackStructureComment>Frische Triebschneeansammlungen haben sich teils noch schwächer mit dem Altschnee verbunden. Allgemein hat sich die Schneedecke, vor allem sonnseitig aber schon gut gesetzt. In der Altschneedecke sind noch kantig aufgebaute Schichten vorhanden. Geländekanten sind meist abgeblasen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Alpenraum liegt in einer laten Nordströmung. Mit mäßigem, im Osten am Vormittag noch lebhaftem Nordwind gibt es am Montag herrlichen Sonnenschein in den Kärntner Bergen. Ein paar harmlose Wolken können sich im Tagesverlauf im Osten und Südosten zeigen. Mit Temperaturen in 2000 m zwischen -5 Grad im Westen und -10 Grad im Osten bleibt es kalt. Auch am Dienstag gibt es im gesamten Bergland strahlenden Sonnenschein.</wxSynopsisComment>
+          <tendencyComment>Die Schneedecke kann sich weiter stabilisieren und die Anzahl der Gefahrenstellen nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1776RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1776RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen durch Triebschneelinsen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein GERING. Kleinere, frische Triebschneeablagerungen, welche sehr vereinzelt durch eine größere Zusatzbelastungen ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich verbreitet gut setzen und verfestigen können. Örtlich wurde der noch lockere Schnee vom Nordostwind verfrachtet und hat kleine Triebschneelinsen gebildet. In tieferen Lagen liegt kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Der Alpenraum liegt in einer laten Nordströmung. Mit mäßigem, im Osten am Vormittag noch lebhaftem Nordwind gibt es am Montag herrlichen Sonnenschein in den Kärntner Bergen. Ein paar harmlose Wolken können sich im Tagesverlauf im Osten und Südosten zeigen. Mit Temperaturen in 2000 m zwischen -5 Grad im Westen und -10 Grad im Osten bleibt es kalt. Auch am Dienstag gibt es im gesamten Bergland strahlenden Sonnenschein.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der geringen Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

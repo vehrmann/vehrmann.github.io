@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1702RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1702RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee oberhalb von ca. 1.900m beachten! Hangzonen unter Schneemäulern meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering, oberhalb von 1.900m mäßig. Die Gefahr von Nassschneelawinen ist zurückgegangen, jene von Gleitschneelawinen bleibt hingegen weiterhin bestehen. Einzelne Triebschneefelder befinden sich vorwiegend in ostorientierten Hangzonen und hier vor allem hinter Geländekanten sowie in hochgelegenen Einfahrtsbereichen von Rinnen und Mulden. Schattseitig können in diesen Höhelagen auch weiterhin Altschneeprobleme auftreten, zuletzt in Form von länger zurückliegendem, eingeschneitem Oberflächenreif oder kantigen Kristallen unter Harschkrusten. In exponierten Lagen ist es zudem hart und eisig, hier besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Wechsel von höheren und niedrigeren Temperaturen hat die Schneedecke stabilisiert. In tiefen Lagen werden die Schneeoberflächen im Tagesverlauf weich und pappig, in höheren Lagen bleiben sie verharscht, schattseitig auch mit Presspulver versehen. Frischer Treibschnee von eher geringer Mächtigkeit konnte sich nur ganz vereinzelt bilden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Ostalpenraum liegt in einer kräftigen Westströmung. Über Nacht überquert eine Kaltfront die Steiermark. Sie sorgt entlang der Alpennordseite vor allem während der zweiten Nachthälfte für Niederschläge, die nicht allzu ergiebig sein werden. Die Schneefallgrenze liegt bei 800m. Am Vormittag lockern hier die tiefliegenden Wolken auf und es wird - abgesehen von hohen, dünnen Wolken - recht sonnig. Entlang der Nordalpen weht ganztags starker bis stürmischer Westwind, die Temperaturen liegen zu Mittag in 2.000m bei -7 Grad und in 1.500m bei -2 Grad. &#13;
+Nach Süden hin werden die Wolken hingegen bereits am Vormittag dichter und die Sonne zeigt sich nur zeitweise. Am Nachmittag kann es denn insbesondere entlang des Steirischen Randgebirges oberhalb von etwa 1.000m unergiebig schneien. Der Westwind weht mit mäßiger Stärke und wird im Tagesverlauf schwächer, die Temperaturen erreichen hier um die Mittagszeit in 2.000m bei -4 Grad und in 1.500m bei +1 Grad. &#13;
+Am Sonntag halten sich entlang der Nordalpen meist dichte Wolken, aus denen unergiebiger Niederschlag fällt. Der Süden ist hingegen mit viel Sonne wetterbegünstigt. Die Temperaturen steigen leicht an und es weht mäßig starker Wind. Der Montag wird dann wieder richtig stürmisch.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1702RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1702RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Auf einzelnde Triebschneefelder achten (erkennbar durch Windzeichen)! Hangzonen unter Schneemäulern meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die Gefahr von Nassschneelawinen ist zurückgegangen, jene von Gleitschneelawinen bleibt hingegen weiterhin bestehen. Einzelne Triebschneefelder von geringer Mächtigkeit befinden sich vorwiegend in ostorientierten Hangzonen und hier vor allem hinter Geländekanten sowie in hochgelegenen Einfahrtsbereichen von Rinnen und Mulden. Schattseitig können in diesen Höhelagen auch weiterhin Altschneeprobleme auftreten, zuletzt in Form von länger zurückliegendem, eingeschneitem Oberflächenreif oder kantigen Kristallen unter Harschkrusten. In exponierten Lagen ist es zudem hart und eisig, hier besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Wechsel von höheren und niedrigeren Temperaturen hat die Schneedecke stabilisiert. In tiefen Lagen werden die Schneeoberflächen im Tagesverlauf weich und pappig, in höheren Lagen bleiben sie verharscht, schattseitig auch mit Presspulver versehen. Frischer Treibschnee von eher geringer Mächtigkeit konnte sich nur ganz vereinzelt bilden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Ostalpenraum liegt in einer kräftigen Westströmung. Über Nacht überquert eine Kaltfront die Steiermark. Sie sorgt entlang der Alpennordseite vor allem während der zweiten Nachthälfte für Niederschläge, die nicht allzu ergiebig sein werden. Die Schneefallgrenze liegt bei 800m. Am Vormittag lockern hier die tiefliegenden Wolken auf und es wird - abgesehen von hohen, dünnen Wolken - recht sonnig. Entlang der Nordalpen weht ganztags starker bis stürmischer Westwind, die Temperaturen liegen zu Mittag in 2.000m bei -7 Grad und in 1.500m bei -2 Grad. &#13;
+Nach Süden hin werden die Wolken hingegen bereits am Vormittag dichter und die Sonne zeigt sich nur zeitweise. Am Nachmittag kann es denn insbesondere entlang des Steirischen Randgebirges oberhalb von etwa 1.000m unergiebig schneien. Der Westwind weht mit mäßiger Stärke und wird im Tagesverlauf schwächer, die Temperaturen erreichen hier um die Mittagszeit in 2.000m bei -4 Grad und in 1.500m bei +1 Grad. &#13;
+Am Sonntag halten sich entlang der Nordalpen meist dichte Wolken, aus denen unergiebiger Niederschlag fällt. Der Süden ist hingegen mit viel Sonne wetterbegünstigt. Die Temperaturen steigen leicht an und es weht mäßig starker Wind. Der Montag wird dann wieder richtig stürmisch.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

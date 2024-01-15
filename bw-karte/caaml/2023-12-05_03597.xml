@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3597RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3597RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen und eingewehtes Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge und Böschungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Windeinfluss kleinräumig Triebschneebildung - weiterhin auch Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend mäßige Lawinengefahr. Das Hauptproblem ist kleinräumiger Triebschnee. Gefahrenstellen finden sich im eingewehten Steilgelände und in Kammlagen. Solche nehmen an Umfang und Verbreitung mit der Seehöhe zu. Einzelne Wintersportler können kleine bis mittlere Schneebrettlawinen auslösen. In allen Höhenlagen sind im Steilgelände und an glatten Wiesenhängen aller Expositionen weiterhin Gleitschneelawinen möglich. Solche können durchaus mittlere Größe erreichen. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Der viele Neuschnee von Ende letzter Woche konnte sich weiter setzen und zunehmend verfestigen. Vor allem in Kammlagen und exponierten Bereichen führt der Wind zu Verfrachtung des Neuschnees und zu frischem Triebschnee. Wo solcher oder der Neuschnee weiche Schichten oder Oberflächenreif überdeckt ist er störanfällig. Zudem werden ältere Triebschneeansammlungen überdeckt. In tieferen und mittleren Lagen liegt die im Unterbau feuchte Altschneedecke oft auf warmem Boden. Dies begünstigt Gleitbewegungen.  Dem Lawinenwarndienst liegen erst wenige Informationen zur Schneedecke aus den verschiedenen Gebieten vor. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht verläuft trüb und es schneit leicht, im Bregenzerwald teils mäßig. Mittwoch: Es ist trüb und teils nebelig mit leichtem, im Bregenzerwald nachmittags teils mäßigem Schneefall. Die Neuschneemengen sind aber überall nicht allzu ergiebig. Kalt. Temperaturen in 2000 m: um -7 Grad, Höhenwind: lebhaft aus West.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich vorerst nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3597RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3597RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände und Kammlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge und Böschungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischen und überdeckten Triebschnee sowie Gleitschneelawinen beachten</avActivityHighlights>
+          <avActivityComment>In  höheren Lagen besteht erhebliche Lawinengefahr. Das Hauptproblem ist frischer oder überdeckter Triebschnee. Gefahrenstellen finden sich im eingewehten Steilgelände und in Kammlagen. Anzahl und Verbreitung dieser nehmen mit der Sehöhe zu. Einzelne Wintersportler können mittelgrosse Schneebrettlawinen auslösen. Wenn solche in tiefere Schichten der Schneedecke durchreissen können sie auch gross werden. Aktivitäten abseits gesicherter Bereiche erfordern Erfahrung in der Gelände- und Lawinenbeurteilung und eine vorsichtige Routenwahl. In allen Höhenlagen sind im Steilgelände und an glatten Wiesenhängen aller Expositionen weiterhin Gleitschneelawinen möglich. Solche können durchaus mittlere Größe erreichen. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee von Ende letzter Woche konnte sich insgesamt weiter setzen und zunehmend verfestigen. Die oberen Schichten sind in höheren Lagen windbeeinflusst. Vor allem in Kammlagen und Leebereichen sind Triebschneeansammlungen vorhanden. Mit dem Neuschnee werden diese überdeckt und sind schwierig zu erkennen. Zudem entsteht frischer Triebschnee. Speziell in sehr steilen Schattenhängen oberhalb ca. 2200 m weist die Altschneedecke vom Spätherbst teilweise ungünstige Zwischenschichten auf. Dem Lawinenwarndienst liegen erst wenige Informationen zur Schneedecke vor. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht verläuft trüb und es schneit leicht, in den nördlicheren Regionenteils mäßig. Mittwoch: Es ist trüb und teils nebelig mit leichtem, im Bregenzerwald nachmittags teils mäßigem Schneefall. Die Neuschneemengen sind aber überall nicht allzu ergiebig. Kalt. Temperaturen in 2000 m: um -7 Grad, Höhenwind: lebhaft aus West.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht weiter zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

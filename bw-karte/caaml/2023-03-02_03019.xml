@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3019RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3019RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt, schattseitig, in hohen und hochalpinen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee vorsichtig beurteilen, schwacher Altschnee oberhalb etwa 2200m</avActivityHighlights>
+          <avActivityComment>In den Vormittagsstunden herrschen günstige Bedingungen, die Lawinengefahr in höheren Lagen ist mäßig. Frische und ältere Triebschneeansammlungen sind vor allem an steilen Schattenhängen  teilweise noch störanfällig und können vereinzelt noch von einzelnen Wintersportlern ausgelöst werden. Gefahrenstellen liegen vor allem im schattseitigen, kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten oberhalb 2400m. Vor allem aus extrem steilem Gelände können sich mit der Erwärmung und Einstrahlung Lockerschneelawinen von selbst lösen. Schwachschichten im Altschnee können sehr vereinzelt noch bei großer Zusatzbelastung ausgelöst werden. Diese Gefahrenstellen liegen vor allem an steilen West-, Nord- und Osthängen oberhalb von 2600 m sowie an Übergängen von wenig zu viel Schnee. In mittleren Lagen sind an glatten, steilen sonnenbeschienen Wiesenhängen mit der Erwärmung einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich mit der Erwärmung und Einstrahlung recht gut setzen und verfestigen. Frische und ältere Triebschneeansammlungen können vor allem in schattseitigen höheren Hanglagen aber teilweise noch störanfällig sein. Schattseitig ist in höheren Lagen noch Pulverschnee vorhanden, südseitig konnte sich bis gegen 2200m ein teilweise tragfähiger Windharsch- oder Schmelzharschdeckel  ausbilden, der tagsüber mit der Erwärmung aufweicht. Im Mittelteil der Schneedecke sind zwischen etwa 2200 und 2600m in Schattenhängen teilweise kantig aufgebaute Schichten vorhanden, die am ehesten an Übergängen von wenig zu viel Schnee noch zu stören sind. Diese Gefahrenstellen sind selten und von außen nicht erkennbar.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Nach einem teils gering bewölkten und teils mit Hochnebel bedeckten Abend ziehen nachts von Norden generell dichtere Wolken auf. Esbleibt trocken. Tiefstwerte: -2 bis +2 Grad.Freitag: Von Nordosten strömt vorübergehend feuchtere und wolkenreichere Luft ein, besonders nach Norden oft auch Nebel. Die höheren Gipfel der Silvretta könnten über die Wolken ragen. Niederschlag ist kaum zu erwarten. Die Temperaturen in 2000 m liegen um -4 Grad, der Wind weht mäßig bis lebhaft aus Nordost.</wxSynopsisComment>
+          <tendencyComment>Das Wochenende gestaltet sich im Bergland überwiegend sonnig. Die Wetterbedingungen begünstigen eine Stabilisierung der Schneedecke und der Triebschneeansammlungen. Die Gefahr von nassen Lawinen steigt im Tagesverlauf etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3019RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3019RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>an steile Grashängen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschneelawinen beachten und frischen Triebschnee vorsichtig beurteilen</avActivityHighlights>
+          <avActivityComment>In den Vormittagsstunden herrschen günstige Bedingungen, die Lawinengefahr ist gering. Frische, meist kleinere Triebschneeansammlungen sind vor allem an steilen Schattenhängen  teilweise noch störanfällig und können vereinzelt noch ausgelöst werden. Gefahrenstellen liegen vor allem im höheren schattseitigen, kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten.  In mittleren Lagen sind an glatten, steilen sonnenbeschienen Wiesenhängen mit der Erwärmung einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich mit der Erwärmung und Einstrahlung recht gut setzen und verfestigen. Meist kleinere, frische Triebschneeansammlungen können vor allem in schattseitigen höheren Hanglagen aber teilweise noch störanfällig sein. Schattseitig ist in höheren Lagen noch Pulverschnee vorhanden, südseitig konnte sich meist ein teilweise tragfähiger Windharsch- oder Schmelzharschdeckel  ausbilden, der tagsüber mit der Erwärmung aufweicht. Lawinenmäuler weisen auf die Gefahr von Gleitschneelawinen hin.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Nach einem teils gering bewölkten und teils mit Hochnebel bedeckten Abend ziehen nachts von Norden generell dichtere Wolken auf. Esbleibt trocken. Tiefstwerte: -2 bis +2 Grad.Freitag: Von Nordosten strömt vorübergehend feuchtere und wolkenreichere Luft ein, besonders nach Norden oft auch Nebel. Die höheren Gipfel der Silvretta könnten über die Wolken ragen. Niederschlag ist kaum zu erwarten. Die Temperaturen in 2000 m liegen um -4 Grad, der Wind weht mäßig bis lebhaft aus Nordost.</wxSynopsisComment>
+          <tendencyComment>Das Wochenende gestaltet sich im Bergland überwiegend sonnig. Die Wetterbedingungen begünstigen eine Stabilisierung der Schneedecke und der Triebschneeansammlungen. Die Gefahr von nassen Lawinen steigt im Tagesverlauf etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

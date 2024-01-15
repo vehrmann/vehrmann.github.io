@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID935RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-23T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID935RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-23T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-24T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-23T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-24T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberflächlicher Festigkeitsverlust, Zeitpunkt abhängig von Steilheit, Höhenlage und Ausrichtung</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>wenige Stellen kammnah, in Rinnen, oberhalb etwa 2400 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang einplanen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag GERING und steigt ab etwa Mittag auf MÄßIG an.&#13;
+Nassschneeproblem: Am Nachmittag und Abend sind einige kleine und mittelgroße spontane Lawinen aus dem sehr steilen bis extrem steilen Gelände möglich. Eine einzelne große Lawine ist nicht ausgeschlossen, jedoch selten. Sonnseitig wird es im Süd- und Westsektor bis weit in die Hochlagen hinauf weich. Auch einzelne mittelgroße Gleitschneelawinen aus extrem steilen Grashängen sind möglich.&#13;
+Trockene Lawinen: Sind nur selten auszulösen. Einzelne Gefahrenpunkte gibt es oberhalb von etwa 2400 m im extrem steilen und kammnahen Gelände wegen eines schwach ausgeprägten Altschneeproblems. Ungünstige Stellen sind Übergange von wenig zu viel Schnee, insbesondere im erweiterten Nordsektor.</avActivityComment>
+          <snowpackStructureComment>Unterhalb von etwa 2400 m (südseitig) und 1600 m (nordseitig) ist der Schnee am Morgen hart. Ein paar hundert Meter weiter oben gibt es anfangs auch Bruchharsch bzw. nordseitig und hochalpin trockenen Pulver. Mit der Einstrahlung weichen die obersten Schichten unterschiedlich rasch auf, rein schattseitig bleibt es wegen der trockenen Luft lange trocken. Auf sehr steilen Grasflächen gleitet die Schneedecke zum Teil am Boden weg. &#13;
+Schwach ausgeprägte potenzielle Bruchflächen für Schneebrettlawinen gibt es in den obersten rund 20 bis 30 cm der Schneedecke im Bereich von Schmelzharschkrusten zwischen den letzten Schneefallereignissen sowie im Bereich der zuletzt entstandenen kammnahen Triebschneepakete.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Sonnig und klar, sehr gute Fernsicht. Gelegentlich hauchdünne hohe Wolken weit über Gipfelniveau. Fast kein Wind. Wärmer als zuletzt, dabei geringe Luftfeuchtigkeit. In 2000 m hat es 0 bis 4 Grad, in 3000 m um -4 Grad.&#13;
+Am Sonntag nicht mehr so sonnig. Quellwolken entstehen unterschiedlich schnell. Mitunter können die Gipfel schon am Vormittag in Nebel geraten. Inneralpin könnten die ersten Stunden noch klar sein. Am Nachmittag ist ein kurzer Regenspritzer denkbar. Nordwestwind um 30 km/h und etwas kühler.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag und Montag keine wesentliche Änderung der Situation. Auf Tagesgang ein wenig achten in Bezug auf Genuss, Absturzrisiko und mögliche Gefahrensituation durch Nassschneeabgänge.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID935RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-23T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID935RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-23T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-24T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-23T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-24T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-23T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-24T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberflächlicher Festigkeitsverlust, Zeitpunkt abhängig von Steilheit, Höhenlage und Ausrichtung</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne Stellen kammnah, auslösbar im Übergang von wenig zu viel, oberhalb etwa 2400 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erwärmung ist das Hauptproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 2400 m ganztags MÄßIG. Unter 2400 m gibt es einen Tagesgang von GERING auf MÄßIG.&#13;
+Nassschneeproblem: Am Nachmittag und Abend sind einige kleine und mittelgroße spontane Lawinen aus dem sehr steilen bis extrem steilen Gelände möglich. Eine einzelne große Lawine ist nicht ausgeschlossen. Sonnseitig wird es im Süd- und Westsektor bis weit in die Hochlagen hinauf weich. Auch einzelne mittelgroße Gleitschneelawinen aus extrem steilen Grashängen sind möglich.&#13;
+Trockene Lawinen: Sind an einzelnen Stellen mit großer Zusatzbelastung auslösbar. Einige Gefahrenpunkte gibt es oberhalb von etwa 2400 m im extrem steilen und kammnahen Gelände wegen eines schwach ausgeprägten Altschneeproblems. Ungünstige Stellen sind Übergange von wenig zu viel Schnee, insbesondere im erweiterten Nordsektor.</avActivityComment>
+          <snowpackStructureComment>Unterhalb von etwa 2400 m (südseitig) und 1800 m (nordseitig) ist der Schnee am Morgen hart. Ein paar hundert Meter weiter oben gibt es anfangs auch Bruchharsch bzw. nordseitig und hochalpin trockenen Pulver. Mit der Einstrahlung weichen die obersten Schichten unterschiedlich rasch auf, rein schattseitig bleibt es wegen der trockenen Luft lange trocken. Auf sehr steilen Grasflächen gleitet die Schneedecke zum Teil am Boden weg. &#13;
+Eine mögliche potenzielle Bruchflächen für Schneebrettlawinen gibt es in den obersten rund 20 bis 30 cm der Schneedecke im Bereich von Schmelzharschkrusten zwischen den letzten Schneefallereignissen sowie im Bereich der zuletzt entstandenen kammnahen Triebschneepakete.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Sonnig und klar, sehr gute Fernsicht. Gelegentlich hauchdünne hohe Wolken weit über Gipfelniveau. Fast kein Wind. Wärmer als zuletzt, dabei geringe Luftfeuchtigkeit. In 2000 m hat es 0 bis 4 Grad, in 3000 m um -4 Grad.&#13;
+Am Sonntag nicht mehr ganz so sonnig. Die ersten Stunden sind eher noch klar. Dann bilden sich rasch Quellwolken. Am Nachmittag ist ein kurzer Regenspritzer denkbar. Nordwestwind um 30 bis 40 km/h und etwas kühler.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag und Montag keine wesentliche Änderung der Situation. Auf Tagesgang ein wenig achten in Bezug auf Genuss, Absturzrisiko und mögliche Gefahrensituation durch Nassschneeabgänge.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID935RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-23T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID935RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-23T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-24T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-23T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-24T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-24T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang spontaner Nassschneelawinen, klein, mittelgroß</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>alte kammnahe Triebschneepakete, kleinräumig, betrifft sehr wenige Stellen im extremen Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang, am Nachmittag wird es teilweise sehr weich</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist zunächst GERING, steigt mit der Sonneneinstrahlung und Erwärmung ab etwa Mittag auf MÄßIG an. &#13;
+Sowohl durch Zusatzbelastung als auch spontan sind dann kleine und mittelgroße nasse Lawinen aus sehr steilem Gelände möglich. &#13;
+Im kammnahen, extremen Steilgelände gibt es sehr wenige Gefahrenstellen für trockene Schneebretter. Auslösepunkte am ehesten in den Richtungen Ost über Süd bis West oberhalb von etwa 2200 m. Eine Auslösung bedarf großer Zusatzbelastung. Vorsicht insbesondere bei Übergängen von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist kompakt und sonnseitig meist tragfähig verkrustet, schattseitig trifft man zum Teil auch auf brüchigen Windharsch. Mit der Einstrahlung firnt der Schnee sonnseitig am Vormittag auf und verliert im sehr steilen Gelände oberflächlich an Festigkeit. Am Nachmittag verstärkt sich der Festigkeitsverlust durch den Schmelzwassereintrag. Kammnah gibt es ältere, meist schon sehr kompakte Triebschneepakete durch Nordwind.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Sonnig und klar, sehr gute Fernsicht. Gelegentlich hauchdünne hohe Wolken weit über Gipfelniveau. Fast kein Wind. Wärmer als zuletzt, dabei geringe Luftfeuchtigkeit. In 2000 m hat es 0 bis 4 Grad.&#13;
+Am Sonntag zunächst sonnig. Ab Mittag Quellwolken und starker Nordwind. Etwas kühler.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2220RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2220RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird unterhalb von 2500 m mit MÄSSIG beurteilt, oberhalb von 2500 m mit GERING. Durch die hohe Luftfeuchtigkeit besteht unterhalb von 2500 m ganztägig die Gefahr von spontanen Gleit- und Nassschneelawinen. Kleine bis mittelgroße Gleit- und Nassschneelawinen sind in allen Expositionen möglich. Kleine Triebschneeansammlungen können vereinzelt bei geringer Zusatzbelastung ausgelöst werden. Gefahrenstellen umfassen dabei hochalpine Kammalgen in nördlichen Expositionen. Absturzgefahr und schlechte Sicht beachten.</avActivityComment>
+          <snowpackStructureComment>Die nächtliche Abstrahlung ist reduziert und die Temperaturen erreichen den Taupunkt. Die Schneedecke ist unterhalb von ca. 2500 m in allen Expositionen durchfeuchtet und geschwächt. Nur in hochalpinen Lagen ist die Schneedecke verfestigt. In hochalpinen nördlichen Expositionen sind kleine Triebschneeansammlugnen vorhanden. An Stellen mit einer geringmächtigeren Schneedecke können sich in hochalpinen nördlichen Expositionen vereinzelt Schwachschichten in der Schneedecke befinden. In südlichen Expositionen liegt in mittleren Lagen wenig bis kein Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stauen sich von Südwesten her meist dichte Wolken und das Wetter gestaltet sich leicht unbeständig mit dem einen oder anderen schwachen Regen oder Schneefall. Die Schneefallgrenze liegt dabei zwischen 1800 m bis 2100 m. Am größten ist die Schauerneigung dabei am Nachmittag. Mäßiger Südwestwind, in exponierten Hochlagen werden Windspitzen bis 50 km/h erwartet. Temperaturen: Tageshöchstwerte auf 2000 m um +2 Grad, auf 3000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Zunehmedes Triebschneeproblem in hochalpinen Lagen </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2220RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2220RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb von 1800 m mit MÄSSIG beurteilt, unterhalb von 1800 m mit GERING. Es sind kleine bis mittelgroße spontane Nass- und Gleitschneelawinen möglich. Gefahrenstellen umfassen dabei vor allem Nordhänge. </avActivityComment>
+          <snowpackStructureComment>Durch den Regeneintrag wurde die Schneedecke in den nördlichen Expositionen empfindlich geschwächt und ist unterhalb von ca. 2100 m durchnässt. In hohen Lagen fiel lokal bis zu 15 cm Neuschnee. Vereinzelt wurden kleine Triebschneeansammlungen in hohen Lagen auf eine geringmächtige Schneedecke in südlichen Expositionen abgelagert. In südlichen Expositionen sowie in in tiefen bis mittleren Lagen liegt wenig bis kein Schnee. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stauen sich von Südwesten her meist dichte Wolken und das Wetter gestaltet sich leicht unbeständig mit dem einen oder anderen schwachen Regen oder Schneefall. Die Schneefallgrenze liegt dabei zwischen 1800 m bis 2100 m. Am größten ist die Schauerneigung dabei am Nachmittag. Mäßiger Südwestwind, in exponierten Hochlagen werden Windspitzen bis 50 km/h erwartet. Temperaturen: Tageshöchstwerte auf 2000 m um +2 Grad. </wxSynopsisComment>
+          <tendencyComment>Potentiell entstehendes Triebschneeproblem in hohen Lagen</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2220RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2220RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Durch die hohe Luftfeuchtigkeit besteht ganztägig die Gefahr von kleinen spontanen Gleit- und Nassschneelawinen.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Die nächtliche Abstrahlung ist reduziert und die Temperaturen erreichen den Taupunkt. Die Schneedecke ist unterhalb von ca. 2500 m in allen Expositionen durchfeuchtet und geschwächt. In südlichen Expositionen liegt in mittleren Lagen wenig bis kein Schnee.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stauen sich von Südwesten her meist dichte Wolken und das Wetter gestaltet sich leicht unbeständig mit dem einen oder anderen schwachen Regen oder Schneefall. Die Schneefallgrenze liegt dabei von 1800 m bis 2100 m. Am größten ist die Schauerneigung dabei am Nachmittag. Mäßiger Südwestwind, in exponierten Hochlagen werden Windspitzen bis 50 km/h erwartet. Temperaturen: Tageshöchstwerte auf 2000 m um +2 Grad. </wxSynopsisComment>
+          <tendencyComment>Potentiell entstehendes Triebschneeproblem in hohen Lagen </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

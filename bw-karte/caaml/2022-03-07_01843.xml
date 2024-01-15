@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1843RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1843RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im erweiterten Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen mäßige Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen, dem Gippel-Göllergebiet und dem Rax-Schneeberggebiet herrscht oberhalb der Waldgrenze mäßige Lawinengefahr durch frischen Triebschnee. Einige Gefahrenstellen in Form von Triebschneelinsen sind in den Sektoren Ost über Süd bis West hinter Geländekanten und in den Einfahrten zu Rinnen und Mulden zu finden, wo vereinzelt schon geringe Zusatzbelastung zur Auslösung kleinerer Schneebrettlawinen führen kann. Die Gefahrenstellen sollten aber für erfahrene Tourengeher/innen gut erkennbar und durch geeignete Spurwahl leicht vermeidbar sein. Vereinzelt können zusätzlich im schattseitigen Gelände bei großer Zusatzbelastung in extrem steilen Hängen noch Schneebrettlawinen ausgelöst werden. Vorsicht vor Absturzgefahr auf den vereisten Oberflächen der Hochlagen!</avActivityComment>
+          <snowpackStructureComment>Am Montag sind wenige Zentimeter Neuschnee gefallen, der gemeinsam mit dem älteren, pulvrigen Schnee der Nordsektoren durch starken Nordwind verfrachtet wurde. Im Lee haben sich dadurch kleinere Triebschneebereiche gebildet, die teilweise auf Oberflächenreif oder kantig aufgebauten Kristallen zu liegen kamen und daher instabil sein können. Sonst ist die Schneedecke sonnseitig gut verfestigt. Schattseitig befindet sich an der Schneeoberfläche älterer Triebschnee, der auf einer Abfolge von Schmelzkrusten und kantigen Kristallen liegt. Die kantigen Schichten sind kaum noch störanfällig. Darunter befindet sich eine kompakte Altschneedecke, welche zum Boden hin bereits teilweise angefeuchtet ist. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lösen sich die letzten Quellwolken am Vormittag auf und es scheint überall die Sonne. Es bleibt aber kalt, mit -8 Grad in 1500 m, und der lebhafte Nordwind verschärft die Kälte zusätzlich.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch wechseln sich Sonnenschein und Wolken ab und es wird ein wenig milder. Die Lawinengefahr nimmt ab.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1843RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1843RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Triebschnee.</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen sowie im Semmering-Wechselgebiet herrscht weiterhin geringe Lawinengefahr. Nur vereinzelt können in den Expositionen Ost über Süd bis West frische Triebschneelinsen als kleine Schneebrettlawinen ausgelöst werden, allerdings wird höchstens Lawinengröße 1 erwartet. Vorsicht aber vor Absturzgefahr auf vereisten Bereichen der Hochlagen!</avActivityComment>
+          <snowpackStructureComment>Starker Nordwind hat den pulvrigen Schnee der Nordsektoren verfrachtet. Im Lee haben sich dadurch kleinere Triebschneelinsen gebildet, die teilweise auf Oberflächenreif oder kantig aufgebauten Kristallen zu liegen kamen und daher instabil sein können. Sonst ist die Schneedecke gut verfestigt. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lösen sich die letzten Quellwolken am Vormittag auf und es scheint überall die Sonne. Es bleibt aber kalt, mit -8 Grad in 1500 m, und der lebhafte Nordwind verschärft die Kälte zusätzlich.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch wechseln sich Sonnenschein und Wolken ab und es wird ein wenig milder. Die Lawinengefahr bleibt gering.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2725RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2725RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kammnahe Gefahrenstellen in höheren Lagen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2200 m mäßig, darunter gering. Das Hauptproblem sind schwache Schichten im Altschnee. Insbesondere mit großer Zusatzbelastung können hier stellenweise noch mittelgroße Schneebrettlawinen ausgelöst werden. Die Gefahrenstellen befinden sich an kammnahen Steilhängen der Expositionen Nordost über West bis Südwest, in eingewehten Rinnen und Mulden sowie am Übergang von wenig zu viel Schnee.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke der höheren Lagen ist stark vom Wind geprägt und wechselt kleinräumig zwischen windgepressten, verharschten und pulvrigen Bereichen. Meist ist die Schneedecke gut gesetzt. Im kammnahen, eingewehten Steilgelände gibt es im oberen Teil der Schneedecke aber noch Schichten aus aufgebaut umgewandelten Schneekristallen, die gestört werden können. Besonders an schattseitigen Hängen der Hochlagen sind zudem bodennah stellenweise schwache Schichten erhalten geblieben. Sonnseitig ist oftmals Bruchharsch anzutreffen. Vielerorts hat sich Oberflächenreif gebildet, der von wenigen Zentimetern Neuschnee überdeckt sein kann.</snowpackStructureComment>
+          <tendencyComment>Anstieg der Lawinengefahr Anfang nächster Woche mit Neuschnee und Wind.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2725RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2725RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend gut verfestigte Schneedecke - insgesamt aber wenig Schnee.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem ist Altschnee. Wintersportler können vereinzelt und meist nur noch mit großer Zusatzbelastung an kammnahen Steilhängen der Expositionen Nord über West bis Südwest sowie in eingewehten Rinnen und Mulden Schneebretter auslösen. Die Lawinen bleiben in der Regel klein und die Absturzgefahr überwiegt die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt. Schattseitig ist der Schnee meist pulvrig und sonnseitig oberflächlich verharscht. Verbreitet findet man Oberflächenreif, der von etwas Neuschnee überdeckt sein kann. Im kammnahen Steilgelände sind vereinzelt schwache Schichten im Bereich von kleineren, älteren Triebschneeansammlungen oder Krusten erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>Anstieg der Lawinengefahr Anfang nächster Woche mit Neuschnee und Wind.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

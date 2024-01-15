@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3369RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3369RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschnee in mittleren Lagen, Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1400 m mäßig. Nassschnee ist das Hauptproblem. An noch nicht entladenen, sehr steilen Hängen der mittleren Lagen ist mit der Selbstauslösung nasser Lockerschneelawinen und auf Hängen mit glattem Untergrund mit Gleitschneelawinen zu rechnen. Oberhalb 1400 m können Lawinen mittlere Größe erreichen.&#13;
+In den Hochlagen ist frischer Triebschnee zu beachten. Dieser kann vor allem kammnah in den Expositionen Nordwest über Nord bis Südost und in eingewehten Rinnen und Mulden von einzelnen Personen als kleines  bis mittleres  Schneebrett ausgelöst werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Über Nacht entsteht vielerorts ein dünner, nicht tragfähiger Schmelzharschdeckel. In tieferen Lagen durchnässt Regen die Schneedecke weiter. In höheren Lagen entstehen frische Triebschneeansammlungen, die in Leebereichen der Hochlagen störanfällig auf trockenem Neuschnee zu liegen kommen. Die Altschneedecke ist in mittleren Lagen meist bis zum Boden nass, in den Hochlagen ist sie hingegen weitgehend kompakt und stabil. Unterhalb von 1400 m liegt kaum Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit einer Kaltfront steigt die Lawinengefahr zum Donnerstag an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

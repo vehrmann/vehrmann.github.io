@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3399RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3399RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus steilem Gelände jederzeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr - Trieb- und Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit erheblich beurteilt. Durch den ergiebigen Neuschnee bildeten sich teils mächtige Schneeansammlungen, in Gipfelbereichen und hinter Geländekanten. Diese können durch einen Wintersportler gestört werden und als Schneebrettlawine abgehen. Die Gefahrenstellen sind verbreitet, nehmen mit der Höhe zu! Spontane Nassschnee- oder Gleitschneelawinen sind jederzeit möglich. Aufgrund der Erwärmung können sich die nassen Lawinen aus den mittleren Lagen lösen. Es ist auch mit spontanen Rutschen aus steilen Böschungen zu rechnen, die exponierte Verkehrswege treffen können! Vorsicht vor frischen Wechten, die sind instabil. </avActivityComment>
+          <snowpackStructureComment>Seit Beginn des Niederschlagsereignisses ist über 1500m ein Meter Neuschnee gefallen, der sich auf einer stabilen Altschneedecke abgelagert hat, in den Südexpositionen auch häufig auf aperen Boden. Die Verbindung zum Altschnee bzw. zum nassen Boden ist nicht ausreichend. Der Neuschnee wurde zudem vom stürmischen Nordwestwind besonders in Ost- bis Südexpositionen verfrachtet und als teils mächtige Triebschneeansammlungen abgelagert. Diese Triebschneepakete verbinden sich schlecht mit dem Altschnee und können zudem weiche Schichten beinhalten, die als Schwachschicht dienen. Mit der leichten Erwärmung wird der Schnee an der Schneedeckenoberfläche feucht und schwer. Die Schneedecke verliert daher leicht an Festigkeit. In mittleren und tiefen Lagen wurde der apere Boden überschneit. Besonders steile nasse Wiesen und mit Laub bedeckte Hänge fungieren als besonders gute Gleithorizonte für spontane, nasse Lockerschnee- bzw. Gleitschneelawinen. </snowpackStructureComment>
+          <wxSynopsisComment>Dichte Wolken hängen in den Bergen und vor allem in den Ybbstaler und Türnitzer Alpen schneit es immer wieder, am Alpenostrand nur mehr selten. Unterhalb von rund 1000m regnet es. Der Höhenwind weht meist nur schwach aus Nordwest. Auf 1500m Seehöhe liegen die maximalen Temperaturen bei plus 2 Grad. &#13;
+ </wxSynopsisComment>
+          <tendencyComment>Vor allem die Ybbstaler und Türnitzer Alpen stecken in Wolken, bei einer Schneefallgrenze um 1500m Seehöhe regnet und schneit es immer wieder. Weiter im Osten gehen nur einzelne Schauer durch, die Schneefallgrenze liegt hier teilweise bei 1800m, Die Sonne zeigt sich nur wenig, am ehesten aber kommt sie am Alpenostrand durch. Der Höhenwind bläst mäßig bis lebhaft aus nördlichen Richtungen. Maximal 3 Grad auf 1500m.&#13;
+Die Gefahr von Nassschneelawinen aus den mittleren und hohen Lagen steigt an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3399RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3399RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>jederzeit aus steilem Gelände möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Nassschneelawinen ganztags möglich!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit mäßig beurteilt. Spontane Nassschnee- oder Gleitschneelawinen sind aus steilen Wiesenhängen jederzeit möglich und können mittlere Größe erreichen. Es ist auch mit spontanen Lawinen aus steilen Böschungen zu rechnen, die exponierte Verkehrswege treffen können! In kammnähe bildet der frische Neuschnee, der lokal als mächtige Triebschneeansammlungen hinter Geländekanten abgelagert wird, die Gefahrenstellen. </avActivityComment>
+          <snowpackStructureComment>Seit Beginn des Niederschlagsereignisses sind 40 bis 80cm Neuschnee gefallen, der sich auf einer feuchten Altschneedecke oder auf aperen Boden abgelagert hat. Die Verbindung zum Altschnee bzw. zum nassen Boden ist nicht ausreichend. Mit der Erwärmung wird der Schnee bis zu den Gipfelregionen feucht. In den tiefen und mittleren Lagen ist der Schnee nass bzw. mit Wasser durchtränkt. </snowpackStructureComment>
+          <wxSynopsisComment>Dichte Wolken hängen in den Bergen und vor allem in den Ybbstaler und Türnitzer Alpen schneit es immer wieder, am Alpenostrand nur mehr selten. Unterhalb von rund 1000m regnet es. Der Höhenwind weht meist nur schwach aus Nordwest. Auf 1500m Seehöhe liegen die maximalen Temperaturen bei plus 2 Grad. &#13;
+ </wxSynopsisComment>
+          <tendencyComment>Vor allem die Ybbstaler und Türnitzer Alpen stecken in Wolken, bei einer Schneefallgrenze um 1500m Seehöhe regnet und schneit es immer wieder. Weiter im Osten gehen nur einzelne Schauer durch, die Schneefallgrenze liegt hier teilweise bei 1800m, Die Sonne zeigt sich nur wenig, am ehesten aber kommt sie am Alpenostrand durch. Der Höhenwind bläst mäßig bis lebhaft aus nördlichen Richtungen. Maximal 3 Grad auf 1500m.&#13;
+Die Gefahr von Nassschneelawinen aus den mittleren und hohen Lagen steigt an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

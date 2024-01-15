@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID828RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID828RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf zunehmende Nassschneeaktivität - mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Ganztägig müssen vereinzelte Gefahrenstellen in den Hochlagen beachtet werden, an denen noch Triebschnee als kleine Schneebrettlawinen ausgelöst werden können. Diese sind nordseitig in Kammnähe und in schattigen Einfahrten zu Rinnen zu finden.  Im Tagesverlauf zunehmend ist durch die hohen Temperaturen und Sonneneinstrahlung mit spontanen Lockerschnee- und Schneebrettlawinen zu rechnen, die allerdings nicht sehr groß werden.  </avActivityComment>
+          <snowpackStructureComment>Der Neu- und Triebschnee der vergangenen Tage hat sich gut mit dem Altschnee verbunden. Schattseitig in den Hochlagen bilden sich durch den stürmischen Südwind vereinzelt kleine, frische Triebschneelinsen. Sonnseitig und von den mittleren Lagen abwärts in allen Expositionen wird der Schnee feucht bzw. nass und verliert im Laufe des Tages an Stabilität. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag sorgt eine kräftige Südströmung für Föhn an den Nordflanken der Gebirge und stürmischen Südwind auf Kammniveau. Es bleibt trocken, der Sonnenschein wird aber zeitweise durch Wolkenfelder getrübt. Die Temperaturen in 1500 m betragen bis zu +8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront durch. Die Nassschneeproblematik geht zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID828RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID828RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Nassschneerutsche</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, allerdings ist im Tagesverlauf zunehmend mit kleineren, spontanen Nassschneerutschen zu rechnen. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wird im Tagesverlauf feucht bis nass und verliert an Stabilität. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Am Sonntag sorgt eine kräftige Südströmung für Föhn an den Nordflanken der Gebirge und stürmischen Südwind auf Kammniveau. Es bleibt trocken, der Sonnenschein wird aber zeitweise durch Wolkenfelder getrübt. Die Temperaturen in 1500 m betragen bis zu +8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront durch. Die Nassschneeproblematik geht zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

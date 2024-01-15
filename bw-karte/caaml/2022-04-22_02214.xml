@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2214RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-22T05:16:25+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2214RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-22T05:16:25+00:00</beginPosition>
+          <endPosition>2022-04-23T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-22T05:16:25+00:00</beginPosition>
+                  <endPosition>2022-04-22T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-22T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-23T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-22T05:16:25+00:00</beginPosition>
+                  <endPosition>2022-04-22T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-22T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-23T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Einstrahlung, Erwärmung und  Regen im Tagesverlauf Anstieg der Gefahr von Nassschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf Anstieg der Gefahr von nassen Lawinen unterhalb etwa 2600m.</avActivityHighlights>
+          <avActivityComment>Morgens bestehen überwiegend günstige Bedingungen und ein geringe Lawinengefahr. Mit der Einstrahlung und der Erwärmung, sowie den Niederschlägen am Nachmittag steigt die Lawinengefahr unterhalb etwa 2600m im Laufe des Tages leicht an. Spontan oder mit geringer Zusatzbelastung sind im Tagesverlauf vor allem an Ost-, Süd- und Westhängen meist kleine bis mittlere nasse Lawinen möglich. Schitouren und Aktivitäten im freien Gelände sollten daher frühzeitig begonnen und rechtzeitig beendet werden. In den schneereicheren Gebieten können sich an sehr steilen Grashängen auch schattseitig weiterhin Gleitschneelawinen lösen. Vorsicht unterhalb von Gleitschneerissen. In sehr steilen Schattenhängen können in hochalpinen Lagen sehr vereinzelt noch Schwachschichten im Altschnee gestört werden. </avActivityComment>
+          <snowpackStructureComment>Die Nacht war recht warm und teilweise bewölkt. Dadurch ist die oberflächige Abstrahlung der Schneedecke nicht ganz so stark wie in den letzten Tagen. Eine meist tragfähige Harschkruste konnte sich dennoch ausbilden. Mit der Einstrahlung und Erwärmung und den prognostizierten Niederschlägen am Nachmittag verliert die Schneedecke rasch an Festigkeit und die Gefahr von nassen Lawinen steigt etwas an. In tiefen und mittleren Lagen liegt nur noch wenig Schnee. In hochalpinen Lagen sind vor allem an sehr steilen Schattenhängen noch sehr vereinzelt Gefahrenstellen für trockene Lawinen vorhanden. Kleine bis mittlere Schneebrettlawinen können dort im oberen Teil der Schneedecke oder im Bereich von Saharastaubschichten noch ausgelöst werden.</snowpackStructureComment>
+          <wxSynopsisComment>Weiterhin freundliches Bergwetter. Die Sonne scheint zunächst noch eine Zeit lang, auch wenn von Südosten immer kompaktere Schleierwolken aufziehen. Nachmittags kommt zusätzlich tiefere Bewölkung auf und es kann dann etwas schneien bzw. unterhalb von 2200 m regnen. Temperatur in 2000 m: um 5 Grad. Es ist windschwach in allen Höhen.</wxSynopsisComment>
+          <tendencyComment> Am Wochenende macht sich der Föhneinfluss stärker bemerkbar. Je nach Intensität der Niederschläge könnten in hohen Lagen frische, störanfällige Triebschneeansammlungen entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

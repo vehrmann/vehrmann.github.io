@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1907RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1907RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durchnässung der Schneedecke beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird unterhalb von 2600 m mit MÄSSIG beurteilt. Milde Temperaturen und diffuse Strahlung können zur Auslösung von kleinen bis mittelgroßen Nassschneelawinen führen. Die Auslösung kann dabei auch spontan erfolgen. Gefahrenstellen für Nasschneelawinen umfassen dabei vor allem steile Hänge in sonnseitigen Expositionen. Es ist auf die tageszeitliche Durchnässung der Schneedecke zu achten. Oberhalb von 2600 m wird die Lawinengefahr mit GERING beurteilt. Die Anzahl der Gefahrenstellen ist dabei in den nordwestlichen Gebirgsgruppen entlang der nördlichen Bundeslandgrenze größer als in den restlichen Kärntner Gebirgsgruppen. Die Gefahrenstellen beschränken sich auf schattige Expositionen an den Übergängen von wenig zu mehr Schnee im selten befahrenen und extrem steilen Gelände. Eine Lawinenauslösung ist hier vereinzelt noch durch eine große Zusatzbelastung möglich. Bei einer Auslösung im Altschnee sind Schneebrett-Lawinen bis zu mittlerer Größe möglich. Vereinzelt sind auch noch kleinere Triebschneeansammlungen in schattseitigen Expositionen vorhanden und gut zu erkennen. Diese sind vereinzelt noch durch eine geringe Zusatzbelastung auszulösen. Bei einer Auslösung sind nur kleine Schneebrett-Lawinen zu erwarten. In extrem steilen Gelände sollte dabei die Absturzgefahr berücksichtigt werden. </avActivityComment>
+          <snowpackStructureComment>In sonnigen Expositionen ist eine zunehmende Durchnässung der Schneedecke zu beobachten. Mit milden Temperaturen und einem hohen Bewölkungsgrad findet in den Nachtstunden nur eine bedingte Verfestigung der Schneedecke statt. Die Durchnässung setzt sich im Laufe des Vormittages fort. In schattigen Expositionen sind teilweise noch (persistente) Schwachschichten innerhalb der Altschneedecke vorhanden. In schattigen Expositionen sind vereinzelt auch noch in den nordwestlichen Gebirgsgruppen Triebschneeschichten vorzufinden. An Geländekanten ist durch Windeinfluss meist nur eine sehr geringmächtige Schneedecke vorhanden. In tiefen Lagen liegt kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ziehen bei westlicher Strömung viele Wolken durch, nur zeitweise kommt zwischendurch kurz die Sonne zum Vorschein. Hohe Gipfel der Tauern und zum Teil in den Karnischen Alpen und Karawanken geraten in Nebel. Deutlich trübt auch Saharastaub die Luft. Temperaturen auf 2000 m bis+2 Grad, auf 3000 m um -3 Grad. Westlicher Wind mit Spitzen bis 60 km/h.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Anstieg der Lawinengefahr </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

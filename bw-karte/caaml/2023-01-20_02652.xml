@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2652RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2652RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kritische Neuschneemenge und Wind in den Hochlagen sorgen für markanten Anstieg der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2000 m erheblich, darunter mäßig. Das Hauptproblem ist der kammnah durch Wind gebundene, ansonsten lockere Neuschnee. Lockerschneelawinen lösen sich aus felsdurchsetztem Steilgelände von selbst. Kammnah, an dem Wind ausgesetzten Gipfelbereichen, können Schneebrettlawinen von einzelnen Personen leicht ausgelöst werden. In neuschneereichen Bereichen und dort wo eine verharschte Altschneedecke eingeschneit wurde, erreichen Lawinen mittlere Größe und es besteht Verschüttungsgefahr. Umfang und Anzahl der Gefahrenstellen nehmen mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen ist bis zu einem halben Meter  Schnee gefallen und es schneit im Nordstau weiter. Der Neuschnee hat sich zwar in höheren Lagen gut mit der gesetzten  Altschneeoberfläche verbunden, mit einsetzendem Wind entsteht jedoch frischer Triebschnee. Dieser ist sehr störanfällig, da er auf lockeren Schneeschichten zu liegen kommt. Besonders an schattigen Hängen der Hochlagen sind stellenweise schwache Schichten in der Altschneedecke erhalten geblieben. </snowpackStructureComment>
+          <tendencyComment>Es bleibt kalt und es fällt weiter Schnee. Die Lawinenlage bleibt angespannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2652RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2652RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee teils störanfällig.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m mäßig, darunter gering. Das Hauptproblem ist der meist lockere, kammnah durch Wind gebundene,  Neuschnee. Einzelne Lockerschneelawinen lösen sich aus felsdurchsetztem Steilgelände von selbst. Kammnah, an dem  Wind ausgesetzten Gipfelbereichen können Schneebrettlawinen von einzelnen Personen ausgelöst werden. In neuschneereichen Gebieten und dort wo eine verharschte Altschneedecke eingeschneit wurde, können Lawinen mittlere Größe erreichen und es besteht Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Bis zu 30 cm  Neuschnee überdecken den Boden, verharschte Altschneeoberflächen und in den Hochlagen kompakte ältere Triebschneeansammlungen. Aus nördlichen Richtungen setzt Wind ein und in kammnahen Gipfelbereichen entsteht Triebschnee. Dieser ist sehr störanfällig, da er auf lockeren Schneeschichten zu liegen kommt.</snowpackStructureComment>
+          <tendencyComment>Es bleibt kalt und es fällt Schnee. Je nach Neuschneemenge und Wind kann die Lawinengefahr ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

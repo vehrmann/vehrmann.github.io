@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3219RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3219RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer kleinräumiger Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in der Steiermark generell mit gering bewertet. Der Temperaturrückgang bewirkt eine Stabilisierung der Schneedecke und das vorläufige Ende des Nassschneeproblems. Mit dem Niederschlag werden die wenigen Zentimeter Neuschnee kammnahe als kleinräumige Triebschneelinsen abgelagert, welche durch überwiegend große Zusatzbelastung als kleine Schneebrettlawinen ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Samstag geht der Regen mit den sinkenden Temperaturen langsam bis auf 1400 m in Schneefall über, es werden maximal 10 cm Neuschnee erwartet. Dieser wird mit dem lebhaften Wind aus westlicher Richtung als Triebschnee abgelagert. Der frische Triebschnee verbindet sich gut mit dem nassen Altschnee darunter. Zusätzlich bewirkt die Abkühlung eine Stabilisierung des feuchten Altschneefundaments. Nur in schattigen Hängen der Hochlagen können sich noch Schwachschichten innerhalb des Altschnees befinden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist das Wetter wechselhaft und deutlich kühler. Vormittags überwiegen noch die Wolken und zeitweise Schnee- und Regenschauer, am Nachmittag zeigt sich immer wieder die Sonne und es schauert nur mehr vereinzelt. Insgesamt kommen maximal 10 cm Neuschnee dazu, wobei der Schwerpunkt vom Toten Gebirge bis in die Niederen Tauern reicht. Der Nordwestwind weht lebhaft, alpennordseitig auch stürmisch und in 2000 m werden nur mehr um 0 Grad erwartet. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag ist es vormittags noch freundlich, es ziehen aber rasch dichtere Wolken auf und an der Alpennordseite fallen auch wieder Schauer. Die Schneefallgrenze sinkt bis zum Abend auf 1000 m ab. Die Lawinengefahr ändert sich nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2379RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2379RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - nur einzelne Gefahrenpunkte in den Hochlagen - geringmächtige Schneedecke und daher eingeschränkte Tourenmöglichkeiten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Nur lokal sind hochgelegen einzelne ältere Gefahrenpunkte im extrem steilen Gelände vorhanden. Vor allem im Übergangsbereichen zu Rinnen oder Mulden können hier Schneebrettlawinen durch Zusatzbelastung ausgelöst werden. Vereinzelt könnten aus extrem steilen Gelände einzelne feuchte Rutsche mit den milden Temperaturen und etwas Regen von selbst abgehen.</avActivityComment>
+          <snowpackStructureComment>Die geringmächtige Altschneedecke enthält vor allem in den schattseitigen Hochlagen aufbauend umgewandelte kantige bindungslose Kristalle, die das Schneedeckenfundament schwächen. Ansonsten sind die Schneedecke und ältere geringmächtige Triebschneeablagerungen gut gesetzt. Durch die milden Temperaturen der letzten Tage und durch unergiebigen Regen am Donnerstag ist die Altschneedecke bis teils in die Hochlagen hinauf angefeuchtet. Über der Schneefallgrenze wird der wenige Schnee durch teils starken Wind verfrachtet.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist am Vormittag im Gebirge ein wenig Regen zu erwarten, die Sicht ist nur in hochalpinen Lagen ein wenig eingeschränkt. Oberhalb von etwa 1700 bis 1900 m schneit es unergiebig. Ab Mittag klingt der Niederschlag generell ab und am Nachmittag kann sich oft die Sonne etablieren. Der Wind weht vor allem in Kammlagen sehr lebhaft bis stark aus West. In 1500 m um 3 Grad, in 2000 m um 1 Grad.&#13;
+Der Freitag bringt dichte Wolken mit Niederschlag, schlechte Sicht und oft starken Westwind auf den Bergen, vor allem in exponierten Lagen. Die Schneefallgrenze steigt auf über 2000 m. In 1500 m um 4 Grad, in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Über der Schneefallgrenze kann sich am Donnerstag frischer Triebschnee bilden. Darunter können sich, nur dort wo ausreichend Altschnee vorhanden ist, kleinere nasse Lawinen aus dem Steilgelände spontan lösen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

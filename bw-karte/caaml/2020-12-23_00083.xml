@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID83RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID83RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Aufgrund der aktuellen Schneesituation gibt es noch keinen Lawinenbericht</avActivityHighlights>
+          <avActivityComment> </avActivityComment>
+          <snowpackStructureComment> </snowpackStructureComment>
+          <wxSynopsisComment> </wxSynopsisComment>
+          <tendencyComment> </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

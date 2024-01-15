@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2203RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2203RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>leichter Anstieg im Tagesverlauf</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete, sehr hochgelegen und kammnah, vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Am Donnerstag steigt sie im Tagesverlauf durch milde Temperaturen und Einstrahlung etwas an. Somit sind dann spontane feuchte bis nasse Lawinen aus steilem nicht entladenem Gelände möglich. Vor allem der zuletzt gefallene Schnee kann als Lockerschneelawinen abrutschen. &#13;
+Am Freitag gibt es durch den abgeschirmten Himmel kaum einen Tagesgang. Durch milde Temperaturen und ein bisschen Regen (Schneefallgrenze um 2000 m) sind aber weiter spontane Nassschneelawinen aus dem Steilgelände nicht auszuschließen.&#13;
+Für Donnerstag und Freitag: Stellenweise gibt es hochgelegen und kammnahe noch Triebschneeablagerungen (vom Dienstag: Neuschnee und Wind aus Nordwest), die insbesondere durch große Zusatzbelastung im Steilgelände angesprochen werden könnten. Steile Hänge mit Rissen in der Schneedecke sind wegen möglicher Gleitschneelawinen zu meiden.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee kann sich durch milde Temperaturen und Einstrahlung deutlich setzen. In den Hochlagen vor allem kammnah sind noch Triebschneeablagerungen vorhanden, die vereinzelt noch gestört werden könnten. Die Schneedecke ist im Inneren oft schon feucht bis nass. In den mittleren Lagen liegt meist nur mehr wenig Schnee, teils wird es auch schon aper. Tiefe Lagen werden wieder rasch schneefrei.</snowpackStructureComment>
+          <wxSynopsisComment>Meist scheint am Donnerstag die Sonne bei guter Sicht. Am Nachmittag bilden sich über den Bergen ein paar Quellwolken. Es weht mäßig starker Wind, der in mittleren Höhenlage aus Nordosten mit Spitzen um etwa 30 km/h weht. In 1500 m hat es 2 bis 6 Grad, am Dachsteingipfel um -4 Grad. Der Wind ist meist nur schwach.&#13;
+Am Freitag ist es überwiegend bewölkt und unergiebiger Niederschlag ist möglich. Die Schneefallgrenze liegt um 2000 m. In 2000 m hat es um 4 Grad und in 2000 m um 0 Grad. Der Wind ist mäßig stark.</wxSynopsisComment>
+          <tendencyComment>Der nächste Lawinenbericht wird am Freitag veröffentlicht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

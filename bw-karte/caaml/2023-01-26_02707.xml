@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2707RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2707RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Randbereich von Triebschneepaketen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Gurk- und Seetaler Alpen, auf der Packalpe sowie auf der Koralpe oberhalb mit mäßig beurteilt! Älterer Triebschnee liegt im Westsektor! Tourengeher können mittels großer Zusatzbelastung ein Schneebrett auslösen! Schneebrettlawinen können bis in tiefere Altschneeschichten (Region: Seetaler und Gurktaler Alpen) durchschlagen.</avActivityComment>
+          <snowpackStructureComment>Durch das Eigengewicht der Schneedecke und durch die Erwärmung konnte sich die Schneedecke weiter setzen. Schwachschichten (weiche kalte Schneeschicht) befinden sich innerhalb der Triebschneeschicht. In den Gurk- und Seetaler Alpen schwächen zusätzlich kantige Formen den Schneedeckenaufbau, speziell in den Schattenhängen! Im Waldbereich ist der Schnee noch pulvrig. </snowpackStructureComment>
+          <wxSynopsisComment>Kaltes und windiges Bergwetter bringt der Freitag. Vor allem in den Nordalpen schneit es zeitweise leicht. 5 bis 10cm Neuschnee werden erwartet. In den übrigen Regionen bleibt es weitgehend trocken, etwas Sonnenschein geht sich am ehesten von der Turrach bis zu Koralpe aus. Wind und Höchsttemperatur in 2000m Höhe: Nordwest bis Nord mit 30 bis 60 km/h, -11 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Kaltes Winterwetter bringt der Samstag. Mit lebhaftem Wind aus nördlichen Richtungen bleibt es überwiegend bewölkt, im nördlichen und östlichen Bergland fallen auch ein paar Schneeflocken. Etwas auflockern kann es von der Turrach bis zu Koralpe. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2707RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2707RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>hinter Geländekanten, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee oberhalb der Baumgrenze!</avActivityHighlights>
+          <avActivityComment>Über der Baumgrenze herrscht mäßige, darunter geringe Lawinengefahr. Ältere Triebschneeablagerungen liegen im Westsektor. Mit dem einsetzenden Nordwestwind wird der Neuschnee im Südsektor abgelagert. In den neuen Gefahrenbereichen können Schneebrettlawinen bereits durch geringe Zusatzbelastung ausgelöst werden und stellenweise mittlere Größe erreichen. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee des letzten  Niederschlagsereignisses konnte sich großteils schon setzen. Gebundener Schnee liegt in den Hochlagen auf einer kalten lockeren Schicht auf. In den mittleren Lagen konnte die Schneedecke an Festigkeit zulegen. Schattseitig wird der von Dienstag auf Mittwoch gebildete Oberflächenreif mit Neu- bzw. Triebschnee überdeckt. In den östlichen Gebirgsgruppen liegt nur wenig Schnee.  </snowpackStructureComment>
+          <wxSynopsisComment>Kaltes und windiges Bergwetter bringt der Freitag. Vor allem in den Nordalpen schneit es zeitweise leicht. 5 bis 10cm Neuschnee werden erwartet. In den übrigen Regionen bleibt es weitgehend trocken, etwas Sonnenschein geht sich am ehesten von der Turrach bis zu Koralpe aus. Wind und Höchsttemperatur in 2000m Höhe: Nordwest bis Nord mit 30 bis 60 km/h, -11 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Kaltes Winterwetter bringt der Samstag. Mit lebhaftem Wind aus nördlichen Richtungen bleibt es überwiegend bewölkt, im nördlichen und östlichen Bergland fallen auch ein paar Schneeflocken. Etwas auflockern kann es von der Turrach bis zu Koralpe. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2707RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2707RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>kaum Schwachschichten in der Schneedecke</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Schneedecke konnte sich setzen! Geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Vereinzelte Gefahrenstellen finden sich im Nordsektor. In extrem steilen Hängen ist eine Schneebrettauslösung nicht ausgeschlossen. </avActivityComment>
+          <snowpackStructureComment>Mit dem Temperaturrückgang konnte sich die Schneedecke verfestigen. In der Schneedecke finden sich kaum Schwachschichten. </snowpackStructureComment>
+          <wxSynopsisComment>Kaltes und windiges Bergwetter bringt der Freitag. Vor allem in den Nordalpen schneit es zeitweise leicht. 5 bis 10cm Neuschnee werden erwartet. In den übrigen Regionen bleibt es weitgehend trocken, etwas Sonnenschein geht sich am ehesten von der Turrach bis zu Koralpe aus. Wind und Höchsttemperatur in 2000m Höhe: Nordwest bis Nord mit 30 bis 60 km/h, -11 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Kaltes Winterwetter bringt der Samstag. Mit lebhaftem Wind aus nördlichen Richtungen bleibt es überwiegend bewölkt, im nördlichen und östlichen Bergland fallen auch ein paar Schneeflocken. Keine Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

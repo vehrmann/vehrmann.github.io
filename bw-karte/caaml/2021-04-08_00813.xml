@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID813RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID813RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah und kammfern hinter Geländekanten, weiche und leicht auslösbare Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Erwärmungsimpuls, Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit zunehmender Höhe steigt die Störanfälligkeit im Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 2400 m ERHEBLICH, sonst MÄßIG. Es gibt zwei Problemkreise:&#13;
+1. Triebschneeproblem: Gefahrenstellen vor allem von der Waldgrenze aufwärts hinter kammnahen und kammfernen Geländekanten im N über O bis S schauenden Steilgelände und in steilen Rinnen aller Expositionen. Die Störanfälligkeit nimmt mit der Höhe zu, in hohen/hochalpinen Lagen genügt schon geringe Zusatzbelastung zur Auslösung eines kleinen bis mittelgroßen Schneebretts. Am heikelsten dürfte der erweiterte Ostsektor sein, dort sind auch spontan einzelne mittelgroße Schneebrettlawinen möglich.&#13;
+2. Tageszeitlicher Festigkeitsverlust: Aus stark besonntem, insbesondere felsdurchsetztem Steilgelände sind spontan kleine und mittelgroße (nasse) Lockerschneelawinen möglich. Auf sehr steilen Grasmatten unterhalb etwa 1800 m sind auch spontan kleine und einzelne mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der Vortage - verbreitet 20 bis 40 cm, in Staulagen auch 60 bis 70 cm - hat bereits eine erste Setzung erfahren und wird durch die Erwärmung zumindest oberflächlich bis in Höhen um 2000 m angefeuchtet. In den Hochlagen gibt es teilweise noch störanfälligen Triebschnee (auf lockerer Unterlage), den stürmischer Wind aus West bis Nord gebildet hat und der einen verstärkten Setzungsimpuls erfährt. In tiefen und mittleren Lagen geht mit der Erwärmung und dem Schmelzwassereintrag ein Festigkeitsverlust im Neuschnee einher. Auf sehr steilen und zu Wochenbeginn bereits aperen Sonnseiten gleitet der Neuschnee vom Boden weg.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag dominiert zunächst sonniges Wetter mit guter Sicht. Ab Mittag ziehen verstärkt hohe Wolkenfelder durch, die Sicht kann dann diffus werden. In den Tauern weht Südföhn mit 40 bis 60 km/h, in den Nordalpen ist er mäßig stark. Erwärmung in allen Höhen: in 2000 m -3 bis +2 Grad, in 3000 m -8 bis -5 Grad.&#13;
+Am Samstag nach wechselnd bewölkter Nacht zunächst noch eher bewölkt, ab Mittag dann sonnig. Weiter föhnig bei ähnlichen Temperaturen.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Föhntriebschnee auf den Nordseiten beachten, sonst geht die Störanfälligkeit des Triebschnees zurück. In mittleren Höhenlagen Tagesgang der spontanen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID813RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID813RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>vereinzelte Gefahrenstellen hinter Geländekanten und in Rinnen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kleine, oberflächliche Lockerschneelawinen aus sehr steilen Sonnseiten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumige Gefahrenstellen durch Triebschnee, spontan kleine Lockerschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt nur vereinzelte Gefahrenstellen für überwiegend kleine, trockene Schneebretter hinter sehr steilen Geländekanten und in Rinnen. Dort könnte das Lostreten von Triebschneeschollen eventuell zum Absturz führen. Oberflächliche (nasse) Lockerschneelawinen sind spontan aus stark besonntem Steilgelände möglich, sie bleiben klein.</avActivityComment>
+          <snowpackStructureComment>Gut gesetzte, kompakte Altschneedecke, in windgeschützten Lagen mit wenigen Zentimetern Neuschnee darauf. In exponierten Bereichen hat zeitweise starker Nordwestwind verfrachtet und auf windabgewandten Seiten dünne Triebschneeschollen gebildet. Strahlung und Wärme feuchten den Schnee oberflächlich an.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag dominiert zunächst sonniges Wetter mit guter Sicht. Ab Mittag ziehen verstärkt hohe Wolkenfelder durch, die Sicht kann dann diffus werden. Es weht föhniger Südwind mit 30 bis 50 km/h. Erwärmung in allen Höhen: in 2000 m -5 bis +1 Grad.&#13;
+Am Samstag nach wechselnd bewölkter Nacht zunächst noch eher bewölkt, ab Mittag dann sonnig. Weiter föhnig bei ähnlichen Temperaturen.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Föhntriebschnee auf den Nordseiten beachten (kleinräumige Gefahrenstellen, gut zu erkennen). Harte Flächen in mittleren Höhenlagen firnen mit der Sonne auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID813RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID813RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tageszeitlicher Festigkeitsverlust, Triebschnee in den Hochlagen meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Es gibt zwei Problemkreise:&#13;
+1. Triebschneeproblem: Gefahrenstellen vor allem von der Waldgrenze aufwärts hinter kammnahen und kammfernen Geländekanten im N über O bis S schauenden Steilgelände und in steilen Rinnen aller Expositionen. Die Störanfälligkeit nimmt mit der Höhe zu, im Übergangsbereich zu den Triebschneepaketen genügt teilweise schon geringe Zusatzbelastung zur Auslösung eines kleinen bis mittelgroßen Schneebretts. Am heikelsten dürfte der erweiterte Ostsektor sein.&#13;
+2. Tageszeitlicher Festigkeitsverlust: Aus stark besonntem, insbesondere felsdurchsetztem Steilgelände sind spontan kleine und mittelgroße (nasse) Lockerschneelawinen möglich. Auf sehr steilen Grasmatten unterhalb etwa 1800 m sind auch spontan kleine und einzelne mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der Vortage - verbreitet 20 bis 50 cm - hat bereits eine erste Setzung erfahren und und wird durch die Erwärmung zumindest oberflächlich bis in Höhen um 2000 m angefeuchtet. In den Hochlagen gibt es teilweise noch störanfälligen Triebschnee (auf lockerer Unterlage), den stürmischer Wind aus West bis Nord gebildet hat und der einen verstärkten Setzungsimpuls erfährt. In tiefen und mittleren Lagen geht mit der Erwärmung und dem Schmelzwassereintrag ein Festigkeitsverlust im Neuschnee einher. Auf sehr steilen und zu Wochenbeginn bereits aperen Sonnseiten gleitet der Neuschnee vom Boden weg.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag dominiert zunächst sonniges Wetter mit guter Sicht. Ab Mittag ziehen verstärkt hohe Wolkenfelder durch, die Sicht kann dann diffus werden. In den Tauern weht Südföhn mit 40 bis 60 km/h, inneralpin und am Alpennordrand stört der Wind kaum. Erwärmung in allen Höhen: in 1500 m -2 bis +6 Grad, in 2000 m -3 bis +2 Grad.&#13;
+Am Samstag nach wechselnd bewölkter Nacht zunächst noch eher bewölkt, ab Mittag dann sonnig. Weiter föhnig bei ähnlichen Temperaturen.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Föhntriebschnee auf den Nordseiten der Tauern beachten, sonst geht die Störanfälligkeit des Triebschnees zurück. In mittleren Höhenlagen Tagesgang der spontanen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

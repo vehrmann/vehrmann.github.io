@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID121RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID121RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden, kammfern, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen älteren Triebschnee beachten - teils noch erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Nordwest- über nord- bis teils ostseitig ist älterer Triebschnee noch zu beachten und sollte gemieden werden. Hier ist in den eingewehten Steilhängen, sowie in steilen verfüllten Mulden und Rinnen eine Auslösung von Schneebrettlawinen bereit bei geringer Zusatzbelastung vereinzelt noch möglich.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Die Schneedecke konnte sich etwas setzen, ist sehr unregelmäßig verteilt, oft windgepresst, sonnseitig dünn verharscht und neben aperen Bereichen sind Steilhänge sowie Mulden und Rinnen gut gefüllt. Vorhandene ältere Verfrachtungen sind noch störanfällig. Im Triebschnee, sowie teils in nordseitigen Hochlagen sind im Altschnee oder Übergang Schwachschichten eingelagert. Allgemein liegt selbst in den Hochlagen nur wenig Schnee und es ist eine nur unterdurchschnittliche Schneedecke vorhanden. &#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag lösen sich die Restwolken der Nacht im Bergland bald auf, dann scheint meist die Sonne. Die Temperaturen betragen in 1500 m um -5 Grad, in 2000 m um -7 Grad.&#13;
+Am Freitag ziehen hohe Wolken durch, die ab und zu etwas auflockern. In den Hochlagen weht zum Teil lebhafter Südwind. In 1500 m hat es um -2 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneebrettgefahr geht weiter zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID121RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID121RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab der Waldgrenze lokal auf Triebschnee achten!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze sind ältere Verfrachtungen vorhanden, die zum Teil noch gestört werden können. Schneebrettlawinen können vor allem nordwest- über nord- bis teils ostseitig in den eingewehten kammnahen Steilhängen, sowie in steilen verfüllten Mulden und Rinnen insbesondere bei großer, eventuell noch bei geringer Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich etwas setzen, ist sehr unregelmäßig verteilt, oft windgepresst, sonnseitig dünn verharscht und neben aperen Bereichen sind Steilhänge sowie Mulden und Rinnen gut gefüllt. Vorhandene ältere Verfrachtungen sind noch störanfällig. Im Triebschnee, sowie teils in nordseitigen Hochlagen sind im Altschnee oder Übergang Schwachschichten eingelagert. Allgemein liegt selbst in den Hochlagen nur wenig Schnee und es ist eine nur unterdurchschnittliche Schneedecke vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag lösen sich die Restwolken der Nacht im Bergland bald auf, dann scheint meist die Sonne. Die Temperaturen betragen in 1500 m um -5 Grad, in 2000 m um -7 Grad.&#13;
+Am Freitag ziehen hohe Wolken durch, die ab und zu etwas auflockern. In den Hochlagen weht zum Teil lebhafter Südwind. In 1500 m hat es um -2 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneebrettgefahr geht weiter zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID121RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID121RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Nur vereinzelt sind hier im Bereich von eingewehten Kammlagen, verfüllten Steilhängen und auf größeren waldfreien eingefrachteten Flächen kleinere Triebschneeansammlungen im Nordsektor als kleine Schneebrettlawinen auslösbar.</avActivityComment>
+          <snowpackStructureComment>In den Ennstaler Voralpen brachte auch die letzte Schneefallperiode kaum Schnee, wodurch hier jetzt nur sehr wenig liegt, der kaum lawinenrelevant ist.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag lösen sich die Restwolken der Nacht im Bergland bald auf, dann scheint meist die Sonne. Die Temperaturen betragen in 1500 m um -5 Grad, in 2000 m um -7 Grad.&#13;
+Am Freitag ziehen hohe Wolken durch, die ab und zu etwas auflockern. In den Hochlagen weht zum Teil lebhafter Südwind. In 1500 m hat es um -2 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

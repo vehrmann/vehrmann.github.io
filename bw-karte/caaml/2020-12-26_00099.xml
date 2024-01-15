@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID99RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Föhn entwickelt sich zum Sturm</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze ERHEBLICH, darunter MÄßIG. Der frische Triebschnee ist leicht auslösbar, geringe Zusatzbelastung genügt zur Auslösung eines mittelgroßen Schneebretts! Frische, tagsüber anwachsende Gefahrenstellen gibt es sowohl kammnah als auch kammfern hinter Geländekanten, in Rinnen und Mulden im erweiterten Nordsektor. Daneben gibt es noch störanfälligen Triebschnee der Vortage auf den Süd- und Südostseiten. Die Gefahrenstellen sind gut zu erkennen und sollten konsequent gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee von Donnerstag und Freitag (30 cm bis 60 cm, in den Hochlagen von NW-Wind teilweise verfrachtet) wird durch den Südföhn umgelagert. Der frische Triebschnee kommt schattseitig auf kaltem, lockerem Schnee, vereinzelt auch auf Oberflächenreif zu liegen. Darunter befindet sich meist ein Harschdeckel, oberhalb von 2300 m schattseitig auch lockerer aufbauend umgewandelter Schnee (weiterer mögliche Schwachschicht).</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und sonniges Wetter. Ab den Morgenstunden weht der Südföhn in Verfrachtungsstärke. Er legt tagsüber noch zu und erreicht Spitzen von 70 bis 100 km/h. In 2000 m -4 Grad, in 3000 m -8 bis -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Anhaltender Föhnsturm, ERHEBLICHE Gefährdung durch umfangreichen Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID99RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-26T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-26T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steile Mulden, Anzahl und Umfang der Gefahrenstellen steigt tagsüber</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunahme der Gefahrenstellen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze zunächst MÄßIG und steigt mit den anhaltenden Verfrachtungen im Tagesverlauf in den Hochlagen auf ERHEBLICH an. Der frische Triebschnee ist leicht auslösbar, geringe Zusatzbelastung genügt zur Auslösung eines mittelgroßen Schneebretts! Frische, tagsüber anwachsende Gefahrenstellen gibt es sowohl kammnah als auch kammfern hinter Geländekanten, in Rinnen und Mulden im erweiterten Nordsektor. Daneben gibt es noch störanfälligen Triebschnee der Vortage auf den Süd- und Südostseiten. Die Gefahrenstellen sind gut zu erkennen und sollten konsequent gemieden werden. Unterhalb der Waldgrenze sind die Verhältnisse insgesamt günstiger. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee von Donnerstag und Freitag (25 cm bis 50 cm, in den Hochlagen von NW-Wind teilweise verfrachtet) wird durch den Südföhn im Tagesverlauf umgelagert. Der frische Triebschnee kommt schattseitig auf kaltem, lockerem Schnee, vereinzelt auch auf Oberflächenreif zu liegen. Darunter befindet sich meist ein Harschdeckel, oberhalb von 2300 m schattseitig auch lockerer aufbauend umgewandelter Schnee (weiterer mögliche Schwachschicht).</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und sonniges Wetter. Der Südföhn erreicht im Lauf des Vormittags Verfrachtungsstärke und wird am Nachmittag stürmisch. In 2000 m -3 Grad, in 3000 m -8 bis -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Anhaltender Föhnsturm, ERHEBLICHE Gefährdung durch umfangreichen Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID99RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in Rinnen und steile Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in steilen Rinnen und Mulden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Gefahrenstellen gibt es vor allem kammnah, hinter Geländekanten und in steilen Rinnen und Mulden, insbesondere in den Expositionen Nord über Ost bis Südost. Der Triebschnee ist dort teilweise schon bei geringer Zusatzbelastung als mittelgroßes Schneebrett auslösbar. Anzahl und Ausdehnung der Gefahrenstellen nehmen mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>15 bis 35 cm Neuschnee. Zuletzt hat Wind aus West bis Nord den Neuschnee verfrachtet. Der frische Triebschnee ist auf dem überwehten lockeren Schnee darunter zum Teil störanfällig. Im Altschnee schwächen auf den Schattseiten kantige Formen den Schneedeckenaufbau. An ungünstigen Stellen im Gelände sind auch in dieser Schicht Brüche möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und sonniges Wetter. Der Wind stört vorerst nicht, tagsüber macht sich teilweise föhniger Südostwind bemerkbar. In 2000 m -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschneeproblem oberhalb der Waldgrenze.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID99RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-26T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-26T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunahme der Gefahrenstellen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1800 m zunächst MÄßIG und steigt mit den anhaltenden Verfrachtungen im Tagesverlauf auf ERHEBLICH an. Der frische Triebschnee ist leicht auslösbar, geringe Zusatzbelastung genügt zur Auslösung eines mittelgroßen Schneebretts! Frische, tagsüber anwachsende Gefahrenstellen gibt es sowohl kammnah als auch kammfern hinter Geländekanten, in Rinnen und Mulden im erweiterten Nordsektor. Daneben gibt es noch störanfälligen Triebschnee der Vortage auf den Süd- und Südostseiten.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee von Donnerstag und Freitag (20 cm bis 40 cm, in den Hochlagen von NW-Wind teilweise verfrachtet) wird durch den Südföhn im Tagesverlauf umgelagert. Der frische Triebschnee kommt schattseitig auf kaltem, lockerem Schnee, vereinzelt auch auf Oberflächenreif zu liegen. Darunter befindet sich ab etwa 1500 m (nordseitig) bzw. 1800 (überall sonst) meist ein Harschdeckel, ab etwa 2400 m schattseitig auch lockerer, kantiger Altschnee (weitere mögliche Bruchfläche).</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und sonniges Wetter. Der Südföhn erreicht im Lauf des Vormittags Verfrachtungsstärke und weht am Nachmittag mit 40 bis 60 km/h. In 2000 m -1 Grad, in 3000 m -5 Grad.</wxSynopsisComment>
+          <tendencyComment>ERHEBLICHE Gefährdung durch umfangreichen Triebschnee in den Hochlagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID99RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>sehr wenige Gefahrenpunkte im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen in steilen Rinnen der Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist insgesamt GERING. Oberhalb von 1500 bis 1800 m gibt es vereinzelte Gefahrenstellen durch frischen Triebschnee vor allem in steilen Rinnen und Mulden. Dort ist die Auslösung kleiner Schneebrettlawinen denkbar.</avActivityComment>
+          <snowpackStructureComment>15 bis 30 cm kalter Neuschnee auf wenig bzw. unzusammenhängendem Altschnee bis in mittlere Höhenlagen. Zuletzt hat auffrischender Wind aus West bis Nord den Neuschnee verfrachtet. Eine für Schneebrettauslösungen relevante Altschneeunterlage beginnt schattseitig bei ca. 1500 m, sonnseitig bei 1800 m. Als Bruchfläche für Lawinen kommt in erster Linie überwehter lockerer Schnee in Frage.</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und sonniges Wetter. Der Wind dreht auf Süd/Südost und frischt ab Mittag auf, in exponierten Bereichen erreicht er 30 bis 50 km/h. In 2000m hat es um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID99RGR6">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID99RGR6">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, hinter Geländekanten, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee auf ungünstiger Unterlage</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Gefahrenstellen durch frische, dünne Triebschneepakete gibt es kammnah und kammfern, vermehrt im Ost über Süd bis Südwest schauenden Gelände. Diese können teilweise schon bei geringer Zusatzbelastung als kleines oder mittelgroßes Schneebrett ausgelöst werden. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Auf einem Harschdeckel liegen wenige Zentimeter Neuschnee. Die Altschneedecke darunter ist kompakt, schattseitig teilweise aber auch aufbauend umgewandelter Schnee mit Reif. Frischer Triebschnee, der vom starken Nordwestwind gebildet wurde, überdeckt diese ungünstige Unterlage.</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und Sonnenschein. In den Hochlagen teilweise mäßig starker Wind aus südlicher Richtung. In 2000m -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Neuschnee überdeckt am Montag die Gefahrenstellen, Neuschneeproblem und bei Windeinfluss ansteigende Lawinengefährdung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

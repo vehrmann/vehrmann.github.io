@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3335RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3335RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in den Hochlagen – lokal frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über 1800 m mit mäßig, ansonsten mit gering bewertet. Durch etwas Neuschnee und Wind aus nördlichen Richtungen haben sich neue Gefahrenstellen gebildet. Hinter Geländekanten sowie in Rinnen und Mulden der erweiterten Südexpositionen können frische Triebschneelinsen schon durch einen einzelnen Wintersportler ausgelöst werden. Es werden nur kleine Lawinen erwartet. Außerdem kan sehr vereinzelt eine Schwachschicht im Altschnee steiler, schneereicher Hänge angesprochen werden. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee lagert sich mit dem Wind aus nördlicher Richtung in den Leebereichen als spröde Triebschneelinsen ab. Im Übergang zum Altschnee befinden sich weiche Schichten aus Oberflächenreif oder lockerem Neuschnee, weshalb die Verbindung schlecht ist. Zudem haben sich besonders in nord- bis ostseitigen Hängen dünne Schichten kantiger Kristalle gebildet ("kalt auf warm"), welche als Schwachschichten relevant sein können. In mittleren und tiefen Lagen fällt der Neuschnee meist auf bereits aperen Boden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Karsamstag herrscht unbeständiges Bergwetter. Die Berggipfel stecken den ganzen Tag in dichten Wolken und es schneit zeitweise verbreitet. Der Niederschlagsschwerpunkt liegt am Nachmittag in den Ybbstaler Alpen, wobei die Schneefallgrenze zwischen 600 und 1100 m Höhe pendelt. Der Wind weht schwach bis mäßig aus nördlichen Richtungen. Die Temperaturen liegen in 1500 m um -2 Grad. &#13;
+Das Wetter am Ostersonntag bleibt unverändert, nur gegen Nachmittag kann es im Osten etwas freundlicher werden. Insgesamt werden am Wochenende bis zu 10 cm Neuschnee erwartet.</wxSynopsisComment>
+          <tendencyComment>Frohe Ostern! Die frischen, störanfälligen Triebschneelinsen gilt es weiterhin zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3335RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3335RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - etwas Neu- und Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet. Durch etwas Neuschnee und Wind aus nördlichen Richtungen bilden sich frische, teils störanfällige  Triebschneelinsen in den Leebereichen. Der apere Boden wurde nur sehr gering mit dem Neuschnee überdeckt, zu wenig für gute Tourenbedingungen. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee lagert sich auf überwiegend aperen Boden ab. In den Hochlagen können sich hinter Geländekanten kleinräumig dünne Triebschneelinsen bilden, die störanfällig sind. Es ist insgesamt zu wenig Schnee für gute Tourenbedingungen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Karsamstag herrscht unbeständiges Bergwetter. Die Berggipfel stecken den ganzen Tag in dichten Wolken und es schneit zeitweise verbreitet. Der Niederschlagsschwerpunkt liegt am Nachmittag in den Ybbstaler Alpen, wobei die Schneefallgrenze zwischen 600 und 1100 m Höhe pendelt. Der Wind weht schwach bis mäßig aus nördlichen Richtungen. Die Temperaturen liegen in 1500 m um -2 Grad. &#13;
+Das Wetter am Ostersonntag bleibt unverändert, nur gegen Nachmittag kann es im Osten etwas freundlicher werden. Insgesamt werden am Wochenende bis zu 10 cm Neuschnee erwartet.</wxSynopsisComment>
+          <tendencyComment>Frohe Ostern! Der frische Schnee bleibt uns mit den kalten Temperaturen doch ein bisschen erhalten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

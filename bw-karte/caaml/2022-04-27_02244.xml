@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2244RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-27T05:22:16+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2244RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-27T05:22:16+00:00</beginPosition>
+          <endPosition>2022-04-28T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2200 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in hohen Lagen kleinräumig frischen Triebschnee beachten - mit Erwärmung und Einstrahlung Lockerschneerutsche</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering, in hohen Lagen mäßig. Kleinräumig frische und ältere Triebschneeansammlungen können bereits von einzelnen Wintersportlern ausgelöst werden. Gefahrenstellen sind vor allem an sehr steilen Schattenhängen, Kammlagen sowie in eingewehten Rinnen und Mulden anzutreffen. In sehr steilen Schattenhängen sowie im extremen Steilgelände können vereinzelt auch noch Schwachschichten im Altschnee gestört werden. Neben einer Verschüttung ist dabei auch die Mitreiss- und Absturzgefahr zu beachten. Mit Erwärmung und Einstrahlung sind untertags vermehrt Lockerschneerutsche sowie in tieferen Lagen kleine Nassschneelawinen möglich. Auch kleinere Gleitschneelawinen an sehr steilen Grashängen sind möglich.</avActivityComment>
+          <snowpackStructureComment>In hohen Lagen gab es erneut bis zu 10 cm Neuschnee. Zeitweise mäßig bis kräftiger Wind bewirkte seit Sonntag Verfrachtungen und immer wieder frische Triebschneeansammlungen. Mit zunehmender Seehöhe und im Hochgebirge ist die Bindung solcher vor allem in schattseitigen Steilhängen mit dort teilweise weichen Altschneeschichten oft nur mäßig. Kleine bis mittlere Schneebrettlawinen können dort im Neu- und Triebschnee oder im oberen Teil der Schneedecke ausgelöst werden. Auf Grund der kühlen Temperaturen ist die Altschneedecke in den Vormittagsstunden überwiegend kompakt und stabil. In tiefen und mittleren Lagen liegt nur noch wenig Schnee.  Dem Lawinenwarndienst liegen nur noch wenige Informationen zur Schneedecke vor.</snowpackStructureComment>
+          <wxSynopsisComment>Nach Hochnebelresten in den Morgenstunden setzt sich bis Mittag immer mehr die Sonne durch. Es bleiben nur ein paar Wolkenbänke an den Hängen zurück. Dazu ist es in der Höhe noch relativ kühl. Temperatur in 2000m: -6 bis 0 Grad. Höhenwind: schwach aus Nord</wxSynopsisComment>
+          <tendencyComment> Es folgt eine klare Nacht. Der Donnerstag und Freitag werden sehr sonnig und die Temperaturen werden wieder frühlingshaft.  Die Lawinengefahr bleibt überwiegend gering und steigt mit der Erwärmung untertags leicht an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

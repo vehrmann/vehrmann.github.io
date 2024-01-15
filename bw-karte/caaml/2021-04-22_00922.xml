@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID922RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID922RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-22T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-23T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-23T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-23T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anfangs günstige Bedingungen - dann mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es herrschen in der Früh und vormittags günstige Bedingungen mit geringer Lawinengefahr, die im Tagesverlauf auf mäßig ansteigt. Sonnenschein und milde Temperaturen führen im Laufe des Tages zu vermehrter Nassschneeaktivität, die zu beachten ist. Im Steilgelände sind dann verstärkt sonnseitig spontane Nassschneelawinen zu erwarten. In steilen hochalpinen Kammlagen sind nur einzelne lokale Gefahrenstellen vor allem schattseitig noch vorhanden. Gleitschneelawinen auf vergrasten Steilhängen in den mittleren Lagen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Die feuchte Schneedecke kann sich durch die zunehmend klare Nacht oberflächig gut festigen, geht aber mit der Sonneneinstrahlung und steigenden Temperaturen dann auf und verliert an Festigkeit. Sie wird feucht, nass und weich und ist im Inneren unter einer sich auflösenden Harschschicht schon oft durchfeuchtet. In den Hochlagen gibt es nur schattseitig noch einzelne eingelagerte schwache Zwischenschichten. Tiefe Lagen apern zunehmend aus.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist der Himmel meist wolkenlos. Ab Mittag entstehen ein paar harmlose Quellwolken. Es weht schwacher bis mäßiger Nordwestwind, der rund um das Tote Gebirge etwas lebhafter durchkommt. Temperaturen in 1500 m: um 2 Grad, in 2000 m um -2 Grad.&#13;
+Der Samstag bringt sonniges, mildes Wetter mit schwachem Wind und perfekter Sicht. Einzelne Quellwolken bringen keinen Niederschlag und kaum Sichteinschränkung. In 1500 m: um 5 Grad, in 2000 m: um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Wochenende Tagesgang der Lawinengefahr beachten. Skitouren sollten früh begonnen und zeitig beendet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID240RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID240RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee speziell ostseitig – mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig, ansonsten mit gering bewertet. Die Gefahrenstellen befinden sich kammfern in Ostexpositionen durch frischen Triebschnee und allgemein schattseitig aufgrund eines Altschneeproblems. Hier kann durch überwiegend große Zusatzbelastung ein Schneebrett ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Am Samstag werden maximal 15 cm Neuschnee erwartet, die vom stürmischen Westwind besonders in die ostexponierten Leebereiche geweht werden. Der frische Triebschnee lagert sich auf der verharschten Oberfläche ab. Die Verbindung ist in den Höhen, wo es von Anfang an schneit eher schlecht, in den Bereichen mit anfänglichem Regen bzw. feuchtem Neuschnee stabiler. In den Schattseiten ist die Altschneedecke weiterhin durch weiche Schichten kantiger Kristalle geschwächt. In tiefen Lagen kann der Regeneintrag die Schneedecke teilweise weiter instabil werden lassen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag dominiert mittelhohe Bewölkung, auch die Gipfel stecken oft in den Wolken. Tagsüber muss immer wieder mit Schneefall gerechnet werden, teils schneit es am Vormittag auch anhaltend. Die Schneefallgrenze sinkt rasch von 1200m bis in die Täler. Es weht stürmischer Westwind und die Temperaturen sinken in 1500m von 0 Grad in der Früh auf -6 Grad tagsüber in den Ybbstaler Alpen sowie -3 Grad am Schneeberg. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Sonntag schneit es nochmals ein wenig, in der Früh klart es kurzfristig auf ehe am Vormittag schon wieder hohe und mittelhohe Bewölkung aufzieht. Es kühlt noch etwas ab und der Westwind weht weiterhin stürmisch. Weiterer Neuschnee auf Sonntag lässt die Lawinengefahr langsam ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID240RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID240RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit etwas Neuschnee.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt, wobei die Hauptgefahr von spontanen Nass- und Lockerschneerutschen aus steilem Gelände ausgeht. Solche spontanen Lawinen können aus allen Expositionen abgehen. Frischen Triebschnee kann es kammfern in den Ostexpositionen geben.</avActivityComment>
+          <snowpackStructureComment>Der anfängliche Regen bzw. feuchte Neuschnee am Samstag führt zu vermehrter Instabilität der Schneedecke. Besonders in den tiefen Lagen kann die Schneedecke in steilem Gelände spontan abgleiten. Der folgende Schneefall verbindet sich prinzipiell gut mit der Altschneedecke. In den Gipfelbereichen, wo es von Anfang an schneit kann die Verbindung zum Altschnee eher schlecht sein. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag dominiert mittelhohe Bewölkung, auch die Gipfel stecken oft in den Wolken. Tagsüber muss immer wieder mit Schneefall gerechnet werden, teils schneit es am Vormittag auch anhaltend. Die Schneefallgrenze sinkt rasch von 1000m bis in die Täler. Es weht stürmischer Westwind und die Temperaturen sinken in 1500m von 0 Grad in der Früh auf -5 Grad tagsüber.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Sonntag schneit es nochmals ein wenig, in der Früh klart es kurzfristig auf, ehe am Vormittag schon wieder hohe und mittelhohe Bewölkung aufzieht. Es kühlt noch etwas ab und der Westwind weht weiterhin stürmisch. Es gibt keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

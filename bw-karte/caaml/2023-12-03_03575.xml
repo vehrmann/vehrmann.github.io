@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3575RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3575RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1100Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1100Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über 1100m mit erheblich beurteilt. Die Gefahrenstellen befinden sich vor allem in den Sektoren Nordost bis Südwest. Frischer spröder Triebschnee kann in Hängen über 30 Grad bereits bei geringer Zusatzbelastung ausgelöst werden. Vorsicht hinter Geländekanten und bei Einfahrten von Rinnen und Mulden, hier sollten die Triebschneemengen nicht unterschätzt werden.  &#13;
+In den mittleren Lagen sind Gleitschneelawinen möglich. Durch den Temperaturrückgang hat sich ein Harschdeckel gebildet. </avActivityComment>
+          <snowpackStructureComment>In den tiefen und mittleren Lagen ist das Schneedeckenfundament feucht. Der Neuschnee wurde mit dem stürmischen Nordwestwind in die Expositionen Südwest bis Nordost verfrachtet. Im Lee liegen große Schneemengen Schnee. Schwachschichten sind in den Hochlagen im frischem Neuschnee, als auch im Übergang zum Altschnee zu finden. Es haben sich zudem frische instabile Wechten gebildet!</snowpackStructureComment>
+          <wxSynopsisComment>Am Morgen zeigt sich nur kurz die Sonne. Bald schon überwiegen dichte Wolken, die im weiteren Tagesverlauf immer dichter werden. Dazu weht mäßiger bis lebhafter Wind aus Süd. Nachmittagstemperaturen auf 1500m Seehöhe um minus 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung ist mit Nassschneelawinen zu rechnen, speziell in den tiefen und mittleren Lagen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3575RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3575RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit mäßig beurteilt. Frische Wechten sowie Triebschnee sind in Kammnähe bzw. hinter Geländekanten  auslösbar. In den mittleren Lagen sind auch kleine Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment> Der Schnee wurde feucht und  und an der Schneedeckenoberfläche hat sich ein Harschdeckel gebildet. Die Schneedecke ist bis zum Boden homogen. Auf die feuchte Schneedecke lagerte sich in den Hochlagen der kalte Neuschnee bzw. Triebschnee ab.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Morgen zeigt sich nur kurz die Sonne. Bald schon überwiegen dichte Wolken, die im weiteren Tagesverlauf immer dichter werden. Dazu weht mäßiger bis lebhafter Wind aus Süd. Nachmittagstemperaturen auf 1500m Seehöhe um minus 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung ist mit Nassschneelawinen zu rechnen, speziell in den tiefen und mittleren Lagen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

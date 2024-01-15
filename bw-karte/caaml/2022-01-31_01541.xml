@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1541RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1541RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frische Triebschneepakete meiden, Lawinen klein bis mittelgroß</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sturm und frische Triebschne</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend noch MÄßIG, nimmt mit dem Neuschnee jedoch rasch zu.&#13;
+Gefahrstellen gibt es dort, wo der frische Triebschnee im steilen Gelände liegen bleibt. Dort lassen sich die Triebschneepakete insbesondere bei großer, vereinzelt aber schon bei geringer Belastung stören. Vorsicht in sehr steilen Bereichen der Mulden, Rinnen und hinter Geländekanten. Potenzielle Schneebretter sind bis mittelgroß. </avActivityComment>
+          <snowpackStructureComment>Neuschnee (10 bis 20 cm) und Sturm erzeugen frischen Triebschnee, der auf der dünnen bis harten Kruste liegt. Unter den Krusten und den alten Triebschneepaketen gibt es jedoch verbreitet schwache Schichten aus kantigen Kristallen (Zuckerschnee).</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stürmischer Nordwind (60 bis 80 km/h) und Schneeschauer. Dazwischen kann es kurz auflockern. In 2000m -9 Grad. &#13;
+In der Nacht auf Mittwoch und am Mittwoch schneit es zweitweise. Am Mittwoch lockert es tagsüber wieder auf. In 2000m -6 Grad. Sturm mit 80 km/h.&#13;
+Neuschneemengen bis Mittwochabend um 15 bis 30 cm. Gegen Osten hin weniger, gegen Westen hin mehr.</wxSynopsisComment>
+          <tendencyComment>Triebschnee liegt auf einer schwachen Altschneedecke!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1541RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1541RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>verbreitet 40 bis 50 cm Neuschnee, teilweise mehr</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>leicht auslösbar, umfangreich, ab der Waldgrenze aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Heikel – erhebliches Neuschnee und Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Nach dem intensiven Schneefall in der Nacht ist die Lawinengefahr von Beginn an ERHEBLICH. Sowohl unter als auch über der Waldgrenze. In den neuschneereichen Gebirgsgruppen liegt die Gefahr im oberen Bereich dieser Einstufung. &#13;
+Ab dem Waldrand aufwärts lassen sich mittelgroße und große Schneebrettlawinen leicht auslösen. Im steilen Gelände reicht bereit der Impuls einer Person. Betroffen sind insbesondere die Richtungen Nord über Ost bis Südwest.&#13;
+Aus dem extrem steilen Gelände können in den schneereichen Gebieten spontane Lawinen von selbst abgehen. Betrifft alle Richtungen. Unter der Waldgrenze sind es kleine bis mittlere Lawinen (felsdurchsetz oder Grasmattengelände), aus den hohen Einzugsgebieten können sie mittelgroß bis groß werden. </avActivityComment>
+          <snowpackStructureComment>Auf Dienstag hin fallen verbreitet in kurzer Zeit 40 bis 50 cm, in den Nordstaulagen auch mehr. Mit dem Wind kommt es am Waldrand und darüber zu starken bis umfangreichen Verfrachtungen. Der Triebschnee bricht am ehesten im Grenzbereich zur Altschneedecke oder knapp darüber. Tiefere Schwachschichten, also unter den harten Triebschneepaketen vom Wochenende oder rund um die oberste Kruste der Altschneedecke vom Dezember werden am Dienstag wahrscheinlich noch selten angesprochen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag tief winterlich! Dichte Wolken und teils anhaltender und intensiver Schneefall schränken die Sicht stark ein. Am Nachmittag lässt der Schneefall kurz nach bevor es gegen Abend wieder stark zu schneien beginnt. Dazu weht starker, in den Hochlagen auch stürmischer Wind aus Nordwest. In 2000m -9 Grad, in 3000m höchstens -17 Grad. &#13;
+In der Nacht auf Mittwoch und am Mittwoch schneit es aus dichten Wolken anhaltend und ergiebig. Mit stürmischem Nordwestwind ist es dabei etwas milder! In 2000m -6 Grad, in 3000m -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Lawinengefahr steigt mit der Warmfront in der Nacht auf Mittwoch weiter an! Auf Grund der Neuschneemengen heikel. Kann GROSS (4) werden!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

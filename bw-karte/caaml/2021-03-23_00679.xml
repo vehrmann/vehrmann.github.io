@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID679RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID679RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>umfangreicher Triebschnee, noch leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr und spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>Ab 1500 m Höhe, teils aber auch darunter ist immer noch Triebschnee vorhanden, der gestört werden kann. Vorwiegend in ost- über süd- bis westseitigen Steilhängen und in steilen Rinnen sowie verfüllten Mulden ist die Auslösung von Schneebrettlawinen bereits bei geringer Zusatzbelastung möglich. Im Steilgelände sind aus noch nicht entladenen Bereichen verstärkt bei Sonneneinstrahlung kleine bis mittelgroße spontane Lawinen möglich. Auf vergrasten Steilhängen auch einzelne Gleitschneelawinen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich bisher vorwiegend durch das Eigengewicht etwas setzen, ist oberflächig oft noch locker, pulvrig oder windgepresst und verblasen. Zahlreiche noch labile und auch ältere überdeckte Triebschneeablagerungen sind vorhanden. Diese umfangreichen, störanfälligen Triebschneepakete enthalten dünne, lockere und weiche Schichten, die als Schwachschichten dienen. Die Altschneedecke selbst ist oberflächig verharscht und dient ebenfalls als Gleitfläche. Mit den milder werdenden Temperaturen kann sich die Schneedecke weiter setzen und besser binden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch lockern die Wolken von Westen her auf. Im Salzkammergut wird es bereits am Vormittag sonnig, im Osten am Nachmittag. Die Sichtverhältnisse werden besser. In den Hochlagen weht zum Teil lebhafter Nordwind. In 1500 m hat es um -2 Grad, im 2000 m um -4 Grad.&#13;
+Am Donnerstag überwiegt der Sonnenschein, der am Vormittag nur von hohen Schleierwolken gedämpft wird. Die Sicht ist davon kaum beeinträchtigt, das Licht ist aber etwas diffuser. Am Nachmittag verdecken zeitweise auch dichtere Wolken die Sonne, es bleibt jedoch trocken. In 1500 m: um 3 Grad, in 2000 m: -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht mit der Setzung weiter zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID679RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID679RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend mäßige Schneebrettgefahr und einzelne spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>In kammnahen steilen Gipfellagen sowie lichten steilen Bergwälder, verfüllten Rinnen und Mulden sind ältere Verfrachtungen vorhanden, die insbesondere bei großer, eventuell auch geringer Zusatzbelastung ausgelöst werden können. Auf vergrasten aper gewesenen Steilhängen ist auf einzelne Gleitschneelawinen, ansonsten auch auf kleine/mittlere spontane Lawinen zu achten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich setzen, ist aber oberflächig oft noch locker, pulvrig oder windgepresst und verblasen. Älterer, teils noch labiler und überdeckter Triebschnee ist vorhanden. Dieser enthält dünne, lockere  und weiche Schichten, die als Schwachschichten dienen. Die nur stellenweise vorhanden gewesene Altschneedecke ist oberflächig verharscht und dient ebenfalls als Gleitfläche. Mit den milder werdenden Temperaturen kann sich die Schneedecke weiter setzen und besser binden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch lockern die Wolken von Westen her auf. Im Salzkammergut wird es bereits am Vormittag sonnig, im Osten am Nachmittag. Die Sichtverhältnisse werden besser. In den Hochlagen weht zum Teil lebhafter Nordwind. In 1500 m hat es um -2 Grad, im 2000 m um -4 Grad.&#13;
+Am Donnerstag überwiegt der Sonnenschein, der am Vormittag nur von hohen Schleierwolken gedämpft wird. Die Sicht ist davon kaum beeinträchtigt, das Licht ist aber etwas diffuser. Am Nachmittag verdecken zeitweise auch dichtere Wolken die Sonne, es bleibt jedoch trocken. In 1500 m: um 3 Grad, in 2000 m: -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht mit der Setzung weiter zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

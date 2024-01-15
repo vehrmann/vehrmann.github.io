@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2143RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2143RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-12T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-12T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-12T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit der Sonneneinstrahlung steigt die Gefahr nasser Lockerschneelawinen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Das vorherrschende Lawinenproblem ist Nassschnee. Mit Schwerpunkt am Nachmittag kann sich der Schnee vom Wochenende mit Erwärmung und Sonneneinstrahlung als kleine bis mittelgroße, nasse Lockerschneelawinen aus dem extremen Steilgelände von selbst lösen. Zudem sind vor allem im Allgäu kleine bis mittlere Gleitschneelawinen auf glatten, steilen Wiesenhängen möglich. Gleitschneemäuler weisen auf die Gefahr hin.&#13;
+Außerdem können kleinräumig ältere Triebschneeansammlungen in den Hochlagen noch insbesondere durch große Zusatzbelastung ausgelöst werden. Vereinzelte Gefahrenstellen befinden sich im schattigen, kammnahen Steilgelände. Schneebrettlawinen bleiben meist klein.</avActivityComment>
+          <snowpackStructureComment>Über Nacht bildet sich vielerorts eine meist nicht tragfähige Harschkruste, die schon bald in der Sonne wieder auftaut. Der Schnee vom Wochenende liegt auf einem stabilen Altschneefundament bzw. auf dem zuvor bereits ausgeaperten Boden und wird vor allem in der Sonne zusehends nass, was Lockerschneelawinen und Gleitbewegungen begünstigt. Bis weit in die mittleren Lagen hinauf liegt nur mehr wenig Schnee, sonnseitig apert der Boden vor allem in den Vorbergen zusehends aus. In den Hochlagen setzt und verbindet sich der Triebschnee vom Wochenende rasch.</snowpackStructureComment>
+          <tendencyComment>Morgens Schmelzharsch, im Tagesverlauf ansteigende Gefahr nasser Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

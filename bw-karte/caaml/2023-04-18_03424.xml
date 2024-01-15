@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3424RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3424RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Selbstauslösungen nasser Lockerschnee- und Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr &#13;
+ist oberhalb von 1400 m mäßig, darunter gering. Problematisch ist Nassschnee. Aus sehr steilen und extrem steilen Hängen aller Expositionen &#13;
+können sich nasse Lockerschneelawinen von &#13;
+selbst lösen und mittlere Größe erreichen. Zudem sind an glatten, steilen &#13;
+Wiesenhängen und in lückigen Bergwäldern Selbstauslösungen kleinerer Gleitschneelawinen möglich. Hänge mit Gleitschneerissen meiden.</avActivityComment>
+          <snowpackStructureComment>Die durchnässte Schneedecke kann sich in der bewölkten Nacht nicht verfestigen - lediglich im Westen entsteht ein dünner Schmelzharschdeckel, der am Mittwoch aber schnell wieder auftaut. Der in den letzten Tagen gefallene Schnee verliert durch den Wassereintrag seine Bindung und löst sich wie schon am Dienstag vielerorts als oberflächliche Lockerschneelawine. Die kompaktere Altschneedecke ist meist bis zum Boden hin nass. Dadurch wird das Abgleiten des Schnees auf glattem Untergrund begünstigt.</snowpackStructureComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3424RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3424RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-18T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-19T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-18T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-19T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-18T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-19T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-19T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Selbstauslösungen nasser Lockerschnee- und Gleitschneelawinen! In den Hochlagen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr &#13;
+ist am Vormittag mäßig und steigt im Tagesverlauf auf erheblich an. Das Hauptproblem ist Nassschnee. Aus sehr steilen und extrem steilen Hängen aller Expositionen &#13;
+können sich feuchte und nasse Lockerschneelawinen von &#13;
+selbst lösen. Die Auslösebereitschaft steigt im Tagesverlauf an. Zudem sind an glatten, steilen &#13;
+Wiesenhängen und in lückigen Bergwäldern jederzeit Selbstauslösungen von Gleitschneelawinen möglich. Hänge mit Gleitschneerissen meiden. Nasse Lawinen erreichen meist mittlere Größe.&#13;
+In höheren Lagen ist daneben das Triebschneeproblem zu beachten. Schneebrettlawinen können sich hier im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden insbesondere durch große Zusatzbelastung lösen und mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Die in mittleren Lagen meist durchnässte Schneedecke verfestigt sich in der teils klaren Nacht nur oberflächlich. Der Schmelzharschdeckel taut  im Tagesverlauf wieder auf. Der in der letzten Woche gefallene Schnee löst sich dann wie schon am Dienstag vielerorts als oberflächliche Lockerschneelawine. Die kompaktere Altschneedecke ist bis zum Boden hin nass. Dadurch wird das Abgleiten des Schnees auf glattem Untergrund begünstigt. In höheren Lagen sind frische und ältere Triebschneeansammlungen teils störanfällig. Die Durchfeuchtung der Schneedecke von der Oberfläche her hat auch in den Hochlagen begonnen.</snowpackStructureComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3424RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3424RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Selbstauslösungen nasser Lockerschnee- und Gleitschneelawinen - in den Hochlagen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr &#13;
+ist oberhalb von 1400 m mäßig, darunter gering. Das Hauptproblem ist Nassschnee. Aus sehr steilen und extrem steilen Hängen aller Expositionen &#13;
+können sich nasse Lockerschneelawinen von &#13;
+selbst lösen und mittlere Größe erreichen. Zudem sind an glatten, steilen &#13;
+Wiesenhängen und in lückigen Bergwäldern Selbstauslösungen kleinerer Gleitschneelawinen möglich. Hänge mit Gleitschneerissen meiden.&#13;
+In höheren Lagen ist daneben das Triebschneeproblem zu beachten. Schneebrettlawinen können sich hier im kammnahen Steilgelände und in eingewehten Rinnen und Mulden insbesondere durch große Zusatzbelastung lösen und mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Die in mittleren Lagen durchnässte Schneedecke kann sich in der bewölkten Nacht nicht verfestigen - lediglich im Westen entsteht ein dünner Schmelzharschdeckel, der am Mittwoch aber schnell wieder auftaut. Der in den letzten Tagen gefallene Schnee verliert durch den Wassereintrag seine Bindung und löst sich wie schon am Dienstag vielerorts als oberflächliche Lockerschneelawine. Die kompaktere Altschneedecke ist meist bis zum Boden hin nass. Dadurch wird das Abgleiten des Schnees auf glattem Untergrund begünstigt. In höheren Lagen sind frische und ältere Triebschneeansammlungen teils störanfällig. Die Durchfeuchtung der Schneedecke von der Oberfläche her hat auch in den Hochlagen begonnen.</snowpackStructureComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

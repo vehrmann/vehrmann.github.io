@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2387RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2387RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee ist störanfällig</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Hochlagen erheblich, darunter ist sie mäßig. Das Hauptproblem stellen frische Triebschneeansammlungen dar. Gefahrenstellen bilden sich vor allem im kammnahen Steilgelände und in Rinnen und Mulden. Störanfälliger Triebschnee findet sich aber auch in kammfernen Bereichen hinter Hangkanten und Geländeknicken. Hier kann bereits der einzelne Wintersportler auch mittelgroße Schneebrettlawinen auslösen. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+An noch nicht entladenen, glatten Steilhängen können sich jederzeit meist kleine, vereinzelt auch mittelgroße Gleitschneelawinen von selbst lösen. Unterhalb 1600m sind wegen der geringen Schneemächtigkeit nur kleine Lawinen zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Westwind bildet in den Hochlagen zunehmend frische Triebschneeansammlungen. Die Verbindung zur teils verharschten oder angeeisten Altschneeoberfläche ist schlecht, der Triebschnee ist störanfällig. In den mittleren Lagen durchnässt Regen die unterdurchschnittlich mächtige Altschneedecke. Am Boden bildet sich eine nasse Schneeschicht, die Gleitbewegungen des Schnees begünstigt. Der Boden apert zunehmend aus. Der Altschnee ist insgesamt gut gesetzt und die Schichten innerhalb der Schneedecke haben sich verbunden und aufgelöst. Nur im Altschnee der Hochlagen sind stellenweise noch schwache Schichten aus kantigen Kristallen erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>In den nächsten Tagen wird das Lawinenproblem Triebschnee durch weiteren Neuschnee in den Hochlagen und stürmischem Westwind zu beachten sein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2387RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2387RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleine Gleitschneelawinen aus noch nicht entladenen Steilflächen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. An steilen, noch nicht entladenen, glatten Wiesenhängen können sich kleinere Gleitschneelawinen von selbst lösen.</avActivityComment>
+          <snowpackStructureComment>Durch den starken Regen wird die unterdurchschnittlich mächtige Schneedecke intensiv durchnässt. Das Niederschlagswasser staut sich am Boden und begünstigt Gleitbewegungen des Schnees. Der Boden apert jetzt auch schattseitig bis in mittlere Lagen hinein zunehmend aus.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

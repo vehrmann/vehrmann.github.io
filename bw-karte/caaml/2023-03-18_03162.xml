@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3162RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3162RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-18T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls, spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze auf Nassschneelawinenaktivität achten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze ganztags mäßig, darunter gering. Nasse Lockerschnee- und Schneebrettlawinen mittlerer Größe sind aus steilen Hängen, welche bisher noch nicht entladen wurden, zu erwarten. Auch unterhalb der Waldgrenze können aus noch nicht entladenen Rinnen vereinzelt noch kleine bis mittelgroße Nassschneelawinen abgehen. Schwacher Regeneintrag bis auf 1800 - 2000 m ist am späten Nachmittag noch ein zusätzlicher Impuls für Nassschneelawinenaktivität. Auf steilem Wiesengelände nimmt die Gleitbewegung der Schneedecke wieder zu, Gleitschneemäuler sollten als Gefahrenzeichen gedeutet und gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltende Wärme wurde die Schneedecke bis in hohe Lagen angefeuchtet. Auch am Sonntag schreitet die Durchfeuchtung bei zunehmend diffuser Sonnenstrahlung und durch leichten Regeneintrag am späten Nachmittag voran, bevor es in hohen Lagen vorübergehend wieder etwas abkühlt. Sonnseitig ist die Schneedecke oft schon bis in hohe Lagen durchgehend feucht, west- und ostseitig schreitet die Durchfeuchtung rasch voran und die Schneefecke verliert an Stabilität. Schattseitig hat die Schneedecke unter der Waldgrenze nur noch wenig Kältereserven und wird auch hier oberflächlich zunehmend feucht. Oberhalb der Waldgrenze sind noch mehr Kältereserven vorhanden. Vereinzelt sind in schattseitigen Hochlagen auch noch Schwachschichten in der Altschneedecke zu finden, welche bei späterer Durchfeuchtung neuerlich "aktiviert" werden können. In tiefen Lagen ist meist nur noch eine stark durchbrochene Schneedecke vorhanden, welche nun zunehmend durchnässt und an Stabilität verliert.</snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag beginnt meist noch &#13;
+freundlich, es scheint bei hohen Wolken zeitweise auch noch die Sonne. &#13;
+Bald werden die Wolken aber dichter und am Nachmittag geraten höhere &#13;
+Gipfel teilweise in Nebel. Niederschlag wird aber nur vereinzelt gegen &#13;
+Abend erwartet. Mit Winddrehung auf Nordwest geht die Temperatur von &#13;
+Norden her zurück. In 2000m Höhe erwarten uns zu Mittag 2 Grad in den &#13;
+Nordalpen und 5 Grad an der Alpensüdseite.&#13;
+Der Montag beginnt meist stark bewölkt und es kann zu Beginn zwischen Dachstein und Hochschwab auch noch etwas regnen, bis 1400m herab auch ein wenig schneien. Dort sind die Sichtverhältnisse auch relativ schlecht, die Gipfel stecken oft im Nebel. Auch im Süden sind anfangs ein paar Regentropfen nicht ausgeschlossen. Tagsüber stellt sich dann zunehmend trockenes Wetter ein und die Wolken lockern zum Teil auf mit sonnigen Phasen zwischendurch. Es weht lebhafter Nordwestwind und es ist vorübergehend kälter. In 2000m hat es im Norden oft nur -2 Grad, im Süden bis +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Nassschneeproblematik in hohen Lagen nimmt vorübergehend durch Abkühlung ab. In Lagen unter 1400 führt leichter Regen zu weiterer Durchfeuchtung. An der Lawinengefahr ändert sich wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3162RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3162RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-18T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls,  spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - kleine Nassschneelawinenaktivität aus steilen Hängen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering.  Durch den anhaltenden Wärmeeinfluss nimmt die Nassschneelawinenaktivität zu. Kleine, nasse Lockerschnee- und Schneebrettlawinen sind aus steilen, noch nicht entladenen Hängen und Rinnen oberhalb der Waldgrenze möglich. Auch das Gleiten auf steilem Grasmatten- und Wiesengelände nimmt wieder zu. In mittleren und tiefen Lagen gibt es kaum noch eine zusammenhängende Schneedecke.</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltende Wärme wurde die Schneedecke bis in hohe Lagen angefeuchtet, sonnseitig schon bis zum Boden durchfeuchtet. Auch am Sonntag schreitet die An- und Durchfeuchtung bei diffuser Strahlung (mehr Bewölkung) weiter voran. Nur schattseitig hat die Schneedecke in Hochlagen noch wenig Kältereserven, welche zunehmend aufgebraucht werden. Auch hier ist die Schneedecke oberflächlich bereits feucht. In tiefen Lagen ist meist nur noch eine stark durchbrochene Schneedecke vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag beginnt meist noch &#13;
+freundlich, es scheint bei hohen Wolken zeitweise auch noch die Sonne. &#13;
+Bald werden die Wolken aber dichter und am Nachmittag geraten höhere &#13;
+Gipfel teilweise in Nebel. Niederschlag wird aber nur vereinzelt gegen &#13;
+Abend erwartet. Mit Winddrehung auf Nordwest geht die Temperatur von &#13;
+Norden her zurück. In 2000m Höhe erwarten uns zu Mittag 2 Grad in den &#13;
+Nordalpen und 5 Grad an der Alpensüdseite.&#13;
+Der Montag beginnt meist stark bewölkt und es kann zu Beginn zwischen Dachstein und Hochschwab auch noch etwas regnen, bis 1400m herab auch ein wenig schneien. Dort sind die Sichtverhältnisse auch relativ schlecht, die Gipfel stecken oft im Nebel. Auch im Süden sind anfangs ein paar Regentropfen nicht ausgeschlossen. Tagsüber stellt sich dann zunehmend trockenes Wetter ein und die Wolken lockern zum Teil auf mit sonnigen Phasen zwischendurch. Es weht lebhafter Nordwestwind und es ist vorübergehend kälter. In 2000m hat es im Norden oft nur -2 Grad, im Süden bis +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Nassschneeproblematik in hohen Lagen nimmt vorübergehend durch Abkühlung ab. In Lagen unter 1400 führt leichter Regen zu weiterer Durchfeuchtung. An der Lawinengefahr ändert sich wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

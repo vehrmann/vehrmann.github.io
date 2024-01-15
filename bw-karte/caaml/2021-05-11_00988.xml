@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID988RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-11T05:43:06+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID988RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-11T05:43:06+00:00</beginPosition>
+          <endPosition>2021-05-12T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontano plazenje kot posledica dnevne odjuge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Občutna otoplitev</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je nad nadmorsko višino okoli 1600 m ZMERNA, 2. stopnje, nižje pa MAJHNA, 1. stopnje. Nevarnejša so zlasti strma pobočja, kjer je večja količina novega in mokrega snega na stari in trši snežni podlagi, predvsem tu se bodo pojavljali posamezni plazovi mokrega snega, plazila pa se bo lahko tudi stara snežna odeja s strmih pobočij. Manjši snežni plazovi so možni tudi na strmih travnatih pobočjih brez stare snežne podlage. V visokogorju so klože in opasti, ki se lahko rušijo zaradi visoke temperature. Možnost proženja plazov se še nekoliko poveča čez dan na prisojnih pobočjih.</avActivityComment>
+          <snowpackStructureComment>Ob koncu tedna se je hitro segrelo in novejši sneg se je ojužil ter precej sesedel, nižje pa skopnel. Zaradi visoke temperature snežna odeja večinoma ponoči ne pomrzne. Sneg je moker in mehak, nižje je dobro preobražen in prekristaliziran, marsikje je snežna odeja premočena do tal. V visokogorju so še klože in opasti.</snowpackStructureComment>
+          <wxSynopsisComment>Danes bo pretežno jasno, sredi dneva in popoldne se bo pooblačilo v zahodnem in osrednjem delu Julijskih Alp ter v zahodnih in osrednjih Karavankah. Nekateri vrhovi bodo lahko občasno v oblakih, tudi v Kamniško Savinjskih Alpah. Pihal bo šibak do zmeren južni do jugozahodni veter. Temperatura bo še nad ničlo. V sredo bo oblačno in ponekod megleno z občasnimi padavinami. Ohladilo se bo, meja sneženja se bo spustila do nadmorske višine okoli 1700 m, nulta izoterma bo na okoli 2000 m. Pihal bo veter južnih smeri, ponekod pa jugozahodnik. V četrtek bo spremenljivo do pretežno oblačno z občasnimi krajevnimi padavinami, deloma plohami. Meja sneženja bo večinoma na okoli 1800 m nadmorske višine.</wxSynopsisComment>
+          <tendencyComment>Danes bodo razmere še spomladanske. Zaradi visokih temperatur bo sneg moker in s strmih pobočij se bodo prožili posamezni manjši in srednje veliki plazovi mokrega snega, lahko se bodo rušile tudi opasti. Nevarnost bo večja na osončenih legah od sredine dopoldneva do poznega popoldneva. V visokogorju je treba paziti tudi na klože, ki se lahko splazijo ob manjši obremenitvi snežne odeje. Sneg ponoči ne bo pomrznil, razen morda v mraziščih. V sredo se bo ohladilo, v visokogorju bo predvidoma zapadlo od 10 do 30 cm snega. Nižje bo deževalo in dež bo dodatno razmočil snežno odejo. Nižje zato pričakujemo na strmih pobočjih proženje posameznih plazov mokrega snega, tudi talnih. Višje pa bo spontanega plazenja bolj malo, bodo pa nastale nove klože ob jugozahodniku. V četrtek in petek se lavinske razmere ne bodo kaj dosti spreminjale. Nevarnost bo večinoma ZMERNA, 2. stopnje.&#13;
+&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>

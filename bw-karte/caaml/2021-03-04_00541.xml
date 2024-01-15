@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID541RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID541RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>sehr leicht auslösbar, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch störanfälligen Triebschnee</avActivityHighlights>
+          <avActivityComment>Über 1500m herrscht mäßige Lawinengefahr, ansonsten wird sie mit gering beurteilt. Frischer Triebschnee bildet sich besonders kammnah und hinter Geländekanten in den Expositionen Ost bis Süd. Die Auslösung einer Schneebrettlawine ist schon bei geringer Zusatzbelastung möglich, allerdings werden nur kleine Lawinen erwartet. Auf eisigen, exponierten Graten und Gipfelbereichen gilt es die Absturzgefahr zu beachten!</avActivityComment>
+          <snowpackStructureComment>Auf die harte Schneeoberfläche fällt in den Ybbstaler Alpen 10 bis 15 cm Neuschnee, im Osten weniger. Mit dem böigen Nord- bis Nordwestwind bilden sich frische Triebschneelinsen in den Expositionen Ost bis Süd, welche schlecht mit der Altschneedecke verbunden sind. In tiefen Lagen überdeckt der Neuschnee den aperen Untergrund. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag kommt es zu einem markanten Temperaturrückgang und teils schauerartigen Niederschlägen. Die Schneefallgrenze sinkt im Laufe des Tages von zirka 1000m Seehöhe auf unter 500m. Der Schwerpunkt des Neuschneezuwachses liegt in den Ybbstaler Alpen, hier werden rund 10 bis 15cm erwartet. Richtung Osten fällt deutlich weniger Schnee. Der Wind weht lebhaft, böig aus Nordwest bis Nord. Die Mittagstemperaturen liegen in 1500m um -5 Grad und es kühlt weiter ab.</wxSynopsisComment>
+          <tendencyComment>Der Samstag wird wieder trocken und sonnig, aber es kühlt weiter ab. Der frisch gebildete Triebschnee bleibt in den Hochlagen störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID541RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID541RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Mit dem frischen Neuschnee wird die Lawinengefahr mit gering bewertet. Kleinräumiger Triebschnee kann leicht gestört werden und zu einem Rutsch führen. Der Schnee bildet keine genügende Grundlage für lohnende Skitouren. </avActivityComment>
+          <snowpackStructureComment>Auf die meist apere Oberfläche fallen maximal 10 cm Neuschnee, welche mit dem böigen Nord- bis Nordwestwind als frische Triebschneelinsen abgelagert werden. Die Schneemenge ist zu gering um als gute Grundlage zu dienen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag kommt es  zu einem markanten Temperaturrückgang und teils schauerartigen Niederschlägen. Die Schneefallgrenze sinkt im Laufe des Tages von zirka 1000m Seehöhe auf unter 500m. In den Türnitzer Alpen werden 5 bis 10 cm Neuschnee erwartet. Der Wind weht lebhaft, böig aus Nordwest bis Nord. Die Mittagstemperaturen liegen in 1500m um -5 Grad und es kühlt weiter ab.</wxSynopsisComment>
+          <tendencyComment>Der Samstag wird wieder trocken und sonnig, aber es kühlt weiter ab. Der Schnee wird schnell wieder ausapern. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

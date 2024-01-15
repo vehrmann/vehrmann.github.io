@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1606RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1606RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, auch kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee führt zu erheblicher Lawinengefahr bis in bewaldete Bereiche hinab!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr über etwa 1400 m ist erheblich, darunter mäßig. Die Gefahrenstellen sind frische Triebschneebereiche bis in lichte Waldbereiche hinab, insbesondere in den Nord- über Ost- bis Südsektoren. In den Einfahrtsbereichen von steilen Rinnen und Mulden, in triebschneebeladenen Hängen, Schlägen und Lichtungen, sowie allgemein hinter Geländekanten kann bereits bei geringer Zusatzbelastung ein Schneebrett ausgelöst werden. In höheren Lagen sind schattseitig auch große Lawinen möglich. Vorsicht auch auf frisch gebildete Wechten, diese sind instabil. </avActivityComment>
+          <snowpackStructureComment>In den Nordalpen sind am Montag bis zu 50 cm Neuschnee gefallen, in der Nacht auf Dienstag können noch einige Zentimeter dazukommen. Der frische Neuschnee wird durch den stürmischen Nordwestwind bearbeitet und in Leebereichen, auch bis in den Wald, als Triebschnee abgelagert. Diese anwachsenden Triebschneepakete kommen meist auf einer harten Altschneedecke zu liegen, nur in schattigen Hochlagen war die eingeschneite Schneeoberfläche noch weich, teils sogar pulvrig, oder mit Oberflächenreif überzogen. Die Verbindung des frischen Triebschnees mit der Altschneedecke ist schattseitig also schlecht. Hier können auch Schwachschichten tiefer im Altschnee vorhanden sein. Südseitig ist die Verbindung mit dem Altschnee gut, allerdings sind Schwachschichten innerhalb des frischen Triebschnees (lockerer Neuschnee) möglich. Exponierte Bereiche sind meist abgeblasen und eisig. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stauen sich mit dem immer noch stürmischen Nordwestwind in der Früh dichtere Wolken entlang der Nordalpen. Die Sichtbedingungen sind schlecht, es schneit aber kaum noch. Nur im Nordosten, in den Mürzsteger Alpen sowie dem Hochschwabgebiet, kann es bis zum Nachmittag immer wieder zu leichten Schneefällen kommen. Weiter westlich und südlich wird es verbreitet sonnig und es bleibt niederschlagsfrei. Die Temperaturen steigen wieder an. In 2000 m hat es zu Mittag um -4 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Mittwoch herrscht großteils sonniges Bergwetter und es wird deutlich milder. Durch die Erwärmung kommt es vermehrt zu spontanen Lawinenabgängen. Das Triebschneeproblem lässt nach.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1606RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1606RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee und Sturm führen zu mäßiger Lawinengefahr durch Triebschnee bis in bewaldete Bereiche hinab!</avActivityHighlights>
+          <avActivityComment>Über etwa 1400 m herrscht mäßige Lawinengefahr. Gefahrenstellen sind frische Triebschneeansammlungen hinter Geländeübergängen, die speziell in den Nord- über Ost- bis Südsektoren als Schneebrettlawinen ausgelöst werden können. Auch in Waldschneisen und kammfernen Freiflächen in mittleren Lagen gibt es Gefahrenstellen. Frisch gebildete Wechten sind instabil! </avActivityComment>
+          <snowpackStructureComment>Mit dem Neuschnee und stürmischen Nordwestwind bildet sich störanfälliger Triebschnee. Als Schwachschichten dienen weiche Schichten innerhalb des frischen Triebschnees sowie schattseitig auch Schwachschichten im Altschnee. Die Schneedecke ist sehr inhomogen - abgeblasene, harte Bereiche wechseln mit Triebschneeansammlungen in Hohlformen. </snowpackStructureComment>
+          <wxSynopsisComment>Während sich an den Nordalpen noch dichte Wolken stauen, wird es südlich der Mur-Mürz-Furch verbreitet sonnig und es bleibt niederschlagsfrei. Der Wind weht aber immer noch stark bis stürmisch aus Nordwest. Die Temperaturen steigen wieder an. In 2000 m hat es zu Mittag um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch herrscht großteils sonniges Bergwetter und es wird deutlich milder. Durch die Erwärmung kommt es vermehrt zu spontanen Lawinenabgängen. Das Triebschneeproblem lässt nach.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

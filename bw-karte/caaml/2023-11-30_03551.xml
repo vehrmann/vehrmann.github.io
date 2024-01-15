@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3551RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T07:02:50+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3551RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T07:02:50+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;1600 m eingewehtes Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile, glatte Grashänge und Böschungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Neu- und Triebschnee Gefahrenanstieg</avActivityHighlights>
+          <avActivityComment>Das Hauptproblem ist Triebschnee. Gefahrenstellen finden sich oberhalb ca. 1600 m, vorwiegend an kammnahen Steilhängen der Expositionen NW über N bis E sowie in eingewehten Rinnen und Mulden. Wintersportler können kleine bis mittlere Schneebrettlawinen auslösen. Vor allem in Bereichen mit Regeneinfluss ist in tieferen und mittleren Lagen an steilen, glatten Wiesenhängen und Böschungen aller Expositionen zunehmend mit Selbstauslösung von kleinen, vereinzelt mittelgroßen Gleitschneelawinen zu rechnen. Auch kleine Nassschneelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Oberhalb ca. 1200 m liegt bereits viel Schnee. Der Neuschnee wurde durch starken Wind teilweise verfrachtet und als Triebschnee abgelagert. Solcher ist teilweise noch störanfällig. Neu- und frischer Triebschnee konnten sich bereits etwas setzen und leicht stabilisieren. Teilweise sind sie jedoch nur mäßig mit der Altschneedecke oder innerhalb der Zwischenschichten verbunden. In tiefen Lagen wurde der apere Boden eingeschneit. Dem Lawinenwarndienst liegen erst wenige Informationen zur Schneedecke vor. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer Warmfront beginnt der Tag mit vielen Wolken und daher trüb. In der Früh schneit es noch leicht bis in die Niederungen. Im Laufe des Vormittags fällt im Rheintal und am Bodensee allmählich Schneeregen und schließlich Regen. Die Schneefallgrenze steigt im Tagesverlauf stetig an und liegt am Nachmittag bereits auf 1000 m und darüber. Über Nacht schneit und regnet es weiter. Starke Schneeverfrachtung in Hochlagen. Temperatur in 2000m -10 bis -3 Grad, Höhenwind: stark bis stürmisch aus West bis Südwest.</wxSynopsisComment>
+          <tendencyComment>Es bleibt unbeständig mit weiteren Schneefällen bis in tiefere Lagen. Die Lawinengefahr wird somit wieder ansteigen. Die nächste Lawinenprognose erscheit spätestens am Freitag Abend.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3551RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T07:02:50+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3551RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T07:02:50+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2000 m eingewehtes Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2200 m ungünstige Zwischenschichten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen störanfälligen Triebschnee beachten - mit Erwärmung und Regen vermehrt Gleischneelawinen</avActivityHighlights>
+          <avActivityComment>Das Hauptproblem ist frischer Triebschnee. Gefahrenstellen finden sich an vorwiegend kammnahen Steilhängen der Expositionen W über N bis SE sowie in eingewehten Rinnen und Mulden. Einzelne Wintersportler können Schneebrettlawinen auslösen. In höheren Lagen können solche auch groß werden. Aktivitäten abseits gesicherter Bereiche erfordern daher lawinenkundliches Beurteilungsvermögen. Vor allem in Bereichen mit Regeneinfluss ist in tieferen und mittleren Lagen an steilen, glatten Wiesenhängen und Böschungen aller Expositionen zunehmend mit der Selbstauslösung von kleinen, vereinzelt mittelgroßen Gleitschneelawinen zu rechnen. Auch kleine Nassschneelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der vergangenen Tage wurde durch starken Wind verfrachtet und vielerorts als Triebschnee abgelagert. Solcher ist mit zunehmender Seehöhe störanfällig. Der Neu- und frische Triebschnee ist teilweise nur mäßig bis schwach mit der Altschneedecke oder innerhalb der jüngsten Neuschneeschichten verbunden. Speziell in sehr steilen Schattenhängen oberhalb ca. 2200 m weist die Altschneedecke vom Spätherbst teilweise ungünstige Zwischenschichten auf. In tiefen Lagen wurde der apere Boden eingeschneit. Dem Lawinenwarndienst liegen erst wenige Informationen zur Schneedecke vor. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer Warmfront beginnt der Tag mit vielen Wolken und daher trüb. In der Früh schneit es noch leicht bis in die Niederungen. Im Laufe des Vormittags fällt im Rheintal und am Bodensee allmählich Schneeregen und schließlich Regen. Die Schneefallgrenze steigt im Tagesverlauf stetig an und liegt am Nachmittag bereits auf 1000 m und darüber. Über Nacht schneit und regnet es weiter. Starke Schneeverfrachtung in Hochlagen. Temperatur in 2000m -10 bis -3 Grad, Höhenwind: stark bis stürmisch aus West bis Südwest.</wxSynopsisComment>
+          <tendencyComment>Es bleibt unbeständig mit weiteren Schneefällen bis in tiefere Lagen. Die Lawinengefahr ändert sich nicht wesentlich. Die nächste Lawinenprognose erscheit spätestens am Freitag Abend.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID424RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID424RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schneearme steile Hochlagen, Übergänge wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze sind zuletzt gebildete Triebschneeablagerungen und in den Hochlagen das Altschneeproblem zu beachten!</avActivityHighlights>
+          <avActivityComment>Zuletzt gebildete Triebschneeablagerungen sind über der Waldgrenze zu beachten. Diese können durch große, im sehr steilem Gelände lokal auch durch geringe Zusatzbelastung gestört werden. Im schatt- und nordseitigen Steilgelände können Lawinen durch Zusatzbelastung auf Grund der Altschneeproblems ausgelöst werden. Zu beachten sind schneearme Bereiche und Übergänge von mehr zu wenig Schnee. Bei starker Einstrahlung und mit den milderen Temperaturen sind spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit der Einstrahlung und den milden Temperaturen setzt sich der Schnee über verharschten harten Altschneedecke und wird angefeuchtet. In den schattseitigen Hochlagen gibt es aber auch noch lockere Bereiche. Hochgelegen sind in den Schatt- und Nordlagen noch immer tiefliegende Bodennahe Schwachschichten vorhanden. Über der Waldgrenze ist die Schneedecke unregelmäßig verteilt. </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag zeigt sich auf den Bergen deutlich freundlicher als zuletzt. Es dominiert vor allem am Vormittag der Sonnenschein bei guter Sicht. Am Nachmittag ziehen etwas mehr hohe Wolken heran. Der Wind weht schwach bis mäßig aus Ost bis Süd, am Dachsteingipfel noch etwas lebhafter aus West. In 1500 m milder mit 3 bis 5 Grad, in 2000 m um 3 Grad.&#13;
+Am Freitag ziehen abschnittsweise dichtere Wolken durch, am Vormittag kann gelegentlich die Sicht ein wenig eingeschränkt sein. Es sollte aber trocken sein, am Nachmittag kann sich die Sonne wieder häufiger zeigen. Der Wind weht mäßig bis lebhaft aus westlichen Richtungen. In 1500 m um 2 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID424RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID424RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr - wenig Schnee!</avActivityHighlights>
+          <avActivityComment>In den Kammlagen sind einzelne kleinräumige ältere und lokal frische Triebschneeablagerungen zu beachten. Allgemein ist nur eine sehr geringmächtige Schneedecke vorhanden.</avActivityComment>
+          <snowpackStructureComment>Die geringmächtige Schneedecke ist gefestigt bzw. verharscht und teils von einer dünnen lockeren Schicht überdeckt, die durch Wind verfrachtet wurde. Durch die milden Temperaturen und Einstrahlung wird die Schneeoberfläche angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag zeigt sich auf den Bergen deutlich freundlicher als zuletzt. Es dominiert vor allem am Vormittag der Sonnenschein bei guter Sicht. Am Nachmittag ziehen etwas mehr hohe Wolken heran. Der Wind weht schwach bis mäßig aus Ost bis Süd, am Dachsteingipfel noch etwas lebhafter aus West. In 1500 m milder mit 3 bis 5 Grad, in 2000 m um 3 Grad.&#13;
+Am Freitag ziehen abschnittsweise dichtere Wolken durch, am Vormittag kann gelegentlich die Sicht ein wenig eingeschränkt sein. Es sollte aber trocken sein, am Nachmittag kann sich die Sonne wieder häufiger zeigen. Der Wind weht mäßig bis lebhaft aus westlichen Richtungen. In 1500 m um 2 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

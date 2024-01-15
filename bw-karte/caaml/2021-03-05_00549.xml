@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID549RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID549RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>sehr leicht auslösbar, exponiertes Gelände ist abgeweht, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>In Niederösterreich herrscht geringe Lawinengefahr. Frischer Triebschnee bildete sich besonders kammnah und hinter Geländekanten in den Expositionen Ost bis Süd. Die Auslösung einer Schneebrettlawine ist schon bei geringer Zusatzbelastung möglich, allerdings werden nur kleine Lawinen erwartet. Auf eisigen, exponierten Graten und Gipfelbereichen gilt es die Absturzgefahr zu beachten! Mit der Sonneneinstrahlung sind Lockerschneerutsche aus felsigem Gelände möglich. </avActivityComment>
+          <snowpackStructureComment>&#13;
+In den letzten 24 Stunden sind in den Ybbstaler Alpen 10 bis 15 cm Neuschnee gefallen. Im Rax- Schneeberggebiet waren es nur ein paar Zentimeter. Mit dem böigen Nord- bis Nordwestwind bildeten sich frische Triebschneelinsen in den Expositionen Ost bis Süd, welche schlecht mit der Altschneedecke verbunden sind. In tiefen Lagen überdeckt der Neuschnee den aperen Untergrund. Mit der Sonneneinstrahlung kann sich der Neu- bzw. Triebschnee setzen.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Nach Auflösung letzter nächtlicher Störungsreste präsentiert sich das Wetter über der Bergwelt Niederösterreichs am Samstag strahlend sonnig. Dazu weht schwacher bis mäßiger Wind aus nördlichen Richtungen. Es ist deutlich kälter als zuletzt mit maximal minus 6 Grad in 1500m Seehöhe.</wxSynopsisComment>
+          <tendencyComment>Von Sonnenaufgang bis zum Sonnenuntergang scheint die Sonne über den niederösterreichischen Berggipfeln von einem strahlend blauen Himmel. Es wird milder. 0 Grad werden in 1500m erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

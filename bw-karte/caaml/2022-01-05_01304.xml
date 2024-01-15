@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1304RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1304RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee störanfällig; in tieferen Lagen liegt nur wenig Neuschnee auf dem nassen Boden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb ca. 1700 m erheblich, darunter gering. Das Hauptproblem ist Triebschnee. Kleinere Schneebrettlawinen können bereits durch geringe Zusatzbelastung, wie zum Beispiel durch das Gewicht eines einzelnen Skifahrers, ausgelöst werden. Gefahrenstellen gibt es vor allem oberhalb von ca. 1700 m im kammnahen Steilgelände aller Expositionen, in frisch eingewehten Rinnen und Mulden sowie hinter Geländekanten. Je höher man kommt, desto mehr Gefahrenstellen gibt es und desto größer können Lawinen werden. Die Triebschneepakete werden laufend von neuem Schnee überdeckt und sind daher auch für Geübte nur schwer zu erkennen.</avActivityComment>
+          <snowpackStructureComment>In Summe fallen am Mittwoch und Donnerstag verbreitet 20 bis 30 Zentimeter Neuschnee, der von starkem Wind verfrachtet wird. In höheren Lagen ist die Verbindung des Triebschnees mit der verharschten und teilweise eisigen Altschneeoberfläche schlecht. Stellenweise sind störanfällige Zwischenschichten im Triebschnee eingelagert. Das Altschneefundament ist stabil. Unterhalb ca. 1700 m ist die Bindung mit der nassen Altschneeoberfläche gut.  In tieferen Lagen liegt der Neuschnee vielerorts auf dem nassen Boden.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich auch am Freitag nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1304RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1304RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer, störanfälliger Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb ca. 1700 m erheblich, darunter mäßig. Das Hauptproblem ist der Neuschnee, der von starkem Wind verfrachtet wird. Kleine und mittelgroße Schneebrettlawinen können schon durch geringe Zusatzbelastung, wie zum Beispiel durch das Gewicht eines einzelnen Skifahrers, ausgelöst werden. Viele Gefahrenstellen gibt es im kammnahen Steilgelände aller Expositionen, in eingewehten Rinnen und Mulden sowie unterhalb von Geländekanten. Je höher man kommt, desto mehr Gefahrenstellen gibt es und desto größer können Lawinen werden. Triebschneepakete werden laufend von neuem Schnee überdeckt und sind daher auch für Geübte nur schwer zu erkennen. Aus felsdurchsetztem Steilgelände ist zudem mit Selbstauslösungen mittelgroßer Lockerschneelawinen zu rechnen.&#13;
+Daneben besteht weiter die Gefahr vereinzelter, mittelgroßer Gleitschneelawinen an steilen, noch nicht entladenen Wiesenhängen und im lückigen Bergwald.</avActivityComment>
+          <snowpackStructureComment>In Summe fallen am Mittwoch und Donnerstag verbreitet 30 bis 50 Zentimeter Neuschnee, der von starkem Wind verfrachtet wird. In höheren Lagen ist die Verbindung des Triebschnees mit der verharschten und teilweise eisigen Altschneeoberfläche schlecht. Unterhalb ca. 1700 m ist die Bindung mit der nassen Altschneeoberfläche gut. Stellenweise sind störanfällige Zwischenschichten im Triebschnee eingelagert. Das Altschneefundament ist stabil. In tieferen Lagen liegt der Neuschnee vielerorts auf dem nassen Boden. </snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich auch am Freitag nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

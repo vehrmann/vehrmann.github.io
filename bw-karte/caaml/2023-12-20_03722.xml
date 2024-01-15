@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3722RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3722RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneeverfrachtungen besonders in waldfreien Bereichen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist vormittags gering und steigt  am Nachmittag oberhalb der Waldgrenze auf mäßig an. Das Hauptproblem ist Triebschnee. Gefahrenstellen befinden sich im kammnahen Steilgelände in den Expositionen Nord über Ost bis Süd. Die Anzahl der Gefahrenstellen nimmt im Tagesverlauf zu. Schneebrettlawinen können vom einzelnen Skifahrer ausgelöst werden, bleiben aber meist klein. Die Absturzgefahr ist höher einzuschätzen als die Gefahr verschüttet zu werden.&#13;
+Weiterhin können sich Gleitschneelawinen jederzeit von selbst lösen. Dies vor allem an sehr steilen Hängen mit glattem Untergrund, unabhängig ihrer Exposition und Höhenlage. Die Lawinen können vereinzelt mittlere Größe erreichen. Bereiche unterhalb von Gleitschneerissen sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist an der Basis vielerorts feucht bzw. nass. Die Schneefallgrenze lag heute morgen bei etwa 1200 m: Die Schneeoberfläche ist unterhalb der Grenze angefeuchtet, oberhalb sind wenige Zentimeter schwach feuchter Neuschnee gefallen. Die Schneedecke ist insgesamt kompakt und tragfähig. In den Nordseiten ist die Schneedecke zwischen Basis und Oberfläche noch trocken. In der zweiten Nachthälfte setzt Niederschlag mit Wind aus westlicher Richtung ein. Der wenige Neuschnee lagert sich in den windberuhigten Bereichen als Triebschnee ab. Die Verbindung zwischen dem Triebschnee und der Altschneeoberfläche ist schlecht. In tiefen Lagen apert die Schneedecke zusehends aus.</snowpackStructureComment>
+          <tendencyComment>Mit Sturm und Neuschnee ist ein Anstieg der Lawinengefahr zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3722RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3722RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen nehmen im Tagesverlauf und in der Höhe zu</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze am Vormittag mäßig und steigt nachmittags auf erheblich an. Das Hauptproblem ist Triebschnee. Gefahrenstellen befinden sich  im kammnahen Steilgelände insbesondere in den Expositionen Nord über Ost bis Süd. Die Anzahl der Gefahrenstellen nimmt mit Schneefall und Wind im Tagesverlauf zu. Schneebrettlawinen können leicht ausgelöst werden. Die Lawinen können mittlere Größe erreichen.&#13;
+Weiterhin können sich Gleitschneelawinen jederzeit von selbst lösen. Dies vor allem an sehr steilen Hängen mit glattem Untergrund, unabhängig ihrer Exposition und Höhenlage. Die Lawinen können vereinzelt mittlere Größe erreichen. Bereiche unterhalb von Gleitschneerissen sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist an der Basis vielerorts feucht bzw. nass, darüber schwach feucht. In den nördlichen Expositionen und den höheren Lagen ist der obere Teil der Schneedecke trocken. In der zweiten Nachthälfte setzt Niederschlag mit Wind aus westlicher Richtung ein. Der Neuschnee lagert sich in den windberuhigten Bereichen als Triebschnee ab: Die kürzlich entstandenen, kleinräumigen Triebschneepakte werden vom frischen Triebschnee überlagert. Die Verbindung zwischen den Triebschneepaketen und teilweise zur Altschneeoberfläche  ist schlecht. In Bereichen, in denen der Schneefall ohne Windeinfluss beginnt, können Neuschneekristalle eine Schwachschicht bilden. In den Hochlagen sind zudem  im oberen Bereich der Schneedecke unterhalb von Schmelzharschschichten aufgebaute Kristalle zu finden.   </snowpackStructureComment>
+          <tendencyComment>Mit Sturm und Neuschnee ist ein markanter Anstieg der Lawinengefahr zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

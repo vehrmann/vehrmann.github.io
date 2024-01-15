@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2157RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-13T05:21:13+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2157RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-13T05:21:13+00:00</beginPosition>
+          <endPosition>2022-04-14T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T05:21:13+00:00</beginPosition>
+                  <endPosition>2022-04-13T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T05:21:13+00:00</beginPosition>
+                  <endPosition>2022-04-13T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2400m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Einstrahlung und Erwärmung im Tagesverlauf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>im Tagesverlauf Gefahrenanstieg und vermehrt Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Es besteht oft geringe, in Hochlagen und mit Tageserwärmung mäßige Lawinengefahr. Schwachschichten im Altschnee können in hohen Lagen teilweise noch gestört werden. Kleine bis mittlere Lawinenauslösungen durch einzelne Wintersportlern sind möglich. Gefahrenstellen sind vor allem in sehr steilen Schattenhängen sowie auch in tieferen Lagen im extremen Steilgelände vorhanden. Spontan oder mit geringer Zusatzbelastung sind mit Tageserwärmung und Einstrahlung vor allem an Ost-, Süd- und Westhängen bis in hohe Lagen kleine bis mittlere feuchte Rutsche und nasse Lawinen möglich. In den schneereicheren Gebieten sind an sehr steilen Grashängen weiterhin Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Verbindung der jüngsten Triebschneeansammlungen zur Altschneedecke ist meist gut, mit zunehmender Seehöhe vor allem an steilen Schattenhängen teilweise auch nur mäßig. Kleine bis mittlere Schneebrettlawinen können im oberen Teil der Schneedecke oder im Bereich von Saharastaubschichten  ausgelöst werden. In der großteils milden aber klaren Nacht hat sich wieder eine meist tragfähige Harschkruste gebildet. Diese weicht mit weiterer Einstrahlung und Erwärmung untertags rasch wieder auf und verliert dabei an Festigkeit. Der Schneedeckenabbau in tiefen und mittleren Lagen schreitet voran.</snowpackStructureComment>
+          <wxSynopsisComment>Hohe Wolken und etwas Saharastaub trüben den Himmel. Nachmittags kommen Quellwolken dazu. Es bleibt mild mit einer Frostgrenze bei 3200 m. Temperatur in 2000 m: 5 bis 9 Grad, Höhenwind: schwach bis mäßig aus unterschiedlichen Richtungen</wxSynopsisComment>
+          <tendencyComment>Die Nacht verläuft teilweise bedeckt und mild. Der Donnerstag beginnt sonnig. Nachmittags sind Schauer möglich.  Die Gefahr nasser Lawinen steigt bereits in den Vormittagsstunden an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

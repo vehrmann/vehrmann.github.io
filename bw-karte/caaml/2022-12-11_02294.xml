@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2294RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2294RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Störanfällige Schwachschichten im Altschnee: Potenzial für großflächige Bruchausbreitung</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Frischen Triebschnee an kammnahen Steilhängen meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen v.a. an windberuhigten Schattenhängen</avActivityHighlights>
+          <avActivityComment>Schwachschichten im Altschnee bilden die Hauptgefahr. Die Gefahrenstellen befinden sich an steilen (&gt; 30°), eher windgeschützten Schattenhängen oberhalb rund 2000 m sowie an allen Expositionen in der Höhe. Kammnahe Geländekammern, Mulden oder Felswandfüße sind dabei besonders ungünstig. Die Gefahrenstellen sind auch für Geübte kaum zu  erkennen. Lawinen können bereits von einzelnen Wintersportlern ausgelöst werden und stellenweise mittlere Größe erreichen, dies besonders in den neuschneereichen Gebieten. Alarmzeichen wie Wummgeräusche und Risse können auf die Gefahr hinweisen. &#13;
+Zudem sind die frischen Triebschneepakete in Kammlagen der Expositionen Nordost über Ost bis Süd störanfällig. Sie sind meist klein und gut zu erkennen.</avActivityComment>
+          <snowpackStructureComment>Die Schneehöhe beträgt zwischen 40 und 90 cm. Seit Freitag sind meist 15 bis 20 cm, lokal bis zu 35 cm kalter, lockerer Neuschnee hinzugekommen. &#13;
+Besonders an Schattenhängen ist der Schneedeckenaufbau derzeit ungünstig. Meist findet man im unteren Teil der (noch geringmächtigen) Schneedecke eine Abfolge von Schmelzkrusten und kantigen Kristallen, welche sich - je nach Höhenlage - in den letzten Wochen und Monaten ausgebildet haben. Darüber lagern in windgeschützen Gebieten oberhalb der Waldgrenze frische und schon ältere Triebschneepakete der vergangenen Woche, welche auf den aufbauend umgewandelten Schwachschichten stellenweise störanfällig sind. Der Neuschnee überdeckt diese alten Triebschneepakete. &#13;
+Kammnah finden sich kleine frische Triebschneeansammlungen, welche auf der alten Schneeoberfläche bzw. kaltem Neuschnee störanfällig sind. Mancherorts wurde auch Oberflächenreif überdeckt.</snowpackStructureComment>
+          <wxSynopsisComment>Montag: Am Montag scheint im Bereich der Tauern und Nockberge meist die Sonne. In den Hochlagen weht eisig kalter Nordwestwind, der Spitzen um 40 km/h erreicht. In 2000 m hat es um -13 Grad, in 3000 m um -20 Grad.&#13;
+Dienstag: Am Dienstag scheint meist die Sonne. Im Lauf des Tages ziehen hohe Wolken auf, die den Sonnenschein zunehmend beeinträchtigen können. In den Hochlagen der Tauern erreicht der Südwind Spitzen um 40 km/h. Der Frost schwächt sich ab, in 2000 m hat es um -9 Grad, in 3000 m steigt die Temperatur von -18 auf -11 Grad.</wxSynopsisComment>
+          <tendencyComment>Nur langsamer Rückgang der Gefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2294RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2294RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Sei in allen Höhenlagen vorsichtiger: Neu- und Triebschnee sind auf der schwachen Altschneedecke störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Die meist kleinen, kammnahen Triebschneepakete sind störanfällig und sollten umgangen werden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen im Altschnee</avActivityHighlights>
+          <avActivityComment>Die Hauptgefahr geht von nicht erkennbaren Gefahrenstellen im schwachen Altschneefundament aus. Sie befinden sich an allen Expositionen oberhalb rund 2000 m, besonders aber an West- Nord- und Osthängen, hinter Geländekanten sowie in Mulden und Rinnen. Einzelne Wintersportler können hier vereinzelt mttelgroße Schneebrettlawinen auslösen. Zudem bilden sich mit dem Nordwestwind neue, störanfällige Triebschneeansammlungen an kammnahen Nordost, Ost- und Südhängen. Diese sind klein aber leicht auszulösen. Vorsicht besonders im absturzgefährdeten Gelände oder oberhalb von Geländefallen.</avActivityComment>
+          <snowpackStructureComment>Die Gesamtschneehöhe beträgt zwischen etwa 20 und 60 cm. Seit Freitag sind meist 10 bis 15 cm, lokal bis zu 20 cm kalter, lockerer Neuschnee hinzugekommen. &#13;
+Der Schneedeckenaufbau der derzeit noch geringmächtigen Schneedecke ist oft ungünstig. Der Schnee zeigt sich bis zum Boden hin aufbauend umgewandelt mit z.T. eingelagerten Schmelzkrusten. Im Waldgrenzbereich sowie in windgeschützten Lagen wurde Oberflächenreif eingeschneit. Neu- und Triebschnee liegt auf dieser schwachen Altschneedecke und ist entsprechend störanfällig. Etwas besser ist die Situation an Sonnenhängen oder auch dort, wo der Wind für eine sehr unregelmäßige Verteilung des Schnees gesorgt hat. </snowpackStructureComment>
+          <wxSynopsisComment>Montag: Im Bereich der Nordalpen gibt es zum Teil hochnebelartige Wolken an den Bergen, aus denen es da und dort unergiebig schneien kann, ansonsten ist es sehr sonnig. In den Hochlagen weht schwach bis mäßig starker Nordwestwind. Es ist sehr kalt. In 2000 m hat es um -13 Grad, in 3000 m um -20 Grad.&#13;
+Dienstag: Am Dienstag scheint meist die Sonne. Im Lauf des Tages ziehen hohe Wolken auf, die den Sonnenschein zunehmend beeinträchtigen können. In den Hochlagen der Tauern erreicht der Südwind Spitzen um 40 km/h. Der Frost schwächt sich ab, in 2000m hat es um -9 Grad, in 3000m steigt die Temperatur von -18 auf -11 Grad.</wxSynopsisComment>
+          <tendencyComment>Nur leichter Rückgang der Gefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2294RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2294RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Triebschneepakete vor allem oberhalb von Geländefallen konsequent meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische und schon etwas ältere Triebschneepakete sind teils störanfällig</avActivityHighlights>
+          <avActivityComment>Frische Triebschneepakete, welche mit Nordföhn entstanden sind, aber auch die etwas älteren Triebschneeansammlungen der letzten Woche können von einzelnen Wintersportlern ausgelöst werden und vereinzelt mittlere Größe erreichen. Gefahrenstellen finden sich an allen Expositionen in kammnähe, hinter Geländekanten sowie in Mulden und Rinnen. Nördlich der Mur sind die Gefahrenstellen etwas häufiger. Die Triebschneeansammlungen sind meist gut erkennbar.</avActivityComment>
+          <snowpackStructureComment>Die Schneehöhe beträgt 20 bis 40 cm. In den vergangenen Tagen ist nur wenig Neuschnee hinzugekommen.&#13;
+Der Schneedeckenaufbau der derzeit noch geringmächtigen Schneedecke ist oft ungünstig. Der Schnee zeigt sich bis zum Boden hin aufbauend umgewandelt mit z.T. eingelagerten Schmelzkrusten. Im Waldgrenzbereich sowie in widngeschützten Lagen wurde Oberflächenreif eingeschneit. Neu- und Triebschnee wird auf diese schwache Altschneedecke abgelagert und ist störanfällig. Etwas besser ist die Situation an Sonnenhängen oder auch dort, wo der Wind für eine sehr unregelmäßige Verteilung des Schnees gesorgt hat. </snowpackStructureComment>
+          <wxSynopsisComment>Montag: Am Montag gibt es im Bergland meist strahlenden Sonnenschein, letzte Restwolken lösen sich in der Früh auf und tagsüber ist es dann größtenteils ungetrübt sonnig. Nur direkt entlang des Tauernhauptkamms könnten sich von Nordwesten her hie und da noch ein paar Wolken stauen und einzelne Gipfel zwischendurch einmal in Nebel hüllen. In exponierten Lagen weht noch lebhafter, in Böen auch kräftiger und bitterkalter Nordwestwind. In 2000m hat es frostige -11 Grad, in 3000m eisige -19 Grad.&#13;
+Dienstag: Am Dienstag gibt es im Bergland voraussichtlich meist überwiegend sonniges Wetter. Im Tagesverlauf können von Westen ausgehend zwar einige dünne ausgedehnte Wolken in hohen Schichten aufziehen, diese sollten den Sonnenschein aber nur etwas trüben. In den Karnischen Alpen könnten sich im Tagesverlauf auch ein paar tiefe Wolken stauen, eher bleiben die Berge aber auch hier frei. In exponierten Hochlagen kommt mäßiger Südwest- bis Westwind auf. In 2000 m hat es um -10 Grad, in 3000 m leichte Frostabschwächung auf etwa -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneeansammlungen liegen auf langlebigen Schwachschichten und bleiben störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

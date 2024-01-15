@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3494RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3494RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Triebschnee ist vor allem an steilen Nordhängen störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen und Regen schwächen die Schneedecke. Spontane Nassschneelawinen sind zu erwarten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vorsicht in Gebieten mit Gleitschneerissen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Spontane Gleitschneeaktivität. Vorsicht in Gebieten mit Gleitschneerissen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem in der Höhe. Anstieg der Gefahr von Nass- und Gleitschneelawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Am Vormittag herrscht oberhalb 2400m MÄßIGE, darunter GERINGE Lawinengefahr. Mit warmen Temperaturen und Regen am Nachmittag steigt die Lawinengefahr unterhalb 2400m auf ERHEBLICH an. &#13;
+Vormittag: Die schon etwas älteren Triebschneeansammlungen können an Schattenhängen oberhalb etwa 2600m vereinzelt noch von einzelnen Wintersportler*innen ausgelöst werden. Lawinen sind meist mittelgroß, können aber vereinzelt auch tiefere Schichten der Schneedecke mitreißen und groß werden. An steilen Wiesenhängen unter etwa 2600m sind nur vereinzelt spontane Gleitschneelawinen möglich.&#13;
+Nachmittag: Mit warmen Temperaturen, feuchter Luft und Regen sind kleine bis mittelgroße spontane Nass- und Gleitschneelawinen unterhalb der Regengrenze möglich.  Vereinzelt können Lawinen v.a. an Schattenhängen auch groß werden.&#13;
+Prognoseunsicherheit: Die Unsicherheiten im Hinblick auf das morgige Niederschlagsereignis sind groß. Niederschlagsmenge und Regengrenze bestimmen im Wesentlichen die Gefahrenentwicklung am Nachmittag und sollten entsprechend beobachtet werden.</avActivityComment>
+          <snowpackStructureComment>In der teils klaren Nacht auf Freitag bildet sich ein dünner Schmelzharschdeckel, welcher im Tagesverlauf recht rasch wieder aufweicht. Warme Temperaturen und feuche Luft führen zu einem Aufweichen der Schneedecke. Am Nachmittag führt Regen unterhalb etwa 2200- 2500m zu einer Durchfeuchtung und Schwächung der Schneedecke. In der Höhe sind dabei 20 bis 40 cm Neuschnee möglich. Der Wind weht nur schwach bis mäßig. Triebschneeansammlungen der letzten Tage haben sich meist gut verfestigt und mit darunterliegenden Schichten verbunden. Sie sind nur noch an Schattenhängen in der Höhe vereinzelt störanfällig. An Schattenhängen sind vereinzelt kantige Schwachschichten  im Altschnee vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag geht es zu Beginn noch trocken und teils aufgelockert bewölkt weiter, etwas Sonnenschein ist dabei. Schon bald ziehen dichtere Wolken auf, die Sicht verschlechtert sich zunehmend. Am späten Vormittag breiten sich von Westen her Regen und Schneefall aus, wobei die Schneefallgrenze am Nachmittag recht hoch bei 2200- 2500m Seehöhe liegt. Der Westwind weht schwach bis mäßig, legt aber im Hochgebirge allmählich zu. In 2000m 2 bis 4 Grad, in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Leichter Rückgang der Gefahr. Nass- und Gleitschnee bleiben die Hauptprobleme. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3494RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3494RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vorsicht an hochgelegenen und schattigen, kammnahen Hängen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen und Regen schwächen die Schneedecke. Spontane Nassschneelawinen sind möglich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <comment>Vorsicht an hochgelegenen und schattigen, kammnahen Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in der Höhe, Nassschneelawinen ab dem Nachmittag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag GERING und steigt am Nachmittag auf MäßIG an. &#13;
+Vormittag: Die schon etwas älteren Triebschneeansammlungen sind nur an kammnahen, sehr steilen (&gt;35°) Schattenhängen oberhalb rund 2600m vereinzelt noch störanfällig. Lawinen können mittlere Größe erreichen.&#13;
+Nachmittag: Mit warmen Temperaturen, feuchter Luft und Regen sind bis zum Bereich der Regengrenze kleine und mittelgroße spontane nasse Lockerschnee- und vereinzelt Gleitschneelawinen möglich. Dies besonders an Schattenhängen.</avActivityComment>
+          <snowpackStructureComment>In der teils klaren Nacht auf Freitag bildet sich ein dünner Schmelzharschdeckel, welcher im Tagesverlauf recht rasch wieder aufweicht. Warme Temperaturen und feuche Luft führen zu einem Aufweichen der Schneedecke. Am Nachmittag führt Regen unterhalb etwa 2200- 2500m zu einer Durchfeuchtung und Schwächung der Schneedecke. In der Höhe fallen zwischen 10cm Neuschnee im Osten und 30cm im Westen der Region. Der Wind weht nur schwach bis mäßig. Die Triebschneeansammlungen der letzten Tage haben sich meist gut verfestigt und sind nur mehr vereinzelt störanfällig. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag geht es zu Beginn noch trocken und teils aufgelockert bewölkt weiter, etwas Sonnenschein ist dabei. Schon bald ziehen dichtere Wolken auf, die Sicht verschlechtert sich zunehmend. Am späten Vormittag breiten sich von Westen her Regen und Schneefall aus, wobei die Schneefallgrenze am Nachmittag recht hoch bei 2200- 2500m Seehöhe liegt. Der Westwind weht schwach bis mäßig, legt aber im Hochgebirge allmählich zu. In 2000m 2 bis 4 Grad, in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschnee bleibt das Hauptproblem. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3494RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3494RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kleine Triebschneelinsen im absturzgefährdetem Gelände meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen und Regen schwächen die Schneedecke. Spontane Nassschneelawinen sind möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Gefahr im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag GERING und steigt am Nachmittag auf MäßIG an. &#13;
+Vormittag: Die schon etwas älteren, kleinen Triebschneeansammlungen sind nur an kammnahen, extrem steilen (&gt;40°) Schattenhängen oberhalb rund 2400m vereinzelt noch störanfällig. Vorsicht besonders im absturzgefährdetem Gelände.&#13;
+Nachmittag: Mit warmen Temperaturen, feuchter Luft und Regen sind bis zum Bereich der Regengrenze kleine und vereinzelt mittelgroße spontane nasse Lockerschnee- und Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In der teils klaren Nacht auf Freitag bildet sich ein dünner Schmelzharschdeckel, welcher im Tagesverlauf recht rasch wieder aufweicht. Warme Temperaturen und feuche Luft führen zu einem Aufweichen der Schneedecke. Am Nachmittag führt Regen unterhalb etwa 2200- 2500m zu einer Durchfeuchtung und Schwächung der Schneedecke. In der Höhe fallen zwischen 10 und 30cm Neuschnee, wobei im Westen der Niederschlag etwas ergiebiger ausfällt. Der Wind weht nur schwach bis mäßig. Die kleinen Triebschneeansammlungen der letzten Tage haben sich meist gut verfestigt und sind kaum mehr störanfällig. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag geht es zu Beginn noch trocken und teils aufgelockert bewölkt weiter, etwas Sonnenschein ist dabei. Schon bald ziehen dichtere Wolken auf, die Sicht verschlechtert sich zunehmend. Am späten Vormittag breiten sich von Westen her Regen und Schneefall aus, wobei die Schneefallgrenze am Nachmittag recht hoch bei 2200- 2500m Seehöhe liegt. Der Westwind weht schwach bis mäßig, legt aber im Hochgebirge allmählich zu. In 2000m 2 bis 4 Grad, in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschnee bleibt das Hauptproblem. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3494RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3494RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vereinzelt nasse Lockerschneerutsche möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Mit milden Temperaturen und etwas Regen ab den Nachmittagsstunden sind vereinzelt kleine nasse Lockerschneelawinen an extrem steilen (&gt;40°) Hängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist meist bis zum Boden hin feucht oder nass. Die wenigen, kleinen Triebschneepakete der vergangenen Tage haben sich verfestigt. Mit warmen Temperaturen und Regen bis auf die Gipfel ab den Nachmittagsstunden erfolgt eine Schwächung  der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag geht es zu Beginn noch trocken und teils aufgelockert bewölkt weiter, etwas Sonnenschein ist dabei. Schon bald ziehen dichtere Wolken auf, die Sicht verschlechtert sich zunehmend. Am späten Vormittag breiten sich von Westen her Regen und Schneefall aus, wobei die Schneefallgrenze am Nachmittag recht hoch bei 2200- 2500m Seehöhe liegt. Der Westwind weht schwach bis mäßig, legt aber im Hochgebirge allmählich zu. In 2000m 2 bis 4 Grad, in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Geringe Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

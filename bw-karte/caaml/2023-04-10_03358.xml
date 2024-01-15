@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3358RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3358RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-13T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – Triebschnee- und Nassschneeproblem wechseln sich in den kommenden Tagen noch ab!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, aber in den Hochlagen gilt es stellenweise noch Triebschneeablagerungen hinter Geländekanten und in steilen Rinnen zu beachten. Diese bilden sich durch Schneeschauer in den nächsten Tagen und können eventuell durch einen einzelnen Wintersportler ausgelöst werden, es werden aber nur kleine Lawinen erwartet. Mit Einstrahlung und milden Temperaturen entspannt sich das Triebschneeproblem rasch, allerdings können dann spontane Lockerschneerutsche aus extrem steilen Hängen nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Mittlere Lagen sind bereits häufig ausgeapert, gute Tourenbedingungen findet man überwiegend  nur mehr in den Hochlagen. Das Schneedeckenfundament ist durchwegs stabil, nur in Gipfelbereichen kann es hinter Geländekanten teils störanfällige Triebschneeablagerungen geben. Mit Einstrahlung und milden Temperaturen setzt sich die Schneedecke rasch, kann aber durch den Feuchtigkeitseintrag oberflächlich an Stabilität verlieren. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag hüllt ein Frontensystem die Berge immer wieder in kompakte Wolken, dazu regnet oder schneit es auch öfters. Die Schneefallgrenze sinkt bis auf 1400 m. Erst gegen Abend lockert es von Westen her allmählich auf. Der Wind dreht auf West bis Nordwest und bläst für einige Stunden lebhaft bis kräftig. Die Temperaturen sinken in 1500 m von rund +5 Grad am Vormittag auf +1 Grad am Nachmittag.&#13;
+Auch am Mittwoch muss man in den westlichen Gebirgsgruppen Niederösterreichs mit etwas Niederschlag rechnen. Die Schneefallgrenze klettert im Tagesverlauf auf etwa 1900 m, zu Mittag hat es in 1500 m bereits rund +4 Grad. Am Nachmittag sind von Südwesten her einzelne sonnige Föhnfenster möglich, dazu dreht der Wind auf südliche Richtungen und bläst stellenweise recht lebhaft.&#13;
+Ab Donnerstag zum Wochenende hin wird es kurzfristig wieder kälter in allen Höhen und besonders am Freitag schneit es bis auf 500 m Seehöhe hinunter. Zudem weht mäßiger bis stürmischer Nord- bis Nordwestwind. </wxSynopsisComment>
+          <tendencyComment>Das frühlingshafte Wetter lässt noch ein bisschen auf sich warten, aber auch kurzfristig gebildeter Triebschnee, der lawinenrelevant sein kann, entspannt sich mit der Einstrahlung sehr rasch und die Schneedecke setzt und stabilisiert sich weiter. Außerdem zieht sich die geschlossene Schneedecke immer weiter in die Hochlagen zurück, gute Tourenbedingungen sind kaum mehr zu finden. Daher beendet der Lawinenwarndienst seine tägliche Ausgabe des Lagberichts, aber die Situation wird weiter beobachtet und relevante Information zur Lawinensituation wird gegebenenfalls auf der Homepage unter "AKTUELLES" veröffentlicht. &#13;
+Der Lawinenwarndienst wünscht einen unfallfreien Sommer!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

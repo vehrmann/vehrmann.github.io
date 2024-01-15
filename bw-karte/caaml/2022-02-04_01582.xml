@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1582RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1582RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen weiterhin störanfälliger Triebschnee ostseitig</avActivityHighlights>
+          <avActivityComment>In den Hochlagen wird die Lawinengefahr mit erheblich, ansonsten mit mäßig beurteilt. Frischer Triebschnee kann besonders schattseitig in steilen Rinnen und Mulden noch durch geringe Zusatzbelastung als Schneebrettlawinen ausgelöst werden. Die Gefahrenstellen befinden sich vorallem in den Einfahrtsbereichen und hinter Geländekanten. Südseitig können spontane Lockerschneelawinen nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Die Erwärmung und Einstrahlung am Freitag hat allgemein eine Stabilisierung der Schneedecke begünstigt. In den südlichen Expositionen hat sich der Triebschnee besser mit der Altschneedecke verbunden, in tiefen Lagen wurde der Schnee weiter feucht. Schattseitig fungieren weiterhin kantige Kristalle als Schwachschicht und die Schneedecke hat auch in tiefen Lagen noch Kältereserven. Neuerlicher Triebschnee verbindet sich in den Hochlagen schlecht mit der Altschneedecke. In Kammnähe und exponierten Lagen ist es abgeblasen oder eisig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag zieht eine Kaltfront durch, welche nördlich des Alpenhauptkamms wenige Zentimeter Neuschnee mitbringt. Die Wolken lockern aber bereits am Vormittag wieder auf, südlich des Alpenhauptkamms bereits in der Früh, und es wird ein recht sonniger Tag. Die Temperaturen gehen aber merklich zurück und auch der Wind weht in den Hochlagen teils stürmisch. In 2000 m Seehöhe hat es zu Mittag im Norden -10 Grad, im Süden -5 Grad, in 1500 m Höhe ist jeweils um etwa 5 Grad milder. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag überwiegt in der gesamten Steiermark mittelhohe Bewölkung ohne Niederschlag. Es wird kurzfristig wieder etwas wärmer bei lebhaftem Wind aus West. Keine wesentliche Änderung der Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1582RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1582RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Setzung der Schneedecke durch Einstrahlung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. In den Einfahrtsbereichen von Rinnen und Mulden sind Schneebrettauslösungen insbesondere bei großer Zusatzbelastung weiterhin möglich. In mittleren Lagen können besonders südseitig spontane Lockerschneelawinen nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Die Erwärmung und Einstrahlung am Freitag hat eine Stabilisierung der Schneedecke begünstigt. Schattseitig existieren weiterhin Schwachschichten innerhalb des Triebschnees der letzten Tage. In mittleren Lagen wurde der Schnee weiter feucht und über Nacht harschig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag zieht eine Kaltfront durch, welche nördlich des Alpenhauptkamms wenige Zentimeter Neuschnee mitbringt. Die Wolken lockern aber bereits am Vormittag wieder auf, südlich des Alpenhauptkamms bereits in der Früh, und es wird ein recht sonniger Tag. Die Temperaturen gehen aber merklich zurück und auch der Wind weht in den Hochlagen teils stürmisch. In 2000 m Seehöhe hat es zu Mittag im Norden -10 Grad, im Süden -5 Grad, in 1500 m Höhe ist es jeweils um etwa 5 Grad milder. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag überwiegt in der gesamten Steiermark mittelhohe Bewölkung ohne Niederschlag. Es wird kurzfristig wieder etwas wärmer bei lebhaftem Wind aus West. Keine wesentliche Änderung der Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1582RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1582RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Lockerschneelawinen südseitig möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Südseitig kann es zu spontanen Lockerschneelawinen aus steilem Gelände kommen. Im Ostsektor existieren noch wenige Gefahrenstellen durch Triebschneeablagerungen. </avActivityComment>
+          <snowpackStructureComment>Die Erwärmung und Einstrahlung am Freitag hat eine Stabilisierung der Schneedecke begünstigt. Schattseitig liegt weiterhin Triebschnee auf einer harten Altschneedecke. In mittleren Lagen wurde der Schnee weiter feucht und über Nacht harschig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag zieht eine Kaltfront durch, welche nördlich des Alpenhauptkamms wenige Zentimeter Neuschnee mitbringt. Die Wolken lockern aber bereits am Vormittag wieder auf, südlich des Alpenhauptkamms bereits in der Früh, und es wird ein recht sonniger Tag. Die Temperaturen gehen aber merklich zurück und auch der Wind weht in den Hochlagen teils stürmisch. In 2000 m Seehöhe hat es zu Mittag im Norden -10 Grad, im Süden -5 Grad, in 1500 m Höhe ist jeweils um etwa 5 Grad milder. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag überwiegt in der gesamten Steiermark mittelhohe Bewölkung ohne Niederschlag. Es wird kurzfristig wieder etwas wärmer bei lebhaftem Wind aus West. Keine wesentliche Änderung der Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

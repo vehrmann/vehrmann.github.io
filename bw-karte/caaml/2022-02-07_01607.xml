@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1607RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1607RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1300Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1300Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, kammnah, kammfern, hinter Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und locker, durch Windeinfluss sehr unterschiedlich verteilt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Umfangreiche und untypische Einwehungen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1300 m ERHEBLICH, darunter MÄßIG. Schneebretter können an vielen Stellen bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen gibt es sowohl kammnah, als auch kammfern hinter Geländekanten und im lichten Waldbereich. Auch Rinnen und Mulden sind mit frischem Triebschnee gefüllt. Die ausgelösten Lawinen sind überwiegend mittelgroß, in höheren Lagen kann es aber zu einem Durchreißen bis zur Altschneedecke kommen und dann können Schneebretter auch große Ausmaße annehmen. Aus hochalpinen Einzugsgebieten können Lawinenabgänge auch Staubanteil entwickeln.</avActivityComment>
+          <snowpackStructureComment>Auf eine gut gesetzte Schneedecke sind am Montag verbreitet 30 bis 50 cm kalter Neuschnee gefallen. Der Windeinfluss (großräumig aus Nordwest) war zum Teil extrem und hat den Schnee sehr unterschiedlich abgelegt und kleinräumig auch deutlich mehr abgelegt. Exponierte Flächen sind blank gefegt, untypische Wechten und Dünen sind entstanden. Mögliche Bruchflächen für Schneebretter liegen innerhalb des Neu-/Triebschnees (eingelagerter Graupel), daneben kommt in erster Linie die Oberfläche vom Sonntag (überwehter Pulver bzw. dünne weiche Schicht mit Graupel auf Schmelzharschkruste) in Frage. Tiefer liegende Schwachschichten sind erst mit sehr großer Zusatzbelastung aktivierbar.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag wechselt die Sicht, hohe Gipfel stecken zum Teil in Nebel, darunter ist die Sicht meist frei. Der Nordwestwind weht vor allem in den Hochlagen der Tauern, aber auch im Nordalpenbereich noch stark, teilweise sogar stürmisch und lässt tagsüber nur langsam nach. Die Temperaturen steigen an: In 2000 m -8 bis -3 Grad, in 3000 m -10 bis -4 Grad.&#13;
+Am Mittwoch ausgezeichnete Sicht und kaum Wolken. Der Wind weht im Hochgebirge noch mit 30 bis 50 km/h, sonst stört er kaum. Es wird noch deutlich wärmer: In 2000 m hat es um 4 Grad, in 3000 m um 0 Grad!</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch mit Sonnenschein und Erwärmung starke Anfeuchtung des Neuschnees in tiefen und mittleren Höhenlagen (Gleitschnee, Nassschneeproblem). In den besonnten Hochlagen nochmaliger Setzungsimpuls.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1607RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1607RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in Rinnen und steilen Mulden aller Richtungen. Heikel: Übergang in die Triebschneebereiche</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee, meist dünn, aber teils leicht auslösbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1400 m MÄßIG, darunter GERING. Neuschnee und Sturm bilden in Rinnen aller Richtungen und vermehrt  im steilen Ost- und Südsektor (NO-O-S-SW) frische Triebschneepakete. Diese werden nicht allzu dick, sind aber störanfällig und können schon mit geringer Zusatzbelastung als kleines bis mittelgroßes Schneebrett ausgelöst werden. Heikel sind insbesondere die Übergange von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt. Unter starkem Windeinfluss fielen um 10 (stellenweise bis 20 cm) Neuschnee. Windexponiertes Gelände ist oft komplett abgeblasen, Rinnen und Mulden bis in den lichten Wald mit Triebschnee gefüllt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist der Nordwestwind anfangs noch stark bis stürmisch, schwächt sich tagsüber aber langsam ab. Die Sicht wechselt, ist aber meist ausreichend. Die Temperaturen steigen tagsüber an: In 2000 m von -9 auf -3 Grad.&#13;
+Beste Fernsicht und Sonnenschein am Mittwoch. Der Wind stört nicht mehr und die Temperaturen steigen auf frühlingshafte 3 bis 6 Grad in 2000 m.</wxSynopsisComment>
+          <tendencyComment>Langsamer Rückgang der Lawinengefahr. Neu- und Triebschnee setzen sich unter ansteigenden Temperaturen. In tiefen Lagen starke Anfeuchtung des Neuschnees.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1607RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1607RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, kammnah, kammfern, hinter&#13;
+Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und sehr locker, sehr unterschiedlich verteilt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Heikle Situation, hohe Störanfälligkeit</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze GROß, darunter ERHEBLICH! Die Auslösung eines mittleren bis großen Schneebretts ist schon bei geringer Zusatzbelastung als wahrscheinlich anzunehmen. Gefahrenstellen gibt es  sowohl kammnah, als auch kammfern hinter Geländekanten und im lichten Waldbereich, der frische Triebschnee ist sehr störanfällig. Die Situation ist heikel und erfodert im freien alpinen Gelände bewusste Zurückhaltung, sehr gute Geländekenntnis und großes lawinenkundliches Wissen!</avActivityComment>
+          <snowpackStructureComment>Auf eine gut gesetzte Schneedecke sind am Montag verbreitet 40 bis 60 cm kalter Neuschnee gefallen. Der Windeinfluss (großräumig aus Nordwest) war zum Teil extrem und hat den Schnee sehr unterschiedlich abgelegt und kleinräumig auch deutlich mehr abgelegt. Exponierte Flächen sind blank gefegt, untypische Wechten und Dünen sind entstanden. Mögliche Bruchflächen für Schneebretter liegen innerhalb des Neu-/Triebschnees (eingelagerter Graupel), daneben kommt in erster Linie die Oberfläche vom Sonntag (überwehter Pulver bzw. dünne weiche Schicht mit Graupel auf Schmelzharschkruste) in Frage. Tiefer liegende Schwachschichten sind erst mit sehr großer Zusatzbelastung aktivierbar.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag wechselt die Sicht, hohe Gipfel stecken zum Teil in Nebel, darunter ist die Sicht meist frei. Der Nordwestwind weht noch stark, lässt tagsüber aber langsam nach. Die Temperaturen steigen an: In 2000 m -8 bis -3 Grad.&#13;
+Am Mittwoch ausgezeichnete Sicht und kaum Wolken. Der Wind weht mäßig stark und stört kaum noch. Es wird noch deutlich wärmer: In 2000 m hat es um +4 Grad!</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch mit Sonnenschein und Erwärmung starke Anfeuchtung des Neuschnees in tiefen und mittleren Höhenlagen (Gleitschnee, Nassschneeproblem). In den besonnten Hochlagen nochmaliger Setzungsimpuls.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1607RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1607RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, kammnah, kammfern, hinter&#13;
+Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und sehr locker, sehr unregelmäßig veteilt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Umfangreiche und untypische Einwehungen</avActivityHighlights>
+          <avActivityComment>Es besteht ERHEBLICHE Lawinengefahr! Schneebretter können bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen gibt es sowohl kammnah, als auch kammfern hinter Geländekanten und im lichten Waldbereich. Auch Rinnen und Mulden sind mit frischem Triebschnee gefüllt. Die ausgelösten Lawinen sind mittelgroß bis groß, in höheren Lagen kann es zu einem Durchreißen bis zur Altschneedecke kommen. Aus hochalpinen Einzugsgebieten können Lawinenabgänge auch Staubanteil entwickeln.</avActivityComment>
+          <snowpackStructureComment>Auf eine gut gesetzte Schneedecke sind am Montag verbreitet 30 bis 50 cm kalter Neuschnee gefallen. Der Windeinfluss (großräumig aus Nordwest) war zum Teil extrem und hat den Schnee sehr unterschiedlich abgelegt und kleinräumig auch deutlich mehr abgelegt. Exponierte Flächen sind blank gefegt, untypische Wechten und Dünen sind entstanden. Mögliche Bruchflächen für Schneebretter liegen innerhalb des Neu-/Triebschnees (eingelagerter Graupel), daneben kommt in erster Linie die Oberfläche vom Sonntag (überwehter Pulver bzw. dünne weiche Schicht mit Graupel auf Schmelzharschkruste) in Frage. Tiefer liegende Schwachschichten sind erst mit sehr großer Zusatzbelastung aktivierbar.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag wechselt die Sicht, hohe Gipfel stecken zum Teil in Nebel, darunter ist die Sicht meist frei. Der Nordwestwind weht vor allem in den Hochlagen der Tauern, aber auch im Nordalpenbereich noch stark, teilweise sogar stürmisch und lässt tagsüber nur langsam nach. Die Temperaturen steigen an: In 2000 m -8 bis -3 Grad, in 3000 m -10 bis -4 Grad.&#13;
+Am Mittwoch ausgezeichnete Sicht und kaum Wolken. Der Wind weht im Hochgebirge noch mit 30 bis 50 km/h, sonst stört er kaum. Es wird noch deutlich wärmer: In 2000 m hat es um 4 Grad, in 3000 m um 0 Grad!</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch mit Sonnenschein und Erwärmung starke Anfeuchtung des Neuschnees in tiefen und mittleren Höhenlagen (Gleitschnee, Nassschneeproblem). In den besonnten Hochlagen nochmaliger Setzungsimpuls.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

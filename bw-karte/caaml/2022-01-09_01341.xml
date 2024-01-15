@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1341RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1341RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen vorsichtig beurteilen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit MÄSSIG beurteilt. Spröde Triebschneeablagerungen in höhergelegenen Rinnen, Mulden und hinter Geländekanten bilden das Hauptproblem. Eine Lawinenauslösung ist stellenweise bereits durch eine geringe Zusatzbelastung möglich. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Mit etwas Neuschnee und vor allem in höheren Lagen kräftig bis stürmisch wehendem Wind, werden immer wieder frische Triebschneeablagerungen gebildet.</avActivityComment>
+          <snowpackStructureComment>Mit teils kräftigem Wind aus nördlichen Richtungen sind in höheren Lagen vereinzelt wieder frische Triebschneeablagerungen gebildet worden. Ältere Triebschneeablagerungen, welche auf der verharschten Altschneedecke liegen, haben sich schon etwas gesetzt und verfestigt, sind aber auf Grund der tiefen Temperaturen noch immer spröde.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der recht feuchten Nordwestströmung über dem Alpenraum steckt der Tauernhauptkamm den ganzen Tag in Nebel und hier schneit es auch unergiebig. Südlich des Tauernhauptkammes lockern die Wolken im Tagesverlauf auf. Bei starkem Nordostwind liegen die Temperaturen in 3000 m um -15 Grad und in 2000 m um -8 Grad. Am Dienstag lichten sich die letzten Nebelbänke am Tauernhauptkamm rasch und es wird sonnig. Der Wind aus Nordost bleibt kräftig und es bleibt kalt.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1341RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1341RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee ist das Hauptproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit MÄSSIG beurteilt. Der kräftige bis starke Wind aus nördlichen Richtungen hat immer wieder für frische, störanfälligere aber meist kleine Triebschneeablagerungen gesorgt. Eine Lawinenauslösung ist stellenweise bereits durch eine geringe Zusatzbelastung möglich.</avActivityComment>
+          <snowpackStructureComment>Mit teils kräftigem Wind aus nördlichen Richtungen sind in höheren Lagen vereinzelt wieder frische Triebschneeablagerungen gebildet worden. Ältere Triebschneeablagerungen, welche auf der verharschten Altschneedecke liegen, haben sich gut gesetzt und verfestigt, können aber auf Grund der Tiefen Temperaturen noch immer spröde sein.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der recht feuchten Nordwestströmung über dem Alpenraum verläuft der Tag in der Region am Montag trocken und die Wolken lockern im Tagesverlauf von Westen  ausgehend zögerlich auf. Vor allem in den Karnischen Alpen und Karawanken sind am Nachmittag schon längere sonnige Auflockerungen möglich. Bei mäßig bis kräftigem Nordostwind liegen die Temperaturen in 2000 m um -6 Grad und in 1000 m um -2 Grad. Der Dienstag bringt meist wolkenloses Bergwetter. Der Wind aus Nordost bleibt kräftig und es bleibt kalt.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1341RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1341RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ältere und auch frische Triebschneeablagerungen beachten</avActivityHighlights>
+          <avActivityComment>In höheren Lagen wird die Lawinengefahr auf Grund der alten, vereinzelt noch etwas störanfälligeren Triebschneeablagerungen mit MÄSSIG beurteilt. Im westlichen Bereich der Region sind etwas mehr Gefahrenstellen vorhanden.</avActivityComment>
+          <snowpackStructureComment>Auf der gut gesetzten und verfestigten, dünnen Altschneedecke liegen Triebschneeablagerungen die sich mit sonnigem Wetter, aber kalten Temperaturen, nur langsam setzen können. Mit teils kräftigem Wind werden in höheren Lagen auch immer wieder frische, kleine Triebschneeablagerungen gebildet. Im westlichen Bereich der Region können im Bereich der Harschkruste auch kantige Kristallformen die Schneedecke etwas schwächen.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der recht feuchten Nordwestströmung über dem Alpenraum verläuft der Tag in der Region am Montag trocken und die Wolken lockern im Tagesverlauf von Westen  ausgehend zögerlich auf. Nachmittags sind im Süden schon längere Auflockerungen möglich. Bei kräftigem Nordostwind liegen die Temperaturen in 1000 m um -2 Grad. Der Dienstag bringt meist wolkenloses Bergwetter. Der Wind aus Nordost bleibt kräftig und es bleibt kalt.</wxSynopsisComment>
+          <tendencyComment>In höheren Lagen Triebschneeablagerungen beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

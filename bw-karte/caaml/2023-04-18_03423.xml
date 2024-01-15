@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3423RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3423RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus steilem Gelände jederzeit möglich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in hohen Lagen stellenweise frische Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem steht im Vordergrund, vereinzelt störanfälliger Triebschnee in hohen Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist über 1500m mäßig, darunter gering. Die Hauptgefahr geht von spontanen, feuchten bis nassen Lawinen aus, die aus sehr steilen Bereichen aller Expositionen abgehen können. In höheren Lagen gestalten sich mitunter noch ältere sowie frisch gebildete Triebschneelinsen störanfällig. Diese existieren im erweiterten Ost- und Südsektor, hinter Geländekanten und in steilen Einfahrtsbereichen. Zudem können sich an steilen Grashängen Gleitschneerutsche spontan lösen. Wechten sind instabil.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Der in der vergangenen Woche gefallene Neuschnee konnte sich zunehmend setzen. Mit diffuser Strahlung und Regeneintrag wird die Schneedecke zunehmend angefeuchtet bzw. durchfeuchtet und verliert somit an Festigkeit. An steilen Wiesen- und Waldhängen kann bei ausreichender Schneeauflage diese auf dem Boden abgleiten. Nur in hohen Lagen gestalten sich stellenweise frische Triebschneepakete störanfällig, wobei vorrangig weiche Schneeschichten im Bereich der Auflage bzw. im Übergang zum Altschnee Schwachschichten darstellen. </snowpackStructureComment>
+          <wxSynopsisComment>Ein Höhentief sorgt am Mittwoch zusammen mir nördlicher Strömung für die Zufuhr kälterer und feuchter Luftmassen. Somit setzt sich das unbeständige Bergwetter fort. Es überwiegt starke Bewölkung, Nebel sorgt oft für schlechte Sicht. Gegen Mittag erreicht uns aus Nordosten eine Kaltfront die an der Alpennordseite für Schneefall und Abkühlung sorgt, wobei die Schneefallgrenze gegen 900m absinkt. Auch auf der Alpensüdseite entstehen am Nachmittag einige Regen- Schneeregen- oder Graupelschauer. Der Wind aus nordwestlichen Richtungen bleibt mäßig bis lebhaft. Die Temperaturwerte sinken bis zum Nachmittag in 2000m auf -2 bis -4 Grad, in 1500m um bzw. knapp unter den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag dominieren in den Niederen Tauern über die Gurk- und Seetaler Alpen bis zur Koralpe Wolken und Nebel, am Vormittag gibt es bei steigender Schneefallgrenze etwas Niederschlag. In den Nordalpen und im östlichen Randgebirge sorgt der Südostwind für föhnige Auflockerungen. Durch Winddrehung bildet sich stellenweise kammnahe frischer Triebschnee in Nordwestsektoren, das Nassschneeproblem bleibt bestehen.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3423RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3423RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in höheren Lagen störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität, aus steilem Gelände jederzeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in hohen Lagen sowie Nassschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. In höheren Lagen gilt es noch älteren und je nach Windeinfluss mit einsetzendem Schneefall stellenweise frischen Triebschnee vor allem im erweiterten Ost- und Südsektor zu beachten. Die Anzahl der Gefahrenstellen nimmt über 2000m zu und befinden sich in hinter Geländekanten sowie in verfüllten Mulden und Rinnen. Mit Regeneintrag steigt die Gefahr von nassen Lawinen speziell in mittleren Lagen an. Aus steilen Wiesen- und Waldhängen mit ausreichend Schneereserven ist mit spontanen Gleitschneerutschen zu rechnen. Schlechte Sicht kann die Beurteilung der Lawinengefahr einschränken.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der letzten Woche konnte sich bereits bis in höhere Lagen setzen, die Schneedecke wurde feucht. Trotzdem existieren stellenweise noch störanfällige ältere und mit etwas Neuschnee frische Triebschneeansammlungen in den Hochlagen. Schwachschichten finden sich innerhalb der Schneeauflage sowie im Übergang zur Altschneedecke, die oberflächig oft eine störanfällige Abfolge aus Krusten und weichen (kantigen) Einlagerungen aufweist. Mit Regeneintrag wird die Schneedecke zunehmend feucht und verliert an Festigkeit. In mittleren und tiefen Lagen wurde der apere Boden überschneit. Besonders steile Wiesen und mit Laub bedeckte Hänge fungieren als besonders guter Untergrund für spontane Gleitschneelawinen.</snowpackStructureComment>
+          <wxSynopsisComment>Ein Höhentief sorgt am Mittwoch zusammen mir nördlicher Strömung für die Zufuhr kälterer und feuchter Luftmassen. Somit setzt sich das unbeständige Bergwetter fort. Es überwiegt starke Bewölkung, Nebel sorgt oft für schlechte Sicht. Gegen Mittag erreicht uns aus Nordosten eine Kaltfront die an der Alpennordseite für Schneefall und Abkühlung sorgt, wobei die Schneefallgrenze gegen 900m absinkt. Auch auf der Alpensüdseite entstehen am Nachmittag einige Regen- Schneeregen- oder Graupelschauer. Der Wind aus nordwestlichen Richtungen bleibt mäßig bis lebhaft. Die Temperaturwerte sinken bis zum Nachmittag in 2000m auf -2 bis -4 Grad, in 1500m um bzw. knapp unter den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag dominieren in den Niederen Tauern über die Gurk- und Seetaler Alpen bis zur Koralpe Wolken und Nebel, am Vormittag gibt es bei steigender Schneefallgrenze etwas Niederschlag. In den Nordalpen und im östlichen Randgebirge sorgt der Südostwind für föhnige Auflockerungen. Durch Winddrehung bildet sich stellenweise kammnahe frischer Triebschnee in Nordwestsektoren, das Nassschneeproblem bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

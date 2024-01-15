@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2535RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2535RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>Absturzgefahr beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneemangel in den niederösterreichischen Alpen</avActivityHighlights>
+          <avActivityComment>Aufgrund von Schneemangel existieren in den Niederösterreichischen Alpen kaum noch lawinenrelevante Gefahrenstellen. Im vornehmlich schattigen Steilgelände ist auf harten, vereisten Oberflächen die Absturzgefahr zu beachten! </avActivityComment>
+          <snowpackStructureComment>In allen Höhenlagen ist nur mehr eine durchbrochene Schneedecke vorhanden, die Sonnseiten sind meist aper. Mit der nächtlichen Ausstrahlung ist die Schneeoberfläche in der Früh mitunter verharscht, zumindest sonnseitig verliert sie aber rasch wieder an Festigkeit und besteht oft gänzlich aus Sulzschnee. In schattigen Bereichen findet man meist Bruchharsch.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag reichen die Hochnebelfelder bis in &#13;
+Lagen zwischen 800 und 1000m Seehöhe hinauf. Über dem Nebelmeer ist es &#13;
+hingegen freundlich, aber nicht ungetrübt sonnig. Ein Schirm hoher &#13;
+Wolkenfelder dämpft das Sonnenlicht merklich und im Laufe des &#13;
+Nachmittages treffen dann von Westen her auch dichtere Wolkenfelder ein. &#13;
+Zunehmend mäßiger bis lebhafter Höhenwind aus Südwest. Temperaturen auf &#13;
+1500m Seehöhe zunächst noch um plus 7 Grad, nachmittags um plus 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag sind die Berge den ganzen Tag in &#13;
+dichte Wolken gehüllt und es regnet und schneit immer wieder. Die Schneefallgrenze &#13;
+liegt dabei zunächst um 1500m, sinkt tagsüber aber auf rund 900m Seehöhe&#13;
+ ab. Der Höhenwind dreht auf West bis Nordwest und frischt lebhaft, in &#13;
+exponierten Lagen auch kräftig auf. &#13;
+Mit Neuschnee und Wind kommt es vorübergehend zu einem leichten Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID277RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID277RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnahe Steilhänge, steile Mulden und Rinnen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>am Nachmittag durch Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch kräftigen Schneefall, Wind und Regen steigt die Lawinengefahr im Laufe des Nachmittags auf erheblich, teils groß an!</avActivityHighlights>
+          <avActivityComment>Schneefall, zunehmender Westwind und Regen bis in die mittleren Höhenlagen lassen die Lawinengefahr ansteigen. Ab 1600/1800 m sind umfangreiche Verfrachtungen vorhanden, deren Auslösungen bereits bei geringer Zusatzbelastung möglich, in den Hochlagen wahrscheinlich sind. Daneben ist vor allem in den höheren Lagen auf das Altschneeproblem noch zu achten. Durch einsetzenden Regen bis in die mittleren Lagen ist je nach Regenintensität und vorhandenem Schnee mit verschieden großen spontanen Nassschneelawinen, in steilen Hochlagen je nach Neu-/ Triebschnee mit mittleren bis großen spontanen Selbstauslösungen von Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall mit Wind hat zu umfangreichen störanfälligen Triebschneeablagerungen geführt, die Schwachschichten enthalten und mit der Altschneedecke ungenügend binden. Durch Regen bis in die mittleren Lagen wird die Schneedecke durchfeuchtet, verliert an Festigkeit und wird instabil. Der Triebschnee und die Schneedecke sind unregelmäßig verteilt und das Schneedeckenfundament enthält vor allem in den Hochlagen noch relevante Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag gibt es am Vormittag dichte Wolken, einzelne Schneeschauer klingen bald ab. Ab Mittag breiten sich teils kräftiger Regen und Schneefall aus. Die Schneefallgrenze liegt am Nachmittag zwischen 800 und 1000 m und steigt noch weiter an. Zusätzlich verstärkt sich der Westwind deutlich und kann am Abend bereits stürmisch sein. In 1500 m mild mit -1 Grad am Nachmittag, in 2000 m um -4 Grad.&#13;
+Am Freitag gibt es Regen und Schneefall, wobei am Vormittag öfter Pausen mit Auflockerungen dabei sind. Im Lauf des Nachmittags breitet sich wieder mehr Regen aus, die Schneefallgrenze liegt dann um 1400 m. Der Wind weht stark bis stürmisch aus West, lässt aber ein wenig nach. In 1500 m mild mit 1 Grad, in 2000 m um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag angespannte Lawinensituation durch weiteren Schneefall und Regen bis in die mittleren Höhen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID277RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID277RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnahe Steilhänge, steile Mulden und Rinnen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>am Nachmittag durch Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch kräftigen Schneefall, Wind und Regen steigt die Lawinengefahr im Laufe des Nachmittags auf erheblich, teils groß an!</avActivityHighlights>
+          <avActivityComment>Schneefall, zunehmender Westwind und Regen bis in die mittleren Höhenlagen lassen die Lawinengefahr ansteigen. Ab 1600/1800 m sind umfangreiche Verfrachtungen vorhanden, deren Auslösungen bereits bei geringer Zusatzbelastung möglich, in den Hochlagen wahrscheinlich sind. Daneben ist vor allem in den höheren Lagen auf das Altschneeproblem noch zu achten. Durch einsetzenden Regen bis in die mittleren Lagen ist je nach Regenintensität und vorhandenem Schnee mit verschieden großen spontanen Nassschneelawinen, in steilen Hochlagen je nach Neu-/ Triebschnee mit mittleren bis großen spontanen Selbstauslösungen von Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall mit Wind hat zu umfangreichen störanfälligen Triebschneeablagerungen geführt, die Schwachschichten enthalten und mit der Altschneedecke ungenügend binden. Durch Regen bis in die mittleren Lagen wird die Schneedecke durchfeuchtet, verliert an Festigkeit und wird instabil. Der Triebschnee und die Schneedecke sind unregelmäßig verteilt und das Schneedeckenfundament enthält vor allem in den Hochlagen noch relevante Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag gibt es am Vormittag dichte Wolken, einzelne Schneeschauer klingen bald ab. Ab Mittag breiten sich teils kräftiger Regen und Schneefall aus. Die Schneefallgrenze liegt am Nachmittag zwischen 800 und 1000 m und steigt noch weiter an. Zusätzlich verstärkt sich der Westwind deutlich und kann am Abend bereits stürmisch sein. In 1500 m mild mit -1 Grad am Nachmittag, in 2000 m um -4 Grad.&#13;
+Am Freitag gibt es Regen und Schneefall, wobei am Vormittag öfter Pausen mit Auflockerungen dabei sind. Im Lauf des Nachmittags breitet sich wieder mehr Regen aus, die Schneefallgrenze liegt dann um 1400 m. Der Wind weht stark bis stürmisch aus West, lässt aber ein wenig nach. In 1500 m mild mit 1 Grad, in 2000 m um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag angespannte Lawinensituation durch weiteren Schneefall und Regen bis in die mittleren Höhen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID277RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID277RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>am Nachmittag durch Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneefall und Regen - Anstieg der Lawinengefahr auf erheblich!</avActivityHighlights>
+          <avActivityComment>Schneefall, zunehmender Westwind und Regen bis in die mittleren Höhenlagen lassen die Lawinengefahr ansteigen. Ab der Waldgrenze sind umfangreiche Verfrachtungen vorhanden, die bereits bei geringer Zusatzbelastung auslösbar sind. Daneben ist vor allem in den höheren Lagen auf das Altschneeproblem zu achten. Durch beginnenden Regen bis in die mittleren Lagen ist je nach Regenintensität und vorhandenem Schnee mit verschieden großen spontanen Nassschneelawinen, in Hochlagen je nach Neu-/ Triebschnee mit mittleren bis großen spontanen Selbstauslösungen von Lawinen im Steilgelände zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall mit Wind hat zu umfangreichen störanfälligen Triebschneeablagerungen geführt, die Schwachschichten enthalten und mit der Altschneedecke ungenügend binden. Durch Regen bis in die mittleren Lagen wird die Schneedecke durchfeuchtet, verliert an Festigkeit und wird instabil. Der Triebschnee und die Schneedecke sind unregelmäßig verteilt und das Schneedeckenfundament enthält vor allem in den Hochlagen noch relevante Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag gibt es am Vormittag dichte Wolken, einzelne Schneeschauer klingen bald ab. Ab Mittag breiten sich teils kräftiger Regen und Schneefall aus. Die Schneefallgrenze liegt am Nachmittag zwischen 800 und 1000 m und steigt noch weiter an. Zusätzlich verstärkt sich der Westwind deutlich und kann am Abend bereits stürmisch sein. In 1500 m mild mit -1 Grad am Nachmittag, in 2000 m um -4 Grad.&#13;
+Am Freitag gibt es Regen und Schneefall, wobei am Vormittag öfter Pausen mit Auflockerungen dabei sind. Im Lauf des Nachmittags breitet sich wieder mehr Regen aus, die Schneefallgrenze liegt dann um 1400 m. Der Wind weht stark bis stürmisch aus West, lässt aber ein wenig nach. In 1500 m mild mit 1 Grad, in 2000 m um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag angespannte Lawinensituation durch weiteren Schneefall und Regen bis in die mittleren Höhen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID277RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID277RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-28T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>am Nachmittag durch Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneefall und Regen - Anstieg der Lawinengefahr auf erheblich!</avActivityHighlights>
+          <avActivityComment>Schneefall, zunehmender Westwind und Regen bis in die mittleren Höhenlagen lassen die Lawinengefahr ansteigen. Teilweise sind umfangreichere Verfrachtungen vorhanden, die bereits bei geringer Zusatzbelastung auslösbar sind. Durch beginnenden Regen bis in die mittleren Lagen ist je nach Regenintensität und vorhandenem Schnee mit verschieden großen spontanen Nassschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall mit Wind hat zu umfangreicheren störanfälligen Triebschneeablagerungen geführt, die Schwachschichten enthalten und mit der Altschneedecke ungenügend binden. Durch Regen bis in die mittleren Lagen wird die Schneedecke durchfeuchtet, verliert an Festigkeit und wird instabil. Der Triebschnee und die Schneedecke sind unregelmäßig verteilt und das Schneedeckenfundament enthält vereinzelt noch Schwachschichten wie kantige Kristalle.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag gibt es am Vormittag dichte Wolken, einzelne Schneeschauer klingen bald ab. Ab Mittag breiten sich teils kräftiger Regen und Schneefall aus. Die Schneefallgrenze liegt am Nachmittag zwischen 800 und 1000 m und steigt noch weiter an. Zusätzlich verstärkt sich der Westwind deutlich und kann am Abend bereits stürmisch sein. In 1500 m mild mit -1 Grad am Nachmittag, in 2000 m um -4 Grad.&#13;
+Am Freitag gibt es Regen und Schneefall, wobei am Vormittag öfter Pausen mit Auflockerungen dabei sind. Im Lauf des Nachmittags breitet sich wieder mehr Regen aus, die Schneefallgrenze liegt dann um 1400 m. Der Wind weht stark bis stürmisch aus West, lässt aber ein wenig nach. In 1500 m mild mit 1 Grad, in 2000 m um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag angespannte Lawinensituation durch weiteren Schneefall und Regen bis in die mittleren Höhen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

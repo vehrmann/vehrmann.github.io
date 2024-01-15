@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1168RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1168RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Zu beachten ist kleinräumiger Triebschnee vom Sonntag (sehr hoch gelegen und kammnah, dort wo es noch verfrachtungsfähigen Schnee gibt) und durch etwas Neuschnee unter Windeinfluss aus Nordwest können sich kleinere frische Verfrachtungen am Montag bilden. Der Triebschnee ist zu beachten, der leicht gestört werden könnte. Vor allem in den Schattlagen gibt es im extrem steilen Gelände, vor allem in Rinnen und in Kammnähe, lokale Gefahrenstellen. Hier können Schneebrettlawinen durch große Zusatzbelastung ausgelöst werden. Mit der Abkühlung geht die Gefahr für Gleitschneelawinen aus extrem steilen vergrasten Hängen zurück. Sie können aber nicht vollständig ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Am Sonntag könnte sich in sehr hohen Lagen wo nach verfrachtungsfähiger Schnee vorhanden war in Kammnähe etwas frischer Triebschnee bilden. Zudem kommt noch kleinräumiger Triebschnee durch etwas Neuschnee und Wind am Montag dazu. Die Bindung der Triebschneeablagerungen ist nicht immer ausreichend. Die Altschneedecke enthält hochgelegen lokal noch Schwachschichten (eingeschneiter Oberflächenreif) und ältere Triebschneeablagerungen. In den tiefen und mittleren Lagen ist sie je nach Höhe und Exposition im Inneren unterschiedlich feucht. Mit der Abkühlung gewinnt die Schneedecke an Festigkeit. Die Schneeoberfläche ist überwiegend tragfähig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag stecken die Bergen meist in dichten Wolken und anfangs schneit es zeitweise. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500 m hat es -6 Grad, in 2000 m -10.&#13;
+Am Dienstag scheint auf den Bergen von früh bis spät die Sonne. Hohe Wolkenfelder trüben den sonnigen Eindruck kaum. In 1500 m um -5 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1168RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1168RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur punktuell</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze lokal etwas frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Durch etwas Neuschnee unter Windeinfluss aus Nordwest können sich vor allem in Kammnähe kleinräumige frische Triebschneeablagerungen bilden, die zu beachten sind. Die nur kleinen Triebschneeablagerungen könnten leicht gestört werden. Vor allem in den Schattlagen gibt es im extrem steilen Gelände, vor allem in Rinnen und in Kämmnähe, lokale Gefahrenstellen. Hier könnten Schneebrettlawinen durch große Zusatzbelastung ausgelöst werden. Mit der Abkühlung geht die Gefahr für Gleitschneelawinen aus extrem steilen vergrasten Hängen zurück. Sie können aber nicht vollständig ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>In den Kammlagen können sich durch etwas Neuschnee und Wind frische kleinräumige Triebschneeablagerungen bilden, die nicht ausreichend mit der Altschneedecke binden. Die Altschneedecke enthält hochgelegen lokal noch Schwachschichten (eingeschneiter Oberflächenreif) und ältere Triebschneeablagerungen. In den tiefen und mittleren Lagen ist sie je nach Höhe und Exposition im Inneren unterschiedlich feucht. Mit der Abkühlung gewinnt die Schneedecke an Festigkeit. Die Schneeoberfläche ist überwiegend tragfähig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag stecken die Bergen meist in dichten Wolken und anfangs schneit es zeitweise. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500 m hat es -6 Grad, in 2000 m -10.&#13;
+Am Dienstag scheint auf den Bergen von früh bis spät die Sonne. Hohe Wolkenfelder trüben den sonnigen Eindruck kaum. In 1500 m um -5 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID990RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-18T08:50:33+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID990RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-18T08:50:33+00:00</beginPosition>
+          <endPosition>2021-05-19T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontano plazenje kot posledica dnevne odjuge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Snežni plazovi mokrega snega, kot posledica dnevne odjuge</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je v visokogorju ZMERNA, 2. stopnje, nižje pa MAJHNA, 1. stopnje. Nad nadmorsko višino okoli 2000 m je nov sneg, največ ga je v Posočju, ki se bo lahko plazil s strmih pobočij. Predvsem danes pričakujemo posamezne spontane plazove, plaz pa lahko sprožite tudi ob manjši obremenitvi snežne odeje. V visokogorju so nastali številni zameti. V sredogorju pa se je sneg talil in kopnel.</avActivityComment>
+          <snowpackStructureComment>V ponedeljek dopoldne je še snežilo, popoldne so se pojavljale krajevne plohe. Skupno je v poslabšanju v visokogorju zahodnih in južnih Julijskih Alp zapadlo tudi več kot 50 cm snega, drugod od 20 do okoli 30 cm. Močan jugozahodnik ga je spihal v zamete, kasneje je zapihal severnik. V visokogorju je še kar nekaj nepreobraženega snega, ki ga je sedaj sonce že ojužil. Danes se bodo iz dovolj strmih pobočjih prožili plazovi mokrega snega. Pod 2000 m je snežna odeja večinoma stabilna.</snowpackStructureComment>
+          <wxSynopsisComment>Danes dopoldne bo sončno, popoldne pa spremenljivo oblačno s krajevnimi plohami. Zvečer in v noči na sredo bodo padavine pogostejše in izrazitejše, meja sneženja se bo prehodno spet spustila do okoli 1200 m nadmorske višine. Predvidoma bo v visokogorju zapadlo od 10 do 20 cm snega, krajevno lahko tudi do 30 cm. Ob padavinah bo pihal severni veter. V sredo se bo razjasnilo, popoldne bo spremenljivo oblačno s krajevnimi plohami in nevihtami. V četrtek bo dopoldne sončno, popoldne bo nastalo nekaj ploh.</wxSynopsisComment>
+          <tendencyComment>Predvsem v visokogorju bo občasno snežilo. Novi sneg se bo sproti sesedal, zato večjega prirastka snežne odeje ne bo. Ker bo novega snega manj kot ob preteklem koncu tedna, ne pričakujemo povečanja nevarnosti snežnih plazov. Še bodo nekoliko bolj nevarna strma pobočja ter mesta z napihanim snegom predvsem od sredine dopoldneva do poznega popoldneva. Lahko se bo plazil novi sneg, plaz pa boste lahko sprožili tudi sami. Nižje pa je snežna odeja večinoma uležana in preobražena ter, kljub premočenosti, dokaj stabilna.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-02"/>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

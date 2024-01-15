@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID734RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID734RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-29T16:00:00+00:00</beginPosition>
+          <endPosition>2021-03-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-30T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tageszeitlicher Anstieg der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang. Vormittags sind die Bedingungen noch sehr günstig, aber mit Anstieg der Temperaturen und an sonnseitigen Expositionen, mit direkter Sonneneinstrahlung verliert die Schneedecke an Festigkeit. Damit sind auch spontane Lawinen, auch große, zu erwarten und die Lawinengefahr steigt an.</avActivityComment>
+          <snowpackStructureComment>Während der Nachtstunden hat es verbreitet gut abstrahlen können und es hat sich eine Schmelzharschkruste gebildet. Mit sehr milden Temperaturen und Sonneneinstrahlung weicht diese rasch auf und die Schneedecke wird feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet sorgt für ruhiges, sehr sonniges und außergewöhnlich mildes Wetter. Der Wind weht meist nur schwach, in exponierten Lagen auch mäßig, es wird mit +8 Grad in 2000 m außergewöhnlich mild.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch setzt sich der Hochdruckeinfluss mit mildem Bergwetter fort. Bei nur schwachem Wind steigen die Temperaturen in 2000 m zu Mittag auf +7 Grad. Tagesgang der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID734RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID734RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-29T16:00:00+00:00</beginPosition>
+          <endPosition>2021-03-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-30T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-30T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-30T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tageszeitlicher Anstieg der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Mit tageszeitlichem Anstieg der Temperaturen und Sonneneinstrahlung steigt auch die Lawinengefahr. Allgemein herrschen recht günstige Bedingungen mit einer tageszeitlichen Durchfeuchtung der Schneedecke und einem damit verbundenen Festigkeitsverlust der Schneedecke.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist stabil und kompakt, wird aber durch milde Temperaturen und Sonneneinstrahlung rasch durchfeuchtet und durchnässt und verliert damit an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet sorgt für ruhiges, sehr sonniges und außergewöhnlich mildes Wetter. Der Wind weht meist nur schwach, wird es mit bis zu +15 Grad in 1500 m außergewöhnlich mild.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch setzt sich der Hochdruckeinfluss mit mildem Bergwetter fort. Bei nur schwachem Wind steigen die Temperaturen in 2000 m zu Mittag auf +7 Grad. Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

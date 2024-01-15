@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3138RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3138RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>starker Erwärmungsimpuls, spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Nassschneelawinen aus steilem Gelände möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird generell mit gering bewertet. Der frische Triebschnee der letzten Tage konnte sich gut setzen und entspannen. Mit der Erwärmung und Einstrahlung kann es aus steilen, insbesondere frisch eingeschneiten Hängen zu spontanen, nassen Locker- oder Schneebrettlawinen kommen. Die Gefahrenstellen werden im Tagesverlauf eher mehr.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils verharscht und stabil, aber mit der Erwärmung werden die oberen Schneeschichten rasch feucht und das Schneepaket an tieferliegenden Krusten instabil. In mittleren und tiefen Lagen ist keine durchgehende Schneedecke mehr vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint überwiegend die Sonne, nur ausgedehnte hohe Wolkenfelder können den sonnigen Eindruck zeitweise trüben. Mit lebhaftem Südföhn wird es deutlich wärmer, die Temperaturen liegen in 1500 m um +8 Grad, in 2000 m bei +5 Grad. Am Samstag wird es strahlend sonnig und es bleibt frühlingshaft auf den Bergen.</wxSynopsisComment>
+          <tendencyComment>Der Schnee apert recht rasch aus, die Lawinensituation ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

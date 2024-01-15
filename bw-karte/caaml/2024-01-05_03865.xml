@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3865RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3865RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neuschnee mit wenig Wind</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>älterer Triebschnee &gt; 2000m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und ältere überdeckte Gefahrenstellen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1600 m mäßig, darunter gering. Der Neuschnee und in höheren Lagen älterer Triebschnee sind das Hauptproblem. Der Neuschnee kann stellenweise im Steilgelände ausgelöst werden. Im kammnahen Steilgelände, hinter Geländekanten sowie in eingewehten Rinnen und Mulden wurden ältere Gefahrenstellen überdeckt. Umfang und Verbreitung nehmen mit der Seehöhe zu. Einzelne Wintersportler können kleine bis mittlere Lawinen auslösen. Die Gefahr steigt im Tagesverlauf mit zunehmender Neuschneemenge leicht an. Neben einer Verschüttung ist auch die Absturzgefahr zu beachten. Eine vorsichtige Routenwahl wird empfohlen. An steilen, glatten Hängen aller Expositionen sind weiterhin einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Südwestwind entstanden in hohen Lagen störanfällige Triebschneeansammlungen. Ältere Einwehungen sind teilweise noch auslösbar. Der Neuschnee überdeckt diese Gefahrenstellen, er fällt auf eine kleinräumig stark wechselnde Schneedeckenbeschaffenheit und verbindet sich stellenweise schlecht mit dem Altschnee: Windgepresste oder sogar eisige Flächen wechseln mit pulvrigen Stellen, Rücken und Grate sind meist komplett oder bis zu einer harten Kruste abgeblasen. Die Altschneedecke ist überwiegend stabil. Der warme Boden und die bis zum Boden feuchte Schneedecke führen nach wie vor dazu, dass die gesamte Schneedecke auf glattem Untergrund abgleiten kann. Mit der Abkühlung hat die Gleitschneeaktivität jedoch abgenommen.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Der Schneefall verstärkt sich. Die Schneefallgrenze sinkt bis zum Morgen auf rund 500 Meter. Samstag: Wintereinbruch im Gebirge, es schneit vormittags mäßig, am Nachmittag lassen die Schneeschauer etwas nach. Temperatur in 2000m: um -5 Grad, Höhenwind: schwach aus Nord.</wxSynopsisComment>
+          <tendencyComment>Es bleibt bei tief winterlichen Verhältnissen im Gebirge. Am Sonntag nimmt der Nordostwind zu und verfrachtet den Neuschnee. Die Lawinengefahr steigt mit Neuschnee und Wind an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3865RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3865RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neuschnee mit wenig Wind</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Lawinen können im Steilgelände oberflächennah ausgelöst werden.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1600m mäßig, darunter gering. Lawinen können im Steilgelände oberflächennah ausgelöst werden und mittlere Größe erreichen. Eine vorsichtige Routenwahl wird empfohlen. Die Gefahr steigt mit zunehmender Neuschneemenge im Tagesverlauf leicht an.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Südwestwind entstanden in hohen Lagen störanfällige Triebschneeansammlungen. Ältere Einwehungen sind teilweise noch auslösbar. Der Neuschnee überdeckt diese Gefahrenstellen, er fällt auf eine kleinräumig stark wechselnde Schneedeckenbeschaffenheit und verbindet sich stellenweise schlecht mit dem Altschnee: Windgepresste oder sogar eisige Flächen wechseln mit pulvrigen Stellen, Rücken und Grate sind meist komplett oder bis zu einer harten Kruste abgeblasen. Die Altschneedecke ist überwiegend stabil. Der warme Boden und die bis zum Boden feuchte Schneedecke führen nach wie vor dazu, dass die gesamte Schneedecke auf glattem Untergrund abgleiten kann. Mit der Abkühlung hat die Gleitschneeaktivität jedoch abgenommen.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Der Schneefall verstärkt sich. Die Schneefallgrenze sinkt bis zum Morgen auf rund 500 Meter. Samstag: Wintereinbruch im Gebirge, es schneit vormittags mäßig, am Nachmittag lassen die Schneeschauer etwas nach. Temperatur in 2000m: um -5 Grad, Höhenwind: schwach aus Nord.</wxSynopsisComment>
+          <tendencyComment>Es bleibt bei tief winterlichen Verhältnissen im Gebirge. Am Sonntag nimmt der Nordostwind zu und verfrachtet den Neuschnee. Die Lawinengefahr steigt mit Neuschnee und Wind an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

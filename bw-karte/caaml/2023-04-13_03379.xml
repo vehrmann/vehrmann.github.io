@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3379RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3379RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Exponiere dich möglichst wenig und gib dem Neuschnee Zeit, um sich zu setzen und zu verfestigen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bestehende Schwachschichten in der Schneedecke werden durch die Neuschneeauflast geschwächt. Große spontane Lawinen sind möglich.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Viel Neuschnee und Wind führen zu heikler Lawinensituation</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb 2400m mit GROSS, darunter mit ERHEBLICH beurteilt.&#13;
+Der viele Neuschnee und die umfangreichen Triebschneeansammlungen &#13;
+können an allen Expositionen leicht ausgelöst werden oder spontan &#13;
+abgehen. Lawinen können besonders in den schneereichen Gebieten (v.a. entlang des unmittelbaren Hauptkamms) groß werden; sehr vereinzelt sind auch sehr große Lawinen möglich, welche aus sehr steilen, windabgewandten Einzugsgebieten exponierte Verkehrswege erreichen können. Die Gefahr nimmt mit Abklingen der Niederschläge aufgrund des teils starken Windes im Tagesverlauf nur langsam ab.&#13;
+An steilen (v.a. an zuvor ausgeaperten) Grashängen unterhalb etwa 2400m sind zudem stellenweise spontane Gleitschneelawinen mittlerer Größe möglich. </avActivityComment>
+          <snowpackStructureComment>Ab Niederschlagsbeginn in der Nacht auf Donnerstag und bis zum langsamen Abklingen der ergiebigen Schneefälle am Freitagnachmittag schneit es mit einer Schneefallgrenze von rund 800 bis 1000m in Summe 60 bis 80 cm, lokal auch bis zu 100cm. Dies vor allem im Bereich der Glockner- und Goldberggruppe. Am Freitag setzt zudem teils starker Wind aus nordwestlichen Richtungen ein, verfrachtet den kalten, lockeren Neuschnee umfangreich und lagert diesen im Windschatten teils auf ungebundenen Neuschnee ab. &#13;
+Mit der zunehmenden Neu- bzw. Triebschneeauflast nimmt die Störanfälligkeit der Schneedecke weiter zu. Neu- und Triebschneeschichten verbinden sich nur langsam untereinander und mit der Altschneeoberfläche. Oberhalb etwa 2600m befinden sich kantige &#13;
+Schwachschichten an Schmelzharschkrusten im oberen Teil der Altschneedecke, welche durch Auflast geschwächt werden.&#13;
+In mittleren Lagen und z.T. an Sonnenhängen  in hohen Lagen wurde der Neuschnee auf aperen Boden abgelagert. Dort ist an steilen Grashängen mit vermehrtem Schneegleiten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Freitag muss auf den Bergen mit sehr schlechter Sicht und teils kräftigem Schneefall gerechnet werden. Etwas weniger Schnee kommt im Lungau zusammen, ansonsten schneit es sehr ergiebig, speziell im Nordalpenbereich. Die Schneefälle lassen am Nachmittag ein wenig nach. Der Wind weht mäßig bis lebhaft, in den Tauern und Nockbergen stark aus West bis Nordwest. In 2000m -5 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Nur langsame Entspannung der Situation. Mit etwas wärmeren Temperaturen und Sonneneinstrahlung sind zahlreiche spontane kleine und mittelgroße Lockerschneelawinen aus extremem Steilgelände sowie Gleitschneelawinen aus steilen Grashängen zu erwarten. Auch kann es durch die bessere Bindung des Schneebretts kurzzeitig zu einer erhöhten Auslösewahrscheinlichkeit von Schneebrettlawinen kommen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3379RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3379RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Exponiere dich möglichst wenig und gib dem Neuschnee Zeit, um sich zu setzen und zu verfestigen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>An steilen Grashängen sind mittlere spontane Gleitschneelawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Viel Neuschnee und Wind sorgen für ungünstige Verhältnisse</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird  mit ERHEBLICH beurteilt und liegt im oberen Bereich dieser Gefahrenstufe. &#13;
+Der viele Neuschnee und v.a. die frischen, umfangreichen Triebschneeansammlungen können im Bereich der Waldgrenze und darüber stellenweise leicht ausgelöst werden. Gefahrenstellen finden sich an allen Expositionen, besonders aber an Triebschneehängen im Ostsektor. Sie sind kaum zu erkennen und nehmen mit der Höhe zu. Es sind auch spontane Schneebrettlawinen, vor allem solche mittlerer Größe möglich. In den besonders schneereichen Gebieten (v.a. Ankogelgruppe) können Lawinen auch groß werden.  Für Touren sind die Verhältnisse gefährlich. &#13;
+Zudem sind an steilen (v.a. an zuvor ausgeaperten) Grashängen unterhalb etwa 2400m stellenweise spontane kleine und mittlere Gleitschneelawinen möglich. Bei Auflockerungen am Nachmittag - dies vor allem im Lungau - sind aus extrem steilen (&gt;40°) Hängen zahlreiche spontane kleine und mittlere Lockerschneelawinen zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Ab Niederschlagsbeginn in der Nacht auf Donnerstag und bis zum langsamen Abklingen der ergiebigen Schneefälle am Freitagnachmittag schneit es mit einer Schneefallgrenze von rund 800 bis 1000m in Summe 50 bis 70 cm, lokal auch mehr. Am Freitag setzt zudem teils starker (im Lungau auch stürmischer) Wind aus nordwestlichen Richtungen ein, verfrachtet den kalten, lockeren Neuschnee umfangreich und lagert diesen im Windschatten teils auf ungebundenen Neuschnee ab. &#13;
+Mit der zunehmenden Neuschneeauflast nimmt die Störanfälligkeit der Schneedecke weiter zu. Neu- und Triebschneeschichten verbinden sich nur unzureichend untereinander und mit der Altschneeoberfläche (v.a. in der Höhe). In mittleren Lagen und z.T. an Sonnenhängen  in hohen Lagen wurde der Neuschnee auf aperen Boden abgelagert. Dort ist an steilen Grashängen mit vermehrtem Schneegleiten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Freitag muss auf den Bergen mit sehr schlechter Sicht und teils kräftigem Schneefall gerechnet werden. Etwas weniger Schnee kommt im Lungau zusammen, ansonsten schneit es sehr ergiebig, speziell im Nordalpenbereich. Die Schneefälle lassen am Nachmittag ein wenig nach. Der Wind weht mäßig bis lebhaft, in den Tauern und Nockbergen stark aus West bis Nordwest. In 2000m -5 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit etwas wärmeren Temperaturen und zeitweisen Aufhellungen sind weiterhin spontane kleine und mittelgroße Lockerschneelawinen aus extremem Steilgelände sowie Gleitschneelawinen aus steilen Grashängen zu erwarten. Auch kann es durch die bessere Bindung des Schneebretts kurzzeitig zu einer erhöhten Auslösewahrscheinlichkeit von Schneebrettlawinen kommen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3379RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3379RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Exponiere dich möglichst wenig und gib dem Neuschnee Zeit, um sich zu setzen und zu verfestigen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>An steilen Grashängen sind kleine bis mittlere spontane Gleitschneelawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ergiebige Neuschneemengen: Erhebliche Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird ab dem Bereich der Waldgrenze mit ERHEBLICH, darunter mit MÄSSIG bewertet.&#13;
+Neu- und Triebschnee können an Steilhängen ab dem Bereich der Waldgrenze stellenweise leicht ausgelöst werden, dies an allen Expositionen - v.a. aber an Triebschneehängen, in Rinnen, Mulden und hinter Geländekanten. Die Gefahrenstellen sind nicht zu erkennen und nehmen mit der Höhe zu. Es sind auch einzelne spontane Lawinen, vor allem solche mittlerer Größe möglich. Für Touren sind die Verhältnisse ungünstig.&#13;
+An steilen (v.a. an zuvor ausgeaperten) Grashängen unterhalb etwa 2400m besteht eine mäßige Gefahr von Gleitschneelawinen zu. Dort sind kleine und mittlere spontane Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Ab Niederschlagsbeginn in der Nacht auf Donnerstag und bis zum langsamen Abklingen der ergiebigen Schneefälle am Freitagnachmittag schneit es mit einer Schneefallgrenze von rund 800 bis 1000m in Summe 40 bis 60 cm, lokal auch mehr. Am Freitag setzt zudem teils starker Wind aus nordwestlichen Richtungen ein, verfrachtet den kalten, lockeren Neuschnee umfangreich und lagert diesen im Windschatten teils auf ungebundenen Neuschnee ab. &#13;
+Mit der zunehmenden Neuschneeauflast nimmt die Störanfälligkeit der Schneedecke weiter zu. Neu- und Triebschneeschichten verbinden sich nur langsam untereinander und mit der Altschneeoberfläche. In mittleren Lagen und z.T. an Sonnenhängen  in hohen Lagen wurde der Neuschnee auf aperen Boden abgelagert. Dort ist an steilen Grashängen mit vermehrtem Schneegleiten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Freitag muss auf den Bergen mit sehr schlechter Sicht und teils kräftigem Schneefall gerechnet werden. Etwas weniger Schnee kommt im Lungau zusammen, ansonsten schneit es sehr ergiebig, speziell im Nordalpenbereich. Die Schneefälle lassen am Nachmittag ein wenig nach. Der Wind weht mäßig bis lebhaft, in den Tauern und Nockbergen stark aus West bis Nordwest. In 2000m -5 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit etwas wärmeren Temperaturen und zeitweisen Aufhellungen sind spontane kleine und mittelgroße Lockerschneelawinen aus extremem Steilgelände sowie Gleitschneelawinen aus steilen Grashängen zu erwarten. Auch kann es durch die bessere Bindung des Schneebretts kurzzeitig zu einer erhöhten Auslösewahrscheinlichkeit von Schneebrettlawinen kommen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3379RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3379RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Wähle konservatives Gelände, während sich die umfangreichen Triebschneeansammlungen setzen und verfestigen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>An steilen Grashängen sind kleine bis mittlere spontane Gleitschneelawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer störanfälliger Triebschnee mit Neuschnee und Wind</avActivityHighlights>
+          <avActivityComment>Weiterer Anstieg der Lawinengefahr mit viel Neuschnee und starkem Wind. Frische Triebschneeansammlungen können v.a. windabgewandt, in Rinnen, Mulden sowie hinter Geländekanten oberhalb 1600m leicht ausgelöst werden, vereinzelt auch spontan abgleiten. Lawinen können mittlere Größe erreichen. Die Gefahrenstellen nehmen mit der Höhe zu und sind bei der schlechten Sicht kaum zu erkennen. Erfahrung und Zurückhaltung sind nötig. &#13;
+Mit dem Abklingen des Niederschlags sind spontane kleine und vereinzelt mittlere Lockerschneelawinen aus extrem steilen Hängen (&gt;40°) zu erwarten, dies vor allem bei grösseren Aufhellungen. An steilen Grashängen unterhalb von rund 2400 m sind kleine und vereinzelt mittlere spontane Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>In Summe fallen oberhalb von rund 1600 m verbreitet 30 bis 40 cm Schnee, lokal auch mehr. Starker, teils stürmischer Wind aus nordwestlichen Richtungen verfrachtet den lockeren Neuschnee umfangreich. Die verschiedenen Triebschneeansammlungen sind schlecht miteinander verbunden. In mittleren Lagen und z.T. an Sonnenhängen  in hohen Lagen wurde der Neuschnee auf aperen Boden abgelagert. Dort ist an steilen Grashängen mit vermehrtem Schneegleiten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Freitag muss auf den Bergen mit sehr schlechter Sicht und teils kräftigem Schneefall gerechnet werden. Etwas weniger Schnee kommt im Lungau zusammen, ansonsten schneit es sehr ergiebig, speziell im Nordalpenbereich. Die Schneefälle lassen am Nachmittag ein wenig nach. Der Wind weht mäßig bis lebhaft, in den Tauern und Nockbergen stark aus West bis Nordwest. In 2000m -5 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Langsamer Rückgang der Gefahr von trockenen Lawinen. Es sind weiterhin spontane, meist kleine Lockerschnee- und Gleitschneelawinen zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

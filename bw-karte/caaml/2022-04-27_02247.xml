@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2247RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2247RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-27T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Sonneneinstrahlung spontane Lockerschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>nur vereinzelt, mit der Höhe zunehmend</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - spontane Lockerschneelawinen beachten - vereinzelte Triebschneelinsen nur in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die Hauptgefahr geht von kleineren, meist nassen Lockerschneelawinen aus, die sich speziell aus dem besonnten, felsdurchsetzten Steilgelände spontan lösen können. In höheren Lagen existieren kammnah sowie in nord- bis ostexponierten steilen Rinnen vereinzelt dünne Triebschneepakete, die Gefahrenstellen nehmen mit der Höhe etwas zu. Aus steilen Hängen mit glattem Untergrund können  Gleitschneerutsche nicht ausgeschlossen werden. Generell überwiegt die Absturzgefahr der Verschüttungsgefahr. </avActivityComment>
+          <snowpackStructureComment>Auf eine weitgehend kompakte Schneeoberfläche sind bis zu 20cm Neuschnee gefallen, der mit Nordwestwind in exponierten Bereichen verfrachtet und als gebundener Triebschnee abgelagert wurde. Die Verbindung der Schneeauflage zur Altschneedecke ist meist gut, in höheren Lagen vereinzelt noch störanfällig. Mit Strahlung und Erwärmung verliert die Schneedecke oberflächig an Festigkeit und kann sich spontan lösen. Die Altschneedecke ist weitgehend kompakt und bis in höhere Lagen isotherm.&#13;
+Am Freitag kann sich die Schneeoberfläche nach klarer Nacht etwas verfestigen, weicht aber mit der Sonneneinstrahlung rasch wieder auf.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag baut sich zunehmend Hochdruckeinfluss auf. Nachdem sich Restwolken und Nebel auflösen kommt verbreitet die Sonne zum Vorschein, bevor es sich in den Bergen ab Mittag mit zunehmender Quellbewölkung wieder eintrübt. Es bleibt aber überwiegend trocken, mitunter entstehen in den Nordalpen lokale Schauer. Der Nordwind bleibt in exponierten Lagen lebhaft bis stark. Das Temperaturniveau steigt in allen Höhenlagen etwas an, in 2000m werden Mittagswerte um den Gefrierpunkt, in 1500m um +5 Grad erreicht.&#13;
+Nach einer weitgehend klaren Nacht überwiegt am Freitag sonniges Bergwetter. Ab Mittag können sich ab Mittag speziell in den östlichen Regionen Quellwolken bilden, es bleibt aber allerorts trocken. Der Wind weht nur schwach aus nordöstlichen Richtungen. Die Temperaturen steigen weiter an, mittags liegen sie in 2000m bei +2 bis +4 Grad, in 1500m um +7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Wochenende wird das Wetter aus heutiger Sicht wechselhaft mit mehr Sonne am Samstag, unergiebige Schauer sind zudem nicht ausgeschlossen. Die Lawinensituation ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

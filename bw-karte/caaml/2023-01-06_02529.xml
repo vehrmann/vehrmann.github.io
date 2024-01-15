@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2529RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2529RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen, an sehr wenigen exponierten Stellen im Gelände auslösbar, hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur sehr wenige Gefahrenstellen - hochgelegen punktuelles Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht geringe Lawinengefahr. Vereinzelte Gefahrenstellen gibt es im schattseitigen Hochgebirge, wo im extremen Steilgelände ältere Schwachschichten angesprochen werden könnten. Kleinräumige zuletzt gebildete Triebschneeablagerungen in den Hochlagen haben sich überwiegend gesetzt, stabilisiert und sind nur mehr lokal zu beachten. Die Absturzgefahr ist größer als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Der wenige Neuschnee und die letzten kleinräumigen Triebschneeablagerungen haben sich schon setzen können und mit der geringmächtigen Altschneedecke überwiegend verbunden. Die Altschneedecke enthält hochgelegen und schattseitig im Inneren oder bodennahe teils Schwachschichten und überdeckten oder oberflächigen Harsch. Die Schneehöhen sind sehr unterdurchschnittlich bzw. sind tiefe und überwiegend mittlere Lagen aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint auf den Bergen bei guter Sicht oft die Sonne. Der Wind weht meist schwach bis mäßig stark. Die Luft ist relativ mild, in 1500 m hat es um 7 Grad, in 2000 m um 4 Grad.&#13;
+Der Sonntag bringt auf den Bergen einen Mix aus Sonne und Wolken. Am Nachmittag verdichtet ich die Bewölkung, die Sicht verschlechtert sich. In 1500 m hat es zu Mittag um 4 Grad und in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Schnee- und Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

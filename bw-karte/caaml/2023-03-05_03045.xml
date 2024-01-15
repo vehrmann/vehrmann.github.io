@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3045RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3045RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>an steilen, sonnenbeschienenen Wiesenhängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet günstige Lawinenverhältnisse - Triebschnee und Erwärmung beachten</avActivityHighlights>
+          <avActivityComment>Es herrschen überwiegend günstige Bedingungen, die Lawinengefahr ist gering. Triebschneeansammlungen sind eventuell an steilen Schattenhängen vereinzelt noch störanfällig und können insbesonders mit großer Zusatzbelastung ausgelöst werden. Gefahrenstellen liegen vor allem im schattseitigen, kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten oberhalb 2300m. Schwachschichten im Altschnee können sehr vereinzelt noch bei großer Zusatzbelastung ausgelöst werden. Diese Gefahrenstellen liegen vor allem an steilen West-, Nord- und Osthängen oberhalb von 2600 m sowie an Übergängen von wenig zu viel Schnee. In mittleren Lagen sind an glatten, steilen sonnenbeschienen Wiesenhängen mit der Erwärmung einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich in den letzten Tagen gut setzen und verfestigen. Die Nacht wird überwiegend dicht bewölkt und dadurch die Abstrahlung der Schneedecke nicht mehr so stark sein. Schattseitig ist in höheren Lagen noch Pulverschnee oder lockerer Oberflächenreif zu finden, südseitig konnte sich bis gegen 2300m ein meist tragfähiger Windharsch- oder Schmelzharschdeckel  ausbilden, der tagsüber mit der Erwärmung und Einstrahlung aufweicht. Dadurch verliert die Schneedecke an Festigkeit. Mit dem in der Nacht aufkommenden Westwind können in höheren Lagen meist kleinere, frische Triebschneeansammlungen entstehen, deren Bindung zur darunterliegenden Schneedecke vor allem in schattseitigen Hanglagen störanfällig ist.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trockene Nacht. Die dichte Bewölkung im Norden Vorarlbergs breitet sich bis ins Montafon aus, es trübt im Laufe der Nacht überall ein. Tiefstwerte: -5 bis 0 Grad.Montag: Übergang in eine Westwetterlage mit auffrischendem Westwind. Es sollte trocken bleiben. In den Allgäuer Alpen ist es eher von Beginn an nebelig trüb, während in den südlichen Regionen wie Silvretta und Rätikon bei hohen Wolken noch teilweise die Sonne durchkommt. Nachmittags generelle Eintrübung und stellenweise fallen ein paar Schneeflocken. Es gib aber keinen Neuschnee. Temperatur in 2000 m: -7 Grad. Höhenwind: mäßiger bis lebhafter Wind aus West bis Südwest.</wxSynopsisComment>
+          <tendencyComment>Ein Tiefdruckgebiet bringt kräftigen Westwind, im Montafon wird es föhnig. Dadurch können in höheren Lagen frisch, störanfällige  Triebschneeansammlungen entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

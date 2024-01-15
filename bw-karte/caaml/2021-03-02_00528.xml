@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID528RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID528RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit Gering beurteilt unterliegt aber auch einem West- Ostgefälle. In Regionen mit höheren Bergen und mehr Schnee ist die Lawinengefahr in der Bandbreite Gering etwas höher einzustufen. Mit steigenden Temperaturen und Sonneneinstrahlung steigt im Tagesverlauf die Wahrscheinlichkeit von Gleitschneelawinen und auch feuchten Lockerschneelawinen an, da die Schneedecke an Festigkeit verliert. Geringe Lawinengefahr ist nicht keine Lawinengefahr!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke welche sich verbreitet gut gesetzt und verfestigt hat und untertags aufgeweicht und durchfeuchtet wird, kann sich während der klaren Nachtstunden immer wieder verfestigen und an der Oberfläche eine tragfähige Harschkruste bilden. Die trockene Luft sorgt auch untertags für eine nur langsame Aufweichung der Schneedecke. In tieferen Lagen erfolgt dies rascher und die Schneedecke wird durchnässt. Kleinere Triebschneelinsen in hochalpinen Lagen können teilweise noch eine etwas schwächere Bindung zur Altschneedecke aufweisen.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einem kräftigen Hochdruckgebiet über Mitteleuropa und sehr milden Luftmassen ändert sich beim Wetter am Mittwoch so gut wie gar nichts. Im Tagesverlauf ziehen nur ein paar dünne Wolkenfelder durch. Eine Trübung der Fernsicht durch Saharastaub ist möglich. Bei schwachem Wind aus südwestlicher Richtung erreichen die Temperaturen in 2000 m +5 Grad.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Auch am Donnerstag wird es abgesehen von ein paar dünnen Wolkenfeldern und Saharastaub wieder sehr sonnig mit sehr milden Temperaturen. Keine Änderung der Lawinengefahr.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

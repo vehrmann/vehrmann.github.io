@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3507RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3507RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen schwächen die Schneedecke. Spontane Nassschneelawinen sind möglich.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nasse Lockerschnee- und Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 2200m MÄSSIG, darunter GERING.&#13;
+Nasse Lockerschnee- und Gleitschneelawinen können sich aufgrund der hohen Temperaturen spontan lösen. Sie bleiben meist klein und werden nur oberhalb von 2200m vereinzelt mittelgroß. </avActivityComment>
+          <snowpackStructureComment>Die Nacht ist überwiegend bedeckt, dadurch kann die Schneedecke kaum abstrahlen. Die Schneedecke  ist meist von der Früh weg weich und durchfeuchtet und weicht im Tagesverlauf weiter auf.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag setzt sich das wechselhafte Bergwetter, mit vielen Wolken am Vormittag und etwas mehr Auflockerungen mit Sonnenschein am Nachmittag, fort. Ein paar Regen- und oberhalb von etwa 2200m Schneeschauer sind weiter möglich. In 2000m beträgt die Temperatur 1 bis 5 Grad. Es weht schwacher bis mäßig starker Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3507RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3507RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen schwächen die Schneedecke. Spontane Nassschneelawinen sind möglich.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>Kleine Triebschneelinsen im absturzgefährdetem Gelände meiden.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahr von Gleitschnee- und nasse Lockerschneelawinen, in der Höhe Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄSSIG.&#13;
+Nasse Lockerschnee- und Gleitschneelawinen können sich aufgrund der warmen Temperaturen unterhalb von 2600m spontan lösen. Sie werden nur vereinzelt mittelgroß.&#13;
+Oberhalb von 2800m sind Triebschneeansammlungen noch bei geringer Zusatzbelastung auslösbar, sie bleiben aber meist klein.</avActivityComment>
+          <snowpackStructureComment>Die Nacht ist überwiegend bedeckt, dadurch kann die Schneedecke kaum abstrahlen. Die Schneedecke  ist meist von der Früh weg weich und durchfeuchtet und weicht im Tagesverlauf weiter auf. Triebschneeansammlungen sind vor allem in nordöstlich ausgerichteten Hängen noch störanfällig. Durch die hohen Temperaturen wird die Verbindung zur darunterliegenden Schicht schnell besser.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag setzt sich das wechselhafte Bergwetter, mit vielen Wolken am Vormittag und etwas mehr Auflockerungen mit Sonnenschein am Nachmittag, fort. Ein paar Regen- und oberhalb von etwa 2200m Schneeschauer sind weiter möglich. In 2000m beträgt die Temperatur 1 bis 5 Grad, in 3000m um -3 Grad Celsius. Es weht schwacher bis mäßig starker Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3507RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3507RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Warme Temperaturen schwächen die Schneedecke. Spontane Nassschneelawinen sind zu erwarten.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>Triebschnee ist vor allem an steilen Nordhängen störanfällig.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unterhalb von 2600m Nass- und Gleitschneelawinen, in der Höhe Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb von 2600m ERHEBLICH, darüber MÄSSIG.&#13;
+Weiterhin sind kleine bis mittelgroße spontane Nass- und Gleitschneelawinen unterhalb von 2600m zu erwarten.&#13;
+Oberhalb von 2800m sind Triebschneeansammlungen noch bei geringer Zusatzbelastung auslösbar. Diese können noch bei geringer Zusatzbelastung ausgelöst werden und mittlere Größe erreichen. Gefahrenstellen und Auslösebereitschaft nehmen mit der Höhe zu. Ein Durchreißen auf tieferliegende Schwachschichten ist möglich, Lawinen können dann groß werden.</avActivityComment>
+          <snowpackStructureComment>Die Nacht ist überwiegend bedeckt, dadurch kann die Schneedecke kaum abstrahlen. Die Schneedecke  ist meist von der Früh weg weich und durchfeuchtet und weicht im Tagesverlauf weiter auf. Triebschneeansammlungen sind vor allem in nordöstlich ausgerichteten Hängen noch störanfällig. Durch die hohen Temperaturen wird die Verbindung zur darunterliegenden Schicht schnell besser.&#13;
+An Schattenhängen sind oberhalb von 2400m vereinzelt kantige Schwachschichten im Altschnee vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag setzt sich das wechselhafte Bergwetter, mit vielen Wolken am Vormittag und etwas mehr Auflockerungen mit Sonnenschein am Nachmittag, fort. Ein paar Regen- und oberhalb von etwa 2200m Schneeschauer sind weiter möglich. In 2000m beträgt die Temperatur 1 bis 5 Grad, in 3000m um -3 Grad Celsius. Es weht schwacher bis mäßig starker Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3507RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3507RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vereinzelt nasse Lockerschneerutsche möglich.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING.&#13;
+Mit milden Temperaturen  sind vereinzelt kleine nasse Lockerschneelawinen an extrem steilen (&gt;40°) Hängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke kann über Nacht etwas abstrahlen. Der dünne Schmelzharschdeckel weicht aber im Tagesverlauf schnell auf. </snowpackStructureComment>
+          <wxSynopsisComment>In den Nockbergen beginnt der Tag nur leicht bewölkt und überwiegend sonnig. Am Nachmittag können sich dann speziell in den Nockbergen größere Quellwolken und einzelne gewittrige Regenschauer bilden. In 2000m um 7 Grad Celsius. Es weht schwacher bis mäßig starker Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

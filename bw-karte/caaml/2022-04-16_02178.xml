@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2178RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-16T05:27:26+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2178RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-16T05:27:26+00:00</beginPosition>
+          <endPosition>2022-04-17T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-16T05:27:26+00:00</beginPosition>
+                  <endPosition>2022-04-16T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-16T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-17T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Einstrahlung und der Erwärmung</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2600m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem und in hochalpinen Lagen Schwachschichten im Altschnee</avActivityHighlights>
+          <avActivityComment>Vormittags bestehen überwiegend günstige Bedingungen und geringe Lawinengefahr. Mit der Einstrahlung und der Erwärmung steigt die Lawinengefahr untertags rasch auf mäßig an. Spontan oder mit geringer Zusatzbelastung sind im Tagesverlauf vor allem an Ost-, Süd- und Westhängen bis in hochalpine Lagen und an Schattenhängen unterhalb etwa 2400m meist kleine bis mittlere, vereinzelt auch große nasse Lawinen möglich. In den schneereicheren Gebieten sind an sehr steilen Grashängen weiterhin auch Gleitschneelawinen möglich. Vorsicht unterhalb von Gleitschneerissen. Schwachschichten im Altschnee können in hochalpinen Lagen stellenweise noch gestört werden. Insbesondere mit großer Zusatzbelastung können meist kleine bis mittlere Lawinen ausgelöst werden. Gefahrenstellen sind vor allem in sehr steilen Schattenhängen.</avActivityComment>
+          <snowpackStructureComment>Mit einer schwachen Kaltfront gab es gestern lokal ein paar wenige Schauer bei einer Schneefallgrenze von etwa 2500m. Zusammen mit der hohen Luftfeuchtigkeit und diffuser Strahlung verlor die Schneedecke tagsüber an Festigkeit und es wurden viele spontane Nassschneelawinenabgänge beobachtet. In der Nacht kühlte es ab, die Wolken lockerten auf und es konnte sich eine brüchige bis tragfähige Harschkruste bilden. Die zunehmend durchnässte Schneedecke konnte sich dadurch oberflächlich verfestigen. In tiefen und mittleren Lagen liegt nur noch wenig Schnee. In hochalpinen Lagen sind vor allem an sehr steilen Schattenhängen noch einzelne Gefahrenstellen für trockene Lawinen vorhanden. Kleine bis mittlere Schneebrettlawinen können dort im oberen Teil der Schneedecke oder im Bereich von Saharastaubschichten ausgelöst werden.</snowpackStructureComment>
+          <wxSynopsisComment>Kalte Nordströmung, aber relative gute Wetterbedingungen mit Sonne und ein paar harmlosen Haufenwolken. Es sollte weitgehend trocken bleiben, nachmittags ist es sogar überwiegend sonnig, aber frisch im Gebirge, Temperatur in 2000 m: um -1 Grad. Der Höhenwind weht mäßig bis lebhaft aus nördlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag und am Montag ist es nach klarer Nacht tagsüber sonnig. Es stellt sich wieder eine Frühjahrssituation mit günstigen Verhältnissen in den Morgenstunden und erhöhter Nassschneelawinengefahr im Tagesverlauf ein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

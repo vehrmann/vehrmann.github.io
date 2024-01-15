@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID510RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID510RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas milder - geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In Niederösterreich herrscht geringe Lawinengefahr.   Mit der Sonneneinstrahlung sind sonnseitig nasse Lockerschneerutsche möglich. Touren sind nur mehr eingeschränkt möglich.</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung in der Nacht verfestigt sich die Altschneedecke. In den Hochlagen wird diese sehr hart bzw. eisig. Im Laufe des Vormittags wird die Schneedeckenoberfläche wieder feucht. Nordseitig bleibt die Schneedeckenoberfläche  jedoch hart. </snowpackStructureComment>
+          <wxSynopsisComment>Montag: Meist überwiegt der Sonnenschein, lediglich am Alpenostrand ziehen auch einige Wolkenfelder vorüber. Der Wind bläst auf den Bergen mäßig bis lebhaft aus Nord bis Ost. In 1500m Seehöhe liegen die Nachmittagstemperaturen zwischen 1 Grad am Wechsel und 3 Grad am Ötscher.&#13;
+Dienstag: Herrliches Bergwetter mit ungetrübtem Sonnenschein und einer sehr guten Fernsicht steht auf dem Programm. Es wird noch milder. In 1500m werden +8 Grad erwartet.</wxSynopsisComment>
+          <tendencyComment>Bis Ende der Woche wird keine wesentliche Änderung der Lawinensituation erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

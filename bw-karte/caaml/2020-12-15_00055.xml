@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID55RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID55RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, dünne und kleinräumige Triebschneepakete in schneearmen Zonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen im hochalpinen Nordsektor</avActivityHighlights>
+          <avActivityComment>Weiterhin geringe Lawinengefahr. Es gibt wenige Gefahrenstellen. Einige wenige Punkte existieren, wo man ein trockenes Schneebrett auslösen kann. Am ehesten im sehr steilen und nordseitigen Gelände oberhalb von 2200 m am Übergang von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Schattseitig ist der Pulver teilweise noch locker. Meist überwiegen aber verfestige Schichten an der Oberfläche. Die Schneedecke ist relativ stabil und neigt kaum zu Brüchen. Labilere Kombinationen mit dünnen Triebschneepaketen auf bindungslosen, bodennahe Schichten findet man in abgewehten und schneearmen Kammbereichen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolken durch. Die höheren Gipfelbereiche oberhalb von 2500m können in die Wolken eintauchen. Da und dort fallen ein paar dünne Schneeflocken. Am Nachmittag bessert sich die Sicht, die Wolken brechen auf. Schwacher bis mäßiger Wind mit 20 bis 40 km/h. In 2000m um 0 Grad, in 3000m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID55RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID55RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, mit zunehmender Höhe tlw. noch leicht auslösbar, insbesondere oberhalb von etwa 2200 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel , in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Der Föhntriebschnee ist mit zunehmender Höhe teilweise noch leicht auslösbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 2200 m im erweiterten Nordsektor (W-N-O) noch erheblich, zwischen Waldrand und 2200 m mäßig. Die meist festen Triebschneepakete, die am Dienstag abgelegt wurden, sind mit zunehmender Seehöhe teilweise noch bei geringer Belastung (einzelner Alpinist) auslösbar. Lawinen können mittelgroß werden. Gefahrenstellen findet man je nach Windeinfluss kammnah, kammfern und hinter steilen Geländekanten.</avActivityComment>
+          <snowpackStructureComment>Der lockere Pulver ist weg. Die Kombination aus Föhnwind und Wärme hat am Dienstag feste Oberflächen und schnittige Windharschdeckel hinterlassen. In Föhnschneisen und in generell in kammnähe wurde umfangreicher Triebschnee abgelegt. Harte Triebschneepakete liegen im Nordsektor teilweise auf weichen und kalten Schichten. Ältere Triebschneepakete in anderen Richtungen sind hingegen kaum mehr ansprechbar. Bodennah findet man in den schneearmen und abgeblasenen Zonen losen Zuckerschnee durch die aufbauende Umwandlung.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolken durch. Die höheren Gipfelbereiche oberhalb von 2500m können in die Wolken eintauchen. Da und dort fallen ein paar dünne Schneeflocken. Am Nachmittag bessert sich die Sicht, die Wolken brechen auf. Schwacher bis mäßiger Wind mit 20 bis 40 km/h. In 2000m um 1 Grad, in 3000m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID55RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID55RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Triebschneesituation im Nordsektor</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab der Waldgrenze im steilen und kalten Nordsektor mäßig wegen den frischen Triebschneepaketen, die am Dienstag abgelegt wurden. Gefahrenstellen, wo man kleine oder mittelgroße Schneebretter auslösen kann, findet man hinter steilen Geländekanten, in steilen Leehängen sowie im Übergang von wenig zu mehr Schnee. Meist braucht es zur Auslösung eine große Zusatzbelastung.</avActivityComment>
+          <snowpackStructureComment>Die gestrige Kombi aus Föhnwind und Wärme hat feste Oberflächen und schnittige Windharschdeckel hinterlassen. Harte Triebschneepakete wurden im Nordsektor teilweise auf weichen und kalten Pulver abgelegt. Diese Triebschneepakete sind teilweise noch störanfällig. Ältere Triebschneepakete in anderen Richtungen sind derzeit kaum ansprechbar. Bodennah findet man in den schneearmen und abgeblasenen Zonen losen Zuckerschnee durch die aufbauende Umwandlung.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolken durch. Die höheren Gipfelbereiche oberhalb von 2500m können in die Wolken eintauchen. Da und dort fallen ein paar dünne Schneeflocken. Am Nachmittag bessert sich die Sicht, die Wolken brechen auf. Schwacher bis mäßiger Wind mit 20 bis 40 km/h. In 2000m um 1 Grad, in 3000m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID55RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID55RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, dünn, meist feste und kleinräumige Pakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, vereinzelte Gefahrenstellen im erweiterten Nordsektor</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr oberhalb von etwa 2400 mäßig, sonst gering. Ab etwa 2400 m aufwärts gibt es einzelne Gefahrenstellen, wo man mitunter ein kleines Schneebrett auslösen kann. Gefahrenpunkt findet man kammnah in Form von durchwegs festen Triebschneepaketen im Ost- und Nordsektor und schattseitig im schneearmen Übergang von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Feste Windharschdeckel und Schmelzkrusten überwiegen mit zunehmender Höhe. Ältere und auch frischere Triebschneepakete sind verfestigt, liegen aber teilweise auf weichen, bodennahen Schichten (Zuckerschnee durch die aufbauende Umwandlung), welcher zur Bruchausbreitung neigen kann. Schneelage ist noch deutlich unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolken durch. Die höheren Gipfelbereiche oberhalb von 2500m können in die Wolken eintauchen. Da und dort fallen ein paar dünne Schneeflocken. Am Nachmittag bessert sich die Sicht, die Wolken brechen auf. Schwacher bis mäßiger Wind mit 20 bis 40 km/h. In 2000m um 1 Grad, in 3000m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID55RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID55RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor, kleinräumig, dünnmächtig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, wenige kammnahe Triebschneepakete</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist weiterhin gering. Kleine Triebschneepakete findet man kammnah. Sie sind kaum auszulösen und reichen wegen der geringen Schneelage kaum für eine Verschüttung.</avActivityComment>
+          <snowpackStructureComment>Harte Windharschdeckel und Schmelzkrusten überwiegen mit zunehmender Höhe. Darunter gibt es zwar weiche und trockene Schichten, die aber kaum zu einer Bruchausbreitung neigen. Der bodennahe Altschnee (schattseitig ab etwa 1800 m aufwärts) ist teilweise weich und grieselig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolken durch. Die höheren Gipfelbereiche oberhalb von 2500m können in die Wolken eintauchen. Da und dort fallen ein paar dünne Schneeflocken. Am Nachmittag bessert sich die Sicht, die Wolken brechen auf. Schwacher bis mäßiger Wind mit 20 bis 30 km/h. Kälter als am Vortag mit 1 Grad in 2000 m, in 3000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

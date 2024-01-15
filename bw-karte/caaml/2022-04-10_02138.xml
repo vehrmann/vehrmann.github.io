@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2138RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2138RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, der Schnee wird zunehmend durchnässt.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Am Vormittag sind noch vereinzelte Gefahrenstellen durch Triebschneelinsen zu beachten. Im Laufe des Tages kann es zu kleineren, spontanen Nassschneerutschen kommen. </avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist großteils verharscht und hart, lokal auch frisch überschneit. Im Tagesverlauf wird die geringmächtige Schneedecke schnell durchfeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht kaum noch Wind und dazu scheint meist die Sonne. Am Nachmittag halten sich speziell im Osten ein paar Wolken, die Gipfel bleiben dabei vorwiegend frei. Es wird milder, in 2000 m steigt die Temperatur von -5 Grad am Morgen auf +2 Grad am Abend.</wxSynopsisComment>
+          <tendencyComment>Der Dienstag bringt milde Temperaturen, viel Sonnenschein und gute Fernsicht. Die Triebschneeproblematik lässt schnell nach und Nassschnee wird das dominierende Lawinenproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2138RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2138RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch eine Kombination aus Triebschnee- und Nassschneeproblematik!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige Lawinengefahr durch instabilen Triebschnee. Betroffen sind insbesondere eingewehte Bereiche der Sektoren Ost und Süd. Im Tagesverlauf zunehmend sorgt die Erwärmung für mäßige Lawinengefahr in allen Höhenlagen. Aus extreme steilen, felsigen Bereichen sind spontane Lockerschneelawinen zu erwarten. Südseitig sind auch nasse Schneebrettlawinen (sowohl spontan, als auch durch Zusatzbelastung ausgelöst) möglich. </avActivityComment>
+          <snowpackStructureComment>Unter dem Neuschnee vom vergangenen Wochenende haben sich teilweise Schwachschichten gebildet, die jedoch nur schwer ansprechbar sind. In den Hochlagen findet sich noch instabiler Triebschnee. Das Schneedeckenfundament ist bis über 2000 m hinauf bereits isotherm und oft feucht, aber großteils stabil. Am Montag sorgen steigende Temperaturen und Sonneneinstrahlung für Feuchteeintrag von oben, was tiefer liegende Schwachschichten aktivieren kann. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht kaum noch Wind und dazu scheint meist die Sonne. Am Nachmittag halten sich speziell im Norden und Osten ein paar Wolken, die Gipfel bleiben dabei vorwiegend frei und gegen Südwesten zu überwiegt der Sonnenschein. Es wird milder, in 2000 m steigt die Temperatur von -5 Grad am Morgen auf +2 Grad am Abend.</wxSynopsisComment>
+          <tendencyComment>Der Dienstag bringt milde Temperaturen, viel Sonnenschein und gute Fernsicht. Die Triebschneeproblematik lässt schnell nach und Nassschnee wird das dominierende Lawinenproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

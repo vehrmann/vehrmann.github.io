@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1150RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1150RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilen vergrasten Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Steilgelände über der Waldgrenze sind lokale Gefahrenstellen vorhanden!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze sind im Steilgelände im Nord- und Ostsektor lokale Gefahrenstellen vorhanden. Sie befinden sich vor allem in Kammnähe, eingewehten Rinnen und hinter Geländekanten. Eine Auslösung von Schneebrettlawinen ist insbesondere bei großer Zusatzbelastung möglich. Spontane Gleitschneelawinen sind aus extrem steilen vergrasten Hängen vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke enthält in den Hochlagen lokal noch Schwachschichten (eingeschneiter Oberflächenreif) und ältere Triebschneeablagerungen. In den tiefen und mittleren Lagen ist sie je nach Höhe und Exposition im Inneren unterschiedlich feucht. Die Schneeoberfläche ist zumindest anfangs verharscht, teils vereist und auch tragfähig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist auf den Bergen wieder mit sehr sonnigen Verhältnissen zu rechnen, während in Tallagen anfangs noch nebelig trübe Verhältnisse überwiegen. Der Wind weht allenfalls mäßig aus West. In 1500 m werden maximal -1 bis +1 Grad erreicht, in 2000 m um -2 Grad.&#13;
+Auch am Sonntag scheint auf den Bergen zunächst noch die Sonne. Am Nachmittag ziehen von Norden her jedoch erste Wolkenfelder auf, es bleibt aber noch meist trocken. Der Wind weht teils lebhaft aus West. In 1500 m werden 0 bis 2 Grad erreicht, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1150RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1150RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur punktuell</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilen vergrasten Hängen, sehr vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - nur vereinzelte Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Nur vereinzelte Gefahrenstellen in den Kammlagen im extrem steilen Gelände. Hier könnte eine Schneebrettlawine durch große Zusatzbelastung ausgelöst werden. Aus extrem steilen vergrasten Hängen könnten bei ausreichender Schneemächtigkeit einzelne spontane Gleitschneelawinen abrutschen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich weiter setzen können. In den Kammlagen könnten schattseitig lokal noch Schwachschichten in der Altschneedecke vorhanden sein. Die Schneedecke ist je nach Höhe und Exposition im Inneren unterschiedlich feucht. Die Schneeoberfläche ist zumindest anfangs verharscht, teils vereist und oft tragfähig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist auf den Bergen wieder mit sehr sonnigen Verhältnissen zu rechnen, während in Tallagen anfangs noch nebelig trübe Verhältnisse überwiegen. Der Wind weht allenfalls mäßig aus West. In 1500 m werden maximal -1 bis +1 Grad erreicht, in 2000 m um -2 Grad.&#13;
+Auch am Sonntag scheint auf den Bergen zunächst noch die Sonne. Am Nachmittag ziehen von Norden her jedoch erste Wolkenfelder auf, es bleibt aber noch meist trocken. Der Wind weht teils lebhaft aus West. In 1500 m werden 0 bis 2 Grad erreicht, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

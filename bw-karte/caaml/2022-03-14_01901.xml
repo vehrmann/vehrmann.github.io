@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1901RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1901RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr, dennoch existieren vereinzelte Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>In sämtlichen Niederösterreichischen Gebirgsregionen besteht geringe Lawinengefahr. Unverändert existiert an abgeschatteten Steilhängen praktisch aller Höhenlagen ein Altschneeproblem, hier können (insbesondere durch große Zusatzbelastung) vereinzelte Schneebrettauslösungen erfolgen. Stellenweise bildeten sich durch den Südwind in den Hochlagen zudem noch Triebschneelinsen in den Nordexpositionen. Auf hart verharschten oder eisigen Oberflächen sollte die Absturzgefahr beachtet werden. Trotz weniger Sonneneinstrahlung aber milderen Temperaturen sind einzelne spontane Rutschungen oder Gleitschneeabgänge nicht ganz ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>Südwind der vorangegangenen Tage hat in hochgelegenen Kammlagen meist dünne Triebschneelinsen bilden können. Diese binden mit reifüberzogenen oder kantig umgewandelten Unterlagen zum Teil nicht gut. In der schattseitigen Schneedecke schwächen lockere, kantig aufgebaute Zwischenschichten den Aufbau des Altschnees. Durch die Tageserwärmung sowie durch den gegen Abend bzw. in der Nacht auf Mittwoch erwarteten Regen wird die Schneedecke angefeuchtet und etwas destabilisiert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag wird es durch ganztägig dichtere, mittelhohe Wolken und Saharastaub deutlich trüber als zuletzt, wobei es bis zum späteren Nachmittag aber noch weitgehend niederschlagsfrei bleiben sollte. Der Wind legt bereits am Morgen rasch zu und weht tagsüber stark, im Gipfelniveau mitunter auch schon stürmisch aus südwestlichen bis westlichen Richtungen. Die Mittagstemperaturen liegen in 1500m bei +5 Grad, in 2000m erwarten uns Werte um +3 Grad. Ab den Abendstunden wird es bis in die Hochlagen etwas regnen. Zudem gewinnt der Wind weiter an Stärke und weht dann stürmisch aus westlichen bis nordwestlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf den Mittwoch ist bei einer auf etwa 1300m absinkenden Schneefallgrenze mit Niederschlägen zu rechnen. Auch tagsüber kann es am Mittwoch noch leicht regnen bzw. in höheren Lagen etwas schneien. Es weht stürmischer Nordwestwind, der in weiterer Folge nachlässt und auf mehrheitlich nördliche Richtungen dreht. Die Temperaturen liegen in 1500m bei etwa -1 Grad. Durch den Regen wird die Schneedecke etwas destabilisiert, in den Hochlagen kann sich - je nach tatsächlicher Schneefallgrenze - etwas frischer Triebschnee bilden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

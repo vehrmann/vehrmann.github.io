@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1872RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1872RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen, in Rinnen und steilen Mulden, kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen in schattigen Bereichen!</avActivityHighlights>
+          <avActivityComment>Im gesamten Bergland Niederösterreichs herrscht geringe Lawinengefahr. Vereinzelt können im aber im schattseitigen Gelände aller Höhenlagen insbesondere durch große Zusatzbelastung noch Schneebrettlawinen ausgelöst werden (Altschneeproblem). Zusätzliche Gefahrenstellen sind kleinere frische Triebschneebereiche, die in den Hochlagen kammnah in nördlichen Expositionen entstanden sind. Vorsicht auch vor Absturzgefahr auf den vereisten Oberflächen der Hochlagen!</avActivityComment>
+          <snowpackStructureComment>Südwind hat vereinzelt für frische Triebschneelinsen gesorgt, die teilweise auf Oberflächenreif oder kantig aufgebauten Kristallen zu liegen kamen und in schattigen Bereichen noch instabil sein können. Sonnseitig wird der Schnee durch Einstrahlung tagsüber angefeuchtet. Schattseitig findet sich noch pulvriger Schnee, der aber älteren Triebschnee überdecken kann, der auf einer Abfolge von Schmelzkrusten und kantigen Kristallen liegt. Die kantigen Schichten sind bei großer Zusatzbelastung noch störanfällig. Darunter befindet sich eine kompakte Altschneedecke. Gipfelbereiche sind oftmals abgeblasen und eisig. </snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag wird nahezu wolkenlos und sonnig. Die Temperaturen steigen nur langsam und liegen in 1500 m bei -2 Grad. Der Wind weht weiterhin stark aus südlichen Richtungen. </wxSynopsisComment>
+          <tendencyComment>Auch der Sonntag wird sonnig und es wird wärmer. Der Wind bleibt aber stark. Langsam nimmt die Nassschneeproblematik zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

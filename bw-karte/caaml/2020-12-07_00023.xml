@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID23RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID23RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit Zunahme der Niederschlagsintensität steigt auch wieder die Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Hauptgefahr geht noch immer von möglichen spontanen Lawinen aus, welche auf Grund der Schneedeckenmächtigkeit auch noch größer sein können und exponierte Verkehrswege betreffen können. Bereiche unter Gleitschneerissen sind zu meiden. In höheren Lagen ist der Neu- und Triebschnee noch immer störanfällig.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich die Niederschlagspause über setzen können aber noch nicht stabilisieren. Bis in mittlere Lagen ist die Schneedecke meist feucht bis auch nass. Mit neuerlichem Schneefall ab der Mittagszeit wird die Schneedecke noch etwas mächtiger.</snowpackStructureComment>
+          <wxSynopsisComment>Ein mächtiges Tiefdruckgebiet führt weiterhin feuchtmilde Luftmassen an die Alpen heran. In der ersten Nachthälfte zum Dienstag gehen in Kärnten noch einige Schauer nieder die Niederschlagsmenge ist aber vorerst gering. Die zweite Nachthälfte bleibt meist trocken. Dann breiten sich rasch wieder, vor allem in Oberkärnten, kräftige Niederschläge aus, welche sich am Nachmittag von den Karnischen Alpen bis zur Kreuzeckgruppe wieder intensivieren und die Nacht zum Mittwoch über anhalten.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID23RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID23RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über 1600 m ist eine Lawinenauslösung durch eine geringe Zusatzbelastung möglich</avActivityHighlights>
+          <avActivityComment>Über rund 1600 m ist der verfrachtete Schnee teilweise noch leichter auslösbar. Regenschauer haben die Schneedecke schwerer gemacht und auf steilen Grashängen können spontane Gleitschneelawinen abrutschen, welche aber flacheres Gelände nur auf kurzen Strecken überwinden können.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist in tiefen Lagen nass und bis ober die Waldgrenze feucht. In höheren Lagen haben sich besonders in den nördlichen Gebirgsgruppen der Region Triebschneepakete gebildet. Im Norden der Region ist die Schneedecke kleiräumig recht unterschiedlich mächtig.</snowpackStructureComment>
+          <wxSynopsisComment>Ein mächtiges Tiefdruckgebiet führt weiterhin feuchtmilde Luftmassen an die Alpen heran. In der ersten Nachthälfte zum Dienstag gehen in Kärnten noch einige Schauer nieder die Niederschlagsmenge ist aber vorerst gering. Die zweite Nachthälfte bleibt meist trocken. Dann breiten sich rasch wieder, vor allem in Oberkärnten, kräftige Niederschläge aus, welche sich am Nachmittag von den Karnischen Alpen bis zur Kreuzeckgruppe wieder intensivieren und die Nacht zum Mittwoch über anhalten.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID23RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID23RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenbereiche beschränken sich in Gipfelbereiche</avActivityHighlights>
+          <avActivityComment>Im Gipfelniveau können Triebschneepakte vereinzelt noch etwas leichter ausgelöst werden. Darunter ist die feuchte bis nasse Schneedecke kaum auslösbar. Auf steilen Gras- und Almhängen sind kleine spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In tiefen Lagen liegt verbreitet kein Schnee. Bis zur Waldgrenze und teilweise auch Baumgrenze ist der Schnee feucht bis nass. In Gipfelbereichen haben sich in den Vortagen Triebschneepakete im Nordsektor gebildet die aber kaum noch störanfällig sind.</snowpackStructureComment>
+          <wxSynopsisComment>Ein mächtiges Tiefdruckgebiet führt weiterhin feuchtmilde Luftmassen an die Alpen heran. In der ersten Nachthälfte zum Dienstag gehen in Kärnten noch einige Schauer nieder die Niederschlagsmenge ist aber vorerst gering. Die zweite Nachthälfte bleibt meist trocken. Dann breiten sich rasch wieder, vor allem in Oberkärnten, kräftige Niederschläge aus, welche sich am Nachmittag von den Karnischen Alpen bis zur Kreuzeckgruppe wieder intensivieren und die Nacht zum Mittwoch über anhalten.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

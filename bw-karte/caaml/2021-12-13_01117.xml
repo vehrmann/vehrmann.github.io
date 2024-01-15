@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1117RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1117RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frischer Triebschnee vor allem im hochgelegenen eingewehten Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>lokal aus nicht entladenen Bereichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr in den höheren Lagen, darunter lokales Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Durch Neuschnee und starken bis stürmischen Wind um Nordwest haben sich in den Hochlagen frische labile Triebschneeablagerungen gebildet. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Sie befinden sich vor allem in kammnahen steilen Hängen sowie hinter Geländekanten. Schneebrettlawinen können bereits bei geringer Zusatzbelastung ausgelöst werden. In den tiefen und mittleren Lagen sind aus steilen nicht entladenen Bereichen spontane Nass- und Gleitschneelawinen auf Grund der Durchfeuchtung noch möglich.</avActivityComment>
+          <snowpackStructureComment>Die frischen Triebschneeablagerungen in den Hochlagen binden mit der Altschneedecke nur ungenügend. Die Schneedecke ist in den Hochlagen unregelmäßig verteilt und enthält im Altschnee teils auch noch dünne Schwachschichten. Rinnen und Mulden sind vor allem im Ost- und Südsektor gut verfüllt. In den tiefen und mittleren Lagen wurde die Schneedecke durch Regen und milde Temperaturen feucht bis nass und hat an Festigkeit verloren. Über Nacht kann sich die Schneeoberfläche etwas festigen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht gut und die Sonne scheint häufig. Am Nachmittag können dichtere hohe Wolkenfelder für diffuses Licht sorgen. In den Tallagen kann sich Nebel halten. In den Hochlagen weht teils lebhafter Nordwind, ansonsten bleibt der Wind schwach. In 1500 m um +3 Grad, in 2000 m um 0 Grad.&#13;
+Am Mittwoch schränken tiefe Wolken und Nebel die Sicht meist stark ein. Sonnenschein gibt es voraussichtlich nur am Nachmittag am Dachstein. Der Wind bleibt meist schwach. In 1500 m um 0 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Setzung der Schneedecke geht die Triebschneegefahr langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1117RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1117RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>lokal aus nicht entladenen Bereichen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>stellenweise in den Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Lokales Nassschneeproblem und hochgelegen stellenweise frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen sind lokal frische Triebschneeablagerungen vor allem in Kammnähe und hinter Geländekanten zu beachten. Schneebrettlawinen können hier punktuell bereits durch geringe Zusatzbelastung ausgelöst werden. In den tiefen und mittleren Lagen sind aus steilen nicht entladenen Bereichen spontane Nass- und Gleitschneelawinen auf Grund der Durchfeuchtung weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>Die lokalen frischen Triebschneeablagerungen in den Hochlagen binden mit der Altschneedecke nicht immer ausreichend. Die Schneedecke ist in den Hochlagen unregelmäßig verteilt und enthält im Altschnee teils auch noch dünne Schwachschichten. In den tiefen und mittleren Lagen wurde die Schneedecke durch Regen und milde Temperaturen feucht bis nass und hat an Festigkeit verloren. Über Nacht kann sich die Schneeoberfläche etwas festigen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht gut und die Sonne scheint häufig. Am Nachmittag können dichtere hohe Wolkenfelder für diffuses Licht sorgen. In den Tallagen kann sich Nebel halten. In den Hochlagen weht teils lebhafter Nordwind, ansonsten bleibt der Wind schwach. In 1500 m um +3 Grad, in 2000 m um 0 Grad.&#13;
+Am Mittwoch schränken tiefe Wolken und Nebel die Sicht meist stark ein. Sonnenschein gibt es voraussichtlich nur am Nachmittag am Dachstein. Der Wind bleibt meist schwach. In 1500 m um 0 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Setzung der Schneedecke geht die Triebschneegefahr langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

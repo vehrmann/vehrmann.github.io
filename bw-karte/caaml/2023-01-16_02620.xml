@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2620RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2620RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einwehungen im Nordsektor!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig beurteilt. Die Gefahrenstellen liegen im kammnahen Gelände sowie hinter Geländekanten. Besondere Vorsicht ist im den Hochlagen des Nordsektors geboten. Frischer Triebschnee wurde auf eine ungünstige aufgebaute Altschneedecke (Altschneeproblem!) abgelagert. Die Triebschneemengen in den Hochlagen sollten nicht unterschätzt werden. Eine Schneebrettauslösung ist bei geringer Zusatzbelastung möglich. Mit dem Windwechsel von Süd auf Nordwest werden auch die Ostexpositionen mit Triebschnee befüllt!</avActivityComment>
+          <snowpackStructureComment>5 bis 10cm Neuschnee hat Oberflächenreif als auch eine schwach aufgebaute Altschneedecke überdeckt. Im Schneedeckenfundament gibt es schattseitig eine Abfolge von Harschschichten und Schichten mit kantigen Formen. Sonnseitig ist die Altschneedecke hart und eisig. In Summe herrscht ein ungünstiger Schneedeckenaufbau. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lockern Wolken und Nebel im Bergland vorübergehend auf und regional zeigt sich die Sonne. Am Nachmittag nimmt die Bewölkung wieder zu, die Berge im Südwesten geraten in Nebel. Im Lauf des Nachmittags beginnt es leicht zu schneien. Der Wind kommt in der Früh aus Nordwest, ab Mittag dann aus Südwest. In 2000m Höhe haben wir um -6 Grad. In der Nacht auf Mittwoch von Südwesten wieder ein wenig Neuschnee.</wxSynopsisComment>
+          <tendencyComment>In den nächsten Tagen kommt es zu einem mehrmaligen Windwechsel von Nordwest auf Südwest. Am Mittwoch ist wieder mit Neuschnee zu rechnen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2620RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2620RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee im Nordsektor!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Die Gefahrenstellen befinden sich vereinzelt in Kammnähe. Schneebrettauslösungen sind im Nordsektor bei großer Zusatzbelastung möglich. </avActivityComment>
+          <snowpackStructureComment>Vor dem Niederschlagsereignis in dieser Region ist die Schneehöhe immer noch extrem unterdurchschnittlich. Viel Neuschnee hat es in den letzten 24 Stunden nicht gegeben. Der gering mächtige Neuschnee eine Altschneedecke überdeckt, die sehr ungünstig aufgebaut ist. Teilweise wurde auch die Wiese wieder mit Schnee überdeckt.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lockern Wolken und Nebel im Bergland vorübergehend auf und regional zeigt sich die Sonne. Am Nachmittag nimmt die Bewölkung wieder zu, die Berge im Südwesten geraten in Nebel. Im Lauf des Nachmittags beginnt es leicht zu schneien. Der Wind kommt in der Früh aus Nordwest, ab Mittag dann aus Südwest. In 2000m Höhe haben wir um -6 Grad. In der Nacht auf Mittwoch von Südwesten wieder ein wenig Neuschnee.</wxSynopsisComment>
+          <tendencyComment>In den nächsten Tagen kommt es zu einem mehrmaligen Windwechsel von Nordwest auf Südwest. Am Mittwoch ist wieder mit Neuschnee zu rechnen. Ein weiterer Anstieg der Lawinengefahr zu Wochenmitte ist sehr wahrscheinlich!  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2620RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2620RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah, in Rinnen und steilen Mulden, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee oberhalb der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Im Wechselgebiet herrscht oberhalb der Waldgrenze mäßige Lawinengefahr. Gefahrenstellen sind frische Triebschneeansammlungen im erweiterten Nordsektor. Diese finden sich kammnah, hinter Geländekanten, und insbesondere in steilen Einfahrten zu Rinnen und Mulden. Hier können Triebschneepakete teilweise schon durch geringe Zusatzbelastung als Schneebrettlawinen ausgelöst werden. Es sind aber keine großen Lawinen zu erwarten. </avActivityComment>
+          <snowpackStructureComment>Der lebhafte Südwind hat den Neuschnee (ca. 10cm) in den Nordsektor verlagert. Die Verbindung des frischen Triebschnees mit der Altschneedecke ist nicht ausreichend. In mittleren und tiefen Lagen lagerte der Neuschnee auf einem unterbrochenen Schneedeckenfundament, sonnseitig auch auf zuvor aperen Flächen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lockern Wolken und Nebel im Bergland vorübergehend auf und regional zeigt sich die Sonne. Am Nachmittag nimmt die Bewölkung wieder zu, die Berge im Südwesten geraten in Nebel. Im Lauf des Nachmittags beginnt es leicht zu schneien. Der Wind kommt in der Früh aus Nordwest, ab Mittag dann aus Südwest. In 2000m Höhe haben wir um -6 Grad. In der Nacht auf Mittwoch von Südwesten wieder ein wenig Neuschnee.</wxSynopsisComment>
+          <tendencyComment>Vorerst keine Änderung der Lawinengefahr. Ab Mittwoch können dann neuerliche Schneefälle zu einer Verschärfung des Triebschneeproblems führen.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2620RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2620RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>hinter Geländekanten, kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht in den Hochlagen der Nordexpositionen - Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Gurk- und Seetaler Alpen, auf der Stubalpe sowie auf der Koralpe mit erheblich beurteilt. Frischer Triebschnee im Nordsektor bildet das Hauptproblem. Die Gefahrenstellen liegen daher auch im kammnahen Gelände sowie in Einfahrtsbereichen von Rinnen und Mulden. Eine Schneebrettauslösung ist bereits bei geringer Zusatzbelastung wahrscheinlich. Oberhalb der Baumgrenze können in Schattenhängen große Lawinen ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>In Gurk- und Seetaler Alpen wurden bis zu 35cm Neuschnee gemessen. Im Bereich der Koralpe waren es 20cm Neuschnee. Der Südwind hat den Neuschnee in den Nordsektor verfrachtet. Der Triebschnee liegt hier auf einer schwachen Altschneedecke. Eingeschneiter Oberflächenreif sowie kantige Formen schwächen das Schneedeckenfundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag lockern Wolken und Nebel im Bergland vorübergehend auf und regional zeigt sich die Sonne. Am Nachmittag nimmt die Bewölkung wieder zu, die Berge im Südwesten geraten in Nebel. Im Lauf des Nachmittags beginnt es leicht zu schneien. Der Wind kommt in der Früh aus Nordwest, ab Mittag dann aus Südwest. In 2000m Höhe haben wir um -6 Grad. In der Nacht auf Mittwoch von Südwesten wieder ein wenig Neuschnee. In der Nacht von Dienstag auf Mittwoch werden nochmals bis zu 20cm Neuschnee erwartet. </wxSynopsisComment>
+          <tendencyComment>Vorerst keine Änderung der Lawinengefahr. Ab Mittwoch können dann neuerliche Schneefälle zu einer Verschärfung des Triebschneeproblems führen.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

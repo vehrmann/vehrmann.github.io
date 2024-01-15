@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1720RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-21T06:28:10+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1720RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-21T06:28:10+00:00</beginPosition>
+          <endPosition>2022-02-22T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neu- und Triebschnee auch kammfern in Steilhängen, hinter Geländekanten sowie in Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Oberhalb etwa 2000m, Übergang von wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Der frische Triebschnee ist leicht auslösbar!</avActivityHighlights>
+          <avActivityComment>Mit Neuschnee und Sturm steigt die Lawinengefahr in den Vormittagsstunden an. Der Neu- und Triebschnee kann in allen Expositionen von einzelnen Wintersportlern leicht ausgelöst werden. Gefahrenstellen finden sich an kammnahen aber auch an kammfernen Steilhängen, hinter Geländekanten sowie in eingewehten Rinnen und Mulden. Im Tagesverlauf nehmen Anzahl und Größe der Gefahrenstellen zu. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinenbeurteilung.&#13;
+Schwachschichten im Altschnee können besonders im Rätikon, in der Silvretta und im Verwall an Nordwest-, Nord- und Nordosthängen vereinzelt ausgelöst werden. Dies vor allem oberhalb etwa 2000m im selten befahrenen Tourengelände an Übergängen von wenig zu viel Schnee - wie z.B. bei der Einfahrt in Rinnen und Mulden. Oberflächlich ausgelöste Lawinen können in tiefere Schichten der Altschneedecke durchreißen und groß werden. &#13;
+Zudem sind in mittleren Lagen an glatten, steilen Wiesenhängen kleine bis mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Am Vormittag schneit es zum Teil kräftig. Mit stürmischem West- bis Nordwestwind kommt es zu massiven Schneeverfrachtungen. Die im Laufe des Vormittags zunehmend umfangreicher werdenden Triebschneeansammlungen können sehr leicht ausgelöst werden.&#13;
+Im Rätikon, im Verwall und in der Silvretta sind in der Schneedecke Schwachschichten vorhanden. Gefahrenstellen befinden sich an schneearmen Stellen und an Übergängen von wenig zu viel Schnee vor allem im selten befahrenen Tourengelände. Ausgelöste Lawinen können dort in tiefere Schichten der Altschneedecke durchreißen und groß werden. &#13;
+In mittleren Lagen ist die Schneedecke feucht, was die Gleitbewegung an steilen Grashängen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>Unwirtliches Bergwetter: Es stürmt und am Vormittag schneit es zum Teil kräftig, wobei es zu massiven Schneeverfrachtungen kommt. Nachmittags lässt der Schneefall vorübergehend nach, die Sicht bleibt aber weiterhin durch Wolken und Nebel beeinträchtigt. Gegen Abend lebt der Schneefall wieder stark auf. Es kühlt ab. Temperatur in 2000m: von -3 auf -7 Grad sinkend, Höhenwind: stürmisch aus West bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Dienstag schneit es kräftig. Am Dienstagvormittag wird der Schneefall schwächer und klingt bis zum Nachmittag ab. Der Höhenwind weht dabei stark bis stürmisch aus Nordwest. Die Lawinengefahr steigt in der Nacht auf Dienstag verbreitet an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

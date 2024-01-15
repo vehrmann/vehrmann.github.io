@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3333RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3333RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr – Triebschneeansammlungen im extremen Steilgelände meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt, in tieferen Lagen herrscht geringe Lawinengefahr. Die Hauptgefahr geht von frischen und älteren Triebschneeansammlungen aus, die nur unzureichend mit dem Schneedeckenfundament verbunden sind. In extrem steilen, eingewehten Einfahrtsbereichen zu Rinnen und Hängen aller Expositionen können durch große, vereinzelt auch durch kleine Zusatzbelastung Schneebrettlawinen ausgelöst werden. Die Lawinen bleiben aber eher klein. </avActivityComment>
+          <snowpackStructureComment>In höheren Lagen liegen je nach Exposition und Geländeform frische Triebschneelinsen, ältere Triebschneepakete, oder lockerer Pulverschnee auf einem großteils verharschten Schneedeckenfundament. Die frischen Triebschneelinsen sind nur schlecht mit dem Untergrund verbunden (Schwachschicht: Oberflächenreif und/oder lockerer Neuschnee) und auch im Übergang zwischen den älteren Triebschneepaketen und dem Fundament hat sich vielerorts eine Schwachschicht aus kantigen Kristallen gebildet ("kalt auf warm"). Das Schneedeckenfundament war bis etwa 2200 m hinauf in allen Expositionen bereits angefeuchtet und ist nun großteils stabil. Nur in den höchsten Lagen ist schattseitig noch mit tiefer liegenden Schwachschichten zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Der Karsamstag bringt unbeständiges Bergwetter in der gesamten Steiermark. Die Gipfel stecken oft in den Wolken und die Sichtbedingungen sind eingeschränkt. Bei einer Schneefallgrenze von etwa 1000 m schneit es immer wieder. Der Wind weht mäßig bis lebhaft aus Nordwest. &#13;
+Am Ostersonntag setzt sich das unbeständige Bergwetter fort, es wird noch ein wenig kälter und es schneit weiterhin unergiebig. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich kaum, das Triebschneeproblem bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3333RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3333RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – dennoch in den Hochlagen Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Dennoch gibt es vereinzelte Gefahrenstellen in Form von kleinräumigem Triebschnee in den Hochlagen. Insbesondere im Ost- und Südsektor kann in extrem steilen Einfahrtsbereichen eine Schneebrettauslösung selbst durch geringe Zusatzbelastung nicht ausgeschlossen werden. Die Lawinen blieben aber klein und die Absturzgefahr überwiegt die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen liegen je nach Exposition und Geländeform frische Triebschneelinsen oder lockerer Pulverschnee auf einem großteils verharschten Schneedeckenfundament. Die frischen Triebschneelinsen sind nur schlecht mit dem Untergrund verbunden (Schwachschicht: Oberflächenreif und/oder lockerer Neuschnee). Das Schneedeckenfundament war bis etwa 2200 m hinauf in allen Expositionen bereits angefeuchtet und ist nun großteils stabil. Nur in den höchsten Lagen ist schattseitig noch mit tiefer liegenden Schwachschichten zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Der Karsamstag bringt unbeständiges Bergwetter in der gesamten Steiermark. Die Gipfel stecken oft in den Wolken und die Sichtbedingungen sind eingeschränkt. Bei einer Schneefallgrenze von etwa 1000 m schneit es immer wieder. Der Wind weht mäßig bis lebhaft aus Nordwest. &#13;
+Am Ostersonntag setzt sich das unbeständige Bergwetter fort, es wird noch ein wenig kälter und es schneit weiterhin unergiebig. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich kaum, das Triebschneeproblem bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

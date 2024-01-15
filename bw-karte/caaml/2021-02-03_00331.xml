@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID331RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID331RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Harschkruste weicht auf, die Schneedecke ist verbreitet feucht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneerutsche und einzelne Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1400 m MÄßIG, darunter GERING. Kleinere Nassschneerutsche und einzelne spontane Gleitschneelawinen aus dem extrem steilen Grasmattengelände oder aus Waldschneisen sind möglich. An vereinzelten Stellen in den Richtungen NW-NO-O ist vom lichten Hochwald aufwärts insbesondere bei großer Zusatzbelastung im sehr steilen Gelände eine Schneebrettauslösung denkbar. Schneebretter könnten mittelgroß werden.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf. Unter dem letzten Triebschnee verstecken sich teilweise noch schwache Schichten, die teilweise noch zu stören sind. Die Schneedecke ist beinahe in allen Richtungen schon ziemlich isotherm und im Inneren unterschiedlich feucht. Auch der bodennahe bindungslose Zuckerschnee vom Jänneranfang ist meist schon feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sichtverhältnisse sind am Vormittag eher ungünstig und wechseln rasch. Dazu kommt leichtes Schneetreiben und unterhalb von etwa 1300 m Regentropfen. Zudem weht milder Westwind mit 30 bis 40 km/h. Am Nachmittag reißt es vermehrt auf. In 1500 m 0 bis 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID331RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID331RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb etwa 1800 m mit leichtem Tagesgang</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen Übergänge zu Triebschneebereichen heikel</avActivityHighlights>
+          <avActivityComment>Oberhalb von ca. 1800/2000 m kann man nach wie vor an sehr steilen Stellen, insbesondere in den Richtungen NW-NO-SO ein trockenes Schneebrett auslösen. An ungünstigen Geländepunkten kann dazu bereits geringe Zusatzbelastung ausreichen. Schneebretter können mittelgroß und vereinzelt groß werden. Heikel sind die letzten Triebschneepakete und hier vor allem deren Randbereiche, die gut zu erkennen sind (mehrheitlich kammnah, aber auch kammfern). Aufpassen bzw. meiden sollte man auch schneearme Steilbereiche und Übergänge von wenig zu viel Schnee.&#13;
+Unter der Waldgrenze sind kleine und mittlere Nassschneelawinen möglich. Einzelne spontane Gleitschneelawinen sind aus dem extrem steilen Grasmattengelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf, schattseitig bis etwa 1800 m. Windexponiertes Gelände ist hart oder abgeweht. Unter dem letzten Triebschnee verstecken sich teilweise noch schwache Schichten, die teilweise noch zu stören sind. Tiefer liegende Altschneeprobleme im mittleren Drittel (kantige Zwischenschicht) der Schneedecke bzw. jenes vom Jänneranfang (bindungsloser Zuckerschnee im unteren Drittel der Schneedecke) ist nur noch mit starkem Impuls ansprechbar.</snowpackStructureComment>
+          <wxSynopsisComment>In den Grasbergen und Tauern scheint bis zum späten Nachmittag oft die Sonne bei guter Sicht, nur hohe Schleierwolken dämpfen den Sonnenschein zeitweise. Im Nordalpenbereich gibt es am Vormittag eher ungünstige Sichtverhältnisse durch rasch wechselnde Wolken und leichtes Schneetreiben (unterhalb von etwa 1300 m Regentropfen). Zudem weht lebhafter bis kräftiger Westwind. Am Nachmittag reißt es jedoch auf, auch der Wind ebbt ab. In 2000 m um -2 Grad, in 3000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID331RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID331RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel, oberhalb etwa 1800 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete in Föhnstrichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumig frischer Triebschnee, Übergänge zu Triebschneebereichen heikel</avActivityHighlights>
+          <avActivityComment>Oberhalb von ca. 1800 m kann man nach wie vor an sehr steilen Stellen, insbesondere in den Richtungen NW-NO-SO ein trockenes Schneebrett auslösen. An ungünstigen Geländepunkten kann dazu bereits geringe Zusatzbelastung ausreichen. Schneebretter können mittelgroß und vereinzelt groß werden. Heikel sind die frischen Triebschneepakete (dünn) sowie die Randbereiche des älteren Triebschnees, die gut zu erkennen sind (mehrheitlich kammnah, aber auch kammfern). Bewusst meiden sollte man schneearme Steilbereiche und Übergänge von wenig zu viel Schnee.&#13;
+Unter der Waldgrenze sind kleine und mittlere Nassschneelawinen möglich. Einzelne spontane Gleitschneelawinen sind aus dem extrem steilen Grasmattengelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die angefeuchtete Schneedecke ist zunächst oberflächlich oft leicht verkrustet und weicht tagsüber auf, schattseitig bis etwa 1800 m. Windexponiertes Gelände ist hart oder abgeweht. Südföhn hat in den Hochlagen zuletzt noch kleinräumig dünne Triebschneelinsen gebildet. Unter dem Triebschnee verstecken sich noch schwache Schichten, die teilweise noch zu stören sind. Tiefer liegende Altschneeprobleme im mittleren Drittel (kantige Zwischenschicht) der Schneedecke bzw. jenes vom Jänneranfang (bindungsloser Zuckerschnee im unteren Drittel der Schneedecke) ist nur noch mit starkem Impuls ansprechbar.</snowpackStructureComment>
+          <wxSynopsisComment>Bis zum späten Nachmittag scheint oft die Sonne bei guter Sicht, nur hohe Schleierwolken dämpfen den Sonnenschein zeitweise. Zudem weht lebhafter bis kräftiger Westwind, im Hochgebirge ist er anfangs zum Teil sogar noch stürmisch. Am Nachmittag lässt der Wind deutlich nach. In 2000 m um -2 Grad, in 3000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID331RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID331RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>auslösbar im Übergang von wenig zu viel oberhalb der Waldgrenze, unter letztem Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bruchflächen im Altschnee, einzelne Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Schneebretter können oberhalb der Waldgrenze an einigen Stellen im sehr steilen Gelände, insbesondere in den Richtungen O-S-W, mitunter noch bei geringer Zusatzbelastung ausgelöst werden. Heikel sind insbesondere Übergänge von wenig zu viel, also etwa die Einfahrten aus abgewehten Zonen. Schneebretter können mittelgroß und vereinzelt groß werden. Gefahrenstellen sind für das geschulte Auge erkennbar. Unberechenbar und zu jeder Tageszeit möglich sind spontane Gleitschneelawinen aus sehr steilen Grasmatten, insbesondere aus dem erweiterten Ost- und Südsektor.</avActivityComment>
+          <snowpackStructureComment>Mit dem milden Wetter werden die Oberflächen weich und feucht und tragen in den Morgenstunden unterschiedlich harte Krusten. Sonnseitig bis in die Hochlagen, schattseitig gibt es oberhalb etwa 1800 m noch Pulver auf harten Krusten. Die umfangreichen Triebschneepakete sind, obwohl sich die Situation langsam bessert, mit zunehmender Höhe noch auslösbar (langlebiges Altschneeproblem). Süd- und ostseitig melden unsere Beobachter vermehrt das Öffnen von Gleitschneemäulern.</snowpackStructureComment>
+          <wxSynopsisComment>Bis zum späten Nachmittag scheint oft die Sonne bei guter Sicht, nur hohe Schleierwolken dämpfen den Sonnenschein zeitweise. Der Wind weht vor allem im Tauernbereich zum Teil noch unangenehm mit 30 bis 50 km/h aus West bis Nordwest. In 2000 m um 0 Grad, in 3000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

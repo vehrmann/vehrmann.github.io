@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1537RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1537RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee beachten und meiden - ab rund 1400 m Höhe ist die Schneebrettgefahr erheblich!</avActivityHighlights>
+          <avActivityComment>Ab der Waldgrenze, aber auch in lichtem Bergwald darunter ist durch den starken bis stürmischen Wind aus West bis Nordwest umfangreicher leicht zu störender Triebschnee vorhanden. Eine Auslösung dieser Verfrachtungen ist bereits bei geringer Zusatzbelastung möglich. Anzahl sowie Umfang der Gefahrenstellen nehmen mit der Höhe deutlich zu. Verfüllte Steilhänge sowie steile Mulden und Rinnen aller Expositionen sind daher zu meiden. Mit dieser Neu- und Triebschneemenge ist im Steilgelände mit spontanen Lawinen zur rechnen. Es ist Erfahrung in der Lawinenbeurteilung erforderlich.</avActivityComment>
+          <snowpackStructureComment>Durch den vielen Neuschnee (in der Nacht zum Dienstag) mit Sturm sind störanfällige umfangreiche Verfrachtungen vorhanden, die mit der Altschneedecke schlecht binden. Die Schneedecke ist allgemein stark vom Wind der letzten Tage geprägt und sehr unregelmäßig verteilt. Dadurch sind abgewehte, harte und vereiste sowie gut verfüllte Bereiche vorhanden. Der Triebschnee selbst enthält teils Schwachschichten oder liegt auf einer oberflächig weichen oder harten Altschneedecke, die auch kantige Schichten enthält. Dadurch und durch lokal eingelagerten Graupel kann er leicht gestört werden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist es auf den Bergen tief winterlich. Dichte Wolken und teils anhaltender Schneefall schränken die Sicht vor allem von den Salzkammergutbergen ostwärts stark ein. Dort schneit es bis über Mittag intensiv und ergiebig. Der Wind weht lebhaft bis stürmisch aus West bis Nordwest. In 1500 m -7 Grad, in 2000 m -9 Grad. &#13;
+Am Mittwoch schneit es im Alpenbereich aus dichten Wolken anhaltend und ergiebig. Es weht stürmischem Nordwestwind. Im Alpenbereich bleibt die Sicht stark eingeschränkt. In 1500 m -4 Grad, in 2000 m -6 Grad. </wxSynopsisComment>
+          <tendencyComment>Mit den weiteren Schneefällen und anhaltenden Sturm kann die Lawinengefahr noch etwas ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

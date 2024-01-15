@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID487RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID487RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-25T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sehr mild in allen Höhen! Früh die Tour starten!</avActivityHighlights>
+          <avActivityComment>Weiterhin keine Änderung der Lawinensituation. Mit der Kombination aus Tageserwärmung und intensiver Sonneneinstrahlung destabilisiert sich die Schneedecke. Somit kann es sowohl zu spontanen kleinen Lawinen als auch durch den Zusatzimpuls von Wintersportlern ausgelösten Nassschneerutsche kommen. Touren sind nur mehr sehr eingeschränkt möglich.</avActivityComment>
+          <snowpackStructureComment>Nach nächtlicher Ausstrahlung erfolgt durch das sehr milde Temperaturniveau und zusätzlicher, intensiver Sonneneinstrahlung mit rascher An- bzw. Durchfeuchtung ein Festigkeitsverlust der Schneedecke. In den Türnitzer Alpen und auch im Wechselgebiet liegt wenig Schnee. Die Ausaperung schreitet voran. </snowpackStructureComment>
+          <wxSynopsisComment>Hochdruckeinfluss bringt einmal mehr viel Sonnenschein in den Bergen Niederösterreichs. Erst zum Abend hin tauchen von Westen vermehrt Wolkenfelder auf. Der Wind weht schwach bis mäßig aus Südwest bis Nordwest. Die Tageshöchsttemperaturen bewegen sich um 8 Grad in 1500m Höhe. &#13;
+Samstag: Zunächst zeigt sich der Himmel über dem Bergland oft wolkenverhangen und gelegentlich ziehen Schneeschauer durch. Die Schneefallgrenze pendelt dabei zwischen 800 bis 1200m Seehöhe. Nach und nach, vor allem aber am Nachmittag stellt sich trockenes und zeitweise sonniges Wetter ein. Zudem frischt lebhafter, teils kräftiger Nordwestwind auf. Es ist deutlich kühler als zuletzt,</wxSynopsisComment>
+          <tendencyComment>Es wird in den Hochlagen hart und eisig werden. Mit dem Schneefall wird ein leichter Anstieg der Lawinengefahr erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

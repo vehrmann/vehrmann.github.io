@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2039RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2039RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin Nassschneeproblem und kleinräumige Triebschneelinsen in exponierten Lagen</avActivityHighlights>
+          <avActivityComment>In der Steiermark herrscht geringe Lawinengefahr. Allgemein herrschen günstige Verhältnisse, aber aus extrem steilem Gelände muss in allen Höhenlagen ganztags mit spontanen Nass- und Gleitschneerutschen gerechnet werden. Zudem sind die Sichtverhältnisse schlecht und in exponierten Kammlagen können sich kleinräumige Triebschneelinsen bilden. </avActivityComment>
+          <snowpackStructureComment>Der „warme“ Neuschnee verbindet sich generell gut mit der Altschneedecke und ist wenig verfrachtungsfreudig, daher bilden sich mit dem schwachen Wind aus östlicher Richtung nur kleinräumige und dünne Triebschneelinsen hinter exponierten Geländekanten. In den Hochlagen können in steilen Nordrinnen weiterhin störanfällige Schwachschichten aus kantigen Kristallen existieren. In tieferen Lagen unter der Schneefallgrenze erhöht sich mit dem Regeneintrag der Wassergehalt in der Schneedecke bzw. apert es weiter aus. Mit mehr Durchfeuchtung wird die Schneedecke instabil und kann spontan abgleiten. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag regnet und schneit es häufig. Die Schneefallgrenze schwankt zwischen 1200 und 1400 m Höhe. Die Sicht ist eingeschränkt, denn Gipfel sind in Nebel gehüllt und es lockert kaum bis gar nicht auf. Die Temperaturen liegen in 2000m um -2 Grad, in 1500m um +1 Grad. Dazu weht schwacher Wind aus Nordost bis Ost. </wxSynopsisComment>
+          <tendencyComment>Am Freitag fällt in der Früh noch Niederschlag, es lockert über Mittag überall etwas auf, ehe am Nachmittag neuerlicher Niederschlag einsetzt. Die Temperaturen gehen zum Wochenende hin weiter zurück und die Schneefallgrenze sinkt ab. Die Nassschneeproblematik lässt langsam nach, dafür rückt der Triebschnee in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

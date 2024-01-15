@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1207RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1207RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in den Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>bei Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen und in der Gippel-Göller-Region herrscht in den Hochlagen mäßige, ansonsten geringe Lawinengefahr. Es überlagern sich derzeit (in abgeschwächter Form) mehrere Lawinenprobleme: Durch verfrachtbaren Schnee bzw. unter Windeinfluss fallenden Neuschnee können sich in den Hochlagen Gefahrenstellen in Form von frischem Triebschnee bilden, dies trifft hauptsächlich den erweiterten Ostsektor sowie generell kammnahes Gelände. In abgeschatteten Hochlagen existiert stellenweise eine geschwächte Altschneedecke. Es ist die Auslösung einer (kleineren) Schneebrettlawine unter Zusatzbelastung möglich. Zudem kann es vor allem in den Bereichen, in denen es regnet, zu spontanen Rutschungen kommen.</avActivityComment>
+          <snowpackStructureComment>Der überaus turbulente Wetterverlauf spiegelt sich in der Schneedecke wider. Ausgesetzte Bereiche der Hochlagen wurden durch überaus stürmischen Wind abgeblasen, Hohlformen mit Verfrachtungen befüllt. In den Gipfellagen können sich zudem frische Triebschneebereiche ausbilden. In schattseitigen Hochlagen können Schwachschichten in der Altschneedecke existieren bzw. sich ausbilden. Mit dem Regen kommt es zudem zu einer Anfeuchtung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Heiligen Abend und in der Nacht auf den Christtag sind westlich der Rax - mit Schwerpunkt in den Ybbstaler Alpen - noch Niederschläge zu erwarten. Diese fallen aufgrund der milden Luftmassen meist in Form von Regen, lediglich in den Gipfelniveaus kann es auch schneien. In den späteren Vormittagsstunden klingen letzte Niederschläge ab, es überwiegen insgesamt aber noch dichtere Wolken. Der Wind lässt zwar nach, weht aber immer noch stark, zum Teil auch stürmisch aus westlichen Richtungen. Die Mittagstemperaturen liegen in 1500m bei etwa +3 Grad, in 2000m bei 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Bereits Samstagabend setzen bei sinkender Schneefallgrenze leichte Niederschläge ein. Auch der Sonntag verläuft trüb, es kann zeitweise leicht regnen oder schneien. Der Westwind lässt weiter nach, die Temperaturen gehen etwas zurück und liegen in 1500m bei etwa -1 Grad. Die Lawinengefahr nimmt mit dem Abklingen der Niederschläge mittelfristig ab, in den Hochlagen sollten zum Teil die Altschneeproblematik sowie stellenweise auch frischerer Triebschnee beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1207RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1207RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>vereinzelt in Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>bei Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Türnitzer und Gutensteiner Alpen über die Rax-Schneeberg-Gruppe bis hin zur Semmering-Wechsel-Region herrscht geringe Lawinengefahr. Hier ist die Menge verfrachtbaren Schnees geringer, frische Triebschneelinsen in den Hochlagen somit nur geringmächtig ausgeprägt. In abgeschatteten höheren Lagen existiert vereinzelt eine geschwächte Altschneedecke. Mit dem Regen können sich mit Schwerpunkt in den westlichen Gebirgsgruppen auch spontane Rutschungen lösen.</avActivityComment>
+          <snowpackStructureComment>Das turbulente Wetter spiegelt sich in der Schneedecke wider. Ausgesetzte Bereiche der Hochlagen wurden durch überaus stürmischen Wind abgeblasen, Hohlformen mit Verfrachtungen befüllt. In schattseitigen Hochlagen können Schwachschichten in der Altschneedecke existieren bzw. sich ausbilden. In Gebieten, in denen es regnet, kommt es zudem zu einer Anfeuchtung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Heiligen Abend und in der Nacht auf den Christtag sind westlich der Rax - mit Schwerpunkt in den Ybbstaler Alpen - noch Niederschläge zu erwarten. Diese fallen aufgrund der milden Luftmassen meist in Form von Regen, lediglich in den Gipfelniveaus kann es auch schneien. In den späteren Vormittagsstunden klingen letzte Niederschläge ab, es überwiegen insgesamt aber noch dichtere Wolken. Der Wind lässt zwar nach, weht aber immer noch stark, zum Teil auch stürmisch aus westlichen Richtungen. Die Mittagstemperaturen liegen in 1500m bei etwa +3 Grad, in 2000m bei 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Bereits Samstagabend setzen bei sinkender Schneefallgrenze leichte Niederschläge ein. Auch der Sonntag verläuft trüb, es kann zeitweise leicht regnen oder schneien. Der Westwind lässt weiter nach, die Temperaturen gehen etwas zurück und liegen in 1500m bei etwa -1 Grad. Die Lawinengefahr nimmt mit dem Abklingen der Niederschläge mittelfristig ab, in den Hochlagen sollten zum Teil die Altschneeproblematik sowie stellenweise auch frischerer Triebschnee beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

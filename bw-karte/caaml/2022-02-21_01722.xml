@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1722RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1722RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem oberhalb der Waldgrenze</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit ERHEBLICH beurteilt, darunter ist sie GERING. Frische, mittelgroße Triebschneeablagerungen können bereits durch eine geringe Zusatzbelastung gestört werden und als mittelgroßes Schneebrett abrutschen.</avActivityComment>
+          <snowpackStructureComment>Ab etwa Mittag verflüchtigen sich die Wolken und Schneeschauer, durch welche rund 20 cm Neuschnee, ganz im Nordwesten der Glocknergruppe auch etwas mehr, zu erwarten sind. Der Neuschnee wird vom Wind stark verfrachtet und bildet mittelgroße Triebschneeablagen welche auf der gut gesetzten und verharschten Altschneedecke abgelagert werden. In der Schneedecke sind vor allem schattseitig noch aufbauend umgewandelte Schichten vorhanden. Geländekanten sind meist komplett abgeblasen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bringt stürmisches Bergwetter. Am Tauernhauptkamm stauen sich noch dichte Wolken mit ein paar Schneeschauern. Bei stürmischem Wind aus Nordwest hat es zu Mittag in 3000 m um -15 Grad und in 2000 m um -7 Grad. In der zweiten Nachthälfte zum Mittwoch setzt dann wieder etwas Schneefall mit noch stürmischem Wind aus Nordwesten, bis zu Mittag ein. Am Nachmittag wird der Wind dann etwas schwächer.</wxSynopsisComment>
+          <tendencyComment>Der Sturm sorgt weiterhin für frische Triebschneeablagerungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1722RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1722RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee; Übergänge von wenig zu mehr Schnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb rund 1800 m MÄSSIG, darunter GERING. Die frischen Triebschneeablagerungen werden durch stürmischem Wind ständig umgelagert und die Bindung zur meist verharschten Altschneedecke ist auch meist schlecht. Eine Schneebrettauslösung ist insbesondere durch eine große Zusatzbelastung, vereinzelt auch durch eine geringe Zusatzbelastung möglich. Hier sind besonders die Übergänge von wenig zu mehr Schnee zu beachten.</avActivityComment>
+          <snowpackStructureComment>Bei stürmischem Nordwestwind verfrachtet den, vereinzelt noch etwas lockereren Altschnee. Die Altschneedecke hat sich meist gut gesetzt und verfestigt und ist auch meist mit einem Harschdeckel abgeschlossen. Geländekanten sind meist komplett abgeblasen. Die Lawinengefahr ist innerhalb der Gefahrenstufe etwas angestiegen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bringt stürmisches Bergwetter. Abgesehen von ein paar Restwolken die sich bald auflösen, scheint den ganzen Tag die Sonne. Bei stürmischem Wind aus Nordwest hat es zu Mittag in 3000 m um -15 Grad, in 2000 m um -7 Grad und in 1000 m um +3 Grad. Am Mittwoch überwiegt wieder der Sonnenschein. Der stürmische Wind schwächt etwas ab, weht aber in exponierten Hochlagen immer noch stark.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1722RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1722RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Gefahrenstellen, wo die gering mächtigen Triebschneeablagerungen durch eine große Zusatzbelastung ausgelöst werden können, werden in Gipfelbereichlagen wieder etwas mehr, vor allem in den entlang der nördlichen Landesgrenze gelegenen Gebirgsgruppen.</avActivityComment>
+          <snowpackStructureComment>Wenige Zentimeter Neuschnee, in den Gebirgsgruppen entlang der nördlichen Landesgrenze, und starker Wind führen zur Bildung von frischen, kleinen Triebschneeablagerungen. Die Altschneedecke hat sich gut gefestigt und stabilisiert und wird von einem Harschdeckel abgeschlossen, auf welchem die Triebschneeablagerungen abgelagert werden. Unterhalb der Waldgrenze liegt sehr wenig und meist auch feuchter Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bringt stürmisches Bergwetter. Die Gipfel sind zwar meist frei und es scheint oft die Sonne, es weht aber stürmischer Nordwestwind. Bei stürmischem Wind aus Nordwest hat es zu Mittag in 3000 m um -15 Grad, in 2000 m um -7 Grad und in 1000 m um +3 Grad. Am Vormittag kann in den Gebirgsgruppen entlang der nördlichen Landesgrenze auch noch der eine oder andere leichte Schneeschauer übergreifen. Am Mittwoch lockert die Restbewölkung meist rasch auf. Auch der Wind wird schwächer.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

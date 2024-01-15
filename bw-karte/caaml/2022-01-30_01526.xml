@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1526RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1526RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit Abkühlung und Neuschnee bilden sich frische und störanfällige Triebschneeansammlungen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist an der Waldgrenze und darüber mäßig, unterhalb davon gering. Problematisch ist der frische Triebschnee. Viele Gefahrenstellen befinden sich im Steilgelände der Expositionen Nord über Ost bis Südwest sowie in frisch eingewehten Rinnen und Mulden. Kleine Schneebrettlawinen können vielerorts bereits durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. An besonders triebschneegeladenen Hängen können Lawinen mittelgroß werden. Auch unterhalb der Waldgrenze sind in freien Lagen kleine Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke in den Bayerischen Alpen ist stark vom Wind geprägt. Triebschneeansammlungen bilden sich durch den stürmischen Wind vor allem an und über der Waldgrenze laufend neu. Mit einsetzendem Schneefall und sinkenden Temperaturen nimmt die Auslösebereitschaft des frischen Triebschnees zu. Windexponierte Stellen sind abgeblasen. Das Altschneepaket ist meist stabil. In tieferen Lagen ist die dünne Altschneedecke durchfeuchtet und oberflächlich verharscht.</snowpackStructureComment>
+          <tendencyComment>In der Nacht zum Dienstag sind gebietsweise weitere 30 cm Neuschnee bei gleichbleibend stürmischem Wind prognostiziert. Die Lawinengefahr steigt an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

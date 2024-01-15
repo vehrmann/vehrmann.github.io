@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3677RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3677RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah und kammfern, in Rinnen und Mulden, Störanfälligkeit nimmt mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze erheblich, darunter mäßig.&#13;
+Hauptproblem ist der Triebschnee. Oberhalb der Waldgrenze sind &#13;
+frische Triebschneeansammlungen besonders an Nord über Ost bis Süd ausgerichteten&#13;
+ Hängen störanfällig. Lawinen können an vielen Stellen bereits durch &#13;
+geringe Zusatzbelastung ausgelöst werden und mittlere Größe erreichen. &#13;
+Die Gefahrenstellen nehmen mit der Höhe zu. &#13;
+Oberhalb von 2500 m können zudem noch  Schwachschichten in der &#13;
+Altschneedecke gestört werden. Gefahrenbereiche befinden sich vor allem &#13;
+an schattigen, sehr steilen Hängen. Ungünstig sind Übergänge von wenig &#13;
+zu viel Schnee. Die Auslösung bedarf meist großer Zusatzbelastung. &#13;
+Lawinen (Triebschnee) können in diesen Bereichen auf tiefere &#13;
+Schwachschichten durchgreifen und dadurch vereinzelt groß werden.&#13;
+Unterhalb von 2200 m bleibt die Gleitschneeaktivität erhalten. &#13;
+Gefahrenstellen befinden sich in allen Exposition. Gleitschneelawinen &#13;
+können auf steilem Grasmattengelände und auf glattem Felsuntergrund zu &#13;
+jeder Tageszeit abgehen und mittlere Größe erreichen. Bereiche unter &#13;
+Gleitschneerissen sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch den Wind wurde/wird&#13;
+ der Neuschnee verfrachtet. Oberhalb der Waldgrenze bildet sich &#13;
+ein Windharschdeckel. Darunterliegende weiche Schichten können als &#13;
+Schwachschicht dienen. &#13;
+Hochalpin über 2500 m besteht das Schneedeckenfundament weiterhin aus Krusten mit eingelagerten weicheren Schichten. Ansonsten ist das Altschneefundament sehr kompakt und auch die Krusten in Bodennähe gut verbunden.&#13;
+Da die Schneedecke in tiefen bis mittleren Lagen durchnässt ist, kann&#13;
+ die gesamte Schneedecke bei ausreichender Neigung auf glattem &#13;
+Untergrund (Gras, Fels) als Gleitschneelawine am Boden abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Tag startet in den Nordalpen oft noch mit dichten Wolken und teils eingeschränkter Sicht. In der Früh kann es noch ein paar Schneeflocken geben. Entlang der Tauern zeigt sich schon öfter die Sonne, welche sich tagsüber auch im Norden durchsetzen kann. Die Sicht ist dann sehr gut. Der Wind weht meist schwach bis mäßig aus westlichen Richtungen (Spitzen um 30 km/h). Entlang der Tauern kann es am Vormittag noch stürmische Böen über 70 km/h aus nordwestlichen Richtungen geben. Hier wird der Wind im Tagesverlauf ebenfalls schwächer. Im Tagesverlauf fließt von Westen her langsam mildere Luft ein. In 2000 m steigen die Temperaturen von -7 auf -4 Grad, in 3000 m von -10 auf -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung geht das Triebschneeproblem zurück. Das Gleitschneeproblem bleibt erhalten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3677RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3677RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Störanfälligkeit und Mächtigkeit nehmen mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze erheblich, darunter mäßig.&#13;
+Hauptproblem ist der Triebschnee. Oberhalb der Waldgrenze sind &#13;
+frische Triebschneeansammlungen besonders an Nord über Ost bis Süd ausgerichteten&#13;
+ Hängen störanfällig. Lawinen können an vielen Stellen bereits durch &#13;
+geringe Zusatzbelastung ausgelöst werden und mittlere Größe erreichen. &#13;
+Die Gefahrenstellen nehmen mit der Höhe zu. &#13;
+Unterhalb von 2200 m bleibt die Gleitschneeaktivität erhalten. &#13;
+Gefahrenstellen befinden sich in allen Exposition. Gleitschneelawinen &#13;
+können auf steilem Grasmattengelände und auf glattem Felsuntergrund zu &#13;
+jeder Tageszeit abgehen und mittlere Größe erreichen. Bereiche unter &#13;
+Gleitschneerissen sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch den Wind wurde und wird der Neuschnee verfrachtet. Oberhalb der Waldgrenze bildet(e) sich &#13;
+ein Windharschdeckel. Darunterliegende weiche Schichten können als &#13;
+Schwachschicht dienen. Die Altschneedecke ist verbreitet sehr kompakt, auch die Krusten in bodennähe sind meist gut verbunden.&#13;
+Da die Schneedecke in tiefen bis mittleren Lagen durchnässt ist, kann&#13;
+ die gesamte Schneedecke bei ausreichender Neigung auf glattem &#13;
+Untergrund (Gras, Fels) als Gleitschneelawine am Boden abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Tag startet in den Nordalpen oft noch mit dichten Wolken und teils eingeschränkter Sicht. In der Früh kann es noch ein paar Schneeflocken geben. In den Grasbergen und in den Tauern zeigt sich schon öfter die Sonne, welche sich tagsüber auch im Norden durchsetzen kann. Die Sicht ist dann sehr gut. Der Wind weht meist schwach bis mäßig aus westlichen Richtungen (Spitzen um 30 km/h). Entlang der Tauern kann es am Vormittag noch stürmische Böen über 70 km/h aus nordwestlichen Richtungen geben. Hier wird der Wind im Tagesverlauf ebenfalls schwächer. Im Tagesverlauf fließt von Westen her langsam mildere Luft ein. In 2000 m steigen die Temperaturen von -7 auf -4 Grad, in 3000 m von -10 auf -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung geht das Triebschneeproblem zurück. Das Gleitschneeproblem bleibt erhalten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3677RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3677RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>klein, aber teils leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. &#13;
+Wind und etwas Neuschnee haben frische Triebschneeansammlungen gebildet, die schon&#13;
+ bei geringer Zusatzbelastung ausgelöst werden können. Lawinen bleiben &#13;
+aber meist klein - Absturzgefahr beachten.&#13;
+Die Gleitschneeaktivität bis auf Gipfelniveau bleibt weiterhin &#13;
+erhalten. Gefahrenstellen befinden sich in allen Exposition. &#13;
+Gleitschneelawinen können auf steilem Grasmattengelände und auf glattem &#13;
+Felsuntergrund zu jeder Tageszeit abgehen und mittlere Größe erreichen. &#13;
+Bereiche unter Gleitschneerissen sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch den Wind wurde der Neuschnee verfrachtet. Frischer Triebschnee kommt in der &#13;
+Höhe auf einer lockeren Schneedecke zu liegen und ist dadurch &#13;
+störanfällig. Das Schneedeckenfundament ist gut verbunden. &#13;
+Da die Schneedecke in tiefen bis mittleren Lagen durchnässt ist, kann&#13;
+ die gesamte Schneedecke bei ausreichender Neigung auf glattem &#13;
+Untergrund (Gras, Fels) als Gleitschneelawine am Boden abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Tag startet oft noch mit dichten Wolken und teils eingeschränkter Sicht. In der Früh kann es noch ein paar Schneeflocken geben. Tagsüber setzt sich mehr und mehr die Sonne durch. Die Sicht ist dann sehr gut. Der Wind weht meist schwach bis mäßig aus westlichen Richtungen (Spitzen um 30 km/h). Im Tagesverlauf fließt von Westen her langsam mildere Luft ein. In 2000m steigen die Temperaturen von -7 auf -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung geht das Triebschneeproblem zurück. Das Gleitschneeproblem bleibt erhalten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3677RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3677RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschneelawinen bleiben ein Thema</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, darunter gering.&#13;
+Oberhalb der Waldgrenze sind frische Triebschneeansammlungen &#13;
+besonders an Nord über Ost bis Süd ausgerichteten Hängen störanfällig. Lawinen &#13;
+können an einigen Stellen (Rinnen, Mulden, hinter Geländekanten) bereits&#13;
+ durch geringe Zusatzbelastung ausgelöst werden, bleiben jedoch meist klein.&#13;
+Die Gleitschneeproblematik bleibt erhalten. Gefahrenstellen&#13;
+ befinden sich in allen Exposition. Gleitschneelawinen können auf &#13;
+steilem Grasmattengelände und auf glattem Felsuntergrund zu jeder &#13;
+Tageszeit abgehen. Bereiche unter &#13;
+Gleitschneerissen sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch den Wind wurde/wird&#13;
+ der Neuschnee verfrachtet. Oberhalb &#13;
+der Waldgrenze bildet(e) sich ein Windharschdeckel. Darunterliegende weiche&#13;
+ Schichten können als Schwachschicht dienen. &#13;
+Da der Boden sehr warm eingeschneit wurde, kann&#13;
+ die gesamte Schneedecke bei ausreichender Neigung auf glattem &#13;
+Untergrund (Gras, Fels) als Gleitschneelawine am Boden abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>In den Nockbergen zeigt sich von Beginn an öfter die Sonne und im Tagesverlauf lösen sich die Wolken weiter auf. Die Sicht ist meist sehr gut. Der Wind weht am Vormittag noch lebhaft aus nordwestlichen Richtungen geben. Im Tagesverlauf fließt von Westen her langsam mildere Luft ein. In 2000 m steigen die Temperaturen von -7 auf -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung geht das Triebschneeproblem zurück. Das Gleitschneeproblem bleibt erhalten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

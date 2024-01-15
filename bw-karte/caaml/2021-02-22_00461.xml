@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID461RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID461RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-23T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab Mittag vermehrt Gleitschnee und oberflächliche Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang von GERING auf MÄßIG. In der Früh und am Vormittag herrschen weitgehend stabile Verhältnisse. Vereinzelt kann in hohen und hochalpinen schattigen extrem steilen Gelände noch ein trockenes Schneebrett ausgelöst werden. Ab Mittag ist vermehrt mit kleinen und mittleren Grundlawinen und oberflächlichen Nassschneelawinen (diese können auch von Wintersportlern ausgelöst werden) aus den sehr steilen Südseiten zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt, die Schneeschichten sind meist gut miteinander verbunden. Harschdeckel dominieren. Im Lauf des Vormittags firnt es sonnseitig auf. Ab Mittag kann die Schneedecke oberflächlich schon sehr nass sein.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist gut und es ist sonnig. Zeitweise ziehen dünne Wolken weit über die Gipfel. In 2000 m um 6 Grad. Der Wind bleibt schwach.</wxSynopsisComment>
+          <tendencyComment>Weiterhin Frühjahrsbedingungen mit Tagesgang.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

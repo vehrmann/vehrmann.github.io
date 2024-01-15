@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2347RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2347RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Höhe kammnahes Steilgelände, eingewehte Rinnen und Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb ca. 2200 m - überdeckte Schwachschichten sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Der Triebschnee der letzten Tage, sowie teilweise Schwachschichten in der Altschneedecke in steilen Schattenhängen sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 2000m ist die Lawinengefahr mäßig, darunter gering. Gefahrenstellen sind vor allem im kammnahen Steilgelände, in eingewehten Rinnen und Mulden sowie hinter Geländekanten vorhanden. meist kleinere Triebschneeansammlungen können von einzelnen Wintersportlern noch ausgelöst werden. Zudem sind oberhalb ca. 2200 m besonders an steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelne Wintersportler können stellenweise kleine, mit zunehmender Seehöhe aber auch mittlere Schneebrettlawinen auslösen. Dies ist bei Aktivitäten abseits gesicherter Bereiche zu beachten. Neben einer Verschüttung sollte auch die Mitreiß- und Absturzgefahr beachtet werden. Mit der Tageserwärmung sind in mittleren und tiefen Lagen Gleitschneerutsche möglich. Auf Grund der geringen Schneehöhe sind diese jedoch meist klein.</avActivityComment>
+          <snowpackStructureComment>Die Triebschnee-Einwehungen der letzten Tage sind noch störanfällig. Der Neuschnee liegt in höheren Lagen meist auf einer dünnen Schmelzharschkruste. Zudem gibt es vor allem im Nordsektor oberhalb etwa 2200m im Altschnee Krusten zwischen denen sich kantige Kristalle gebildet haben, die bei Belastung gestört werden können. Diese Gefahrenstellen sind von außen nicht erkennbar.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Sonntag: Die Nacht verläuft teils sternenklar und damit streng frostig. Vom Rheintal bis in den Vorderwald könnten allerdings Hochnebelfelder die Auskühlung bremsen. Tiefstwerte: je nach Bedeckungsgrad -4 bis -13 Grad.Sonntag: Zunächst ist der Himmel oft wolkenlos, tagsüber wird die Sonne aber von immer dichtere Schleierwolken in den Hintergrund gedrängt. Diese zeigen gleichzeitig die markante Warmluftzufuhr in allen Höhen an. Temperaturen in 2000 m: von -3 auf +3 Grad, der Höhenwind weht mäßig bis lebhaft aus West.</wxSynopsisComment>
+          <tendencyComment>Am Montag wird es mit der Inversionslage deutlich milder. Bei ausgedehnten hohen und mittelhohen Wolkenfeldern gibt es nur diffusen Sonnenschein. Im Mittelgebirge wird es deutlich milder sein als in den noch von der Kaltluft gefüllten Tälern. Tiefstwerte: -7 bis -2 Grad, Höchstwerte: meist 1 bis 5 Grad, im Mittelgebirge teils zweistellige Plusgrade. Die Lawinengefahr ändert sich nicht wesentlich, die Gefahr von Gleitschneerutschen in mittleren und tieferen Regionen wird etwas zunehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

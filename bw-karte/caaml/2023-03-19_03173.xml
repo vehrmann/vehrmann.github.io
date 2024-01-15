@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3173RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3173RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Festigkeitsverlust durch Regen bzw. Einstrahlung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem durch Regen und Einstrahlung, vereinzelt Bildung frischer Triebschneelinsen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Die Gefahr von spontanen Nassschneerutschen aus steilen, noch nicht entladenen Hängen nimmt allgemein mit der Abkühlung ab, kann aber bei ausreichendem Regeneintrag bzw. durch im Tagesverlauf zunehmende Einstrahlung nicht ausgeschlossen werden. In höheren Lagen bilden sich mitunter vereinzelt dünne Triebschneelinsen, die hinsichtlich der Absturzgefahr speziell in ostexponierten Einfahrten zu steilen Rinnen beachtet werden sollten. Zudem sind vereinzelt Gleitschneelawinen aus steilem Grasmattengelände möglich. &#13;
+</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist unter 1500m oft nicht mehr geschlossen. Darüber ist sie bis in hohe Lagen expositionsabhängig unterschiedlich stark durchfeuchtet, speziell schattseitig kompakt und noch hart. In der Nacht und im Tagesverlauf wird die Schneedecke mit etwas Regen bzw. auch durch Einstrahlung angefeuchtet, was zu einem Festigkeitsverlust führen kann. In höheren Lagen können sich bei auflebendem Nordwestwind stellenweise dünne Triebschneelinsen auf einer unterschiedlich harten Altschneedecke ablagern. Eine bis zum Boden durchnässte Schneedecke kann auf glattem Untergrund zu gleiten beginnen. In den hochgelegenen Schattseiten sind kaum mehr tieferliegende Schwachschichten um Krusten vorhanden.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>An der Rückseite eines abziehenden Troges stellt sich langsam Hochdruckeinfluss ein. In der Nacht auf Montag sowie Montagvormittag hält sich vor allem in den Ybbstaler Alpen noch kompakte Bewölkung. Bei einer Schneefallgrenze um 1500m kann es in den Bergen immer wieder etwas schneien bzw. regnen. Im Tagesverlauf beginnt es etwas aufzulockern und die Sonne zeigt sich ab und zu, obgleich immer wieder vereinzelte Schauer durchziehen können. Der Wind aus Nordwest ist lebhaft und legt im Tagesverlauf speziell in den östlichen Regionen zu. Das Temperaturniveau geht leicht zurück, die Nachmittagswerte liegen in 2000m um den Gefrierpunkt, in 1500m bei +3 Grad und in 1000m um +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag herrscht niederschlagsfreies, oft sonniges und etwas milderes Bergwetter. Der Wind aus westlichen Richtungen bleibt mäßig.Die Lawinensituation ändert sich nicht wesentlich, mit klaren Nächten und einiges an Sonne tagsüber tritt die Frühjahressituation in den Vordergrund, die Ausaperung schreitet voran.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

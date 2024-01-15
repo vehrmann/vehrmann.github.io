@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID19RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID19RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In Höhenlagen über rund 1800 m sind Gefahrenstellen vorhanden welche allgemein nur durch eine große Zusatzbelastung ausgelöst werden können</avActivityHighlights>
+          <avActivityComment>Unter 1600 m gibt es meist keinen lawinenrelevanten Schnee. Darüber besteht örtlich die Gefahr von kleinen und mittleren Feucht- und Gleitschneelawinen welche an steilen Almhängen abrutschen können.</avActivityComment>
+          <snowpackStructureComment>Die vergangene Niederschlagsperiode über sind in der Region rund 30 cm Neuschnee gefallen. Durch Regen, auf Grund der steigenden Schneefallgrenze, wurde die Schneedecke meist stark durchfeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>In der Region zeigt sich hie und da die Sonne und es bleibt trocken. Erst im späteren Tagesverlauf können einige Schauer durchziehen.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr wird geringer.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID19RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID19RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>weiterhin spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die mächtige Schneedecke kritisch beurteilen und mit abrutschen spontaner Lawinen rechnen</avActivityHighlights>
+          <avActivityComment>Auf Grund der Mächtigkeit der Schneedecke ist in allen Expositionen mit spontanen Locker-, Feucht- und Gleitschneelawinen zu rechnen, wird aber nach Niederschlagsende geringer. Eine Lawinenauslösung ist bereits durch einen einzelnen Wintersportler sehr leicht möglich.</avActivityComment>
+          <snowpackStructureComment>Die gefallene Schneemenge seit Freitag ist beachtlich und übersteigt teilweise 300 cm. Durch Regeneintrag bis rund 1700 m und der Setzung muss ab ca. 1500 m mit einer 150 cm dicken Schneedecke gerechnet werden. In hohen und hochalpinen Lagen hat der stürmische Wind aus südlicher Richtung viel Schnee verfrachtet. In tieferen Lagen konnte der Regeneintrag teilweise sehr gut von der Schneedecke aufgenommen werden. In tiefen Lagen ist die Schneedecke aber verbreitet sehr feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Der Niederschlag hört in der Nacht zum Montag auf, aber die Wolken können nur kurz auflockern. Bals ziehen wieder dichtere Wolken auf die die Gipfel in Wolken hüllen und auch bald wieder einige Schauer bringen.</wxSynopsisComment>
+          <tendencyComment>Für Dienstag ist die nächste kräftige Niederschlagswelle prognostiziert, die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-12-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID19RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID19RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>feuchte bis nasse Schneedecke</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen und Gleitschnee sind die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>In Lagen oberhalb der Waldgrenze hat der teils stürmische Wind für Schneeverfrachtungen gesorgt und Mulden und Rinnen gefüllt. Eine Lawinenauslösung ist hier bereits durch eine geringe Zusatzbelastung möglich. Spontan mögliche Feucht- und Gleitschneelawinen sind zu beachten</avActivityComment>
+          <snowpackStructureComment>Von Ost nach West sind in der Region 30 bis 60 cm Neuschneegefallen, welche einerseits durch den starken bis stürmischen Wind im oberen Höhenbereich verfrachtet, aber auch durch einsetzenden Regen durchfeuchtet wurden.</snowpackStructureComment>
+          <wxSynopsisComment>Hie und da zeigt sich die Sonne und es bleibt längere Zeit trocken.</wxSynopsisComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID19RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID19RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Teils größere Schneemengen, welche auch verfrachtet wurden und Gleitschnee sind die Hauptgefahren</avActivityHighlights>
+          <avActivityComment>In Lagen oberhalb der Waldgrenze hat der teils stürmische Wind für Schneeverfrachtungen gesorgt und Mulden und Rinnen gefüllt. Eine Lawinenauslösung ist hier bereits durch eine geringe Zusatzbelastung möglich. Spontan mögliche Feucht- und Gleitschneelawinen sind zu beachten</avActivityComment>
+          <snowpackStructureComment>Es sind 60 cm bis 70 cm Neuschnee gefallen, welche einerseits durch den starken bis stürmischen Wind im oberen Höhenbereich verfrachtet, aber auch durch einsetzenden Regen durchfeuchtet wurden.</snowpackStructureComment>
+          <wxSynopsisComment>Niederschläge hören in der Nacht zum Montag auf, aber die Wolken können nur kurz auflockern. Bals ziehen wieder dichtere Wolken auf die die Gipfel in Wolken hüllen und auch bald wieder einige Schauer bringen.</wxSynopsisComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

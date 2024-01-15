@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID800RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID800RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze, in Rinnen und steilen Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze mäßige Schneebrettgefahr - störanfälligen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Durch den Schneefall und starken bis stürmischen West- bis Nordwestwind gibt es ab der Waldgrenze frische und ältere störanfällige Verfrachtungen, die in eingewehten Steilhängen und verfüllten Rinnen sowie Mulden zu beachten sind. Umfang und Anzahl der Gefahrenstellen nehmen dabei mit der Höhe zu. Eine Auslösung von Schneebrettlawinen ist bei großer, aber auch geringer Zusatzbelastung bereits möglich. Bei Sonnenschein sind kleine Lockerschneerutsche aus dem extremen Steilgelände und vereinzelt Gleitschneelawinen auf vergrasten Steilhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Zu den bereits vorhandenen rund 15 cm Neuschnee gibt es in den mittleren Höhenlagen in Summe nochmals rund 10 cm, darüber auch wieder mehr Neuschnee, der wiederum  verfrachtet wird. Dieser Triebschnee bindet mit älterem Triebschnee, dem letzten Neuschnee oder mit der Altschneedecke teils auch schlecht. Die Altschneedecke selbst ist je nach Höhe und Exposition oberflächig verschieden stark gefestigt, im Inneren aber feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen einige Schnee- und Graupelschauer durch. Um die Mittagszeit bleibt es länger trocken, die Sonne kommt öfter durch. Am späten Nachmittag schneit es wieder mehr, zudem weht oft starker bis stürmischer West- bis Nordwestwind. Temperaturen in 1500 m um -8 Grad, in 2000 m um -13 Grad.&#13;
+Am Donnerstag ziehen bis über Mittag Schneeschauer nur vereinzelt durch, dazwischen gibt es etwas Sonnenschein. Am Nachmittag häufen sich die Schnee- und Graupelschauer wieder, die Sichtverhältnisse wechseln im Hochgebirge rasch. Dazu weht lebhafter bis starker West- bis Nordwestwind. In 1500 m um -5 Grad, in 2000 m um -8 Grad, es wird somit langsam wärmer.</wxSynopsisComment>
+          <tendencyComment>Durch nochmaligen Schneefall, starken Wind und Triebschnee bleibt die Schneebrettgefahr vorerst unverändert bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID800RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID800RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>steile Kamm- und Gipfellagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Lokal mäßige, überwiegend geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In Kamm- und Gipfellagen ist teilweise störanfälliger Triebschnee kleinräumig vorhanden, der im Steilgelände und in eingewehten Rinnen zu beachten ist. Auf sehr steilen Wiesenhängen wo noch ausreichend Schnee vorhanden ist, können einzelne Gleitschneelawinen nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Auf die nur mehr in den Kamm- und Gipfellagen vorhandene geringmächtige Altschneedecke gibt es nochmals ein paar Zentimeter Neuschnee, der wiederum zum Teil auch verfrachtet wird. Dieser kleinräumige Triebschnee ist teils störanfällig. Die Altschneedecke selbst ist oberflächig etwas gefestigt, bleibt im Inneren aber feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen einige Schnee- und Graupelschauer durch. Um die Mittagszeit bleibt es länger trocken, die Sonne kommt öfter durch. Am späten Nachmittag schneit es wieder mehr, zudem weht oft starker bis stürmischer West- bis Nordwestwind. Temperaturen in 1500 m um -8 Grad, in 2000 m um -13 Grad.&#13;
+Am Donnerstag ziehen bis über Mittag Schneeschauer nur vereinzelt durch, dazwischen gibt es etwas Sonnenschein. Am Nachmittag häufen sich die Schnee- und Graupelschauer wieder, die Sichtverhältnisse wechseln im Hochgebirge rasch. Dazu weht lebhafter bis starker West- bis Nordwestwind. In 1500 m um -5 Grad, in 2000 m um -8 Grad, es wird somit langsam wärmer.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

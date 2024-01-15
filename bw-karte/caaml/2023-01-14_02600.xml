@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2600RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2600RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin Altschneeproblem in den schattigen Hochlagen.</avActivityHighlights>
+          <avActivityComment>In den Regionen über 2300 m herrscht MÄßIGE, ansonsten geringe Lawinengefahr. Das Hauptproblem bildet weiterhin der Altschnee. Die Gefahrenstellen befinden sich überwiegend im Nordsektor, in Einfahrtsbereichen von Rinnen und Mulden sowie im Übergang von wenig zu viel Schnee. Vereinzelte "Wumm - Geräusche" weisen auf das Altschneeproblem hin. Hier können Schwachschichten innerhalb des Altschneepakets durch überwiegend große Zusatzbelastung gestört werden. Aus steilen, schneegefüllten Hängen können spontane Gleitschneeabgänge nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Die aufbauende Umwandlung innerhalb der Altschneedecke schreitet voran, womit die eingelagerten Schwachschichten besonders in den Schattseiten ausgeprägter werden. Der darauf liegende ältere Triebschnee von dieser Woche gut gebunden.  Sonnseitig hat sich an der Schneedeckenoberfläche eine Harschschicht entwickelt, die nicht immer trägt. Durch die Sonneneinstrahlung verliert in sehr steilen Hängen die Harschschicht rasch an Festigkeit. In der Früh gestaltet sich die Schneeoberfläche durch die Ausstrahlung in der Nacht noch verharscht.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag lockern mittelhohe Wolken gegen Mittag kurz auf und es scheint fast überall einmal die Sonne. Am Nachmittag trübt es sich in den Nordalpen als auch entlang der Grenze zu Kärnten rasch wieder ein, die Wolkenbasen sinken ab. Eine Kaltfront bringt an der Alpennordseite erste Schneeschauer. Mit den Schauern dreht der Wind auf Nordwest, die Temperatur geht zurück. In 2000m zu Mittag noch bei +2 Grad, danach spürbare Abkühlung. Von Sonntag späterer Nachmittag bis Montagvormittag werden 10 bis 20cm Neuschnee erwartet. Am Montag beruhigt sich das Wetter und es zeigt sich auch die Sonne.</wxSynopsisComment>
+          <tendencyComment>Am Montag wird ein Anstieg der Lawinengefahr erwartet. Der Wind aus Süd weht die Nordexpositionen ein, wobei in den genannten Sektoren ein Altschneeproblem vorliegt! Besondere Vorsicht ist am Montag daher im Nordsektor geboten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2600RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2600RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr bei geringen Schneehöhen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Die Gefahrenstellen befinden sich nur mehr sehr vereinzelt in sehr steilen schattigen Hängen der Hochlagen. Hier können mögliche Schwachschichten innerhalb des Altschnees angesprochen werden. In den Niederen Tauern sowie im Hochschwabgebiet sind vereinzelte Gleitschneerutsche möglich.</avActivityComment>
+          <snowpackStructureComment> Die aufbauende Umwandlung innerhalb des Altschneefundaments schreitet langsam voran, wodurch eingelagerte Schwachschichten schattseitig ausgeprägter werden können. Durch die Ausstrahlung in der Nacht ist die Schneeoberfläche in der Früh verharscht. Im Laufe des Tages wird der Schnee besonders südseitig rasch wieder feucht und weich. Allgemein ist die Schneehöhe immer noch extrem unterdurchschnittlich. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag lockern mittelhohe Wolken gegen Mittag kurz auf und es scheint fast überall einmal die Sonne. Am Nachmittag trübt es sich in den Niederen Tauern als auch entlang der Grenze zu Kärnten rasch wieder ein, die Wolkenbasen sinken ab. Eine Kaltfront bringt an der Alpennordseite erste Schneeschauer. Mit den Schauern dreht der Wind auf Nordwest, die Temperatur geht zurück. An der Alpensüdseite kommt der Wind bis zum Abend aus Südwest. Stürmisch kann es auf der Koralpe sein. In 2000m zu Mittag noch bei +2 Grad, danach von Nord nach Süd spürbare Abkühlung.&#13;
+Von Sonntag späterer Nachmittag bis Montagvormittag werden 10 bis 20cm Neuschnee erwartet. Zwischen der Turrach und der Koralpe kann es lokal etwas mehr Neuschnee geben.  </wxSynopsisComment>
+          <tendencyComment>Am Montag wird ein Anstieg der Lawinengefahr erwartet. Der Wind aus Süd weht die Nordexpositionen ein, wobei in den genannten Sektoren ein Altschneeproblem vorliegt! Besondere Vorsicht ist am Montag im Nordsektor geboten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

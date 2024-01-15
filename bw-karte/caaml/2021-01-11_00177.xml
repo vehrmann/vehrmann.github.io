@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID177RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID177RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne, schattseitige Steilhänge</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>nachmittags, Kammlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Am Nachmittag bzw. gegen Abend steigt die Lawinengefahr mit dem Schneefall und Wind etwas an - immer noch unterdurchschnittliche Schneehöhen!</avActivityHighlights>
+          <avActivityComment>Schneefall am Nachmittag und zunehmender Wind aus West bis Nordwest bilden über der Waldgrenze neuen störanfälligen, anfangs aber nur geringmächtigen Triebschnee, der zu beachten und leicht zu stören sein wird. In den Hochlagen gibt es vorerst im extremen nordseitigen Steilgelände noch wenige ältere Gefahrenstellen. Älterer Triebschnee ist meist nur dünn überdeckt, aber schwer zu erkennen. Neben der Absturzgefahr sind Übergänge von wenig zu mehr Schnee zu beachten.</avActivityComment>
+          <snowpackStructureComment>Am Nachmittag gibt es etwas Neuschnee, der mit dem starken Wind auch verfrachtet wird und mit der Altschneedecke schlecht bindet. Die Schneedecke ist allgemein sehr unregelmäßig verteilt und der Schnee ist kalt und locker. Die Altschneedecke enthält dünne Harschschichten, aufbauend umgewandelte bindungslose Kristalle und lokal eingeschneiten Oberflächenreif. Weiterhin ist die Gesamtschneehöhe in allen Höhenlagen sehr unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag breiten sich zunehmend dichte Wolkenfelder aus, die die Berge ab den Mittagsstunden einhüllen. Mit auffrischendem, starkem Wind ziehen am Nachmittag Schneeschauer durch. In 1500 m hat es um -4 Grad, in 2000 m um -6 Grad.&#13;
+In der Nacht zum Mittwoch schneit es dann die ganze Nacht. In den mittleren Höhenlagen werden rund 20 cm Neuschnee erwartet.&#13;
+Am Mittwoch ziehen mit stürmischem Nordwestwind zeitweise Schneeschauer durch. Es ist sehr kalt bei -8 Grad in 1500 m und -11 Grad in 2000 m.</wxSynopsisComment>
+          <tendencyComment>Durch den starken bis stürmischen Wind, der frischen Triebschnee bildet, steigt am Mittwoch die Schneebrettgefahr deutlich an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

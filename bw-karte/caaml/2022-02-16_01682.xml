@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1682RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1682RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee durch stürmischen Wind - darunter Nass- und Gleitschneelawinen möglich!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über 1400m mit mäßig, ansonsten mit gering beurteilt. Frischer Triebschnee wird vom stürmischen Westwind in steile Rinnen und Mulden verfrachtet. Die Gefahrenstellen befinden sich in den Expositionen Nord über Ost bis Süd in den Einfahrtsbereichen, aber teils auch bis in bewaldete Bereiche hinunter. Eine Schneebrettauslösung ist vereinzelt bereits bei geringer Zusatzbelastung möglich. Zusätzlich können spontane Nassschneelawinen aus steilem Gelände nicht ausgeschlossen werden! Geöffnete Schneemäuler sollen als Gefahrenzeichen für Gleitschneelawinen interpretiert werden! </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen liegen lokal frische Triebschneelinsen auf einer harten, windgepressten Schneeoberfläche oder schattseitig stellenweise noch auf lockerem Altschnee. Störanfällig gestalten sich noch die Verbindung zum weichen Altschnee bzw. die Schwachschichten innerhalb des Altschnees oder des Triebschnees - kantige Kristalle, eingeschneiter Oberflächenreif oder Graupel. Durch die warmen Temperaturen konnte sich die Schneedecke über Nacht nicht überall verfestigen, die fortschreitende Durchfeuchtung begünstigt Nass- und Gleitschneelawinen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist unbeständiges, stürmisches Bergwetter zu erwarten! Zeitweise dichtere Wolken bringen ein paar Schauer. Die Schneefallgrenze liegt erst bei rund 2000m, sinkt bis zum Abend aber auf etwa 1300m Seehöhe ab. Der Westwind bläst morgen in Sturmstärke, auf den Gipfeln sogar orkanartig. In 1500m Seehöhe liegen morgen die Frühtemperaturen um +5 Grad, bis zum Abend Abkühlung gegen 0 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag gibt es ab Mittag wieder mehr Bewölkung, aber weitgehend ohne Niederschlag. Der Wind lässt im Tagesverlauf deutlich nach, die Temperaturen steigen wieder an - in 1500m hat es am Abend um +7 Grad. Das Trieb- und Nassschneeproblem bleiben bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1682RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1682RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls, Nassschneelawinen aus dem Wald heraus</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nass- und Gleitschneelawinen ganztägig möglich!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr und grundsätzlich eine günstige Lawinensituation, allerdings schreitet die Durchfeuchtung der Schneedecke voran. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden. Aus steilem Gelände muss ganztätig mit spontanen Nass- und Gleitschneelawinen gerechnet werden! Der stürmische Westwind bildet in höhere Lagen frische, teils störanfällige Triebschneelinsen in den Expositionen Nord bis Südost. </avActivityComment>
+          <snowpackStructureComment>Durch die warmen Temperaturen konnte sich die Schneedecke über Nacht nicht überall verfestigen, die fortschreitende Durchfeuchtung begünstigt Nass- und Gleitschneelawinen. In höheren Lagen befinden sich innerhalb frischer Triebschneelinsen mögliche Schwachschichten durch Graupeleinlagerungen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist unbeständiges, stürmisches Bergwetter zu erwarten! Zeitweise dichtere Wolken bringen ein paar Schauer. Die Schneefallgrenze liegt erst bei rund 2000m, sinkt bis zum Abend aber auf etwa 1300m Seehöhe ab. Der Westwind bläst morgen in Sturmstärke, auf den Gipfeln sogar orkanartig. In 1500m Seehöhe liegen morgen die Frühtemperaturen um +5 Grad, bis zum Abend Abkühlung gegen 0 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag gibt es ab Mittag wieder mehr Bewölkung, aber weitgehend ohne Niederschlag. Der Wind lässt im Tagesverlauf deutlich nach, die Temperaturen steigen wieder an - in 1500m hat es am Abend um +7 Grad. Das Trieb- und Nassschneeproblem bleiben bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

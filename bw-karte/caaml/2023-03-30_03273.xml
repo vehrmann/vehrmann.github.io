@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3273RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3273RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vollständige Durchfeuchtung der Schneedecke in mittleren Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500m erheblich, unterhalb davon gering.&#13;
+Das Hauptproblem ist Nassschnee. Durch den Regen ist mit der Selbstauslösung von nassen Lockerschnee- und Schneebrettlawinen aus noch nicht entladenem Steilgelände zu rechnen. Die Lawinen erreichen meist mittlere Größe, können vereinzelt aber auch groß werden. An steilen Grashängen gleitet die Schneedecke auch am Boden ab, vor allem dort, wo der Boden vor dem Schneefall bereits ausgeapert war. Gleitschneelawinen können mittlere Größe erreichen.&#13;
+Zudem kann in den Hochlagen frischer Triebschnee bereits vom einzelnen Wintersportler als Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, auch hinter kammfernen Geländekanten sowie in frisch eingewehten Rinnen und Mulden. Lawinen erreichen meist mittlere Größe.</avActivityComment>
+          <snowpackStructureComment>In den Hochlagen wird Neuschnee durch starken Wind aus westlichen Richtungen verfrachtet und bildet laufend kleinere, aber störanfällige Triebschneeansammlungen. Schwache Zwischenschichten in älteren Triebschneeansammlungen verbinden sich zunehmend, sind aber am Übergang von viel zu wenig Schnee noch zu stören. In mittleren Lagen führt Regen zu einer intensiven Durchfeuchtung der Schneedecke. Festigkeitseinbußen an Schichtgrenzen und am Boden der Schneedecke sind die Folge. Nordseitig ist der Boden unterhalb 1400 m weitgehend ausgeapert, südseitig bis in höhere Lagen.</snowpackStructureComment>
+          <tendencyComment>Es bleibt in den nächsten Tagen wechselhaft. Die Schneefallgrenze sinkt bis in mittlere Lagen ab. Der Wind weht stark. Die Lawinengefahr geht langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

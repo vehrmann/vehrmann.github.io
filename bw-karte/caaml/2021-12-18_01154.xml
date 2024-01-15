@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1154RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-18T06:21:58+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1154RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-18T06:21:58+00:00</beginPosition>
+          <endPosition>2021-12-19T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb etwa 2400m Gleitschneelawinen, nasse Lawinen an steilen Sonnenhängen im Tagesverlauf.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in hohen Kammlagen über 2000m, Mulden und Rinnen sowie Übergängen von wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Nasschneelawinenaktivität, Gleitschneelawinen aus noch nicht entladenen steilen Grashängen, Triebschnee über 2000m beachten</avActivityHighlights>
+          <avActivityComment>Sonnseitig unterhalb etwa 2400m und schattseitig unterhalb etwa 2000m sind an noch nicht entladenen steilen Grashängen, lückigen Waldschneisen und Böschungen kleine bis mittlere Gleitschneelawinen zu erwarten. In den schneereichen Regionen können diese vereinzelt auch groß werden. Risse in der Schneedecke weisen auf solche Gefahrenstellen hin. Sonnseitig können sich zudem nasse Lockerschnee- und Schneebrettlawinen im Tagesverlauf von selbst lösen. Frischer und älterer Triebschnee ist mit zunehmender Seehöhe noch störanfällig und kann insbesondere mit großer Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich vor allem oberhalb etwa 2000m, im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden. In höhergelegenen, schattseitigen Steilhängen können vor allem bodennahe Schwachschichten insbesondere mit großer Zusatzbelastung am Übergang von viel zu wenig Schnee gestört werden. Wenn Lawinen in tiefere Schichten durchbrechen, können diese auch groß werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten Tagen gut gesetzt und verfestigt. Durch die gute nächtliche Abstrahlung hat die angefeuchtete Schneedecke an Festigkeit gewonnen und sich in mittleren Lagen oberflächlich meist eine dünne Harschkruste gebildet. Diese weicht im Tagesverlauf auf und die Schneedecke verliert wieder an Festigkeit. Unterhalb ca. 1800 m ist die Altschneedecke gut gesetzt aber feucht, was das Gleiten der Schneedecke auf glattem Untergrund fördert. Mit den anhaltend warmen Temperaturen und der Sonneneinstrahlung bleibt die Gleitschneelawinenaktivität weiterhin erhöht. Frische und ältere und Triebschneeansammlungen sind mit zunehmender Seehöhe teils störanfällig. Mit der Erwärmung setzt und verfestigt sich der Triebschnee der letzten Tage aber zunehmend. Im Mittelteil der Schneedecke sind vor allem in höhergelegenen Schattenhängen Schwachschichten aus kantigen Kristallen vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Ungetrübtes Bergwetter wieder mit Sonne von Früh bis Spät bei einem wolkenlosen Himmel. Über den Tälern und Niederungen liegt teils Nebel mit einer Obergrenze von ca. 1000 Meter Seehöhe. Klare Nacht auf Sonntag. Temperatur in 2000 m: -1 bis +3 Grad. Höhenwind: lebhafter Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich nicht wesentlich. Die Gefahr von trockenen Lawinen nimmt weiter langsam ab. Die Gefahr von Nassschneelawinen steigt jeweils im Tagesverlauf an. Zudem sind weiterhin Gleitschneelawinen zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

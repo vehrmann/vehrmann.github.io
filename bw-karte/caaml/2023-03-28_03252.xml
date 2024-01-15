@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3252RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3252RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regeneinfluss Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 1900 m eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Regen und Erwärmung nasse Lawinen - kleinräumig Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Mit Regen und Erwärmung verliert die Schneedecke an Festigkeit. Folglich können sich an sehr steilen Hängen aller Expositionen kleine bis mittlere nasse Lawinen von selbst lösen. An steilen Wiesenhängen sind zunehmend kleine bis mittlere Gleitschneelawinen möglich. In hohen Lagen sind  Neu- und Triebschnee teilweise noch störanfällig.  Solche Gefahrenstellen befinden sich  im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden. Einzelne Personen können kleine bis mittlere Lawinen auslösen.</avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung am Dienstag, milder Nacht und Regen bis in höhere Bereiche ist die Schneedecke geschwächt. Frische und ältere Triebschneeansammlungen nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Triebschnee sind teils  schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Neu- und Triebschnee liegen auf einer weit hinauf durchnässten und somit schwachen Altschneedecke. In tieferen Lagen liegt der Neuschnee der vergangenen Tage oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Nach Mitternacht setzen Niederschläge ein. In tiefen Lagen unter 1000 bis 1500 m vom Bodenseeraum bis in den Vorderwald ist es bald schon Regen. Mittwoch: Ausgedehnte Schichtbewölkung überzieht als Folge einer markanten Erwärmung den Himmel. Unter ca. 1500 m ist es ab dem Vormittag immer öfter leichter Regen, am Nachmittag regnet es bis knapp 2000 m hinauf. Die Sichten sind diffus, in Hochlagen auch neblig. Temperatur in 2000m: von -1 auf +2 Grad steigend. Höhenwind: lebhaft bis stark aus Nordwest</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag bringt viele Wolken und zeitweise auch Regen bis gegen 2000 m. Dazu lebhafter bis starker Westwind. Die Lawinengefahr ändert sich vorerst nicht wesentlich.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3252RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3252RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 2000 m Kammlagen, eingewehte Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und in Bereichen mit Regeneinfluss zunehmend Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen noch erhebliche Lawinengefahr - mit Erwärmung und Regen nasse Lawinen</avActivityHighlights>
+          <avActivityComment>In höheren Lagen sind Neu- und Triebschnee das Hauptproblem. Gefahrenstellen nehmen mit der Seehöhe an Umfang und Verbreitung zu. Einzelne Personen können im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden kleine bis mittelgroße Lawinen auslösen.  Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Mit Regen und Erwärmung verliert die Schneedecke an Festigkeit.  An sehr steilen Hängen aller Expositionen können sich kleine bis mittlere nasse Lawinen von selbst lösen. Wenn solche in tiefere Schichten durchbrechen und Altschnee mitreissen können sie auch groß werden. An steilen Wiesenhängen sind zunehmend kleine bis mittlere Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung am Dienstag, milder Nacht und angekündigtem Regen bis in höhere Bereiche ist die Schneedecke geschwächt. Frische und ältere Triebschneeansammlungen nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Triebschnee sind teils schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Neu- und Triebschnee liegen auf einer weit hinauf durchnässten und somit schwachen Altschneedecke. Die Verbindung mit zunehmender Seehöhe teilweise nur mäßig bis schwach. Vor allem im schattseitigen Steilgelände sind in hohen Lagen noch ungünstige Zwischenschichten erhalten geblieben, welche durch die Durchnässung zusätzlich geschwächt wurden. Meist können diese jedoch nur mit großer Zusatzlast gestört werden. In tieferen Lagen liegt der Neuschnee der vergangenen Tage oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Nach Mitternacht setzen Niederschläge ein. In tiefen Lagen unter 1000 bis 1500 m vom Bodenseeraum bis in den Vorderwald ist es bald schon Regen. Mittwoch: Ausgedehnte Schichtbewölkung überzieht als Folge einer markanten Erwärmung den Himmel. Unter ca. 1500 m ist es ab dem Vormittag immer öfter leichter Regen, am Nachmittag regnet es bis knapp 2000 m hinauf. Die Sichten sind diffus, in Hochlagen auch neblig. Temperatur in 2000m: von -1 auf +2 Grad steigend. Höhenwind: lebhaft bis stark aus Nordwest</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag bringt viele Wolken und zeitweise auch Regen bis gegen 2000 m. Dazu lebhafter bis starker Westwind. Die Lawinengefahr ändert sich vorerst nicht wesentlich.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

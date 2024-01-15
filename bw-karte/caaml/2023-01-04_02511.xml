@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2511RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2511RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, dünner und kleinräumiger Triebschnee, in den Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar, hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen bilden sich etwas frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen bilden sich am Donnertag durch etwas Neuschnee und stürmischen Wind um West frische kleinere Triebschneeablagerungen. Diese können als meist nur kleine Lawine im Steilgelände ausgelöst werden. Im schattseitigem hochalpinen Steilgelände könnten an wenigen Stellen im Gelände ältere Schwachschichten in der Altschnee angesprochen werden. Geländeübergänge, Kammlagen, Mulden und Rinnen beachten. Zudem ist weiterhin die Absturzgefahr zu beachten.</avActivityComment>
+          <snowpackStructureComment>Am Donnerstag schneit es über rund 1600 m ein wenig. Stürmischer Westwind kann in den Hochlagen etwas frischen Triebschnee bilden, der mit der Altschneedecke teils nicht ausreichend bindet. In den schattseitigen Hochlagen sind stellenweise Schwachschichten in der Altschneedecke vorhanden. Ansonsten ist das geringmächtige Altschneedecke gut gesetzt, bis weit hinauf auch schon im Inneren feucht und oberflächig gefestigt. Tiefe und teils mittlere Lagen sind aper.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen weht den ganzen Tag hindurch stürmischer Westwind, der Spitzen um 90 km/h erreicht. Es überwiegen dichte Wolken und es regnet zeitweise, oberhalb von etwa 1600 m schneit es. Zwischendurch kann der Wind die Wolken etwas auflockern. In 1500 m kühlt es von etwa 4 auf 1 Grad ab, in 2000 m von 1 auf -2 Grad.&#13;
+Am Freitag lösen sich Restwolken im Bereich der Kalkalpen bald auf, dann scheint bei guter Sicht oft die Sonne. Hohe Wolken dämpfen den Sonnenschein. Der Wind aus meist südwestlicher Richtung weht schwach bis mäßig stark. In 1500 m hat es zu Mittag 4 Grad und in 2000 m 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Schnee- und Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

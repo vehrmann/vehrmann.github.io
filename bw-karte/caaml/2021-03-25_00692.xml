@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID692RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID692RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-25T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>tiefe, mittlere Lagen, sonnseitig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>hochalpin, lokal</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nass- und Gleitschneelawinen sowie hochalpin lokale Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Vor allem bis in mittlere Lagen sind im besonnten Steilgelände kleine bis mittelgroße spontane Nassschneelawinen im Tagesverlauf möglich. In vergrasten Steilhängen der mittleren Lagen sind auch Gleitschneelawinen möglich und „Lawinenmäuler“ zu beachten. In sehr hohen Lagen ist teils noch älterer Triebschnee vorhanden, der insbesondere durch große Zusatzbelastung gestört werden kann. Vorwiegend ost- über süd- bis südwestseitige eingefrachtete Steilhänge und steile Rinnen sowie verfüllte Mulden sind hier zu beachten. </avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und viel Sonnenschein konnte sich die Schneedecke gut setzen und stabilisieren. Bis in mittlere Lagen und sonnseitig auch höher ist die Schneedecke über Nacht oberflächig verharscht und weicht tagsüber mit der Sonneneinstrahlung und den milden Temperaturen wieder auf. In den Hochlagen ist neben windgepressten Oberflächen schattseitigen noch Pulver vorhanden. Ältere Triebschneepakete enthalten teils noch schwache Zwischenschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint oft die Sonne, es ist trocken und mild. Nah- und Fernsicht sind meist ungestört. Temperaturen in 1500 m: um 5 Grad, in 2000 m: um 1 Grad.&#13;
+Am Samstag trüben Wolken und Hangnebel bald die Sicht ein. Mit auflebendem kräftigem Westwind ziehen ab dem mittleren Vormittag immer wieder Schauer durch, die Schneefallgrenze sinkt auf etwa 900 bis 1000 m herab. Im Bereich der Kalkalpen bleibt es bis zum Abend unbeständig. In 1500 m: zu Mittag -2 Grad, in 2000 m: -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der vorübergehenden Abkühlung geht die Gefahr von Nassschneelawinen zurück. Gleitschneelawinen und lokale hochalpine Gefahrenstellen sind aber zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1319RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1319RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kammnah und kammfern, tlw. auf ungünstiger Unterlage, mitunter leicht auslösbar, auf Windzeichen achten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Heikles Triebschneeproblem ab der Waldgrenze aufwärts</avActivityHighlights>
+          <avActivityComment>Das Triebschneeproblem ist oberhalb von etwa 2000 m Seehöhe ERHEBLICH, darunter meist MÄßIG. &#13;
+Gefahrenstellen gibt es ab der Waldgrenze aufwärts. Höhere Bereiche sind teilweise stark abgeweht. Gefahrenstellen daher häufig in Rinnen und Mulden sowie im kammfernen Gelände der Richtungen Nordost über Süd bis West. Eine Lawinenauslösung ist bereits durch geringe Zusatzbelastung (einzelne/r Wintersportler/in im Aufstieg) möglich, wobei Lawinen groß werden können.</avActivityComment>
+          <snowpackStructureComment>Oberhalb von 1500 m liegen 20 bis 40 cm, direkt am Tauernhauptkamm zum Teil auch um 50 cm Neuschnee auf einer alten und verharschten Kruste. Die Verbindung zu dieser ist meist gut. Die weiche Schicht direkt unter der Kruste (kantige Kristalle vom Dezember) ist mitunter leicht ansprechbar (Setzungsgeräusche). &#13;
+Deutlich leichter auslösbar sind die letzten Triebschneepakete, die am Mittwoch und Donnerstag auf lockerem und kalten, teilweise auch mit Graupel durchsetzen Schichten abgelegt wurden. In dieser Schicht gab es am Donnerstag einige künstliche Auslösungen durch Sprengen und auch durch Wintersportler. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint bei windschwachem Wetter zunächst meist die Sonne, die Sicht ist perfekt. Am Nachmittag ziehen hohe Wolken auf, die zum Abend hin leichten Schneefall bringen können. In 2000 m: um -9 Grad, in 3000 m: -11 bis -14 Grad.&#13;
+Am Samstag wechseln Wolken und Sonne, die Gipfel bleiben nach Süden hin meist frei. In den Hochlagen weht lebhafter NW-Wind mit Spitzen um 40 km/h. In 2000 m: -8 bis -10 Grad, in 3000 m: -18 bis -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung am Samstag. Hauptproblem bleiben die letzten Triebschneepakete und jene die am Samstag neu entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1319RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1319RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>vorwiegend kammnah, auch in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht im sehr steilen kammnahen Gelände</avActivityHighlights>
+          <avActivityComment>Das Triebschneeproblem ist oberhalb der Waldgrenze MÄßIG, darunter GERING. &#13;
+Gefahrenstellen gibt es im kammnahen Steilgelände. Betroffen sind Rinnen, steilen Mulden und sehr steile Hänge der Richtungen Nordost über Ost bis Süd. Eine Lawinenauslösung ist insbesondere durch große Zusatzbelastung (zu Fuß, durch Springen, ohne Abstand) möglich, wobei Lawinen mittelgroß werden können.</avActivityComment>
+          <snowpackStructureComment>10 bis 25 cm Neuschnee liegen auf einer alten und verharschten Kruste. Die Verbindung zu dieser ist meist gut. Die weiche Schicht direkt unter der Kruste (kantige Kristalle vom Dezember) ist derzeit nicht leicht ansprechbar. &#13;
+Dort wo der NW-Wind am Mittwoch und Donnerstag angreifen konnte, haben sich Triebschneepakete gebildet, die teilweise auf lockerem und kalten Pulverschnee abgelegt wurden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint bei windschwachem Wetter zunächst meist die Sonne, die Sicht ist perfekt. Am Nachmittag ziehen hohe Wolken auf, die zum Abend hin leichten Schneefall bringen können. In 2000 m: um -9 Grad, in 3000 m: -11 bis -14 Grad.&#13;
+Am Samstag ist die Sicht häufig durch Wolken und Schneefall eingeschränkt (nur wenige Zentimeter Neuschnee). Am Nachmittag klingt der leichte Niederschlag allmählich ab, die Wolken lockern zaghaft auf und die Sicht bessert sich. In den Hochlagen weht lebhafter NW-Wind mit Spitzen um 40 km/h. In 2000 m: -8 bis -10 Grad, in 3000 m: -18 bis -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung am Samstag. Hauptproblem bleiben die letzten Triebschneepakete und jene die am Samstag neu entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1319RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1319RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, tlw. auf ungünstiger Unterlage, mitunter leicht auslösbar, auf Windzeichen achten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliches Triebschneeproblem, steiles Gelände mit Windeinfluß meiden!</avActivityHighlights>
+          <avActivityComment>Das Triebschneeproblem ist oberhalb von etwa 2000 m Seehöhe ERHEBLICH, darunter meist GERING. &#13;
+Gefahrenstellen hängen primär vom letzten Windeinfluss ab. Dort wo kein Wind dabei war, sind die Verhältnisse günstig. Dort wo zuletzt der NW-Wind hinkam (oft ab ca. 2000 m Seehöhe aufwärts) gibt es konzentriert im kammnahen Steilgelände Gefahrenstellen. Daher auf Spuren des letzten Windes achten!&#13;
+Betroffen sind Rinnen, steilen Mulden und sehr steile Hänge der Richtungen Nordost über Süd bis Südwest. Eine Lawinenauslösung ist bereits durch geringe Zusatzbelastung (einzelne/r Wintersportler/in im Aufstieg) möglich, wobei Lawinen groß werden können.</avActivityComment>
+          <snowpackStructureComment>Oberhalb von 1500 m liegen 20 bis 40 cm, direkt am Tauernhauptkamm zum Teil auch um 50 cm Neuschnee auf einer alten und verharschten Kruste. Die Verbindung zu dieser ist meist gut. Die weiche Schicht direkt unter der Kruste (kantige Kristalle vom Dezember) ist nicht leicht ansprechbar. &#13;
+Deutlich leichter auslösbar sind die letzten Triebschneepakete, die am Mittwoch und Donnerstag auf lockerem und kalten, teilweise auch mit Graupel durchsetzen Schichten abgelegt wurden. In dieser Schicht gab es am Donnerstag einige künstliche Auslösungen durch Sprengen und auch durch Wintersportler. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint bei windschwachem Wetter zunächst meist die Sonne, die Sicht ist perfekt. Am Nachmittag ziehen hohe Wolken auf, die zum Abend hin leichten Schneefall bringen können. In 2000 m: um -9 Grad, in 3000 m: -11 bis -14 Grad.&#13;
+Am Samstag ist die Sicht häufig durch Wolken und Schneefall eingeschränkt (nur wenige Zentimeter Neuschnee). Am Nachmittag klingt der leichte Niederschlag allmählich ab, die Wolken lockern zaghaft auf und die Sicht bessert sich. In den Hochlagen weht lebhafter NW-Wind mit Spitzen um 40 km/h. In 2000 m: -8 bis -10 Grad, in 3000 m: -18 bis -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung am Samstag. Hauptproblem bleiben die letzten Triebschneepakete und jene die am Samstag neu entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

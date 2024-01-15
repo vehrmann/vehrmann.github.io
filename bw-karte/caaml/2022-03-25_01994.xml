@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1994RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1994RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-25T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-26T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-26T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-26T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Erwärmung und Einstrahlung, im Tagesverlauf zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Verhältnisse am Vormittag, zunehmender Festigkeitsverlust und mäßige Lawinengefahr am Nachmittag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang und steigt mit fortschreitendem Festigkeitsverlust durch zunehmende Erwärmung und Einstrahlung spätestens ab Mittag von GERING auf MÄßIG an. Gefahrenstellen existieren besonders sonnseitig in felsdurchsetztem Steilgelände, wo sich im Laufe des Tages nasse Lockerschneelawinen spontan lösen bzw. auch von Wintersportlern ausgelöst werden können.Obwohl bislang kaum Gleitschneeaktivitäten beobachtet wurden, sind mit anhaltender Durchfeuchtung aus steilen Wald- und Wiesenhängen zu jeder Tageszeit spontane Abgänge möglich, die auch größer werden können. Risse und Mäuler beachten! &#13;
+</avActivityComment>
+          <snowpackStructureComment>Während der klaren Nachtstunden kann sich die Schneedecke ausstrahlungsbedingt verfestigen. Durch die frühlingshaften Temperaturen und die ungetrübte Einstrahlung verliert die verharschte Schneeoberfläche speziell sonnseitig recht rasch an Festigkeit. Im erweiterten Nordsektor bleibt die Schneeoberfläche zwar länger hart, im Tagesverlauf ist aber auch hier zunehmend der Festigkeitsverlust spürbar. Bei vollständiger Durchfeuchtung kann die Schneedecke zunehmend ins Gleiten kommen. Tiefe und mittlere Lagen apern zunehmend aus, Schneesportaktivitäten sind oft nur mehr begrenzt möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Weiterhin frühlingshaftes Hochdruckwetter. Auch über Nacht bleibt die Lufttemperatur in 1500 m verbreitet leicht positiv. Die Luft ist etwas feuchter und daher diesiger als zuletzt, dennoch gibt es gute Fernsicht. Über weite Strecken des Tages bleibt es in den Bergen ungetrübt sonnig, in der Früh und am Vormittag ist es wolkenlos. Am Nachmittag tauchen dann ein paar Quellwolken auf, diese bleiben aber durchwegs flach und harmlos. Dazu weht generell nur schwacher Wind aus nördlichen Richtungen  bei bis zu 7 Grad in 1500m Seehöhe. </wxSynopsisComment>
+          <tendencyComment>Wenig Änderung der Wetter- und Lawinensituation am Wochenende. Touren sollten früh begonnen und rechtzeitig beendet werden!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1994RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1994RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühlingshafte Bedingungen und schwacher Tagesgang bei nur mehr eingeschränkten Schneesportmöglichkeiten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Vereinzelte Gefahrenstellen existieren sonnseitig, wo sich im Laufe des Tages nasse Rutsche lösen können.  Aus steilen Wald- und Wiesenhängen sind zu jeder Tageszeit Gleitschneelawinen möglich. Risse und Mäuler in der Schneedecke beachten! &#13;
+</avActivityComment>
+          <snowpackStructureComment>Während der klaren Nachtstunden kann sich die Schneedecke ausstrahlungsbedingt verfestigen. Im Tagesverlauf verliert die verharschte Schneeoberfläche speziell sonnseitig rasch an Festigkeit. Schattseitig dauert es länger bis die Schneeoberfläche an Festigkeit verliert. Bei vollständiger Durchfeuchtung kann die Schneedecke zunehmend ins Gleiten kommen. Die frühlingshaften Bedingungen setzen der Schneedecke zu, die Ausaperung schreitet voran, Schneesportaktivitäten sind oft nur mehr begrenzt möglich. </snowpackStructureComment>
+          <wxSynopsisComment>Weiterhin frühlingshaftes Hochdruckwetter. Auch über Nacht bleibt die&#13;
+ Lufttemperatur in 1500 m verbreitet leicht positiv. Die Luft ist etwas &#13;
+feuchter und daher diesiger als zuletzt, dennoch gibt es gute Fernsicht.&#13;
+ Über weite Strecken des Tages bleibt es in den Bergen ungetrübt sonnig,&#13;
+ in der Früh und am Vormittag ist es wolkenlos. Am Nachmittag tauchen &#13;
+dann ein paar Quellwolken auf, diese bleiben aber durchwegs flach und &#13;
+harmlos. Dazu weht generell nur schwacher Wind aus nördlichen Richtungen&#13;
+  bei bis zu 7 Grad in 1500m Seehöhe. </wxSynopsisComment>
+          <tendencyComment>Wenig Änderung der Wetter- und Lawinensituation. Fortschreitende Ausaperung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1994RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1994RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Schneedeckensituation bei fortgeschrittener Ausaperung und stark eingeschränkten Tourenmöglichkeiten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering, es herrscht eine günstige Schneedeckensituation. Gefahrenstellen sind nur noch vereinzelt sonnseitig denkbar, wo sich im Laufe des Tages nasse (Gleitschnee-) Rutsche lösen können. &#13;
+</avActivityComment>
+          <snowpackStructureComment>In tiefen und mittleren Lagen ist die Schneedecke bereits großteils ausgeapert, auch in hohen Lagen ist meist keine geschlossene Schneedecke mehr vorhanden. Während der klaren Nachtstunden kann sich die Schneeoberfläche ausstrahlungsbedingt etwas verfestigen. Im Tagesverlauf verliert sie jedoch besonders sonnseitig rasch an Festigkeit, schattseitig dauert es etwas länger. Bei vollständiger Durchfeuchtung kann die Schneedecke auf steilen Wiesenhängen ins Gleiten kommen. </snowpackStructureComment>
+          <wxSynopsisComment>Weiterhin frühlingshaftes Hochdruckwetter. Auch über Nacht bleibt die&#13;
+ Lufttemperatur in 1500 m verbreitet leicht positiv. Die Luft ist etwas &#13;
+feuchter und daher diesiger als zuletzt, dennoch gibt es gute Fernsicht.&#13;
+ Über weite Strecken des Tages bleibt es in den Bergen ungetrübt sonnig,&#13;
+ in der Früh und am Vormittag ist es wolkenlos. Am Nachmittag tauchen &#13;
+dann ein paar Quellwolken auf, diese bleiben aber durchwegs flach und &#13;
+harmlos. Dazu weht generell nur schwacher Wind aus nördlichen Richtungen&#13;
+  bei bis zu 7 Grad in 1500m Seehöhe. </wxSynopsisComment>
+          <tendencyComment>Wenig Änderung der Wetter- und Lawinensituation. Fortschreitende Ausaperung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

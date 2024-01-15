@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2128RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2128RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bei mäßiger Lawinengefahr frischen Triebschnee beachten. Das Risiko der Absturzgefahr sollte nicht unterschätzt werden!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen sowie vom Gippel-Göller- bis zum Rax-Schneeberg-Gebiet herrscht in höheren Lagen mäßige Lawinengefahr. Mit stürmischem Nordwestwind und Neuschnee konnten sich frischer Triebschnee speziell hinter Geländeübergängen sowie Rinnen und Mulden der Expositionen Nord über Ost bis Süd sowie in Leebereichen ablagern. Hier können kleinere Schneebrettlawinen durch Wintersportler ausgelöst werden. Zudem kann sich aus dem felsdurchsetzten Steilgelände der Neuschnee bei Sonneneinstrahlung als Lockerschneelawine von selbst lösen. Exponierte Bereiche sowie steile Rinnen und Einfahrtsbereiche gestalten sich oft hart und eisig, es besteht Absturzgefahr. </avActivityComment>
+          <snowpackStructureComment>Nach anfänglichem Regen bis in hohe Lagen sank mit dem Kaltfrontdurchgang Samstagfrüh die Schneefallgrenze rasant ab, womit der Niederschlag unter starkem Windeinfluss bis in tiefere Lagen als Schnee fiel. In Summe betrug der Neuschneezuwachs in höheren Lagen zwischen 10 und 15cm. Die Verbindung zur Altschneedecke ist oft ausreichend, jedoch kann sich im Übergang zur frischen Auflage durch starken Temperaturgradienten eine Schwachschicht bilden (kalt auf warm), die zu einer zunehmenden Störanfälligkeit führt. Die bestehende Altschneedecke gestaltet sich durch den Temperaturrückgang meist stabil. Oft lagerte sich der Neuschnee sonnseitig bis in höhere Lagen bereits auf aperen Boden ab.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag hält das winterliche Aprilwetter an. Mit einer nordwestlichen Höhenströmung wechseln sonnige Phasen mit dichten Wolkenfeldern, die immer wieder kurze Schnee- und Graupelschauer mit sich bringen können. Der Nordwestwind ist dabei stark bis stürmisch. Die Schneefallgrenze liegt anfangs meist in Tallagen und steigt am Nachmittag auf 700m bis 1000m an. Die winterlichen Temperaturen liegen in 2000m um -8 Grad, in 1000m um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Nach einer oft klaren aber noch windigen Nacht setzt sich am Montag nach und nach Hochdruckeinfluss durch, die Strömung dreht allmählich auf Südwest und es wird in allen Höhenlagen zunehmend milder. Das Triebschneeproblem (trockene Schneebretter) nimmt ab, in weitere Folge rückt mit weiterer Erwärmung das Nassschneeproblem in den neuschneereicheren Regionen in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2128RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2128RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringer Lawinengefahr - vereinzelt dünne Triebschneelinsen beachten</avActivityHighlights>
+          <avActivityComment>In den Türnitzer Alpen und dem Semmerig - Wechselgebiet besteht geringe Lawinengefahr. Mit stürmischem Nordwestwind und etwas Neuschnee konnten sich speziell in südostexponierten Rinnen und hinter Geländeübergängen vereinzelt dünne Treibschneelinsen bilden die gestört werden können. Auf der harten Oberfläche besteht im steilen Gelände Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Nach anfänglichem Regen bis in hohe Lagen sank mit dem Kaltfrontdurchgang Samstagfrüh die Schneefallgrenze rasant ab, womit der Niederschlag unter starkem Windeinfluss bis in tiefere Lagen als Schnee fiel. Vereinzelt entstanden dünne Treibschneelinsen, die mitunter nicht ausreichend mit der Altschneedecke verbunden sind. Die bestehende Altschneedecke gestaltet sich durch den Temperaturrückgang stabil. Oft lagerte sich der Neuschnee bis in hohe Lagen bereits auf aperen Boden ab.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag hält das winterliche Aprilwetter an. Mit einer nordwestlichen Höhenströmung wechseln sonnige Phasen mit dichten Wolkenfeldern, die immer wieder kurze Schnee- und Graupelschauer mit sich bringen können. Der Nordwestwind ist dabei stark bis stürmisch. Die Schneefallgrenze liegt anfangs meist in Tallagen und steigt am Nachmittag auf 700m bis 1000m an. Die winterlichen Temperaturen liegen in 2000m um -8 Grad, in 1000m um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Nach einer oft klaren aber noch windigen Nacht setzt sich am Montag nach und nach Hochdruckeinfluss durch, die Strömung dreht allmählich auf Südwest und es wird in allen Höhenlagen zunehmend milder. Das Triebschneeproblem nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

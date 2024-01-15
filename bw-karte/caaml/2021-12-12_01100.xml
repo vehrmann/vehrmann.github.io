@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1100RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1100RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>rasch ansteigende Schneefallgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust durch Regeneintrag, Triebschnee vor allem schattseitig weit herunter!</avActivityHighlights>
+          <avActivityComment>In den niederschlagsreichen Nordstaugebieten kann der Regen vermehrt kleine bis mittelgroße Nassschneelawinen auslösen, an sehr steilen Grashängen auch zu Gleitschneeabgängen führen. Die Gefahrenstellen durch störanfälligen Triebschnee gehen sonnseitig etwas zurück, schattseitig bleiben sie – zumindest in höheren Lagen – vorerst noch bestehen. Es herrschen aber sehr schlechte Sichtbedingungen, die das Erkennen der Gefahrenstellen (Windzeichen) erschweren. </avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus Nordwest hat am Sonntag Gipfel und Grate abgeweht und leeseitig neuen Triebschnee gebildet, der bis unter die Waldgrenze reichen kann. Zu Beginn der neuen Woche führt ein markanter Wetterwechsel zu einer deutlich milderen Witterungsphase und damit sonnseitig einerseits zu einer Setzung der Schneedecke und damit zum langsamen Abbau eingelagerter Schwachschichten. Andererseits verliert der Schnee durch den Regeneintrag hier zunehmend an Stabilität. Schattseitig sind die Kältereserven der Schneedecke deutlich größer, hier verzögert sich die Setzung und eingelagerte Schwachschichten, meist in Form von weichem Schnee (wenig Wind) und Reif (Strahlungsnacht) bleiben noch länger erhalten. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntagabend erreicht eine Warmfront die Steiermark. Bei dichter und tiefbasig werdender Bewölkung geraten die Gipfel in Nebel, in der Nacht auf Montag beginnt es in den Tauern und Nordalpen zu schneien. Tagsüber wird der Schneefall bis auf über 1.500m hinauf in Regen übergehen. Auch in den südlicheren Gebirgsgruppen dominieren am Montag tiefliegende Wolken, hier fällt aber kaum Niederschlag. Bei starkem bis stürmischem Nordwestwind steigen die Temperaturen deutlich an und liegen zu Mittag in 2.000m bei -1 Grad und in 1.500m bei +3 Grad.&#13;
+Auch der Dienstag bleibt meist noch trüb und ausgesprochen mild, der starke Wind flaut langsam ab. Einige Auflockerungen gibt es am ehesten im Dachsteingebiet sowie südlich des Tauernhauptkammes.  </wxSynopsisComment>
+          <tendencyComment>Langsame Abnahme der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1100RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1100RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust durch Regeneintrag, Triebschnee vor allem schattseitig!</avActivityHighlights>
+          <avActivityComment>In den Mürzsteger Alpen kann der Regen vermehrt kleine bis mittelgroße Nassschneelawinen auslösen, an sehr steilen Grashängen auch zu Gleitschneeabgängen führen. Die Gefahrenstellen durch störanfälligen Triebschnee gehen sonnseitig etwas zurück, schattseitig bleiben sie – zumindest in höheren Lagen – vorerst noch bestehen. Es herrschen aber sehr schlechte Sichtbedingungen, die das Erkennen der Gefahrenstellen erschweren. </avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus Nordwest hat am Sonntag Gipfel und Grate abgeweht und leeseitig neuen Triebschnee gebildet, der bis unter die Waldgrenze reichen kann. Zu Beginn der neuen Woche führt ein markanter Wetterwechsel zu einer deutlich milderen Witterungsphase und sonnseitig einerseits zu einer Setzung der Schneedecke und damit zum langsamen Abbau eingelagerter Schwachschichten. Andererseits verliert der Schnee durch den Regeneintrag hier zunehmend an Stabilität. Schattseitig sind die Kältereserven der Schneedecke deutlich größer, hier verzögert sich die Setzung und eingelagerte Schwachschichten, meist in Form von weichem Schnee (wenig Wind) und Reif (Strahlungsnacht) bleiben noch länger erhalten. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntagabend erreicht eine Warmfront die Steiermark. Bei dichter und tiefbasig werdender Bewölkung geraten die Gipfel in Nebel, in der Nacht auf Montag beginnt es im Bereich der Veitsch und Schneealpe zu schneien. Tagsüber wird der Schneefall bis auf über 1.500m hinauf in Regen übergehen. Bei starkem bis stürmischem Nordwestwind steigen die Temperaturen deutlich an und liegen zu Mittag in 2.000m bei -1 Grad und in 1.500m bei +3 Grad.&#13;
+Auch der Dienstag bleibt meist noch trüb und ausgesprochen mild, Auflockerungen gibt es kaum. Der starke Wind flaut langsam ab.</wxSynopsisComment>
+          <tendencyComment>Langsame Abnahme der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1100RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1100RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust durch deutliche Erwärmung, störanfälliger Triebschnee vor allem schattseitig!</avActivityHighlights>
+          <avActivityComment>Mit der Erwärmung gehen die Gefahrenstellen durch störanfälligen Triebschnee zumindest sonnseitig etwas zurück, schattseitig bleiben sie – zumindest in höheren Lagen – vorerst noch bestehen. Es herrschen aber sehr schlechte Sichtbedingungen, die das Erkennen der Gefahrenstellen (auf Windzeichen achten!) erschweren. </avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus Nordwest hat am Sonntag Gipfel und Grate abgeweht und leeseitig neuen Triebschnee gebildet, welcher bis unter die Waldgrenze reichen kann. Zu Beginn der neuen Woche führt ein markanter Wetterwechsel zu einer deutlich milderen Witterungsphase und somit sonnseitig zu einer Setzung der Schneedecke und damit zum langsamen Abbau eingelagerter Schwachschichten. Schattseitig sind die Kältereserven der Schneedecke deutlich größer, hier verzögert sich die Setzung und eingelagerte Schwachschichten, meist in Form von weichem Schnee (wenig Wind) und Reif (Strahlungsnacht) bleiben noch länger erhalten. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntagabend erreicht eine Warmfront die Steiermark. Bei dichter und tiefbasig werdender Bewölkung geraten die Gipfel in Nebel, in der Nacht auf Montag greifen einzelne Schneeschauer, später auch Regenschauer über den Alpenhauptkamm weiter nach Süden über, insgesamt  fällt aber kaum nennenswerter Niederschlag. Bei starkem bis stürmischem Nordwestwind steigen die Temperaturen deutlich an und liegen zu Mittag in 2.000m bei -1 Grad und in 1.500m bei +3 Grad.&#13;
+Auch der Dienstag bleibt anfangs noch trüb und ausgesprochen mild, der starke Wind flaut dann langsam ab. Im Laufe des Vormittags lockern die Wolken aber auf und es scheint dann tagsüber die Sonne.</wxSynopsisComment>
+          <tendencyComment>Langsame Abnahme der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1100RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1100RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust durch deutliche Erwärmung, störanfälliger Triebschnee vor allem schattseitig!</avActivityHighlights>
+          <avActivityComment>Mit der Erwärmung gehen die Gefahrenstellen durch störanfälligen Triebschnee zumindest sonnseitig etwas zurück, schattseitig bleiben sie – zumindest in höheren Lagen – vorerst noch bestehen. Es herrschen aber sehr schlechte Sichtbedingungen, die das Erkennen der Gefahrenstellen erschweren. </avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus Nordwest hat am Sonntag leeseitig neuen Triebschnee gebildet, die Einwehungen können bis unter die Waldgrenze reichen. Zu Beginn der neuen Woche führt einr markanter Wetterwechsel zu einer deutlich milderen Witterungsphase und sonnseitig zu einer Setzung der Schneedecke und damit zum langsamen Abbau eingelagerter Schwachschichten. Schattseitig sind die Kältereserven der Schneedecke deutlich größer, hier verzögert sich die Setzung und eingelagerte Schwachschichten, meist in Form von weichem Schnee (wenig Wind) und Reif (Strahlungsnacht) bleiben noch länger erhalten. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntagabend erreicht eine Warmfront die Steiermark. Bei dichter und tiefbasig werdender Bewölkung geraten die Gipfel in Nebel, in der Nacht auf Montag greifen einzelne Schneeschauer, später auch Regenschauer bis auf ca. 1.500m über die Fischbacher Alpen und den Wechsel weiter nach Süden über, insgesamt  fällt aber kaum nennenswerter Niederschlag. Bei starkem bis stürmischem Nordwestwind steigen die Temperaturen deutlich an und liegen zu Mittag in 1.500m bei +1 Grad und in 1.000m bei +2 Grad.&#13;
+Auch der Dienstag bleibt anfangs noch trüb und ausgesprochen mild, der starke Wind flaut langsam ab. Im Laufe des Vormittags lockern die Wolken aber auf und es scheint dann öfters die Sonne.</wxSynopsisComment>
+          <tendencyComment>Langsame Abnahme der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

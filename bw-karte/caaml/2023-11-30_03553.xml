@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3553RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3553RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschicht im Bereich von Krusten im Übergang zur Altschneedecke</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit einsetzendem Schneefall am Nachmittag bis in die erste Nachthälfte</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schwachen Altschnee sowie gebietsweise im Tagesverlauf aufkommendes Neuschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr. Gefahrenstellen in Form von älteren Triebschneeablagerungen sind vor allem in den erweiterten Sektoren Ost und Süd speziell oberhalb der Waldgrenze zu finden. Insbesondere hinter Kämmen und Geländekanten und in steilen Einfahrten zu Rinnen und Mulden können Schneebrettlawinen vorrangig im Altschnee ausgelöst werden. Stellenweise werden Gefahrenstellen im Tagesverlauf mit Neuschnee überdeckt. Zudem sind in schneereicheren Gebieten aus sehr steilen Hangzonen weiterhin Gleitschneelawinen möglich, geöffnete Schneemäuler sind als Gefahrenzeichen zu bewerten. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke gestaltet sich kleinräumig sehr unterschiedlich, abgewehte Bereiche grenzen an befüllte Geländeformen. Ältere Triebschneeablagerungen konnten sich weiter setzten. Jedoch existieren kantig aufgebaute Schwachschichten vorrangig im Bereich von Krusten im Übergang zur Altschneedecke, die gestört werden können. Stellenweise hat sich im Übergang zum (warm eingeschneiten) Boden eine Gleitschicht ausgebildet, speziell auf steilen Wiesenhängen kann die Schneedecke spontan abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Ein Italientief bringt unbeständiges und trübes Bergwetter. Den ganzen Tag über liegen Hänge und Gipfelbereiche in dichten Wolken, die Sicht ist stark eingeschränkt. Dazu kann es von der Früh weg immer wieder leichten Niederschlag geben, welcher sich im Laufe des Nachmittags und Abends intensiviert. Die Schneefallgrenze liegt morgens in den Nordalpen und Niederen Tauern bei etwa 1300m bis 1500m. Im Tagesverlauf sinkt sie jedoch allmählich gegen 1000m ab. Der Wind weht in exponierten Lagen mäßig bis lebhaft aus westlichen Richtungen. Die Temperatur liegt in 2000m mittags bei etwa zwischen -1 Grad und sinkt im Tagesverlauf.&#13;
+Am Samstag schneit es ganztägig intensiv und bis in die Tallagen. Auf den Bergen können beträchtliche Neuschneemengen zusammen kommen. Dazu herrschen sehr schlechte Sichtbedingungen. Der Wind aus westlichen Richtungen ist meist mäßig legt aber in der zweiten Tageshälfte zu. Die Temperaturen sinken in allen Höhen weiter ab, zu Mittag werden in 2000m um -6 Grad erreicht. </wxSynopsisComment>
+          <tendencyComment>Deutlicher Anstieg der Lawinengefahr durch Neuschnee, in weiterer Folge mit stärkerem Wind zunehmendes Triebschneeproblem!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3553RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3553RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumig in steilen Hangzonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen vereinzelt schwachen Altschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Speziell oberhalb der Waldgrenze finden besteht vereinzelte die Gefahr einer Lawinenauslösung, die insbesondere in steilen Rinnen und direkt hinter Geländekanten im schwachen Altschnee ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>Das meist geringmächtige Schneedeckenfundament ist geprägt von zwischenzeitlichen Warmphasen und Regenereignissen und daher in mittleren Lagen feucht und in höheren Lage verharscht, bzw. von Harschkrusten durchzogen. Auf diesem Fundament existiert eine unterschiedlich mächtige Schneeauflage auf die es je nach Schneefallgrenze im Tagesverlauf unterschiedlich stark regnen bzw. schneien kann. Störanfällige Schwachschichten sind vorrangig im Altschnee vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Ein Italientief bringt unbeständiges und trübes Bergwetter. Den ganzen Tag über liegen Hänge und Gipfelbereiche in dichten Wolken, die Sicht ist stark eingeschränkt. Dazu kann es von der Früh weg immer wieder leichten Niederschlag geben, welcher sich im Laufe des Nachmittags und Abends intensiviert. Die Schneefallgrenze liegt morgens zwischen um 2000m im Süden und 1500m im Norden. Im Tagesverlauf sinkt sie jedoch allmählich ab. Der Wind weht in exponierten Lagen mäßig bis lebhaft aus westlichen Richtungen. Die Temperatur liegt in 2000m mittags zwischen +2  und -2 Grad und sinkt im Tagesverlauf.&#13;
+Am Samstag schneit es ganztägig intensiv und bis in die Tallagen. Auf den Bergen können beträchtliche Neuschneemengen zusammen kommen. Dazu herrschen sehr schlechte Sichtbedingungen. Der Wind aus westlichen Richtungen bleibt anfangs meist noch mäßig legt aber in der zweiten Tageshälfte zu. Die Temperaturen sinken in allen Höhen weiter ab, zu Mittag werden in 2000m um -6 Grad erreicht. </wxSynopsisComment>
+          <tendencyComment>Deutlicher Anstieg der Lawinengefahr durch Neuschnee und Triebschnee!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3553RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3553RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in höheren Lagen im Bereich von Krusten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Regeneintrag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in hohen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Lawinengefahr am Nachmittag durch Regen bzw. Neuschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt am Nachmittag über der Waldgrenze von gering auf mäßig an. Die Gefahr geht von nassen Lawinen aus steilen Hangbereichen durch Regeneintrag aus. In höheren Lagen bilden sich je nach Windeinfluss Neu- bzw. Triebschneebereiche, die insbesondere in  steilen Hangbereichen und direkt hinter Geländekanten, wo vereinzelt kleine Schneebrettlawinen ausgelöst werden können. An steilen Grashängen sind kleine Gleitschneelawinen möglich, vor allem in den schneereicheren Gebieten.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist von zwischenzeitlichen Warmphasen und Regenereignissen geprägt  und daher in mittleren Lagen feucht und in höheren Lage verharscht. Mit eindringendem Regen wird die Schneedecke angefeuchtet und destabilisiert. In höheren Lagen lagert sich im Tagesverlauf sich Neu- und Triebschnee ab. Kantig aufgebaute Schwachschichten, die sich störanfällig gestalten, existieren vorrangig im Bereich von Krusten im Übergang zur Altschneedecke. Stellenweise hat sich im Übergang zum (warm eingeschneiten) Boden eine Gleitschicht ausgebildet, speziell auf steilen Wiesenhängen kann die Schneedecke spontan abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Ein Italientief bringt unbeständiges und trübes Bergwetter. Den ganzen Tag über liegen Hänge und Gipfelbereiche in dichten Wolken, die Sicht ist stark eingeschränkt. Dazu kann es von der Früh weg immer wieder leichten Niederschlag geben, welcher sich im Laufe des Nachmittags und Abends intensiviert. Die Schneefallgrenze liegt morgens zwischen den Gurktaler Alpen und der Packalpe um 2000m. Im Tagesverlauf sinkt sie jedoch allmählich ab. Der Wind weht in exponierten Lagen mäßig bis lebhaft aus westlichen Richtungen. Die Temperatur liegt in 2000m mittags bei etwa +2 Grad und sinkt im Tagesverlauf.&#13;
+Am Samstag schneit es ganztägig intensiv und bis in die Tallagen. Auf den Bergen können beträchtliche Neuschneemengen zusammen kommen. Dazu herrschen sehr schlechte Sichtbedingungen. Der Wind aus westlichen Richtungen bleibt anfangs meist noch mäßig legt aber in der zweiten Tageshälfte zu. Die Temperaturen sinken in allen Höhen weiter ab, zu Mittag werden in 2000m um -6 Grad erreicht. </wxSynopsisComment>
+          <tendencyComment>Deutlicher Anstieg der Lawinengefahr durch Neuschnee und Triebschnee!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

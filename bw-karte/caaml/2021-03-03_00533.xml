@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID533RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID533RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit harten und eisigen Bedingungen in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>In den Regionen mit höheren Bergen herrscht in Niederösterreich geringe Lawinengefahr, ansonsten ist bereits zu wenig Schnee vorhanden. Touren sind nur mehr eingeschränkt möglich. Auf eisigen, exponierten Graten und Gipfelbereichen gilt es die Absturzgefahr zu beachten!</avActivityComment>
+          <snowpackStructureComment>Mit der Ausstrahlung in der Nacht verfestigt sich die Schneedecke wieder und durch die aufziehenden Wolken wird sie auch südseitig nicht so schnell feucht wie die letzten Tage. Nordseitig und in Hochlagen wird die Oberfläche hart bzw. eisig bleiben. Insgesamt ist die Schneemenge schon sehr begrenzt.</snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag startet in ganz Niederösterreich noch sonnig, allerdings ziehen mit einer Kaltfront von Nordwesten her schon am Vormittag Wolkenfelder auf. Es bleibt bis zum Abend trocken, erst in der Nacht auf Freitag setzt Niederschlag ein. Die Temperaturen sinken langsam und erreichen in der Nacht um +1 Grad in 1500m.&#13;
+Am Freitag wird es in Niederösterreichs Bergen den ganzen Tag Niederschlag geben, allerdings kommen keine großen Mengen Neuschnee zusammen. Die Temperaturen sinken weiter, in 1500m auf -6 Grad zu Mittag und der Wind weht wieder lebhaft aus Nordwest bis Nord. </wxSynopsisComment>
+          <tendencyComment>Es wird sich frischer Triebschnee besonders in den Ost- bis Südsektoren ablagern und daher das Triebschneeproblem in den Vordergrund rücken. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

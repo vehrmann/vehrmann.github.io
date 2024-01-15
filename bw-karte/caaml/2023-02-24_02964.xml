@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2964RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2964RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in Rinnen und steilen Mulden, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen mäßige Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig bewertet. Gefahrenstellen sind frische Triebschneeansammlungen hinter Geländekanten und in Einfahrten zu Rinnen und Mulden, hauptsächlich in den Sektoren Nordost bis Süd. Hier können teilweise schon durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden. Schlechte Sichtbedingungen erschweren die Einzelhangbeurteilung im Gelände. In den Hochlagen ist die Oberfläche oft vereist und es herrscht Absturzgefahr.  </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils verharscht und stabil, nordseitig und in den Hochlagen auch sehr hart. Darauf fällt am Samstag bis zu 20 cm Neuschnee bei stürmischem West- bis Nordwestwind, was zu frischen Triebschneeansammlungen in den Sektoren Ost und Süd führt. Sowohl innerhalb der frischen Triebschneepakete, als auch im Übergang zum Fundament können Schwachschichten existieren. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag bringt eine Kaltfront stürmisches Bergwetter mit dichten Wolken und nur wenigen Sonnenfenstern. Die Sichtverhältnisse auf Gipfelniveau sind oft stark eingeschränkt. Es schneit immer wieder und die Schneefallgrenze sinkt im Laufe des Tages bis in die Tallagen. Die größten Neuschneemengen mit etwa 20 cm werden in den Ybbstaler und Türnitzer Alpen erwartet, gegen Osten und Süden sind die Neuschneemengen geringer. Der Wind weht stürmisch aus West bis Nordwest und die Temperaturen in 1500 m sinken im Laufe des Tages von 0 auf -8 Grad. &#13;
+Am Sonntag bleibt das Wetter vorerst trüb, stürmisch und kalt, die Gipfel stecken meist in den Wolken und die Temperaturen in 1500 m liegen bei -8 Grad. Erst am Nachmittag lichten sich die Wolken ein wenig und der Wind lässt nach.   </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich kaum, Triebschnee bleibt das Hauptproblem. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2964RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2964RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Generell geringe Lawinengefahr, aber vereinzelte Gefahrenstellen durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird generell mit gering bewertet. Dennoch gibt es vereinzelte Gefahrenstellen, wo durch geringe Zusatzbelastung kleine Schneebrettlawinen ausgelöst werden können. Kritisch sind vor allem frische Triebschneelinsen hinter Geländekanten und in Einfahrten zu Rinnen und Mulden in den Sektoren Nordost bis Süd.  </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils verharscht und stabil, nordseitig und in den Hochlagen auch sehr hart. Darauf fällt am Samstag bis zu 10 cm Neuschnee bei stürmischem West- bis Nordwestwind, was zu frischen Triebschneelinsen in den Sektoren Ost und Süd führt. Die Triebschneepakete sind teilweise instabil, im Übergang zum Altschnee können sich Schwachschichten bilden. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag bringt eine Kaltfront stürmisches Bergwetter mit einem Wechsel aus Wolken und einigen Sonnenfenstern. Es schneit immer wieder und die Schneefallgrenze sinkt im Laufe des Tages bis in die Tallagen. Es werden bis zu etwa 10 cm Neuschnee erwartet. Der Wind weht stürmisch aus West bis Nordwest und die Temperaturen in 1500 m sinken im Laufe des Tages von 0 auf -8 Grad. &#13;
+Am Sonntag bleibt das Wetter vorerst trüb, stürmisch und kalt, die Gipfel stecken meist in den Wolken und die Temperaturen in 1500 m liegen bei -8 Grad. Am Nachmittag lichten sich die Wolken ein wenig und der Wind lässt nach.   </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich kaum, Triebschnee bleibt das Hauptproblem. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

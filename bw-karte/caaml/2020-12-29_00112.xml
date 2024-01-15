@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID112RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID112RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-29T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumige Triebschneelinsen hinter Geländekanten und in steilen Rinnen möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird verbreitet mit gering bewertet. Sehr kleinräumige Gefahrenstellen finden sich in kammnahen Einfahrtsbereichen steiler Rinnen aller Richtungen. Dort können teilweise bereits bei geringer Zusatzbelastung Schneebrettlawinen, die kleine bis mittlere Größe erreichen können, ausgelöst werden. Ansonsten existiert noch keine geschlossene Schneedecke und die Hauptgefahr geht von Absturz verursacht durch Rutsche aus. </avActivityComment>
+          <snowpackStructureComment>Der frische Neuschnee - im Semmering-Wechselgebiet bis zu 15 cm, sonst deutlich weniger - wurde vom mäßigen Wind aus südlichen Richtungen besonders in die Nordwest- bis Ostexpositionen verfrachtet und hat sich dort als frische Triebschneelinsen auf ältere Trieb- und Altschneelinsen abgelagert. Hinter Geländekanten und in den Einfahrtsbereichen von steilen Rinnen gestaltet sich die Schneedecke kleinräumig störanfällig. Im Allgemeinen ist die Schneelage unterdurchschnittlich für die Jahreszeit.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen dichte Wolkenfelder über die Berge und die Gipfel stecken oft im Nebel. In der Früh kann es zwischen Bucklige Welt und Hochkar noch ein wenig schneien, ansonsten bleibt es trocken. Der Wind weht schwach bis mäßig aus West bis Nordwest und am Nachmittag lockert die Bewölkung langsam auf. In 1500m hat es zu Mittag um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Silvestertag gestaltet sich überwiegend sonnig und trocken, nur in den östlichen Bergen Niederösterreichs kann mittelhohe Bewölkung bis in den Vormittag hartnäckig sein. Es ist etwas kälter bei Höchsttemperaturen um -4 Grad. Es wird keine wesentliche Änderung der Lawinengefahr erwartet, aber in den tieferen Regionen wird der Schnee mit der Sonneneinstrahlung schnell wieder wegapern.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

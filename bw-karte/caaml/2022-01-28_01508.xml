@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1508RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1508RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kammfern, hinter Geländekanten, in Rinnen und steilen Mulden, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im erweiterten Nordsektor, nicht leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Vorsicht in den steilen, eingewehten Bereichen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. &#13;
+Gefahrstellen gibt es vor allem dort, wo frischer oder alter (harter) Triebschnee liegt. Dies betrifft vor allem Mulden und steile Rinnen sowie auch steile Waldschneisen und teilweise auch den lichten Hochwald. &#13;
+Dort kann man insbesondere bei großer Zusatzbelastung ein mittelgroßes Schneebrett auslösen. </avActivityComment>
+          <snowpackStructureComment>Der stürmische Wind formt den Schnee und die Situation. Die Oberflächen sich hart oder verkrustet, in windgeschützten Bereichen liegt frischer und darunter auch älterer Triebschnee. Darunter gibt es insbesondere im Nordsektor im Altschnee schwache Schichten aus kantigen Kristallen (Zuckerschnee).</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag sind die meisten Gipfel frei, darüber ziehen dichtere Wolkenfelder durch. Schwach kommt die Sonne durch. Nordwestwind mit 40 bis 60 km/h in exponierten Lagen. Leichte Erwärmung. In 2000m auf -4 Grad.&#13;
+Der Sonntag bringt Sturm! In exponierten Lagen sind auch orkanartige Böen möglich. In der Nacht auf Sonntag und am Sonntag schneit es leicht; Größenordnung 0 bis 5 cm (stark verblasen). Wieder kälter. In 2000m auf -8 Grad sinkend.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1508RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1508RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, in Rinnen aller Richtungen, im Waldrandbereich, teils leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kleine Lockerschneelawinen aus dem Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Den steilen Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Die Triebschneegefahr ist oberhalb der Waldgrenze ERHEBLICH, knapp unter der Waldgrenze meist MÄßIG. &#13;
+Gefahrstellen gibt es kammnah und kammfern, in steilen Waldschneisen und im lichten Hochwald. Betroffen sind Rinnen aller Richtungen sowie insbesondere die Hangrichtungen Nordwest über Ost bis Süd. Zur Auslösung eines mittelgroßen Schneebretts genügt an vielen Stellen schon der Impuls durch eine Person.&#13;
+Aus dem extrem steilen Gelände sind kleine Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit dem Sturm am Freitag sind im Mittel rund 25 cm Neuschnee gefallen, teilweise auch mehr. Windexponiertes Gelände ist abgeblasen, windgepresst oder verharscht (hochalpin teils große Windgangeln). Der Triebschnee liegt teilweise auf älterem Triebschnee (Ost- und Südsektor, Rinnen) oder auf älterem lockerer Altschnee (windgeschütztes Gelände). Potenzielle Bruchflächen sind am Samstag: meist innerhalb der letzten Neuschneepakete, seltener rund um die oberste Kruste der Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag sind die meisten Gipfel frei, darüber ziehen dichtere Wolkenfelder durch. Im Lauf des Nachmittags verschlechtert sich die Sicht, da und dort kann es dann leicht schneien. West- bis Nordwestwind mit 30 bis 40 km/h in höheren und exponierten Lagen. Leichte Erwärmung. In 2000m auf -4 Grad, in 3000m bis zu -5 Grad.&#13;
+Der Sonntag bringt Sturm! In exponierten Lagen sind auch orkanartige Böen möglich. In der Nacht auf Sonntag und am Sonntag schneit es zeitweise; Größenordnung 10 bis 20 cm (stark verblasen). Wieder kälter. In 2000m auf -8 Grad sinkend, in 3000m -10 Grad</wxSynopsisComment>
+          <tendencyComment>Vorerst wenig Änderung. Sturm und neue Triebschneepakete prägen den Sonntag. Anstieg der Lawinengefahr mit ergiebigem Neuschnee von Montag bis Mittwoch! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1508RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1508RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, in Rinnen aller Richtungen ab dem Waldrand</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kleine Lockerschneerutsche aus dem Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneehänge meiden!</avActivityHighlights>
+          <avActivityComment>Die Triebschneegefahr ist oberhalb der Waldgrenze ERHEBLICH, darunter meist GERING. &#13;
+Gefahrstellen gibt es kammnah und kammfern vom Waldrand aufwärts. Betroffen sind Rinnen aller Richtungen sowie insbesondere die Hangrichtungen Nordwest über Ost bis Süd. Zur Auslösung eines mittelgroßen Schneebretts genügt an vielen Stellen schon der Impuls durch eine Person.&#13;
+Aus dem extrem steilen Gelände sind kleine Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit dem Sturm am Freitag sind im Mittel rund 20-25 cm Neuschnee gefallen. Windexponiertes Gelände ist abgeblasen, windgepresst oder verharscht (hochalpin teils große Windgangeln). Der Triebschnee liegt teilweise auf älterem Triebschnee (Ost- und Südsektor, Rinnen) oder auf älterem lockerer Altschnee (windgeschütztes Gelände). Potenzielle Bruchflächen sind am Samstag: meist innerhalb der letzten Neuschneepakete, seltener rund um die oberste Kruste der Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag sind die meisten Gipfel frei, darüber ziehen dichtere Wolkenfelder durch. Im Lauf des Nachmittags verschlechtert sich die Sicht, da und dort kann es dann leicht schneien. West- bis Nordwestwind mit 30 bis 40 km/h in höheren und exponierten Lagen. Leichte Erwärmung. In 2000m auf -4 Grad.&#13;
+Der Sonntag bringt Sturm! In exponierten Lagen sind auch orkanartige Böen möglich. In der Nacht auf Sonntag und am Sonntag schneit es zeitweise; Größenordnung 10 bis 20 cm (stark verblasen). Wieder kälter. In 2000m auf -8 Grad sinkend.</wxSynopsisComment>
+          <tendencyComment>Vorerst wenig Änderung. Sturm und neue Triebschneepakete prägen den Sonntag. Anstieg der Lawinengefahr mit ergiebigem Neuschnee von Montag bis Mittwoch! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1508RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1508RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Vorsicht im freien Gelände</avActivityHighlights>
+          <avActivityComment>Die Triebschneegefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. &#13;
+Gefahrstellen gibt es oberhalb vom Waldrand. Betroffen sind Rinnen aller Richtungen sowie insbesondere die Hangrichtungen Nordwest über Ost bis Süd. Zur Auslösung eines zumeist kleinen Schneebretts genügt an eventuell schon der Impuls durch eine Person.</avActivityComment>
+          <snowpackStructureComment>Mit dem Sturm am Freitag sind im Mittel rund 15-20 cm Neuschnee gefallen. Der Triebschnee liegt teilweise auf älterem Triebschnee oder auf älterem lockerer Altschnee. Potenzielle Bruchflächen sind am Samstag: meist innerhalb der letzten Neuschneepakete, seltener rund um die oberste Kruste der Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag sind die Gipfel frei, darüber ziehen dichtere Wolkenfelder durch. Im Lauf des Nachmittags verschlechtert sich die Sicht, da und dort kann es dann leicht schneien. West- bis Nordwestwind mit 30 bis 40 km/h in höheren und exponierten Lagen. Leichte Erwärmung. In 2000m auf -4 Grad.&#13;
+Der Sonntag bringt Sturm! In exponierten Lagen sind auch orkanartige Böen möglich. In der Nacht auf Sonntag und am Sonntag schneit es zeitweise; Größenordnung 10 bis 20 cm (stark verblasen). Wieder kälter. In 2000m auf -8 Grad sinkend.</wxSynopsisComment>
+          <tendencyComment>Vorerst wenig Änderung. Sturm und neue Triebschneepakete prägen den Sonntag. Anstieg der Lawinengefahr mit ergiebigem Neuschnee von Montag bis Mittwoch!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

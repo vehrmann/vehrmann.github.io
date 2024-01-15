@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1197RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1197RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen und in der Gippel-Göller-Gruppe herrscht in den Hochlagen mäßige, ansonsten geringe Lawinengefahr. In den Hochlagen gilt es älteren und in jenen Bereichen, wo der Schnee verfrachtungsfähig ist (bzw. etwas Neuschnee fällt) auch frischen Triebschnee zu beachten. Dies betrifft hauptsächlich den erweiterten Ostsektor sowie kammnahe Bereiche oder auch Geländeübergänge. Nordseitig existiert eine mittlerweile etwas geschwächte Altschneedecke. Durch Zusatzbelastung ist die Auslösung (kleinerer) Schneebrettlawinen möglich. In Bereichen, in denen es am Nachmittag regnet, sind zudem vereinzelte spontane Rutschungen möglich. An vereisten Hangzonen besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Wetterverlauf ist derzeit sehr turbulent und das spiegelt sich sowohl in den Verhältnissen als auch in der Schneedeckenbeschaffenheit wider. Stürmischer Wind hat ausgesetzte Bereiche abgeblasen, Hohlformen mit Triebschnee befüllt. Stellenweise kann sich frischer Triebschnee bilden, der mit meist hart verharschten (stellenweise reifüberzogenen) Unterlagen nicht gut bindet. In schattseitigen Hochlagen können Schwachschichten in der Altschneedecke existieren bzw. sich ausbilden. Mit dem Regen kommt es zu einer Anfeuchtung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstagabend legt der stürmische Wind aus westlichen Richtungen weiter zu und in der Nacht auf den Freitag sind auch Orkanböen zu erwarten. Dabei kann es auch leicht regnen oder etwas schneien. Auch der Freitag ist meist trüb und es weht überaus stürmischer Wind aus westlichen Richtungen. Die Mittagstemperaturen liegen in 1500m bei +2 Grad, in 2000m erwartet uns -1 Grad. Ab dem späteren Nachmittag kann es vor allem westlich der Rax-Schneeberg-Gruppe auch regnen bzw. im Gipfelniveau ab etwa 1500m auch schneien.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag sind noch leichte Niederschläge möglich, die am Christtag gegen Mittag überall abklingen sollten. Es dominieren weiterhin dichtere Wolken, der Wind lässt allerdings deutlich nach. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1197RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1197RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Türnitzer über die Gutensteiner Alpen und die Rax-Schneeberg-Gruppe bis hin zur Semmering-Wechsel-Region herrscht geringe Lawinengefahr. Es gilt in den Hochlagen älteren, ganz vereinzelt auch frischen Triebschnee zu beachten. In abgeschatteten Hochlagen kann zudem die Altschneedecke geschwächt sein. In vergleichsweise noch schneereicheren Gebieten können sich mit dem Regen ab dem Nachmittag einzelne Rutsche spontan lösen. An vereisten Hangzonen der Hochlagen besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Wetterverlauf ist derzeit überaus turbulent und wirkt sich auch auf die herrschenden Verhältnisse wie auch auf die Beschaffenheit der Schneedecke aus. Durch den stürmischen Wind wurden ausgesetzte Bereiche der Hochlagen abgeblasen und in Hohlformen Triebschnee abgelagert. In schattseitigen Hochlagen können vereinzelte Schwachschichten in der Altschneedecke existieren bzw. sich ausbilden. Mit etwas Regen kommt es (v.a. in den westlichen Regionen) zu einer Anfeuchtung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstagabend legt der stürmische Wind aus westlichen Richtungen weiter zu und in der Nacht auf den Freitag sind auch Orkanböen zu erwarten. Dabei kann es auch leicht regnen oder etwas schneien. Auch der Freitag ist meist trüb und es weht überaus stürmischer Wind aus westlichen Richtungen. Die Mittagstemperaturen liegen in 1500m bei +2 Grad, in 2000m erwartet uns -1 Grad. Ab dem späteren Nachmittag kann es vor allem westlich der Rax-Schneeberg-Gruppe auch regnen bzw. im Gipfelniveau ab etwa 1500m auch schneien.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag sind noch leichte Niederschläge möglich, die am Christtag gegen Mittag überall abklingen sollten. Es dominieren weiterhin dichtere Wolken, der Wind lässt allerdings deutlich nach. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

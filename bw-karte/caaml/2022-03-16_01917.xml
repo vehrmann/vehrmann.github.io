@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1917RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-16T06:25:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1917RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-16T06:25:00+00:00</beginPosition>
+          <endPosition>2022-03-17T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb etwa 2200m frischer und älterer Triebschnee in Kamm- und Passlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Festigkeitsverlust durch nächtlichen Regeneintrag und mit Sonneneinstrahlung und Erwärmung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unterhalb etwa 2500m Nassschnee- und Gleitschneelawinen; frischen und älteren Triebschnee in hohen Lagen meiden.</avActivityHighlights>
+          <avActivityComment>Frische und ältere Triebschneeansammlungen sind vor allem an Nordhängen teils störanfällig. Gefahrenstellen liegen besonders in Kamm- und Passlagen oberhalb etwa 2200m. Diese sollten vor allem im absturzgefährdeten Gelände gemieden werden. Mit der Sonneneinstrahlung und Erwärmung nimmt bereits ab den frühen Vormittagsstunden die Gefahr von nassen Lawinen im Tagesverlauf rasch zu. Spontan oder durch Zusatzbelastung sind dann unterhalb etwa 2500m vermehrt kleine bis mittelgroße, vereinzelt auch große nasse Lockerschneelawinen möglich. Gleitschneelawinen können vor allem an steilen Ost-, Süd- und Westhängen mittelgroß, vereinzelt auch groß werden. Bereiche unterhalb von Gleitschneerissen sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Eine trübe, bis in hohe Lagen frostfreie Nacht mit leichtem Regeneintrag unterhalb etwa 2000 bis 2200m brachte einen Festigkeitsverlust der Schneedecke, der durch die Sonneneinstrahlung tagsüber verstärkt wird. In mittleren Lagen ist die Schneedeckenbasis teilweise feucht. An sehr steilen Grashängen kann das die Gleitbewegung der Schneedecke begünstigen. Mit starkem Süd- bis Südwestwind wurde der wenige Neu- und auch lockere Altschnee verfrachtet. Die meist kleinen, frischen und älteren Triebschneeansammlungen, liegen an Nordhängen auf einer kantig aufgebauten Altschneedecke und sind teils störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch beginnt mit ein paar lokalen Restwolken bzw. Nebel. Rasch lockern die Wolken auf, die Sicht wird besser und die Sonne scheint meist verbreitet. Allerdings gibt es auch heute Nachschub an Saharastaub, das Licht kann daher auch heute wieder recht diffus sein. Dazu mild mit einer Nullgradgrenze von knapp 3000 Metern. Temperatur in 2000m: um 4 Grad, Höhenwind: mäßiger bis lebhafter Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Nach einer meist nur gering bewölkten Nacht sollte am Donnerstag eigentlich oft die Sonne scheinen. Durch den vielen Saharastaub in der Luft wird der Sonnenschein voraussichtlich aber deutlich abgeschwächt. Am frühen Vormittag herrschen günstige Bedingungen. Im Tagesverlauf steigt die Gefahr von Nassschneelawinen an. Touren sollten früh gestartet und rechtzeitig beendet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

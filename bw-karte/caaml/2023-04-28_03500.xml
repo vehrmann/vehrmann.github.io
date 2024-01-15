@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3500RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3500RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-05-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>bis in die Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleine Triebschneepakete in den Hochlagen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird bis Montag mit gering beurteilt. In den Gipfelregionen des Dachstein Gebietes sowie in den Niederen Tauern haben sich frische geringmächtige Triebschneeansammlungen gebildet. Die Gefahrenstellen für Schneebretter (teilweise auch nass) liegen im Nordsektor in Kammlage bzw. hinter Geländekanten. Mit der Erwärmung und dem Regeneintrag sind weiterhin spontane nasse Lockerschneelawinen aus extrem steilen Hängen möglich. Allerdings werden keine großen Lawinen erwartet.</avActivityComment>
+          <snowpackStructureComment>Mit dem mäßigen Wind bildeten sich kleinräumige Triebschneebereiche, die (speziell schattseitig) nicht ausreichend mit der Altschneeoberfläche verbunden und störanfällig sind. Durch die Erwärmung sowie durch den Regeneintrag wurde der Schnee bis oberhalb von 2000m feucht. Die Temperaturen bleiben in 2000m über das Wochenende im positiven Bereich, daher wird die Schneedecke auch in der Nacht keinen nennenswerte Festigkeit erreichen. Am meisten Schnee liegt noch in den Schladminger bzw. Wölzer Tauern sowie im Dachsteingebiet.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: In den Nordalpen halten sich noch länger dichte Wolken, gebietsweise kann es auch noch immer wieder regnen, oberhalb von etwa 2200m leicht schneien. Alpensüdseitig ist es morgens recht freundlich und sonnig. Später am Tag entstehen hier zunehmend Quellwolken, welche gebietsweise auch zu gewittrigen Regenschauern führen können. Der Wind weht in Kammniveau zum teil lebhaft aus Nordwest bis Nord. Die Temperaturen liegen nachmittags in 2000m bei 3 Grad.&#13;
+Sonntag: In den Nordalpen liegen die Gipfel oft in den Wolken, zeitweise regnet es auch noch immer wieder unergiebig. Dann reißen die Wolken auf und die Sonne kann vorübergehend zum Vorschein kommen. Alpensüdseitig geht sich etwas mehr Sonnenschein aus, nachmittags bilden sich hier über dem Grazer Bergland und der Weststeiermark jedoch Quellwolken, welche vereinzelt auch gewittrigen Charakter haben können. Der Wind weht auf Kammniveau schwach bis mäßig aus östlichen Richtungen. Die Temperatur liegt in 2000m nachmittags bei 3 Grad.&#13;
+Am Montag gibt es einen Mix aus Sonne und Wolken. Es bleibt in der Höhe mild. </wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr wird erwartet. &#13;
+ </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

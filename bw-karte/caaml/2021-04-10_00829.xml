@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID829RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID829RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>lokal Triebschnee durch Föhn, vereinzelt alte Verfrachtungen -Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesgang spontane Lawinen, vereinzelt Triebschnee in höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Durch die sehr milde Temperatur und verstärkt durch zeitweisen Sonnenschein steigt die Lawinengefahr am späten Vormittag bereits auf mäßig an. Nicht nur auf besonntem Steilgelände sind dann spontane Feucht- und Nassschneelawinen möglich. Daneben gibt es vor allem in schattseitigen Hochlagen vereinzelt ganztags noch ältere Verfrachtungen, die insbesondere durch große Zusatzbelastung ausgelöst werden können. Durch starken Südföhn können hochalpin einzelne frische Verfrachtungen entstehen, die zu beachten sind. Vereinzelte Gleitschneelawinen auf vergrasten Steilhängen bleiben bis in mittlere Lagen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich deutlich gesetzt und gefestigt. Über Nacht bildet sich sonnseitig oft ein tragfähiger Harschdeckel, der aber im Tagesverlauf rasch aufgeht und an Festigkeit verliert. Schattseitige Hochlagen sind teils noch pulvrig oder oft windbeeinflusst/gepresst. In den zuletzt gebildeten Triebschneepaketen oder im Übergang zur Altschneedecke können noch Schwachschichten vorhanden sein. In tiefen Lagen und vor allem sonnseitig wird die Schneedecke rasch abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ziehen hohe Wolken weit über die Gipfel hinweg, die Sicht ist gut, das Licht teilweise diffus. Zeitweise scheint die Sonne. Vom Gosaukamm ostwärts weht lebhafter bis starker Südwind mit 40 bis 60 km/h. In 1500 m hat es 5 bis 8 Grad, in 2000 m um 4 Grad.&#13;
+Am Montag in der Früh noch kurze Sonnenfenster. Rasch breiten sich mit stark auffrischendem Westwind aber dichte Wolken aus und hüllen die Berge in Nebel. Gegen Mittag kommen noch kräftige Regen- und Schneeschauer dazu. In 1500 m hat es 4 Grad, in 2000 m  0 Grad. Temperatursturz von 5 bis 10 Grad.</wxSynopsisComment>
+          <tendencyComment>Regen- und Schneeschauer mit Wind lassen die Lawinengefahr etwas ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID829RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID829RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelte Verfrachtungen - Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang, vereinzelt Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Durch die sehr milde Temperatur und verstärkt durch zeitweisen Sonnenschein steigt die Lawinengefahr am späten Vormittag bereits auf mäßig an. Nicht nur auf besonntem Steilgelände sind dann spontane Feucht- und Nassschneelawinen möglich. In schattseitigen Hochlagen gibt es vereinzelt ganztags noch ältere Verfrachtungen, die insbesondere durch große Zusatzbelastung ausgelöst werden können. Durch starken Südföhn können einzelne frische Verfrachtungen in Kammlagen entstehen. Vereinzelte Gleitschneelawinen auf vergrasten Steilhängen bleiben bis in mittlere Lagen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich deutlich gesetzt und gefestigt. Über Nacht bildet sich sonnseitig oft ein tragfähiger Harschdeckel, der aber im Tagesverlauf rasch aufgeht und an Festigkeit verliert. Schattseitige Hochlagen sind teils noch pulvrig oder oft windbeeinflusst/gepresst. In den zuletzt gebildeten Triebschneepaketen oder im Übergang zur Altschneedecke können noch Schwachschichten vorhanden sein. In tiefen Lagen und vor allem sonnseitig wird die Schneedecke rasch abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ziehen hohe Wolken weit über die Gipfel hinweg, die Sicht ist gut, das Licht teilweise diffus. Zeitweise scheint die Sonne. Vom Gosaukamm ostwärts weht lebhafter bis starker Südwind mit 40 bis 60 km/h. In 1500 m hat es 5 bis 8 Grad, in 2000 m um 4 Grad.&#13;
+Am Montag in der Früh noch kurze Sonnenfenster. Rasch breiten sich mit stark auffrischendem Westwind aber dichte Wolken aus und hüllen die Berge in Nebel. Gegen Mittag kommen noch kräftige Regen- und Schneeschauer dazu. In 1500 m hat es 4 Grad, in 2000 m  0 Grad. Temperatursturz von 5 bis 10 Grad.</wxSynopsisComment>
+          <tendencyComment>Regen- und Schneeschauer mit Wind lassen die Lawinengefahr etwas ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

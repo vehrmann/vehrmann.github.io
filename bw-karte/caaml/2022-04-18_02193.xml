@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2193RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-18T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2193RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-18T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Am Dienstag Neuschnee und Wind um Nordwest – Wetterbesserung am Mittwoch!</avActivityHighlights>
+          <avActivityComment>Am Dienstag entstehen durch anhaltenden Schneefall und mäßigen Wind um Nordwest, der kammnah auch etwas stärker sein kann, frische Triebschneeablagerungen. Somit sind dann über der Waldgrenze, vor allem aber in den kammnahen Hochlagen und hinter Geländekanten, frische Gefahrenstellen im Steilgelände vorhanden, die zu beachten sind. Eine Auslösung von Schneebrettlawinen ist insbesondere durch große Zusatzbelastung möglich.&#13;
+Am Mittwoch wird es milder und sonnig. Somit steigt die Gefahr für spontane Lawinen etwas an. Vor allem der Schnee vom Dienstag kann dann im Steilgelände spontan als Lockerschneelawine abrutschen und die lokale Schneebrettgefahr ist hochgelegen noch zu beachten.&#13;
+Steile Hänge mit Rissen in der Schneedecke sind wegen möglicher Gleitschneelawinen zu meiden.</avActivityComment>
+          <snowpackStructureComment>Über der Waldgrenze bilden sich am Dienstag frische Triebschneeablagerungen durch Neuschnee und Windeinfluss, die stellenweise auch störanfällig sein können. Der frische Schnee kommt auf einer oberflächig verharschten und im Inneren feuchten bis nassen Altschneedecke zu liegen. Am Mittwoch kann sich der frische Schnee mit milderen Temperaturen und Einstrahlung setzen und wird vor allem sonnseitig feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Gipfel meist von Beginn an in dichten Wolken, die Sichtverhältnisse sind generell eingeschränkt. Es regnet und schneit teils von Beginn an, wobei die Schneefallgrenze zwischen 800 und 1200 m liegt. Speziell im Bereich der Kalkalpen fallen die Niederschläge kräftig und anhaltend aus. Es kommen verbreitet Neuschneemengen zwischen 10 und 15 cm zusammen, stellenweise auch zwischen 20 und 30 cm. In 1500 m liegen die Temperaturen zwischen -3 und -1 Grad, in 2000 m um -5 Grad.&#13;
+Am Mittwoch stecken anfangs manche Berge noch in dichten Restwolken, es ist aber von Beginn an trocken. Tagsüber setzt sich zunehmend die Sonne durch, der Nachmittag verläuft in der Folge meist sehr sonnig. In 1500 m liegen die Temperaturen zwischen 0 und 4 Grad, in 2000 m zwischen -3 und 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Der nächste Lawinenbericht wird am Mittwoch veröffentlicht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

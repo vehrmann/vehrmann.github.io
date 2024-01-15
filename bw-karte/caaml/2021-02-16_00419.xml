@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID419RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID419RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammfern, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit einsetzendem Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und kurzzeitig Regen bis über 2000m – spontane Rutsche aus steilem Gelände möglich!</avActivityHighlights>
+          <avActivityComment>Die Gefahrenstellen durch frischen Triebschnee finden sich etwas verbreiteter, kammfern und besonders hinter Geländekanten über der Waldgrenze. Hier kann ein Schneebrett in steilem Gelände teils bereits durch geringe Zusatzbelastung ausgelöst werden. In den Höhenlagen, in denen Regen zu Feuchtigkeitseintrag führt, können aus steilen Hängen spontane, kleine Nassschneelawinen abgehen. Die Schneeoberfläche ist abseits der Triebschneeablagerungen meist sehr hart und eisig – es herrscht Absturzgefahr!</avActivityComment>
+          <snowpackStructureComment>In den Höhen, in denen es Regeneintrag gibt, führt dieser anfangs zu Setzung und besserer Verbindung der Triebschneeauflage, kann dann aber auch eine Gleitschicht zum Altschnee ausbilden. Höher kommt weiterer frischer Neu- und Triebschnee auf der Oberfläche hinzu, wobei die Bindung zur verharschten Altschneedecke weiter schlecht ist. In den schattigen Hochlagen existiert weiterhin ein Altschneeproblem durch eingelagerte kantige Kristalle zwischen den Harschschichten. In mittleren und tiefen Lagen wird die Schneedecke langsam angefeuchtet, der Harschdeckel brüchig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch setzt neuerlicher Niederschlag ein, wobei der Gefrierpunkt kurzfristig über 2200m ansteigt. In der Früh liegt die Schneefallgrenze dann wieder um 1200m Seehöhe. Auf den Gipfeln lockert es im Tagesverlauf recht schnell auf wobei sich tiefe Wolken hartnäckig halten und es daraus auch bis zum Abend schneien bzw. regnen kann. Insgesamt kommen nur maximal 15cm Neuschnee bis Donnerstagfrüh zusammen. Der Wind weht lebhaft, im Nordosten stürmisch, aus Nordwest.</wxSynopsisComment>
+          <tendencyComment>Hochdruckeinfluss mit milderen Temperaturen setzt sich durch. Mit der Einstrahlung und Erwärmung kommt es zur Setzung und Stabilisierung der Schneedecke. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID419RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID419RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Harte und eisige Schneeoberfläche wechselt sich mit störanfälligem Triebschnee ab.</avActivityHighlights>
+          <avActivityComment>Besonders in den Südexpositionen befindet sich noch störanfälliger Triebschnee, der überwiegend durch große Zusatzbelastung als Schneebrett ausgelöst werden kann. Die Gefahrenstellen sind eher kleinräumig und finden sich überwiegend kammnah und hinter Geländekanten. Die Schneeoberfläche ist abseits der Triebschneeablagerungen meist sehr hart und eisig – es herrscht Absturzgefahr! </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen liegt auf einer harten, oberflächlich verharschten und recht kompakten Altschneedecke geringmächtiger, kalter Triebschnee, wobei die Verbindung eher schlecht ist. In tieferen Lagen wird der Harschdeckel mit Erwärmung und Einstrahlung brüchig und die Schneedecke langsam feucht, exponierte Grate und Gipfelbereiche sind weiterhin teils sehr hart und eisig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch ist es dicht bewölkt und der Gefrierpunkt steigt kurzfristig über 2200m an. In der Früh kühlt es wieder etwas ab, in 2000m liegen die Temperaturen tagsüber um -2 Grad. Es lockert recht rasch auf, wird sonnig und bleibt überwiegend trocken. Der Wind weht mäßig, im Osten lebhaft aus Nordwest. </wxSynopsisComment>
+          <tendencyComment>Hochdruckeinfluss mit milderen Temperaturen setzt sich durch. Mit der Einstrahlung und Erwärmung kommt es zur Setzung und Stabilisierung der Schneedecke. Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1057RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1057RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen, im Gippel-Göller-Gebiet sowie in der Rax-Schneeberg-Region herrscht in den höheren Lagen mäßige Lawinengefahr, ansonsten wird sie mit gering bewertet. Mittlerweile bereits etwas älterer Triebschnee existiert vor allem in den Ostsektoren, mit dem zunehmend stärker werdenden Südwind werden sich frische Verfrachtungen auch in den Nordhängen bilden. Gefahrenstellen finden sich somit hauptsächlich in triebschneebeladenen Leehängen, im kammnahen Gelände sowie hinter Geländeübergängen wie Rinnen und Mulden. Mitunter kann eine Schneebrettauslösung bereits durch die geringe Zusatzbelastung eines einzelnen Tourengehers erfolgen.</avActivityComment>
+          <snowpackStructureComment>Durch den bisherigen Wind aus überwiegend nordwestlichen Richtungen wurde der ab Samstagabend kalt gefallene Schnee bearbeitet und in den Hochlagen verfrachtet. Bisher bildete sich hauptsächlich im erweiterten Ostsektor Triebschnee, mit der erwarteten Winddrehung auf südliche Richtungen werden auch Nordhänge frisch eingeweht. Weiche Schichten, der Übergang zur (teils verharschten) Altschneedecke und überdeckter Reif (klare Nacht) stellen mögliche Problembereiche im Schneedeckenaufbau dar. In den westlichen Gebirgsgruppen liegt tendenziell mehr Schnee als in den östlichen Nachbarregionen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch beginnt bei recht sonnigen Verhältnissen, allerdings ziehen rasch dichtere Wolken auf, wobei es im weiteren Tagesverlauf aber zwischenzeitlich auch etwas auflockern kann. Der Wind legt kontinuierlich zu und weht stark bis stürmisch aus südlichen bis südwestlichen Richtungen. Auf den Bergen wird es bei +1 Grad in 1500m und 0 Grad in 2000m spürbar milder als zuletzt.</wxSynopsisComment>
+          <tendencyComment>In der Nacht von Mittwoch auf Donnerstag ist in sämtlichen Gebirgsgruppen mit etwas Neuschnee zu rechnen. Die Niederschläge klingen am Donnerstag weitgehend ab, lediglich von der Rax-Schneeberggruppe westwärts kann es zeitweise noch ganz leicht schneien. Es weht starker bis stürmischer Wind aus westlichen bis nordwestlichen Richtungen. Die Temperaturen gehen wieder deutlich zurück, in 1500m erwarten uns zu Mittag etwa -6 Grad. Im Hinblick auf die Lawinengefahr gilt es vor allem den Triebschnee in den Hochlagen zu beachten, der sich in verschiedenen Etappen unter mehrmaligen Windrichtungswechsel abgelagert hat.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1057RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1057RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Türnitzer über die Gutensteiner Alpen bis zum Semmering-Wechselgebiet herrscht geringe Lawinengefahr. Hier existieren vereinzelte Gefahrenstellen in den Hochlagen in Form von älteren (vorwiegend ostseitig) und frischen Triebschneebereichen (nordseitig).</avActivityComment>
+          <snowpackStructureComment>Durch den bisherigen Wind aus überwiegend nordwestlichen Richtungen wurde der ab Samstagabend kalt gefallene Schnee bearbeitet und in den Hochlagen stellenweise verfrachtet. Zu Einwehungen im erweiterten Ostsektor kommen frische Triebschneeablagerungen durch den zunehmenden Südwind in den Nordsektoren hinzu, die mitunter Reif überdecken können. In den östlichen Gebirgsgruppen liegt tendenziell weniger Schnee als in den westlichen Nachbarregionen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch beginnt bei recht sonnigen Verhältnissen, allerdings ziehen rasch dichtere Wolken auf, wobei es im weiteren Tagesverlauf aber zwischenzeitlich auch etwas auflockern kann. Der Wind legt kontinuierlich zu und weht stark bis stürmisch aus südlichen bis südwestlichen Richtungen. Auf den Bergen wird es bei +1 Grad in 1500m und 0 Grad in 2000m spürbar milder als zuletzt.</wxSynopsisComment>
+          <tendencyComment>In der Nacht von Mittwoch auf Donnerstag ist in sämtlichen Gebirgsgruppen mit etwas Neuschnee zu rechnen. Die Niederschläge klingen am Donnerstag weitgehend ab, lediglich von der Rax-Schneeberggruppe westwärts kann es zeitweise noch ganz leicht schneien. Es weht starker bis stürmischer Wind aus westlichen bis nordwestlichen Richtungen. Die Temperaturen gehen wieder deutlich zurück, in 1500m erwarten uns zu Mittag etwa -6 Grad. Im Hinblick auf die Lawinengefahr gilt es vor allem den Triebschnee in den Hochlagen zu beachten, der sich in verschiedenen Etappen unter mehrmaligen Windrichtungswechsel abgelagert hat.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

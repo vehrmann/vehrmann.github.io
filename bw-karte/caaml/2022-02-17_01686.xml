@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1686RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-17T06:22:44+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1686RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-17T06:22:44+00:00</beginPosition>
+          <endPosition>2022-02-18T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Schattenhänge, Kammlagen, hinter Geländekanten sowie in Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb 2000m Nass- und Gleitschneeproblem beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Oberhalb der Waldgrenze störanfälligen Triebschnee, unterhalb 2000 m Gefahr von Nass- und Gleitschneelawinen beachten.</avActivityHighlights>
+          <avActivityComment>Umfangreiche frische und ältere Triebschneeansammlungen der letzten Tage sind störanfällig und können bereits von einzelnen Wintersportlern ausgelöst werden. Gefahrenstellen liegen vor allem oberhalb der Waldgrenze an steilen Schattenhängen, in Kammlagen, hinter Geländekanten sowie in Rinnen und Mulden. Ältere Schwachschichten im Altschnee können besonders im Rätikon, in der Silvretta und im Verwall an West-, Nord- und Osthängen stellenweise von einzelnen Wintersportlern noch ausgelöst werden. Dies vor allem oberhalb etwa 2000m im selten befahrenen Tourengelände an Übergängen von wenig zu viel Schnee - wie z.B. bei der Einfahrt in Rinnen und Mulden. Ausgelöste Lawinen können dabei gefährlich groß werden. Touren und Variantenabfahrten erfordern eine defensive Routenwahl. Unterhalb 2000m sind Nassschneelawinen und Gleitschneerutsche zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung regnete es gestern bis über 1900m hinauf. Die stürmischen bis orkanartigen West- bis Nordwestwinde ließen in höheren Lagen viele umfangreiche und störanfällige Triebschneeansammlungen entstehen. Innerhalb dieser Triebschneepakete und zur Altschneedecke hin sind störanfällige Schichten eingelagert. Schwachschichten finden sich auch noch im Mittelteil der Schneedecke. Diese sind an West-, Nord- und Osthängen noch störanfällig und schwierig einzuschätzen. Im Rätikon, im Verwall und in der Silvretta ist die Schneeüberdeckung dieser Schicht geringer und somit leichter zu stören. Solche Gefahrenstellen befinden sich an schneearmen Stellen und an Übergängen von wenig zu viel Schnee vor allem im selten befahrenen Tourengelände. Zudem können oberflächennah ausgelöste Lawinen in tiefere Schichten der Altschneedecke durchreißen und groß werden. Unterhalb 2000 m führt der Regen und die Erwärmung zu einer Durchfeuchtung der Schneedecke, wodurch sie an Festigkeit verliert.</snowpackStructureComment>
+          <wxSynopsisComment>Unwirtliche Aussichten auf den Bergen. Der Westwind kann in exponierten Lagen orkanartige Böen aufweisen und damit zur Gefahr werden. Dabei stecken die Berge immer wieder im Nebel, gelegentlich tun sich Wolkenlücken auf. In den Staulagen zwischen Bregenzerwald und Verwall kann es immer wieder schneien bzw. regnen, zeitweise aber auch im Süden. Die Schneefallgrenze liegt vormittags noch bei ca. 1900m, nachmittags sinkt sie wieder gegen 1400m. Temperatur in 2000m: sinkend von +1 auf -3 Grad. Höhenwind: stürmisch bis orkanartig aus West.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird ausgesprochen mild und windig, bevor uns am Samstag Vormittag eine kurze Kaltfront erreicht. Die Lawinengefahr wird sich nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

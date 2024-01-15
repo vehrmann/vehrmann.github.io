@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2737RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2737RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, in sämtlichen Expositionen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunehmende Gefahrenstellen durch Triebschnee im Tagesverlauf!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt oberhalb der Waldgrenze im Tagesverlauf von &#13;
+MÄßIG auf ERHEBLICH an, darunter ist sie gering. Starker bis stürmischer&#13;
+ Nordwestwind und ab Mittag einsetzender Schneefall sorgt für die &#13;
+Bildung frischer Gefahrenstellen in Form von Triebschnee. Am Vormittag &#13;
+sind bestehende Triebschneepakte in Rinnen und Einfahrtsbereichen der &#13;
+Sektoren Süd und Ost bei guter Sicht noch besser zu erkennen. Ab dem &#13;
+Nachmittag nehmen die Triebschneeansammlungen in allen Expositionen, &#13;
+auch kammfern zu, mittelgroße Schneebrettlawinen können bei geringer &#13;
+Zusatzbelastung ausgelöst werden. Schlechte Sicht schränkt die &#13;
+Gefahrenbeurteilung ein. </avActivityComment>
+          <snowpackStructureComment>Mit stürmischem Wind bilden sich zunehmend frische Triebschneepakete &#13;
+in sämtlichen Expositionen. Die Verbindung zur darunterliegenden &#13;
+Schneedecke ist meist schlecht, mit weichen Schichten aber auch &#13;
+überdecktem Oberflächenreif (windgeschützte Bereiche) existieren im &#13;
+Übergang  sehr störanfällige Schwachschichten. Tiefer in der Schneedecke&#13;
+ finden sich kantigen Kristallen rund um Harschkrusten, diese sind aber &#13;
+meist nur durch große Zusatzbelastung anzusprechen. </snowpackStructureComment>
+          <wxSynopsisComment>Nach einer zeitweise klaren Nacht scheint in den Niederösterreichischen Bergen vorerst noch öfter die Sonne, aber schon im Laufe des Vormittags beginnen sich mit einer herannahenden Kaltfront die Wolken aus Norden zu verdichten. Ab Mittag setzt bei einer Schneefallgrenze um 500m Schneefall ein, wobei der Niederschlagsschwerpunkt in den Ybbstaler und Türnitzer Alpen liegt, hier können bis Dienstagfrüh 10 - 20cm Neuschnee fallen. Dazu herrscht starker bis stürmischer Nordwestwind! Das Temperaturniveau sinkt etwas ab auf Nachmittagswerte um -8 Grad in 2000m, um -5 in 1500m und um -2 im 1000m.</wxSynopsisComment>
+          <tendencyComment>Der Nordwestwind bleibt die ganze Woche stürmisch, dazu gibt es aus heutiger Sicht speziell in den westlichen Regionen einiges an Neuschnee! Die Triebschneesituation steigt an und wird zunehmend heikel! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2737RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2737RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>im Tagesverlauf zunehmend</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf entstehen frische Triebschneelinsen - Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Dennoch existieren Gefahrenstellen speziell in steilen Süd- bis Ostexpositionen in Form von frischen Triebschneelinsen, deren Umfang im Tagesverlauf zunimmt. Eine Schneebrettauslösung kann nicht ausgeschlossen werden.&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>Mit stürmischen Wind bilden sich zunehmend frische Triebschneelinsen. Die Verbindung zur darunterliegenden Schneedecke ist meist schlecht, mit weichen Schichten aber auch überdecktem Oberflächenreif (Windgeschützte Bereiche) existieren stellenweise störanfällige Schwachschichten. Das Schneedeckenfundament ist weitgehend stabil.&#13;
+&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer zeitweise klaren Nacht scheint in den Niederösterreichischen Bergen vorerst noch öfter die Sonne, aber schon im Laufe des Vormittags beginnen sich mit einer herannahenden Kaltfront die Wolken aus Norden zu verdichten. Ab Mittag setzt bei einer Schneefallgrenze um 500m Schneefall ein, wobei der Niederschlagsschwerpunkt in den Ybbstaler und Türnitzer Alpen liegt, hier können bis Dienstagfrüh 10 - 20cm Neuschnee fallen. Dazu herrscht starker bis stürmischer Nordwestwind! Das Temperaturniveau sinkt etwas ab auf Nachmittagswerte um -8 Grad in 2000m, um -5 in 1500m und um -2 im 1000m.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Der Nordwestwind bleibt die ganze Woche stürmisch, dazu gibt es aus heutiger Sicht etwas Neuschnee! Die Triebschneesituation steigt etwas an!&#13;
+&#13;
+&#13;
+ &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2737RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2737RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zunehmende Bildung von Gefahrenstellen im Tagesverlauf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunehmende Gefahrenstellen durch Triebschnee im Tagesverlauf!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig, darunter mit gering bewertet. Starker bis stürmischer Nordwestwind und ab Mittag einsetzender Schneefall sorgen für die Bildung frischer Gefahrenstellen in Form von Triebschnee. Ab dem Nachmittag nehmen die Triebschneeansammlungen in allen Expositionen, auch kammfern zu, Schneebrettlawinen können bereits bei geringer Zusatzbelastung ausgelöst werden. Schlechte Sicht schränkt die Gefahrenbeurteilung ein. &#13;
+</avActivityComment>
+          <snowpackStructureComment>Mit stürmischen Wind bilden sich zunehmend frische Triebschneepakete in sämtlichen Expositionen. Die Verbindung zur darunterliegenden Schneedecke ist meist schlecht, mit weichen Schichten aber auch überdecktem Oberflächenreif (windgeschützte Bereiche) existieren im Übergang störanfällige Schwachschichten. Tiefer in der Schneedecke finden sich kantigen Kristallen rund um Harschkrusten, diese sind aber meist nur durch große Zusatzbelastung anzusprechen. </snowpackStructureComment>
+          <wxSynopsisComment>Nach einer zeitweise klaren Nacht scheint in den Niederösterreichischen Bergen vorerst noch öfter die Sonne, aber schon im Laufe des Vormittags beginnen sich mit einer herannahenden Kaltfront die Wolken aus Norden zu verdichten. Ab Mittag setzt bei einer Schneefallgrenze um 500m Schneefall ein, wobei der Niederschlagsschwerpunkt in den Ybbstaler und Türnitzer Alpen liegt, hier können bis Dienstagfrüh 10 - 20cm Neuschnee fallen. Dazu herrscht starker bis stürmischer Nordwestwind! Das Temperaturniveau sinkt etwas ab auf Nachmittagswerte um -8 Grad in 2000m, um -5 in 1500m und um -2 im 1000m.</wxSynopsisComment>
+          <tendencyComment>Der Nordwestwind bleibt die ganze Woche stürmisch, dazu gibt es etwas Neuschnee! Die Triebschneesituation steigt an! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

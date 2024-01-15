@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3443RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3443RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, in steilen Einfahrtsbereichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeprobleme sowie Triebschnee in hohen Lagen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Aus dem Steilgelände können sich nasse Lockerschneelawinen kleiner bis mittlerer Größe lösen, an sehr steilen Grashängen sind auch noch Gleitschneerutsche möglich. In Hochlagen gestalten sich mitunter noch einige Triebschneelinsen störanfällig. Diese existieren im erweiterten West- bis Nordsektor, hinter Geländekanten und in steilen Einfahrtsbereichen. </avActivityComment>
+          <snowpackStructureComment>Der in der vergangenen Woche gefallene Neuschnee konnte sich inzwischen gut setzen, der zuletzt oberhalb von ca. 1.400m gefallene Neuschnee ist pappig. Mit den wieder gestiegenen Temperaturen sowie dem Regeneintrag nimmt die Festigkeit der Schneedecke deutlich ab. Nur in sehr hohen Lagen liegt stellenweise noch störanfälliger Triebschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Das zuletzt wetterbestimmende Höhentief zieht langsam nach Westen ab, von Süden gelangen mildere, aber labile Luftmassen zu uns. Der Freitag bringt unbeständiges Bergwetter, wobei die Wolken mit dem Südostwind am ehesten entlang der Nordalpen auflockern können. Alpensüdseitig gelangen die Gipfel hingegen immer wieder in Nebel und speziell am Nachmittag entwickeln sich einzelne, teils gewittrige Schauer. Der Wind kommt schwach bis mäßig stark aus Südost bis Süd, am wärmsten wird es vom Toten Gebirge über das Dachsteingebiet bis zur Tauernnordseite mit Mittagswerten in 2.000m von +4 Grad und in 1.500m von +9 Grad. Etwas kühler bleibt es im übrigen Bergland mit 0 Grad bzw. 4 Grad.&#13;
+Der Samstag wird der beständigste Tag der Woche. Bei heiterem Wetter wird es ausgesprochen mild, die Frostgrenze steigt auf knapp 3.000m an.</wxSynopsisComment>
+          <tendencyComment>Unveränderte Lawinensituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3443RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3443RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, in steilen Einfahrtsbereichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeprobleme sowie Triebschnee in hohen Lagen beachten!</avActivityHighlights>
+          <avActivityComment>Am Freitag geht die Hauptgefahr von spontanen, nassen Lockerschneelawinen mittlerer Größe aus. Betroffen davon sind alle Expositionen. Die Gefahrenstellen durch Schneebrettlawinen beschränken sich hingegen auf die Hochlagen des erweiterten Nord- bis Westsektor, der noch störanfällige Triebschnee findet sich vor allem hinter Geländekanten sowie in Rinnen und Mulden.</avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung bis in größere Höhen wird der letzte Neuschnee vom Mittwoch/Donnerstag angefeuchtet und älterer Triebschnee verliert an Spannung. Weitere Windverfrachtungen bzw. Triebschneebildung findet nur mehr in ausgesprochenen Hochlagen statt. In mittleren Höhenlagen hat die Schneedecke durch den vergangene Regen an Stabilität verloren. </snowpackStructureComment>
+          <wxSynopsisComment>Das zuletzt wetterbestimmende Höhentief zieht langsam nach Westen ab, von Süden gelangen mildere, aber labile Luftmassen zu uns. Der Freitag bringt unbeständiges Bergwetter, wobei die Wolken mit dem Südostwind am ehesten entlang der Nordalpen auflockern können. Alpensüdseitig gelangen die Gipfel hingegen immer wieder in Nebel und speziell am Nachmittag entwickeln sich einzelne, teils gewittrige Schauer. Der Wind kommt schwach bis mäßig stark aus Südost bis Süd, am wärmsten wird es vom Toten Gebirge über das Dachsteingebiet bis zur Tauernnordseite mit Mittagswerten in 2.000m von +4 Grad und in 1.500m von +9 Grad. Etwas kühler bleibt es im übrigen Bergland mit 0 Grad bzw. 4 Grad.&#13;
+Der Samstag wird der beständigste Tag der Woche. Bei heiterem Wetter wird es ausgesprochen mild, die Frostgrenze steigt auf knapp 3.000m an.</wxSynopsisComment>
+          <tendencyComment>Unveränderte Lawinensituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

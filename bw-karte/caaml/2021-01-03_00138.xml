@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID138RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID138RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sehr geringe Schneehöhen – geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, allerdings können in Einfahrtsbereichen von Rinnen und hinter Geländekanten kleinräumige Gefahrenstellen durch Triebschnee existieren. Hier können schattseitig überwiegend durch große Zusatzbelastung kleine Schneebrettlawinen ausgelöst werden. Ansonsten sind die Kämme und Grate abgeblasen und eisig.</avActivityComment>
+          <snowpackStructureComment>Südseitig ist die Schneeauflage oft schon ausgeapert, in Kammnähe wurde durch den stetigen Südwind schattseitig störanfälliger Triebschnee eingefrachtet. Allgemein sind die Schneemengen zu gering für eine lohnende Skitour. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag stecken die Berge bis zum Abend meist in dichten Wolken, nur in den Ybbstaler Alpen können am Nachmittag ein paar Sonnenstrahlen dabei sein. Zeitweise schneit es unergiebig aus der Bewölkung. Es weht mäßiger Südwind und die Temperaturen liegen in 1500m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag ist etwas mehr Sonne möglich, aber am Nachmittag ziehen von Süden neuerlich dichte Wolken auf. Es bleibt kalt und trocken. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID138RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID138RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in den Schattseiten – mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig ansonsten mit gering bewertet. Die Gefahrenstellen befinden sich besonders in den Expositionen Nordwest über Nord bis Ost in Einfahrtsbereichen steiler Rinnen und hinter Geländekanten. Hier kann teils bereits die geringe Zusatzbelastung den Triebschnee stören und ein Schneebrett auslösen. Ansonsten sind die Kämme und Grate abgeblasen und eisig.</avActivityComment>
+          <snowpackStructureComment>Schattseitig über der Waldgrenze haben sich mit dem stetigen Südwind Triebschneelinsen abgelagert, welche durch eingelagerte weiche Schichten störanfällig sind. Südseitig hat sich die Schneeauflage gesetzt oder apert sogar bereits aus. Allgemein sind die Schneemengen zu gering für die Jahreszeit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag stecken die Berge bis zum Abend meist in dichten Wolken aus denen es zeitweise unergiebig schneien kann. Es weht mäßiger Südwind und die Temperaturen liegen in 1500m um -3 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Dienstag kann sich am Vormittag die Sonne zeigen, aber am Nachmittag ziehen von Süden neuerlich dichte Wolken auf. Es bleibt kalt und trocken. Die Lawinengefahr ändert sich nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

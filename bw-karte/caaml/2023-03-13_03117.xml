@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3117RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3117RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>etwa oberhalb ca. 1800 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Bereichen mit Regeneinfluss Rutsche und kleine nasse Lawinen; an glatten Grashängen kleine Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind in höheren Lagen störanfällig - in Bereichen mit Regen nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Frischer Triebschnee kann in höheren Lagen mit großer Zusatzbelastung als kleine bis mittlere Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen NW über N bis SE und in eingewehten Rinnen und Mulden. In Bereichen mit Regeneinfluss sind in allen Expositionen Rutsche und kleine nasse Lawinen zu erwarten. An steilen, glatten Grashängen sind auch kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>20 bis 30 cm Neuschnee fallen in höhern Lagen auf eine feuchte, kompakte und gesetzte Altschneedecke. Zeitweise starker Westwind führt zu Verfrachtungen und in höheren Lagen zu frischem Triebschnee. Frischer und älterer Triebschnee sind mit zunehmender Seehöhe störanfällig. Durch Regen, milde Temperaturen und verminderte nächtliche Abstrahlung wurde die Schneedecke bis in mittlere Lagen geschwächt.</snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Nach Föhnende in der Nacht trübt es ein und nach Mitternacht kommt teils kräftiger Regen  auf. Schnee fällt erst ab ca. 1600 m. Dienstag: Es schneit bei einer Schneefallgrenze zunächst um 1600 bis 1300 m. Der Niederschlag geht zum Nachmittag mehr in Schauerform über und die Schneefallgrenze sinkt bis zum Abend gegen 1000 m.  Temperatur in 2000m von -1 auf -6 Grad sinkend, Höhenwind: starker Westwind</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt erst noch Schneeschauer. Untertags lockert es zeitweise auf.  Mit -10 bis -8 Grad in 2000 m ist es sehr kalt.  Die Lawinengefahr ändert sich in höheren Lagen nicht wesentlich. Die Gefahr nasser Lawinen geht deutlich zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3117RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3117RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, hinter Geländeknicken, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Bereichen mit Regeneinfluss Rutsche und kleine nasse Lawinen; an glatten Grashängen kleine Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in hohen Lagen Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>In hohen Lagen besteht erhebliche Lawinengefahr. Frischer Triebschnee ist die Hauptgefahr. Gefahrenstellen sind im eingewehten Steilgelände, hinter Geländekanten sowie in Rinnen und Mulden anzutreffen. Solche nehmen untertags Umfang und Verbreitung zu. Kleine bis mittelgroße Schneebrettlawinen können durch einzelne Wintersportler ausgelöst werden. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. In Bereichen mit Regeneinfluss sind in allen Expositionen Rutsche und kleine nasse Lawinen zu erwarten. An steilen, glatten Grashängen sind auch kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>20 bis 30 cm Neuschnee fallen auf eine bis in höhere Lagen feuchte und überwiegend kompakte Altschneedecke und können sich gut mit dieser verbinden. Starker Wind führt in höheren Lagen zu Verfrachtungen und frischem Triebschnee. Mit zunehmender Seehöhe ist die Bindung innerhalb der Neu- und Triebschneeschichten und vor allem zur Altschneeoberfläche an schattseitigen Steilhängen teilweise nur mäßig bis schwach und daher störanfällig. An hochgelegenen, sehr steilen Schattenhängen weist die Schneedecke im Mittelteil teilweise noch ungünstige Schichten auf. Solche können jedoch meist nur mit großer Zusatzbelastung gestört werden. In Bereichen mit Regeneinfluss und durch verminderte nächtliche Abstrahlung ist die Schneedecke geschwächt.</snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Nach Föhnende in der Nacht trübt es ein und nach Mitternacht kommt teils kräftiger Regen  auf. Schnee fällt erst ab ca. 1600 m. Dienstag: Es schneit bei einer Schneefallgrenze zunächst um 1600 bis 1300 m. Der Niederschlag geht zum Nachmittag mehr in Schauerform über und die Schneefallgrenze sinkt bis zum Abend gegen 1000 m.  Temperatur in 2000m von -1 auf -6 Grad sinkend, Höhenwind: starker Westwind</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt erst noch Schneeschauer. Untertags lockert es zeitweise auf.  Mit -10 bis -8 Grad in 2000 m ist es sehr kalt.  Die Lawinengefahr ändert sich in höheren Lagen nicht wesentlich. Die Gefahr nasser Lawinen geht deutlich zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

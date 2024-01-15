@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2098RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-05T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2098RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-05T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-06T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bis in die Hochlagen hinein sind nasse Lawinen möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im bayerischen Alpenraum mäßig. In den Hochlagen ist frischer Triebschnee das Hauptproblem. Der einzelne Wintersportler kann stellenweise im kammnahen Steilgelände der Expositionen Nordwest über Nord bis Südost sowie in frisch eingewehten Rinnen und Mulden auch mittelgroße Schneebrettlawinen auslösen. &#13;
+Daneben besteht ein Nassschneeproblem. Bis in die Hochlagen hinein ist mit der Selbstauslösung mittelgroßer, nasser Lockerschnee- und Schneebrettlawinen aus felsdurchsetztem Steilgelände zu rechnen. In mittleren Lagen liegt der Schwerpunkt von Gleitschneelawinenabgängen an schattseitigen, schneereichen Hängen mit glatter Grasunterlage. Hänge mit Gleitschneerissen meiden, die Lawinen erreichen mittlere Größe.</avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Mittwoch erhält der bayerische Alpenraum oberhalb 1600m einen weiteren Neuschneezuwachs von bis zu 10cm, darunter regnet es. In den Hochlagen entstehen in exponierten Kamm- und Gipfellagen bei kräftigem Wind aus westlichen Richtungen frische Triebschneeansammlungen. Sie kommen auf lockeren Schneeschichten zu liegen und sind störanfällig. Zudem stellt die "Saharastaubschicht" eine potentielle Schwachschicht dar, dies vor allem in den Hochlagen. In mittleren Lagen kommt es mit milden Temperaturen und Regeneintrag zu einer weiteren Durchfeuchtung und Schwächung der Schneedecke. Vom Boden her ist die Schneedecke häufig nass.</snowpackStructureComment>
+          <tendencyComment>Nassschnee wird auch in den Hochlagen zum Problem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

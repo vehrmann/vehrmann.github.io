@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID455RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID455RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-21T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf rascher Anstieg der Gefahr von Gleit- und Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Nach einer klaren Nacht herrschen anfangs, mit einem tragfähigen Harschdeckel an der Oberfläche, recht gute Bedingungen. Rasch wird dieser aufgeweicht und die Schneedecke weiter durchfeuchtet was zu einem Festigkeitsverlust der Schneedecke führt. Die Gefahr von Nass- und Gleitschneelawinen steigt in Tagesverlauf rasch an. In hochalpinen Lagen können mit zunehmendem Südwestwind auch störanfälligere Triebschneeablagerungen entstehen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke kann bei klarer Nacht gut abstrahlen und es bildet sich ein tragfähiger Harschdeckel. Dieser wird bei milden Temperaturen und Sonneneinstrahlung bereits am späten Vormittag rasch aufgeweicht. Die Schneedecke wird weiter durchfeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet bestimmt derzeit das Wettergeschehen. Das sonnige und sehr milde Bergwetter setzt sich fort. Saharastaub könnte aber die Fernsicht trüben. Bei mäßigem Wind aus südwestlicher Richtung erreichen die Temperaturen in 2000 m +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Dienstag setzt sich das sonnige Bergwetter, bei dem die Fernsicht durch Saharastaub getrübt sein kann, fort. Es bleibt sehr mild.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID455RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID455RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-21T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf Anstieg der Gefahr von Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Nach einer klaren Nacht herrschen anfangs, mit einem tragfähigen Harschdeckel an der Oberfläche, recht gute Bedingungen. Rasch wird dieser aufgeweicht und die Schneedecke weiter durchfeuchtet was zu einem Festigkeitsverlust der Schneedecke führt. Die Lawinengefahr wird allgemein mit gering beurteilt.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke kann bei klarer Nacht wieder gut abstrahlen und es bildet sich ein tragfähiger Harschdeckel. Dieser wird bei milden Temperaturen und Sonneneinstrahlung rasch aufgeweicht und die Schneedecke durchfeuchtet sich weiter.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet bestimmt derzeit das Wettergeschehen. Das sonnige und sehr milde Bergwetter setzt sich fort. Saharastaub könnte aber die Fernsicht trüben. Bei mäßigem Wind aus südwestlicher Richtung erreichen die Temperaturen in 2000 m +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Dienstag setzt sich das sonnige Bergwetter, bei dem die Fernsicht durch Saharastaub getrübt sein kann, fort. Es bleibt sehr mild.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

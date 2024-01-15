@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2151RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-12T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2151RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-12T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-13T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-13T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-13T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit der tageszeitlichen Erwärmung sind nasse Lockerschnee- und Gleitschneelawinen möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Das vorherrschende Lawinenproblem ist Nassschnee. Mit zunehmender Erwärmung können sich aus dem extremen Steilgelände überall dort, wo noch ausreichend Schnee liegt, kleine bis mittelgroße, nasse Lockerschneelawinen von selbst lösen. Zudem sind Gleitschneelawinen an Steilhängen mit glattem Untergrund möglich. Gleitschneemäuler weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Mit zunehmender Bewölkung bildet sich in der Nacht ein dünner Harschdeckel, der bei warmen Temperaturen tagsüber schnell wieder aufweicht. Die Durchfeuchtung bzw. Durchnässung der Schneedecke schreitet voran, was Lockerschneelawinen und Gleitbewegungen begünstigt. Bis weit in die mittleren Lagen hinauf liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <tendencyComment>Tauwetter und Nassschnee für den Rest Woche.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID826RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID826RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumige Triebschneepakete über 2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Erwärmungsimpuls, aus steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschnee und ältere Triebschneebereiche beachten!</avActivityHighlights>
+          <avActivityComment>Bei anhaltend milden Temperaturen besteht speziell im sonnseitigen Gelände die Gefahr von spontanen Lockerschnee- und Schneebrettlawinen aus steilem sowie felsdurchsetztem Gelände, die je nach Sonneneinstrahlung bzw. Windeinwirkung im Tagesverlauf etwas zunimmt. An sehr steilen Grasmatten sind Gleitschneeaktivitäten nicht ausgeschlossen.&#13;
+Bestehende Triebschneebereiche konnten sich weiter entspannen und setzen. Im schattseitigen, kammnahen Steilgelände sowie in steilen Rinnen und Mulde vor allem über 2000m besteht weiterhin die Gefahr, kleine bis mittlere Schneebrettlawinen auszulösen. Bei starkem Föhn können frische, dünne Triebschneelinsen entstehen. Zuletzt entstandenen Wechten werden zunehmend instabil und können brechen.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Der Neu- bzw. Triebschnee der im Rahmen des Wintereinbruches der vergangenen Tage gefallen ist, konnte sich mit der markanten Erwärmung ab Freitag setzen und mit der verharschten Altschneedecke verbinden. In höheren Lagen hat die Schneedecke schattseitig noch Kältereserven, womit hier bestehende Triebschneebereiche mitunter weiterhin störanfällig sind, Schwachschichten existieren vorrangig im Übergang zum kompakten Altschnee. Zudem können sich im Lee föhnbedingt kleinere, frische Triebschneelinsen ablagern. Sonnseitig sowie in mittleren und tieferen Lagen gestaltet sich die Schneeauflage zunehmend feucht bis nass und verliert somit an Festigkeit. Über Nacht (Ausstrahlung) sowie durch zunehmenden Windeinfluss bildet sich oberflächig ein unterschiedlich mächtiger Deckel.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer aufgelockerten, teils wolkenfreien Nacht ziehen am Sonntag mit südwestlicher Strömung in der ersten Tageshälfte dichtere Wolkenfelder durch, am Nachmittag lockert es auf und es zeigt auch häufiger die Sonne. Der Südwestwind frischt auf und ist zu Beginn speziell im Osten, zunehmend in gesamten Bergland stark bis stürmisch. Die Temperaturwerte liegen in 2000m zwischen +2 und +5 Grad, in 1500m zwischen +4 und +7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag nehmen die Wolken von Westen her rasch zu, bevor am Nachmittag eine Kaltfront für eine markante und aus heutiger Sicht nachhaltige Abkühlung sowie Wind und Schneefall sorgt. Mit frischem Triebschnee wird die Lawinengefahr in den kommenden Tagen ansteigen!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID826RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID826RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur vereinzelt, in höhergelegenen Schattseiten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bei geringer Lawinengefahr vereinzelte Triebschneebereiche beachten</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Gefahrenstellen in Form von vereinzelten älteren Triebschneebereichen existieren noch im höhergelegenen, schattseitigen Steilgelände sowie in kammnahen Einfahrtsbereichen. Durch große Zusatzbelastung ist eine Auslösung kleiner Schneebrettlawinen möglich. Mit starker Föhneinwirkung können frische, dünne Triebschneelinsen entstehen.</avActivityComment>
+          <snowpackStructureComment>Die mancherorts dünne Neuschneeauflage, die Mitte der Woche gefallen ist, konnte sich mit der Erwärmung ab Freitag rasch mit der kompakten Altschneedecke verbinden, wurde feucht bzw. schmolz wieder weg. Nur vereinzelt existieren in den Schattseiten der Hochlagen aufgrund der existierenden Kältereserven noch dünne, störanfällige Triebschneebereiche, wobei sich die Schwachschicht meist im Übergang zum Altschnee auftritt. Mit den milden Temperaturen bzw. der Strahlung ist die Ausaperung in mittleren und tiefen Lagen vorangeschritten.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer südwestlichen Strömung überwiegen am Sonntag in den Bergen mittelhohe bis tiefe Wolken, aus denen es unergiebig tröpfeln bzw. schneien kann. Ab MIttag lockert es stellenweise etwas länger auf.  Der Südwestwind frischt auf und wird stark, an exponierten Bereichen stürmisch. In 2000m liegen die Temperaturwerte zwischen -1 und +2 Grad, in 1500m um +2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag nehmen die Wolken von Westen zu bevor am Nachmittag eine kräftige Kaltfront für aus heutiger Sicht nachhaltigen winterlichen Temperaturen, Nordwestwind und etwas Neuschnee sorgt. Die Lawinengefahr wird im Sinne des Triebschneeproblems ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

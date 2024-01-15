@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3326RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3326RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schlechte Sicht und teils ansprechbare Schwachschichten im Altschnee.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering, es gibt nur noch wenige Gefahrenstellen im Gelände. In steilen, schneereichen Hängen - im speziellen in  den erweiterten Expositionen Nord bis Ost - kann vereinzelt eine Schwachschicht im Altschnee angesprochen werden und somit eine Schneebrettlawine ausgelöst werden. Generell ist die Absturzgefahr größer als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt, verharscht und stabil. Wo bestehender Altschnee mit Trieb- und Neuschnee vom Wochenbeginn überdeckt wurde, konnte sich in den vergangenen Tagen eine dünne Schicht kantiger Kristalle entwickeln ("kalt auf warm"), welche als Schwachschicht für Schneebrettlawinen in Frage kommen kann. In mittleren und tiefen Lagen ist es großteils bereits aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Karfreitag stecken die Berggipfel die meiste Zeit in dichten Wolken, in den Ybbstaler Alpen kann es vormittags noch etwas sonnig sein. Die Wolkenfelder breiten sich von Osten her aus und im Bereich Semmering und Wechsel sowie über der Rax kann es zeitweise auch bis auf 700 m Seehöhe schneien. Der Wind kommt aus Nordwest und weht mäßig bis lebhaft. Auf &#13;
+1500 m Seehöhe erreicht die Temperatur etwa -2 Grad.&#13;
+In der Nacht auf Ostersamstag breitet sich der Schneefall bis in die Ybbstaler Alpen aus. Am Samstag herrscht tagsüber dichte Bewölkung und verbreitet Schneefall. Insgesamt werden maximal 10 cm Neuschnee erwartet. </wxSynopsisComment>
+          <tendencyComment>Frohe Ostern! Es wird keine wesentliche Änderung der Lawinengefahr erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

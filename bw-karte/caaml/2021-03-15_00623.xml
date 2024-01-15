@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID623RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID623RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, in Rinnen aller Richtungen, kammfern, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neuschnee mit der Seehöhe rasch zunehmend, auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Windeinfluss in den Hochlagen und teilweise ungünstige Unterlage</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist vom lichten Hochwald aufwärts ERHBLICH. Sie ist dabei maßgeblich von Neuschneesumme und Windeinfluss bestimmt. An vielen Stellen ist bereits bei geringer Zusatzbelastung ein mittelgroßes Schneebrett auslösbar. Gefahrenstellen gibt es in Rinnen aller Richtungen, in steilen von Nordwest über Nord und Ost bis Süd schauenden Hängen und insbesondere auch hinter kammfernen Geländekanten. Schlechte Sicht erschwert die Gefahrenbeurteilung. Anzahl und Ausdehnung der Gefahrenstellen nehmen im Tagesverlauf zu.&#13;
+Aus sehr steilen Triebschneebereichen sind auch spontan einige mittlere und mitunter große Lawinen möglich. Abgänge aus den Hochlagen können mit Staubanteil verbunden sein. Abseits gesicherter Bereiche ist Erfahrung in der Lawinenbeurteilung erforderlich.</avActivityComment>
+          <snowpackStructureComment>Seit Samstagabend hat es bereits verbreitet ergiebig geschneit, in Niederschlagspausen mit etwas Sonne konnte sich der Neuschnee am Montag sonnseitig ein wenig setzen. Der Schneefall war begleitet von starkem, bis stürmischem Wind aus vorwiegend West bis Nordwest, der Windeinfluss reichte zeitweise bis in den Hochwald. Die Tauern entlang überdeckt der Neuschnee den umfangreichen Föhntriebschnee vom Samstag. Mit dem sehr kalten Neuschnee und dem wiederum starken Windeinfluss nehmen die Spannungen am Dienstag in der Schneedecke weiter zu. Mögliche Bruchflächen gibt es sowohl innerhalb des frischen Triebschnees als auch in oberflächennahen Schwachschichten aus Oberflächenreif oder überwehtem lockerem Schnee auf den Harschkrusten, die die Altschneedecke abschließen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht schneit es anhaltend und zeitweise kräftig. Tagsüber dominiert am Dienstag schlechte Sicht und weiterhin kräftiger Schneefall. Bis Dienstagabend kommen in 24 Stunden nochmals verbreitet 30 bis 50 cm Neuschnee dazu. Im Lungau und insbesondere in den Nockbergen sind ein paar sonnige Auflockerungen möglich, dort schneit es abseits der Tauern deutlich weniger (5 bis 15 cm). Der Wind weht stark bis stürmisch aus West bis Nordwest. In 2000 m um -9 Grad, in 3000  m um -17 Grad.</wxSynopsisComment>
+          <tendencyComment>Bei anhaltend tiefen Temperaturen und Windeinfluss auch am Mittwoch Schneefall von Norden her und damit weiterhin angespannte Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID623RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID623RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee, Neuschnee mit der Seehöhe rasch zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, in Rinnen und steilen Mulden, umfangreicher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunehmende Gefahr durch Spontanlawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist vom lichten Hochwald ERHBLICH und steigt im Tagesverlauf in den Hochlagen auf GROß an. Die Auslösung von Schneebrettlawinen im Steilgelände wird schon bei geringer Zusatzbelastung zunehmend wahrscheinlich. Gefahrenstellen gibt es in Rinnen aller Richtungen, in steilen von Nordwest über Nord und Ost bis Süd schauenden Hängen und insbesondere auch hinter kammfernen Geländekanten. Schlechte Sicht erschwert die Gefahrenbeurteilung.&#13;
+Aus sehr steilen Triebschneebereichen sind auch spontan vermehrt mittlere und große Lawinen möglich. Abgänge aus den Hochlagen können mit Staubanteil verbunden sein und größere Reichweiten entwickeln. Die Verhältnisse abseits gesicherter Bereiche sind zunehmend ungünstig und erfordern große Erfahrung in der Lawinenbeurteilung und ausgezeichnete Ortskenntnis, da Lawinen auch aus nicht einsehbaren Geländekammern drohen können.</avActivityComment>
+          <snowpackStructureComment>Seit Samstagabend hat es bereits verbreitet ergiebig geschneit, die Einsinktiefen lagen am Montagmorgen bereits vielfach im Bereich von 50 bis 80 cm. In Niederschlagspausen mit etwas Sonne konnte sich der Neuschnee am Montag sonnseitig ein wenig setzen. Der Schneefall war in den Hochlagen begleitet von starkem, bis stürmischem Wind aus vorwiegend West bis Nordwest. Die Tauern entlang überdeckt der Neuschnee den umfangreichen Föhntriebschnee vom Samstag. Mit dem sehr kalten Neuschnee und dem wiederum starken Windeinfluss nehmen die Spannungen am Dienstag in der Schneedecke weiter zu. Mögliche Bruchflächen gibt es sowohl innerhalb des frischen Triebschnees als auch in oberflächennahen Schwachschichten aus Oberflächenreif oder überwehtem lockerem Schnee auf den Harschkrusten, die die Altschneedecke abschließen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht schneit es anhaltend und zeitweise kräftig. Tagsüber dominiert am Dienstag schlechte Sicht und weiterhin kräftiger Schneefal. Bis Dienstagabend kommen in 24 Stunden nochmals 50 bis 70 cm Neuschnee zusammen. Der Wind weht stark bis stürmisch aus West bis Nordwest. In 2000 m um -9 Grad, in 3000 m um -17 Grad.</wxSynopsisComment>
+          <tendencyComment>Bei anhaltend tiefen Temperaturen und Windeinfluss auch am Mittwoch Schneefall von Norden her und damit weiterhin angespannte Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID623RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID623RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Windeinfluss in den Hochlagen und teilweise ungünstige Unterlage</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist vom lichten Hochwald aufwärts ERHBLICH, darunter MÄßIG und maßgeblich vom Neuschnee und Windeinfluss bestimmt. An vielen Stellen ist bereits bei geringer Zusatzbelastung ein mittelgroßes Schneebrett auslösbar. Gefahrenstellen gibt es in Rinnen aller Richtungen, in steilen von Nordwest über Nord und Ost bis Süd schauenden, auch kammfernen Hängen.</avActivityComment>
+          <snowpackStructureComment>Der Schneefall vom Wochenende hat sich vor allem sonnseitig setzen können und wurde teilweise schon pappig. Durch starken bis stürmischen Wind aus vorwiegend West bis Nordwest, der zeitweise bis in den Hochwald reichte, gibt es Triebschneepakete in Rinnen und hinter kammfernen Geländekanten. Dazu kommen vor allem in Tauernnähe einige Zentimeter Neuschnee am Dienstag, die ebenfalls windbehandelt sind. Sie überdecken den Föhntriebschnee vom Samstag (Nordsektor) und ältere Einwehungen auf den Ostseiten. Mögliche Bruchflächen gibt es sowohl innerhalb des frischen Triebschnees als auch in oberflächennahen Schwachschichten der Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht schneit es zeitweise, insbesondere in Nähe zum Tauernhauptkamm. Bis Dienstagabend sind dort in 24 Stunden nochmals 20 bis 30  cm Neuschnee möglich, nach Süden zu wird der Neuschnee rasch weniger, in den Nockbergen fallen nur wenige Zentimeter. Dafür sind dort längere sonnige Auflockerungen möglich. Der Wind weht stark bis stürmisch aus West bis Nordwest. In 2000 m um -9 Grad, in 3000  m um -17 Grad.</wxSynopsisComment>
+          <tendencyComment>Bei anhaltend tiefen Temperaturen und Windeinfluss auch am Mittwoch keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1180RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1180RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht mäßige Lawinengefahr in den höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Von den Ybbstaler Alpen über die Gippel-Göller-Region bis hin zur Rax-Schneeberg-Gruppe herrscht in den höheren Lagen mäßige, ansonsten geringe Lawinengefahr! Es sollte der Triebschnee in den Hochlagen beachtet werden, der sich während der windstarken Phase gebildet hat. Eingewehte Bereiche finden sich vorrangig in den Expositionen Nord über Ost bis Südost sowie hinter Geländeübergängen oder in Einfahrten zu Rinnen und Mulden. Stellenweise kann ein (kleineres) Schneebrett bereits durch geringe Zusatzbelastung ausgelöst werden. An vereisten (oder nur dünn überschneiten) Hangbereichen besteht weiterhin Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>In den Ybbstaler Alpen sind seit Sonntagabend etwa 10, maximal 15 cm Neuschnee kalt gefallen, weiter ostwärts fielen die Mengen geringer aus. Durch die Windeinwirkung wurden ausgesetzte Geländeabschnitte abgeblasen und Hohlformen mit Triebschnee befüllt. Dieser bindet mit den harten, verharschten Unterlagen nicht gut, stellenweise wirken weichere Einlagerungen und überdeckter Reif als Schwachschichten. Tiefe Temperaturen konservieren die Gefahrenstellen, in abgeschatteten Bereichen der Hochlagen können vereinzelt Schwachschichten auch in der Altschneedecke existieren bzw. sich ausbilden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwochmorgen kann es zunächst stellenweise noch dichtere, tiefe Wolken geben. Sie lockern aber in weiterer Folge überall auf und somit kommt die Sonne zum Vorschein. Es weht schwacher bis mäßiger Wind aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen um -7 Grad in 1500m und -8 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag muss mit mehr Wolken gerechnet werden. Zudem legt auch der Wind zu und weht stark bis stürmisch aus westlichen Richtungen. Die Temperaturen erreichen in 1500m etwa +2 Grad, auch mittelfristig hält sich diese milde, niederschlagsfreie Wetterphase. Die Schneedecke wird sich setzen können und die Lawinengefahr somit langfristig abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1180RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1180RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Türnitzer über die Gutensteiner Alpen bis hin zur Semmering-Wechsel-Region herrscht geringe Lawinengefahr. Vereinzelt haben dich während der windstarken Phase Gefahrenstellen in Form von Triebschneelinsen gebildet. Dies trifft hauptsächlich das kammnahe Gelände der Hochlagen.</avActivityComment>
+          <snowpackStructureComment>Bis maximal knapp 10cm Neuschnee sind in den Türnitzer Alpen seit Sonntagabend gefallen, weiter ostwärts fielen die Mengen geringer aus. In den Hochlagen haben sich in der windstarken Phase Triebschneelinsen gebildet, die meist hart verharschte Unterlagen, stellenweise auch Reif, überdecken und von den tiefen Temperaturen konserviert werden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwochmorgen kann es zunächst stellenweise noch dichtere, tiefe Wolken geben. Sie lockern aber in weiterer Folge überall auf und somit kommt die Sonne zum Vorschein. Es weht schwacher bis mäßiger Wind aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen um -7 Grad in 1500m und -8 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag muss mit mehr Wolken gerechnet werden. Zudem legt auch der Wind zu und weht stark bis stürmisch aus westlichen Richtungen. Die Temperaturen erreichen in 1500m etwa +2 Grad, auch mittelfristig hält sich diese milde, niederschlagsfreie Wetterphase. Die Schneedecke wird sich setzen können und die Lawinengefahr somit langfristig abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

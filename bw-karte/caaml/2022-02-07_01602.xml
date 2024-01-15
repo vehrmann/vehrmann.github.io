@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1602RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T06:18:56+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1602RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T06:18:56+00:00</beginPosition>
+          <endPosition>2022-02-08T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Kammlagen, eingewehtem Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>über 1600m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>abseits gesicherter Bereiche heikle Situation mit großer Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Mit dem Neuschnee und den stürmischen Winden hat sich die Lawinensituation verschärft. Die umfangreichen Triebschneeansammlungen bilden die Hauptgefahr. Lawinen können bereits durch geringe Zusatzbelastungen und auch spontan abgehen. Auch Fernauslösungen sind möglich. Lawinen können auch die Altschneedecke mitreißen und groß werden. Die Gefahrenstellen liegen in allen Expositionen über 1600m und sind durch die schlechte Sicht nur schwer erkennbar. Risse und Wummgeräusche sind Alarmzeichen und deuten auf die Gefahr hin. Aktivitäten abseits gesicherter Bereiche erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Unerfahrene sollten daher gesicherte Pisten nicht verlassen. In den schneereichen Gebieten sind Gleitschneelawinen und Rutsche möglich.&#13;
+</avActivityComment>
+          <snowpackStructureComment>In der Nacht sind bis zu 40cm Neuschnee gefallen. Mit den stürmischen Winden aus west bis südlichen Richtungen - mit teils orkanartigen Böen bis 150km/h - wurden große Schneemengen verfrachtet und bilden frische störanfällige Triebschneeansammlungen. Die Verbindung zur darunterliegenden Altschneedecke ist schlecht und störanfällig. Vor allem in höheren Lagen der Expositionen West über Nord bis Ost liegt der Triebschnee auf weichen Schichten, die Verbindung ist schwach und Lawinen leicht auslösbar. Im Tagesverlauf wachsen die Triebschneeansammlungen nochmals an. In der Altschneedecke, vor allem in schattseitigen Lagen sind lockere Altschnee- und eingelagerte Graupelschichten zu finden, die vor allem bei größeren Zusatzbelastungen noch störanfällig sind.</snowpackStructureComment>
+          <wxSynopsisComment>Widriges Bergwetter: Mit eisigem, stürmischem Nordwestwind staut sich feuchte Luft an den Bergen. Aus kompakten Wolken schneit es aber tagsüber meist nur mehr leicht. Es ist kalt. Temperatur in 2000m: um -9 Grad, Höhenwind: schwerer Sturm aus Nord bis Nordwest, der im Tagesverlauf etwas nachlässt.</wxSynopsisComment>
+          <tendencyComment>Mit dem stürmischem Wind wachsen die Triebschneeansammlungen an, die Lawinengefahr bleibt heikel.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

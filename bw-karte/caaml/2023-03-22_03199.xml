@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3199RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3199RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-22T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-22T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-22T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf ansteigende Lawinengefahr in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf über 1500 m Seehöhe von gering auf mäßig an. Aus steilem felsdurchsetztem Gelände ist besonders sonnseitig mit kleinen bis mittleren spontanen Nassschneelawinen zu rechnen. Bei starker Durchnässung sind auch nasse Schneebrett- oder Gleitschneelawinen nicht auszuschließen. Offen Schneemäuler sind als Gefahrenzeichen zu werten und Bereiche darunter sollen gemieden werden. Generell sollten Touren eher frühzeitig beendet werden.</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltend warmen Temperaturen wurde die Schneedecke besonders sonnseitig bis in hohe Lagen angefeuchtet, mittlere Lagen apern bereits aus. Kältereserven in der Schneedecke existieren nur mehr in den schattigen Hochlagen. Hier gibt es im Altschnee noch vereinzelt Schichten aus kantigen Kristallen, welche bei Durchfeuchtung als Schwachschichten aktiviert werden können. Im Laufe des Tages wird der Schnee wieder schnell feucht bzw. durchnässt und dadurch destabilisiert. Auf glattem Untergrund nimmt das Schneegleiten wieder zu.  </snowpackStructureComment>
+          <wxSynopsisComment>In den steirischen Bergen ist es am Donnerstagvormittag noch sonnig, im Tagesverlauf aber werden die Wolken von Nordwesten her dichter. Niederschlag ist nicht zu erwarten. Der Wind weht mäßig bis lebhaft auf den Gipfeln aus westlichen Richtungen. Die Temperaturen liegen in 2000 m um +5 Grad, in 1500 m um +10 Grad. &#13;
+Am Freitag ziehen dichtere Wolkenfelder durch, dazwischen lockert es mit teils lebhaftem Südwestwind auf. Im Laufe des Nachmittags zieht von Nordwesten eine Kaltfront heran, die eine Abkühlung und verbreitet Niederschlag für Freitagnacht und Samstag mitbringt.</wxSynopsisComment>
+          <tendencyComment>Am Freitag gilt der Nassschnee noch als Hauptproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3199RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3199RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - Zunehmende Nassschneeproblematik!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, steigt aber im Tagesverlauf leicht an. Sonnseitig ist trotz geringer Schneemengen aus steilem, felsdurchsetztem Gelände noch mit kleinen spontanen Nassschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltend warmen Temperaturen und die Einstrahlung sind speziell die südexponierten Hänge teils bereits bis in die Hochlagen aper, nur Rinnen sind noch schneegefüllt. Diese übrige Schneedecke ist überwiegend feucht und kühlt auch in der Nacht nicht ausreichend ab, nur mehr in schattigen Hochlagen existieren noch geringe Kältereserven. Bereits im Laufe des Vormittages taut der oberflächliche dünne Schmelzharschdeckel schnell wieder auf, die Schneedecke durchnässt weiter und wird instabil. Auf glattem Untergrund nimmt das Schneegleiten wieder zu.</snowpackStructureComment>
+          <wxSynopsisComment>In den steirischen Bergen ist es am Donnerstagvormittag noch sonnig, im Tagesverlauf aber werden die Wolken von Nordwesten her dichter. Niederschlag ist nicht zu erwarten. Der Wind weht mäßig bis lebhaft auf den Gipfeln aus westlichen Richtungen. Die Temperaturen liegen in 2000 m um +5 Grad, in 1500 m um +10 Grad.&#13;
+Am Freitag ziehen dichtere Wolkenfelder durch, dazwischen lockert es mit teils lebhaftem Südwestwind auf. Im Laufe des Nachmittags zieht von Nordwesten eine Kaltfront heran, die eine Abkühlung und verbreitet Niederschlag für Freitagnacht und Samstag mitbringt.</wxSynopsisComment>
+          <tendencyComment>Am Freitag ist der Nassschnee noch das Hauptproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

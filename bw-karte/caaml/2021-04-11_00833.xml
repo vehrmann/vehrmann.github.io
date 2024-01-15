@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID833RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID833RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab Montag Nachmittag führt frischer Triebschnee zu mäßiger Lawinengefahr in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Ab Montagnachmittag steigt die Lawinengefahr wegen frischem Triebschnee oberhalb der Waldgrenze auf mäßig an. Betroffen sind vorwiegend die Expositionen Ost und Süd und allgemein die Bereiche im Lee von Geländekanten und die Einfahrten zu Rinnen und Mulden. Hier können durch große - vereinzelt auch durch geringe - Zusatzbelastung Schneebrettlawinen ausgelöst werden.  </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist allgemein stabil, der Neu- und Triebschnee der vergangenen Woche hat sich gut mit dem Altschnee verbunden. Außer schattseitig in den Hochlagen ist die Altschneeoberfläche feucht oder verharscht. Ab Montagnachmittag kommt es darauf erneut zu erheblichen Triebschneeablagerungen im Ost- bis Südsektor. Innerhalb der frischen Triebschneeauflage und vereinzelt auch im Übergang zum Altschnee sind Schwachschichten zu erwarten. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag kündigt sich ein neuerlicher Wintereinbruch bereits am Vormittag durch von Westen her aufziehende Wolken an. Der Nordwestwind wird zunehmend stürmisch, die Sichtbedingen auf Gipfelniveau werden schlecht und am Nachmittag setzt Niederschlag ein. Die Schneefallgrenze sinkt ab Mittag rasch bis auf Talniveau ab. Starker Schneefall und stürmischer Wind dauern den Dienstag über an und lassen voraussichtlich erst am Mittwoch (kurzzeitig) nach.  Es werden bis Mittwoch bis zu 35 cm Neuschnee erwartet.</wxSynopsisComment>
+          <tendencyComment>Voraussichtlich hält das winterliche Wetter bis zu Wochenende an und es ist mit weiterem Neuschnee zu rechnen. Die Triebschneeproblematik bleibt bestehen.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID833RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID833RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Wind, vereinzelt ist frischer Triebschnee zu beachten, aber generell herrscht geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Es herrscht generell geringe Lawinengefahr, allerdings ist ab Dienstag stellenweise auf frischen Triebschnee zu achten. Vereinzelte Gefahrenstellen finden sich insbesondere in Einfahrten zu Rinnen und Mulden in den Expositionen Ost bis Süd.  </avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist - wo vorhanden - je nach Höhenlage nass oder verharscht. Darauf fallen von Montag bis Mittwoch bis zu 25 cm Neuschnee bei stürmischem Nordwestwind. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Am Montag kündigt sich ein neuerlicher Wintereinbruch bereits am Vormittag durch von Westen her aufziehende Wolken an. Der Nordwestwind wird zunehmend stürmisch, die Sichtbedingen auf Gipfelniveau werden schlecht und am Nachmittag setzt Niederschlag ein. Die Schneefallgrenze sinkt ab Mittag rasch bis auf Talniveau ab. Starker Schneefall und stürmischer Wind dauern den Dienstag über an und lassen voraussichtlich erst am Mittwoch (kurzzeitig) nach.  </wxSynopsisComment>
+          <tendencyComment>Voraussichtlich hält das winterliche Wetter bis zu Wochenende an und es ist mit weiterem Neuschnee zu rechnen. Die Triebschneeproblematik bleibt bestehen.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

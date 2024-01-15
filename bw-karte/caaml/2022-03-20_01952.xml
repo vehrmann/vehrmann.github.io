@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1952RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1952RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>im Tagesverlauf langsam zunehmend</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, zunehmend nasse Rutsche aus sonnenbeschienenen Hängen möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in sämtlichen Niederösterreichischen Gebirgsgruppen als gering bewertet. Die Verhältnisse sind prinzipiell recht günstig. In den abgeschatteten Steilhängen der erweiterten Nordexpositionen besteht noch ein Altschneeproblem, hier sind vereinzelte Schneebrettauslösungen (insbesondere unter großer Zusatzbelastung) noch denkbar. Lokal haben sich am Sonntag in höheren Lagen, in Nord- und Westexpositionen geringmächtige Triebschneepakete gebildet, die vorübergehend störanfällig sein können. Ansonsten sind im steilen Wald- und Wiesenbereich im Tagesverlauf langsam zunehmend vereinzelte nasse (Gleitschnee-) Rutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Während der klaren Nachtstunden kann sich die Schneedecke noch einmal ausstrahlungsbedingt verfestigen. Durch die zunehmende Temperaturmilderung von Westen her, wird die Schneeoberfläche in den östlichen Gebirgsgruppen länger verfestigt und tragfähig bleiben, während sie in den Ybbstaler- und Türnitzer Alpen bereits im Laufe des Vormittags langsam an Festigkeit verliert. Aufgrund der recht trockenen Luftmasse wird der Stabilitätsverlust vorrangig die sonnenbeschienenen Hänge betreffen. In den abgeschatteten Hangbereichen schwächen nach wie vor aufbauend umgewandelte, kantige und lockere Zwischenschichten den Aufbau der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Die neue Woche startet auf den Bergen Niederösterreichs strahlend sonnig. Aufgrund der recht trockenen Luft gibt es verbreitet gute Fernsichtbedingungen. Der Wind weht mäßig bis lebhaft aus Südost. Es wird zunehmend milder als zuletzt, in 1500m Seehöhe sind zu Mittag im Rax-Schneeberggebiet rund 0 Grad zu erwarten, weiter westlich in den Ybbstaler und Türnitzer Alpen ist es bereits etwas milder bei Temperaturen um 2 Grad. In 2000 m nur leicht negative Temperaturen. </wxSynopsisComment>
+          <tendencyComment>Die Temperaturmilderung in der Höhe hält auch am Dienstag an bzw. nimmt sogar noch zu. In 1500 m werden rund 5 Grad erreicht. Dazu strahlt die Sonne ungestört vom großteils wolkenlosen Himmel. Mit weiterer Erwärmung und viel Sonnenschein nimmt die Durchfeuchtung der Schneedecke zu. Langsame Zunahme der Lawinengefahr aufgrund von Nassschneelawinenaktivität.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

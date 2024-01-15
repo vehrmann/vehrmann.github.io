@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2705RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2705RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer Triebschnee, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneepakete durch Nordföhn</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Frische Triebschneepakete bilden sich am Freitag im Südsektor, aber auch ältere Triebschneeansammlungen sind noch ansprechbar. Triebschnee kann bereits durch geringe Zusatzbelastung als Schneebrett mittlerer Größe ausgelöst werden. Die meisten Gefahrenstellen gibt es in den Sektoren von West über Süd bis Südost sowohl kammnah als auch kammfern sowie in steilen Rinnen aller Richtungen.</avActivityComment>
+          <snowpackStructureComment>Der zu Wochenbeginn gefallene Schnee hat sich gesetzt, ist aber noch locker. Durch die klaren Nächte konnte sich Oberflächenreif bilden, der durch den auffrischendem Nordwind mit Triebschnee überdeckt wird. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Älterer Triebschnee liegt in Rinnen und windabgewandte Mulden und ist oft überschneit. Die Verbindung zwischen dem bei milderen Temperaturen gefallenem Schnee und dem kalten Schnee darunter ist noch schlecht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Berge meist in dichten, nebelartigen Wolken. In den Lungauer Nockbergen gibt es längere trockene Phasen, dort weht allerdings lebhafter Nordföhn. In 2000m liegen die Temperaturen bei rund -11 Grad.&#13;
+Auch am Samstag liegen meist dichte Wolken über den Bergen, nur die höchsten Gipfel liegen im Sonnenschein. Der leichte Schnefall legt sich im Laufe des Tages.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2705RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2705RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frischer Triebschnee in kammnahen Lagen, hochalpin auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ungünstiger Schneedeckenaufbau: aufbauende Umwandlung, harte Krusten, eingelagerter Reif</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen in Rinnen und vor allem kammnahen Steilhängen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Der aus verschiedenen Richtungen kommende Wind der vergangenen Tage hat östlich bis nordwestlich ausgerichtete Hänge eingeblasen. Ein Schneebrett mittlerer Größe ist im Steilgelände bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen gibt es kammnah, hochalpin auch kammfern, sowie in steilen Rinnen und Mulden. In hochalpinen Lagen können oberflächliche Lawinen auch in tiefere Schichten der Altschneedecke durchreißen und größere Ausmaße annehmen.</avActivityComment>
+          <snowpackStructureComment>Der am Wochenende gefallene Schnee hat sich gesetzt, ist aber noch locker. Durch die klaren Nächte konnte sich Oberflächenreif bilden, der mit dem leichten Schneefall etwas überschneit wird. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Vor allem schattseitige Triebschneeansammlungen sind noch nicht ausreichend mit der Altschneedecke verbunden. Als Bruchfläche für Schneebretter kommt in erster Linie der sehr kalte und lockere überwehte Schnee in Frage. Daneben gibt es in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Berge meist in dichten, nebelartigen Wolken. Zwischen den Loferer Steinbergen, über das Tennengebirge bis ins Salzkammergut schneit es zeitweise, sonst bleibt es meist trocken oder auf nur einzelne Flocken beschränkt. Der Wind bleibt meist schwach. In 2000m liegen die Temperaturen bei rund -11 Grad, in 3000m bei -12 Grad.&#13;
+Auch am Samstag liegen meist dichte Wolken über den Bergen, nur die höchsten Gipfel liegen im Sonnenschein. Der leichte Schnefall legt sich im Laufe des Tages.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2705RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2705RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer Triebschnee, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneepakete durch Nordföhn</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oderhalb der Waldgrenze MÄßIG, darunter GERING. Frische Triebschneepakete bilden sich am Freitag im Südsektor, aber auch ältere Triebschneeansammlungen sind noch ansprechbar. Ein Schneebrett mittlerer Größe kann im Steilgelände bereits bei geringer Zusatzbelastung ausgelöst werden. Gefahrenstellen gibt es vor allem kammnah, sowie in steilen Rinnen und windabgewandten Mulden.  In hochalpinen Lagen können oberflächliche Lawinen - Gefahrenstellen dort auch kammfern - auch in tiefere Schichten der Altschneedecke durchreißen und größere Ausmaße annehmen. </avActivityComment>
+          <snowpackStructureComment>Der zu Wochenbeginn gefallene Schnee hat sich gesetzt, ist aber noch locker. Durch die klaren Nächte konnte sich Oberflächenreif bilden, der durch den auffrischendem Nordwind mit Triebschnee überdeckt wird. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Vor allem schattseitige Triebschneeansammlungen sind noch nicht ausreichend mit der Altschneedecke verbunden. Als Bruchfläche für Schneebretter kommt in erster Linie der sehr kalte und lockere überwehte Schnee in Frage. Daneben gibt es auch in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Berge meist in dichten, nebelartigen Wolken. Zwischen den Loferer Steinbergen, über das Tennengebirge bis ins Salzkammergut schneit es zeitweise, sonst bleibt es meist trocken oder auf nur einzelne Flocken beschränkt. Der Wind bleibt meist schwach, südlich des Alpenhauptkamms weht lebhafter Nordföhn. In 2000m liegen die Temperaturen bei rund -11 Grad, in 3000m bei -12 Grad.&#13;
+Auch am Samstag liegen meist dichte Wolken über den Bergen, nur die höchsten Gipfel liegen im Sonnenschein. Der leichte Schnefall legt sich im Laufe des Tages.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2705RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2705RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>überschneite Triebschneeansammlungen, kammnah, nicht erkennbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Zentimeter Neuschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Triebschneeansammlungen befinden sich kammnah, hochalpin auch hinter kammfernen Geländekanten, vermehrt auf den West-, Süd- und Südostseiten sowie in steilen Rinnen und Mulden. Sie sind teilweise eingeschneit und damit schwer erkennbar. Ein Schneebrett mittlerer Größe ist im Steilgelände bereits bei geringer Zusatzbelastung auslösbar. </avActivityComment>
+          <snowpackStructureComment>Der am Wochenende bzw. zu Wochenbeginn gefallene Schnee hat sich gesetzt,   ist aber besonders schattseitig noch locker. Durch die zuletzt klaren Nächte konnte sich Oberflächenreif bilden, der von den wenigen Zentimeter Neuschnee eingeschneit wird. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Ältere Triebschneeansammlungen sind teilweise noch nicht ausreichend mit dem Schneefundament verbunden. Als Bruchfläche für Schneebretter kommt in erster Linie überwehter, lockerer Schnee in Frage. Daneben gibt es in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Berge meist in dichten, nebelartigen Wolken. Zwischen den Loferer Steinbergen, über das Tennengebirge bis ins Salzkammergut schneit es zeitweise, sonst bleibt es meist trocken oder auf nur einzelne Flocken beschränkt. Der Wind bleibt meist schwach. In 2000m liegen die Temperaturen bei rund -11 Grad, in 3000m bei -12 Grad.&#13;
+Auch am Samstag liegen meist dichte Wolken über den Bergen, nur die höchsten Gipfel liegen im Sonnenschein. Der leichte Schnefall legt sich im Laufe des Tages.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3522RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3522RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>je nach Neu- Triebschneemengen spontane Lawinenaktivität im Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Übers Wochenende herrscht erhebliche Lawinengefahr durch ergiebigen Neuschnee und umfangreichen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Schneebrettgefahr wird über der Waldgrenze, vor allem aber in den Hochlagen als erheblich eingestuft. In eingewehten steilen Hängen fast aller Expositionen und hinter Geländekanten sind Auslösungen von kleinen bis mittleren Schneebrettlawinen bereits bei geringer Zusatzbelastung, je nach Neuschneemenge und Einfrachtungen auch einzelne spontane Lawinen im Steilgelände möglich. Verfüllte steile Mulden und Rinnen sowie eingefrachtete Steilhänge sind zu meiden.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Bereits am Freitag hat es ab den mittleren Höhenlagen rund 30 cm, in höheren Lagen auch mehr Neuschnee gegeben, der durch starken bis stürmischen Wind aus West bis Nordwest umfangreich verfrachtet wurde. In den Triebschneepaketen können möglicherweise Schwachschichten eingelagert sein. Am Samstag und Sonntag sind weitere Schneefälle und Verfrachtungen angekündigt. Der Neu- bzw. Triebschnee liegt ab rund 2000 m Höhe auf einer bereits vorhandenen weitgehend durchgehender geringmächtigen oberflächig teils verharschten Altschneedecke, darunter auf dünnen Altschneeresten und in tiefen, bis teils mittleren Lagen hat es neu eingeschneit.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer Kaltfront am Freitag haben sich rasch kräftige Schneeschauer ausgebreitet. Die Schneefallgrenze sank bis in tiefe Lagen ab. Der Wind weht stark bis stürmisch, im Hochgebirge am Vormittag teils noch mit Orkanböen aus West bis Nordwest. In 1500 m Abkühlung von 0 auf -5 Grad, in 2000 m von -5 auf -12 Grad.&#13;
+Am Samstag schneit es im Bereich der Alpen vorerst noch aus dichten Wolken. Über die Mittagsstunden machen die Schneeschauer Pausen, bevor am späteren Abend wieder mehr Schneeschauer aufkommen. Der West- bis Nordwestwind weht lebhaft und erreicht Spitzen um 60 km/h. In 1500 m -7 Grad, in 2000 m um -14 Grad.&#13;
+Am Sonntag setzt sich das sehr windige und kalte Bergwetter fort. Meist überwiegen die Wolken und vor allem am Vormittag ziehen im Bereich der Alpen etliche Schneeschauer durch. Der Nordwestwind erreicht Spitzen um 60 km/h. In 1500 m beträgt die Temperatur um -8 Grad, in 2000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Es bleibt kalt und winterlich. Daher ist keine wesentliche Änderung der Lawinengefahr in den kommenden Tagen zu erwarten.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

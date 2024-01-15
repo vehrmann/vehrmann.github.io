@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID752RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID752RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Lawinengefahr steigt im Tagesverlauf auf mäßig an!</avActivityHighlights>
+          <avActivityComment>Bei Frühjahrsverhältnissen unterliegt die Lawinengefahr einem raschen Tagesgang. Durch die Kombination aus zeitweiliger Sonneneinstrahlung und Tageserwärmung können sich aus dem Steilgelände spontane Nassschneelawinen lösen. Vereinzelt können sie durchaus auch größere Ausmaße erreichen. Auf steilen Wiesenhängen sind zudem einzelne Gleitschneeabgänge möglich. In höheren, abgeschatteten Lagen existieren noch vereinzelte Gefahrenstellen in Form von älterem Triebschnee, hier kann eine Schneebrettauslösung bei großer Zusatzbelastung erfolgen.</avActivityComment>
+          <snowpackStructureComment>Die Tageserwärmung und zeitweilige Sonneneinstrahlung bauen den nächtlichen Festigkeitsgewinn ab und führen zur Anfeuchtung bzw. Durchnässung der Schneedecke. Nassschneeauslösungen sowie vereinzelte Gleitschneeabgänge auf einem bodennahen Schmierfilm im Bereich von Wiesenhängen können die Folge sein. In abgeschatteten und hochalpinen Bereichen bestehen noch Kältereserven, hier ist älterer Triebschnee stellenweise noch störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist es zwischenzeitlich recht sonnig, allerdings ziehen immer wieder mittelhohe und hohe Wolkenfelder durch und es kommt zur Quellwolkenbildung. Dabei sind auch vereinzelte, kurze Regenschauer nicht ganz ausgeschlossen. Der Wind aus nordwestlichen Richtungen legt im Tagesverlauf zu und weht am späteren Nachmittag mitunter stark bis stürmisch. Die Temperaturen liegen um Mittag bei +11 Grad in 1500m und +6 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Freitag sind speziell in den nördlichen Gebirgsgruppen Schauer möglich, in den hochalpinen Lagen können sich frische Triebschneelinsen bilden. Auch tagsüber erwartet uns am Freitag etwas durchwachsenes und unbeständiges Wetter. Tiefe und mittlere Wolken wechseln mit kurzzeitigen sonnigen Phasen, zwischenzeitliche Schauer sind überall möglich. Die Temperaturen gehen in den folgenden Tagen sukzessive zurück, damit einhergehend wird auch die Nassschneeproblematik abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID752RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID752RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Lawinengefahr steigt im Tagesverlauf zum Teil auf mäßig an!</avActivityHighlights>
+          <avActivityComment>Bei Frühjahrsverhältnissen unterliegt die Lawinengefahr einem Tagesgang und steigt in höheren, noch schneereicheren Bereichen auf mäßig an. Mit der Tageserwärmung und zeitweiliger Sonneneinstrahlung gilt es im Laufe des Tages auf Nassschneelawinen, die sich aus dem Steilgelände lösen können, zu achten.</avActivityComment>
+          <snowpackStructureComment>Der nächtliche Festigkeitsgewinn wird im Tagesverlauf abgebaut und die Schneedecke angefeuchtet bzw. durchnässt. Mit dieser Destabilisierung geht die Möglichkeit von spontanen Nassschneeauslösungen einher. In dieser Region liegt generell wenig Schnee und die Ausaperung schreitet durch die milde Witterung weiter voran.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist es zwischenzeitlich recht sonnig, allerdings ziehen immer wieder mittelhohe und hohe Wolkenfelder durch und es kommt zur Quellwolkenbildung. Dabei sind auch vereinzelte, kurze Regenschauer nicht ganz ausgeschlossen. Der Wind aus nordwestlichen Richtungen legt im Tagesverlauf zu und weht am späteren Nachmittag mitunter stark bis stürmisch. Die Temperaturen liegen um Mittag bei +11 Grad in 1500m und +6 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Freitag sind speziell in den nördlichen Gebirgsgruppen Schauer möglich. Auch tagsüber erwartet uns am Freitag etwas durchwachsenes und unbeständiges Wetter. Tiefe und mittlere Wolken wechseln mit kurzzeitigen sonnigen Phasen, zwischenzeitliche Schauer sind überall möglich. Die Temperaturen gehen in den folgenden Tagen sukzessive zurück, damit einhergehend wird auch die Nassschneeproblematik abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

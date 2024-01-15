@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1425RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1425RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>frischer Triebschnee oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee - mäßige Schneebrettgefahr im tageszeitlichem Anstieg!</avActivityHighlights>
+          <avActivityComment>Mit dem einsetzenden Schneefall und starken bis stürmischen Wind steigt die Schneebrettgefahr im Tagesgang ab der Waldgrenze an und Anzahl sowie Umfang der Gefahrenstellen nehmen mit der Höhe zu. Frische Verfrachtungen sind dann bereits bei geringer Zusatzbelastung auslösbar. Kammnahe und eingefrachtete Steilhänge, steile Mulden und Rinnen fast aller Expositionen sind zu beachten. </avActivityComment>
+          <snowpackStructureComment>Neuschnee und Sturm bilden frische störanfällige Verfrachtungen, die auf einer gut gesetzten, hochalpin schattseitig teils auch noch oberflächig lockeren, sonnseitig verharschten sonst harten Altschneedecke liegen und schlecht binden. Eingelagerte dünne kantige, weiche oder harte Schichten oder teils Oberflächenreif können als Schwachschichten fungieren. Von Wind abgewehte Bereiche sind oft vereist und hart.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag herrschen schlechte Bedingungen auf den Bergen. Im südlichen Bergland schneit es zum Teil kräftig und die Sicht ist durch dichte Wolken eingeschränkt. Es weht starker bis stürmischer Westwind. In 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Der Freitag bringt schlechte Sicht durch dichte Wolken, aus denen es in den Nord- und Kalkalpen teils stärker schneit. Der Wind weht stark bis stürmisch aus Nordwest. In 1500 m um -10 Grad, in 2000 m um -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Durch teils starken Schneefall mit Sturm steigt die Lawinengefahr weiter an und auf Triebschnee sowie spontane Lawinen ist zu achten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1425RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1425RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumige Triebschneepakete in Gipfellagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee - teils mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist meist gering, bei frischen Verfrachtungen im Tagesverlauf dann aber mäßig. In frisch eingewehten steilen Gipfellagen und lichten Bergwald ist auf Triebschnee zu achten, der als kleine Schneebrettlawinen durch geringe Zusatzbelastung ausgelöst werden kann.</avActivityComment>
+          <snowpackStructureComment>Einsetzender Schneefall und Sturm bilden frische Verfrachtungen, die auf einer gut gesetzten harten, nur teils lockeren Altschneedecke zu liegen kommen. Vorerst ist eine meist nur geringmächtige Schneedecke vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag herrschen schlechte Bedingungen auf den Bergen. Im südlichen Bergland schneit es zum Teil kräftig und die Sicht ist durch dichte Wolken eingeschränkt. Es weht starker bis stürmischer Westwind. In 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Der Freitag bringt schlechte Sicht durch dichte Wolken, aus denen es in den Nord- und Kalkalpen teils stärker schneit. Der Wind weht stark bis stürmisch aus Nordwest. In 1500 m um -10 Grad, in 2000 m um -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Durch teils starken Schneefall mit Sturm steigt die Lawinengefahr weiter an und auf Triebschnee sowie spontane Lawinen ist zu achten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

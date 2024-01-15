@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID825RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-09T16:32:28+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID825RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-09T16:32:28+00:00</beginPosition>
+          <endPosition>2021-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr oberhalb der Baumgrenze durch noch spröden Triebschnee sowie Tagesgang der Lawinengefahr mit Lockerschneelawinen durch die Einstrahlung !</avActivityHighlights>
+          <avActivityComment>In Bezug auf Lockerschneelawinen unterliegt die Gefahr einem Tagesgang mit günstigeren Verhältnissen am Vormittag und vermehrten Selbstauslösungen am Nachmittag, die vor allem sonnseitig erwartet werden. Die Schneebrettgefahr bleibt hingegen ganztags mäßig und betrifft vor allem das schattseitige Steilgelände oberhalb der Baumgrenze.  </avActivityComment>
+          <snowpackStructureComment>In den klassischen Nordstaugebieten der Nordalpen fielen im Laufe der Woche über einen halben Meter Neuschnee, im Bereich der Niederen Tauern waren es bis zu 25 Zentimeter. Während der stürmische Wind Gipfel, Grate und Plateaus abgeweht hat, kam es an windabgewandten Hangzonen zu größer werdenden Triebschneeansammlungen. Sonnseitig hat sich dieser Schnee am Freitag bereits deutlich zu setzen begonnen und wurde teilweise schon pappig. Über Nacht bildet sich darauf eine dünne Harschkrusrte. Schattseitig bindet der noch kalte Neuschnee oder Triebschnee hingegen schlecht auf der verharschten Altschneefläche. </snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag beginnt meist noch wolkenlos, im Laufe des Vormittages ziehen dann zuerst in der westlichen Gebirgsgruppen, später auch weiter im Osten hohe Wolken auf, die dann über Mittag dichter werden können und am Nachmittag aber wieder auflockern. Der Südwestwind bleibt schwach, die Temperaturen erreichen zu Mittag in 2.000m +3 Grad und in 1.500m +8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag ziehen mit der mäßigen bis lebhaften Südwestströmung Wolkenfelder über die Berge. Es bleibt dabei niederschlagsfrei. Die Temperaturen erreichen das Niveau des Vortages. An der Lawinengefahr ändert sich wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID825RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-09T16:32:28+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID825RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-09T16:32:28+00:00</beginPosition>
+          <endPosition>2021-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr durch ganz vereinzelte Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>Anders als in den Nordstaugebieten der Obersteiermark erreichten im Laufe der Woche nur ab und zu einige Schneeschauer auch die südlicheren Gebirgsgruppen. Allerdings war es mitunter auch hier recht stürmisch, sodass sich Triebschnee bilden konnte, welcher sich schattseitig noch nicht gesetzt hat. Die Gefahrenstellen mit geringen Anrisshöhen treten, wenn überhaupt aber nur ganz vereinzelt auf, etwa hinter Geländekanten oder im Windlee von Kämmen und Graten.</avActivityComment>
+          <snowpackStructureComment>Mit der vergangenen, sehr kalten Luftmasse hat die feuchte, in tieferen Lagen nasse Schneedecke wieder an Festigkeit gewonnen und ist verharscht. Die mancherorts  dünne Neuschneeschicht ist am Freitag teilweise schon wieder geschmolzen Die Triebschneebildung hat sich wegen dem meist recht geringen Neuschneezuwachs in Grenzen gehalten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag verläuft nur zeitweise sonnig. Etwa ab Mittag ziehen auch kompakte Wolkenpakete über die Gipfel und schirmen die Sonne ab. Bei föhnigem Südwestwind ist es mild mit Temperaturen  zu Mittag in 2.000m um 0 Grad und in 1.500m um +3 Grad. Es weht mäßiger Südwestwind, der im Bereich der Koralpe auch stark werden kann.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag ziehen mit der mäßigen bis lebhaften Südwestströmung Wolkenfelder über die Berge. Es bleibt dabei niederschlagsfrei. Einzig die Gipfel im Bereich der Turrach können am Tag schon teilweise im Nebel stecken. Die Temperaturen erreichen das Niveau des Vortages. An der Lawinengefahr ändert sich wenig, sie bleibt gering!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

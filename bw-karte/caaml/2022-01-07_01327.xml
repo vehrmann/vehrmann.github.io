@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1327RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1327RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Gefahrenstellen nehmen ab Mittag deutlich zu, oberhalb der Waldgrenze, meist kleine/mittlere Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneepakete entstehen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Das Triebschneeproblem ist oberhalb der Waldgrenze überwiegend MÄßIG, darunter GERING. Wobei die Gefahrenstellen am Nachmittag deutlich mehr werden.&#13;
+Mit dem aufkommenden Westwind entstehen neue Gefahrenstellen. Betrifft das Steilgelände oberhalb der Waldgrenze. Betroffen sind Rinnen, steilen Mulden und steile Hänge der Richtungen Nord über Ost bis Süd. Eine Lawinenauslösung ist bereits durch den Impuls einer Person möglich, wobei Lawinen klein bis maximal mittelgroß werden können.&#13;
+Auch spontane kleine Schneebrettlawinen und Lockerschneelawinen im extrem steilen Gelände können durch den Wind ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Mit dem aufkommenden Wind bilden sich ab etwa Mittag frische Triebschneepakete, die auf dem kalten und lockeren Pulverschnee leicht auslösbar sind. &#13;
+Die Neuschneemengen vor dem kommenden Windeinfluss reichen von 10 bis 20 cm, die auf einer alten und verharschten Kruste liegen. Die weiche Schicht direkt unter der Kruste (kantige Kristalle vom Dezember) ist derzeit nicht leicht ansprechbar. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht zunächst häufig durch Wolken und leichte Schneeschauer eingeschränkt (wenige Zentimeter Neuschnee). Am Nachmittag lockert es auf, meist kommt noch die Sonne durch. Achtung: Spätesten gegen Mittag frischt starker Westwind auf. Über Mittag und am Nachmittag einige Stunden starker bis stürmischer Wind (40 bis 50 km/h!). Kalt! In 2000m um -10 Grad.&#13;
+Am Sonntag stecken die Gipfel meist in dichten Wolken. Immer wieder schneit es (Größenordnung 5 bis 10 cm). Der Wind ist zeitweise lebhaft, südlich der Tauern teils stürmisch aus Nordwest. In 2000m werden -10 bis -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung am Sonntag. Hauptproblem bleiben die frischen Triebschneepakete ober der Waldgrenze.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1327RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1327RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>deutlicher Tagesgang, ober der Waldgrenze, die neuen Pakete sind sehr leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit dem starken Wind bilden sich rasch labile Triebschneepakete!</avActivityHighlights>
+          <avActivityComment>Achtung: Die Situation ändert sich im Tagesverlauf rasch. &#13;
+Zunehmendes Triebschneeproblem ober der Waldgrenze! Zu Tagesbeginn noch MÄßIGE Lawinengefahr, ab etwa Mittag meist ERHEBLICH. &#13;
+Mit dem aufkommenden Westwind entstehen neue und in den windigen Zonen auch umfangreiche Gefahrenstellen. Betrifft das Steilgelände oberhalb der Waldgrenze. Betroffen sind Rinnen, steilen Mulden und steile Hänge der Richtungen Nord über Ost bis Südwest. Eine Lawinenauslösung ist bereits durch den Impuls einer Person möglich, wobei Lawinen gefährlich groß werden können.&#13;
+Auch spontane Schneebrettlawinen und Lockerschneelawinen im extrem steilen Gelände können durch den Wind ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Mit dem aufkommenden Wind werden die Karten neu gemischt! Es bilden sich ab etwa Mittag frische Triebschneepakete, die auf dem kalten und lockeren Pulverschnee sehr leicht auslösbar sind. In den windigen Zonen sind die Verfrachtungen am Nachmittag umfangreich.&#13;
+Vor dem neuen Windeinfluß gibt es 20 bis 40 cm, direkt am Tauernhauptkamm teilweise um 50 cm kalten und lockeren Pulverschnee auf einer alten und verharschten Kruste. Die weiche Schicht direkt unter der Kruste (kantige Kristalle vom Dezember) ist nicht leicht ansprechbar. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht zunächst häufig durch Wolken und leichte Schneeschauer eingeschränkt (wenige Zentimeter Neuschnee). Am Nachmittag lockert es auf, meist kommt noch die Sonne durch. Achtung: Spätesten gegen Mittag frischt starker Westwind auf. Über Mittag und am Nachmittag einige Stunden starker bis stürmischer Wind (40 bis 50 km/h!). Kalt! In 2000m um -10 Grad, in 3000m -16 Grad.&#13;
+Am Sonntag stecken die Gipfel meist in dichten Wolken. Immer wieder schneit es (Größenordnung 5 bis 10 cm). Der Wind ist zeitweise lebhaft, südlich der Tauern teils stürmisch aus Nordwest. In 2000m -10 bis -6 Grad, in 3000m -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Hauptproblem bleiben die frischen Triebschneepakete ober der Waldgrenze.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

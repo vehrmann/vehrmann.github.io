@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1539RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1539RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf ungünstiger Unterlage, umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Triebschnee! Sturm! Schlechte Sicht! Sehr ungünstige Tourenbedingungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit erheblich beurteilt. Der Sturm weht alle Expositionen ein! Auch in Waldschneisen und Lichtungen wird sich der Triebschnee ablagern. Spontane Lockerschneelawinen sind aus steilem Fels- und Schrofengelände zu erwarten. Die Auslösewahrscheinlichkeit von spontanen Schneebretter nimmt während des Tages zu. Skitourengeher können bereits bei geringer Zusatzbelastung ein Schneebrett auslösen. </avActivityComment>
+          <snowpackStructureComment>Der stürmische Wind mit Orkanstärke verlagert große Mengen Triebschnee. Potentielle Gleitschichten sind Graupel bzw. weicher Schnee in der Triebschneeschicht. Im Altschnee schwächen kantigen Formen unter einer Harschkruste den Schneedeckenaufbau. Bei Auslösungen von Schneebrettern kann die Kruste durchschlagen werden kann. </snowpackStructureComment>
+          <wxSynopsisComment>Am Abend sowie in der Nacht verstärken sich die Schneefälle in der Obersteiermark weiter. In den Nordstaulagen vom Ausseerland bis nach Mariazell schneit es intensiv, bis zu 60 cm Neuschnee sind in 24 Stunden möglich. In den Niederen Tauern wird etwas weniger Neuschnee erwartet.&#13;
+Nördlich des Tauernhauptkammes schneit es am Dienstag häufig, dazu ist es stürmisch und kalt, nur am Nachmittag lässt der Schneefall vorübergehend etwas nach. In 2000m um -10 Grad. Der Nordwestwind weht mit Spitzen zwischen 50 und 110 km/h, wobei die stärksten Böen am Nachmittag entlang des Alpenhauptkamms zu erwarten sind.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch ist weiterhin intensiver Schneefall in den Nordalpen bis hin zum Tauernhauptkamm zu erwarten!  Die Lawinengefahr steigt weiter an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1539RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1539RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, auf kleinere Triebschneelinsen vornehmlich hinter Geländekanten und in Mulden achten!</avActivityHighlights>
+          <avActivityComment>Durch die Stärke des Sturms konnten sich kaum größere Triebschneeflächen bilden. Meist wurde der verfrachtete Schnee in sehr windgeschützten Zonen abgelagert, in Mulden oder hinter Geländekanten sind Triebschneelinsen entstanden, die meist nur bei großer Zusatzbelastung ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Ein paar wenige Zentimeter Neuschnee lagern sich auf eine harte Altschneedecke ab. In tieferen Lagen wurde der Schnee weich. </snowpackStructureComment>
+          <wxSynopsisComment>Auch weiter in den Süden greifen zeitweise Schneeschauer über, die Mengen bleiben aber vergleichsweise sehr gering und zeitweise lockert es auch auf. In 2000m um -10 Grad. Der Nordwestwind weht mit Spitzen zwischen 50 und 110 km/h, wobei die stärksten Böen am Nachmittag entlang des Alpenhauptkamms zu erwarten sind.</wxSynopsisComment>
+          <tendencyComment>Ein leichter Anstieg der Lawinengefahr wird für Mittwoch erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1539RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1539RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Waldschneisen, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee! Sturm!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. Die Gefahrenstellen liegen im Ost- und Südsektor. Hier können Schneebretter bei geringer Zusatzbelastung ausgelöst werden. Allerdings werden maximal Größe 2 Lawinen erwartet. </avActivityComment>
+          <snowpackStructureComment>Der frische Triebschnee überdeckt Oberflächenreif bzw. eine harte Altschneedecke. Das Schneedeckenfundament ist kompakt nur in schneearmen Zonen wurde die Schneedecke aufbauend umgewandelt. </snowpackStructureComment>
+          <wxSynopsisComment>Auch weiter in den Süden greifen zeitweise Schneeschauer über, die Mengen bleiben aber vergleichsweise sehr gering und zeitweise lockert es  auch auf. In 2000m um -10 Grad. Der Nordwestwind weht mit Spitzen zwischen 50 und 110 km/h.&#13;
+Auch am Mittwoch gibt es ein paar Zentimeter Neuschnee. Dazu weht stürmischer Wind!</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1539RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1539RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee! Sturm!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig beurteilt. Die Gefahrenstellen liegen im Ost- und Südsektor. Hier können Schneebretter bei geringer Zusatzbelastung ausgelöst werden. Allerdings werden maximal Größe 2 Lawinen erwartet. Vorsicht im kammnahen Bereich, hier kann es leicht zu einer Schneebrettauslösung kommen.</avActivityComment>
+          <snowpackStructureComment>Der frische Triebschnee überdeckt Oberflächenreif bzw. eine harte Altschneedecke. Teilweise sind die Hänge auch eisig! </snowpackStructureComment>
+          <wxSynopsisComment>Auch weiter in den Süden greifen zeitweise Schneeschauer über, die Mengen bleiben aber vergleichsweise sehr gering und zeitweise lockert es  auch auf. In 2000m um -10 Grad. Der Nordwestwind weht mit Spitzen zwischen 50 und 110 km/h.&#13;
+Auch am Mittwoch gibt es Neuschnee. Dazu weht stürmischer Wind!</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

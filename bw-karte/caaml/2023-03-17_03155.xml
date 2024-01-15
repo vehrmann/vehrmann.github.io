@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3155RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3155RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>starker Erwärmungsimpuls, spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Tourenbedingungen - spontane Nassschneelawinen aus steilem Gelände noch möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird generell mit gering bewertet. Es herrschen günstige Tourenbedingungen, nur insbesondere aus sehr steilen, eingewehten Hängen können spontane, nasse Locker- oder Schneebrettlawinen nicht ausgeschlossen werden. Die Gefahrenstellen werden im Tagesverlauf mehr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist unter 1500 m oft nicht mehr geschlossen und hat keine Kältereserven. Darüber ist das Fundament meist verharscht, aber mit den warmen Temperaturen werden die oberen Schneeschichten weiter feucht. Die Schneedecke kann auch in den hochgelegenen Schattseiten an tieferliegenden Krusten instabil werden. </snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag wird ein durchwegs sonniger Tag mit dünnen, hohen Schleierwolken. Der Wind weht überwiegend lebhaft aus Süd bis Südost. Die Temperaturen sind frühlingshaft und liegen in 1500 m um +7 Grad. &#13;
+Am Sonntag ist es bis Mittag unverändert freundlich, am Nachmittag zieht langsam mittelhohe Bewölkung auf. Der Wind dreht auf West bis Nordwest, und die Temperaturen sinken um wenige Grade, aber der Gefrierpunkt sinkt kaum unter 2000 m.</wxSynopsisComment>
+          <tendencyComment>Der Schnee apert weiter aus, die Lawinensituation ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

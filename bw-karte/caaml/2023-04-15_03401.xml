@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3401RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3401RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Frischen Triebschnee meiden, vor allem den Ostsektor, hochalpin gibt es auch im Südsektor Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus sehr und extrem steilen Gelände nasse Lawinen (locker, brettig, gleiten) - klein bis mitelgroß - einige</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee vor allem in der Höhe meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 2000 m ERHEBLICH, darunter MÄßIG.&#13;
+Die Triebschneeansammlungen hinter Geländekanten in Rinnen und Mulden &#13;
+können vor allem im Nord- und Ostsekor, mit zunehmender Höhe (hochalpin) auch im Südsektor, teils leicht ausgelöst werden. Schneebretter werden klein bis mittelgroß, können vereinzelt aber auch groß werden. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. &#13;
+Spontan kommt es aus dem sehr bis extrem steilen Gelände vor allem bei Sonnenschein zu spontanen Lawinen, je nach Höhe sind diese nass oder trocken - diese können sowohl locker, als auch brettig sein. Unterhalb etwa 2000 m sind es vor allem Gleitschneelawinen.</avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen fielen je nach Höhenlage 30 cm bis 80 cm Schnee (insgesamt weniger waren es an der Grenze zu Tirol, mehr an der Grenze zu Oberösterreich/Steiermark und in den Hohen Tauern in der Glockner- und Goldberggruppe).&#13;
+Neu-, Trieb- und Altschnee haben sich bis 2000/2200m hinauf meist schon recht gut untereinander verbunden. Mit zunehmender Höhe wird die Verbindung der einzelnen Schichten schlechter. Stellenweise gibt es auch kantige &#13;
+Schwachschichten an Schmelzharschkrusten im oberen Teil der Altschneedecke. Diese können von Wintersportlern zwar kaum angesprochen werden, bei einem Lawinenabgang kann es aber zu einem Durchreißen bis zur Schwachschicht im Altschnee kommen und Lawinen somit groß werden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag bringt auf den Bergen oft eingeschränkte Sicht, Aufhellungen und etwas Sonnenschein ist ab Mittag möglich. Es kann unergiebig schneien. Regentropfen fallen bis 1500m hinauf. Der Wind weht im Lungau und entlang des Tauernhauptkamms mit Spitzen um 50 km/h aus Nord, weiter im Norden stört er auch in den Hochlagen kaum. In 2000m -3 Grad, in 3000m -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung am Montag tritt das Triebschneeproblem weiter in de Hintergrund und das Nassschneeproblem nimmt zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3401RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3401RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleine bis mittelgroße nasse Lawinen (locker, gleiten) aus dem sehr bis extrem steilen Gelände - einige</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit MÄßIG bewertet.&#13;
+Aus dem sehr bis extrem steilen Gelände heraus können spontan kleine bis mittlere Lawinen abgehen. Meist handelt es sich um nasse, stellenweise auch noch um trockene Lockerschneelawinen oder Gleitschneelawinen. Wintersportler können ein Schneebrett oder eine Lockerschneelawine meist nur mit großer Zusatzbelastung oder im extremen Steilgelände auslösen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der letzten Tage, der häufig auf aperen Boden fiel, konnte sich bereits recht gut setzen. Der Schnee ist meist nass bis feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag bringt auf den Bergen oft eingeschränkte Sicht, Aufhellungen und etwas Sonnenschein ist ab Mittag möglich. Die Wolken hängen meist tief und es kann unergiebig regnen oder  schneien. Regentropfen fallen bis 1500m hinauf. Wenig Wind. In 2000m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung am Montag nimmt das Naschneeproblem zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3401RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3401RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Frischen, kammnahen Triebschnee meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleine bis mittelgroße nasse Lawinen (locker, brettig, gleiten) aus dem sehr bis extrem steilen Gelände - einige</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem, kammnahen Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit MÄßIG bewertet.&#13;
+Ab etwa 2000 m kann der frische, kammnahe Triebschnee eventuell noch durch das Gewicht eines einzelnen Wintersportler ausgelöst werden. Schneebretter bleiben aber meist klein.&#13;
+Spontan treten aus dem extrem steilen Gelände nasse Lawinen (locker und brettig) auf. Diese sind klein bis mittelgroß. Auch Gleitschneelawinen sind wieder vermehrt ein Thema.</avActivityComment>
+          <snowpackStructureComment>Wind aus West bis Nord bildet(e) Triebschnee. Die Bruchfläche für ein Schneebrett ist meist im Neuschnee direkt darunter zu finden. Schwachschichten im Altschnee gibt es kaum. In mittleren Lagen und z.T. an Sonnenhängen  in hohen Lagen wurde der Neuschnee auf aperen Boden abgelagert. Dort ist an steilen Grashängen mit vermehrtem Schneegleiten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist meist gut und auch die Sonne scheint zeitweise. Der Nordwind weht mit etwa 40 km/h. In 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung am Montag tritt das Triebschneeproblem weiter in de Hintergrund und das Nassschneeproblem nimmt zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

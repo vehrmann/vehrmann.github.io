@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3029RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3029RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>lokal umfangreicher Triebschnee, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - vereinzelte Gefahrenstellen durch Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die vereinzelten Gefahrenstellen werden durch Triebschneeablagerungen besonders in den Sektoren Ost bis Nord gebildet. Hier können durch große Zusatzbelastung kleine bis mittlere Schneebrettlawinen ausgelöst werden. Der Triebschnee liegt in Rinnen und steilen Mulden sowie hinter Geländekanten. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich überall schon gut setzen. Älterer Triebschnee liegt auf einer Harschschicht, vermehrt in steilen Hängen der Expositionen Nord bis Ost. Innerhalb der Triebschneepakete befinden sich weiche Schichten, die als Schwachschichten fungieren können. Das Schneedeckenfundament ist bereits bis in die Hochlagen feucht. Oberflächlich ist der Schnee oft noch pulvrig und locker. </snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag wird kälter und teils windig. Nördlich des Alpenhauptkamms stauen sich dichte Wolken und vor allem zu Tagesbeginn kann es vereinzelt leicht schneien. Die südlichen Gebirgsgruppen sind wetterbegünstigt, hier überwiegt bei Nordföhn der Sonnenschein. Die Temperaturen erreichen von Nord nach Süd in 1500 m -4 bis +1 Grad, in 2000 m um -8 Grad. Zudem bläst lebhafter bis kräftiger NW-Wind.</wxSynopsisComment>
+          <tendencyComment>Am Montag bleibt es stark bewölkt und kalt mit rund -6 Grad in 2000 m. Es schneit gebietsweise, am häufigsten am Vormittag von der Stub- und Gleinalpe bis zum Semmering. Der Wind dreht auf Südwest. Es bilden sich neue Gefahrenstellen durch frische Triebschneeablagerungen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

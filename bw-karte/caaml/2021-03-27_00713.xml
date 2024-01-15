@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID713RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID713RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leichter Tagesgang</avActivityHighlights>
+          <avActivityComment>Am Vormittag sind die Bedingungen recht günstig. Mit der leichten Tageserwärmung wird die Schneedecke wieder aufgeweicht, der Festigkeitsverlust ist aber noch gering. Der geringe Neuschnee wurde vom Wind verfrachtet und hat frische Triebschneelinsen gebildet, welche allgemein nur durch eine große Zusatzbelastung zu stören sind.</avActivityComment>
+          <snowpackStructureComment>Wenige Zentimeter Neuschnee sind vom Wind, in höheren Lagen, verfrachtet worden und haben Triebschneelinsen gebildet. Die Schneedecke ist verbreitet stabil. Sonnseitig ist die Wärme- und Sonneneinwirkung der letzten Tage deutlich merkbar. Schattseitig ist in höheren Lagen der Windeinfluss sichtbar.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einem Kaltfrontdurchzug steigt der Luftdruck wieder. Im Tagesverlauf ziehen die Wolken nach Südosten ab und in den meisten Gebirgsgruppen dürfte sich Sonnenschein durchsetzen. Mit mäßigem Westwind steigen die Temperaturen in 2000 m nach Werten von -3 Grad in der Früh auf +1 Grad zu Mittag an.</wxSynopsisComment>
+          <tendencyComment>Der Montag bringt sonniges und zunehmend mildes Bergwetter. Bei nur wenigen dünnen Wolken und leichtem bis, in Hochlagen auch, mäßigem Wind Nordwestwind steigen die Temperaturen in 2000 m auf bis zu +6 Grad an. Tageszeitlichen Anstieg der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID713RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID713RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit Gering beurteilt. Eine Lawinenauslösung ist am ehesten in im nordseitigen Steilgelände denkbar.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist stabil und kompakt. Die angefeuchtete Schneedeckenoberfläche kann mit der Abkühlung einen schwachen Harschdeckel bilden.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einem Kaltfrontdurchzug steigt der Luftdruck wieder. Im Tagesverlauf ziehen die Wolken nach Südosten ab und in den meisten Gebirgsgruppen dürfte sich Sonnenschein durchsetzen. Mit mäßigem Westwind steigen die Temperaturen in 1500 m nach Werten von -1 Grad in der Früh auf +5 Grad zu Mittag an.</wxSynopsisComment>
+          <tendencyComment>Der Montag bringt sonniges und zunehmend mildes Bergwetter. Bei nur wenigen dünnen Wolken und leichtem bis, in Hochlagen auch, mäßigem Wind Nordwestwind steigen die Temperaturen in 2000 m auf bis zu +6 Grad an. Tageszeitlichen Anstieg der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

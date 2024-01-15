@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID165RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID165RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, auslösbar im Übergang von wenig zu mehr Schnee, oberflächliche Auslösungen können darauf durchschlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ältere Triebschneepakete, kammnah, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erfahrung und sorgsame Routenwahl sind wesentlich</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 2000 m gibt es viele Steilhänge, wo bereits die Belastung durch eine Person ausreicht, um ein Schneebrett auszulösen. In mittleren Höhenlagen sind die Verhältnisse deutlich günstiger. Die Lawinen können mittelgroß, mitunter auch groß werden. Betroffen sind kammnahe Steilhänge und kammferne, steile Geländeübergänge vor allem der Richtungen Nordwest über Nord bis Nordost.</avActivityComment>
+          <snowpackStructureComment>Die sehr kalten Nächte verwandeln die rund 15 bis 30 cm Pulverschnee nach und nach in bindungslose Kristalle. In der Altschneedecke darunter findet man immer noch weiche Schichten aus kantigen Formen, in denen sich Brüche ausbreiten können. Gefahrenzeichen wie Risse und Setzungsgeräusche deuten darauf hin.</snowpackStructureComment>
+          <wxSynopsisComment>Meist scheint schon von der Früh weg die Sonne. Vereinzelte tiefe Restwolken verschwinden rasch. In den windexponierten Hochlagen weht schwacher bis mäßiger Wind aus Nordwest bis Nord. Temperaturen in 2000 m um -11 Grad, in 3000m um -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung, die tiefen Temperaturen fördern die aufbauende Umwandlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID165RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID165RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, auslösbar im Übergang von wenig zu mehr Schnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah und hinter kammfernen Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Versteckte Gefahrenstellen vor allem in schattigen Hochlagen</avActivityHighlights>
+          <avActivityComment>Mäßige Schneebrettgefahr in den Hochlagen. Gefahrenstellen gibt es im extrem steilen kammnahen Gelände und hinter kammfernen Geländekanten vor allem oberhalb von 2000 m. Vorsicht auch in schneearmen Zonen im Hochgebirge. Betroffen sind primär Expositionen von West über Nord bis Ost. An einigen Steilhänge ist dort insbesondere bei großer Zusatzbelastung (Sturz, dynamische Fahrweise, Gruppe,...) ein kleines oder mittelgroßes Schneebrett auslösbar. </avActivityComment>
+          <snowpackStructureComment>Die sehr kalten Nächte verwandeln die 10 bis 20 cm Pulver nach und nach in bindungslose Kristalle. Südseitig und steil findet man eine leichte Schmelzkruste darauf. Windexponiert gibt es fahrbare Windharschdeckel, an wenigen Stellen taucht eine alte Schmelzkruste auf. Potenzielle Bruchflächen sind weiche Schichten unter dem letzten Triebschnee sowie bindungslose kantige Kristallformen unter den harten Krusten, die unterschiedlich gut überdeckt sind.</snowpackStructureComment>
+          <wxSynopsisComment>Meist scheint schon von der Früh weg die Sonne. Vereinzelte tiefe Restwolken verschwinden rasch. In den windexponierten Hochlagen weht schwacher bis mäßiger Wind aus Nordwest. Temperaturen in 2000 m um -11 Grad, in 3000 m um -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung, die tiefen Temperaturen fördern die aufbauende Umwandlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID165RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID165RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt Schwachschichten im Altschnee, an sehr wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen - geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>An ganz wenigen Stellen in extrem steilen Rinnen und kammnahen Steilhängen oberhalb von 1800 m kann man vor allem im schattigen Gelände (W-N-O) ein zumeist kleines Schneebrett auslösen (Altschneeproblem). Erhöhte Vorsicht am Rand von alten Triebschneepaketen. Absturzrisiko.</avActivityComment>
+          <snowpackStructureComment>Die sehr kalten Nächte verwandeln die 10 bis 20 cm Pulver nach und nach in bindungslose Kristalle. Südseitig und steil findet man eine leichte Schmelzkruste drauf. Windexponiert gibt es fahrbare Windharschdeckel, an wenigen Stellen taucht eine alte Schmelzkruste auf. Tiefer liegendeSchwachschichten sind selten bzw. neigen diese kaum zur Bruchausbreitung.</snowpackStructureComment>
+          <wxSynopsisComment>Vom Tennengebirge nordwärts halten sich tiefe Restwolken recht zäh, dort kann es auch zeitweise ohne Menge schneien, die Sicht ist zum Teil eingeschränkt. Sonst scheint oft schon von der Früh weg die Sonne, lokale tiefe Restwolken verschwinden rasch. In den windexponierten Hochlagen weht schwacher bis mäßiger Wind aus West bis Nord. Temperaturen in 2000 m um -12 Grad, in 3000m um -15 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung, die tiefen Temperaturen fördern die aufbauende Umwandlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID165RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID165RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>kammnah, dünne und kleinräumige Triebschneepakete, vor allem oberhalb etwa 2400 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Dünner Triebschnee und Schwachschichten im Altschnee</avActivityHighlights>
+          <avActivityComment>Mäßige Schneebrettgefahr in hohen und hochalpinen Lagen. Gefahrenstellen durch dünne, kleinräumige Triebschneepakete gibt es dort kammnah vor allem im erweiterten Ostsektor (NO-O-SO). Heikel können auch extrem steile und gleichzeitig schneearme Schattseiten (W-N-O) sein. Dort kann man mitunter mit großer Zusatzbelastung ein Schneebrett im Altschnee auslösen. Kleine bis mittelgroße Schneebretter sind möglich.</avActivityComment>
+          <snowpackStructureComment>Die sehr kalten Nächte verwandeln die 15 bis 30 cm Pulverschnee nach und nach in bindungslose Kristalle. Südseitig und steil findet man eine leichte Schmelzkruste drauf. Windexponiert gibt es fahrbare Windharschdeckel und kleinräumige Triebschneepakete auf weichen Schichten. Im Nordsektor und hochalpin gibt es kantige und lose Schneekristalle im Altschnee als weitere potenzielle, wenngleich kleinräumige Bruchfläche.</snowpackStructureComment>
+          <wxSynopsisComment>Meist scheint schon von der Früh weg die Sonne, die Fernsicht ist sehr gut. In den windexponierten Hochlagen weht schwacher bis mäßiger Wind aus West bis Nord. Temperaturen in 2000 m um -12 Grad, in 3000m um -15 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung, die tiefen Temperaturen fördern die aufbauende Umwandlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

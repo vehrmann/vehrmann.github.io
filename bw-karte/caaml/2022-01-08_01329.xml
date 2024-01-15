@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1329RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-08T06:34:14+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1329RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-08T06:34:14+00:00</beginPosition>
+          <endPosition>2022-01-09T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer und überdeckter Triebschnee in Kammlagen, Rinnen und Mulden; mit der Seehöhe und im Tagesverlauf zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an glatten Wiesenhänge und aus Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer und älterer Triebschnee sind die Hauptgefahr - weiterhin auch Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Frischer und teilweise überdeckter Triebschnee ist störanfällig. Gefahrenstellen finden sich vor allem im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden. Sie nehmen mit der Seehöhe und im Tagesverlauf an Umfang und Verbreitung zu. Kleine, vereinzelt auch mittelgroße Schneebrettlawinen können von einzelnen Wintersportlern ausgelöst werden. Triebschneeansammlungen im Steilgelände sollten gemieden werden. In mittleren Lagen sind an noch nicht entladenen, glatten Wiesenhängen oder in Waldschneisen weiterhin Gleitschneelawinen möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Bis heute Morgen gab es bis 5 cm, lokal bia 10 cm Neuschnee. Vor allem in höheren Kammlagen wurde dieser zeitweise verfrachtet. Neu- und frischer Triebschnee überdecken oft ältere Triebschneepakete der Vortage oder weiche Schichten. Teilweise wurde auch Oberflächenreif eingeschneit. Die Bindung dazu und innerhalb der Neu- und Triebschneeschichten ist mit zunehmender Seehöhe teilweise nur mäßig. Die Altschneedecke ist überwiegend gut verfestigt und meist stabil, in mittleren Lagen meist jedoch bis zum Boden durchfeuchtet. In tieferen und sonnigen Hanglagen wurde wieder der oft warme, apere Boden eingeschneit.</snowpackStructureComment>
+          <wxSynopsisComment> Vormittags ist mit eingeschränkter Sicht durch dichte Wolken und ein paar Schneeschauern zu rechnen. Nachmittags wird es für ein paar Stunden trocken und kurzzeitig reißt es auch auf, bevor es von Westen erneut eintrübt. Temperatur in 2000m: -9 bis -6 Grad, Höhenwind: lebhaft, in Böen teils stark aus W bis NW</wxSynopsisComment>
+          <tendencyComment>In der Nacht schneit es vor allem in den nördlichen Regionen. Mit lebhaftem Westwind wird dabei Schnee verfrachtet und frischer Triebschnee gebildet. Der Sonntag bringt weitere Schneefälle. Dazu bleibt es kalt. Die Lawinengefahr wird somit regional in höheren Lagen ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

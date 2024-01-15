@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2985RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-26T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2985RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-26T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt, schattseitig, in hohen und hochalpinen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer Triebschnee und schwacher Altschnee sind die Hauptgefahren</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 2000m erheblich, darunter mäßig. Die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden und mittlere Größe erreichen. Gefahrenstellen liegen vor allem im kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten. Die Zahl der Gefahrenstellen nimmt mit der Seehöhe zu. Vor allem aus extrem steilem Gelände können sich zudem Lockerschneelawinen von selbst lösen. Auch können vereinzelt Lawinen bei großer Zusatzbelastung auch im schwachen Altschnee ausgelöst werden. Dies vor allem oberhalb ca. 2400 m, vorwiegend im selten befahrenen, schattseitigen Steilgelände. Zu beachten sind dabei Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Eine vorsichtige Routenwahl wird empfohlen. In mittleren Lagen sind an glatten, steilen Hängen weiterhin einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Auf einer von frühlingshaften Bedingungen geprägte Altschneedecke mit vielerorts verharschter Oberfläche, in windgeschützten, schattseitigen Hochlagen mit kantig aufgebauter Oberfläche liegt bis 35cm, lokal auch etwas mehr Neuschnee. Dieser fiel unter starkem Windeinfluss aus West bis Nordwest. Am Sonntag verfrachtete zunehmend kräftiger Wind aus dem Ostsektor den Neuschnee. Der Neu- und Triebschnee verbindet sich ausreichend mit der rauen Unterlage. Schlechter ist die Stabilität der Schneedecke in windgeschützten, schattseitigen Hochlagen mit kantig aufgebauten Oberflächen und in windgeschützten Bereichen aller Höhenlagen, dort wo der Neuschnee mit frischem Triebschnee überlagert wird. Schneebrettauslösungen und Rissbildung bestätigten gestern die Störanfälligkeit der Schneedecke in solchen Bereichen. In mittleren Lagen liegt nur wenig Schnee und in tieferen Lagen fiel der Neuschnee oft auf ausgeaperten Boden. Vorwiegend in hohen Schattenhängen sind teilweise kantig aufgebaute Schwachschichten vorhanden, die am ehesten an Übergängen von wenig zu viel Schnee zu stören sind. Diese Gefahrenstellen sind selten und von außen nicht erkennbar.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Im Bregenzerwald und in den Grenzregionen zu Tirol fällt aus kompakten Wolken noch etwas Schnee, sonst ist es trocken, vielerorts auch nur locker bewölkt. Im Norden und auf den Bergen weht weiterhin starker Nordostwind. Montag: Der Tag verläuft im Gebirge eher noch wolkig mit Nebel und zunehmend kompakten Schichtwolken, die sich tagsüber von Südosten her ausbreiten. Die Sonne scheint nur gedämpft oder wird abgeschattet. Der Frost im Hochgebirge hat sich im Vergleich zum Sonntag schon deutlich abgeschwächt. Temperatur in 2000 m: -10 Grad. Höhenwind: mäßig bis lebhaft aus Ost bis Nordost.</wxSynopsisComment>
+          <tendencyComment>Im Tagesverlauf setzt sich am Dienstag strahlender Sonnenschein durch. Mit der Sonneneinstrahlung und der Frostabschwächung setzt sich der Neuschnee und die spontane Lawinenaktivität erhöht sich zunächst. Insgesamt wird die Lawinengefahr in den nächsten Tagen aber langsam abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2985RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-26T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2985RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-26T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind die Hauptgefahren.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1800m erheblich, darunter mäßig. Der Neuschnee und die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden und mittlere Größe erreichen. Gefahrenstellen liegen vor allem im kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten. Die Zahl der Gefahrenstellen nimmt mit der Seehöhe zu. Vor allem aus extrem steilem Gelände können sich zudem Lockerschneelawinen von selbst lösen. Auch können vereinzelt Lawinen im schwachen Altschnee ausgelöst werden. Dies vor allem im extremen, vorwiegend schattseitigen Steilgelände. Touren und Variantenabfahrten erfordern Erfahrung in der Beurteilung der Lawinengefahr und Zurückhaltung. In mittleren Lagen sind an glatten, steilen Hängen weiterhin einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Auf einer von frühlingshaften Bedingungen geprägte Altschneedecke mit vielerorts verharschter Oberfläche, in windgeschützten, schattseitigen Hochlagen mit kantig aufgebauter Oberfläche liegt 45 bis 65cm Neuschnee. Dieser fiel unter starkem Windeinfluss aus West bis Nordwest. Am Sonntag verfrachtete zunehmend kräftiger Wind aus dem Ostsektor den Neuschnee. Der Neu- und Triebschnee verbindet sich ausreichend mit der rauen Unterlage. Schlechter ist die Stabilität der Schneedecke in windgeschützten, schattseitigen Hochlagen mit kantig aufgebauten Oberflächen und in windgeschützten Bereichen aller Höhenlagen, dort wo der Neuschnee mit frischem Triebschnee überlagert wird. Schneebrettauslösungen und Rissbildung bestätigten gestern die Störanfälligkeit der Schneedecke in solchen Bereichen. In mittleren Lagen liegt nur wenig Schnee und in tieferen Lagen fiel der Neuschnee oft auf ausgeaperten Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Im Bregenzerwald und in den Grenzregionen zu Tirol fällt aus kompakten Wolken noch etwas Schnee, sonst ist es trocken, vielerorts auch nur locker bewölkt. Im Norden und auf den Bergen weht weiterhin starker Nordostwind. Montag: Der Tag verläuft im Gebirge eher noch wolkig mit Nebel und zunehmend kompakten Schichtwolken, die sich tagsüber von Südosten her ausbreiten. Die Sonne scheint nur gedämpft oder wird abgeschattet. Der Frost im Hochgebirge hat sich im Vergleich zum Sonntag schon deutlich abgeschwächt. Temperatur in 2000 m: -10 Grad. Höhenwind: mäßig bis lebhaft aus Ost bis Nordost.</wxSynopsisComment>
+          <tendencyComment>Im Tagesverlauf setzt sich am Dienstag strahlender Sonnenschein durch. Mit der Sonneneinstrahlung und der Frostabschwächung setzt sich der Neuschnee und die spontane Lawinenaktivität erhöht sich zunächst. Insgesamt wird die Lawinengefahr in den nächsten Tagen aber langsam abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2985RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-26T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2985RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-26T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer Triebschnee ist die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von etwa 1600 m mäßig, darunter gering. Eine Auslösung des frischen Triebschnees ist teilweise bereits bei geringer Zusatzbelastung möglich. Die Lawinen können kleine bis mittlere Größe erreichen. Gefahrenstellen gibt es vor allem im kammnahen Steilgelände, in Rinnen und Mulden und hinter Geländekanten. Die Zahl der Gefahrenstellen nimmt mit der Seehöhe zu. Vor allem aus extrem steilem Gelände können sich zudem kleine Lockerschneelawinen von selbst lösen. </avActivityComment>
+          <snowpackStructureComment>Auf einer von frühlingshaften Bedingungen geprägte Altschneedecke mit vielerorts verharschter Oberfläche liegt 25 bis 40cm Neuschnee. Dieser fiel unter starkem Windeinfluss aus West bis Nordwest. Am Sonntag verfrachtete zunehmend kräftiger Wind aus dem Ostsektor den Neuschnee. Der Neu- und Triebschnee verbindet sich ausreichend mit der rauen Unterlage. Schlechter ist die Stabilität der Schneedecke in windgeschützten Bereichen aller Höhenlagen, dort wo der Neuschnee mit frischem Triebschnee überlagert wird. In mittleren Lagen liegt nur wenig Schnee und in tieferen Lagen fiel der Neuschnee oft auf ausgeaperten Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Im Bregenzerwald und in den Grenzregionen zu Tirol fällt aus kompakten Wolken noch etwas Schnee, sonst ist es trocken, vielerorts auch nur locker bewölkt. Im Norden und auf den Bergen weht weiterhin starker Nordostwind. Montag: Der Tag verläuft im Gebirge eher noch wolkig mit Nebel und zunehmend kompakten Schichtwolken, die sich tagsüber von Südosten her ausbreiten. Die Sonne scheint nur gedämpft oder wird abgeschattet. Der Frost im Hochgebirge hat sich im Vergleich zum Sonntag schon deutlich abgeschwächt. Temperatur in 2000 m: -10 Grad. Höhenwind: mäßig bis lebhaft aus Ost bis Nordost.</wxSynopsisComment>
+          <tendencyComment>Im Tagesverlauf setzt sich am Dienstag strahlender Sonnenschein durch. Mit der Sonneneinstrahlung und der Frostabschwächung setzt sich der Neuschnee und die spontane Lawinenaktivität erhöht sich zunächst. Insgesamt wird die Lawinengefahr in den nächsten Tagen aber langsam abnehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

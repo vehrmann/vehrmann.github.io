@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1097RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1097RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin störanfälliger Triebschnee, vor allem oberhalb der Waldgrenze.</avActivityHighlights>
+          <avActivityComment>Das Hauptproblem ist der Triebschnee. Er lässt sich vielerorts durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, als Schneebrettlawine auslösen. Gefahrenstellen befinden sich in allen Expositionen und Höhenlagen, vor allem oberhalb der Waldgrenze, und nehmen mit der Höhe zu. Der Triebschnee ist von Neuschnee überdeckt und dadurch schwer zu erkennen. Vereinzelt lösen sich Schneebrettlawinen von selbst. Bei Sonneneinstrahlung können kleine Rutschungen aus felsdurchsetztem Steilgelände Schneebrettlawinen unterhalb auslösen. Lawinen erreichen meist kleine bis mittlere Größe. Im Allgäu und in den Hochlagen von Wetterstein und Karwendel können sie vereinzelt auch groß werden, wenn tieferliegende Schichten mit ausgelöst werden.&#13;
+Zudem sind an steilen Grashängen und im lückigen Bergwald Gleitschneelawinen kleiner und mittlerer Größe möglich. Gleitschneemäuler weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Weiterhin bilden sich bei teils starkem und böigem Wind frische Triebschneeansammlungen. Im Triebschneepaket der letzten 48 Stunden sind störanfällige Zwischenschichten eingelagert. Auch die Bindung zur Altschneeoberfläche vom Freitag ist noch schlecht. Durch die Erwärmung sind Setzungsimpulse zu erwarten, die zu Selbstauslösungen führen können. Im Altschneepaket finden sich im Bereich von Schmelzkrusten in mittleren Lagen kantige Kristalle, die oberhalb ca. 1800 m teilweise noch gestört werden können. Oberhalb ca. 2000 m sind an der Schneedeckenbasis kantig aufgebaute Kristalle vorhanden. Auf Grashängen und im Wald ist die Schneedecke am Boden vielerorts feucht.</snowpackStructureComment>
+          <tendencyComment>In der Nacht zum Montag setzt Regen bis weit in mittlere Lagen hinauf ein. Die Temperaturen nächste Woche werden deutlich milder. In tiefen und mittleren Lagen wird sich die Problematik in Richtung Nassschnee verlagern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3006RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3006RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, in Rinnen und steilen Mulden, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Oberhalb der Baumgrenze ist die Lawinengefahr weiterhin mäßig, darunter gering. Es existieren stellenweise Triebschneeansammlungen hinter Geländekanten und in Einfahrten zu steilen Rinnen und Mulden. Am störanfälligsten gestaltet sich der durch anhaltend starken Wind aus südlichen Richtungen entstandene Triebschnee in den Sektoren West über Nord bis Ost. Ältere, stellenweise mit Schnee überdeckte Bereiche in ost- bis südexponierten Bereichen konnten sich zunehmend setzten. Kleine bis mittelgroße Schneebrettlawinen können mitunter schon durch geringe Zusatzbelastung ausgelöst werden. In Bereichen mit Sonneneinstrahlung können sich aus sehr steilem Gelände Lockerschneelawinen von selbst lösen. Exponierte Bereiche sind oft hart und vereist, es besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneeoberfläche ist südseitig unterschiedlich stark verharscht (Wind, Einstrahlung). Schattseitig existiert speziell in geschützten Lagen eine lockere Schneeauflage, stellenweise mit Oberflächenreif. Mit starkem Wind aus dem Südsektor konnten sich frische, störanfällige Treibschneelinsen in den Nordsektoren ausbilden. Diese setzen sich aufgrund vorhandener Kältereserven nur langsam. Mögliche Schwachschichten für Schneebrettlawinen befinden sich innerhalb der Schneeauflage (auch Graupel) oder im Übergang zur Altschneedecke in Form von weichen Schichten (Neuschnee) bzw. aufgebauten kantigen Kristallen (kalt auf warm). Die Altschneedecke ist gut gesetzt und deren Oberfläche verharscht. Das Schneedeckenfundament ist überwiegend stabil, bodennahe oft feucht. Mit Sonneneinstrahlung wird die Schneeauflage angefeuchtet und verliert an Festigkeit. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Der Ostalpenraum liegt weiter in einer Hochdruckbrücke mit Einfluss südlich angrenzender Tiefdruckgebiete. In den Niederösterreichischen Alpen herrscht oft aufgelockertes, sonniges Bergwetter, vereinzelt können von Süden her immer wieder ein paar Wolkenfelder durchziehen. Der Südostwind ist mäßig bis lebhaft. Das Temperaturniveau steigt leicht an, die Nachmittagstemperaturen liegen in 1500m um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Am Freitag bleibt das Wetter vorerst wechselhaft, mit Strömungswechsel auf Nord ist das Bergwetter am Nachmittag überwiegend freundlich. Die Schneedecke kann sich weiter setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3006RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3006RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - vereinzelte Gefahrenstellen durch Triebschnee, weiterhin die Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>Es herrscht generell geringe Lawinengefahr. Dennoch existieren vereinzelte Gefahrenstellen in Form von Triebschneeablagerungen speziell in hochgelegenen nordost- bis westexponierten Bereichen hinter Geländekanten und in Einfahrten zu steilen Rinnen und Mulden. Kleine Schneebrettauslösungen können nicht ausgeschlossen werden. Die Absturzgefahr auf harten, vereisten Oberflächen bzw. der überdeckten, verharschten Altschneedecke ist stellenweise ausgeprägt.   </avActivityComment>
+          <snowpackStructureComment>Der Neu- bzw. Triebschnee vom Wochenende konnte sich zunehmend setzen. Durch Nebel und tiefe Wolken bildete sich stellenweise an der Oberfläche Reif aus. Mögliche Schwachschichten für Schneebrettlawinen befinden sich innerhalb der Schneeauflage (auch Graupel) bzw. im Übergang zur verharschten Altschneedecke. In schattigen, geschützten Lagen ist die Schneeauflage locker. Das Schneedeckenfundament ist überwiegend stabil, bodennahe oft feucht. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Der Ostalpenraum liegt weiter in einer Hochdruckbrücke mit Einfluss südlich angrenzender Tiefdruckgebiete. In den Niederösterreichischen Alpen herrscht oft aufgelockertes, sonniges Bergwetter, vereinzelt können von Süden her immer wieder ein paar Wolkenfelder durchziehen. Der Südostwind ist mäßig bis lebhaft. Das Temperaturniveau steigt leicht an, die Nachmittagstemperaturen liegen in 1500m um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Am Freitag bleibt das Wetter vorerst wechselhaft, mit Strömungswechsel auf Nord ist das Bergwetter am Nachmittag überwiegend freundlich. Die Schneedecke kann sich weiter setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

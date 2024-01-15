@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1338RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1338RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee störanfällig; Absturzgefahr auf eisiger Altschneedecke beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1600 m mäßig, darunter gering. Frischer Triebschnee ist das Hauptproblem. Schneebrettlawinen kleiner, in höheren Lagen mittlerer Größe, können stellenweise mit geringer Zusatzbelastung, also bereits von einem einzelnen Wintersportler, ausgelöst werden. Gefahrenstellen finden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, in triebschneeverfüllten Rinnen und Mulden, unterhalb von Geländekanten sowie in eingewehten Schneisen im Waldübergangsbereich.</avActivityComment>
+          <snowpackStructureComment>Wenige cm Neuschnee fallen auf eine vom Wind geprägte Schneedecke. Rücken und Kämme sind bis auf den eisigen Harschdeckel an der Schneedeckenbasis abgeblasen. In windabgewandten Bereichen haben sich teils umfangreiche Triebschneeansammlungen abgelagert. Innerhalb dieser finden sich störanfällige Schichtgrenzen aus kantigen Schneekristallen, die in Niederschlagspausen entstehen konnten, oder Graupel. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt.  In tieferen Lagen und sonnseitig bedeckt geringmächtiger, pulvriger Schnee den Boden. </snowpackStructureComment>
+          <tendencyComment>Bei ruhigem Winterwetter wird die Lawinengefahr die nächsten Tage langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1338RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1338RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die umfangreichen Triebschneeansammlungen sind sehr störanfällig.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1600 m erheblich, darunter mäßig. Frischer Triebschnee ist das Hauptproblem. Schneebrettlawinen mittlerer Größe können mit geringer Zusatzbelastung, also bereits von einem einzelnen Wintersportler, ausgelöst werden. Viele Gefahrenstellen finden sich oberhalb 1600 m im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, in triebschneeverfüllten Rinnen und Mulden, unterhalb von Geländekanten sowie in eingewehten Schneisen im Waldübergangsbereich. Je höher man kommt, desto mehr Gefahrenstellen gibt es, desto leichter können Lawinen ausgelöst werden und desto größer können diese werden.&#13;
+Zudem können sich auf steilen Wiesenhängen vereinzelt kleine bis mittelgroße Gleitschneelawinen von selbst lösen.</avActivityComment>
+          <snowpackStructureComment>Wenige cm Neuschnee fallen auf eine vom Wind geprägte Schneedecke. Rücken und Kämme sind bis auf den eisigen Harschdeckel an der Schneedeckenbasis abgeblasen. In windabgewandten Bereichen haben sich umfangreiche Triebschneeansammlungen abgelagert. Innerhalb dieser finden sich störanfällige Schichtgrenzen aus kantigen Schneekristallen, die in Niederschlagspausen entstehen konnten. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt. In tieferen Lagen und sonnseitig bedeckt bis zu einem halben Meter pulvriger Schnee den feuchten Boden. </snowpackStructureComment>
+          <tendencyComment>Bei ruhigem Winterwetter wird die Lawinengefahr die nächsten Tage langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1338RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1338RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeansammlungen sind besonders in den Hochlagen sehr störanfällig.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m erheblich, darunter gering. Frischer Triebschnee ist das Hauptproblem. Schneebrettlawinen mittlerer Größe können mit geringer Zusatzbelastung, also bereits von einem einzelnen Wintersportler, ausgelöst werden. Viele Gefahrenstellen finden sich oberhalb 1800 m im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest, in triebschneeverfüllten Rinnen und Mulden sowie unterhalb von Geländekanten. Je höher man kommt, desto mehr Gefahrenstellen gibt es, desto größer können Lawinen werden und desto leichter können diese ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Wenige cm Neuschnee fallen auf eine vom Wind geprägte Schneedecke. Rücken und Kämme sind bis auf den eisigen Harschdeckel an der Schneedeckenbasis abgeblasen. In windabgewandten Bereichen haben sich teils umfangreiche Triebschneeansammlungen abgelagert. Innerhalb dieser finden sich störanfällige Schichtgrenzen aus kantigen Schneekristallen, die in Niederschlagspausen entstehen konnten. In höheren Lagen und schattseitig ist die Schneedeckenbasis sehr kompakt. In tieferen Lagen und sonnseitig bedeckt geringmächtiger, pulvriger Schnee den Boden. </snowpackStructureComment>
+          <tendencyComment>Bei ruhigem Winterwetter wird die Lawinengefahr die nächsten Tage langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

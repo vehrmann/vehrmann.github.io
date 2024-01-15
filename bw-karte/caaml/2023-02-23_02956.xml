@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2956RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2956RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr. Günstige Setzung der Schneedecke. Nur wenige Gefahrenstellen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist zurückgegangen und wird verbreitet mit „GERING“ bewertet. Gefahren gehen am ehesten von noch nicht entladenen Gleitschneeaktivitäten aus, Bereiche unter Schneemäulern daher meiden bzw. rasch queren. Sonnseitig kann es mit der Einstrahlung ganz vereinzelt noch zu kleineren Lockerschneelawinen aus dem felsigen Gelände kommen. Einige wenige Gefahrenstellen durch Schneebretter beschränken sich auf die Hochlagen des schattseitigen Geländes (&gt; ca. 2.200m, vor allem NE-SE) und sind meist nur noch bei großer Zusatzbelastung auszulösen.</avActivityComment>
+          <snowpackStructureComment>Mit dem Wechsel aus kälteren und milderen Wetterphasen konnte sich die Schneedecke gut setzen, die einzelnen Schichten gut verbinden. Sonnseitig firnt die Schneeoberfläche auf, wird aber rasch weicher. In tieferen Lagen ist der Schnee oft schon grundlos oder gar geschmolzen. Schattseitige Hochlagen weisen hingegen oft recht harte Verhältnisse auf, viele Hangzonen sind hier auch abgeweht. Zum gewachsenen Boden hat sich ein Schmierfilm mit Wasser gebildet, auf steileren Glatthängen gleitet die Schneedecke und kann aufreißen.   </snowpackStructureComment>
+          <wxSynopsisComment>Vor einer Annäherung einer Kaltfront gestaltet sich das steirische Bergwetter am Freitag anfangs nochmals recht sonnig. Erst am Nachmittag ziehen aus Nordwesten dichtere Wolken auf und es beginnt oberhalb von ca. 1.400m leicht zu schneien. Dabei frischt mäßig starker Wind aus Südwest bis West auf. Es bleibt noch mild mit Temperaturen von 0 Grad in 2.000m und +5 Grad in 1.500m.&#13;
+In der Nacht auf Samstag dreht der stürmisch werdende Wind auf Nordwest und Niederschläge intensivieren sich alpennordseitig. Bei rasch sinkenden Temperaturen kann es dann bis in Tallagen schneien. Zwischen Dachstein und Totem Gebirge werden bis zu 30 cm Neuschnee prognostiziert, nach Osten hin deutlich weniger. Einzelne Schauer erreichen auch die Alpensüdseite, aber nur in abgeschwächter Form. Die folgenden Tage bleiben mit Werten um -14 Grad in 2.000m ausgesprochen kalt.</wxSynopsisComment>
+          <tendencyComment>Aufgrund der Bildung von frischem Triebschnee Anstieg der Lawinengefahr ind den Hochlagen der Nordalpen und Tauernnordseite! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

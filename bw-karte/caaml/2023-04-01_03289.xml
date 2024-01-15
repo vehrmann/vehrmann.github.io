@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3289RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3289RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 1600 m eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt; ca. 2200m Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr – frischer Triebschnee in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Mit starkem West- bis Nordwestwind entstanden in den letzten Tagen Triebschneeansammlungen. Gefahrenstellen nehmen mit der Seehöhe an Umfang und Verbreitung zu. Einzelne Personen können im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden meist nur kleine Lawinen auslösen. Oberflächlich ausgelöste Lawinen können aber die durchfeuchtete Schneedecke mitreißen und dadurch größer werden. Die Schneedecke ist bis etwa 2200m stark durchfeuchtet, spontane kleine bis mittlere Gleitschneelawinen sind an steilen Wiesenhängen jederzeit möglich. Aus dem felsdurchsetzten Steilgelände sind Lockerschneelawinen besonders bei größeren Aufhellungen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und Regen kam es am Donnerstag zu einer starken Durchfeuchtung der Schneedecke. Auch am Freitag regnete es zeitweise bis 2000m später bis 1800m hinauf. Die führte zu einem Festigkeitsverlust der Schneedecke in allen Expositionen und die Verbindung zum Boden kann jederzeit verloren gehen. Mit der Abkühlung hat die Gefahr von nassen Lawinen deutlich abgenommen. Oberflächlich ausgelöste Lawinen können aber die durchfeuchtete Schneedecke mitreißen. Unter etwa 1500 m liegt nur sehr wenig Schnee. Starker Höhenwind aus West bis Nordwest verfrachtete den Neuschnee in Hochlagen. Frischer und älterer Triebschnee nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Neu- und Triebschnee der vergangenen Tage sind teils schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Die Verbindung zur weit hinauf durchnässten und somit schwachen Altschneedecke ist jedoch meist gut. In tieferen Lagen liegt der Neuschnee der vergangenen Tage oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: In der Nacht ist der Himmel wechselnd, im Bergland auch stark bewölkt. In der ersten Nachthälfte gibt es noch einige Schauer, in der Früh überwiegen dann die trockenen Phasen. Sonntag: Oberhalb von 1500 Metern sind die Sichten durch Nebel und Schneeschauer häufig eingeschränkt. Die Schneefallgrenze liegt meist bei 1200 bis 1400 Metern. In den trockenen Phasen werden die Wolken etwas dünner, allzu viel Sonne darf man sich nicht erwarten. Temperatur in 2000m: -2 Grad, Höhenwind: schwach bis mäßig aus dem Nordsektor.</wxSynopsisComment>
+          <tendencyComment>Am Montag sorgen tiefe Wolken bis über Mittag noch für vielfach schlechte Sichten und ein paar Schneeflocken. Mit lebhaft bis stark auflebendem, kaltem Nordostwind fließt trockenere Luft ein. Am Nachmittag werden die Wolkenlücken zahlreicher und größer. Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3289RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3289RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 1600  m eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt; ca. 2200m Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht vor frischem Triebschnee in Hochlagen.</avActivityHighlights>
+          <avActivityComment>Die Hauptgefahr geht von frischem und älterem Triebschnee in den Hochlagen aus. Gefahrenstellen nehmen mit der Seehöhe an Umfang und Verbreitung zu. Einzelne Personen können im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden kleine bis mittelgroße Lawinen auslösen. Teilweise können Lawinen auch in tiefe Schichten durchreißen und vereinzelt groß werden. Auch können oberflächlich ausgelöste Lawinen die durchfeuchtete Schneedecke mitreißen und dadurch größer werden. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Die Schneedecke ist bis etwa 2200m stark durchfeuchtet, spontane kleine bis mittlere Gleitschneelawinen sind an steilen Wiesenhängen jederzeit möglich. Aus dem felsdurchsetzten Steilgelände sind Lockerschneelawinen besonders bei größeren Aufhellungen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und Regen kam es am Donnerstag zu einer starken Durchfeuchtung der Schneedecke. Auch am Freitag regnete es zeitweise bis 2000m später bis 1800m hinauf. Die führte zu einem Festigkeitsverlust der Schneedecke in allen Expositionen und die Verbindung zum Boden kann jederzeit verloren gehen. Mit der Abkühlung hat die Gefahr von nassen Lawinen deutlich abgenommen. Oberflächlich ausgelöste Lawinen können aber die durchfeuchtete Schneedecke mitreißen. Unter etwa 1500 m liegt nur sehr wenig Schnee. Starker Höhenwind aus West bis Nordwest verfrachtete den Neuschnee in Hochlagen. Frischer und älterer Triebschnee nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Neu- und Triebschnee der vergangenen Tage sind teils schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Die Verbindung ist mit zunehmender Seehöhe teilweise nur mäßig bis schwach. Vor allem im schattseitigen Steilgelände sind in hohen Lagen noch ungünstige Zwischenschichten erhalten geblieben. Meist können diese jedoch nur mit großer Zusatzlast gestört werden. In tieferen Lagen liegt der Neuschnee der vergangenen Tage auch oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: In der Nacht ist der Himmel wechselnd, im Bergland auch stark bewölkt. In der ersten Nachthälfte gibt es noch einige Schauer, in der Früh überwiegen dann die trockenen Phasen. Sonntag: Oberhalb von 1500 Metern sind die Sichten durch Nebel und Schneeschauer häufig eingeschränkt. Die Schneefallgrenze liegt meist bei 1200 bis 1400 Metern. In den trockenen Phasen werden die Wolken etwas dünner, allzu viel Sonne darf man sich nicht erwarten. Temperatur in 2000m: -2 Grad, Höhenwind: schwach bis mäßig aus dem Nordsektor.</wxSynopsisComment>
+          <tendencyComment>Am Montag sorgen tiefe Wolken bis über Mittag noch für vielfach schlechte Sichten und ein paar Schneeflocken. Mit lebhaft bis stark auflebendem, kaltem Nordostwind fließt trockenere Luft ein. Am Nachmittag werden die Wolkenlücken zahlreicher und größer. Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

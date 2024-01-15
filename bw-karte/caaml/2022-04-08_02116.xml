@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2116RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T05:18:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2116RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T05:18:52+00:00</beginPosition>
+          <endPosition>2022-04-09T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regen nasse Lawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen, windbeeinflusste Steilhänge, &gt;2200m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit milden Temperaturen und Regen nasse Lawinen - in Hochlagen Verfrachtungen und Triebschneebildung</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Frischer Triebschnee ist in hohen Lagen zunehmend störanfällig. Kleine bis mittlere Lawinen können dort von einzelnen Wintersportler ausgelöst werden. Gefahrenstellen sind vor allem in eingewehtem Steilgelände und im Hochgebirge anzutreffen. Verbreitung und Größe nehmen mit der Seehöhe und mit weiterem Schneefall zu. Milde Temperaturen und Regeneinfluss führen bis in mittlere Lagen zu einem Festigkeitsverlust. Es sind an allen Expositionen feuchte Locker- und Nassschneelawinen zu erwarten. Zudem sind weiterhin Gleitschneelawinen an sehr steilen Grashängen möglich. Vorsicht unterhalb von Gleitschneerissen. In ganz tiefen Lagen liegt kaum noch Schnee.</avActivityComment>
+          <snowpackStructureComment>Am Donnerstag und vor allem in der Nacht regnete es. In höheren Lagen gab es ca. 10 bis 15 cm Neuschnee. Kräftiger, oft auch bis stürmischer Wind führte zu Verfrachtungen und frischem Triebschnee. Die Verbindung zur Altschneedecke ist meist gut, mit zunehmender Seehöhe und in Kammlagen teilweise auch nur mäßig. Kleine bis mittlere Lawinen können dort innerhalb des Neu- und Triebschnees oder im Bereich von Saharastaubschichten  ausgelöst werden. Mit Regeneintrag wurde die Schneedecke bis in mittlere Lagen nass und weiter geschwächt. Vor allem an steilen Nordhängen. Lagen unterhalb ca. 1000 bis 1200 m sind meist aper.</snowpackStructureComment>
+          <wxSynopsisComment>Stark windiges bis stürmisches Bergwetter mit vielen Wolken und wiederholten Regenschauern. Die  Schneefallgrenze steigt auf 2000 m. Trockene Phasen zwischendurch vor allem im Rätikon und der Silvretta. Temperatur in 2000m: 0 bis +2 Grad. Höhenwind: stürmisch aus West bis Südwest.</wxSynopsisComment>
+          <tendencyComment>In der zweiten Nachthälfte erfolgt ein Temperatursturz, gefolgt von Schneefall bis in tiefe Lagen und weiteren Sturmböen im Gebirge. Der Samstag wird winterlich. Die Gefahr nasser Lawinen geht zurück.  In mittleren und höheren Lagen steigt die Gefahr trockener Lawinen an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

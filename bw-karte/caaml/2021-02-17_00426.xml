@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID426RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID426RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht mäßige Lawinengefahr. Hier gilt es vor allem den frischen Triebschnee zu beachten, der sich durch Neuschnee und den stürmischen Wind gebildet hat. Gefahrenstellen, an denen Schneebrettlawinen ausgelöst werden können, finden sich vor allem hinter Geländeübergängen sowie in Rinnen oder Mulden - vorwiegend in den Expositionen Nord über Ost bis Süd. In abgeschatteten Hochlagen existiert weiterhin ein latentes Altschneeproblem, im Tagesverlauf sind zudem einzelne Rutschungen aus dem besonnten Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Durch die Kombination aus Neuschnee und überaus stürmischem Wind ist in den Hochlagen frischer Triebschnee entstanden. Er überdeckt zum Teil weichere Schichten oder harte, verharschte Bereiche und bindet nicht gut. In den Hochlagen schwächen stellenweise kantige Formen den Altschnee. Je nach Höhenlage führte der vorangegangene Regen zu einem Feuchtigkeitseintrag in die Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag verläuft in den Niederösterreichischen Alpen recht sonnig, es ziehen nur dünne Wolkenfelder durch, die den freundlichen Wettereindruck nicht stören sollten. Der Wind lässt deutlich nach und er weht ab dem Vormittag nur noch schwach bis mäßig aus südlichen bis westlichen Richtungen. Die Temperaturen steigen, die Mittagswerte liegen in 1000m bereits um +7, in 1500m um +2 und in 2000m bei 0 Grad, wobei es gegen Abend noch eine Spur milder wird.</wxSynopsisComment>
+          <tendencyComment>Am Freitag überwiegen zunächst noch dichtere Wolken, sie bringen aber keine Niederschläge und lockern am Nachmittag auf. Es weht zunächst starker Wind aus nordwestlichen Richtungen, der am Abend nachlässt und vorübergehend auf Süd dreht. Für längere Zeit ist kein Niederschlag in Sicht und die Temperaturen steigen auf frühlingshafte Werte. Der Triebschnee wird sich in dieser Phase setzen können, jedoch sind spontane Auslösungen nicht ausgeschlossen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID426RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID426RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Gefahrenstellen sind selten und existieren somit nur ganz vereinzelt. Aufgrund der milden Temperaturen und durch die zusätzliche Sonneneinstrahlung sind vereinzelte Rutschungen aus dem Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Durch den vorangegangenen Regen erhielt die Schneedecke einen Feuchtigkeitseintrag. Mit den milden Temperaturen und aufgrund der Sonneneinstrahlung kann es vereinzelt zur Destabilisierung und somit zu Rutschungen kommen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag verläuft in den Niederösterreichischen Alpen recht sonnig, es ziehen nur dünne Wolkenfelder durch, die den freundlichen Wettereindruck nicht stören sollten. Der Wind lässt deutlich nach und er weht ab dem Vormittag nur noch schwach bis mäßig aus südlichen bis westlichen Richtungen. Die Temperaturen steigen, die Mittagswerte liegen in 1000m bereits um +7, in 1500m um +2 und in 2000m bei 0 Grad, wobei es gegen Abend noch eine Spur milder wird.</wxSynopsisComment>
+          <tendencyComment>Am Freitag überwiegen zunächst noch dichtere Wolken, sie bringen aber keine Niederschläge und lockern am Nachmittag auf. Es weht zunächst starker Wind aus nordwestlichen Richtungen, der am Abend nachlässt und vorübergehend auf Süd dreht. Für längere Zeit ist kein Niederschlag in Sicht und die Temperaturen steigen auf frühlingshafte Werte. Der Triebschnee wird sich in dieser Phase setzen können, jedoch sind spontane Auslösungen nicht ausgeschlossen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

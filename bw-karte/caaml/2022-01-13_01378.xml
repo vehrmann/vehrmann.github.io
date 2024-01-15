@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1378RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1378RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen mäßige Lawinengefahr durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Ybbstaler Alpen oberhalb der Baumgrenze mäßig. Gefahrenstellen sind gut erkennbare Triebschneebereiche im kammnahen Gelände der Expositionen Ost und Süd, beziehungsweise in Einfahrten zu Rinnen und Mulden. Hier ist eine Auslösung eines kleinen bis mittelgroßen Schneebretts teilweise schon mit geringer Zusatzbelastung möglich. Vorsicht auch vor frischen Wechten, diese sind instabil.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist kompakt und beinhaltet keine Schwachschichten. Darauf hat sich seit Sonntag ein wenig Triebschnee abgelagert, der vereinzelt Oberflächenreif überdeckt. Abgeblasenen Oberflächen sind hart und vereist. Unter 1400 m fehlt oft das Schneedeckenfundament. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag erwartet uns in den niederösterreichischen Bergen strahlender Sonnenschein, aber der Wind weht stürmisch aus Nordwest. Die Temperaturen erreichen in 1500 m +5 Grad, die gefühlten Temperaturen sind wegen des stürmischen Windes aber weitaus geringer. Am Samstag ziehen ein paar Hochnebelfelder durch, es bleibt aber großteils sonnig und relativ mild. </wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung sinkt die Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1378RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1378RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr in den Türnitzer Alpen, im Gippel- Göllergebiet, in den Gutensteiner Alpen, im Rax- Schneeberggebiet und am Wechsel ist gering. Wenige Gefahrenstellen in Form von Triebschneelinsen haben sich  kleinräumig, eher kammnah, hinter Geländekanten, sowie in Rinnen und Mulden gebildet. Vorsicht vor allem in den Expositionen Süd und Ost, wo kleine Schneebrettlawinen nach wie vor ausgelöst werden können. Vorsicht auch vor frischen Wechten, diese sind instabil. Generell liegt aber sehr wenig Schnee. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist hart, kompakt und teilweise vereist. Darauf hat sich stellenweise Oberflächenreif gebildet, der vereinzelt von kleinen Triebschneelinsen, an windberuhigten Stellen auch geringmächtig von lockerem Schnee überdeckt ist. Unter etwa 1500 m fehlt das Schneedeckenfundament. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag erwartet uns in den niederösterreichischen Bergen strahlender Sonnenschein, aber der Wind weht stürmisch aus Nordwest. Die Temperaturen erreichen in 1500 m +5 Grad, die gefühlten Temperaturen sind wegen des stürmischen Windes aber weitaus geringer. Am Samstag ziehen ein paar Hochnebelfelder durch, es bleibt aber großteils sonnig und relativ mild. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

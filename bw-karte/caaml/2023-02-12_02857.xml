@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2857RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2857RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide die gut sichtbaren Triebschneeansammlungen, vor allem an sehr steilen (&gt;35°) Schattenhängen und oberhalb Bereichen mit Geländefallen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>Meide Felsvorsprünge sowie sehr steile konvexe Geländeformationen. Standardmaßnahmen wie Einzelabfahrten und sichere Sammelpunkte helfen das Risiko niedrig zu halten.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee und stellenweise Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Zahl der Gefahrenstellen für Schneebrettlawinen nimmt ab der Waldgrenze mit der Höhe zu, oberhalb etwa 2000 m herrscht MÄßIGE Lawinengefahr.&#13;
+Frische Triebschneeansammlungen vom Wochenende sind an sehr steilen (&gt;35°) Schattenhängen in der Höhe stellenweise noch durch einen einzelnen Wintersportler als kleine bis mittelgroße Schneebrettlawine auslösbar. Gefahrenstellen finden sich vor allem in Kamm- und Passlagen sowie hinter Geländekanten. Die Gefahrenstellen sind gut erkennbar.  Brüche in tieferliegenden Schwachschichten in der Altschneedecke können meist nur mehr mit großer Zusatzbelastung (z.B. oberflächlich ausgelöstes Triebschneebrett) erzeugt werden. Eine Auslösung durch einzelne Wintersportler ist nur noch sehr vereinzelt an Übergängen von wenig zu viel Schnee an sehr steilen (&gt;35°), konvexen Nord- und Osthängen denkbar. Lawinen, welche in den Altschnee durchreißen, können allerdings gefährlich groß werden.&#13;
+Aus steilen, glatten Wiesenhängen unterhalb etwa 2400 m können an allen Expositionen einzelne Gleitschneelawinen bis mittlerer Größe spontan abgehen - das Gelände unter Gleitschneerissen sollte gemieden werden. Zudem sind mit den warmen Temperaturen und Sonneneinstrahlung nasse Lockerschneelawinen aus extrem steilen (&gt;40°) Sonnenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen sind in der Höhe merklich angestiegen, älterer Triebschnee hat sich gesetzt und verfestigt. Frischer Triebschnee welcher am Wochenende gebildet wurde, liegt an steilen Schattenhängen stellenweise auf kantigen Schwachschichten und ist dort noch störanfällig. Tieferliegende Schwachschichten im Altschnee (kantige Kristalle, mitunter an Schmelzharschkrusten) sind aufgrund der soliden Überdeckung nur noch selten anzusprechen. An steilen Sonnenhängen wird die Schneedecke im Tagesverlauf feucht, in der Nacht bildet sich oberflächlich eine (mitunter tragende) Schmelzharschkruste aus. An Schattenhängen in der Höhe ist die Schneeoberfläche oft noch pulvrig.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 2000m liegen die Temperaturen tagsüber zwischen +2 und +4 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschneepakete verbinden sich bei milden Temperaturen rasch mit der darunterliegenden Schneedecke. An extrem steilen Sonnenhängen sind vereinzelt feuchte Rutsche möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2857RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2857RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide die gut sichtbaren Triebschneeansammlungen, vor allem an sehr steilen (&gt;35°) Schattenhängen und oberhalb Bereichen mit Geländefallen.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden, gefährdete Bereiche schnell passieren.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt störanfällige Triebschneepakete</avActivityHighlights>
+          <avActivityComment>Oberhalb 2400m MÄßIGE, darunter GERINGE Lawinengefahr.&#13;
+Frische Triebschneeansammlungen vom Wochenende sind an sehr steilen (&gt;35°) Schattenhängen in der Höhe vereinzelt noch durch das Gewicht eines einzelnen Wintersportlers als kleine bis mittelgroße Schneebrettlawine auslösbar. Einzelne Gefahrenstellen finden sich vor allem in Kamm- und Passlagen sowie hinter Geländekanten. Die Gefahrenstellen sind gut erkennbar und sollten gemieden werden.  &#13;
+Aus steilen, glatten Wiesenhängen unterhalb etwa 2400 m können an allen Expositionen einzelne Gleitschneelawinen bis mittlerer Größe spontan abgehen - das Gelände unter Gleitschneerissen sollte gemieden werden. Zudem sind mit den warmen Temperaturen und Sonneneinstrahlung nasse Lockerschneelawinen aus extrem steilen (&gt;40°) Sonnenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen sind in der Höhe merklich angestiegen, älterer Triebschnee hat sich gesetzt und verfestigt. Frischer Triebschnee, welcher am Wochenende gebildet wurde, liegt an steilen Schattenhängen stellenweise auf kantigen Schwachschichten und ist dort vereinzelt noch störanfällig. Der untere Teil der Schneedecke ist stabil. An steilen Sonnenhängen wird die Schneedecke im Tagesverlauf feucht, in der Nacht bildet sich oberflächlich eine (mitunter tragende) Schmelzharschkruste aus. An Schattenhängen in der Höhe ist die Schneeoberfläche oft noch pulvrig.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 2000m liegen die Temperaturen tagsüber zwischen +2 und +4 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschneeansammlungen stabilisieren sich. Die Lawinengefahr nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2857RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2857RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide die gut sichtbaren Triebschneeansammlungen, vor allem an absturzgefährdeten Schattenhängen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt kleine störanfällige Triebschneepakete</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. &#13;
+Frische Triebschneeansammlungen sind vereinzelt durch einen einzelnen Wintersportler als kleine Schneebrettlawine auslösbar.  Gefahrenstellen finden sich vor allem an sehr steilen (&gt;35°) Schattenhängen in Kamm- und Passlagen, in Rinnen sowie hinter Geländekanten. Die Gefahrenstellen sind gut erkennbar und sollten vor allem im absturzgefährdetem Gelände gemieden werden.&#13;
+Zudem sind mit den milden Temperaturen und Sonneneinstrahlung kleine nasse Lockerschneelawinen aus extrem steilen (&gt;40°) Südhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen sind in der Höhe merklich angestiegen, älterer Triebschnee hat sich gesetzt und verfestigt. Kleine frische Triebschneepakete vom Wochenende sind nur mehr an sehr steilen Schattenhängen störanfällig. Der untere Teil der Schneedecke ist recht stabil. An steilen Sonnenhängen wird die Schneedecke im Tagesverlauf feucht, in der Nacht bildet sich oberflächlich eine (mitunter tragende) Schmelzharschkruste aus. An Schattenhängen in der Höhe ist die Schneeoberfläche oft noch pulvrig.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 2000m liegen die Temperaturen tagsüber zwischen +2 und +4 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2857RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2857RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide die gut sichtbaren Triebschneeansammlungen vor allem an absturzgefährdeten Schattenhängen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur mehr vereinzelte Gefahrenstellen für trockene Lawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. &#13;
+Frische Triebschneeansammlungen sind vereinzelt durch einen einzelnen Wintersportler als meist kleine Schneebrettlawine auslösbar.  Gefahrenstellen finden sich an sehr steilen (&gt;35°) Schattenhängen in Kamm- und Passlagen. Die Gefahrenstellen sind gut erkennbar und sollten vor allem im absturzgefährdetem Gelände gemieden werden.&#13;
+Aus steilen, glatten Wiesenhängen unterhalb etwa 2400 m können an allen Expositionen vereinzelt Gleitschneelawinen bis mittlerer Größe spontan abgehen - das Gelände unter Gleitschneerissen sollte gemieden werden. Zudem sind mit den warmen Temperaturen und Sonneneinstrahlung nasse Lockerschneelawinen aus extrem steilen (&gt;40°) Sonnenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen sind in der Höhe merklich angestiegen, älterer Triebschnee hat sich gesetzt und verfestigt. Kleine frische, kammnahe Triebschneepakete vom Wochenende sind nur an sehr steilen Schattenhängen störanfällig. Der untere Teil der Schneedecke ist stabil. An steilen Sonnenhängen wird die Schneedecke im Tagesverlauf feucht, in der Nacht bildet sich oberflächlich eine (mitunter tragende) Schmelzharschkruste aus. An Schattenhängen in der Höhe ist die Schneeoberfläche oft noch pulvrig.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 2000m liegen die Temperaturen tagsüber zwischen +2 und +4 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Geringe Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2857RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2857RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden, gefährdete Bereiche schnell passieren.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschnee aus extrem steilen Grasmatten</avActivityHighlights>
+          <avActivityComment>Günstige Lawinensituation, GERINGE Lawinengefahr. &#13;
+Spontan sind einzelne kleine bis mittelgroße Gleitschneelawinen aus sehr steilen Grashängen aller Expositionen - aber vorwiegend aus dem erweiterten Südsektor möglich. Bereiche unter Gleitschneerissen sollten gemieden werden. Zudem sind mit warmen Temperaturen und Sonneneinstrahlung am Mittag kleine nasse Lockerschneelawinen aus extrem steilen (&gt;40°) Sonnenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist weitestgehend stabil. Mit den warmen Temperaturen wurde die Schneedecke am Sonntag an allen Expositionen bis weit hinauf angefeuchtet. In der meist klaren Nacht bildet sich dort ein Schmelzharschdeckel. Am Montag schreitet die Durchfeuchtung der Schneedecke im Tagesverlauf v.a. an Sonnenhängen weiter voran.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 2000m liegen die Temperaturen tagsüber zwischen +2 und +4 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Gleitschneelawinen sowie nasse Lockerschneerutsche im erweiterten Südsektor sind weiterhin möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

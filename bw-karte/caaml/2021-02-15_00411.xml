@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID411RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID411RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schneearme steile Hochlagen, Übergänge wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen störanfälligen Triebschnee über der Waldgrenze und Altschneeproblem beachten.</avActivityHighlights>
+          <avActivityComment>Durch etwas Neuschnee und starken bis stürmischen Wind um Nordwest entstehen nicht sehr umfangreiche aber störanfällige frische Triebschneeablagerungen. Diese können durch große, aber auch schon durch geringe Zusatzbelastung im Steilgelände ausgelöst werden. In schatt- und nordseitigen Hochlagen besteht teilweise weiterhin das Altschneeproblem, wodurch hier im schneearmen Steilgelände und bei Übergängen von wenig zu mehr Schnee durch Zusatzbelastung Schneebrettlawinen ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist gesetzt, gefestigt, verharscht und teils von einer lockeren dünnen Schicht überdeckt. Darauf kommt etwas Neuschnee zu liegen, der hochgelegen durch starken bis stürmischen Wind um Nordwest verfrachtet wird. Die frischen und teils ältere Triebschneeablagerungen binden nicht ausreichend. In den Kammlagen sind oft Eis- und Harschschichten freigelegt. Vor allem in den schatt- und nordseitigen Hochlagen sind noch immer bodennahe tiefliegende Schwachschichten vorhanden. Ab der Waldgrenze ist die Schneedecke allgemein sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Berge zunächst oft in Wolken, Schneeschauer schränken die Sicht ein. Der Nachmittag bringt weniger Schauer, bessere Sichtverhältnisse und eventuell auch ein paar sonnige Phasen. Es weht lebhafter, im Hochgebirge starker bis stürmischer Nordwestwind. Temperaturen in 1500 m um 2 Grad, in 2000 m um -1 Grad.&#13;
+Am Mittwoch ist die Sicht am Vormittag häufig durch Wolken und Schauer eingeschränkt. Die Schneefallgrenze liegt um 1200 m. Der Nachmittag bringt eine deutliche Wetterbesserung, bei meist guter Sicht scheint zeitweise die Sonne. Es weht lebhafter bis starker, im Hochgebirge teils stürmischer Wind aus westlichen Richtungen. Temperaturen in 1500 m um 0 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit den milden Temperaturen setzt sich die Schneedecke. Lokales Alt- und Triebschneeproblem ist zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID411RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID411RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr - geringmächtige Schneedecke!</avActivityHighlights>
+          <avActivityComment>In den Kammlagen sind einzelne kleinräumige ältere und lokal frische Triebschneeablagerungen zu beachten. Allgemein ist nur eine sehr geringmächtige Schneedecke vorhanden.</avActivityComment>
+          <snowpackStructureComment>Die geringmächtige Altschneedecke ist meist verharscht und teils auch von einer dünnen lockeren Schicht überdeckt. Darauf kommt etwas Neuschnee zu liegen, der kammnah auch verfrachtet werden kann. Abgewehte Bereiche sind oft vereist oder verharscht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Berge zunächst oft in Wolken, Schneeschauer schränken die Sicht ein. Der Nachmittag bringt weniger Schauer, bessere Sichtverhältnisse und eventuell auch ein paar sonnige Phasen. Es weht lebhafter, im Hochgebirge starker bis stürmischer Nordwestwind. Temperaturen in 1500 m um 2 Grad, in 2000 m um -1 Grad.&#13;
+Am Mittwoch ist die Sicht am Vormittag häufig durch Wolken und Schauer eingeschränkt. Die Schneefallgrenze liegt um 1200 m. Der Nachmittag bringt eine deutliche Wetterbesserung, bei meist guter Sicht scheint zeitweise die Sonne. Es weht lebhafter bis starker, im Hochgebirge teils stürmischer Wind aus westlichen Richtungen. Temperaturen in 1500 m um 0 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID339RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID339RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in den höheren Lagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig beurteilt. In sehr steilen Hängen hochgelegener Schattseiten existiert weiterhin ein Altschneeproblem. Zudem nimmt mit den milden Temperaturen die Gefahr von nassen Lawinen aus steilem Felsgelände sowie Wald- und Wiesenböschungen zu. Besonders sonnseitig sind spontane Lawinenabgänge nicht auszuschließen. </avActivityComment>
+          <snowpackStructureComment>In höheren Lagen gestaltet sich die Schneeoberfläche meist eisig und hart, schattseitig existieren Schwachschichten im Altschnee und im Bereich des Fundaments. Am Mittwoch haben sich mit dem stürmischen Westwind neuerlich dünne Triebschneeablagerungen hinter Geländekanten gebildet. In mittleren Lagen wird die kompakte Schneedecke zunehmend feucht, in tiefen Lagen nass und die Ausaperung schreitet voran. Es bildet sich vermehrt eine bodennahe Schmierschicht aus, wodurch in steilem Gelände die Schneedecke auf Grund abrutschen kann. </snowpackStructureComment>
+          <wxSynopsisComment>Neben durchziehenden Wolkenfeldern scheint am Freitag auf den Bergen Niederösterreichs zeitweise die Sonne. Dazu bleibt es weitgehend trocken. Auf den Gipfeln weht mäßiger, teils auch lebhafter Südwest- bis Westwind. Die Mittagstemperaturen auf 1500m liegen um 5 Grad, in 2000m um 3 Grad. &#13;
+Am Samstag hält sich in den Niederungen teils hartnäckiger Hochneben, auf den Bergen ist es überwiegend sonnig mit zeitweisen hohen Wolken. Es bleibt mild und der mäßige Wind weht aus Süd bis Südwest. </wxSynopsisComment>
+          <tendencyComment>Mit den milden Temperaturen schreitet die An- und Durchfeuchtung der Schneedecke voran, in tiefen Lagen auch die Ausaperung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID339RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID339RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>In den Türnitzer Alpen sowie dem Semmering-Wechselgebiet besteht geringe Lawinengefahr. Aus sehr steilen Bereichen mit noch ausreichenden Schneereserven können kleinere nasse Lawinen, die auch am Boden abgleiten können, nicht gänzlich ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist generell kompakt und stabil. In höheren Lagen ist die Oberfläche hart (Harschdeckel), in tieferen Lagen zunehmend feucht und nass. </snowpackStructureComment>
+          <wxSynopsisComment>Neben durchziehenden Wolkenfeldern scheint auf den Bergen Niederösterreichs zeitweise die Sonne. Dazu bleibt es trocken. Auf den höchsten Gipfeln weht mäßiger, teils auch lebhafter Südwest- bis Westwind. Die Mittagstemperaturen auf 1500m liegen um 4 Grad. Am Samstag hält sich in den Niederungen teils hartnäckiger Hochneben, auf den Bergen ist es überwiegend sonnig mit zeitweisen hohen Wolken. Es bleibt mild und der mäßige Wind weht aus Süd bis Südwest. </wxSynopsisComment>
+          <tendencyComment>Mit den milden Temperaturen schreitet die Ausaperung sowie die An- und Durchfeuchtung der Schneedecke voran. Zum Wochenende prägt sich ein Nassschneeproblem aus. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

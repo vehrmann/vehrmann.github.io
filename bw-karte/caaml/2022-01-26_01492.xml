@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1492RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1492RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit MÄSSIG, darunter mit GERING beurteilt. Frische und ältere Triebschneeansammlungen können in eingewehten Rinnen und Mulden aller Expositionen, vor allem durch eine große Zusatzbelastung ausgelöst werden.  Mit der Sonneneinstrahlung können sich im Tagesverlauf auch Lockerschneelawinen aus besonntem Steilgelände spontan lösen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich verbreitet recht gut gesetzt. Als Schwachschichten sind die zwischen den Triebschneeablagerungen befindlichen lockeren Schichten und aufbauend umgewandelte Schichten rund um vorhandene Harschkrusten in der Altschneedecke vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der anhaltenden Nordwestströmung im Alpenraum bleibt es in den Kärntner Bergen weiterhin überwiegend sonnig und trocken. Am Donnerstag wird der Sonnenschein teilweise durch hohe Wolken getrübt. Bei anhaltend mäßigem, in exponierten Hochlagen auch kräftigem Wind liegen die Temperaturen in 1000 m um +5 Grad, in 2000 m um null bis +2 Grad und in 3000 m um -6 Grad. Am Freitag ziehen mit stürmischem Nordwestwind immer wieder ein paar Wolken durch, in den südlichen Gebirgsgruppen kann sich aber meist die Sonne behaupten. In den Tauern stecken die Gipfel jedoch oft in Nebel und hier gibt es auch den einen oder anderen Schneeschauer.</wxSynopsisComment>
+          <tendencyComment>Mit etwas Neuschnee und starkem Wind nehmen die Gefahrenstellen zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1492RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1492RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation; vereinzelte Triebschneelinsen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Triebschneeablagerungen können vereinzelt noch ausgelöst werden. Gefahrenstellen sind vorwiegend in den Expositionen O bis S zu finden. Bei den vereinzelten Gefahrenstellen gibt es ein Nord-Süd- und ein West-Ost-Gefälle.</avActivityComment>
+          <snowpackStructureComment>Der Triebschnee liegt auf einer geringmächtigen, kompakten Altschneedecke in der im oberen Teil auch aufbauend umgewandelte Schneekristalle zu finden sind.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der anhaltenden Nordwestströmung im Alpenraum bleibt es in den Kärntner Bergen weiterhin überwiegend sonnig und trocken. Am Donnerstag wird der Sonnenschein teilweise durch hohe Wolken getrübt. Bei anhaltend mäßigem, in exponierten Hochlagen auch kräftigem Wind liegen die Temperaturen in 1000 m um +5 Grad, in 2000 m um null bis +2 Grad und in 3000 m um -6 Grad. Am Freitag ziehen mit stürmischem Nordwestwind immer wieder ein paar Wolken durch, in den südlichen Gebirgsgruppen kann sich aber meist die Sonne behaupten. In den Tauern stecken die Gipfel jedoch oft in Nebel und hier gibt es auch den einen oder anderen Schneeschauer.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

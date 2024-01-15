@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1679RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1679RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische Triebschnee, vor allem über der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>milde Temperaturen und etwas Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sturm aus westlichen Richtungen und milde Temperaturen!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen gibt es frischen Triebschnee, gebildet durch Sturm um West, in den Kammlagen und in Leebereichen bis hinunter in lichten Bergwald. Im Steilgelände könnten hier Schneebrettlawinen bereits durch geringe Zusatzbelastung ausgelöst werden. Schatt- und nordseitig können vor allem bei Übergängen von mehr zu wenig Schnee, Schneebrettlawinen durch große Zusatzbelastung, auf Grund des Altschneeproblems ausgelöst werden. In den höheren Lagen sind aus sehr steilem Gelände kleinere feuchte Lockerschneelawinen möglich. Darunter sind Gleitschneelawinen (Hänge mit Rissen in der Schneedecke meiden) und Nassschneelawinen mit den milden Temperaturen und etwas Regeneinfluss nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>In den kammnahen exponierten Hochlagen und teils in Leebereichen gibt es frischen Triebschnee durch Sturm um West. Die Bindung zur Altschneedecke ist nicht immer ausreichend. In den schatt- und nordseitigen Hochlagen enthält die Altschneedecke noch Schwachschichten, die auch angesprochen werden könnten.  Durch milde Temperaturen und etwas Regeneinfluss wird die Schneeoberfläche in den tiefen und mittleren feucht bis teils nass und verliert an Festigkeit. Die Schneedecke ist allgemein sehr unregelmäßig verteilt und stark windbeeinflusst.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag weht auf den Bergen Westwind in Sturmstärke. Vor allem in höheren Lagen können die Windspitzen über 100 km/h erreichen. Dazu herrschen unbeständige Wetterbedingungen mit wechselnden Sichtverhältnissen und wiederholten Schauern. Die Schneefallgrenze liegt anfangs über 2000 m und sinkt gegen Abend auf 1500 m. Temperaturen in 1500 m zu Mittag um 3 Grad, in 2000 m um 0 Grad.&#13;
+Am Freitag bleibt der Wind im Hochgebirge stark bis stürmisch, in den unteren Höhenlagen beruhigt sich die Situation dagegen deutlich. Die Sicht ist in den Morgenstunden noch öfter durch tiefe Wolken eingeschränkt, tagsüber stellt sich zeitweise sonniges und meist gutsichtiges Wetter ein. Temperaturen in 1500 m um 4 Grad, in 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Von Donnerstag auf Freitag kühlt es über Nacht ab. Am Freitag steigen die Temperaturen stark an. Die Schneebrettgefahr geht zurück. Die Wahrscheinlichkeit für spontane Lawinen (Feucht-, Nass- und Gleitschnee) nimmt zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1679RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1679RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische Triebschnee, vor allem über der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>milde Temperaturen und etwas Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sturm aus westlichen Richtungen und milde Temperaturen!</avActivityHighlights>
+          <avActivityComment>In den Gipfellagen und teils auch in lockeren Waldbereichen kann sich frischer Triebschnee durch Sturm um West bilden. Schneebrettlawinen könnten hier vereinzelt durch geringe Zusatzbelastung ausgelöst werden. Frische Gefahrenstellen sind zu beachten. Durch milde Temperaturen und Regeneinfluss sind Gleitschneelawinen (Hänge mit Rissen in der Schneedecke meiden) und Nassschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>In den kammnahen Gipfellagen, in Leebereichen und in lichten Waldbereichen gibt es frischen Triebschnee durch Sturm um West. Die Bindung zur Altschneedecke ist nicht immer ausreichend. Durch milde Temperaturen und etwas Regeneinfluss wird die Schneeoberfläche in den tiefen und mittleren feucht bis teils nass und verliert an Festigkeit. Die Schneedecke ist allgemein sehr unregelmäßig verteilt und stark windbeeinflusst.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag weht auf den Bergen Westwind in Sturmstärke. Vor allem in höheren Lagen können die Windspitzen über 100 km/h erreichen. Dazu herrschen unbeständige Wetterbedingungen mit wechselnden Sichtverhältnissen und wiederholten Schauern. Die Schneefallgrenze liegt anfangs über 2000 m und sinkt gegen Abend auf 1500 m. Temperaturen in 1500 m zu Mittag um 3 Grad, in 2000 m um 0 Grad.&#13;
+Am Freitag bleibt der Wind im Hochgebirge stark bis stürmisch, in den unteren Höhenlagen beruhigt sich die Situation dagegen deutlich. Die Sicht ist in den Morgenstunden noch öfter durch tiefe Wolken eingeschränkt, tagsüber stellt sich zeitweise sonniges und meist gutsichtiges Wetter ein. Temperaturen in 1500 m um 4 Grad, in 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Von Donnerstag auf Freitag kühlt es über Nacht ab. Am Freitag steigen die Temperaturen stark an. Die Schneebrettgefahr geht zurück. Die Wahrscheinlichkeit für spontane Lawinen (Feucht-, Nass- und Gleitschnee) nimmt zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

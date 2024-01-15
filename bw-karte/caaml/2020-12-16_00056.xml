@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID56RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID56RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-16T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt spontane Nassschneerutsche.</avActivityHighlights>
+          <avActivityComment>Aus steilen Fels- und Schrofengelände sind spontane, nasse Lockerschneerutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Durch die Erwärmung konnte sich der Schnee setzen. Die Gesamtschneemenge auf den Bergen nimmt von Norden nach Süden zu. Der Schnee ist feucht und in den mittleren Lagen auch nass.</snowpackStructureComment>
+          <wxSynopsisComment>Der Himmel ist am Donnerstag fast wolkenlos, es ziehen nur dünne Schleierwolken über die Gipfel. In tiefen Lagen, speziell entlang des Randgebirges, gibt es unterhalb von 900 bis 1200m Nebel. Die Temperaturen in 2000m liegen bei +3 Grad und der Wind weht schwach aus Nordwest.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID56RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID56RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-16T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur vereinzelte Gefahrenstellen in Kammnähe.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Vereinzelte Gefahrenstellen sind oberhalb von 2000m im Sektor Nord zu finden. Hier können vereinzelt kleine Schneebrettlawinen ausgelöst werden. Aus steilem Fels- und Schrofengelände sind auch nasse Lockerschneerutsche möglich, in mittleren Lagen können vereinzelt Gleitschneelawinen abgehen.</avActivityComment>
+          <snowpackStructureComment>Durch die Erwärmung konnte sich der Schnee setzen. Der Schnee ist meist feucht und in den mittleren Lagen auch nass. In den Nord-Expositionen der Hochlagen können vereinzelt ältere Triebschneelinsen eine Schicht aus Oberflächenreif überdecken. </snowpackStructureComment>
+          <wxSynopsisComment>Der Himmel ist am Donnerstag fast wolkenlos, es ziehen nur dünne Schleierwolken über die Gipfel. In tiefen Lagen, speziell entlang des Randgebirges, gibt es unterhalb von 900 bis 1200m Nebel. Die Temperaturen in 2000m liegen bei +3 Grad und der Wind weht schwach aus Nordwest.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

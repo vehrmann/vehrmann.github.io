@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2632RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2632RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr an windgepressten, verharschten Schneeoberflächen berücksichtigen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m mäßig, darunter gering. Das Hauptproblem ist Triebschnee. Einige Gefahrenstellen befinden sich im kammnahen Steilgelände der Expositionen Nordwest über Ost bis Südost sowie in eingewehten Rinnen und Mulden. Dort können mittelgroße Schneebrettlawinen durch den einzelnen Wintersportler ausgelöst werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>In der Nacht zum Dienstag fiel im Westen der bayerischen Alpen nur unbedeutender Neuschnee. Er überdeckt Triebschneeansammlungen, die dadurch schwer zu erkennen sind. Tagsüber frischte Wind aus südlichen Richtungen auf und bildete kammnah frischen, kleinräumigen Triebschnee, der teilweise auf Oberflächenreif abgelagert wurde und störanfällig ist. In der Nacht zum Mittwoch und am Mittwoch selbst ist weiterer unbedeutender Neuschnee vorhergesagt. Er kommt auf Oberflächenreif zum Liegen. In den Hochlagen sind am Übergang vom älteren Triebschnee zum Altschnee noch schwache Zwischenschichten eingelagert. Die unterdurchschnittlich mächtige Schneedecke ist stark vom Wind geprägt, windzugewandte Bereiche sind teilweise bis zum Boden abgeblasen, im Lee sammelt sich der Triebschnee in steilen, kammnahen Rinnen und Mulden.</snowpackStructureComment>
+          <tendencyComment>Es bleibt kalt und es fällt immer wieder etwas Neuschnee. Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2632RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2632RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr im steilen Gelände auf glatten Schneeoberflächen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem ist Triebschnee. Vereinzelt kann kleinräumiger Triebschnee noch kammnah in Nord- und Osthängen und in eingewehten Rinnen und Mulden ausgelöst werden. Die Lawinen bleiben in der Regel klein und die Absturzgefahr überwiegt die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Schnee wurde in den letzten Tagen stark verfrachtet und die Schneehöhen sind sehr unregelmäßig, Rücken und Grate sind abgeweht. Im Lee der Gipfelhänge haben sich kleinere Triebschneeansammlungen abgelagert, die noch gestört werden können. Im älteren Triebschnee finden sich vereinzelt auch noch schwache Zwischenschichten. Weiterhin liegt nur wenig Schnee.</snowpackStructureComment>
+          <tendencyComment>Es bleibt kalt und es fällt immer wieder etwas Neuschnee. Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

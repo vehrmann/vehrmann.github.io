@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3908RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3908RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-10T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahes Steilgelände, hinter Geländekanten sowie in eingewehten Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge, Felsplatten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit zunehmender Seehöhe Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend mäßig. Kleinräumig frischer und älterer Triebschnee ist das Hauptproblem. Gefahrenstellen finden sich im kammnahen Steilgelände, hinter Geländekanten sowie in eingewehten Rinnen und Mulden. Umfang und Verbreitung nehmen mit der Seehöhe zu. Einzelne Wintersportler können kleine, vereinzelt bis mittlere Lawinen auslösen. An sehr steilen Sonnenhängen sind weiterhin kleine Lockerschneelawinen möglich. An steilen Grashängen und Felsplatten aller Expositionen sind weiterhin kleine bis mittlere Gleitschneelawinen möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Der jüngste Neuschnee konnte sich weiter setzen und bis in höhere Lagen gut mit der Altschneedecke verbinden. Mit zunehmender Seehöhe dauert dieser Prozess temperaturbedingt noch länger. Oberflächennahe Schichten sind mit Ausnahme steiler Südhänge, wo öfters bereits ein brüchige Harschkruste anzutreffen ist,  meist noch weich. Mit zeitweiligem Windeinfluss wurde in hohen, exponierten Bereichen kleinräumig frischer Triebschnee gebildet. Die Altschneedecke ist überwiegend gut verfestigt und stabil. Der warme Boden und die im Unterbau feuchte Schneedecke fördern Gleitbewegungen der gesamten Schneedecke. Die Gleitschneeaktivität hat wieder etwas zugenommen. Es wurden vermehrt Gleitschneelawinen beobachtet - auch mittelgrosse.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht verläuft weitgehend gering bewölkt bis wolkenlos und damit wird es wieder kalt. Donnerstag: Auf den Bergen scheint die Sonne von früh bis spät von einem wolkenlosen Himmel. Die Temperaturen steigen in der Höhe noch ein wenig an, in 2000 m von -6 bis -1 Grad. Höhenwind: schwach bis mäßig aus Nordost</wxSynopsisComment>
+          <tendencyComment>Freitag und Samstag werden sehr sonnig und in den Bergen noch etwas milder. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID180RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID180RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne, kammnahe Triebschneelinsen oberhalb etwa 2000 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen von lockerem Pulverschnee überdeckt</avActivityHighlights>
+          <avActivityComment>In den Hochlagen gibt es nach wie vor einige Steilhänge, wo bereits durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden können. Die Lawinen können mittelgroß, vereinzelt auch groß werden. Betroffen sind kammnahe Steilhänge und kammferne, steile Geländeübergänge vor allem der Richtungen Nordwest über Nord bis Ost. In mittleren Höhenlagen sind die Verhältnisse deutlich günstiger und Gefahrenstellen deutlich seltener.</avActivityComment>
+          <snowpackStructureComment>Die Setzung der Schneedecke schreitet langsam voran. Windgeschützt ist der Schnee locker und durch die Kälte aufbauend umgewandelt mit Reif an der Oberfläche. Kammnah hat am Montag nördlicher Wind die Oberflächen bearbeitet und dünne Triebschneelinsen gebildet. In der Altschneedecke findet man immer noch weiche Schichten aus kantigen Formen, in denen sich Brüche ausbreiten können. Umfangreichen, älteren Triebschnee gibt es vor allem in den nördlichen Sektoren, er ist teilweise durch lockeren Pulver überdeckt und damit nicht immer leicht zu erkennen.</snowpackStructureComment>
+          <wxSynopsisComment>Im Tagesverlauf breiten sich zunehmend dichte Wolkenfelder aus. Anfangs ist die Sicht noch brauchbar, das Licht aber oft schon diffus. Am Nachmittag geraten die Tauern, immer öfter in Wolken. Mit auffrischendem, starkem Wind aus Südwest bis West/Nordwest beginnt es dort am späten Nachmittag zu schneien. Nur vorübergehend leichte Frostabschwächung: In 2000 m hat es zu Mittag um -5 Grad, in 3000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch neue Situation! Verbreitet hat es in der Früh 5 bis 10 cm windbeeinflussten Neuschnee, die den kalten lockeren Schnee/teilweise auch Oberflächenreif der Vortrage überdecken. Von einer hohen Störanfälligkeit der (vorerst noch geringmächtigen) Neuschnee-/Triebschneeauflage ist auszugehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID180RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID180RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, auslösbar im Randbereich von Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, dünne und kleinräumige Triebschneepakete, Absturzgefahr</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumige Bruchflächen unter Harschkrusten</avActivityHighlights>
+          <avActivityComment>Mäßige Schneebrettgefahr oberhalb etwa 2300 m, darunter ist die Gefährdung gering. Gefahrenstellen gibt es im extrem steilen kammnahen Gelände und hinter kammfernen Geländekanten. Vorsicht auch in schneearmen Zonen im Hochgebirge. Betroffen sind primär Expositionen von West über Nord bis Südost. An einigen Steilhänge ist dort insbesondere bei großer Zusatzbelastung (Sturz, dynamische Fahrweise, Gruppe,...) ein kleines oder mittelgroßes Schneebrett auslösbar.</avActivityComment>
+          <snowpackStructureComment>Einige Zentimeter lockerer Pulverschnee (zunehmend aufbauend und bindungslos) liegen in den Hochlagen auf unterschiedlich tragfähigem Windharsch. Südseitig und steil findet man eine leichte Schmelzkruste darauf. Windexponiert gibt es fahrbare Windharschdeckel, an wenigen Stellen taucht eine alte Schmelzkruste auf. Potenzielle Bruchflächen sind weiche Schichten unter dem letzten Triebschnee (zuletzt leichte Verfrachtung in östliche und südöstliche Sektoren) sowie bindungslose kantige Kristallformen unter den harten Krusten, die unterschiedlich gut überdeckt sind.</snowpackStructureComment>
+          <wxSynopsisComment>Im Tagesverlauf breiten sich zunehmend dichte Wolkenfelder aus. Anfangs ist die Sicht noch brauchbar, das Licht aber oft schon diffus. Ab etwa Mittag geraten die Berge immer öfter in Wolken. Mit auffrischendem, starkem Wind aus Südwest bis West/Nordwest beginnt es im Lauf des Nachmittags von Nordwesten her zu schneien. Nur vorübergehend leichte Frostabschwächung: In 2000 m hat es zu Mittag um -5 Grad, in 3000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch neue Situation! Verbreitet hat es in der Früh 10 bis 15 cm windbeeinflussten Neuschnee, die den kalten lockeren Schnee/teilweise auch Oberflächenreif der Vortrage überdecken. Von einer hohen Störanfälligkeit der Neuschnee-/Triebschneeauflage ist auszugehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID180RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID180RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete, kammnah oberhalb etwa 2200 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen, am Nachmittag Wetterumstellung</avActivityHighlights>
+          <avActivityComment>An ganz wenigen Stellen in extrem steilen Rinnen, kammnahen Steilhängen und auch hinter steilen Geländekanten oberhalb von 1800 m kann man vor allem im schattigen Gelände (W-N-O) ein zumeist kleines Schneebrett auslösen (Altschneeproblem). Gefahrenstellen durch dünne, kleinräumige Triebschneepakete gibt es zudem hochalpin kammnah im erweiterten Ostsektor (NO-O-SO). Auslösung insbesondere bei großer Zusatzbelastung.</avActivityComment>
+          <snowpackStructureComment>Eine kalte, aufbauend umgewandelte Pulverschneeauflage, teilweise mit Oberflächenreif wird ab dem Nachmittag unter Windeinfluss eingeschneit. Südseitig und steil ist die Unterlage eine dünne Schmelzkruste. Windexponiert gibt es fahrbare Windharschdeckel und kleinräumige Triebschneepakete auf weichen Schichten. Im Nordsektor und hochalpin gibt es kantige und lose Schneekristalle im Altschnee als weitere potenzielle, wenngleich kleinräumige Bruchfläche.</snowpackStructureComment>
+          <wxSynopsisComment>Im Tagesverlauf breiten sich zunehmend dichte Wolkenfelder aus. Anfangs ist die Sicht noch brauchbar, das Licht aber oft schon diffus. Ab etwa Mittag geraten die Berge immer öfter in Wolken. Mit auffrischendem, starkem Wind aus Südwest bis West/Nordwest beginnt es im Lauf des Nachmittags von Nordwesten her zu schneien. Nur vorübergehend leichte Frostabschwächung: In 2000 m hat es zu Mittag um -5 Grad, in 3000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch neue Situation! Verbreitet hat es in der Früh 10 bis 15 cm windbeeinflussten Neuschnee, die den kalten lockeren Schnee/teilweise auch Oberflächenreif der Vortrage überdecken. Von einer hohen Störanfälligkeit der Neuschnee-/Triebschneeauflage ist auszugehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

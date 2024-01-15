@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID213RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID213RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Hochlagen umfangreich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet erhebliche Schneebrettgefahr durch sehr störanfällige Verfrachtungen und schlechten Schneedeckenaufbau!</avActivityHighlights>
+          <avActivityComment>Älterer überdeckter und frischer Triebschnee ist nach wie vor sehr störanfällig und daher unbedingt zu beachten. In Steilhängen und in steilen eingeblasenen Mulden und Rinnen aller Expositionen, wie auch im lichten Bergwald ist eine Auslösung von Schneebrettlawinen bereits bei geringer Zusatzbelastung möglich, in Hochlagen sogar wahrscheinlich. Hochalpin gibt es im Südsektor durch starken Wind aus Nordwest bis Nord auch wieder frischen Triebschnee. In steilen noch nicht entladenen Bereichen sind kleine, ab den mittleren Lagen bis große, vereinzelt sehr große spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In der Nacht und am Montag gibt es nochmals rund 20 cm Neuschnee mit starkem Wind. Die Schneedecke konnte sich mit den tiefen Temperaturen noch kaum binden und enthält zahlreiche Schwachschichten. Innerhalb der Triebschneepakete und beim Übergang zum Altschnee, sowie in diesem sind störanfällige Schichten, wie kantige, lockere und bindungslose Kristalle sowie eingelagerter Oberflächenreif vorhanden und schwächen die Schneedecke. Der Triebschnee und die Schneedecke allgemein sind sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag wird die Sicht stark durch Wolken, Nebel und Schneefall eingeschränkt. Es weht starker Nordwestwind. In 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Am Dienstag scheint zeitweise die Sonne. Am Nachmittag werden die Wolken dichter und hohe Gipfel geraten vermehrt in Nebel. Es weht lebhafter bis starker Südwind. Deutliche Erwärmung. Zu Mittag in 1500 m um 0 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich vorerst kaum und bleibt verbreitet erheblich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID213RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID213RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teils umfangreich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr durch leicht auslösbare Verfrachtungen - schlechter Schneedeckenaufbau!</avActivityHighlights>
+          <avActivityComment>Nach wie vor ist störanfälliger Triebschnee vorhanden, der unbedingt zu umgehen ist. In triebschneegefüllten kammnahen Steilhängen, sowie in steilen verfüllten Mulden und Rinnen aller Expositionen, wie auch im lichten Bergwald ist eine Auslösung von Schneebrettlawinen bereits bei geringer Zusatzbelastung weiterhin möglich, teils wahrscheinlich. In steilen noch nicht entladenen Bereichen sind je nach Höhenlage kleine bis einzelne große spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die zuletzt gebildeten überdeckten Triebschneeablagerungen sind weiterhin störanfällig und in der Nacht und am Montag gibt es rund 20 cm Neuschnee mit Wind. Die Schneedecke und Verfrachtungen enthalten Schwachschichten und die Bindung mit der teils lockeren, kalten, oft geringmächtigen und gebietsweise in tiefen bis mittleren Lagen nicht vorhandenen Altschneedecke, ist unverändert schlecht. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag wird die Sicht stark durch Wolken, Nebel und Schneefall eingeschränkt. Es weht starker Nordwestwind. In 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Am Dienstag scheint zeitweise die Sonne. Am Nachmittag werden die Wolken dichter und hohe Gipfel geraten vermehrt in Nebel. Es weht lebhafter bis starker Südwind. Deutliche Erwärmung. Zu Mittag in 1500 m um 0 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich vorerst kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

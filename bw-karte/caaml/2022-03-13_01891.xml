@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1891RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-13T07:02:15+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1891RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-13T07:02:15+00:00</beginPosition>
+          <endPosition>2022-03-14T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>kammnah, kleinräumig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin günstige Tourenbedingungen!</avActivityHighlights>
+          <avActivityComment>In der Steiermark herrscht geringe Lawinengefahr. Vereinzelte Gefahrenstellen liegen in den Hangrichtungen Nord. Hier gibt es noch  Altschneeprobleme (tieferliegende Schwachschicht). Eine Schneebrettauslösung kann daher an schattseitigen, extrem steilen Hängen nicht ausgeschlossen werden. Zudem hat der Südwind von Freitag und Samstag nordseitig gering mächtige Triebschneelinsen gebildet, die ausgelöst werden können. Hangbereiche direkt unter Schneemäulern oder unter Rissen wegen möglicher Gleitschneeabgängen meiden. Sonnseitig sind nasse spontane Rutsche am Nachmittag möglich. </avActivityComment>
+          <snowpackStructureComment>Entlang der Niederen Tauern und Nordalpen liegen in Kammnähe dünne frische Triebschneelinsen auf Oberflächenreif. Sonst ist es in den Hochlagen hart und eisig. Sonnseitig herrschen Firnbedingungen. Vormittages ist es hart und während des Tages wird die Schneedeckenoberfläche feucht, in den tiefen Lagen auch nass.&#13;
+In den extrem steilen schattseitigen Hängen schwächen Schichten aus kantigen Formen den Schneedeckenaufbau.  Südlich der Mur- Mürzfurche ist die Schneedecke ebenfalls stabil, die Schneehöhen sind aber eher bescheiden. Es dominieren hier Schmelz- und  Windharschkrusten. </snowpackStructureComment>
+          <wxSynopsisComment>Den ganzen Tag strahlt die Sonne von einem blauen Himmel. Bei guter Fernsicht ist es auch nicht besonders kalt. In 2000m im Norden bei +1 Grad, an der Alpensüdseite bei -1 Grad, der Südwestwind weht in exponierten Lagen mit Spitzen bis 60 km/h.&#13;
+Montag: Sonnig und mild. Der Wind lässt nach.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung der derzeitigen Lawinensituation, weiterhin überwiegend günstige Verhältnisse.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

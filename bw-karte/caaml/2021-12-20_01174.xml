@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1174RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1174RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee sorgt für Anstieg der Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Neuschnee (ca. 10cm) und Sturm führten am Montag zu frischem, instabilem Triebschnee in südlich und östlich exponierten Geländeformen. Gefahrenstellen, an denen teilweise schon durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden können, finden sich leeseitig hinter Geländekanten, in steilen Hängen und in Einfahrten zu Rinnen und Mulden. Die ausgelösten Lawinen sind typischerweise Größe 2 Lawinen. In den Hochlagen können auch im Nordsektor in schattigen Bereichen wie Rinnen Schneebrettlawinen ausgelöst werden (Altschneeproblem). Zu beachten ist auch die Absturzgefahr auf vereisten Oberflächen.</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen hat sich eine harte bzw. vereiste Oberfläche gebildet. Auf dieser hat sich der frische Triebschnee abgelagert. Darunter ist das Schneedeckenfundament kompakt und weist kaum relevante Schwachschichten auf. Über der Waldgrenze schreitet schattseitig aber die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus wachsenden, kantigen Kristallen, verliert an Festigkeit und wird grundlos.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag erwartet uns herrlich sonniges und kaltes Bergwetter. Die trockene Kaltluft lässt eine herrliche Fernsicht zu. Der Wind weht nur noch schwach bis mäßig und kommt aus West bis Nordwest. In 2000m hat es um -9 Grad, in 1500m Höhe -6 Grad. Am Mittwoch bleibt es sonnig und es wird eine Spur milder.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr nimmt etwas ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1174RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1174RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Generell geringe Lawinengefahr, aber auf Triebschneelinsen und Absturzgefahr auf vereisten Oberflächen achten!</avActivityHighlights>
+          <avActivityComment>Generell ist die Lawinengefahr gering, vereinzelt bildeten sich in Hohlformen aber Triebschneelinsen, die nicht immer gut mit dem Untergrund verbunden sind. An diesen Gefahrenstellen können vereinzelt kleinere Schneebrettlawinen ausgelöst werden. Im schattseitigen Gelände (oberhalb der Baumgrenze) herrscht ein Altschneeproblem. Schneebrettauslösungen können nicht ausgeschlossen werden. Vorsicht auch wegen Absturzgefahr auf vereisten Oberflächen!</avActivityComment>
+          <snowpackStructureComment>In tiefen Lagen ist die Schneedecke feucht und - je nach Höhenlage - mit einer teils tragenden Schmelzharschkruste überdeckt. In höheren Lagen ist die Oberfläche hart und vereist oder windgepresst, darunter ist das Schneedeckenfundament kompakt und weist kaum Schwachschichten auf. &#13;
+Über 1500 m schreitet schattseitig die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus wachsenden, kantigen Kristallen, verliert an Festigkeit und wird grundlos.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag erwartet uns herrlich sonniges und kaltes Bergwetter. Die&#13;
+ trockene Kaltluft lässt eine herrliche Fernsicht zu. Der Wind weht nur  noch schwach bis mäßig und kommt aus West bis Nordwest. In 2000m hat es um -9 Grad, in 1500m Höhe -6 Grad. Am Mittwoch bleibt es sonnig und es wird eine Spur milder.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

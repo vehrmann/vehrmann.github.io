@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2494RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2494RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar, hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sehr unterdurchschnittliche Schneehöhen - Einzelne Gefahrenstellen nur mehr hochalpin!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen geringe Lawinengefahr. Vor allem in den schattseitig hochalpinen Lagen gibt es im Steilgelände einzelne Gefahrenstellen wo in der Altschneedecke eine Schwachschicht angesprochen werden könnte. Zu beachten sind stellenweise Kammlagen, Geländeübergänge und schattseitige sehr steile Mulden sowie Rinnen. Die Absturzgefahr ist größer als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die hochgelegen vorhandene geschlossene Schneedecke ist gut gesetzt und stabil. Oberhalb von etwa 2200 m Höhe können vereinzelt schattseitig Schwachschichten in der Schneedecke eingelagert sein. Mit der Abkühlung kann sie dich Schneeoberfläche festigen. Im Inneren ist sie bis weit hinauf feucht bis nass. Je nach Exposition sind die mittleren Lagen unterschiedlich weit hinauf aper. Darüber liegt nur sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Berge oft in Wolken, am Vormittag regnet oder schneit es zeitweise leicht. Die Schneefallgrenze liegt um 1500 m. Am Nachmittag brechen die Wolken von Norden her auf, die Sicht bessert sich. Es weht schwacher bis mäßiger Wind aus westlichen Richtungen. Temperaturen in 1500 m um 1 Grad, in 2000 m um -2 Grad.&#13;
+Am Mittwoch ist die Sicht in tieferen Lagen durch Hochnebelfelder eingeschränkt. Sonst scheint neben ein paar harmlosen hohen Wolken häufig die Sonne. Der Westwind weht schwach bis mäßig, gegen Abend in höheren Lagen teils lebhaft. Temperaturen in 1500 m um 3 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Schneesituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

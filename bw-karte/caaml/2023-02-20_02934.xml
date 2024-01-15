@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2934RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2934RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände, zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumigen Triebschnee in kammnähe beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb von etwa 1700 m mit mäßig, in tieferen Lagen mit gering bewertet. In den Hochlagen der Ybbstaler Alpen, sowie dem Gippel/Göller- und Rax/Schneeberg-Gebiet haben sich besonders in den Expositionen Ost bis Süd Triebschneeablagerungen gebildet, die teilweise bereits durch geringe Zusatzbelastung als Schneebrettlawine ausgelöst werden können. In allen Höhenlagen sind zusätzlich Gleitschneelawinen zu beachten. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden und die Bereiche darunter gemieden werden!</avActivityComment>
+          <snowpackStructureComment>Verbreitet ist die Schneedecke gut gesetzt. In Lagen unter 1500 m ist sie oft bereits bis zum Boden durchfeuchtet/nass und apert recht rasch aus. An steilen Gras- oder Laubwaldhängen ist die verbleibende Schneedecke im Gleiten. Exponierte Bereiche sind abgeweht und oft vereist. In den Expositionen Ost bis Süd haben sich kleinere Triebschneepakete gebildet, die teils nur schlecht mit der Unterlage verbunden sind. </snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bringt sonniges Wetter ins Niederösterreichische Bergland. Ein paar dünne Schleierwolken trüben den Sonnenschein nur wenig, aber der Nordwestwind weht noch kräftig, bevor er am Nachmittag nachlässt. Die Temperaturen in 1500 m steigen auf bis zu +5 Grad an. &#13;
+Am Mittwoch bleibt es großteils sonnig und sehr mild. </wxSynopsisComment>
+          <tendencyComment>Der Schnee apert weiter aus und die Setzung wird vorangetrieben. Die Triebschneeproblematik lässt nach, die Gleitschneeproblematik bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2934RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2934RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände, zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, dennoch Gleitschneeaktiviät beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit gering bewertet. Allerdings ist aus steilen Gras- und Waldbereichen vereinzelt mit spontanen Gleitschneelawinen zu rechnen. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden und die Bereiche darunter gemieden werden! </avActivityComment>
+          <snowpackStructureComment>Verbreitet ist die Schneedecke gut gesetzt. Sie ist oft bereits bis zum Boden durchfeuchtet oder nass und apert recht rasch aus. Der verbleibende Schnee ist an steilen Grashängen und in Laubwäldern am Gleiten. Exponierte Hochlagen sind abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bringt sonniges Wetter ins Niederösterreichische Bergland. Ein paar dünne Schleierwolken trüben den Sonnenschein nur wenig, aber der Nordwestwind weht noch kräftig, bevor er am Nachmittag nachlässt. Die Temperaturen in 1500 m steigen auf bis zu +5 Grad an. &#13;
+Am Mittwoch bleibt es großteils sonnig und sehr mild. </wxSynopsisComment>
+          <tendencyComment>Der Schnee apert weiter aus und die Setzung wird vorangetrieben. Die Gleitschneeproblematik bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

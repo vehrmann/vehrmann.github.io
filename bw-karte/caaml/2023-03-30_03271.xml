@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3271RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3271RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in den Hochlagen, am Nachmittag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Milde Temperaturen - hoch liegende Schneefallgrenze - ab Mittag breiten sich Schauer aus - Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über rund 1400 m Höhe als erheblich eingestuft. Ganztägig sind spontane oder durch Zusatzbelastung ausgelöste Nassschneelawinen in allen Expositionen möglich. Zu beachten ist nicht entladenes steiles Gelände. Lawinen können vereinzelt auch groß werden. Es ist nicht auszuschießen, dass Lawinen direkt am Boden abgleiten. Über der Schneefallgrenze können sich durch starken bis stürmischen Wind um West und Schneeschauer Gefahrenstellen durch frischen Triebschnee bilden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wurde durch Regeneintrag und milde Temperaturen geprägt. Selbst sehr hochgelegen wurde der Schnee vom Wochenbeginn feucht bis nass. Vor allem in den schattseitigen Hochlagen können teils im Schneedeckenfundament Schwachschichten vorhanden sein, die jetzt wieder angesprochen werden könnten. Ansonsten ist die Altschneedecke überwiegend durchfeuchtet bzw. durchnässt. In den tiefen und teils mittleren Lagen ist es oft aper bzw. liegt nur mehr wenig Schnee. Vor allem am Nachmittag kann sich über der Schneefallgrenze durch starken bis stürmischen Wind und Schneeschauer frischer Triebschnee bilden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist es am Vormittag meist noch trocken, ausgedehnte Wolkenfelder sorgen aber oft für diffuse Sichtverhältnisse. Ab der Mittagszeit breiten sich Schauer aus, Schnee fällt dabei oberhalb von etwa 1700 m. Zunächst weht föhniger Südostwind, am Nachmittag frischt starker bis stürmischer Westwind auf. Temperaturen in 1500 m um 4 bis 5 Grad, in 2000 m zwischen 2 bis 3 Grad.&#13;
+Am Samstag herrschen auf den Bergen sehr unbeständige Verhältnisse. Die Sichtverhältnisse wechseln immer wieder, wiederholt ziehen Regen- und Schneeschauer durch. Die Schneefallgrenze liegt zwischen 1300 und 1700 m. Der Wind weht stark, in den Hochlagen teils auch stürmisch aus westlichen Richtungen. Temperaturen in 1500 m um 1 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Das Nassschneeproblem ist weiterhin zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

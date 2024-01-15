@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID943RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-25T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID943RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-25T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-25T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-26T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-25T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-26T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Strahlung und Erwärmung unter ca. 2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt in sehr hochgelegenen Schattlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust der Schneedecke fürht zu schwachem Tagesgang der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt unterhalb von etwa 2000m im Tagesverlauf auf mäßig an. Mit zunehmender Strahlung und Erwärmung sowie etwas Regeneintrag nimmt im sehr steilen Gelände die Gefahr von nassen Lawinen zu. Unter Zusatzbelastung auslösbare, trockene Schneebrettlawinen (Altschneeproblem) beschränken sich auf schattiges, kammnahes und steiles Gelände der Hochlagen.&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>Auch die Nacht auf Montag gestaltet sich oft wolkenarm, womit sich die Schneeoberfläche in Abhängigkeit von Höhe und Exposition unterschiedlich stark verfestigt bzw. verharscht. Tagsüber sorgen Sonne, diffuse Strahlung, Wärme und stellenweise Regen für eine oberflächliche Anfeuchtung. Der Schnee verliert in mittleren und tiefen Lagen zunehmend an Festigkeit und gestaltet sich schwer, in tieferen Lagen auch nass bis faul. In höhergelegenen, schattigen Bereichen mit vorhandenen Kältereserven ist der Schnee oft etwas windgepresst aber trocken. Vereinzelt existieren in der auf einer kompakten Altschneedecke liegenden Schneeauflage Schwachschichten für Schneebrettlawinen, dies in Schattlagen über 2200m Seehöhe. Die Ausaperung bis in mittlere Lagen schreitet rasch voran.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer vor allem im Norden wolkenarmen Nacht ziehen alpensüdseitig ab den Morgenstunden vermehr dichte Wolken auf, Regen- bzw. Schneeschauer inklusive. An der Nordseite der Alpen vorerst noch aufgelockert und niederschlagsfrei, bevor im Laufe des Vormittags auch hier die Bewölkung von Süden übergreift, lokal können immer wieder Schauer auftreten. Bei einer im tagesverlauf ansteigenden Schneefallgrenze liegen die Mittagstemperaturn in 2000m zwischen 0 und -3 Grad, in 1500m um +2 Grad.  Der Wind aus südlichen Richtungen bleibt meist mäßig, im Nordosten mitunter lebhaft.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Dienstag speziell im Süden unbeständig und schaueranfällig, im Norden tendenziell am Nachmittag freundlicher. Bei oft starkem Südostwind ist es allgemein etwas kühler. Keine wesentliche Änderung der Lawinengefahr.&#13;
+&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID943RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-25T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID943RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-25T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Strahlung und Erwärmung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Aus dem sehr steilen Gelände besteht vereinzelt die im Tagesverlauf etwas ansteigende Gefahr von nassen Lockerschneerutschen durch Strahlung, Erwärmung sowie Regeneintrag.&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Montag ist es zeitweise wolkenarm, womit sich die Schneeoberfläche in Abhängigkeit von der Höhe unterschiedlich stark verfestigt. Der Schnee verliert zunehmend an Festigkeit und Stabilität und gestaltet sich schwer bzw. nass. Die Ausaperung schreitet rasch voran.&#13;
+&#13;
+&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Alpensüdseitig ziehen ab den Morgenstunden vermehr dichte Wolken auf, Regen- bzw. Schneeschauer inklusive. Bei einer im tagesverlauf ansteigenden Schneefallgrenze liegen die Mittagstemperaturn in 2000m zwischen 0 und -3 Grad, in 1500m um +2 Grad.  Der Wind aus südlichen Richtungen bleibt meist mäßig.&#13;
+&#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Dienstag speziell im Süden unbeständig und schaueranfällig, im Norden tendenziell am Nachmittag freundlicher. Bei oft starkem Südostwind ist es allgemein etwas kühler. Keine wesentliche Änderung der Lawinengefahr.&#13;
+&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID907RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID907RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-20T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-21T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-21T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-21T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kräftige Einstrahlung am Vormittag, ab Mittag regional Regeneintrag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>vereinzelt in sehr hochgelegenen Schattlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr mit Häufigkeitszunahme von Nassschneelawinen ab dem späteren Vormittag!</avActivityHighlights>
+          <avActivityComment>Aus dem sehr steilen Gelände steigt die Gefahr von Lockerschneelawinen, welche sowohl in Form von Nassschneelawinen als auch in Form von feuchten Schneebrettern spontan oder künstlich durch Zusatzbelastung eines Wintersportlers ausgelöst werden können. In den neuschneereichen Gebieten der vergangenen Woche, wo der Schnee auf bereits apere und sehr steile Hangzonen fiel, ist außerdem mit mittelgroßen Gleitschneelawinen zu rechnen.&#13;
+Unter Zusatzbelastung auslösbare, trockene Schneebretter beschränken sich hingegen meist nur noch auf schattseitige Hochlagen. Hier könnte durch ein kalt/warm-Problem eine neue Schwachschicht am Übergang zum Altschnee ausbilden. </avActivityComment>
+          <snowpackStructureComment>Über Nacht kann es diesmal aufklaren, was sich positiv auf die Festigkeit der obersten Schneeschicht (dem Neuschneepaket von Mitte vergangener Woche) auswirkt. Die verharschten Schneeoberflächen können daher am früheren Vormittag zumindest in höheren Lagen noch gut tragfähig sein. Tagsüber setzt sich dann, je nach Seehöhe und Hangrichtung, die oberflächliche Anfeuchtung durch Einstrahlung und Regeneintrag wieder fort. Der Schnee gestaltet sich dann zunehmend schwer, in tieferen Lagen auch nass bis faul. Die Verbindung zur Altschneedecke wird dann zunehmend schlecht, im Steilgelände beginnt der feuchte und schwere Schnee auf dem verharschten Altschnee zu rutschen. Nur vereinzelt (Schattlagen höher 2.200m Seehöhe) ist er noch einigermaßen locker geblieben. Ein durch die Bodenwärme sowie durch einsickerndes Schmelzwasser entstandener Schmierfilm fördert an steilen Grashängen außerdem die Gleitaktivität. </snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch bringt am Vormittag meist sogar wolkenloses Wetter, erst gegen Mittag können sich in der schwach labilen Luftmasse Quellwolken und in weiterer Folge auch ein paar Regen,- Graupel oder Schneeschauer ausbilden. Die Gipfel geraten dann vorübergehend in Nebel. Der Wind dreht auf Südwest und weht nur schwach bis mäßig, die Temperaturen erreichen zu Mittag in 2.000m 0 Grad und in 1.500m +5 Grad.</wxSynopsisComment>
+          <tendencyComment>Eine schwache Kaltfront bringt der Obersteiermark am Donnerstag tagsüber wieder mehr Wolken mit nur kurzen sonnigen Abschnitten, dazu auch einige Regen- und Schneeschauer sowie auch kurze Graupelgewitter. Der Wind dreht dabei stärker werdend auf Nordwest. Schnee fällt dabei oberhalb von 1.600 bis 2.00m Seehöhe. Die Temperaturen bleiben gegenüber dem Vortag unverändert. &#13;
+Mit der Mitte April schon recht kräftigen Diffusstrahlung sowie dem zusätzlichen Regeneintrag setzt sich der Schmelzprozess fort und die Schneedecke verliert an Festigkeit. Es stellt sich weiterhin ein Tagesgang der Lawinengefahr mit günstigeren Verhältnissen am früheren Vormittag und Nassschneelawinen spätestens ab Mittag ein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID907RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID907RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, trotzdem Vorsicht vor kleineren spontanen Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>&#13;
+Aus dem sehr steilen Gelände steigt die Gefahr von Lockerschneelawinen, welche in Form von Nassschneelawinen spontan oder künstlich durch Zusatzbelastung eines Wintersportlers ausgelöst werden können ab Mittag langsam an.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Über Nacht kann es diesmal aufklaren, was sich positiv auf die Festigkeit der obersten Schneeschicht (dem Neuschneepaket von Mitte vergangener Woche sowie einigen Zentimetern vom Montag) auswirkt. Die verharschten Schneeoberflächen können daher am früheren Vormittag zumindest in höheren Lagen noch gut tragfähig sein. Tagsüber setzt sich dann, je nach Seehöhe und Hangrichtung, die oberflächliche Anfeuchtung durch Einstrahlung und Regeneintrag wieder fort. Der Schnee gestaltet sich dann zunehmend schwer, in tieferen Lagen auch nass bis faul. Die Verbindung zur Altschneedecke wird dann zunehmend schlecht, im Steilgelände kann der feuchte und schwere Schnee auf dem verharschten Altschnee zu rutschen beginnen. Nur vereinzelt (Schattlagen höher 2.200m Seehöhe) ist er noch einigermaßen locker geblieben. Ein durch die Bodenwärme sowie durch einsickerndes Schmelzwasser entstandener Schmierfilm fördert an steilen Grashängen außerdem die Gleitaktivität.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch bringt am Vormittag meist sogar wolkenloses Wetter, erst gegen Mittag können sich in der schwach labilen Luftmasse Quellwolken und in weiterer Folge auch ein paar Regen,- Graupel oder Schneeschauer ausbilden. Die höchsten Gipfel geraten dann vorübergehend in Nebel. Der Wind dreht auf Südwest und weht nur schwach bis mäßig, die Temperaturen erreichen zu Mittag in 2.000m 0 Grad und in 1.500m +5 Grad. Noch etwas milder wird es wieder ganz im Südwesten im Bereich der Gurktaler Alpen mit +2 bzw. +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Eine schwache Kaltfront bringt der Alpensüdseite am Donnerstag tagsüber wieder mehr Wolken mit nur kurzen sonnigen Abschnitten, dazu auch einige Regen- und Schneeschauer sowie auch kurze Graupelgewitter. Der Wind dreht dabei stärker werdend auf Nordwest. Schnee fällt dabei oberhalb von 1.600 bis 2.00m Seehöhe. Die Temperaturen bleiben gegenüber dem Vortag unverändert. &#13;
+Mit der Mitte April schon recht kräftigen Diffusstrahlung sowie dem zusätzlichen Regeneintrag setzt sich der Schmelzprozess fort und die Schneedecke verliert weiter an Festigkeit. Wenig Änderung in der Lawinengefahr.&#13;
+Der Mittwoch bringt am Vormittag meist sogar wolkenloses Wetter, erst ab Mittag können sich in der schwach labilen Luftmasse Quellwolken und in weiterer Folge ein paar Regen,- Graupel oder Schneeschauer ausbilden. Die Gipfel geraten dann vorübergehend in Nebel. Der Wind dreht auf Südwest und weht nur schwach bis mäßig, die Frostgrenze steigt auf über 2.000m Seehöhe an.&#13;
+Mit der Erwärmung stellt sich wieder ein Tagesgang der Lawinengefahr mit etwas günstigeren Verhältnissen am Vormittag ein.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

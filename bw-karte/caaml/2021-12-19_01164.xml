@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1164RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1164RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr ist höher einzuschätzen, als die Gefahr verschüttet zu werden.</avActivityHighlights>
+          <avActivityComment>Es herrscht eine geringe Lawinengefahr im bayerischen Alpenraum. Störanfällige Zwischenschichten im Altschneepaket sind das Hauptproblem. Schneebrettlawinen mittlerer Größe können vereinzelt im extremen Steilgelände mit großer Zusatzbelastung ausgelöst werden. Dies ist vor allem schattseitig oberhalb 2300 m an Stellen mit geringer Schneehöhe, zum Beispiel bei der Einfahrt zu Rinnen und Mulden möglich. &#13;
+Zudem lösen sich in mittleren Lagen vereinzelt Gleitschneelawinen an glatten und steilen Wiesenhängen. Diese sind meist klein, können im Allgäu unter Umständen mittlere Größe erreichen. &#13;
+Geringmächtige, frische Triebschneeansammlungen in Kammlagen können leicht ausgelöst werden und zum Absturz führen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich bei milden Temperaturen gut gesetzt und ist weitgehend kompakt und stabil. Wind aus nordwestlichen Richtungen und leichter Schneefall im Osten führen zu geringmächtigen Triebschneeansammlungen in Gipfellagen, die sich auf einem Schmelz- oder Windharschdeckel unterschiedlicher Dicke und in windgeschützten, schattigen Lagen auf Oberflächenreif ablagern. Schneeschichten aus aufgebauten Schneekristallen finden sich in den Hochlagen an der Schneedeckenbasis. Schattseitig sind diese Schichten ausgeprägter und hier ist auch eine Bruchfortpflanzung wahrscheinlicher. In tiefen und mittleren Lagen ist die Schneedecke zum Boden hin feucht. Gleitbewegungen sind daher weiterhin nicht ausgeschlossen, sind aber seltener geworden.</snowpackStructureComment>
+          <tendencyComment>An der Lawinengefahr wird sich die nächsten Tage kaum etwas verändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

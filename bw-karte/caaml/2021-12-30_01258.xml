@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1258RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1258RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>sehr vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Einzelne kleine Gleitschneelawinen sind aus noch nicht entladenem steilen Grasmattengelände heraus möglich.</avActivityComment>
+          <snowpackStructureComment>Dürftige, durchnässte Schneedecke, teils mit Harschdeckel, der tagsüber aufgeht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag sonnig und sehr mild. In 2000 m 4 bis 8 Grad. Wenig Wind.&#13;
+Am Samstag weiterhin gute Sicht und sonnig. In 2000 m um 3 Grad. Der Westwind kann auf den Gipfeln störend sein.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1258RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1258RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>weitere Erwärmung und Sonnenschein</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, auslösbar im Übergang von wenig zu viel, ab etwa 2400 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einzelne Nasschneelawinen, Triebschneeproblem ab etwa 2400 m</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1500 m MÄßIG, darunter GERING. Mit der Sonnenseinstrahlung und der Erwärmung sind einzelne oberflächliche Nasschneelawinen (klein bis mittelgroß) im extremen Steilgelände möglich, diese können auch von einem Wintersportler ausgelöst werden. Aus noch nicht entladenem steilen Grasmattengelände können kleine bis mittlere Gleitschneelawinen abgehen. Ab etwa 2400 m ist auf den frischen Triebschnee zu achten. Dieser befindet sich hauptsächlich in Rinnen und Mulden (alle Expositionen) und im erweiterten Ostsektor (kammnah und kammfern). Der Triebschnee ist insbesondere mit großer Zusatzbelastung auslösbar, ein Schneebrett kann für Wintersportler aber gefährlich groß werden.</avActivityComment>
+          <snowpackStructureComment>Bis etwa 2300 m hinauf ist die Schneedecke feucht bis nass und trägt in der Früh meist einen Harschdeckel. Tagsüber wird die Oberfläche weich. Ab etwa 2300 m ist trockener Schnee (meist Triebschnee, oder harte Flächen) anzutreffen. Die Altschneedecke ist kompakt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag bei guter Sicht sonnig und mild. In den Hochlagen noch störender Westwind. In 2000 m 4 bis 8 Grad, in 3000 m um 2 Grad.&#13;
+Am Samstag weiterhin gute Sicht und sonnig. Der Nordwestwind weht allerdings teils lebhaft. In 2000 m um 3 Grad, in 3000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneedecke setzt sich weiter, die Lawinengefahr geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1258RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1258RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>sehr wenige Gefahrenpunkte im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kaum Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt kaum Gefahrenstellen. Einzelne kleine Gleitschneelawinen oder oberflächliche nasse Rutsche sind möglich.</avActivityComment>
+          <snowpackStructureComment>Kompakte Schneedecke mit Harschdeckel, der tagsüber auffirnen kann.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag sonnig und mild. Zu Mittag in 2000 m um 8 Grad.&#13;
+Am Samstag weiterhin sonnig.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1258RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1258RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, auslösbar im Übergang von wenig zu viel, ab etwa 2400 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>fast wie im Frühjahr</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem ab etwa 2400 m, darunter Nasschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 2400 m ERHEBLICH, darunter MÄßIG. In den höheren Lagen ist der frische Triebschnee das Hauptproblem. Rinnen und Mulden sind mit Triebschnee gefüllt. Auch im erweitereten Ostsektor dominiert Triebschnee (kammnah und kammfern). Ein Schneebrett kann teilweise bereits mit geringer Zusatzbelastung ausgelöst werden, am ehesten am Übergang von wenig zu viel Schnee, und für Wintersportler gefährlich groß werden. Die Auslösebereitschaft nimmt mit der Höhe zu. In mittleren Lagen können mit der Sonneneinstrahlung und der Erwärmung einzelne kleine bis mittlere oberflächliche Nassschneelawinen abgehen oder im extremen Steilgelände von einem Wintersportler ausgelöst werden. Auch einzelne Gleitschnelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Bis etwa 2300 m hinauf ist der Schnee feucht bis nass und trägt am Morgen einen Harschdeckel. Darüber ist trockener Schnee anzutreffen, meist in Form von Triebschnee. Der Schnee ist sehr unterschiedlich verteilt und es schauen teilweise nach wie vor viele Steine heraus. Westseitiges Gelände und Grate sind oft abgeblasen. Mulden, Rinnen und ostseitiges Gelände eingeweht.  Lawinen gehen (sofern es keine Gleitschneelawinen sind) an der Grenzfläche zwischen dem Neuschnee von Mittwoch/Donnerstag und der Altschneedecke darunter ab. Die Altschneedecke ist recht kompakt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag bei guter Sicht sehr sonnig. In den Hochlagen stört allerdings kräftiger Nordwestwind. In 2000 m 4 bis 8 Grad, in 3000 m um 2 Grad.&#13;
+Auch am Samstag gute Sicht und viel Sonnenschein. Der Nordwestwind weht allerdings weiterhin teils kräftig. In 2000 m um 3 Grad, in 3000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneedecke setzt sich, die Lawinengefahr geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

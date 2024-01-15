@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3577RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3577RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneebretter leicht auslösbar!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht eine  erhebliche, darunter eine mäßige  Lawinengefahr. Das Hauptproblem ist frischer Triebschnee, der durch geringe Zusatzbelastung, z.B. durch einen einzelnen Wintersportler, ausgelöst werden kann. Gefahrenstellen finden sich in kammnahen Steilhängen der Expositionen West über Nord bis Südost, hinter Geländekanten und in Rinnen und Mulden. Umfang und Anzahl der Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schneebrettlawinen können mittlere Größe erreichen.&#13;
+In mittleren Lagen kann es vereinzelt zur Selbstauslösung von Gleitschneelawinen kommen. Diese sind an steilen Wiesenhängen und in Waldschneisen aller Expositionen möglich. Gleitschneerisse weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Verbreitet liegt ein halber bis ein Meter  lockerer Schnee auf einer weitgehend stabilen Altschneedecke. Der Schnee hat sich bei kalten Temperaturen etwas gesetzt, kann jedoch vom aufkommenden Wind aus südlichen Richtungen verfrachtet werden. Umfangreiche Verfrachtungen sind vor allem in den typischen Föhnschneisen zu erwarten. Der Triebschnee kommt auf lockerem Schnee und teils Oberflächenreif zu Liegen und kann daher sehr störanfällig sein. Örtlich sind tiefliegende Schwachschichten in der Schneedecke erhalten geblieben, eine großflächige Bruchausbreitung konnte aber in den letzten Tagen im bayerischen Alpenraum nicht beobachtet werden.  In mittleren Lagen ist die Schneedeckenbasis oft nass und Gleitbewegungen sind die Folge. Insgesamt ist die Schneehöhe für die Jahreszeit in allen Höhenlagen deutlich überdurchschnittlich.</snowpackStructureComment>
+          <tendencyComment>Es wird die nächsten Tage wärmer und Niederschlag setzt ein. In tiefen Lagen wird Nassschnee zum Problem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

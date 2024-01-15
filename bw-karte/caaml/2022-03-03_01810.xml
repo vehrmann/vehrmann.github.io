@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1810RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1810RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in hohen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation, Altschneeproblem weiterhin berücksichtigen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb von rund 2400 m mit MÄSSIG, darunter mit GERING beurteilt. An vereinzelten Stellen in nördlichen Expositionen ist durch eine große Zusatzbelastung eine Auslösung im Altschnee möglich. Die Gefahrenstellen umfassen dabei vor allem die Übergänge von wenig zu viel Schnee im selten befahrenen und extrem steilen Gelände. Die Gefahrenstellen sind dabei jedoch nur schwer zu erkennen. Bei einer Auslösung im Altschnee sind Schneebrett-Lawinen von mittlerer Größe möglich. Triebschneeansammlungen können noch in hohen Lagen (über 2400 m) und schattigen Expositionen störanfällig sein und können vereinzelt durch eine geringe Zusatzbelastung ausgelöst werden. Die Gefahrenstellen sind dabei gut zu erkennen und umfassen Rinnen, Mulden und Geländekanten. Bei Auslösung sind hauptsächlich kleine Schneebrett-Lawinen zu erwarten. In extrem steilen Gelände sollten diese vor allem hinsichtlich der Absturzgefahr sehr vorsichtig beurteilt werden.</avActivityComment>
+          <snowpackStructureComment>In schattigen Expositionen in hohen Lagen sind (persistente) Schwachschichten innerhalb der Altschneedecke vorhanden. In schattigen Expositionen in hohen Lagen sind unterschiedliche Triebschneeschichten zudem vereinzelt noch nicht mit der Altschneedecke verbunden. In sonnigen Expositionen ist eine günstig aufgebaute und verfestigte Altschneedecke vorzufinden. An Geländekanten ist durch den starken Wind der letzten Wochen eine meist nur sehr geringmächtige Schneedecke vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitagvormittag dominiert auf den Bergen neuerlich der Sonnenschein. Nur am unmittelbaren Tauernhauptkamm können sich ein paar Nebelbänke halten. Ab etwa Mittag bilden sich zunächst im Osten, später auch im Westen vermehrt Quellwolken. Dadurch verschlechtern sich die Sichtverhältnisse und sehr vereinzelt ist auch ein kurzer Schneeschauer möglich. Mit in hohen Lagen teils kräftigem Nordostwind bzw. Nordwestwind hat es auf 2000 m zwischen -9 Grad und -6 Grad und auf 3000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1810RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1810RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Ältere Triebschneeansammlungen können in hohen Lagen und schattigen Expositionen noch störanfällig sein. Eine Auslösung ist jedoch nur bei einer großen Zusatzbelastung möglich. Die Gefahrenstellen sind dabei gut zu erkennen und umfassen Rinnen, Mulden und Geländekanten. Bei Auslösung sind nur kleine Schneebrett-Lawinen zu erwarten. In extrem steilen Gelände sollten diese vor allem hinsichtlich der Absturzgefahr sehr vorsichtig beurteilt werden.</avActivityComment>
+          <snowpackStructureComment>In sonnigen Expositionen ist eine geringmächtige, günstig aufgebaute und verfestigte Altschneedecke vorzufinden. In schattigen Expositionen können ältere Triebschneeschichten teilweise noch nicht mit der Altschneedecke verbunden sein. An Geländekanten ist durch den starken Wind der letzten Wochen eine meist nur sehr geringmächtige Schneedecke vorhanden. In tieferen Lagen ist keine oder nur eine sehr geringmächtige Schneedecke vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitagvormittag dominiert auf den Bergen neuerlich der Sonnenschein. Nur am unmittelbaren Tauernhauptkamm können sich ein paar Nebelbänke halten. Ab etwa Mittag bilden sich zunächst im Osten, später auch im Westen vermehrt Quellwolken. Dadurch verschlechtern sich die Sichtverhältnisse und sehr vereinzelt ist auch ein kurzer Schneeschauer möglich. Mit kühlem Nordostwind hat es auf 2000 m zwischen -9 Grad und -6 Grad. </wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID394RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID394RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahe Steilhänge</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Hochlagen, Übergänge wenig zu viel Schnee, schneearme Bereiche</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfällige Verfrachtungen vor allem in den höheren Lagen und Altschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen sind durch am Samstag zeitweise starken Wind aus Nord bis Ost, teilweise auch über der Waldgrenze störanfällige spröde Verfrachtungen vorhanden, die es zu meiden gilt. Diese Verfrachtungen können durch große, aber auch bereits bei geringe Zusatzbelastung ausgelöst werden. Daneben besteht in schatt- und nordseitigen Hochlagen unverändert das Altschneeproblem. Im Steilgelände können somit durch Zusatzbelastung und wegen tieferliegenden, bodennahen Schwachschichten Schneebrettlawinen ausgelöst werden. Solche Gefahrenstellen sind vor allem schneearme Bereiche und Übergänge von mehr zu wenig Schnee.</avActivityComment>
+          <snowpackStructureComment>Der sehr kalte und lockere Schnee wurde vor allem in den Hochlagen zeitweise verfrachtet und bildet in kammnahen Steilhängen störanfälligen Triebschnee, der schlecht mit der Altschneedecke bindet. Die Altschneedecke selbst ist gesetzt, oberflächig gefestigt, windgeprägt und nordseitig noch locker. Teilweise sind Eis- oder Harschschichten freigefegt. Vor allem in den schatt- und nordseitigen Hochlagen enthält sie bereits seit längerer Zeit immer noch Schwachschichten. In den tiefen und mittleren Lagen liegt nur wenig Schnee, der im Inneren teils nass bzw. feucht ist. Ab der Waldgrenze ist die Schneedecke sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag verschwinden Sichteinschränkungen durch tiefe Restwolken in der Pyhrn-Priel-Region rasch, der Himmel ist großteils wolkenlos. Es weht schwacher bis mäßiger Wind aus Nordost bis Ost. Temperaturen in 1500 m um -13 Grad, in 2000 m um -15 Grad.&#13;
+Am Montag herrscht zunächst oft sonniges Wetter. Im Tagesverlauf ziehen zunehmend dichte hohe Wolkenfelder durch. Die Gipfel bleiben frei, allerdings wird die Sicht zunehmend diffus. Es bleibt niederschlagsfrei. Der Wind weht im Hochgebirge teils lebhaft aus nördlichen Richtungen. Temperaturen in 1500 m zwischen -7 und -1 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird deutlich milder. Vorerst keine wesentliche Änderung der Lawinensituation. Vereinzelt Triebschnee- und verstecktes Altschneeproblem beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID394RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID394RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr - wenig Schnee!</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe Lawinengefahr. In Kammlagen sind im Gipfelbereich nur einzelne kleinräumige ältere Verfrachtungen vorhanden, die zu beachten sind. Allgemein liegt eine nur sehr geringmächtige Schneedecke.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene sehr kalte Neu- und eventuell gebildete Triebschnee liegen auf einer geringmächtigen Altschneedecke, die sich mit der Abkühlung gefestigt hat. Dazwischen ist aber eine dünne lockere Schicht eingelagert, die die nur kleinräumigen Verfrachtungen teilweise störanfällig macht. Abgewehte Bereiche sind vereist oder verharscht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag verschwinden Sichteinschränkungen durch tiefe Restwolken in der Pyhrn-Priel-Region rasch, der Himmel ist großteils wolkenlos. Es weht schwacher bis mäßiger Wind aus Nordost bis Ost. Temperaturen in 1500 m um -13 Grad, in 2000 m um -15 Grad.&#13;
+Am Montag herrscht zunächst oft sonniges Wetter. Im Tagesverlauf ziehen zunehmend dichte hohe Wolkenfelder durch. Die Gipfel bleiben frei, allerdings wird die Sicht zunehmend diffus. Es bleibt niederschlagsfrei. Der Wind weht im Hochgebirge teils lebhaft aus nördlichen Richtungen. Temperaturen in 1500 m zwischen -7 und -1 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

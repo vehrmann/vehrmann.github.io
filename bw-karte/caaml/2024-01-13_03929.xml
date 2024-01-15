@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3929RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3929RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Alter Triebschnee kompakt, frischer störanfällig</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im Bayerischen Alpenraum gering. Triebschnee ist das Hauptproblem. Vereinzelte Gefahrenstellen befinden sich in höheren Lagen im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest sowie in eingewehten Rinnen und Mulden. Triebschneeansammlungen können bereits durch geringe Zusatzbelastung als Schneebrettlawine ausgelöst werden. Meist bleiben Schneebrettlawinen klein. Die Mitreiß- und Absturzgefahr überwiegt die Gefahr verschüttet zu werden.&#13;
+Sonnseitig ist im noch nicht entladenen, extremen Steilgelände mit Selbstauslösungen kleiner nasser Lockerschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die Schneeoberfläche ist vielerorts vom Wind geprägt. Frischer Triebschnee liegt örtlich störanfällig auf schwachen Zwischenschichten, einem Windharschdeckel oder sonnseitig auf einer dünnen Harschkruste. An wenigen Stellen finden sich nordseitig im Bereich einer Schmelzkruste kantige Kristalle. Ältere Triebschneepakete sind weitgehend stabil. Schattseitig und in windberuhigten Bereichen ist der Schnee noch locker und ungebunden. In südlichen Expositionen entsteht über Nacht ein meist nicht tragfähiger Schmelzharschdeckel. Dort, wo die Sonne ausreichend Kraft besitzt, taut er wieder auf. Die Schneedecke ist bis in die Hochlagen zum Boden hin feucht und an der Basis oft nass, aber hart und kompakt. Südseitig beginnt der Boden bis in mittlere Lagen allmählich auszuapern.</snowpackStructureComment>
+          <tendencyComment>Mit Wind, der zeitweise von Schneefall begleitet wird, nimmt die Anzahl der Gefahrenstellen im Gelände zu: Die Lawinengefahr wird zu Wochenbeginn etwas ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

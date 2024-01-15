@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3075RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3075RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-09T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Westwind verfrachtet den Neuschnee und lässt störanfällige Triebschneeansammlungen entstehen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, unterhalb davon gering. Problematisch ist frischer Triebschnee. Oberhalb der Waldgrenze kann dieser an manchen Stellen bereits durch geringe Zusatzbelastung als Schneebrettlawine ausgelöst werden. Schneebrettlawinen können mittlere Ausmaße annehmen. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände nördlicher und östlicher Expositionen und in eingewehten Rinnen und Mulden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist am Morgen bis in die mittleren Lagen hinauf durchfeuchtet und oberflächlich verharscht. Die Altschneedecke der Hochlagen ist weitgehend stabil. Starker Wind verfrachtet den Neuschnee und lässt kleine Triebschneeansammlungen entstehen. An windgeschützten Stellen kommt der Triebschnee auf älteren Triebschneepaketen zu liegen. In windberuhigten Phasen können sich störanfällige Zwischenschichten innerhalb des frischen Triebschnees bilden.</snowpackStructureComment>
+          <tendencyComment>Wenig Änderung der Lawinengefahr mit sinkenden Temperaturen, geringen Neuschneemengen und viel Wind.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3075RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3075RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-09T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr durch kleine Schneebrettlawinen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Problematisch ist frischer Triebschnee. Vor allem in den Hochlagen kann dieser an vereinzelten Stellen bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände nördlicher und östlicher Expositionen und in eingewehten Rinnen und Mulden. Schneebrettlawinen bleiben in der Regel.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist am Morgen bis in die mittleren Lagen hinauf durchfeuchtet und oberflächlich verharscht. Die Altschneedecke der Hochlagen ist weitgehend stabil. Starker Wind verfrachtet den wenigen Neuschnee und lässt kleine Triebschneeansammlungen entstehen, die zum Teil auf weichen Schichten zu liegen kommen und dann störanfällig sein können.</snowpackStructureComment>
+          <tendencyComment>Je nach Intensität der Schneefälle am Wochenende kann die Schneebrettgefahr leicht ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

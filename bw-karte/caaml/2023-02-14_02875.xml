@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2875RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2875RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tourenbereich wenige Gefahrenstellen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist dem Tagesgang unterworfen. Am Vormittag herrschen günstige Tourenbedingungen. Nur in den extrem steilen Nordhängen können Schneebrettauslösungen bei großer Zusatzbelastung nicht ausgeschlossen werden. Die Lawinengefahr nimmt während des Tages zu. Spontane Schneebretter bzw. Lockerschneelawinen können sich aus den noch nicht entladenen Lawinengängen lösen. In den mittleren Lagen sind spontane Gleitschneelawinen in allen Expositionen möglich.  </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich gut setzen. Der sonnseitig gebildete Harschdeckel verliert am Mittwoch rasch an Festigkeit und die Schneedecke wird je nach Höhenlage nass bis feucht. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist es sonnig und mild. Die Temperaturen in 2000m liegen bei frühlingshaften +7 Grad. Zudem ist es auch windschwach. &#13;
+Am Donnerstag ziehen viele hohe, dünne Wolken durch, es überwiegt aber der sonnige, freundliche Eindruck. Die Temperatur in der Höhe geht etwas zurück. In 2000m werden +3 Grad erwartet.</wxSynopsisComment>
+          <tendencyComment>Tagesgang der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

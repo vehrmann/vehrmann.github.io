@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1621RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1621RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>speziell in höheren Lagen störanfällig, im Nordsektor</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Instabile Wechten! In den tiefen Lagen spontane nasse Lawinen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in Niederösterreich mit mäßig beurteilt. Die Gefahrenstellen für Schneebrettauslösungen liegen in den Hochlagen in den Sektoren Ost und Nord. Hier können Lawinen bei großer Zusatzbelastung ausgelöst werden. In den genannten Sektoren herrscht ein Altschneeproblem! &#13;
+Mit der Tageserwärmung sind in den tiefen und mittleren Lagen spontane nasse Lawinen aus allen Expositionen möglich. Aus steilen Fels- und Schrofen Gelände sind auch nasse Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich durch die Erwärmung schon setzen. Nur in den schattseitigen Hochlagen lagert Triebschnee auf Oberflächenreif bzw. auf einem Harschdeckel ab. Unterhalb des Harschdeckels liegen kantige Formen, die als Schwachschicht dienen können.&#13;
+Bis in mittlere Lagen wurde die Schneedecke feucht bzw nass.  Mit der Erwärmung am Donnerstag und der Sonneneinstrahlung verliert die Schneedecke wieder rasch an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Sehr sonnig geht es am Donnerstag in den Tag, bis zum Vormittag weht auch oben in Gipfelniveau meist nur mäßiger Westwind. Im weiteren Verlauf legt der Höhenwind merklich zu und kann nachmittags und abends neuerlich kräftig werden. Dabei tauchen auch einige Wolken in höheren Schichten auf, doch der sonnige Eindruck bleibt bis zum Abend erhalten. Temperaturen in 1500 m Seehöhe bis plus 6 Grad.&#13;
+Freitag: Über der Bergwelt des Landes verdichten sich die Wolken bereits in den Morgenstunden rasch und in der Folge breitet sich Schneefall aus, anfangs können sich auch Regentropfen dazu mischen. Große Neuschneemengen werden jedoch nicht erwartet. Nachmittags ziehen nur noch lokale Schneeschauer durch und die Chancen auf ein paar Aufhellungen steigen etwas an.</wxSynopsisComment>
+          <tendencyComment>Mit der Abkühlung sinkt die Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID300RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID300RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee auf ungünstiger Unterlage</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1600 m ERHEBLICH, darunter MÄßIG. Vor allem im erweiterten Ostsektor (N-O-S) und in Rinnen ist eine Schneebrettauslösung schon bei geringer Zusatzbelastung möglich. Gefahrenstellen gibt es sowohl kammnah als auch kammfern hinter Geländekanten. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Bei wechselnden Temperaturen hat es in den letzten Tagen in Summe ergiebig geschneit. Stürmischer Westwind hat den Schnee umfangreich verfrachtet und in Rinnen und hinter kammfernen Geländekanten abgelegt. Kurzzeitig hat es bis in Höhen um 1700 m geregnet. Sowohl innerhalb des frischen Triebschnees als auch an der Grenze zur kalten Altschneeunterlage sind Bruchflächen möglich. Der jüngste Neuschnee ist ruhiger gefallen und verdeckt viele Windzeichen. </snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist oft durch Wolken und Schneefall eingeschränkt. Am Vormittag schneit es noch leicht bis mäßig stark. Ab Mittag klingt der Schneefall immer öfter ab, die Sonne bleibt aber meist im Hintergrund. In 1500 m um -2 Grad, in 2000 m um -4 Grad. Der Wind stört kaum.</wxSynopsisComment>
+          <tendencyComment>Am Montag Setzung des Neuschnees, aufgrund der ungünstigen Unterlage jedoch keine wesentliche Entspannung des Triebschneeproblems.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+    </Bulletin>
+    <Bulletin gml:id="RID300RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID300RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden oberhalb etwa 1800 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen ist oberhalb etwa 1800 m ERHEBLICH, darunter MÄßIG. Gefahrenstellen gibt es sowohl kammnah als auch kammfern hinter steilen Geländekanten, insbesondere im Nordost über Ost bis Süd schauenden Gelände, sowie in Rinnen aller Expositionen. Eine Auslösung ist dort bereits bei geringer Zusatzbelastung möglich. Die Zahl der Gefahrenstellen nimmt mit der Höhe zu. Die Gefahrenstellen sind schwierig zu erkennen - abseits der gesicherten Pisten ist jedenfalls Erfahrung in der Lawinenbeurteilung erforderlich!</avActivityComment>
+          <snowpackStructureComment>Bei wechselnden Temperaturen hat es in den letzten Tagen in Summe ergiebig geschneit. Kurzzeitig hat es am Donnerstag bis in Höhen von 1500 bis 2000 m geregnet. Stürmischer Wind aus überwiegend West bis Nordwest hat den Schnee in den Hochlagen umfangreich verfrachtet. Die Verbindung des kompakteren Neu-/Triebschnees zur kalten, teilweise verharschten Unterlage ist zum Teil ungünstig, teilweise wurde auch Reif eingeschneit. Der jüngste Neuschnee ist ruhiger gefallen und verdeckt viele Windzeichen. Mehrere Schneebrettauslösung mit Personenbeteiligung am Samstag dokumentieren den ungünstigen Schneedeckenaufbau.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist oft durch Wolken und Schneefall eingeschränkt. Am Vormittag schneit es verbreitet leicht bis mäßig stark. Ab Mittag klingt der Schneefall immer öfter ab, die Sonne bleibt aber meist im Hintergrund. In 2000 m um -4 Grad, in 3000 m um -9 Grad. In den Hochlagen der Tauern Nordwestwind mit 30 bis 50 km/h, sonst stört der Wind kaum.</wxSynopsisComment>
+          <tendencyComment>Am Montag Setzung des Neuschnees, aufgrund der ungünstigen Unterlage jedoch keine wesentliche Entspannung des Triebschneeproblems.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID300RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID300RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überschneiter Triebschnee auf ungünstiger Unterlage</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1700 m ERHEBLICH. Schneebretter können vor allem im erweiterten Ost- und Südsektor und in Rinnen und Mulden aller Expositionen bereits durch das Gewicht eines einzelnen Wintersportlers ausgelöst werden. Gefahrenstellen gibt es sowohl kammnah als auch kammfern. Schlechte Sicht erschwert die Gefahreneinschätzung. Abseits gesicherter Pisten ist lawinenkundliches Beurteilungsvermögen erforderlich!</avActivityComment>
+          <snowpackStructureComment>Stürmischer aus überwiegend West bis Nordwest hat umfangreichen Triebschnee gebildet, Rinnen und Wind abgewandte Mulden sind prall gefüllt, Wind zugewandtes Gelände teils komplett abgeblasen. Darauf liegen wenige Zentimeter frischer Schnee, der die Windzeichen vielfach überdeckt. Die Verbindung zwischen kompaktem Triebschnee und kalter Altschneeunterlage ist ungünstig, an der Grenzfläche können sich Brüche ausbreiten, wie auch Lawinenauslösungen mit Personenbeteiligung am Samstag gezeigt haben. </snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist oft durch Wolken und Schneefall eingeschränkt. Am Vormittag schneit es noch leicht bis mäßig stark. Ab Mittag klingt der Schneefall immer öfter ab, die Sonne bleibt aber meist im Hintergrund. In 2000 m um -4 Grad, in 3000 m um -9 Grad. Der Wind stört kaum.</wxSynopsisComment>
+          <tendencyComment>Am Montag Setzung des Neuschnees, aufgrund der ungünstigen Unterlage jedoch keine wesentliche Entspannung des Triebschneeproblems.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

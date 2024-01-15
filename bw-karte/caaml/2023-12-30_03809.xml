@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3809RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3809RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Steilhänge mit glattem Untergrund, Grashänge, Felsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>überwiegend geringe Lawinengefahr - Vorsicht im verharschten und vereisten Steilgelände</avActivityHighlights>
+          <avActivityComment>Mit zunehmender Seehöhe und vorwiegend im extremen, schattseitigen Steilgelände können kleine Lawinen am ehesten noch in oberflächennahen Schichten ausgelöst werden. Neben einer Verschüttung ist auch die Absturzgefahr zu beachten. Letztere ist auch auf harten, vereisten Steilhängen gegeben. Eine vorsichtige Routenwahl wird empfohlen. Es besteht nach wie vor eine gewisse Gefahr durch  Gleitschneelawinen. Obwohl die Aktivität zuletzt deutlich abgenommen hat, sind an steilen, glatten Hängen aller Expositionen unterhalb von etwa 2200 m kleine, teilweise auch mittelgroße Gleitschneelawinen möglich. Solche sind schwierig einzuschätzen und können jederzeit abgleiten. Gleitschneerisse weisen auf solche Gefahrenstellen hin.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist insgesamt gut verfestigt und überwiegend stabil. Bis in hohe Lagen ist meist ein tragfähiger Harschdeckel anzutreffen. Viele Oberflächen sind auch windgepresst oder durch Regen vereist. Rücken und Grate sind oft abgeblasen und hinter Geländekanten sowie in Mulden und Rinnen liegt älterer, harter Triebschnee. Bis in mittlere Lagen ist die Schneedecke oft bis zum Boden feucht, was das Gleiten auf steilem, glattem Untergrund begünstigt. Die Gleitschneeaktivität hat jedoch deutlich abgenommen. Im Voralpenbereich liegt nur noch sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trocken und heiter mit einigen hohen Schleicherwolken. Sonntag: Zuerst ist der Himmel noch aufgelockert. Bis zum Nachmittag trübt es sich ein, die Sichten werden immer diffuser und Gipfel beginnen einzunebeln. Temperatur in 2000m: 0 Grad, abends Abkühlung auf -5 Grad. Höhenwind: Lebhaft bis stark aus Sektor Süd bis West.</wxSynopsisComment>
+          <tendencyComment>In der  Neujahrsnacht gibt es etwas Neuschnee. Am Montag lockert es zeitweise auf. Die Temperaturen gehen zurück. Die Gefahr trockener Lawinen kann mit Triebschnee in höheren Lagen leicht ansteigen. Kleine Gleitschneelawinen sind weiterhin möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3809RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3809RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2400 m Steilhänge mit glattem Untergrund, Grashänge, Felsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>weiterhin Gleitschneelawinen - sonst überwiegend günstige Bedingungen</avActivityHighlights>
+          <avActivityComment>Die Gefahr durch  Gleitschneelawinen ist mäßig. An steilen, glatten Hängen aller Expositionen sind unterhalb von etwa 2400 m mittelgroße Gleitschneelawinen möglich. Solche sind schwierig einzuschätzen und können jederzeit abgleiten. Gleitschneerisse weisen auf solche Gefahrenstellen hin. Bereiche unterhalb sollten gemieden werden. &#13;
+Die Gefahr trockener Lawinen ist gering. Mit zunehmender Seehöhe und vorwiegend im extremen, schattseitigem Steilgelände können kleine Lawinen am ehesten noch in oberflächennahen Schichten ausgelöst werden. Neben einer Verschüttung ist auch die Absturzgefahr zu beachten. Letztere ist auch auf harten, vereisten Steilhängen gegeben. Eine vorsichtige Routenwahl wird empfohlen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist insgesamt gut verfestigt und überwiegend stabil. Bis in hohe Lagen ist meist ein tragfähiger Harschdeckel anzutreffen. Viele Oberflächen sind auch windgepresst oder durch Regen vereist. Rücken und Grate sind oft abgeblasen und hinter Geländekanten sowie in Mulden und Rinnen liegt älterer, harter Triebschnee. Bis in mittlere Lagen ist die Schneedecke oft bis zum Boden feucht. Das Schneegewicht und milde Temperaturen begünstigen das Gleiten auf steilem, glattem Untergrund. Die Gleitschneeaktivität hat jedoch deutlich abgenommen.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trocken und heiter mit einigen hohen Schleicherwolken.  Sonntag: Zuerst ist der Himmel noch aufgelockert. Bis zum Nachmittag trübt es sich ein, die Sichten werden immer diffuser und die Gipfellagen beginnen einzunebeln. Temperatur in 2000m: 0 Grad, abends Abkühlung auf -5 Grad. Höhenwind: Lebhaft bis stark Wind aus Sektor Süd bis West.</wxSynopsisComment>
+          <tendencyComment>In der  Neujahrsnacht gibt es etwas Neuschnee. Am Montag lockert es zeitweise auf. Die Temperaturen gehen zurück. Die Gefahr trockener Lawinen kann mit Triebschnee in höheren Lagen leicht ansteigen. Kleine bis mittlere Gleitschneelawinen sind weiterhin möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

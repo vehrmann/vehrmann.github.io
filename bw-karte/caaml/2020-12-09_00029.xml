@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID29RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID29RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-09T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschneezuwachs, kleinräumige Triebschneeansammlungen in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird von den Schladminger Tauern über die Koralpe bis ins Wechselgebiet in den Hochlagen mit mäßig, darunter mit gering beurteilt. Überschneite Triebschneeansammlungen können bei großer Zusatzbelastung ausgelöst werden. Zu beachten sind die kammfernen Rinnen und Mulden des  Nordsektors. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee von Mittwochnachmittag ist kalt und nur mit wenig Wind gefallen. Dieser überdeckt in den Hochlagen Triebschneeansammlungen.  Die Triebschneeansammlungen haben sich seit dem letzten Wochenende gebildet.  Insgesamt gab es in den Niederen Tauern bis zu 20 cm Neuschnee und im Bereich der Koralpe waren es 30 cm.&#13;
+Unterhalb von ca. 1500m liegt nur wenig Schnee, dieser ist feucht. </snowpackStructureComment>
+          <wxSynopsisComment>Am Vormittag ist es bewölkt. Von Südwesten her lockert es während des Tages auf. Im Bereich des Wechsels schneit es noch ein wenig. Die Temperaturen in 2000m liegen bei -5 Grad. Der Wind weht lebhaft aus Südwest. Am Freitag wird es sonnig und etwas milder. Der Wind schwächt ab. </wxSynopsisComment>
+          <tendencyComment>Durch die Sonneneinstrahlung ist eine Entspannung der Lawinensituation zu erwarten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID29RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID29RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-09T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr! Triebschneeproblem  in den Gipfelregionen!</avActivityHighlights>
+          <avActivityComment>Neuschnee und Sturm führten zu umfangreichen Triebschneeansammlungen. Oberhalb von 1800m herrscht erhebliche Lawinengefahr.  Zu beachten ist der frische Triebschnee in den nördlichen Sektoren. Meist reicht eine geringe Zusatzbelastung um den frischen trocknen Triebschnee als Schneebrett auslösen zu können. Die Gefahr von spontanen Lawinen nimmt ab.  &#13;
+Das Gleitschneeproblem bleibt an sehr steilen Gras- und Wiesenhängen noch  bestehen. </avActivityComment>
+          <snowpackStructureComment>Im Bereich der Gurktaler Alpen sind 40 cm Neuschnee gefallen. Frischer Triebschnee lagerte sich auf einer kompakten Altschneedecke ab. Die größten Triebschneemengen liegen im Nordsektor. Die Verbindung des kalten Neu- bzw. Triebschnees zur Altschneedecke  ist nicht ausreichend. </snowpackStructureComment>
+          <wxSynopsisComment>Von Südwesten her setzt sich während des Tages die Sonne durch. Es wird in 2000m etwas wärmer. Es werden -2  Grad erwartet.  Der Wind weht mäßig aus Südwest.</wxSynopsisComment>
+          <tendencyComment>Am Freitag wird es recht sonnig und die Lawinengefahr nimmt ab. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

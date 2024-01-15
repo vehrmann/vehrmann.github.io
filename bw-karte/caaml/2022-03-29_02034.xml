@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2034RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2034RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-29T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus nicht entladenen Steilhängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - nur wenigen Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Nur dort wo nach ausreichend Schnee vorhanden ist, sind Nassschneelawinen weiterhin zu beachten. Aus sehr steilen nicht entladenen Bereichen können sie spontan oder durch einen Auslöseimpuls abgehen. Aus sehr steilen Hängen mit ausreichender Schneemächtigkeit können Gleitschneelawinen nicht ausgeschlossen werden. Risse in der Schneedecke beachten. Punktuell könnten im extremen Gelände der schattseitigen Hochlagen ältere Schwachschichten angesprochen werden.</avActivityComment>
+          <snowpackStructureComment>Durch die fehlende bzw. sehr eingeschränkte nächtliche Ausstrahlung kann sich die Schneeoberfläche nicht oder nur etwas festigen. Die Schneedecke ist schon bis in die Hochlagen hinauf feucht und sonst auch nass. Am Nachmittag könnte unergiebiger Regen (Schneefallgrenze 1800 – 2000 m) noch etwas zusätzliche Feuchtigkeit in die Schneedecke eintragen. Tiefe und teils mittlere Lagen sind überwiegend aper. Nur sehr hochgelegen und schattseitig kann es noch Kältereserven in der Schnee und somit lokal noch ältere Schwachschichten geben.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch wird die Sicht teils eingeschränkt. Hohe Gipfel stecken in den Wolken. Es bleibt weitgehend trocken und es weht nur schwacher Wind. In 1500 m um 4 Grad, in 2000 m um 1 Grad.&#13;
+Der Donnerstag bringt schlechte Verhältnisse. Die Sicht ist oft durch tiefe Wolken eingeschränkt, aus denen es immer wieder regnet und schneit. Die Schneefallgrenze liegt dabei um 1500 m. Der Nordwind bleibt meist schwach, entlang der Kalkalpen kann er zum Nachmittag hin auffrischen. In 1500 m um 0 Grad, in 2000 m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag geht mit der Abkühlung die Gefahr für nasse Lawinen zurück. Durch Neuschnee und je nach Windeinfluss könnte es etwas frischen Triebschnee geben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

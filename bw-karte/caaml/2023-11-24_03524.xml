@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3524RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3524RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammfern, hinter Geländekanten, oberhalb der Waldgrenze, in Rinnen und steilen Mulden, umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen durch störanfälligen Triebschnee</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze ist die Schneebrettgefahr ERHEBLICH (Stufe 3), darunter gering. Gefahrenstellen gibt es vor allem im Nordost über Ost bis Süd schauenden Steilgelände, hinter Geländekanten und in Rinnen, durch den starken Windeinfluss sind auch kammferne Bereiche betroffen. Zur Auslösung eines kleinen oder mittelgroßen Schneebretts reicht bereits eine geringe Zusatzbelastung (einzelne Person!). Das Erkennen der Gefahrenbereiche wird durch schlechte Sicht erschwert. Unterhalb der Waldgrenze geht eine Gefährdung zudem von spontanen, überwiegend kleinen Gleitschneelawinen aus. Betroffen ist sehr steiles, bis Freitag noch aperes Grasmattengelände.</avActivityComment>
+          <snowpackStructureComment>Bis Samstagfrüh fallen verbreitet 20 bis 30cm Neuschnee, am Steinernen Meer/Hochkönig auch bis zu 50cm. Oberhalb von 1500 bis 1700m gibt es eine vielfach geschlossene Altschneeunterlage. Sie ist durch Wärme, Regen (bis ins Hochgebirge) und Windeinfluss oberflächlich oft verharscht. Unter diesen Krusten gibt es kantige Kristalle, die zufolge der wenigen verfügbaren Stabilitätstests keine Störanfälligkeit zeigen. Mögliche Bruchflächen für Schneebrettlawinen werden daher vor allem innerhalb des Neuschnees erwartet. In tieferen Lagen fällt der Schnee auf überwiegend apere Flächen.</snowpackStructureComment>
+          <wxSynopsisComment>Dichte Wolken und Schneeschauer schränken die Sicht am Samstag stark ein. Tagsüber lässt der Schneefall nach und macht über die Mittagsstunden Pausen, am späteren Nachmittag kommen wieder mehr Schneeschauer auf, die in der Nacht anhalten. Vor allem in den Hochlagen weht stürmischer und sehr kalter Nordwestwind, der in den Kammlagen der Tauern Spitzen um 100 km/h erreichen kann. In 2000m  -12 Grad, in 3000m -19 Grad. Bis Sonntagfrüh fallen 10 bis 20cm Neuschnee, im Bereich der Hohen Tauern und Nordalpen auch um 30 cm.&#13;
+Am Sonntag überwiegen dichte Wolken und zeitweise ziehen leichte Schneeschauer durch, die Neuschneemengen sind aber gering. In den Kammlagen der Tauern kann der Nordwestwind weiterhin Spitzen um 100 km/h erreichen. In 2000m -12 bis -9 Grad , in 3000m -19 bis -16 Grad.&#13;
+Am Montag wechseln Wolkenfelder über Gipfelniveau und kurze Sonnenlücken, das Licht ist häufig diffus. Es bleibt niederschlagsfrei. Der Wind weht meist nur schwach, entlang der Tauern frischt der Südföhn tagsüber mit 40 bis 60 km/h auf. Milder: In 2000m -6 Grad, in 3000m -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Die teilweise erhebliche Schneebrettgefahr bleibt zu Wochenbeginn bestehen. Zusätzliche Gefahrenstellen im Nordsektor können entlang der Tauern durch den Südföhn entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3524RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3524RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, in Rinnen und steilen Mulden, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumige Gefahrenstellen im frischen Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen ist GERING (1). Einzelne Gefahrenstellen für trockene Schneebrettlawinen gibt es am ehesten im Ost bis Süd schauenden Steilgelände, hinter Geländekanten und in Rinnen, durch den starken Windeinfluss sind auch kammferne Bereiche betroffen. Zur Auslösung eines kleinen Schneebretts reicht bereits eine geringe Zusatzbelastung (einzelne Person!).</avActivityComment>
+          <snowpackStructureComment>Bis Samstagfrüh fallen etwa 10 cm Neuschnee. Oberhalb von etwa 1500m gibt es eine vielfach geschlossene Altschneeunterlage. Sie ist durch Wärme, Regen und Windeinfluss oberflächlich oft verharscht. Mögliche Bruchflächen für Schneebrettlawinen werden vor allem innerhalb des Neuschnees erwartet. In tieferen Lagen fällt der Schnee auf überwiegend apere Flächen.</snowpackStructureComment>
+          <wxSynopsisComment>Dichte Wolken und zeitweise Schneeschauer schränken die Sicht am Samstag immer wieder ein. Tagsüber gibt es längere Niederschlagpausen, ehe am Abend wieder Schneeschauer einsetzen. Es weht stürmischer und sehr kalter Nordwestwind, der in den Kammlagen Spitzen von 60 bis 80 km/h erreichen kann. In 2000m um -12 Grad. Bis Sonntagfrüh fallen kommen nochmals etwa 5 cm Neuschnee zusammen.&#13;
+Am Sonntag überwiegen dichte Wolken, es bleibt aber niederschlagsfrei. Weiterhin sehr windig: Der Nordwestwind frischt tagsüber auf und erreicht dann Böen von 60 bis 80 km/h. In 2000m -12 bis -9 Grad.&#13;
+Am Montag wechseln Wolkenfelder über Gipfelniveau und kurze Sonnenlücken, das Licht ist häufig diffus. Es bleibt niederschlagsfrei. Der Wind stört nicht mehr. Milder: In 2000m -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung zu Wochenbeginn.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

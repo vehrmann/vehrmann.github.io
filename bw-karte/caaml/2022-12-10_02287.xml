@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2287RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2287RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Beim Winterbergsport überwiegt die Verletzungsgefahr in Folge von Bodenkontakt die Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist gering. Vereinzelt sind an Steilhängen mit glattem Untergrund dort, wo ausreichend Schnee liegt, spontan kleine bis mittlere Gleitschneelawinen möglich. Schneemäuler weisen auf Gefahrenstellen hin.&#13;
+In höheren Lagen können im Altschnee in schneereichen Rinnen und Mulden vor allem kammnah mancherorts kleinere Schneebrettlawinen insbesondere durch große Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Talnah liegt meist nur wenig Neuschnee auf dem Boden. Oberhalb ca. 1300 m liegen verbreitet zwischen 20 und 50 Zentimeter Schnee, in Rinnen und Mulden der Hochlagen zum Teil auch mehr. Im Altschnee finden sich teilweise lockere Schichten zwischen älteren Krusten und Winddeckeln. Zum Boden hin ist die Schneedecke vielerorts feucht.</snowpackStructureComment>
+          <tendencyComment>Mit nur wenig Neuschnee und kalten Temperaturen wird sich die Situation nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

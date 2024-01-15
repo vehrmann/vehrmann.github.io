@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3246RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3246RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee leicht auslösbar! Selbstauslösung von Lockerschneelawinen im Tagesverlauf beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m erheblich, unterhalb davon mäßig. &#13;
+Das Hauptproblem ist frischer Triebschnee. Dieser kann bereits vom einzelnen Wintersportler als Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände aller Expositionen, auch hinter Geländekanten sowie in frisch eingewehten Rinnen und Mulden. Lawinen können gefährlich groß werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Mit Sonneneinstrahlung und Frostabschwächung beginnt sich der Neuschnee am Dienstag zu setzen und es steigt im Tagesverlauf in mittleren Lagen die Gefahr der Selbstauslösung von Lockerschneelawinen aus felsdurchsetztem Steilgelände und eingefrachteten Sonnenhängen an. Die Lawinen erreichen meist mittlere Größe.</avActivityComment>
+          <snowpackStructureComment>Der bayerische Alpenraum erhielt seit Montag zwischen 30 und 50 cm Neuschnee. Kräftiger Wind aus nördlichen Richtungen bildete in höheren Lagen umfangreiche Triebschneeansammlungen. Schwache Zwischenschichten durch Niederschlagspausen sowie Graupeleinlagerungen machen den Triebschnee störanfällig. In der Nacht zum Dienstag sind weitere 10 bis 20 cm Neuschnee ohne viel Wind vorhergesagt. Er überdeckt den frischen Triebschnee und macht ihn schwer erkennbar. Daneben begünstigen große Temperaturunterschiede in der Schneedecke die Ausbildung von schwachen Zwischenschichten aus kantigen Kristallen. Diese sind besonders in höheren Lagen störanfällig. In tieferen und mittleren Lagen liegt der Neuschnee auf einer meist dünnen, feuchten Altschneedecke oder direkt auf dem Boden.</snowpackStructureComment>
+          <tendencyComment>Es wird in den nächsten Tagen wieder frühlingshaft mild. In der Nacht zum Mittwoch regnet es bis in die Hochlagen. Die Lawinengefahr bleibt angespannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

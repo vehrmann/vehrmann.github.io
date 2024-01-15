@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID92RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID92RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-25T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch etwas Neu- und Triebschnee besteht in den Hochlagen zum Teil geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Durch etwas Neu- und dünneren Triebschnee herrscht in den Hochlagen zum Teil geringe Lawinengefahr. Die frische Auflage überdeckt apere Bereiche oder durchbrochene Altschneefelder in den Hochlagen. Gefahrenstellen in Form von Triebschneelinsen existieren nur ganz vereinzelt hinter Geländeübergängen.</avActivityComment>
+          <snowpackStructureComment>Die Schneezuwächse bis Freitagmitternacht liegen bei maximal 15 bis 20cm. Durch zeitweilige Windeinwirkung sind in exponierten Hochlagen vereinzelt kleinräumige Triebschneelinsen entstanden. Aufgrund der geringen Altschneereserven und dem auch nicht sehr ergiebig ausgefallenen Weihnachtsniederschlag ist die Schneesituation für Ende Dezember in Niederösterreich nach wie vor stark unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Die meist Zeit über dominieren dichtere, tiefe Wolken, aus denen auch die eine oder andere Schneeflocke fallen kann. Es weht mäßiger bis starker, im Gipfelniveau zeitweise auch stürmischer Wind aus nordwestlichen Richtungen. Die Temperaturen gehen weiter zurück und liegen zu Mittag in 1500m bei frischen -11 Grad.</wxSynopsisComment>
+          <tendencyComment>Für Sonntag kündigt sich eine Wetterbesserung an, wobei es bei sonnigen Verhältnissen mit Plusgraden in 1500m wieder deutlich milder wird. Aus heutiger Sicht zeichnet sich kein lawinenrelevanter Neuschnee ab, wodurch sich die Lawinengefahr nicht wesentlich ändern wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

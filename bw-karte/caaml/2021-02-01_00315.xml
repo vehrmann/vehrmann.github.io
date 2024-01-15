@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID315RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID315RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden, auslösbar im Übergang von wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze mäßige Lawinengefahr - Altschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze besteht mäßige Lawinengefahr. In höheren Lagen stellt die schlechte Verbindung im Altschnee das Hauptproblem dar. Die Gefahrenstellen befinden sich vornehmlich kammnah in den Sektoren Nord über Ost bis Süd, sowie in eingewehten Rinnen und Mulden. Schattseitig können aufgebaute Schichten im Bereich des Schneedeckenfundamentes gestört werden und in steilen Hangbereichen zu einer Lawinenauslösung führen. In steilen, exponierten Bereichen darf die Absturzgefahr auf der harten, teils eisigen Schneedecke nicht unterschätzt werden.</avActivityComment>
+          <snowpackStructureComment>Älterer Triebschnee stabilisiert sich zunehmend, die Anzahl dieser Gefahrenstellen nimmt ab. Vorhandene Schwachschichten können unter Umständen vorrangig im Übergang zum Altschnee gestört werden. Schattseitig existiert ein Altschneeproblem (kantige Kristalle, Schwimmschnee) im Bereich des Fundamentes, welches speziell bei einer geringmächtigen Schneedecke in steilen Passagen leicht gestört werden kann. In tieferen Lagen gestaltet sich die Schneedecke weitgehend kompakt bzw. zunehmend feucht bis nass. </snowpackStructureComment>
+          <wxSynopsisComment>Vor allem über den Gipfeln der Ybbstaler Alpen kann es am Vormittag mit dichten Wolken bei einer Schneefallgrenze um 1200m Seehöhe zeitweise leicht regnen oder schneien. Um Mittag zeigt sich die Sonne vorübergehend öfters bevor bis zum Abend erneut dichte Wolken von Westen aufziehen. Es weht mäßiger, teils lebhafter Wind aus Südwest bis West mit dem die Temperaturen in1500m im Tagesverlauf auf Werte um +4 Grad, in 2000m um den Gefrierpunkt ansteigen. </wxSynopsisComment>
+          <tendencyComment>Der Mittwoch gestaltet sich äußerst mild und weiter wechselhaft, vereinzelt mit ein paar Regentropfen. Weitere Setzung bzw. fortschreitende Durchfeuchtung der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID315RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID315RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht geringe Lawinengefahr. Das Potential für Gleitschneerutsche aus steilen Wald- und Wiesenhängen steigt mit zunehmender Durchfeuchtung der Schneedecke etwas an. Risse und Schneemäuler sind Zeichen für beginnende Gleitaktivitäten. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke gestaltet sich weitgehend kompakt. Im Bereich steiler Wald- und Wiesenböden kann mit zunehmender Durchfeuchtung durch den entstehenden Schmierfilm am Boden die Schneedecke zu gleiten beginnen. In tiefen Lagen schreitet die Ausaperung voran.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer zeitweise klaren Nacht ziehen am Montag von Westen her am Vormittag dichte, mittelhohe Wolken auf. Somit zeigt sich die Sonne nur zwischendurch, es bleibt aber ganztägig trocken. Die Temperaturen steigen bei mäßigem Wind aus südlichen Richtungen im Tagesverlauf an und erreichen in 1000m zu Mittag oft leichte Plusgrade.</wxSynopsisComment>
+          <tendencyComment>Mit einer lebhaften bis stürmischen Südwestströmung wird es in der kommenden Woche wieder milder. Die Lawinengefahr bleibt vorerst unverändert, möglicher Regeneintrag bzw. die Erwärmung kann Mitte der Woche zu einem leichten Anstieg der Lawinengefahr führen (Nass- Gleitschneeproblem).</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

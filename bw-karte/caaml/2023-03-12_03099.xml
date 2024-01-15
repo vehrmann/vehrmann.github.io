@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3099RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3099RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schattseitig am Vormittag noch Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt dem Tagesgang. Aufgrund der Erwärmung werden am Montag spontane nasse Lockerschneelawinen aus steilem Fels- und Schrofengelände erwartet. Ebenso sind nasse spontane Schneebretter möglich. Am Vormittag sind noch Triebschneeansammlungen in den schattseitigen Hochlagen auslösbar.  </avActivityComment>
+          <snowpackStructureComment>Der Triebschnee, welcher sich am Samstag gebildet hat liegt auf einer harten Schmelzharschkruste auf. Die Verbindung des Triebschnees mit der Altschneedecke ist noch nicht ausreichend. Die Triebschneeschicht ist zwischen 10 und 20cm dick. Während des Tages wird der Triebschnee feucht und verliert an Stabilität. Die Altschneedecke ist generell recht stabil. Bodennah ist die Schneedecke feucht bzw. nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montagvormittag liegt ein dichter Wolkenschirm in mittleren Höhen über den steirischen Bergen, die höchsten Gipfel liegen dadurch zunächst im Nebel. Ab etwa Mittag lösen sich die Wolken von Westen her auf und es wird im Bergland noch ein sehr sonniger Nachmittag. Der Höhenwind dreht auf westliche Richtungen, aus diesen weht er tagsüber mäßig, abends im Bereich der Koralpe auch zunehmend lebhaft. Es wird in allen Höhenlagen deutlich milder, in 2000m Seehöhe hat es zu Mittag um plus 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag sind die Gipfel der steirischen Berge zumeist in dichte Wolken gehüllt, von Westen her breiten sich Regen und Schneefall auf alle Bergregionen aus. Die Schneefallgrenze liegt morgens noch zwischen 1600m in der Dachsteinregion und über 2000m auf der Koralpe, sinkt im Tagesverlauf aber auf 1000m bzw. 1500m ab. Bis in die Hochlagen besteht ein Nassschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3099RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3099RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - dünne Triebschneelinsen hinter Geländekanten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Vereinzelte Gefahrenstellen liegen im erweitertem Ostsektor. Triebschneelinsen können am Vormittag noch bei großer Zusatzbelastung ausgelöst werden. Allerdings wird nur die Lawinengröße 1 erwartet, nur bei Geländefallen ist die Lawinengröße 2 möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich generell gut gesetzt. Der stürmische Nordwestwind lagerte in den Hochlagen kleine Triebschneemengen auf einer  harten Altschneedecke ab. Die Triebschneelinsen haben voraussichtlich keine gute Verbindung mit der Altschneedecke. Der Triebschnee wird während des Tages bis in die Gipfellagen feucht bzw. nass. Mit dem Temperaturrückgang stabilisierte sich in den mittleren Lagen die Schneedeckenoberfläche. Im Grazer Bergland liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montagvormittag liegt ein dichter Wolkenschirm in mittleren Höhen über den steirischen Bergen, die höchsten Gipfel liegen dadurch zunächst im Nebel. Ab etwa Mittag lösen sich die Wolken von Westen her auf und es wird im Bergland noch ein sehr sonniger Nachmittag. Der Höhenwind dreht auf westliche Richtungen, aus diesen weht er tagsüber mäßig, abends im Bereich der Koralpe auch zunehmend lebhaft. Es wird in allen Höhenlagen deutlich milder, in 2000m Seehöhe hat es zu Mittag um plus 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag sind die Gipfel der steirischen Berge zumeist in dichte Wolken gehüllt, von Westen her breiten sich Regen und Schneefall auf alle Bergregionen aus. Die Schneefallgrenze liegt morgens noch zwischen 1600m in der Dachsteinregion und über 2000m auf der Koralpe, sinkt im Tagesverlauf aber auf 1000m bzw. 1500m ab. Bis in die Hochlagen besteht ein Nassschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

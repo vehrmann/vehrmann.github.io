@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1284RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1284RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt frischer, störanfälliger Triebschnee in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem ist Triebschnee. Frische, kleine Triebschneeansammlungen sind bereits von einem einzelnen Skifahrer auszulösen. Einige Gefahrenstellen befinden sich oberhalb 1800m im kammnahen Steilgelände der Hangrichtungen Nord über Ost bis Süd sowie in frisch eingewehten Rinnen und Mulden. Ausgelöste Schneebretter sind klein, die Absturzgefahr ist zu beachten.&#13;
+In mittleren Lagen können jederzeit Gleitschneelawinen im lückigen Bergwald oder an noch nicht entladenen, glatten Wiesenhängen von selbst abgehen. Hänge mit Gleitschneerissen sollten gemieden werden. Vereinzelte Lawinen erreichen mittlere Ausmaße.</avActivityComment>
+          <snowpackStructureComment>Schneeschauer bilden bei starkem Westwind in höheren Lagen frischen Triebschnee, der bindungsarm auf der verharschten Altschneeoberfläche zum Liegen kommt. Insgesamt ist die Altschneedecke allgemein gut gesetzt und verfestigt. In mittleren Lagen ist die Schneedecke bis zum Boden durchfeuchtet und stark zurückgegangen. In den Hochlagen ist vereinzelt älterer Triebschnee erhalten geblieben, der noch zu stören ist. Bodennah finden sich teilweise noch kantige Kristalle an schattigen Hängen oberhalb 2200 m. Unterhalb 1400 m liegt wenig Schnee.</snowpackStructureComment>
+          <tendencyComment>Unbeständiges, vom Westwind geprägtes Wetter lässt die Lawinengefahr Mitte der Woche leicht ansteigen. Derzeit sind vor allem nordseitig glatte, harte Schneedeckenoberflächen und die damit verbundene Absturzgefahr zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1284RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1284RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem nordseitig harte und glatte Schneeoberflächen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Störanfällige Zwischenschichten in der Altschneedecke sind das Hauptproblem. In den Hochlagen können im Bereich alter Triebschneeansammlungen vereinzelt Schneebrettlawinen mittlerer Größe im extremen Steilgelände mit großer Zusatzbelastung ausgelöst werden. &#13;
+In mittleren Lagen können jederzeit Gleitschneelawinen im lückigen Bergwald oder an noch nicht entladenen, glatten Wiesenhängen von selbst abgehen. Hänge mit Gleitschneerissen sollten gemieden werden. Vereinzelte Lawinen können auch mittlere Ausmaße erreichen.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist allgemein gut gesetzt und verfestigt. In mittleren Lagen ist die Schneedecke bis zum Boden durchfeuchtet und stark zurückgegangen. In den Hochlagen ist vereinzelt älterer Triebschnee erhalten geblieben, der noch zu stören ist. Bodennah finden sich teilweise noch kantige Kristalle an schattigen Hängen oberhalb 2200 m. Unterhalb 1400 m liegt wenig Schnee.</snowpackStructureComment>
+          <tendencyComment>Unbeständiges, vom Westwind geprägtes Wetter  lässt die Lawinengefahr Mitte der Woche leicht ansteigen. Derzeit sind vor allem nordseitig glatte, harte Schneedeckenoberflächen und die damit verbundene Absturzgefahr zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1284RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1284RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem ist Gleitschnee. In mittleren Lagen können jederzeit Gleitschneerutsche im lückigen Bergwald oder an noch nicht entladenen, glatten Wiesenhängen von selbst abgehen. Hänge mit Gleitschneerissen sollten umgangen werden. Vereinzelte Lawinen sind meist klein.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt und verfestigt. Zum Boden hin ist sie zunehmend feucht. Die Schneedecke ist in den letzten Tagen stark zurückgegangen. Sonnseitig und in tieferen Lagen ist der Schnee weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Unbeständiges, vom Westwind geprägtes Wetter lässt die Lawinengefahr Mitte der Woche leicht ansteigen. Derzeit sind vor allem nordseitig glatte, harte Schneedeckenoberflächen und die damit verbundene Absturzgefahr zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

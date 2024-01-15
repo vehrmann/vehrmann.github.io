@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1596RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1596RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefährliche Kombination aus Trieb- und Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im bayerischen Alpenraum oberhalb 1500 m erheblich, darunter mäßig. Das Hauptproblem stellen viele frische Triebschneeansammlungen dar. Gefahrenstellen finden sich besonders im kammnahen Steilgelände und in triebschneeverfüllten Rinnen und Mulden. Störanfällige Triebschneeansammlungen finden sich aber auch in kammfernen Bereichen hinter Hangkanten und in eingefrachteten Waldschneisen. Hier kann bereits der einzelne Wintersportler leicht Schneebrettlawinen auslösen. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Zudem finden sich in der Altschneedecke störanfällige Schichten, die besonders in höheren Lagen am Übergang von wenig zu viel Schnee gestört werden können. Oberflächlich ausgelöste Lawinen können auf diese tieferliegenden Schichten durchschlagen. Besonders dann können Lawinen große Ausmaße annehmen.</avActivityComment>
+          <snowpackStructureComment>Begleitet von stürmischem Wind aus westlichen Richtungen setzt Niederschlag ein, der am Montag den ganzen Tag anhält. Es entstehen frische, umfangreiche Triebschneeansammlungen, die auf einer kleinräumig unterschiedlichen Altschneedecke zu liegen kommen. Die Verbindung zu harschigen Schichten und pulvrigem Schnee ist schlecht, der Triebschnee ist störanfällig. Zudem finden sich im Altschneepaket  in allen Expositionen stellenweise kantige Kristalle im Bereich  einer dünnen Harschschicht. Diese Schwachschicht ist in den Hochlagen besonders ausgeprägt und liegt je nach Windeinfluss näher an der Oberfläche oder verborgen unter mächtigen Triebschneepaketen. Unterhalb 1500 m ist die Schneedeckenbasis kompakt und weitgehend stabil.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird in den nächsten Tagen bei stabilem Hochdruckwetter langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1651RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T06:28:08+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1651RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T06:28:08+00:00</beginPosition>
+          <endPosition>2022-02-14T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im Altschnee, auslösbar im Übergang von wenig zu viel Schnee oberhalb etwa 2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen und in steilen Schattenhängen oberhalb Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ausgeprägte Schwachschichten im Altschnee und frischen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Ausgeprägte Schwachschichten im Altschnee können besonders im Rätikon, in der Silvretta und im Verwall an West-, Nord- und Südosthängen von einzelnen Wintersportlern ausgelöst werden. Dies vor allem oberhalb etwa 2000m an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Auch Fernauslösungen sind vereinzelt noch denkbar. Ausgelöste Lawinen können dabei gefährlich groß werden. Mit kräftigem Südföhn entstehen stellenweise leicht auslösbare Triebschneeansammlungen. Lawinen können von einzelnen Wintersportlern ausgelöst werden und mittlere Größe erreichen. Für Wintersportler ist die Situation heikel, besonders das Altschneeproblem ist schwer einzuschätzen und erfordert eine defensive Routenwahl. Aus dem felsdurchsetzten Steilgelände können sich mit der Sonneneinstrahlung mittelgroße, oberflächliche Lockerschneelawinen lösen.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneeauflage vom Freitag wurde vor allem im Rätikon und in der Silvretta mit Wind aus südlichen Richtungen verfrachtet. Mit Föhn werden tagsüber laufend weitere frische Triebschneepakete gebildet, die störanfällig sind. Der Neu- und Triebschnee von Freitag kam sonnseitig häufig auf Schmelzharsch, schattseitig auf gesetztem Pulver, sonst oberhalb der Waldgrenze vielfach auf windgepresstem Altschnee zu liegen. Im Tagesverlauf wird die oberflächlich verharschte Schneedecke an steile Sonnenhängen wieder angefeuchtet. Ausgeprägte Schwachschichten sind im Mittelteil der Schneedecke vorhanden. Diese sind an West-, Nord- und Osthängen störanfällig und schwierig einzuschätzen. Im Rätikon, im Verwall und in der Silvretta ist die Schneeüberdeckung dieser Schicht geringer und somit leichter zu stören. Diese Gefahrenstellen sind vor allem an schneearmen Stellen und an Übergängen von wenig zu viel Schnee anzutreffen. Zudem können oberflächennah ausgelöste Lawinen in tiefere Schichten der Altschneedecke durchreißen und groß werden. An Graten sind stellenweise mächtige, ausladende Wechten vorhanden, die zu beachten sind.</snowpackStructureComment>
+          <wxSynopsisComment>Sonniges und nicht allzu kaltes Bergwetter. Der Himmel ist den ganzen Sonntag hindurch strahlend blau. Der Wind ist kaum zu spüren, lebt nachmittags bis abends langsam auf. Trockene und gering bewölkte Nacht auf Montag. Temperaturen in 2000 m: -4 bis -2 Grad. Höhenwind: mäßiger Südwestwind.</wxSynopsisComment>
+          <tendencyComment>Noch einmal Sonnenschein und wenig Wind gibt es am Montag bevor am Nachmittag mit auflebendem Südwind Wolken aufziehen. Die Lawinengefahr ändert sich nicht wesentlich. Am Dienstag steigt die Lawinengefahr mit Neuschnee und Wind an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1651RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T06:28:08+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1651RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T06:28:08+00:00</beginPosition>
+          <endPosition>2022-02-14T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im Altschnee, auslösbar im Übergang von wenig zu viel Schnee oberhalb etwa 2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen und in steilen Schattenhängen oberhalb Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee und Schwachschichten im Altschnee beachten.</avActivityHighlights>
+          <avActivityComment>Mit Südföhn entstehen stellenweise meist kleine, störanfällige Triebschneeansammlungen. Lawinen können von einzelnen Wintersportlern ausgelöst werden und mittlere Größe erreichen. Schwachschichten im Altschnee können an West-, Nord- und Südosthängen insbesondere bei großer Zusatzbelastung, z.B. durch eine Skifahrergruppe ohne Abstände, ausgelöst werden. Dies vor allem oberhalb etwa 2000m an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Ausgelöste Lawinen können dabei vereinzelt groß werden. Touren und Variantenabfahrten erfordern eine vorsichtige Routenwahl. Aus dem felsdurchsetzten Steilgelände können sich mit der Sonneneinstrahlung mittelgroße, oberflächliche Lockerschneelawinen lösen. Zudem sind sonnseitig vereinzelt Gleitschneelawinen an sehr steilen Grashängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneeauflage vom Freitag wurde vor allem im Rätikon und in der Silvretta mit Wind aus südlichen Richtungen verfrachtet. Mit Föhn werden tagsüber laufend weitere frische Triebschneepakete gebildet, die störanfällig sind. Der Neu- und Triebschnee von Freitag kam sonnseitig häufig auf Schmelzharsch, schattseitig auf gesetztem Pulver, sonst oberhalb der Waldgrenze vielfach auf windgepresstem Altschnee zu liegen. Im Tagesverlauf wird die oberflächlich verharschte Schneedecke an steile Sonnenhängen wieder angefeuchtet. Ausgeprägte Schwachschichten sind im Mittelteil der Schneedecke vorhanden. Diese sind an West-, Nord- und Osthängen störanfällig und schwierig einzuschätzen. Im Rätikon, im Verwall und in der Silvretta ist die Schneeüberdeckung dieser Schicht geringer und somit leichter zu stören. Diese Gefahrenstellen sind vor allem an schneearmen Stellen und an Übergängen von wenig zu viel Schnee anzutreffen. Zudem können oberflächennah ausgelöste Lawinen in tiefere Schichten der Altschneedecke durchreißen und groß werden. An Graten sind stellenweise mächtige, ausladende Wechten vorhanden, die zu beachten sind.</snowpackStructureComment>
+          <wxSynopsisComment>Sonniges und nicht allzu kaltes Bergwetter. Der Himmel ist den ganzen Sonntag hindurch strahlend blau. Der Wind ist kaum zu spüren, lebt nachmittags bis abends langsam auf. Trockene und gering bewölkte Nacht auf Montag. Temperaturen in 2000 m: -4 bis -2 Grad. Höhenwind: mäßiger Südwestwind.</wxSynopsisComment>
+          <tendencyComment>Noch einmal Sonnenschein und wenig Wind gibt es am Montag bevor am Nachmittag mit auflebendem Südwind Wolken aufziehen. Die Lawinengefahr ändert sich nicht wesentlich. Am Dienstag steigt die Lawinengefahr mit Neuschnee und Wind an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

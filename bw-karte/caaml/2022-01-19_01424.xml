@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1424RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1424RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee bei schlechten Sichtbedingungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Ybbstaler und Türnitzer Alpen, dem Gippel-Göllergebiet und dem Rax-Schneeberggebiet mit mäßig beurteilt. Mit Sturm und Neuschnee bildet sich frischer, störanfälliger Triebschnee. Gefahrenstellen finden sich speziell leeseitig in den Expositionen Nord über Ost bis Süd nicht nur kammnah, sondern auch kammfern bis in lichte Waldbereiche. Hinter Geländekanten sowie in eingewehten Rinnen und Mulden und steile Einfahrtsberiechen können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Diese können in sehr steilen, schattigen Lagen auch auf vorhandene Schwachschichten im Altschnee durchschlagen. Die Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schlechte Sichtbedingungen erschweren die lokale Einschätzung.  An exponierten Stellen herrscht weiterhin Absturzgefahr auf vereisten, harten Oberflächen.</avActivityComment>
+          <snowpackStructureComment>Die Schneeauflage vom Wochenanfang konnte sich speziell sonnseitig setzen. Der frische Triebschnee lagert sich somit vor allem schattseitig auf eine kältere, lockere Altschneeoberfläche ab und gestaltet sich aufgrund dieser überdeckten Schwachschicht störanfällig. Die Altschneedecke selbst ist weitgehend hart, in höheren Lagen stellenweise durch kantige Kristalle um ältere Harschkrusten geschwächt. Das Schneedeckenfundament ist hart und kompakt und beinhaltet kaum Schwachschichten. </snowpackStructureComment>
+          <wxSynopsisComment>Wetterumschwung! Am Donnerstag in der Früh erfasst eine Kaltfront die Alpennordseite. Die Berge stecken großteils in dichten Wolken. Speziell in den Staulagen der Ybbstaler und Türnitzer Alpen schneit es mit bis zu 20cm ergiebiger. Dazu bläst auf Kammniveau stürmischer Wind aus Nordwest. Das Temperaturniveau sinkt markant, in 2000m auf Nachmittagswerte um -12 Grad, in 1000m um -4 Grad. Der stürmische Höhenwind verstärkt das Kälteempfinden signifikant! </wxSynopsisComment>
+          <tendencyComment>Die Nordstaulage hält voraussichtlich bis in die nächste Woche an und bringt von den Ybbstaler Alpen bis zum Gippel-Göllergebiet in Summe einiges an Neuschnee meist unter starkem Windeinfluss. Die Lawinengefahr wird somit am Wochenende deutlich ansteigen!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1424RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1424RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bei schlechtem Bergwetter vereinzelte Gefahrenstellen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist den Gutensteiner Alpen und im Semmering-Wechselgebiet gering. Dennoch herrscht ein geringes Triebschneeproblem. Gefahrenstellen in Form von frischen, dünnen Triebschneelinsen finden sich im Lee hinter Geländekanten und Böschungen, wo vereinzelt kleine Schneebrettlawinen ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Aufgrund des extremen Windeinflusses der letzten Tage gestaltet sich die Schneeoberfläche weitgehend hart. Speziell in schattigen Lagen stellt eine lockere Auflage eine potentielle Schwachschichten für Schneebrettlawinen dar. Das Schneedeckenfundament ist hart und kompakt und beinhaltet kaum Schwachschichten. Exponierte Stellen sind abgeblasen und vereist. Oft sind die Schneereserven für Schi- oder Schneeschuhtouren nicht ausreichend.</snowpackStructureComment>
+          <wxSynopsisComment>Wetterumschwung! Am Donnerstag in der Früh erfasst eine Kaltfront die Alpennordseite. Die Berge stecken großteils in dichten Wolken und es schneit, in den Gutensteiner Alpen sowie im Semmering–Wechselgebiet jedoch nur unergiebig.  Dazu bläst auf Kammniveau stürmischer Wind aus Nordwest. Das Temperaturniveau sinkt markant, in 2000m auf Nachmittagswerte um -12 Grad, in 1000m um -4 Grad. Der stürmische Höhenwind verstärkt das Kälteempfinden signifikant! </wxSynopsisComment>
+          <tendencyComment>Die Nordstaulage hält voraussichtlich bis in die nächste Woche an und bringt von den Ybbstaler Alpen bis zum Gippel-Göllergebiet in Summe einiges an Neuschnee meist unter starkem Windeinfluss. Die Lawinengefahr wird somit am Wochenende ansteigen!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

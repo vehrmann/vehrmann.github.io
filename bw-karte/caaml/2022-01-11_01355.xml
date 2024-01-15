@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1355RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1355RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht erhebliche Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht erhebliche Lawinengefahr. Gefahrenstellen in Form von Einfrachtungen existieren überwiegend in den Sektoren Nord über Ost bis Süd, generell im kammnahen Gelände sowie in Rinnen und Mulden. Eine Schneebrettauslösung ist bereits durch die geringe Zusatzbelastung eines einzelnen Tourengehers möglich. Durch Sonneneinstrahlung kann sich speziell die frische Auflage aus dem felsdurchsetzten Steilgelände auch spontan lösen.</avActivityComment>
+          <snowpackStructureComment>Weitere 10cm unter Windeinfluss gefallen. Der spröde Triebschnee überlagert Reif oder eine harte Schicht. Der Übergang zur Altschneedecke ist der Hauptproblembereich. Die Altschneedecke selbst wird zum Teil von kantigen Kornformen im Bereich um Harscheinlagerungen geschwächt.</snowpackStructureComment>
+          <wxSynopsisComment>Mittwoch: Oft scheint die Sonne in den Nordalpen. Während des Tages ziehen ein paar Wolken durch. Der Frost in der Höhe schwächt sich ab, in 2000m hat es etwa -8 Grad. Der nördliche Wind über den Kämmen und Gipfeln weht besonders entlang des Alpenhauptkamms noch lebhaft mit Spitzen zwischen 25 und 50 km/h.&#13;
+Donnerstag: Besonders in den westlichen Landesteilen scheint oft die Sonne. Es wird milder.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1355RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1355RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht mäßige Lawinengefahr. Die Gefahrenstellen existieren überwiegend in den Expositionen Ost und Süd, generell im kammnahen Gelände sowie in Rinnen und Mulden. Stellenweise kann bereits die geringe Zusatzbelastung eines einzelnen Tourengehers ausreichen, um ein Schneebrett auszulösen. In neuschneereicheren Gebieten (z.B. Hochschwab) kann sich bei Sonneneinstrahlung die frische Auflage aus dem felsdurchsetzten Steilgelände auch spontan lösen.</avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden lag der Niederschlagsschwerpunkt im Hochschwabgebiet. Hier sind in den Hochlagen bis zu 30cm Neuschnee unter Windeinfluss gefallen. In den Niederen Tauern gab es nur wenig Neuschneezuwachs. Schneelos blieben die Gebiete von der  Greim bis zur Koralpe. &#13;
+Triebschnee überdeckt Reif oder harte Schneeschichten. Die Höhe der Triebschneeschicht variiert. Die größten Triebschneemengen liegen im Hochschwabgebiet und in den Ennstaler und Eisenerzer Alpen. In den Niederen Tauern und in den Gurk- und Seetaler Alpen ist die Triebschneeschicht deutlich geringer.&#13;
+Die Altschneedecke selbst wird zum Teil von kantigen Kornformen im Bereich um Harscheinlagerungen geschwächt. Es stellt sich in den nördlichen Expositionen ein Altschneeproblem ein. </snowpackStructureComment>
+          <wxSynopsisComment>Mittwoch: Oft scheint die Sonne, an der Alpensüdseite ist es sogar wolkenlos. Von Norden ziehen  auch ein paar Wolken durch. Der Frost in der Höhe schwächt sich ab, in 2000m hat es etwa -8 Grad. Der nördliche Wind über den Kämmen und Gipfeln weht besonders entlang des Alpenhauptkamms noch lebhaft mit Spitzen zwischen 25 und 50 km/h.&#13;
+Donnerstag: Besonders in den westlichen Landesteilen scheint oft die Sonne. Im Nordosten des Landes können sich in den Morgenstunden noch tiefe Restwolken halten, und auch am Nachmittag ziehen dort ein paar Wolken durch. In den übrigen Regionen scheint durchwegs die Sonne und es wird zunehmend mild.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1355RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1355RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es besteht geringe Lawinengefahr. Es gibt nur dünne Triebschneelinsen auf hart verharschten, zum Teil auch vereisten Altschneebereichen. Diese können durch einen Skitourengeher ausgelöst werden. Im Steilgelände sollte die Absturzgefahr beachtet werden.</avActivityComment>
+          <snowpackStructureComment>Abermals ist in dieser Region kaum Neuschnee gefallen. Dünner, zum Teil bereits älterer Triebschnee überdeckt hart verharschte, stellenweise eisige oder zuvor bereits ausgeaperte Bereiche.</snowpackStructureComment>
+          <wxSynopsisComment> An der Alpensüdseite ist es wolkenlos. Der Frost in der Höhe schwächt sich ab, in 2000m hat es etwa -8 Grad. Der nördliche Wind über den Kämmen und Gipfeln weht noch lebhaft mit Spitzen zwischen 25 und 50 km/h..&#13;
+Donnerstag:  Im Nordosten des Landes können sich in den Morgenstunden noch tiefe Restwolken halten, und auch am Nachmittag ziehen dort ein paar Wolken durch. Es wird milder.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

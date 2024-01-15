@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1804RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-03T06:18:58+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1804RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-03T06:18:58+00:00</beginPosition>
+          <endPosition>2022-03-04T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahes schattseitiges Steilgelände oberhalb 2200m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Mit Erwärmung und Einstrahlung - Zunahme der Gleitschneeaktivitäten im Tagesverlauf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In schattseitigem, kammnahen Steilgelände Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Insgesamt herrschen recht günstige Bedingungen. Vereinzelte Gefahrenstellen finden sich im schattseitigen, kammnahen Steilgelände und hinter Geländekanten, sowie an Übergängen von wenig zu viel Schnee oberhalb rund 2200m. Hier können sehr vereinzelt  Triebschneeschichten der letzten Tage, vor allem mit großer Zusatzbelastung im Altschnee noch ausgelöst werden. Aus sonnenbeschienenem Steilgelände sind spontan meist kleine Lockerschneelawinen möglich. Mit der Erwärmung und Einstrahlung sind unterhalb von 2200m vor allem an steilen Sonnenhängen Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>An steilen Südhängen konnte sich durch die nächtliche Abstrahlung ein dünner Harschdeckel bilden, der meist nicht tragfähig ist. Schattseitig - von Nordost über Nord bis Nordwest liegt noch lockerer Schnee, meist ohne Bindung.  Ältere, meist kleine Triebschneeschichten sind vereinzelt noch störanfällig, dies besonders an steilen Schattenhängen und Kammlagen oberhalb 2200m. In der Altschneedecke sind in höheren Lagen schattseitig noch Schwachschichten vorhanden. Diese sind zwischenzeitlich jedoch recht gut überdeckt und können kaum mehr gestört werden. In mittleren Lagen ist die Schneedecke feucht, was die Gleitbewegung an sehr steilen Grashängen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag bringt im Gebirge sonnige und nicht allzu kalte Wetterverhältnisse. Ein paar wenige hohe Wolken, die um die Mittagszeit durchziehen, stören kaum. Temperatur in 2000m: um -1 Grad, Höhenwind: schwach bis mäßig aus dem Nordsektor.</wxSynopsisComment>
+          <tendencyComment>Die Wetterprognose verspricht die ganze Woche gutes uns sonniges Bergwetter. Die verbreitet recht günstige Lawinensituation bleibt weiter bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1227RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-27T06:29:35+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1227RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-27T06:29:35+00:00</beginPosition>
+          <endPosition>2021-12-28T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regen vermehrt kleine, vereinzelt auch mittlere Gleit- und Nassschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>sehr steile Schattenhänge &gt;2200 m, Übergänge von wenig zu viel Schnee; in Kammlagen frischer Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Erwärmung und Regen in tieferen Lagen Nass- und Gleitschneelawinen - in höheren Lagen günstige Bedingungen</avActivityHighlights>
+          <avActivityComment>Vor allem in schneereichen Bereichen sind an noch nicht entladenen steilen Grashängen und Böschungen kleine bis mittlere Gleitschneelawinen möglich. Risse in der Schneedecke weisen auf solche Gefahrenstellen hin. Mit der Einstrahlung und Tageserwärmung nimmt auch die Gefahr von Nassschneelawinen an Sonnenhängen etwas zu. In höhergelegenen, sehr steilen Schattenhängen und im extremen Steilgelände können vereinzelt noch kleine Schneebrettlawinen mit großer Zusatzbelastung an Übergängen von wenig zu viel Schnee, wie z.B. bei Einfahrten in Rinnen und Mulden, oder an schneearmen Stellen ausgelöst werden. Vor allem in höheren Kammlagen ist kleinräumig auf frischen Triebschnee zu achten.</avActivityComment>
+          <snowpackStructureComment>Gestern regnete es zeitweise unterhalb etwa 1300 bis 1600m, darüber gab es wenige Zentimeter Neuschnee und mit zunehmender Seehöhe kleinräumig frischen Triebschnee. Die meisten trockenen Phasen gab es in den südlichen Landesteilen. In tieferen und mittleren Lagen wurde die Schneedecke durch milde Temperaturen und leichten Regeneinfluss geschwächt. Im Laufe der zweiten Nachthälfte begann es aufzulockern und es bildete sich ein Harschdeckel, der tagsüber wieder aufweicht. In höhergelegenen, sehr steilen Schattenhängen sind teilweise noch Schwachschichten im Mittelteil der Schneedecke oder Triebschneepakete störbar. In hochgelegenen Schattenhängen sind die obersten Schichten teilweise noch locker und pulvrig oder mit Oberflächenreif bedeckt. Sonst sind aber oft auch Schmelzkrusten und Windharsch vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nur kurzzeitig Zwischenhocheinfluss mit Föhntendenz. Damit wird es am Vormittag zuerst freundlich mit Sonnenschein, bevor noch vor Mittag immer dichtere Wolken über den Gipfeln aufziehen. Am Nachmittag sinkt die Wolkenuntergrenze, gegen Abend können höhere Gipfel in Nebel geraten. Abends bzw. in den ersten Nachtstunden Niederschlag, der oberhalb etwa 1500m ein paar Zentimeter Neuschnee bringt. Temperatur in 2000 m: -2 bis 0 Grad, der Höhenwind weht mäßig bis lebhaft aus Südwest bis West.</wxSynopsisComment>
+          <tendencyComment>Der nächste bedeutendere Niederschlag mit Regen bis in Hochlagen ist für Mitte der Woche angekündigt. Die Lawinengefahr wird dann ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1227RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-27T06:29:35+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1227RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-27T06:29:35+00:00</beginPosition>
+          <endPosition>2021-12-28T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Erwärmung und Regen kleine, vereinzelt auch mittlere Gleit- und Nassschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>insgesamt günstige Situation; in Kammbereichen kleine Triebschneeansammlungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Erwärmung und Regen in tieferen Lagen Nass- und Gleitschneelawinen - in Hochlagen kleinräumig frischer Triebschnee</avActivityHighlights>
+          <avActivityComment>Vor allem in schneereichen Bereichen sind an noch nicht entladenen steilen Grashängen und Böschungen kleine bis mittlere Gleitschneelawinen möglich. Risse in der Schneedecke weisen auf solche Gefahrenstellen hin. Mit der Einstrahlung und Tageserwärmung nimmt auch die Gefahr von Nassschneelawinen an Sonnenhängen etwas zu. In höheren Lagen ist die Situation überwiegend günstig. Vereinzelte Schneebrettauslösungen sind im extremen Steilgelände mit großer Zusatzbelastung möglich. In Kammlagen ist kleinräumig auf frischen Triebschnee zu achten.</avActivityComment>
+          <snowpackStructureComment>Gestern regnete es zeitweise unterhalb etwa 1300 bis 1600m, darüber gab es wenige Zentimeter Neuschnee und mit zunehmender Seehöhe kleinräumig frischen Triebschnee. Die meisten trockenen Phasen gab es in den südlichen Landesteilen. In tieferen und mittleren Lagen wurde die Schneedecke durch milde Temperaturen und leichten Regeneinfluss geschwächt. Im Laufe der zweiten Nachthälfte begann es aufzulockern und es bildete sich ein Harschdeckel, der tagsüber wieder aufweicht. In höhergelegenen, sehr steilen Schattenhängen sind teilweise noch Schwachschichten im Mittelteil der Schneedecke oder Triebschneepakete störbar. In hochgelegenen Schattenhängen sind die obersten Schichten teilweise noch locker und pulvrig oder mit Oberflächenreif bedeckt. Sonst sind aber oft auch Schmelzkrusten und Windharsch vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nur kurzzeitig Zwischenhocheinfluss mit Föhntendenz. Damit wird es am Vormittag zuerst freundlich mit Sonnenschein, bevor noch vor Mittag immer dichtere Wolken über den Gipfeln aufziehen. Am Nachmittag sinkt die Wolkenuntergrenze, gegen Abend können höhere Gipfel in Nebel geraten. Abends bzw. in den ersten Nachtstunden Niederschlag, der oberhalb etwa 1500m ein paar Zentimeter Neuschnee bringt. Temperatur in 2000 m: -2 bis 0 Grad, der Höhenwind weht mäßig bis lebhaft aus Südwest bis West.</wxSynopsisComment>
+          <tendencyComment>Der nächste bedeutendere Niederschlag mit Regen bis in Hochlagen ist für Mitte der Woche angekündigt. Die Lawinengefahr wird dann ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

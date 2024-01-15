@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1932RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1932RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>leichter Tagesgang der spontanen Lawinenaktivität in steilen Sonnenhängen, Gleitschneeaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in Rinnen und steilen Mulden oberhalb etwa 2000 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust bei Sonneneinstrahlung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2000 m MÄßIG, darunter zunächst GERING und steigt tagsüber auf MÄßIG an. Aus dem stark besonnten Steilgelände sind mit dem tageszeitlichen Festigkeitsverlust an einigen Stellen spontan oder durch Zusatzbelastung kleine und mittelgroße nasse Lockerschneelawinen möglich. Auch Gleitschneelawinen (mittel bis groß) sind aus steilem Grasmattengelände möglich. In den Hochlagen gibt es Gefahrenstellen durch Triebschnee hinter Geländekanten und in Rinnen, vermehrt im Nordost über Ost bis Süd schauenden Gelände. Dort ist insbesondere bei großer Zusatzbelastung ein kleines bis mittelgroßes Schneebrett auslösbar. Sehr wenige Gefahrenstellen gibt es zudem an schneeärmeren Übergängen im schattigen Steilgelände (Altschneeproblem). Dort könnte man mit großer Zusatzbelastung ein Schneebrett auslösen, das mittlere Ausmaße annehmen kann.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist höchstens brüchig verkrustet. Tagsüber weicht der Schnee je nach Einstrahlungsverhältnissen unterschiedlich raschauf, in steilen Sonnseiten verliert die Schneedecke oberflächlich an Festigkeit. Auf sehr steilen Grasmatten gleitet die Schneedecke zum Teil auch vom Grund weg. In den Hochlagen liegen 10 bis 20 cm gesetzter Neuschnee auf vielfach verharschten Oberflächen, schattseitig windgeschützt auf kantigem Altschnee mit teilweise ungünstiger Verbindung. Im Inneren der derzeit noch kompakten Altschneedecke gibt eszwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit aber kaum angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Freitag ist meist stark bewölkt, aber trocken. Am Freitag ziehen immer wieder dichtere Wolken vor die Sonne, Niederschlag bringen sie nicht. Höhere Gipfel geraten aber teils in Nebel. Ab Mittag zeigt sich öfter die Sonne, der Sonnenschein wird aber durch Saharastaub gedämpft. In Hochlagen weht mäßiger Wind aus Nord bis Nordost. In 2000 m -2 bis +1 Grad, in 3000m -6 Grad.&#13;
+Am Samstag nach oft klarer Nacht bis über Mittag viel Sonnenschein. Am Nachmittag tauchen da und dort Quellwolken auf, welche die Gipfel vorübergehend in Nebel hüllen können. In 2000 m-3 bis -1 Grad, in 3000 m -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Tagesgang der Lawinengefahr, Harsch firnt auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1932RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1932RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Verzögerter Tagesgang der spontanen Lawinenaktivität an steilen und besonnten Hängen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände, zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust, sobald die Sonne zurückkommt</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2500 m MÄßIG, darunter zunächst GERING und steigt tagsüber auf MÄßIG an. Aus dem stark besonnten Steilgelände sind mit dem tageszeitlichen Festigkeitsverlust an einigen Stellen spontan oder durch Zusatzbelastung kleine und mittelgroße nasse Lockerschneelawinen möglich. Auch Gleitschneelawinen (mittel bis groß) sind aus steilem Grasmattengelände möglich. Sehr wenige Gefahrenstellen gibt es zudem an schneeärmeren Übergängen im schattigen Steilgelände (Altschneeproblem). Dort könnte man mit großer Zusatzbelastung ein Schneebrett auslösen, das mittlere Ausmaße annehmen kann.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist höchstens brüchig verkrustet. Tagsüber weicht der Schnee je nach Einstrahlungsverhältnissen unterschiedlich raschauf, in steilen Sonnseiten verliert die Schneedecke oberflächlich an Festigkeit. Auf sehr steilen Grasmatten gleitet die Schneedecke zum Teil vom Grund weg. In den Hochlagen liegen wenige cm Neuschnee mit nur geringer Verbindung zu den darunter liegenden Harschkrusten. Im Inneren der derzeit noch kompakten Altschneedecke gibt es zwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit aber kaum angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Freitag ist meist stark bewölkt, aber trocken. Am Freitag ziehen immer wieder dichtere Wolken vor die Sonne, Niederschlag bringen sie nicht. Höhere Gipfel geraten aber teils in Nebel. Ab Mittag zeigt sich öfter die Sonne, der Sonnenschein wird aber durch Saharastaub gedämpft. In Hochlagen weht mäßiger Wind aus Nord bis Nordost. In 2000 m -2 bis +1 Grad, in 3000 m -6 Grad.&#13;
+Am Samstag nach oft klarer Nacht bis über Mittag viel Sonnenschein. Am Nachmittag tauchen da und dort Quellwolken auf, welche die Gipfel vorübergehend in Nebel hüllen können. In 2000 m-3 bis -1 Grad, in 3000 m -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Tagesgang der Lawinengefahr, Harsch firnt auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1932RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1932RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Harter Föhntriebschnee in den Hochlagen auf labiler Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität im stark besonnten Steilgelände, auch Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gedämpfter Tagesgang in tiefen und mittleren Höhenlagen, hochalpin Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2500 m MÄßIG, darunter zunächst GERING und steigt tagsüber auf MÄßIG an. Aus dem Steilgelände sind mit dem tageszeitlichen Festigkeitsverlust an einigen Stellen spontan oder durch Zusatzbelastung kleine und mittelgroße nasse Lockerschneelawinen möglich. Auch Gleitschneelawinen (mittel bis groß) sind aus steilem Grasmattengelände möglich. Dort, wo der Föhn am Wochenende wehte (viele harte Windzeichen), gibt es im erweiterten Nordsektor (W-N-O) noch einige Triebschneepakete, die zumindest oberhalb von etwa2500 m bereits durch den Impuls einer Person als mittelgroßes Schneebrett ausgelöst werden können. Die Situation ist nicht leicht einzuschätzen, weil es viele harte und abgewehte Flächen gibt. Sehr wenige Gefahrenstellen gibt es zudem an schneeärmeren Übergängen im schattigen Steilgelände (Altschneeproblem). Dort könnte man mit großer Zusatzbelastung ein Schneebrett auslösen, das mittlere Ausmaße annehmen kann.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist höchstens brüchig verkrustet. Tagsüber weicht der Schnee je nach Einstrahlungsverhältnissen unterschiedlich rasch auf, in steilen Sonnseiten verliert die Schneedecke oberflächlich an Festigkeit. Auf sehr steilen Grasmatten gleitet die Schneedecke zum Teil vom Grund weg. Im steilen Nordsektor und in Mulden gibt es harte Triebschneepakete, die auf Reif und kantigem Pulverschnee lagern. Im Inneren der Altschneedecke gibt es zwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit aber kaum angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Freitag ist meist stark bewölkt, aber trocken. Am Freitag ziehen immer wieder dichtere Wolken vor die Sonne, Niederschlag bringen sie nicht. Höhere Gipfel geraten aber teils in Nebel. Ab Mittag zeigt sich öfter die Sonne, der Sonnenschein wird aber durch Saharastaub gedämpft. In Hochlagen weht mäßiger Wind aus Nord bis Nordost. In 2000 m -2 bis +1 Grad, in 3000m -6 Grad.&#13;
+Am Samstag nach oft klarer Nacht bis über Mittag viel Sonnenschein. Am Nachmittag tauchen da und dort Quellwolken auf, welche die Gipfel vorübergehend in Nebel hüllen können. In 2000 m -3 bis -1 Grad, in 3000 m -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Tagesgang der Lawinengefahr, Harsch firnt auf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1932RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1932RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kantige Zwischenschichten im Altschnee, nur vereinzelt auslösbar im Randbereich von sehr steilen Rinnen oder Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weitgehend stabil, nur sehr wenige Auslösepunkte für Lawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. In schneearmen Übergängen von wenig zu mehr Schnee (z.B. in Rinnen, hinter steilen Geländekanten) könnte man an sehr wenigen Stellen im extrem steilen, schattseitigen Gelände bei großer Zusatzbelastung (Stapfen, Sturz,...) ein trockenes Schneebrett auslösen (Altschneeproblem).</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gezeichnet vom stürmischen Winter und der langen trockenen Phase. Nach einer zeitweise bewölkten Nacht trägt die Oberfläche in tiefen und mittleren Höhenlagen nicht überall. Oberhalb der Waldgrenze sind die Oberflächen oft verharscht oder hart und abgeweht, die Schneehöhen deutlich unterdurchschnittlich. Im Altschnee gibt es weiche Schichten aus kantigen Kristallen, die aber höchstens ganz vereinzelt im Gelände angesprochen werden können.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Freitag ist meist stark bewölkt, aber trocken. Am Freitag ziehen immer wieder dichtere Wolken vor die Sonne, Niederschlag bringen sie nicht. Ab Mittag zeigt sich öfter die Sonne, der Sonnenschein wird aber durch Saharastaub gedämpft. In Hochlagen weht mäßiger Wind aus östlicher Richtung. In 2000 m -2 bis +1 Grad.&#13;
+Am Samstag nach oft klarer Nacht bis über Mittag viel Sonnenschein. Am Nachmittag tauchen da und dort Quellwolken auf, welche die Gipfel vorübergehend in Nebel hüllen können. In 2000 m-3 bis -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag günstige Verhältnisse, keine wesentliche Änderung der Gefährdung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

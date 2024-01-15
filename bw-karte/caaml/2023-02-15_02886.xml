@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2886RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2886RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teilweise ungünstige Zwischenschichten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Erwärmung und Einstrahlung vor allem an steilen Sonnenhängen nasse Lawine</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teilweise ungünstige Zwischenschichten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>untertags leichter Anstieg der Gefahr nasser Lawinen</avActivityHighlights>
+          <avActivityComment>Gefahrenstellen für trockene Lawinen befinden sich vor allem oberhalb ca. 2000 m vorwiegend im schattseitigen Steilgelände. Zu beachten sind Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinenauslösungen sind insbesonders mit großer Zusatzbelastung möglich. Kleinräumige Einwehungen in höheren, exponierten Lagen sollten vor allem schattseitig gemieden werden. Eine vorsichtige Routenwahl wird empfohlen. Mit Erwärmung und Sonneneinstrahlung sind im Tagesverlauf an sehr steilen Sonnenhängen weiterhin kleine bis mittlere Nass- und Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Im oberen und mittleren Teil der Schneedecke sind oft kantig aufgebaute Schwachschichten vorhanden. Tieferliegende Schwachschichten sind meist ausreichend überdeckt und nur noch selten zu stören. Am ehesten ist das an Übergängen von wenig zu viel Schnee denkbar. Diese Gefahrenstellen sind von außen nicht erkennbar. In höheren exponierten Lagen sind kleinräumig noch ältere Triebschneeansammlungen anzutreffen. An sehr steilen Sonnenhängen und in tieferen Lagen ist in den Morgenstunden oberflächlich eine Kruste vorhanden. Sonst ist die Schneeoberfläche oft noch pulvrig. Untertags verliert die Schneedecke vor allem an steilen Sonnenhängen an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht wird anfangs überwiegend klar. Später ziehen hohe Schleierwolken auf. Donnerstag: Vor allem in den südlichen Gebirgsgruppen gibt es dichtere Wolkenfelder. Diese können den Sonnenschein zeitweise dämpfen. Die Nullgradgrenze liegt mittags bei ca. 2200 m und der Wind zieht an. Temperaturen in 2000 m: um 2 Grad, Höhenwind: zunehmend lebhaft von Südwest auf West drehend.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird wechselnd bis stark bewölkt. Niederschlag gibt es kaum.  Die Gefahr von trockenen Lawinen ändert sich nicht wesentlich. Die Gefahr nasser Lawinen nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2886RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2886RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im extremen Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Tageserwärmung und Strahlung Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im extremen Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>günstige Verhältnisse mit vereinzelten nassen Lawinen an steilen Sonnenhängen</avActivityHighlights>
+          <avActivityComment>Es besteht meist geringe Lawinengefahr. Gefahrenstellen für trockene Lawinen befinden sich vor allem im schattseitigen Steilgelände. Zu beachten sind Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinenauslösungen sind mit großer Zusatzbelastung im extremen Steilgelände möglich. Mit der Erwärmung und Sonneneinstrahlung sind im Tagesverlauf an sehr steilen Sonnenhängen weiterhin kleine Nass- und Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Schattseitig sind teilweise schwache Zwischenschichten vorhanden. In höheren exponierten Lagen sind kleinräumig noch kleine, Triebschneeansammlungen anzutreffen. An sehr steilen Sonnenhängen und in tieferen Lagen ist in den Morgenstunden oberflächlich eine tragfähige Kruste vorhanden. Sonst ist die Schneeoberfläche vor allem schattseitig oft noch pulvrig. Mit tageszeitlicher Erwärmung und Sonneneinstrahlung verliert die Schneedecke vor allem an steilen Sonnenhängen etwas an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht wird anfangs überwiegend klar. Später ziehen hohe Schleierwolken auf. Donnerstag: Vor allem in den südlichen Gebirgsgruppen gibt es dichtere Wolkenfelder. Diese können den Sonnenschein zeitweise dämpfen. Die Nullgradgrenze liegt mittags bei ca. 2200 m und der Wind zieht an. Temperaturen in 2000 m: um 2 Grad, Höhenwind: zunehmend lebhaft von Südwest auf West drehend.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird wechselnd bis stark bewölkt. Niederschlag gibt es kaum.  Die Gefahr von trockenen Lawinen ändert sich nicht wesentlich. Die Gefahr nasser Lawinen nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2886RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2886RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im extremen Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>an steilen Sonnenhängen im Tagesverlauf Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im extremen Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>oft günstige Bedingungen mit leichtem tageszeitlichen Gefahrenanstieg</avActivityHighlights>
+          <avActivityComment>Es besteht meist geringe, in höheren Lagen und am Nachmittag mäßige Lawinengefahr. Gefahrenstellen für trockene Lawinen befinden sich vor allem im schattseitigen Steilgelände. Zu beachten sind Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinenauslösungen sind dort und im extremen Steilgelände mit großer Zusatzbelastung möglich. Mit Erwärmung und Einstrahlung sind im Tagesverlauf an sehr steilen Sonnenhängen weiterhin kleine bis mittlere Nass- und Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Schattseitig sind teilweise schwache Zwischenschichten vorhanden. In höheren exponierten Lagen sind kleinräumig noch kleine Triebschneeansammlungen anzutreffen. An sehr steilen Sonnenhängen und in tieferen Lagen ist in den Morgenstunden oberflächlich eine tragfähige Kruste vorhanden. Sonst ist die Schneeoberfläche vor allem schattseitig oft noch pulvrig. Mit tageszeitlicher Erwärmung und Sonneneinstrahlung verliert die Schneedecke vor allem an steilen Sonnenhängen an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht wird anfangs überwiegend klar. Später ziehen hohe Schleierwolken auf. Donnerstag: Vor allem in den südlichen Gebirgsgruppen gibt es dichtere Wolkenfelder. Diese können den Sonnenschein zeitweise dämpfen. Die Nullgradgrenze liegt mittags bei ca. 2200 m und der Wind zieht an. Temperaturen in 2000 m: um 2 Grad, Höhenwind: zunehmend lebhaft von Südwest auf West drehend.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird wechselnd bis stark bewölkt. Niederschlag gibt es kaum.  Die Gefahr von trockenen Lawinen ändert sich nicht wesentlich. Die Gefahr nasser Lawinen nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

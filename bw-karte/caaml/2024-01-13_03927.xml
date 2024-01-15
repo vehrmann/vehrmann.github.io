@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3927RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3927RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr, aber vereinzelte Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Es herrscht allgemein geringe Lawinengefahr. Im kammnahen Gelände, hinter Geländekanten, aber vereinzelt auch auf windexponierten Flächen unterhalb der Waldgrenze bildeten sich einige dünne Triebschneelinsen, die vereinzelt als kleine Schneebrettlawine ausgelöst werden können. Die Absturzgefahr überwiegt die Verschüttungsgefahr. </avActivityComment>
+          <snowpackStructureComment>Im Laufe der vergangenen Woche wurde ein wenig lockerer Schnee durch wechselnden Wind kleinräumig in alle Expositionen verfrachtet. Triebschneeansammlungen sind eher klein, aber mit der Altschneeoberfläche teilweise nur schlecht verbunden. Als Schwachschichten kommen kantige Formen und Oberflächenreif auf einer Harschkruste infrage. Das Schneedeckenfundament darunter ist kompakt und ohne nennenswerte Schwachschichten. &#13;
+Die Schneeoberfläche ist sehr inhomogen und für Skifahrerinnen und Skifahrer teilweise fordernd.  Es wechseln Windharsch, Windgangln und harte, teilweise vereiste Oberflächen. In windgeschützten, schattigen Bereichen und im Wald ist allerdings auch (wegen der anhaltenden Kälte und der starken Ausstrahlung bei wolkenlosem Himmel) zunehmend locker werdender Pulverschnee zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer großteils klaren Nacht verläuft der Sonntag überwiegend sonnig, nur ein paar hohe Schleierwolken trüben den Sonnenschein ein wenig. Am Alpennord- und Ostrand weht kräftiger, teilweise auch stürmischer Westwind, in den Niederen Tauern und südlich davon ist der Wind nur schwach bis mäßig. Die Temperaturen in 2000 m liegen zwischen -5 Grad im Nordosten des Steirischen Berglands und -1 Grad im Süden und Südwesten. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Montag ziehen dichte Wolken durch, die sich in den Nordstauregionen bei starkem Westwind auch tagsüber halten. Es ist aber nur unergiebiger Schneefall zu erwarten. Südlich des Alpenhauptkamms ist das Wetter ruhiger und großteils sonnig.  Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3927RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3927RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt, in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nach wie vor instabile Triebschneeablagerungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. Das Hauptproblem ist Triebschnee, der sich kleinräumig in allen Expositionen, zuletzt vor allem im Ost- und Südsektor, gebildet hat. Gefahrenstellen finden sich im kammnahen Gelände, in Einfahrtsbereichen von Rinnen und Mulden sowie hinter Geländekanten. Vereinzelt haben sich auch an windexponierten Stellen unterhalb der Waldgrenze instabile Triebschneelinsen gebildet. Triebschneeansammlungen können schon durch geringe Zusatzbelastung als kleine bis mittelgroße Schneebrettlawinen ausgelöst werden. In schattigen, extrem steilen Hängen und Rinnen der Hochlagen können vereinzelt auch größere Lawinen ausgelöst werden (beginnendes Altschneeproblem). Abgewehte Oberflächen sind oft vereist und hart, es herrscht Absturzgefahr! </avActivityComment>
+          <snowpackStructureComment>Im Laufe der vergangenen Woche wurde lockerer Schnee durch wechselnden Wind kleinräumig in alle Expositionen verfrachtet. Triebschneeansammlungen finden sich nicht nur kammnah, sondern vereinzelt auch bis in offene Bereiche unterhalb der Waldgrenze hinab. Der Triebschnee ist mit der Altschneeoberfläche teilweise nur schlecht verbunden. Als Schwachschichten kommen kantige Formen und Oberflächenreif auf einer Harschkruste infrage. Das Schneedeckenfundament darunter ist meist kompakt und ohne nennenswerte Schwachschichten. Nur in schattigen, steilen Hängen der Hochlagen schwächt teilweise aufbauende Umwandlung das Schneedeckenfundament. &#13;
+Die Schneeoberfläche ist sehr inhomogen und für Skifahrerinnen und Skifahrer teilweise fordernd.  Es wechseln Windharsch, Windgangln und harte, teilweise vereiste Oberflächen. In windgeschützten, schattigen Bereichen und im Wald ist allerdings auch (wegen der anhaltenden Kälte und der starken Ausstrahlung bei wolkenlosem Himmel) zunehmend locker werdender Pulverschnee zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer großteils klaren Nacht verläuft der Sonntag überwiegend sonnig, nur ein paar hohe Schleierwolken trüben den Sonnenschein ein wenig. Am Alpennord- und Ostrand weht kräftiger, teilweise auch stürmischer Westwind, in den Niederen Tauern und südlich davon ist der Wind nur schwach bis mäßig. Die Temperaturen in 2000 m liegen zwischen -5 Grad im Nordosten des Steirischen Berglands und -1 Grad im Süden und Südwesten. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Montag ziehen dichte Wolken durch, die sich in den Nordstauregionen bei starkem Westwind auch tagsüber halten. Es ist aber nur unergiebiger Schneefall zu erwarten. Südlich des Alpenhauptkamms ist das Wetter ruhiger und großteils sonnig.  Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

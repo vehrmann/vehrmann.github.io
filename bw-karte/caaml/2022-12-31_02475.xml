@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2475RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2475RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem in den höchsten Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2200 m mäßig, darunter gering. Schwache Schichten in der Altschneedecke können von einzelnen Personen am ehesten am Übergang von wenig zu viel Schnee, zum Beispiel bei der Einfahrt in steile Rinnen und Mulden gestört werden. Ausgelöste Lawinen können an schneereichen Steilhängen mittlere Größe erreichen und für eine Verschüttung ausreichen. Dies ist vor allem kammnah in den Expositionen Nordwest über Nord bis Ost möglich.&#13;
+Zudem können sich an felsigen Steilhängen und an extrem steilen Wiesenhängen, dort wo noch genügend Schnee liegt, vereinzelt kleine Nass- und Gleitschneelawinen von selbst lösen. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen ist die Schneedecke insgesamt sehr heterogen verteilt und aufgebaut. Windverpresste und verharschte Oberflächen wechseln sich mit weichem, feuchtem Schnee ab. An schattigen Hängen sind in der Schneedecke teils Schwachschichten aus kantigen Kristallen im Bereich eingelagerter Harschschichten erhalten geblieben. Diese finden sich in unterschiedlichen Tiefen und sind besonders an schneearmen Stellen störanfällig. Ansonsten hat sich die Schneedecke in den letzten Tagen deutlich gesetzt und stabilisiert. Schneereste in mittleren Lagen sind meist verharscht und vor allem im Schatten eisig und tauen nur sonnseitig im Tagesverlauf auf. Unterhalb 1400 m ist der Boden großflächig ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2475RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2475RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte kleine Nassschneelawinen im Tagesverlauf.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Sonnseitig entsteht im Tagesverlauf ein wenig ausgeprägtes Nassschneeproblem. An noch nicht entladenen, felsdurchsetzten Steilhängen und an steilen Wiesenhängen höherer Lagen können sich dann vereinzelt meist kleine nasse Locker- oder Gleitschneelawinen von selbst lösen. &#13;
+An vereinzelten, extrem steilen nord- und ostexponierten kammnahen Hängen der Hochlagen können schwache Schichten in der Altschneedecke von einzelnen Personen ausgelöst werden. Die Absturzgefahr ist höher als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Insgesamt hat sich die Schneedecke in den letzten Tagen deutlich gesetzt und stabilisiert. Windverpresste und verharschte Oberflächen wechseln sich mit weichem, feuchtem Schnee ab. An schattigen Hängen sind in der Schneedecke teils Schwachschichten aus kantigen Kristallen erhalten geblieben. Schneereste in mittleren Lagen sind meist verharscht und vor allem im Schatten eisig und tauen nur sonnseitig im Tagesverlauf auf. Unterhalb 1400 m ist der Boden großflächig ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

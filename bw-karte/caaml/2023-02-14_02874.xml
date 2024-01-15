@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2874RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2874RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leichte Tageszeitliche Zunahme der Lawinengefahr. Im Tourenbereich günstige Bedingungen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird morgens generell mit gering eingestuft, es herrschen günstige Tourenbedingungen. Im Tagesverlauf steigt die Gefahrenstufe auf mäßig (Stufe 2) an. Schneemäuler in steilem und extrem steilem Grasmattengelände sind Gefahrenzeichen für Gleitschneelawinenaktivität, Bereiche unterhalb sollten gemieden werden. Besonders sonnseitig nimmt die spontane Lawinenaktivität aus steilen, stark besonnten, noch nicht entladenen Hängen im Tagesverlauf zu. In den Hochlagen gibt es im schattigen, extrem steilen Gelände nur noch vereinzelte Bereiche, wo im Übergang von wenig zu viel Schnee durch große Zusatzbelastung noch Schneebrettlawinen ausgelöst werden können. Exponierte Bereiche sind oft abgeweht und vereist - Vorsicht vor Absturzgefahr!</avActivityComment>
+          <snowpackStructureComment>Über Nacht verfestigt sich die Schneeoberfläche und ist dann morgens oft verharscht und je nach Höhe und Exposition unterschiedlich tragfähig. Sonnseitig wird die Schneedecke  mit den milden Temperaturen und der starken Einstrahlung im Tagesverlauf zunehmend feucht. Nur vereinzelt finden sich tiefer in der Schneedecke noch relevante Schwachschichten in Form von Schwimmschnee oder lockeren, kantigen Kristallen zwischen Harschkrusten. Die Schneedecke ist allgemein stark vom Wind beeinflusst und sehr unregelmäßig verteilt. Exponierte Bereiche sind abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Über den Berggipfeln Niederösterreichs scheint die Sonne bis zum Abend von einem nahezu strahlend blauen Himmel. Der Wind weht selbst in Kamm- und Gipfellagen meist nur schwach. Das Temperaturniveau steigt weiter, in 1500m Höhe hat es am Nachmittag bis zu 10 Grad.&#13;
+Wenig Änderungen am Donnerstag: Viel Sonnenschein bis zum Nachmittag. In der Folge tauchen neben dünnen hohen, aber auch ein paar harmlose dichtere Wolken auf. Der Wind kommt zunehmend aus West und lebt im Tagesverlauf lebhaft auf. In 1500m Seehöhe liegen die Nachmittagstemperaturen um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation. Die Gleit- und Nassschneeproblematik bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2236RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-25T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2236RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-25T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinere Nassschneelawinen sind möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Stellenweise kann Nassschnee ein Problem darstellen. Kleinere nasse Lockerschnee- oder Schneebrettlawinen sind an extrem steilen Hängen, an denen noch genügend Schnee liegt, möglich. An steilen Wiesenhängen sind zudem Gleitschneelawinen nicht auszuschließen. Mit warmen Temperaturen und Regen steigt die Zahl der Gefahrenstellen am Dienstag und Mittwoch leicht an.</avActivityComment>
+          <snowpackStructureComment>Insgesamt ist die Schneedecke kompakt und weitgehend stabil. Oberflächlich weicht die Schneedecke bei warmen Temperaturen und Regen meist bis zur Saharastaubkruste auf. Zum Boden hin ist sie oft nass, was Gleitbewegungen ermöglicht. In Gipfellagen fällt bei teils stürmischem Wind etwas Neuschnee, darunter regnet es immer wieder.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering. Die nächste Aktualisierung des Lawinenberichts erfolgt voraussichtlich am Donnerstag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2236RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-25T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2236RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-25T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen kann sich der lockere Neuschnee von selbst lösen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr oberhalb 2200 m ist mäßig, darunter ist sie gering. Stellenweise kann Neuschnee in den Hochlagen ein Problem darstellen. Aus dem felsdurchsetzten Steilgelände sind einige kleine bis mittelgroße Lockerschneelawinen möglich. Kammnah können kleinräumige Triebschneeansammlungen stellenweise störanfällig sein. Schneebrettlawinen bleiben meist klein und die Absturzgefahr überwiegt die Gefahr einer Verschüttung.&#13;
+An steilen Wiesenhängen sind zudem Gleitschneelawinen nicht auszuschließen. In den mittleren Lagen steigt mit Regen am Dienstag und Mittwoch die Zahl der Gefahrenstellen leicht an. Auch kleinere Nassschneelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Insgesamt ist die Altschneedecke kompakt und weitgehend stabil. Oberhalb 2000 m fällt bei teils stürmischem Wind etwas Neuschnee, darunter regnet es immer wieder. Kleine Triebschneeansammlungen entstehen in der Höhe, die teilweise störanfällig sein können. Mit Sonne und warmen Temperaturen verliert der Neuschnee zudem an Bindung. In den mittleren Lagen und an Sonnenhängen der Hochlagen weicht die Schneedecke bei warmen Temperaturen meist bis zur Saharastaubkruste auf. </snowpackStructureComment>
+          <tendencyComment>Am Donnerstag und Freitag wird das Wetter freundlicher. Die Gefahr trockener Lawinen wird zurückgehen und nasse Lawinen einem Tagesgang unterliegen. Die nächste Aktualisierung des Lawinenberichts erfolgt voraussichtlich am Donnerstag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-30"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

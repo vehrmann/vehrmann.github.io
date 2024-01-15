@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3023RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3023RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>lokal umfangreicher Triebschnee, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Recht günstige Situation, aber teils große Triebschneemächtigkeiten in nordseitigem Gelände!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit gering bewertet. Die Gefahrenstellen befinden sich besonders in den Sektoren Nord bis Ost. Hier können vereinzelt durch große Zusatzbelastung kleine bis mittlere Schneebrettlawinen ausgelöst werden. Der Triebschnee liegt in Rinnen und Mulden sowie hinter Geländekanten. Speziell von der Planneralm bis zur steirischen Kalkspitze darf die Triebschneemächtigkeit nicht unterschätzt werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich überall schon gut setzen. Älterer Triebschnee liegt auf einer Harschschicht, vermehrt in den Expositionen Nord bis Ost. Innerhalb der Triebschneepakete befinden sich weiche Schichten, die als Schwachschichten fungieren können. Das Schneedeckenfundament ist bereits bis in die Hochlagen feucht. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag herrscht überwiegend sonniges Bergwetter, Restwolken sowie Nebel- oder Hochnebelreste sollten sich überall rasch lichten. Der Wind weht lebhaft aus Nordwest und in 2000 m Höhe werden -4 bis -1 Grad erwartet. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag ist es zweigeteilt. Im Norden ist es windig, kalt und zeitweise nebelig mit vereinzelten Schneeschauern, während es im Süden überwiegend sonnig bleibt. Es wird überall kälter. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

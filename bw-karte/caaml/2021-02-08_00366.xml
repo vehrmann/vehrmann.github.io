@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID366RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID366RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>sehr wenige Gefahrenpunkte im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ziemlich stabile Schneedecke</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING, aber nicht null. An seltenen Stellen im extrem steilen Gelände um und über 40 Grad der Richtungen NW-NO-O ist bei großer Zusatzbelastung eine Schneebrettauslösung nicht ausgeschlossen. Die Wahrscheinlichkeit dafür ist aber gering. Am ehesten betroffen sind schneeärmere Zonen und Übergänge. Spontane Lawinen sind ebenfalls sehr unwahrscheinlich.</avActivityComment>
+          <snowpackStructureComment>5 bis maximal 10 cm trockener Pulverschnee liegen auf einer festen und kompakten Altschneedecke. Potenzielle Schwachschichten im Altschnee (vor allem das lockere Fundament) sind gut überdeckt und damit kaum ansprechbar.</snowpackStructureComment>
+          <wxSynopsisComment>Am Morgen und am Vormittag ist es bewölkt. Höhere Gipfel können in Wolken stecken. Ein leichter und unbedeutender Schneeschauer ist am ehesten über Mittag möglich. Am Nachmittag wird es heller, später kann sogar die Sonne ein bisschen durchkommen. Westwind um 20 km/h. In 1500m – 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung am Mittwoch. In der Nacht auf Donnerstag 10 bis 15 cm Neuschnee mit Wind und Abkühlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+    </Bulletin>
+    <Bulletin gml:id="RID366RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID366RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel oberhalb von 2000 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, meist dünn und kleinräumig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht in schneearmen Zonen und kammnahen Steilhängen</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 1800 m ist die Schneebrettgefahr MÄßIG. Unter 1800 m ist die Gefahr GERING. Hauptthema ist das Altschneeproblem. Einzelne Gefahrenstellen gibt es in den Richtungen NW-NO-O. Vorsicht ist hier geboten bei sehr steilen bis extrem steilen Zonen, wenn diese schneearm sind oder wenn es Übergänge zu abgewehten Zonen sind. Auslösung insbesondere bei großer Zusatzbelastung. Diese Schneebretter können mittelgroß und vereinzelt auch groß werden.&#13;
+Zweiter (nachgeordneter) Problemkreis sind dünne und kleinräumige Triebschneepakete im Nord- und Ostsektor. Man findet sie kammnah. Sie sind gut zu erkennen und sind teilweise leicht auslösbar. Vom Umfang her sind diese meist klein. </avActivityComment>
+          <snowpackStructureComment>10 bis fast 20 cm Neuschnee von Sonntag auf Montag gibt es ober der Waldgrenze. Der Neuschnee wurde kaum verfrachtet und hat bis ca. 2000 m hinauf keine schlechte Verbindung zur Unterlage. Ober 2000 m sind kleine Triebschneepakete und Schollen auf einer dünnen Schmelzkruste auslösbar. &#13;
+Im Altschnee gibt es langlebige Schwachschichten (bodennah und im oberen Drittel der Schneedecke; gehäuft in nördlicher und östlicher Ausrichtung zwischen 1800 und 2200 m). Diese unguten Schichten sind inzwischen in ca. 95 % der Flächen gut überdeckt.&#13;
+Die zuletzt feuchte Schneedecke hat durch die Abkühlung an Festigkeit gewonnen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Morgen und am Vormittag ist es bewölkt. Höhere Gipfel können in Wolken stecken. Da und dort fallen ein paar Schneeflocken ohne Bedeutung. Ab Mittag wird es heller und die Sonne kommt ein bisschen hervor. Westwind um 20 km/h, oberhalb von 2200 m um 30 km/h. In 2000m -6 Grad, in 3000m -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. In der Nacht auf Donnerstag 10 bis 15 cm Neuschnee mit Wind und Abkühlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID366RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID366RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, in Föhntalern auch kammfern, leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar in schneearmen Steilzonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee nach Föhn in der Nacht</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 2000 m ist die Schneebrettgefahr ERHBELICH. Hauptthema ist das frische Triebschneeproblem. &#13;
+Der gut erkennbare Triebschnee ist im steilen bis sehr steilen Nordsektor und in Rinnen bereits durch das Gewicht einer Person auslösbar. Gefahrenstellen gibt es gehäuft kammnah, in den klassischen Föhntälern und Föhnschneisen auch kammfern hinter Geländekanten. Lawinen können mitelgroß bis groß werden.&#13;
+Zweiter (nachgeordneter) Problemkreis ist das Altschneeproblem: Ausgelöste Lawinen können eventuell in den Altschnee durchreißen und daher größer werden. Heikel sind sehr steile bis extrem steile Zonen, wenn diese schneearm sind oder wenn es Übergänge zu abgewehten Zonen sind.&#13;
+Aus besonntem und felsdurchsetzten Steilgelände sind Lockerschneelawinen möglich. Denkbar sind noch einzelne mittelgroße Gleitschneelawinen.</avActivityComment>
+          <snowpackStructureComment>20 bis 40 cm Neuschnee gab es von Sonntag auf Montag. In der Nacht auf Dienstag verfrachtet der Föhnwind den trockenen Neuschnee. Der frische Triebschnee ist störanfällig. Einerseits liegt er im Nordsektor auf kaltem Pulver, andererseits sind Triebschneepakete und Schollen auf einer dünnen Schmelzkruste auslösbar. &#13;
+Im Altschnee gibt es langlebige Schwachschichten (bodennah und im oberen Drittel der Schneedecke; gehäuft in nördlicher und östlicher Ausrichtung zwischen 1800 und 2200 m). Diese unguten Schichten sind inzwischen in ca. 95 % der Flächen gut überdeckt.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer windigen Nacht (Föhnansatz) ist es tagsüber bewölkt. Höhere Gipfel können immer wieder in Wolken stecken. Da und dort fallen ein paar Schneeflocken ohne Bedeutung. Der starke Südwind lässt am Vormittag rasch nach, tagsüber meist um 20 bis 30 km/h. In 2000m -6 Grad, in 3000m -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch weht neuerlich starker Südföhn. Die Triebschneesituation bleibt somit aufrecht. Erhebliche Gefahr (3) ober der Waldgrenze.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

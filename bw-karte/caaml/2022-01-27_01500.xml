@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1500RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1500RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, in Rinnen aller Richtungen, im Waldrandbereich, teils auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ergiebiger Neuschnee und Sturm</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist maßgeblich von Neuschneemenge und Windeinfluss abhängig. Sie wird oberhalb der Waldgrenze als ERHEBLICH, darunter als MÄßIG eingestuft. Gefahrstellen gibt es vor allem dort, wo Triebschnee eine weiche, lockere Unterlage überdeckt. Dies trifft vor allem auf windberuhigte, schattige Lagen (auch im lichten Wald) und auf steile Rinnen zu. Im windexponierten Gelände der Hochlagen können Schneebretter aber auch innerhalb des frischen Triebschnees ausgelöst werden. Zur Auslösung eines mittelgroßen Schneebretts genügt an vielen Stellen schon geringe Zusatzbelastung. Schlechte Sicht erschwert die Gefahrenbeurteilung.</avActivityComment>
+          <snowpackStructureComment>Unter starkem Windeinfluss fällt teils ergiebiger Neuschnee. Die Unterlage ist in windexponierten Bereichen oft windgepresst oder verharscht (hochalpin teils große Windgangeln), auf den Ost- und Südseitei und in Rinnen gibt es älteren Triebschnee der Vortage. In windgeschützten, schattigen Bereichen wird lockerer Altschnee und teilweise auch Oberflächenreif überschneit, die als Bruchflächen dienen können. Innerhalb der Altschneedecke schwächen weiche, kantige Schichten an Schmelzkrusten den Aufbau.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag schneit es länger anhaltend und oft mäßig stark. Verbreitet fallen 15 bis 30 cm, teilweise auch um 40 cm Neuschnee. Dazu weht stürmischer Wind aus West bis Nordwest. In 2000 m -9 Grad, in 3000 m -17 Grad.&#13;
+Der Samstag beginnt trocken und teilweise sonnig, hohe Wolkenfelder können das Licht aber auch diffus machen. Niederschlag fällt vorerst kaum. Der Wind behält in den freien Lagen Verfrachtungsstärke. Deutlich milder: in 2000 m Frostabschwächung von -8 auf -3 Grad, in 3000 m von -11 auf -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag wird frischer, kompakter Triebschnee abgelegt. Die Auslösebereitschaft im Bereich der Einwehungen bleibt erhöht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1500RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1500RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, im Waldrandbereich, in Rinnen und steilen Mulden, auf aufbauend umgewandelter Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee auf ungünstiger Unterlage störanfällig</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist maßgeblich von Neuschneemenge und Windeinfluss abhängig. Sie wird verbreitet als MÄßIG. Gefahrstellen gibt es vor allem dort, wo Triebschnee eine weiche, lockere Unterlage überdeckt. Dies trifft vor allem auf windberuhigte, schattige Lagen (auch im lichten Wald) und auf steile Rinnen zu. Im windexponierten Gelände über der Waldgrenze können Schneebretter aber auch innerhalb des frischen Triebschnees ausgelöst werden. Zur Auslösung eines mittelgroßen Schneebretts genügt an einigen Stellen schon geringe Zusatzbelastung. Schlechte Sicht erschwert die Gefahrenbeurteilung.</avActivityComment>
+          <snowpackStructureComment>Unter starkem Windeinfluss fällt teils ergiebiger Neuschnee. Die Unterlage ist in windexponierten Bereichen oft windgepresst oder verharscht (hochalpin teils große Windgangeln), auf den Ost- und Südseiten und in Rinnen gibt es älteren Triebschnee der Vortage. In windgeschützten, schattigen Bereichen wird lockerer Altschnee und teilweise auch Oberflächenreif überschneit, die als Bruchflächen dienen können. Innerhalb der Altschneedecke schwächen weiche, kantige Schichten an Schmelzkrusten den Aufbau.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag schneit es länger anhaltend und oft mäßig stark. Verbreitet fallen 15 bis 25 cm Neuschnee. Dazu weht stürmischer Wind aus West bis Nordwest. In 2000 m -9 Grad, in 3000 m -17 Grad.&#13;
+Der Samstag beginnt trocken und teilweise sonnig, hohe Wolkenfelder können das Licht aber auch diffus machen. Niederschlag fällt vorerst kaum. Der Wind behält in den freien Lagen Verfrachtungsstärke. Deutlich milder: in 2000 m Frostabschwächung von -8 auf -3 Grad, in 3000 m von -11 auf -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag wird frischer, kompakter Triebschnee abgelegt. Die Auslösebereitschaft im Bereich der Einwehungen bleibt erhöht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1500RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1500RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, im Waldrandbereich, in Rinnen und steilen Mulden, teils auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht in Bereichen mit frischem Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Gefahrstellen gibt es vor allem dort, wo Triebschnee eine weiche, lockere Unterlage überdeckt. Dies trifft vor allem auf windberuhigte, schattige Lagen (auch im lichten Wald) und auf steile Rinnen zu. Im windexponierten Gelände über der Waldgrenze können Schneebretter aber auch innerhalb des frischen Triebschnees ausgelöst werden. Zur Auslösung eines kleinen bis mittelgroßen Schneebretts genügt an einigen Stellen schon geringe Zusatzbelastung.</avActivityComment>
+          <snowpackStructureComment>Unter starkem Windeinfluss fällt teils ergiebiger Neuschnee. Die Unterlage ist in windexponierten Bereichen oft windgepresst oder verharscht (hochalpin teils große Windgangeln), auf den Ost- und Südseiten und in Rinnen gibt es älteren Triebschnee der Vortage. In windgeschützten, schattigen Bereichen wird lockerer Altschnee und teilweise auch Oberflächenreif überschneit, die als Bruchflächen dienen können. Innerhalb der Altschneedecke schwächen weiche, kantige Schichten an Schmelzkrusten den Aufbau.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag schneit es länger anhaltend und oft mäßig stark. Verbreitet fallen 10 bis 20 cm Neuschnee. Dazu weht sehr starker Wind aus West bis Nordwest. In 1500 m -5 Grad.&#13;
+Der Samstag beginnt trocken und teilweise sonnig, hohe Wolkenfelder können das Licht aber auch diffus machen. Niederschlag fällt vorerst kaum. Der Wind bleibt in den freien Lagen unangenehm. Deutlich milder: in 1500 m Frostabschwächung von -5 auf 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag wird frischer, kompakter Triebschnee abgelegt. Die Auslösebereitschaft im Bereich der Einwehungen bleibt erhöht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1500RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1500RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, hinter Geländekanten, in Rinnen und steilen Mulden, im Waldrandbereich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht in Bereichen mit frischem Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. Gefahrstellen gibt es vor allem dort, wo Triebschnee eine weiche, lockere Unterlage überdeckt. Dies trifft vor allem auf windberuhigte, schattige Lagen (auch im lichten Wald) und auf steile Rinnen zu. Im windexponierten Gelände über der Waldgrenze können Schneebretter aber auch innerhalb des frischen Triebschnees ausgelöst werden. Zur Auslösung eines kleinen bis mittelgroßen Schneebretts genügt an einigen Stellen schon geringe Zusatzbelastung.</avActivityComment>
+          <snowpackStructureComment>Der stürmische Wind bildet frischen, dünnen Triebschnee. Die Unterlage ist in windexponierten Bereichen oft windgepresst oder verharscht, auf den Ost- und Südseiten und in Rinnen gibt es älteren Triebschnee der Vortage. In windgeschützten, schattigen Bereichen wird lockerer Altschnee und teilweise auch Oberflächenreif überschneit, die als Bruchflächen dienen können. Innerhalb der Altschneedecke schwächen weiche, kantige Schichten an Schmelzkrusten den Aufbau.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag dominieren die Wolken, zeitweise ziehen Schnee- und Graupelschauer durch. Die Mengen bleiben überschaubar (5 cm). Allerdings weht stürmischer Wind aus West bis Nordwest mit 50 bis 80 km/h und verfrachtet umfangreich. In 2000 m -9 Grad.&#13;
+Der Samstag beginnt trocken und teilweise sonnig, hohe Wolkenfelder können das Licht aber auch diffus machen. Niederschlag fällt vorerst kaum. Der Wind bleibt in den freien Lagen unangenehm. Deutlich milder: in 2000 m Frostabschwächung von -8 auf -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

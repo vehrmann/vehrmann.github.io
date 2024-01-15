@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2760RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2760RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem in den Hochlagen bis zu 50 cm Neuschnee bis Donnerstag Abend</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Morgen mäßig und steigt im Tagesverlauf oberhalb der Waldgrenze auf erheblich an. Das Hauptproblem ist der Neuschnee, der mit viel Wind fällt.  Schneebrettlawinen mittlerer Größe können kammnah und kammfern vor allem in den Expositionen Nord über Ost bis Süd an vielen Stellen durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. In allen Höhenlagen können sich zudem Lawinen von selbst lösen und vor allem am Nachmittag vereinzelt auch groß werden. Anzahl und Umfang der Gefahrenstellen steigen im Tagesverlauf und mit zunehmender Höhe an.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus westlichen Richtungen begleitet den Neuschneefall und lässt umfangreiche Triebschneeansammlungen entstehen. Neu- und Triebschnee verbinden sich nur schlecht mit der Altschneeoberfläche. Vor allem sonnseitig befindet sich zudem eine Störanfällige, dünne Schicht aus aufgebauten Kristallen unter einem oberflächennahen Schmelzharschdeckel. Die Altschneeoberfläche ist ansonsten vom Wind geprägt und besteht aus Windharsch, älteren und frischeren Triebschneepaketen, Graupel und Pulverschnee. </snowpackStructureComment>
+          <tendencyComment>Mit weiteren Schneefällen und viel Wind wird die Lawinengefahr weiter ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2760RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2760RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-01T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-02T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-02T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefährliche Lawinensituation! Bis zu 70 cm Neuschnee bis Donnerstag Abend in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Morgen oberhalb der Waldgrenze erheblich und darunter mäßig. Im Tagesverlauf steigt sie oberhalb der Waldgrenze auf groß an, unterhalb davon auf erheblich. Das Hauptproblem ist der viele Neuschnee.  Schneebrettlawinen können kammnah und kammfern vor allem in den Expositionen Nord über Ost bis Süd an vielen Stellen durch geringe Zusatzbelastung ausgelöst werden. In allen Höhenlagen können sich zudem Lawinen von selbst lösen. Vor allem am Nachmittag können Lawinen groß werden. Anzahl und Umfang der Gefahrenstellen steigen mit zunehmender Höhe an. Exponierte Verkehrs- und Wanderwege können gefährdet sein.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus westlichen Richtungen begleitet den intensiven Neuschneefall und lässt umfangreiche Triebschneeansammlungen entstehen. Neu- und Triebschnee verbinden sich nur schlecht mit der Altschneeoberfläche. Vor allem sonnseitig befindet sich zudem eine Störanfällige, dünne Schicht aus aufgebauten Kristallen unter einem oberflächennahen Schmelzharschdeckel. Die Altschneeoberfläche ist ansonsten vom Wind geprägt und besteht aus Windharsch, älteren und frischeren Triebschneepaketen, Graupel und Pulverschnee. </snowpackStructureComment>
+          <tendencyComment>Mit weiteren Schneefällen und viel Wind bleibt die angespannte Lawinenlage bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1268RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1268RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>nur noch sehr vereinzelt, extrem steile Grasmatten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kaum Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt kaum Gefahrenstellen. Einzelne kleine Gleitschneelawinen oder oberflächliche nasse Rutsche sind sporadisch denkbar.</avActivityComment>
+          <snowpackStructureComment>Kompakte Schneedecke mit Harschdeckel, mitunter auch lästig brechend, der über Mittag sonnseitig zaghaft aufweichen kann.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es sonnig und klar. Die Luftfeuchtigkeit ist gering! Nicht mehr ganz so warm wie zu Silvester. Am Vormittag weht lebhafter Nordwind mit 20 bis 40 km/h in den oberen Bereichen, am Nachmittag nachlassend. In 2000m hat es um 4 Grad.&#13;
+Am Sonntag wird sonnig mit hohen Wolken. Wind lässt deutlich nach, ist nur noch schwachen bis mäßig stark. In 2000m hat es um 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1268RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1268RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammfern, Übergänge von wenig zu viel</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>wenige, sehr steiles Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem ab etwa 2200 m aufwärts, darunter noch vereinzelte Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 2200 m aufwärts überwiegend MÄßIG, darunter meist GERING. &#13;
+Unter etwa 2200 m sind potenzielle Gefahren sehr vereinzelte Gleitschneelawinen aus extrem steilen Grasmattengelände. Größe meist klein und mittelgroß.&#13;
+Oberhalb von etwa 2200 m kann man insbesondere bei großer Zusatzbelastung ein trockenes Schneebrett auslösen. Vorsicht bei Übergängen von wenig zu viel Schnee. Potenzielle Schneebretter können gefährlich groß werden. Heikel sind vor allem die Richtungen Nord über Ost bis Süd. Gefahrenstellen gibt es gehäuft im kammfernen Gelände. &#13;
+Im nicht direkt besonnten Gelände bleibt die Schneeoberfläche meist hart. Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Bis etwa 2200/2400 m hinauf ist der Schnee weit hinein feucht und trägt einen tragfähigen bis schnittigen Harschdeckel. Rein sonnseitig weicht es ein wenig auf, in den übrigen Richtungen bleibt es meist hart und trocken wegen der geringen Luftfeuchtigkeit. &#13;
+Oberhalb von 2200/2400 m ist das Gelände stark abgeblasen mit teilweise kompakteren Triebschneeschichten auf einer weichen Zwischenschicht unter dem letzten Harschdeckel von Mitte Dezember. &#13;
+Sonst ist die Altschneedecke weitgehend kompakt und wenig anfällig auf Störungen. Die meisten Gleitschnee- und Nassschneelawinen haben sich vorgestern entladen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es sonnig und klar. Die Luftfeuchtigkeit ist gering! Nicht mehr ganz so warm wie zu Silvester. Am Vormittag stürmischer Nordwind in den Hochlagen mit bis zu 60 km/h, am Nachmittag nachlassend. In 2000m hat es um 4 Grad, in 3000m um 0 Grad.&#13;
+Am Sonntag wird sonnig mit hohen Wolken. Wind lässt deutlich nach, ist nur noch schwachen bis mäßig stark. In 2000m hat es um 6 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung am Sonntag und Montag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1268RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1268RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>sehr wenige Gefahrenpunkte im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kaum Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt kaum Gefahrenstellen. Einzelne kleine Gleitschneelawinen oder oberflächliche nasse Rutsche sind sporadisch denkbar.</avActivityComment>
+          <snowpackStructureComment>Kompakte Schneedecke mit Harschdeckel, mitunter auch lästig brechend, der über Mittag sonnseitig zaghaft aufweichen kann.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es sonnig und klar. Die Luftfeuchtigkeit ist gering! Nicht mehr ganz so warm wie zu Silvester. Am Vormittag stürmischer Nordwind mit bis zu 60 km/h, am Nachmittag nachlassend. In 2000m hat es um 4 Grad.&#13;
+Am Sonntag wird sonnig mit hohen Wolken. Wind lässt deutlich nach, ist nur noch schwachen bis mäßig stark. In 2000m hat es um 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

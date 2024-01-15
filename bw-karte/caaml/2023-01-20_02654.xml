@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2654RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2654RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und sehr locker, spontante und künstliche Lockerschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden, vor allem schattseitig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden, vor allem schattseitig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kalter Pulverschnee und aufkommender NW-Wind</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ober der Waldgrenze zunächst MÄßIG, darunter GERING. Mit dem aufkommenden Nordwestwind steigt die Gefährdung tagsüber oberhalb von etwa 1800 m auf ERHEBLICH an.&#13;
+Der Neuschnee bindet nicht überall gut mit der Altschneedecke. Im Steilgelände können einzelne kleine Lockerschneelawinen abgehen (spontan und durch Wintersport-Impuls). Kammnah steigt tagsüber die Gefährdung kleine bis mittlere Schneebretter an. Ein Auslösung ist schon bei geringer Zusatzbelastung möglich. Gefahrenstellen vor allem kammnah (vermehrt ost- und südseitig) sowie in Rinnen und steilen Mulden.&#13;
+Der Aufbau der Altschneedecke ist zwar eher ungünstig. Schwachschichten im Altschnee können aber meist nur mit großer Zusatzbelastung angesprochen werden. Am gefährlichsten ist der Übergang von wenig zu mehr Schnee und die Einfahrt in Steilrinnen.</avActivityComment>
+          <snowpackStructureComment>Auf einer eher dünnen, teils ungünstig aufgebauten Altschneedecke - in Bodennähe ist sie meist aufbauend umgewandelt, dann folgen  Harschkrusten/Eislamellen und kleinräumig kann auch Reif eingelagert sein - liegt der kalte frische Neuschnee. Die Einsinktiefen liegen vielfach zwischen 20 und 40 cm. Wo der Wind nicht hinkommt, bleibt der Schnee locker und pulvrig. Mit dem tagsüber auflebendem Nordwestwind wird vor allem kammnah aber frischer Triebschnee gebildet, der sehr störanfällig ist.</snowpackStructureComment>
+          <wxSynopsisComment>Ab Freitagabend schneit es in wechselnder Stärke und in Summe bis Samstagabend ergiebig, Neuschnee von 20 bis 30 cm ist möglich. Am Samstag stecken die Berge in dichten Wolken, durch Nebel und Schneefall wird die Orientierung stark erschwert. Der Wind schwach bis mäßig stark. Temperaturen in 1500m um -9 Grad, in 2000 m -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit auflebendem Wind und weiterem Neuschnee zunehmende Gefährdung durch frischen Triebschnee in den Kammbereichen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2654RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2654RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Lockerschneelawinen aus sehr steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee, aber vorerst kaum Wind</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb etwa 1400 m MÄßIG, darunter GERING. Künstlich ausgelöst oder spontan sind vorwiegend kleine Lockerschneelawinen im sehr bis extrem steilen Gelände möglich. Kammnah kann eventuell ein kleines Schneebrett ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Kalter und sehr lockerer Neuschnee liegt auf einer geringmächtigen, oberflächlich sehr lockeren Altschneedecke. Im Tagesverlauf kann leicht auflebender NW-Wind in exponierten Bereichen und kammnah dünnen Triebschnee zu bilden beginnen.</snowpackStructureComment>
+          <wxSynopsisComment>Ab Freitagabend schneit es in wechselnder Stärke und in Summe bis Samstagabend ergiebig, Neuschnee von 20 bis 30 cm ist möglich. Am Samstag stecken die Berge in dichten Wolken, durch Nebel und Schneefall wird die Orientierung stark erschwert. Der Wind schwach bis mäßig stark. Temperaturen in 1500m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit auflebendem Wind und weiterem Neuschnee zunehmende Gefährdung durch frischen Triebschnee in den Kammbereichen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-21"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2654RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2654RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Frischer und ältere Triebschnee, auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ungünstiger Schneedeckenaufbau: aufbauende Umwandlung, harte Krusten, eingelagerter Reif</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nordföhn bildet frischen, störanfälligen Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt je nach Windeinfluss mit der Höhe rasch an und ist ab etwa 1600 m ERHEBLICH. Der frische Triebschnee kann bereits durch geringe Zusatzbelastung als Schneebrett kleiner bis mittlerer Größe ausgelöst werden. Ausgelöste Lawinen können in den Hochlagen auch auf tiefere Schwachschichten durchreißen. Die meisten Gefahrenstellen gibt es im erweiterten Ost- und Südsektor sowohl kammnah als auch kammfern sowie in steilen Rinnen aller Richtungen. Aus sehr steilem Gelände sind kleine Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Auf einer vom Wind gezeichneten Schneedecke - Rinnen und Mulden sind mit Triebschnee gefüllt, Rücken abgeblasen - liegt kalter Neuschnee oder frischer Triebschnee. Die Verbindung zwischen Triebschnee und Neuschnee bzw. Triebschnee/Neuschnee und Altschneedecke ist teils schlecht. Auch die Altschneedecke selbst hat einen ungünstigen Aufbau - unter Harschkrusten dominieren große, weiche, kantige Kristallformen, teilweise ist auch Reif eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stecken die Berge in dichten Wolken, durch Nebel und zeitweise Schneefall wird die Orientierung stark erschwert. Der Nordwestwind weht stürmisch mit 60 bis 80 km/h. Temperaturen in 2000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Heikle Triebschneesituation am Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2654RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2654RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frischer und ältere Triebschnee, auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ungünstiger Schneedeckenaufbau: aufbauende Umwandlung, harte Krusten, eingelagerter Reif</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee durch NW-Wind</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1800 m ERHEBLICH, darunter MÄßIG.&#13;
+Neuschnee und lebhafter Wind aus Nordwest bis Nord bilden frischen, störanfälligen Triebschnee. Ein Schneebrett mittlerer größe ist im Steilgeländer bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen gibt es kammnah und kammfer, vermehrt auf den Ost- und Südseiten sowie in steilen Rinnen und windabgewandten Mulden. Aufgrund des ungünstigen Schneedeckeaufbaus können anfangs oberflächliche Lawinen in tiefere Schichten durchreißen und damit auch gefährlich groß werden, dies trifft insbesondere auf hochalpine Lagen zu.&#13;
+Aus sehr steilem Gelände sind spontan überwiegend kleine Lockerschneelawinen wahrscheinlich.</avActivityComment>
+          <snowpackStructureComment>Auf einer vom Wind gezeichneten Schneedecke - Rinnen und Mulden sind mit Triebschnee gefüllt, Rücken abgeblasen - liegt kalter Neuschnee oder frischer Triebschnee, der mit dem auflebenden Nordwestwind tagsüber auch frisch gebildet wird. Die Verbindung zwischen Triebschnee und Neuschnee bzw. auch zur Altschneeunterlage wird vor allem von der Waldgrenze aufwärts mit der Höhe rasch ungünstiger. Auch die Altschneedecke selbst hat einen ungünstigen Aufbau - in Bodennähe ist sie meist aufbauend umgewandelt, dann folgen  Schmelzharschkrusten/Eislamellen und zum Teil kann Reif eingelagert sein.</snowpackStructureComment>
+          <wxSynopsisComment>Ab Freitagabend schneit es in wechselnder Stärke und in Summe bis Samstagabend ergiebig, Neuschnee von 10 bis 30 cm ist möglich, am meisten in der Venedigergruppe. Am Samstag stecken die Berge in dichten Wolken, durch Nebel und Schneefall wird die Orientierung stark erschwert. Der Wind weht in den freien Lagen stark bis stürmisch, in den Hochlagen erreicht er verbreitet 60 bis 80 km/h. Temperaturen in 2000m um -13 Grad, in 3000 m -18 Grad.</wxSynopsisComment>
+          <tendencyComment>Heikle Triebschneesituation am Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2654RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2654RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und sehr locker</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 2000 m ERHEBLICH, darunter MÄßIG und unterhalb 1600 m GERING&#13;
+Neuschnee und lebhafter Wind aus Nordwest bis Nord bilden in den Hochlagen frischen, störanfälligen Triebschnee. Ein Schneebrett mittlerer Größe ist im Steilgeländer bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen gibt es kammnah und kammfern, vermehrt auf den Ost- und Südseiten sowie in steilen Rinnen und windabgewandten Mulden. Aufgrund des ungünstigen Schneedeckeaufbaus können anfangs oberflächliche Lawinen in tiefere Schichten durchreißen und damit auch gefährlich groß werden, dies trifft insbesondere auf hochalpine Lagen zu.&#13;
+Aus sehr steilem Gelände sind spontan kleine bis mittlere Lockerschneelawinen wahrscheinlich.</avActivityComment>
+          <snowpackStructureComment>Auf einer geringmächtigen Altschneedecke - Rinnen und Mulden sind mit Triebschnee gefüllt - liegt kalter Neuschnee oder frischer Triebschnee, der mit dem auflebenden Nordwestwind tagsüber in den Hochlagen auch frisch gebildet wird. Die Verbindung zwischen Triebschnee und Neuschnee bzw. auch zur Altschneeunterlage wird vor allem von der Waldgrenze aufwärts mit der Höhe rasch ungünstiger. Auch die Altschneedecke selbst hat einen ungünstigen Aufbau - in Bodennähe ist sie meist aufbauend umgewandelt und von brüchigen Harschkrusten abgeschlossen.</snowpackStructureComment>
+          <wxSynopsisComment>Ab Freitagabend schneit es in wechselnder Stärke und in Summe bis Samstagabend ergiebig, Neuschnee von 30 bis 40 cm ist möglich. Am Samstag stecken die Berge in dichten Wolken, durch Nebel und Schneefall wird die Orientierung stark erschwert. Der Wind schwach bis mäßig stark. Temperaturen in 2000m um -13 Grad, in 3000 m -18 Grad.</wxSynopsisComment>
+          <tendencyComment>Erhebliches Triebschneeproblem in den Hochlagen  am Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

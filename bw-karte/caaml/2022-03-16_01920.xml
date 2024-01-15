@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1920RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1920RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-16T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-17T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-17T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe bis mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Ybbstaler Alpen bis zur Rax-Schneeberg-Gruppen herrscht geringe, im Tagesgang mäßige Lawinengefahr. Schattseitig besteht in praktisch allen Höhenlagen ein Altschneeproblem, hierbei kann es insbesondere bei großer Zusatzbelastung vereinzelt zu Schneebrettauslösungen kommen. Zudem konnte sich dünner Triebschnee in den Leebereichen der Hochlagen bilden. Im Tagesverlauf nimmt die spontane Abgangsbereitschaft sonnseitiger Rutschungen mit der Erwärmung und Sonneneinstrahlung etwas zu. Zudem sind auch vereinzelte Gleitschneeabgänge, die sich über vorab aufgegangene Schneemäuler ankündigen, nicht ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>In allen Gebirgsgruppen ist von Montag auf Dienstag Regen, in den Hochlagen etwas Neuschnee gefallen. Durch die Windeinwirkung sind in den kammnahen Gipfellagen dünne Triebschneelinsen entstanden. Im Tagesverlauf wird die Schneedecke etwas destabilisiert, womit einzelne Rutschungen nicht ausgeschlossen werden können. In der schattseitigen Schneedecke schwächen stellenweise lockere, kantige Zwischenschichten den Aufbau der Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag wird es in allen Niederösterreichischen Gebirgsgruppen recht sonnig. Es werden zwar kaum Wolken vorhanden sein, allerdings kann der Saharastaub in der Atmosphäre etwas trübend wirken. Der zunächst mäßige Wind aus südlichen bis südöstlichen Richtungen lässt im Tagesverlauf weiter nach. Die Mittagstemperaturen liegen in 1500m bei +3 Grad, in 2000m um etwa 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Nach noch weitgehend klarer Nacht ist am Freitag bereits ab dem frühen Morgen wieder mit dichteren mittelhohen Wolken zu rechnen, die erst in den Abendstunden zunehmend auflockern. Es bleibt niederschlagsfrei und der Wind weht schwach aus östlichen Richtungen, legt am Abend aber etwas zu und weht dann zum Teil stark aus nordöstlichen Richtungen. Die Temperaturen liegen in 1500 um +1 Grad, in 2000m bei -3 Grad. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1920RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1920RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Gutensteiner Alpen und im Semmering-Wechselgebiet herrscht geringe Lawinengefahr. In den abgeschatteten Steilhängen der Nordexpositionen besteht ein Altschneeproblem. Mit Tageserwärmung und Sonneneinstrahlung können sich (in schneereicheren Bereichen) einzelne Rutsche lösen.</avActivityComment>
+          <snowpackStructureComment>Von Montag auf Dienstag ist etwas Regen gefallen, die Hochlagen wurden leicht angezuckert. Im Tagesverlauf wird die Schneedecke durch Tageserwärmung und Sonneneinstrahlung etwas destabilisiert. In der abgeschatteten Schneedecke schwächen stellenweise lockere, kantige Zwischenschichten den Aufbau des Altschnees. Generell liegt hier wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag wird es in allen Niederösterreichischen Gebirgsgruppen recht sonnig. Es werden zwar kaum Wolken vorhanden sein, allerdings kann der Saharastaub in der Atmosphäre etwas trübend wirken. Der zunächst mäßige Wind aus südlichen bis südöstlichen Richtungen lässt im Tagesverlauf weiter nach. Die Mittagstemperaturen liegen in 1500m bei +3 Grad, in 2000m um etwa 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Nach noch weitgehend klarer Nacht ist am Freitag bereits ab dem frühen Morgen wieder mit dichteren mittelhohen Wolken zu rechnen, die erst in den Abendstunden zunehmend auflockern. Es bleibt niederschlagsfrei und der Wind weht schwach aus östlichen Richtungen, legt am Abend aber etwas zu und weht dann zum Teil stark aus nordöstlichen Richtungen. Die Temperaturen liegen in 1500 um +1 Grad, in 2000m bei -3 Grad. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

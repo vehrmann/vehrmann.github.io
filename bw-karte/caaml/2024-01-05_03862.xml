@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3862RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3862RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Teils schlechte Bindung von lockerem Neu- zu verharschtem Altschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im bayerischen Alpenraum oberhalb 1600 m mäßig, darunter ist sie gering. Der Neuschnee  ist das Hauptproblem. Dieser kann durch geringe Zusatzbelastung als Locker- oder Schneebrettlawine ausgelöst werden. Kleinräumige Gefahrenstellen befinden sich im Steilgelände, dort wo die Bindung zum Altschnee schlecht ist. Vor allem in schattseitigen Hängen höherer Lagen und in vormals eingewehten kammnahen Steilhängen sowie in Rinnen und Mulden können Lawinen ausgelöst werden. Diese können maximal mittlere Größe erreichen, dies am ehesten in den Hochlagen. Neben der Gefahr einer Verschüttung ist die Mitreiß- und Absturzgefahr zu beachten.&#13;
+Zudem bleibt die Gefahr von Gleitschneelawinen bestehen. Diese können sich an sehr steilen Hängen mit glattem Untergrund aller Expositionen von selbst lösen. Gleitschneemäuler sind überschneit und schwer zu erkennen. Gleitschneelawinen können sehr vereinzelt mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee fällt auf eine eisig verharschte, überwiegend tragfähige  Altschneeoberfläche, in eingewehten Bereichen höherer Lagen auf älteren Triebschnee. Die Verbindung des lockeren, kaum windbeeinflussten Neuschnees zum Altschnee/Triebschnee ist hier oft schlecht und der Neuschnee ist störanfällig. Eingelagerter Graupel macht den Schneedeckenaufbau in höheren Lagen zusätzlich instabil, wobei nicht mit einer großen Bruchausbreitung zu rechnen ist. Die Altschneedecke ist bis in die Hochlagen hinein durchfeuchtet und zum Boden hin oft nass. Gleitbewegungen am Boden sind dadurch möglich. In tieferen Lagen fällt der Neuschnee auf den ausgeaperten Boden. </snowpackStructureComment>
+          <tendencyComment>Je nach Neuschneemenge wird die Lawinengefahr am Sonntag ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

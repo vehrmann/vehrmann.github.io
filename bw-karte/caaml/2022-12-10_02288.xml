@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2288RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2288RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Höhe eingewehte Rinnen und Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb ca. 2200 m - überdeckte Schwachschichten sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>kleinräumig frischer und älterer Triebschnee sowie in sehr steilen Schattenhängen teilweise schwacher Altschnee sind die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe, in höheren Lagen mäßige Lawinengefahr. Gefahrenstellen sind vor allem oberhalb ca. 2000 m vorhanden. Kleinräumig frische und ältere Triebschneeansammlungen in eingewehten Rinnen und Mulden sowie hinter Geländekanten sind störanfällig. Zudem sind oberhalb ca. 2200 m in sehr steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelne Wintersportler können kleine, mit zunehmender Seehöhe vereinzelt auch mittlere Schneebrettlawinen auslösen. Dies ist bei Aktivitäten abseits gesicherter Bereiche zu beachten. Spontan sind aus sehr steilem Gelände kleine Lockerschneerutsche möglich. Auch in Bereichen mit geringer Lawinengefahr sind vereinzelte Gefahrenstellen im extremen Steilgelände vorhanden. Wintersportler können dort kleine Schneebretter oder Lockerschneelawinen auslösen. Neben einer Verschüttung sollte auch die Mitreiss- und Absturzgefahr beachtet werden.</avActivityComment>
+          <snowpackStructureComment>Es gab verbreitet bis 5 cm, in höheren Lagen auch 10 cm Neuschnee. Dieser fiel ohne großen Windeinfluss, sodaß nur lokal, kleine Triebschneeansammlungen gebildet wurden. Solche und älterer Triebschnee sind mit zunehmender Seehöhe störbar. Teilweise wurde auch Oberflächenreif eingeschneit, wodurch die Bindung des Neuschnees dazu nur schwach ist. Speziell in sehr steilen Schattenhängen oberhalb ca. 2200 m ist die Altschneedecke vom Spätherbst teilweise kantig aufgebaut. Solche Zwischenschichten sind bei Belastung durch Wintersportler störanfällig und von aussen nicht erkennbar.  Insgesamt ist die Schneedecke noch unregelmäßig: Windexponierte Bereiche waren oft abgeweht und sind jetzt nur schwach mit Neuschnee bedeckt, in Rinnen, Mulden und hinter Geländekanten wurde oft älterer Triebschnee überschneit. Schitouren und Aktivitäten abseits präparierter Pisten sind in tieferen und mittleren Lagen auf Grund des wenigen Schnees in den meisten Gebieten noch nicht lohnend. Weitere Schneedeckeninformationen liegen dem Lawinenwarndienst derzeit noch nicht vor. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Sonntag: Die Nacht wird trüb und kalt. Zeitweise fällt Schnee. Meist sind es bis 10 cm, in den Allgäuer Alpen sind 10 bis 30 cm möglich. Sonntag: Der Tag beginnt winterlich mit dichten Wolken und noch leichtem Schneefall. Mehr wie 10 cm sind jedoch nicht mehr zu erwarten. Tagsüber klingen letzte Schneeflocken ab und die Sonne setzt sich durch. Klirrend kalte, polare Luftmassen fließen ein. Temperatur in 2000m: -12 Grad. Höhenwind: schwach aus Nord bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>Montag: Sonne und Wolken wechseln sich ab. Dazu bleibt es sehr kalt. Mit zeitweise kräftigem Wind entsteht in Kamm- und Passlagen kleinräumig frischer Triebschnee. Umfang und Verbreitung der Gefahrenstellen nehmen somit zu. Die Lawinengefahr wird sich jedoch nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

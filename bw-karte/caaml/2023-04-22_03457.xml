@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3457RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-22T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3457RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-22T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-23T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in extrem steilem Gelände, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – trübes Sonntagswetter.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Aus noch schneegefüllten, extrem steilen Rinnen und Karen können spontane Lockerschneelawinen abrutschen! Skitouren sind nur mehr eingeschränkt möglich.</avActivityComment>
+          <snowpackStructureComment>Am Samstag hat die Sonneneinstrahlung deutlich zur Schneeschmelze beigetragen, die Schneegrenze hat sich verbreitet auf 1500 m zurückgezogen. Außerdem haben sich viele noch schneegefüllten, steile Hänge der Hochlagen entladen. Am Sonntag ist die Schneedecke bereits in der Früh bis auf die Gipfel feucht und faul. Mit dem Regeneintrag wird die Schneedecke weiter nass, schmilzt und verliert in extrem steilen Hängen an Haftung.</snowpackStructureComment>
+          <wxSynopsisComment>Bereits in der Nacht auf Sonntag ziehen dichte Wolken auf. Tagsüber ist es trüb und von Westen her breiten sich mittelhohe Wolken und zwischenzeitliche Regenschauer auf das gesamte Bergland aus, die lokal auch kräftig ausfallen können. Dazu weht lebhafter Wind aus Südwest und die Temperaturen erreichen in 1500 m etwa +8 Grad.&#13;
+Auch am Montag ist es im gesamten Bergland trüb mit dichter Bewölkung und lokalen Regenschauern. Die Temperaturen sinken leicht ab, in 1500 m hat es rund +3 Grad, die Schneefallgrenze liegt um 1700 m. Der Wind dreht auf West und legt etwas zu. &#13;
+ </wxSynopsisComment>
+          <tendencyComment>Mit dem Regen schreitet die Ausaperung unter 1700 m weiter voran, die übrige Schneedecke wird weiter nass und bekommt wenige Zentimeter an Neuschnee dazu. Spontane Nassschneelawinen sind weiterhin möglich!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

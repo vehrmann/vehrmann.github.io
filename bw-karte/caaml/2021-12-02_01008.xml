@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1008RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1008RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen herrscht oberhalb von 1400m mäßige Lawinengefahr. Zu beachten sind Hänge der Expositionen Nord und Nordost. Hier sind Schneebrettauslösungen möglich. &#13;
+In den mittleren und tiefen Lagen können aus steilen Grashängen bzw. laubbedeckten Hängen nasse Rutsche abgleiten. </avActivityComment>
+          <snowpackStructureComment>Seit Anfang der Woche sind in den Hochlagen der Ybbstaler Alpen 40cm bis 60cm Neuschnee gefallen. Dieser hat sich auf einem warmen Boden abgelagert. Durch die Erwärmung am Mittwoch konnte sich die Schneedecke setzen und der Schnee wurde bis ca. 1400m feucht. Mit dem Temperaturrückgang am Freitag wird die Schneedecke kompakter. Die Verbindung des Neuschnees mit der Altschneedecke wird gut sein. In den tiefen Lagen bleibt die Schneedecke feucht bzw. nass. </snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag startet in den niederösterreichischen Alpen mit dichten Wolken. In den Ybbstaler Alpen schneit es noch ein wenig. Es werden bis morgen Abend 5 bis 10cm Neuschnee erwartet. Es bleibt oft bis weit in den Nachmittag hinein trüb. Es weht mäßiger bis lebhafter Westwind bei rund minus 6 Grad in 1500m Seehöhe.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1008RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1008RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Nassschneesituation. Es herrscht geringe Lawinengefahr! In den mittleren und tiefen Lagen können aus steilen Grashängen bzw. laubbedeckten Hängen nasse kleine Rutsche abgleiten.</avActivityComment>
+          <snowpackStructureComment>Im Osten von Niederösterreich liegt etwas weniger Schnee als im Vergleich zu den Ybbstaler Alpen.  Es liegen 15cm bis 30cm Schnee. Kleine Triebschneepakete sind in den Hochlagen am Schneeberg bzw. auf der Rax anzutreffen. Durch die Erwärmung am Mittwoch konnte sich die Schneedecke setzen und der Schnee wurde bis ca. 1400m feucht. Oberflächlich hat sich eine gering mächtige Schmelzkruste gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag startet in der Bergwelt Niederösterreichs mit dichten Wolken. Am Alpenostrand werden bereits am Vormittag die Wolken immer weniger und nachmittags überwiegt dort der Sonnenschein. Nach Westen zu bleibt es oft bis weit in den Nachmittag hinein trüb. Es weht mäßiger bis lebhafter Westwind bei rund minus 6 Grad in 1500m Seehöhe.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

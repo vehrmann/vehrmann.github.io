@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1482RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1482RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, teils im Waldrandbereich, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr durch frischen und teils auch älteren Triebschnee!</avActivityHighlights>
+          <avActivityComment>Durch starken Wind um West bis Nordwest haben sich frische Triebschneeablagerungen vor allem in den kammnahen teils aber auch kammfernen Hochlagen gebildet. Ältere Verfrachtungen wurden überdeckt. Gefahrenstellen befinden sich vor allem in steilen ost- und südexponierten steileren Hängen der Hochlagen und in lichten Bergwäldern. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung hier möglich. Sollten tiefer liegende Schichten mit angesprochen werden, können Lawinen auch groß werden. Sonnseitig sind aus extrem steilen Hängen kleinere feuchte Lockerschneelawinen spontan möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnten sich wieder etwas setzen. Es ist aber in den höheren Lagen noch immer verfrachtungsfähiger Schnee vorhanden. Durch starken Wind um West bis Nordwest entstehen somit hochgelegen frische Triebschneeablagerungen. Ältere Verfrachtungen wurden überdeckt. Die Schneedecke und der Triebschnee enthalten dünne weich und auch härtere Zwischenschichten (kantige Schichten, dünnen Harsch, überdeckten Oberflächenreif), die als Schwachschichten auftreten können. Der Schnee ist allgemein stark vom Wind geprägt und sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch geht es im Bergland oberhalb von Nebelfeldern erneut sehr sonnig weiter, die Fernsicht ist ausgezeichnet. Der Wind weht mäßig bis lebhaft aus West bis Nordwest, in den hochalpinen Lagen von Dachstein und Totem Gebirge teilweise auch stark. In 1500 m etwas kälter mit -3 oder -2 Grad, in 2000 m um -4 Grad.&#13;
+Am Donnerstag ist es im Gebirge erneut oft sonnig, allerdings mischen schon deutlich mehr hohe Wolkenfelder mit. Der Wind weht lebhaft bis stark aus West bis Nordwest, vor allem oberhalb der Baumgrenze. In 1500 m 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1482RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1482RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, teils im Waldrandbereich, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kammnah und hochgelegen etwas frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Durch starken Wind um West bis Nordwest kann sich in den höheren Kammlagen, lokal aber auch darunter, frischer Triebschnee bilden. Ältere Verfrachtungen wurden überdeckt. Gefahrenstellen befinden sich vor allem in steilen ost- und südexponierten steileren Hängen der höheren Lagen bis teils in lichte Bergwälder. Der frische Triebschnee kann auch bereits bei geringer Zusatzbelastung angesprochen werden. Sonnseitig sind aus extrem steilen Hängen kleinere feuchte Lockerschneelawinen spontan möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnten sich wieder etwas setzen. In den höheren Lagen (überwiegend in Kammnähe) bilden sich durch stärkeren Windeinfluss aus West bis Nordwest und dem noch verfrachtungsfähigen Schnee frische Triebschneeablagerungen. Ältere Verfrachtungen wurden überdeckt. Die Schneedecke und der Triebschnee enthalten dünne weich und auch härtere Zwischenschichten (kantige Schichten, dünnen Harsch, überdeckten Oberflächenreif), die als Schwachschichten auftreten können. Der Schnee ist allgemein stark vom Wind geprägt und sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch geht es im Bergland oberhalb von Nebelfeldern erneut sehr sonnig weiter, die Fernsicht ist ausgezeichnet. Der Wind weht mäßig bis lebhaft aus West bis Nordwest, in den hochalpinen Lagen von Dachstein und Totem Gebirge teilweise auch stark. In 1500 m etwas kälter mit -3 oder -2 Grad, in 2000 m um -4 Grad.&#13;
+Am Donnerstag ist es im Gebirge erneut oft sonnig, allerdings mischen schon deutlich mehr hohe Wolkenfelder mit. Der Wind weht lebhaft bis stark aus West bis Nordwest, vor allem oberhalb der Baumgrenze. In 1500 m 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

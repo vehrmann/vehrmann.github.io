@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1514RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-29T06:26:55+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1514RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-29T06:26:55+00:00</beginPosition>
+          <endPosition>2022-01-30T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammnahes Steilgelände, Rinnen, Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen im Hochgebirge, extremes Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Oberhalb etwa 2000m besteht mäßige Lawinengefahr. Frische Triebschneepakete bilden die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 2000m besteht mäßige Lawinengefahr. Frische Triebschneepakete bilden die Hauptgefahr. Gefahrenstellen finden sich an windbeeinflussten Steilhängen sowie in Rinnen, Mulden und hinter Geländekannten. Anzahl und Größe der Gefahrenstellen nehmen mit der Seehöhe zu. Die Triebschneeansammlungen können stellenweise leicht ausgelöst werden. Lawinen sind meist klein, können aber an Orten mit mehr Triebschnee auch mittlere Größe erreichen. Neben einer Verschüttung ist dabei auch die Mitreiß- und Absturzgefahr zu beachten. Zudem können vereinzelt im Steilgelände in der oberflächennahen Altschneedecke Schwachschichten gestört werden. Solche Gefahrenstellen sind in Kammlagen des Hochgebirges und im extremen, meist schattseitigen Steilgelände anzutreffen. Auslösungen können dort auch in tiefere Schichten der Schneedecke durchreißen und dadurch größer werden.</avActivityComment>
+          <snowpackStructureComment>Gestern kamen noch bis 5cm Neuschnee hinzu. Der starke bis stürmische Nordwestwind verfrachtet den wenigen Neu- und schattseitig den lockeren Altschnee und bildet frische, stelleweise auch größere, störanfällige Triebschneeansammlungen. Exponierte Stellen und sehr hohe Lagen sind oft vom Wind geprägt. An Sonnenhängen ist die Schneeoberfläche meist verkrustet, schattseitig ist sie in Bereichen ohne Windeinfluss bis in hohe Lagen pulvrig. Bei den gestrigen Schneeschauern war zeitweise auch Graupel dabei. Die Altschneedecke ist überwiegend gut verfestigt und stabil. Schwachschichten im Bereich unterhalb von Schmelzharschkrusten im Mittelteil der Schneedecke können meist nur mit großer Zusatzbelastung gestört werden. Gestern wurden mehrere kleinere Lawinen durch Skifahrer ausgelöst.</snowpackStructureComment>
+          <wxSynopsisComment>Nordwestströmung. Ausgedehnte Wolkenfelder ziehen über die Berge, die höchsten Gipfel können dabei zeitweise im Nebel stecken. Gelegentliches leichtes Flocken daraus ist vormittags nicht ausgeschlossen. Gegen Mittag lichten sich die Wolken und dann kommt oft noch die Sonne zum Zug. Weniger kalt. Temperatur in 2000m: von -6 auf -2 Grad, Höhenwind: im Hochgebirge starker Wind aus West bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Sonntag gibt es 10 bis 15, in der Silvretta und im Rätikon bis 5cm Neuschnee. Am Sonntag selber sind nur mehr zeitweise schauerartige Schneefälle zu erwarten. Die Lawinengefahr ändert sich nicht wesentlich. Ab Montag stellt sich eine markante Nordweststaulage mit großen Neuschneemengen ein. Die Lawinengefahr steigt an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

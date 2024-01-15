@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2206RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2206RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-20T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-21T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-21T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-21T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-20T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-21T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-21T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-21T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Frühjahrssituation mit Tagesgang</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird am Vormittag mit GERING, am Nachmittag unterhalb von 2800 m mit MÄSSIG beurteilt. Mit der&#13;
+tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von spontanen&#13;
+Nassschneelawinen. Kleine bis mittelgroße Gleit- und Nassschneelawinen sind in allen, vor&#13;
+allem aber in sonnigen Expositionen möglich. Kleine Triebschneeansammlungen können vereinzelt auch bei geringer&#13;
+Zusatzbelastung ausgelöst werden. Gefahrenstelen umfassen dabei hochalpine Kammalgen in allen Expositionen. Absturzgefahr beachten. </avActivityComment>
+          <snowpackStructureComment>Die nächtliche Abstrahlung ist in einer bewölkten Nacht großteils reduziert und erfolgt nur in sehr hohen Lagen uneingeschränkt. Es erfolgt eine Durchfeuchtung und Schwächung der Schneedecke im Tagesverlauf in allen Expositionen. Triebschneeansammlungen wurden vereinzelt in hochalpinen Lagen in allen Expositionen auf eine großteils stabile Altschneedecke abgelagert. In tiefen und mittleren Lagen liegt wenig bis kein Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ziehen am Vormittag nur höhere harmlose Wolken durch und es dominiert dabei sonniges Wetter, die Gipfel sollten frei bleiben. Im Tagesverlauf machen sich mit Schwerpunkt in den Karnischen Alpen wieder etwas mehr Quellwolken bemerkbar, das Schauerrisiko bleibt aber sehr gering, höhere Gipfel können aber vorübergehend in Nebel geraten. Es weht schwacher bis mäßiger Südwestwind, in exponierten Lagen können Spitzen bis 40 km/h erreicht werden. Temperaturen: Tageshöchstwerte auf 2000 m um 5 Grad, auf 3000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Leichter Anstieg der Lawinengefahr </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2206RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2206RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Im Tagesverlauf kann&#13;
+es vereinzelt zu kleinen spontanen Gleit- und Nassschneelawinen kommen.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Die kompakte, verharschte und geringmächtige Schneedecke wird im Tagesverlauf&#13;
+durchfeuchtet.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ziehen am Vormittag nur höhere harmlose Wolken durch und es dominiert dabei sonniges Wetter, die Gipfel sollten frei bleiben. Im Tagesverlauf machen sich mit Schwerpunkt in den Karnischen Alpen wieder etwas mehr Quellwolken bemerkbar, das Schauerrisiko bleibt aber sehr gering, höhere Gipfel können aber vorübergehend in Nebel geraten. Es weht schwacher bis mäßiger Südwestwind, in exponierten Lagen können Spitzen bis 40 km/h erreicht werden. Temperaturen: Tageshöchstwerte auf 2000 m um 1 Grad, auf 3000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

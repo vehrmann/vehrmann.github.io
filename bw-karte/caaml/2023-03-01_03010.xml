@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3010RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3010RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, in Rinnen und steilen Mulden, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in den hohen Lagen und sonnseitig leichten Tagesgang beachten!</avActivityHighlights>
+          <avActivityComment>Die Schneebrettgefahr ist über der Waldgrenze mäßig. Älterer überdeckter und hochgelegen etwas frischer Triebschnee (Mittwoch zeitweise starker Wind um Südost) ist zu beachten. Vor allem in Kammnähe, hinter Geländekanten und in verfüllten Mulden sowie Rinnen sind im Steilgelände Gefahrenstellen vorhanden. Hier können Schneebrettlawinen stellenweise bereits durch geringe Zusatzbelastung ausgelöst werden. Sonnseitig steigt die Gefahr für kleinere spontane feuchte Lockerschneelawinen im Tagesverlauf je nach Einstrahlung aus extrem steilen felsdurchsetzten Gelände etwas an.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee konnte sich schon etwas setzen. Die Schneeoberfläche ist aber oft noch locker. Vor allem sonnseitig kann sich über Nacht ein dünner Harschdeckel bilden, der im Tagesverlauf mit der Einstrahlung wieder aufweicht. Durch hochgelegen stärkeren Wind um Südost gibt es stellenweise kammnah etwas frischen Triebschnee. Vor allem in den Hochlagen sind noch ältere Triebschneeablagerungen vorhanden, die auch noch gestört werden könnten. Das oberflächig verharschte Schneedeckenfundament ist gut gesetzt und kann im schattseitigen Hochgebirge noch Schwachschichten enthalten. Die Schneehöhen sind unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag folgen erneut recht passable Tourenverhältnisse mit trockenem Wetter und Sonnenschein. Die Sicht ist gut, ab und zu mischen etwas mehr hohe Wolkenfelder mit. Der Wind weht mäßig, mitunter lebhaft aus Ost bis Süd. In 1500 m Temperaturen um 2 Grad, in 2000 um -1 Grad.&#13;
+Am Freitag ziehen schon bald dichte, tiefe Wolken auf, die Sicht verschlechtert sich zunehmend. Lediglich in den höchsten Regionen des Dachsteins und Toten Gebirges ist am Vormittag noch Sonnenschein dabei. Zeitweise fallen ein paar Schneeflocken. Der Wind dreht auf West bis Nordwest. In 1500 m -1 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3010RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3010RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Tagesgang beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - leichter Tagesgang!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Im Tagesverlauf steigt die Gefahr für spontane feuchte Lockerschneelawinen aus sehr steilen besonnten Hängen etwas an. Nur punktuell sind in den Kamm- und Gipfellagen noch ältere Triebschneeablagerungen im Steilgelände zu beachten. Weiterhin sind Hänge mit Rissen in der Schneedecke zu meiden.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee konnte sich schon etwas setzen. Die Schneeoberfläche ist schattseitig aber oft noch locker. Vor allem sonnseitig kann sich über Nacht ein dünner Harschdeckel bilden, der im Tagesverlauf mit der Einstrahlung wieder aufweicht. In den Kamm- und Gipfellagen sind noch ältere Triebschneeablagerungen vorhanden. Die Schneehöhen sind unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag folgen erneut recht passable Tourenverhältnisse mit trockenem Wetter und Sonnenschein. Die Sicht ist gut, ab und zu mischen etwas mehr hohe Wolkenfelder mit. Der Wind weht mäßig, mitunter lebhaft aus Ost bis Süd. In 1500 m Temperaturen um 2 Grad, in 2000 um -1 Grad.&#13;
+Am Freitag ziehen schon bald dichte, tiefe Wolken auf, die Sicht verschlechtert sich zunehmend. Lediglich in den höchsten Regionen des Dachsteins und Toten Gebirges ist am Vormittag noch Sonnenschein dabei. Zeitweise fallen ein paar Schneeflocken. Der Wind dreht auf West bis Nordwest. In 1500 m -1 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

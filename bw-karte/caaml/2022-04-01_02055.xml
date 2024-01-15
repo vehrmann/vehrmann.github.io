@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2055RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-01T05:27:08+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2055RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-01T05:27:08+00:00</beginPosition>
+          <endPosition>2022-04-02T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-01T05:27:08+00:00</beginPosition>
+                  <endPosition>2022-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-02T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-01T05:27:08+00:00</beginPosition>
+                  <endPosition>2022-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-02T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;1800m, mit Windeinfluss zudem Bildung von störanfälligen Triebschneeansammlungen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt; 2000m dort wo ausreichend Schnee vorhanden, zudem feuchte Rutsche</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht vor frischem Triebschnee in Hochlagen.</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 1800m ist die Lawinengefahr mäßig, darunter gering. Mit den weiteren Schneefällen und Windeinfluss steigt die Lawinengefahr im Tagesverlauf an und erreicht in Hochlagen die Gefahrenstufe 3, „erheblich“. Lawinen können von einzelnen Wintersportler ausgelöst werden und mittlere Größe erreichen. Spontan können sich aus dem extremen Steilgelände Lockerschneelawinen lösen. Anzahl und Umfang der Gefahrenstellen nehmen mit der Seehöhe und im Tagesverlauf zu. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinenbeurteilung. Mit der Neuschneeauflage auf der nassen Altschneedecke können feuchte Rutsche unterhalb etwa 2000m abgehen. Auch sind noch vereinzelt Gleitschneelawinen vor allem an Nordhängen, bzw. wo noch ausreichend Schnee liegt, möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Gestern schneite es tagsüber zeitweise leicht bis mäßig. In der Nacht intensivierte sich der Schneefall. Die Schneefallgrenze sank dabei von zunächst 1000m auf knapp 500m am Freitagmorgen. Es gab verbreitet 15 bis 20cm, lokal auch mehr Neuschnee. Dieser kam auf einer rauen Altschneeoberfläche zu liegen und ist meist gut mit ihr verbunden. Mit mäßigem bis kräftigem Nordwestwind sind in exponierten Hochlagen frische, teils störanfällige Triebschneeansammlungen entstanden. Mit den sinkenden Temperaturen im Gebirge nimmt die Gefahr von Nass- und Gleitschneelawinen ab. Die Altschneedecke ist durchfeuchtet und vor allem an Sonnenhängen bis in höhere Lagen nass. An sehr steilen und glatten Hängen begünstigt dies Gleitbewegungen. In mittleren Lagen waren vor dem Schneefall Sonnenhänge meist ausgeapert.</snowpackStructureComment>
+          <wxSynopsisComment>Tiefdruckeinfluss und Nordströmung sorgen für tiefwinterliche Verhältnisse und Kälte. Wolken und Nebel sorgen für schlechte Sichten. Es schneit vormittags anhaltend, nachmittags in Schauerform. Auch nachts auf Samstag weitere Schneeschauer. Die Neuschneemengen fallen eher moderat aus. Temperatur in 2000 m: -5 bis -8 Grad. Höhenwind: schwacher bis mäßiger Nordwind.</wxSynopsisComment>
+          <tendencyComment>Im Nordstau vom Bregenzerwald bis zum Arlberg schneit es am Samstag kräftiger und häufiger als im Rätikon und der Silvretta. Die Lawinengefahr steigt in den Staulagen weiter an, sonst ändert sie sich voraussichtlich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

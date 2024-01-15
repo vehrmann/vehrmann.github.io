@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID980RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID980RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-03T16:00:00+00:00</beginPosition>
+          <endPosition>2021-05-05T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <comment>večje količine novega snega</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontano plazenje kot posledica dnevne odjuge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zlasti na območju Julijskih Alp veliko novega snega</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je trenutno nad nadmorsko višino okoli 1500 m ZNATNA, 3. stopnje, nižje pa ZMERNA, 2. stopnje. V gorah je včeraj in ponoči obilno snežilo. Zaradi večje količine novega snega pričakujemo, da se bodo spontano prožili plazovi suhega, sredi dneva in popoldne pa zaradi vpliva sonca tudi plazovi mokrega snega. Nevarnejša so zlasti strmejša pobočja v visokogorju, kjer je snežilo na trdo snežno podlago. Zlasti okoli grebenov in vrhov so nastajale tudi klože, ki se lahko sprožijo že ob manjši obremenitvi. Vetru izpostavljena mesta so spihana do trde in ponekod poledenele podlage, zato je nevarnost zdrsa precejšnja.</avActivityComment>
+          <snowpackStructureComment>Ob koncu tedna so bile zlasti na območju Julijskih Alp obilne padavine. Sprva je večinoma deževalo. Meja sneženja se je šele v noči na nedeljo spustila do okoli 2400 m. Včeraj se je le postopoma hladilo in dež je prehajal v sneg, Popoldne je močno snežilo, nastajale so tudi nevihte. Zapihal je zmeren severnik. Skupno je nad 1500 m zapadlo od 20 pa tudi več kot 60 cm snega. Največ na območju zahodnih in južnih Julijskih Alp, najmanj pa na v vzhodnih Kamniško-Savinjskih Alpah in v vzhodnih Karavankah. Sprva je na mokro podlago padal razmeroma moker, kasneje pa vse bolj suh sneg. Severni veter je okoli grebenov in vrhov je severnik prenašal sneg in ga odlagal na južna pobočja, kjer so nastajale nove klože. Razmere so zahtevne!</snowpackStructureComment>
+          <wxSynopsisComment>V torek bo delno jasno z občasno povečano oblačnostjo, vrhovi bodo občasno v oblakih. Bolj oblačno bo zlasti v Posočju, kjer bo popoldne nastala tudi kakšna ploha. Pihal bo zmeren do okrepljen jugozahodnik. Temperatura na 1500 m bo okoli 5, na 2500 m pa okoli 0 °C. V sredo bo pretežno oblačno in tudi megleno, več jasnine bo v vzhodnih gorstvih. Na območju Julijskih Alp se bodo začele pojavljati padavine. Meja sneženja bo na nadmorski višini okoli 2000 m. Pihal bo zmeren do močan jugozahodnik. Na 1500 m bo sredi dneva okoli 5, na 2500 m pa okoli -1 °C. Zvečer se bodo padavine okrepile in razširile nad vsa gorstva, meja sneženja se bo znova spustila do okoli 1500 m.</wxSynopsisComment>
+          <tendencyComment>Nov sneg se bo v naslednjih dneh zaradi otoplitve in vpliva sončnega obsevanja labiliziral in z dovolj strmih pobočjih tudi splazel. Spontano se bodo pojavljali plazovi mokrega snega. V torek in sredo čez dan bo tako nevarnost snežnih plazov nad okoli 1500 m, ZNATNA, 3. stopnje, nižje pa ZMERNA, 2. stopnje. V torek bodo zlasti nevarna prisojna, v sredo pa tudi osojna pobočja. Predvsem v visokogorju bodo nevarna tudi mesta z napihanim snegom, kjer lahko že ob manjši obremenitvi sprožite snežni plaz. Razmere v gorah bodo ostale nevarne in zahtevne.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-02"/>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

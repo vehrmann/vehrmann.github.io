@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1051RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1051RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in verfüllten Rinnen und Mulden im Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer störanfälliger Triebschnee durch teils starken Wind vor allem in den Hochlagen - erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Neben älteren überdeckten Verfrachtungen sind vorwiegend frisch verfüllte, steile Mulden und Rinnen sowie neu abgelagerter Triebschnee im Steilgelände vorhanden. Vor allem in den Hochlagen sind diese Verwehungen durch starken Wind um West gebildet worden und teils auch bereits ab der Waldgrenze zu beachten. Eine Auslösung dieser störanfälligen Verfrachtungen ist bereits bei geringer Zusatzbelastung möglich. Mit weiteren Einwehungen sind spontane Lawinen im Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene kalte lockere Neuschnee ist durch aufkommenden starken Wind mit zunehmender Höhe verstärkt, teils umfangreicher verfrachtet worden. Diese frischen, teils auch noch älteren Triebschneeablagerungen sind störanfällig und binden mit der sich bereits gesetzten Altschneedecke ungenügend. Die Schneedecke enthält zum Teil Schwachschichten wie Oberflächenreif oder weichere eingelagerte Schichten auf denen Triebschnee liegt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ziehen tagsüber dichte Wolken mit etwas Schneefall durch. Es weht lebhafter und in den Gipfelregionen starker, kalter Westwind. In 1500 m hat es um -6 Grad, in 2000 m um -10 Grad.&#13;
+Am Mittwoch wechseln Sonnenschein und hohe Wolkenfelder. In den Hochlagen weht zum Teil starker bis stürmischer Südwestwind. In 1500 m beträgt die Temperatur um 2 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit den milderen Temperaturen am Mittwoch wird sich die Schneedecke setzen. Durch starken bis stürmischen Wind ist die Schneebrettgefahr aber in den Hochlagen unbedingt zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1051RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1051RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>lokale Gefahrenstellen oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze lokal störanfälligen Triebschnee beachten.</avActivityHighlights>
+          <avActivityComment>Ab der Waldgrenze sind lokal ältere überdeckte Verfrachtungen sowie frisch verfüllte, steile Mulden und Rinnen im Steilgelände zu beachten. Eine Auslösung dieser störanfälligen Verfrachtungen ist bei großer, lokal auch bei geringer Zusatzbelastung möglich.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene kalte lockere Neuschnee ist durch aufkommenden starken Wind mit der Höhe zunehmend stark verfrachtet worden. Diese frischen, teils auch noch älteren Triebschneeablagerungen sind störanfällig und binden mit der sich bereits gesetzten Altschneedecke ungenügend. Die Schneedecke enthält zum Teil Schwachschichten wie Oberflächenreif oder weichere eingelagerte Schichten auf denen Triebschnee liegt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ziehen tagsüber dichte Wolken mit etwas Schneefall durch. Es weht lebhafter und in den Gipfelregionen starker, kalter Westwind. In 1500 m hat es um -6 Grad, in 2000 m um -10 Grad.&#13;
+Am Mittwoch wechseln Sonnenschein und hohe Wolkenfelder. In den Hochlagen weht zum Teil starker bis stürmischer Südwestwind. In 1500 m beträgt die Temperatur um 2 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit den milderen Temperaturen am Mittwoch wird sich die Schneedecke setzen. Auf die Schneebrettgefahr ist weiterhin zu achten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

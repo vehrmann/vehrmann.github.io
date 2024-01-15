@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID819RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID819RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Steilgelände, Steilrinnen in Hochlagen - älterer Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesgang spontane Lawinen - älterer Triebschnee in höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Mit der milden Temperatur und Sonnenschein steigt die Lawinengefahr im Tagesgang allgemein auf mäßig an. Vor allem auf besonntem Steilgelände sind dann spontane Feucht- und Nassschneelawinen möglich. Daneben gibt es vor allem in schattseitigen Hochlagen noch ältere Verfrachtungen, die insbesondere durch große, eventuell durch geringe Zusatzbelastung ausgelöst werden können. Je nach vorhandener Schneehöhe sind einzelne Gleitschneelawinen auf vergrasten Steilhängen bis in mittlere Lagen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und Sonnenschein konnte sich die Schneedecke deutlich setzen und besser binden. Mit der nächtlichen Ausstrahlung ist sie in Bereichen, wo sie feucht wurde oberflächig verharscht, in schattseitigen Hochlagen teils pulvrig und oft windbeeinflusst/gepresst. Tagsüber verliert sie an Festigkeit und wird oberflächig weich und feucht bis nass. In den zuletzt gebildeten Triebschneepaketen oder im Übergang zur Altschneedecke können noch Schwachschichten vorhanden sein, die gestört werden können. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ziehen phasenweise dichte, hohe Wolken durch und sorgen für diffuses Licht. Der Nachmittag bringt mehr Sonnenschein. Örtlich macht sich im Alpenbereich föhniger Südwind bemerkbar, meist ist der Wind aber schwach. In 1500 m 4 bis 8 Grad, in 2000 m hat es um 3 Grad.&#13;
+Am Sonntag ziehen hohe Wolken weit über die Gipfel hinweg, die Sicht ist gut, das Licht teilweise diffus. Zeitweise scheint die Sonne. Vom Gosaukamm ostwärts weht lebhafter bis starker Südwind mit 40 bis 60 km/h. In 1500 m hat es 5 bis 8 Grad, in 2000 m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Frühlingshafte Bedingungen mit Tagesgang. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID819RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID819RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>steile Rinnen, Steilgelände - schattseitig, älterer Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang und vereinzelt älteren Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Mit den milden Temperaturen und Sonneneinstrahlung sind besonders auf besonnten Steilhängen im Tagesverlauf spontane Lawinen und auf sehr steilen Wiesenhängen bei genügend Schnee einzelne Gleitschneelawinen möglich. Die Gefahr für Schneebrettlawinen ist zurückgegangen, ältere Verfrachtungen sind aber in kammnahen Steilhängen und steilen Rinnen noch vorhanden und können insbesondere bei großer, vereinzelt eventuell bei geringer Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und Sonnenschein konnte sich die Schneedecke deutlich setzen und besser binden. Mit der nächtlichen Ausstrahlung ist sie in Bereichen, wo sie feucht wurde oberflächig verharscht, in schattseitigen Hochlagen teils pulvrig und oft windbeeinflusst/gepresst. Tagsüber verliert sie an Festigkeit und wird oberflächig weich und feucht bis nass. In den zuletzt gebildeten Triebschneepaketen oder im Übergang zur Altschneedecke können noch Schwachschichten vorhanden sein, die gestört werden können. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ziehen phasenweise dichte, hohe Wolken durch und sorgen für diffuses Licht. Der Nachmittag bringt mehr Sonnenschein. Örtlich macht sich im Alpenbereich föhniger Südwind bemerkbar, meist ist der Wind aber schwach. In 1500 m 4 bis 8 Grad, in 2000 m hat es um 3 Grad.&#13;
+Am Sonntag ziehen hohe Wolken weit über die Gipfel hinweg, die Sicht ist gut, das Licht teilweise diffus. Zeitweise scheint die Sonne. Vom Gosaukamm ostwärts weht lebhafter bis starker Südwind mit 40 bis 60 km/h. In 1500 m hat es 5 bis 8 Grad, in 2000 m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Frühlingshafte Bedingungen mit Tagesgang. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

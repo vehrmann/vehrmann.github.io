@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID858RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-14T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID858RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-14T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-15T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen und spontane Lockerschneelawinen sind zu beachten</avActivityHighlights>
+          <avActivityComment>Der Triebschnee hat sich vor allem sonnseitige etwas setzen können, jedoch entstehen durch den noch kräftig wehendem Nordwestwind immer wieder frische Triebschneeablagerungen. Vor allem an der der nördlichen Landesgrenze sind diese oberhalb von rund 2300 noch immer durch eine geringe Zusatzbelastung zu stören. Hier wird die Lawinengefahr mit erheblich beurteilt. Je größer die Entfernung zur Landesgrenze desto geringer werden die Gefahrenstellen. Oberhalb der Schneegrenze, ungefähr Waldgrenze, ist die Lawinengefahr mäßig. Vor allem sonnseitig ist im Tagesverlauf mit spontanen Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Der Neu- und Triebschnee hat sich bei Sonnenschein und auch diffuser Strahlung weiter setzen können. Der kräftige Wind und die noch kühlen Temperaturen ermöglichen aber in höheren Regionen noch immer eine Schneeverfrachtung und die Bildung frischer Triebschneeablagerungen. Diese sind vorwiegend, aber nicht nur, in sonnseitigen Expositionen zu finden wo sie sich aber auch etwas rascher setzen können.</snowpackStructureComment>
+          <wxSynopsisComment>Von Norden her werden unter Tiefdruckeinfluss kühle und feuchte Luftmassen an die Alpen geführt. Die Alpensüdseite ist dabei etwas begünstigt. Abseits des Tauernhauptkammes, wo die Gipfel noch bei kaltem Nordwind im Nebel stecken, herrscht meist sonniges Wetter. Vermehrte Quellwolken stören am Nachmittag den Sonnenschein. Bei lebhaftem Nordwestwind erreichen die Temperaturen in 2000 m -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Freitag beginnt in den Bergen überall sehr sonnig. Im Tageverlauf ziehen einige harmlose Wolken durch. Bei mäßigem Wind aus nordwestlicher Richtung erreichen die Temperaturen in 2000 m -5 Grad. Die Lawinengefahr nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID858RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-14T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID858RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-14T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-15T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sonnseitig feuchte Lockerschneelawinen; schattseitig Triebschneeablagerungen beachten</avActivityHighlights>
+          <avActivityComment>Oberhalb von rund 1800 m wird die Lawinengefahr, auf Grund der noch etwas störanfälligeren Triebschneeablagerungen, mit mäßig beurteilt. Störanfälligere Triebschneeablagerungen sind noch vor allem in schattseitigen Expositionen zu finden. Sonnseitig wird die Schneedecke im Tagesverlauf etwas angefeuchtet und es ist mit spontanen Lockerschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die Triebschneeablagerungen haben sich weiter gut setzen können. Mit noch etwas kräftigerem Wind und kühlen Temperaturen entstehen in höheren Lagen weiter frische Triebschneeablagerungen. Mit Sonneneinstrahlung wird die Schneedecke zunehmend angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Von Norden her werden unter Tiefdruckeinfluss kühle und feuchte Luftmassen an die Alpen geführt. Die Alpensüdseite ist dabei etwas begünstigt. Abseits des Tauernhauptkammes, wo die Gipfel noch bei kaltem Nordwind im Nebel stecken, herrscht meist sonniges Wetter. Vermehrte Quellwolken stören am Nachmittag den Sonnenschein. Bei lebhaftem Nordwestwind erreichen die Temperaturen in 2000 m -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Freitag beginnt in den Bergen überall sehr sonnig. Im Tageverlauf ziehen einige harmlose Wolken durch. Bei mäßigem Wind aus nordwestlicher Richtung erreichen die Temperaturen in 2000 m -5 Grad. Die Lawinengefahr nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID858RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-14T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID858RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-14T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-15T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schattseitiger Triebschnee und feuchte Lockerschneelawinen beachten</avActivityHighlights>
+          <avActivityComment>Oberhalb von rund 1800 m wird die Lawinengefahr noch mit mäßig beurteilt. Triebschneeablagerungen in schattseitigen Expositionen welche noch etwas leichter zu stören sind und sonnseitige feuchte, vorwiegend kleinere, Lockerschneelawinen sind hier zu beachten</avActivityComment>
+          <snowpackStructureComment>Die in den vergangenen Tagen entstandenen Triebschneeablagerungen haben sich schon gut setzen können. In Gipfelbereichen ist der Schnee noch locker und es entstehen immer wieder frische kleinere Triebschneeablagerungen. Sonnseitig wird die Schneedecke schon wieder etwas angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Von Norden her werden unter Tiefdruckeinfluss kühle und feuchte Luftmassen an die Alpen geführt. Die Alpensüdseite ist dabei etwas begünstigt. Abseits des Tauernhauptkammes, wo die Gipfel noch bei kaltem Nordwind im Nebel stecken, herrscht meist sonniges Wetter. Vermehrte Quellwolken stören am Nachmittag den Sonnenschein. Bei lebhaftem Nordwestwind erreichen die Temperaturen in 2000 m -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Freitag beginnt in den Bergen überall sehr sonnig. Im Tageverlauf ziehen einige harmlose Wolken durch. Bei mäßigem Wind aus nordwestlicher Richtung erreichen die Temperaturen in 2000 m -5 Grad. Die Lawinengefahr nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

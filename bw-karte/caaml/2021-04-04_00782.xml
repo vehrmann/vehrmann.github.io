@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID782RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-04T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID782RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-04T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-05T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Baumgrenze durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Es gilt, den frisch entstandenen Triebschnee in den Hochlagen zu beachten. Dieser hat sich seit Karsamstag mit dem stürmischen Wind vor allem ost- bis südseitig gebildet, auch in anderen Hangrichtungen hat sich Triebschnee insbesondere hinter Geländekanten angesammelt. Die Gefahrenstellen treten dabei eher kleinräumig auf. Zudem sind aus dem schroffigen Steilgelände der Hochlagen einige Feuchtschneerutsche möglich. In den abgeschatteten Hochlagen besteht außerdem noch ein Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>Bis zu 25 Zentimeter Neuschnee sind zwischen Karsamstag und Ostersonntag unter starkem Windeinfluss auf eine oberflächlich gefrorene sowie in tieferen Lagen feuchte Altschneedecke gefallen. Schwachschichten sind innerhalb des entstandenen Triebschnees am ehesten in Form von weicherem Schnee oder Graupeleinlagen zu finden. Mit dem prognostizierten, deutlichen Temperaturanstieg für den Ostermontag kann sich der Schnee sonnseitig rasch setzen und wird pappig, in tieferen Lagen auch nass. </snowpackStructureComment>
+          <wxSynopsisComment>Am Ostermontag setzt sich anfangs sonniges, mitunter sogar wolkenloses und sehr mildes Wetter durch. Am späteren Vormittag ziehen von Westen her Wolken auf, die am Nachmittag dichter werden. Auch der zunächst schwache Wind wird wieder stärker. In der Nacht zum Dienstag fallen dann bis zu 10 Zentimeter Neuschnee. Die Temperaturen steigeen bis zu Mittag in 2.000m auf +2 Grad und in 1.500m auf +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag liegen die Temperaturen in 2.000m gegenüber tags zuvor um bis zu 15 Grad tiefer! Mit dem stürmischen Wind ziehen immer wieder dichte Wolken mit Schnee- und Graupelschauer durch. Im Zuge dieser winterlichen Wetterphase, welche zumindest bis kommenden Donnerstag anhält, steigt die Lawinengefahr an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID782RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-04T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID782RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-04T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-05T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Gefahr durch Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>Mit der nachhaltigen Abkühlung hat die bisher relevante Nassschneesituation weiter an Bedeutung verloren, ganz auszuschließen ist sie aufgrund der immer noch nassen Schneedecke dennoch nicht. Lawinenrelevanter Neuschnee ist hingegen alpensüdseitig kaum gefallen.   </avActivityComment>
+          <snowpackStructureComment>Nach den vorangegangenen Tagen mit sehr hohen Temperaturen ist es am Karsamstag deutlich kälter geworden. Die Schneedecke konnte sich daher zumindest oberflächlich verfestigen, ist aber in tieferen Schichten feucht bis nass geblieben. Mit der prognostizierten, vorübergehenden Erwärmung am Ostermontag firnt auch die harte Schneeoberfläche im Laufe des Vormittags zwischendurch auf.  </snowpackStructureComment>
+          <wxSynopsisComment>Der Ostermontag beginnt mit wolkenlosem, windschwachem und mildem Wetter. Erst am Nachmittag ziehen von Westen her dichtere Wolken auf und der Wind wird stärker. Die Temperaturen betragen zu Mittag in 2.000m +2 Grad und in 1.500m +5 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht zum Dienstag kann es leicht schneien, am Dienstag liegen dann die Temperaturen um bis zu 10 Grad tiefer als tags zuvor.&#13;
+Vorerst keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID782RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-04T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID782RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-04T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-05T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Gefahr durch ganz vereinzelte Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>Am Ostermontag herrscht geringe Lawinengefahr, einige letzte Nass- oder Feuchtschneeabgänge können aufgrund der in tieferen Schichten immer noch recht feuchten bis nassen Schneedecke trotzdem nicht ganz ausgeschlossen werden.  </avActivityComment>
+          <snowpackStructureComment>Nach den vorangegangenen Tagen mit sehr hohen Temperaturen und leichtem Regeneintrag wurde es am Karsamstag recht kalt. Die Schneedecke konnte sich daher zumindest oberflächlich verfestigen, ist aber in tieferen Schichten feucht bis nass geblieben. In der Nacht auf Ostersonntag sind mancherorts einige Zentimeter Neuschnee gefallen, welcher rasch pappig wird. Mit der kräftigen Einstrahlung und dem deutlichen Temperaturanstieg wird der Schnee am Ostermontag langsam wieder weich. </snowpackStructureComment>
+          <wxSynopsisComment>Der Ostermontag beginnt in den Seetaler Alpen und dem Steirischen Randgebirge mit wolkenlosem, windschwachem und mildem Wetter. Erst am Nachmittag ziehen von Westen her dichtere Wolken auf und der Wind wird stärker. Die Temperaturen betragen zu Mittag in 2.000m +1 Grad und in 1.500m +4 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht zum Dienstag beginnt es zu schneien, bis zu 10 Zentimeter Neuschnee sind etwa im Bereich der Koralpe möglich. Am Dienstag liegen die Temperaturen dann um bis zu 15 Grad tiefer als tags zuvor!&#13;
+An der Lawinengefahr ändert sich vorerst wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

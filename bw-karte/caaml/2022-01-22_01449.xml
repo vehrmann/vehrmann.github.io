@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1449RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T06:14:48+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1449RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T06:14:48+00:00</beginPosition>
+          <endPosition>2022-01-23T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Seehöhe frische und überdeckte Einwehungen in Kammlagen, hinter Geländeknicken sowie in Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit zunehmender Seehöhe sind frische und überdeckte Triebschneeansammlungen störanfällig</avActivityHighlights>
+          <avActivityComment>In höheren Lagen besteht mäßige Lawinengefahr. Die Hauptgefahr geht von frischen und überdeckten Triebschneeansammlungen aus. Solche nehmen mit der Seehöhe an Umfang und Verbreitung zu und sind störanfällig. Einzelne Wintersportler können im Steilgelände kleine bis mittelgroße Lawinen auslösen. Spontan sind aus steilem Felsgelände Lockerschneelawinen möglich. Vereinzelt können Lawinen auch noch im Altschnee ausgelöst werden.   Solche Gefahrenstellen sind an sehr steilen Schattenhängen des Hochgebirges und im extremen Steilgelände anzutreffen.  Neben einer Verschüttung ist dabei auch die Mitreiß- und Absturzgefahr zu beachten.</avActivityComment>
+          <snowpackStructureComment>Von Freitag auf Samstag gab es bei meist wenig Wind nur noch bis 5 cm Neuschnee. Dieser liegt auf dem lockeren Neuschnee vom Vortag oder überdeckt frischen Triebschnee. Solcher findet sich hinter Geländeknicken und in Rinnen und Mulden und liegt in Schattenlagen oft auf kalten, pulvrigen Altschneeschichten. An Sonnenhängen oft auf verharschten Altschneeoberflächen. Die Verbindung dazu ist mit zunehmender Seehöhe teilweise nur mäßig. Die Altschneedecke ist überwiegend gut verfestigt und stabil. Schwachschichten im Bereich unterhalb von Schmelzharschkrusten sowie im Mittelteil der Schneedecke können nur noch vereinzelt im schattigen Steilgelände und im Hochgebirge gestört werden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag wird trüb mit verbreitet schlechter Sicht. Die  Berge stecken oft im Nebel und zeitweise schneit es leicht. Der Frost schwächt sich etwas ab aber mit starkem Nordwind fühlt es sich sehr kalt an. Temperatur in 2000m: -9 bis -6 Grad, Höhenwind: starker Nordwind</wxSynopsisComment>
+          <tendencyComment>Restwolken lockern am Sonntag bald auf und es wird sehr sonnig. Der Frost schwächt sich ab und der Wind lässt deutlich nach. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2895RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2895RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teilweise ungünstige Zwischenschichten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>schwacher Altschnee vorwiegend in Schattenhängen</avActivityHighlights>
+          <avActivityComment>Gefahrenstellen für trockene Lawinen befinden sich vor allem oberhalb ca. 2000 m, vorwiegend im selten befahrenen,  schattseitigen Steilgelände. Zu beachten sind Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinenauslösungen sind insbesonders mit großer Zusatzbelastung möglich. Kleinräumig frische Einwehungen in höheren, exponierten Lagen sollten gemieden werden. Eine vorsichtige Routenwahl wird empfohlen. </avActivityComment>
+          <snowpackStructureComment>Im oberen und mittleren Teil der Schneedecke sind oft kantig aufgebaute Schwachschichten vorhanden. Tieferliegende Schwachschichten sind meist ausreichend überdeckt und nur noch selten zu stören. Am ehesten ist das an Übergängen von wenig zu viel Schnee denkbar. Diese Gefahrenstellen sind von außen nicht erkennbar. In höheren exponierten Lagen sind lokal frische Triebschneeansammlungen anzutreffen. An sehr steilen Sonnenhängen und in tieferen Lagen ist in den Morgenstunden oberflächlich eine Kruste vorhanden. Sonst ist die Schneeoberfläche oft noch pulvrig.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht wird meist bewölkt und bleibt trocken. Freitag: Wechselnd bis stark bewölkt und nur wenig Sonne. Dazu ist leichter Niederschlag möglich. Schnee gibt es oberhalb ca. 1800 m. Temperatur in 2000 m: 0 bis +2 Grad, Höhenwind: mäßig bis lebhaft aus Nordwest.  </wxSynopsisComment>
+          <tendencyComment>Der Samstag wird recht sonnig und nochmals sehr mild. In höheren Lagen weht kräftiger Nordwestwind. Dies führt dort zu frischer Triebschneebildung. Die Gefahr nasser Lawinen steigt wieder etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2895RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2895RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschichten im extremen Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>meist günstige Verhältnisse</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend geringe Lawinengefahr. Gefahrenstellen für trockene Lawinen befinden sich vor allem im schattseitigen Steilgelände. Zu beachten sind Übergangsbereiche von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinenauslösungen sind mit großer Zusatzbelastung im extremen Steilgelände möglich. In Bereichen mit Regeneinfluss sind kleine Rutsche und  weiterhin kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist überwiegend gut verfestigt und meist stabil. Vor allem schattseitig sind jedoch teilweise schwache Zwischenschichten vorhanden. In höheren exponierten Lagen sind frische, kleine Einwehungen anzutreffen. An sehr steilen Sonnenhängen und in tieferen Lagen ist in den Morgenstunden oberflächlich eine tragfähige Kruste vorhanden. Sonst ist die Schneeoberfläche vor allem schattseitig oft noch pulvrig. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Die Nacht wird meist bewölkt und bleibt trocken. Freitag: Wechselnd bis stark bewölkt und nur wenig Sonne. Dazu ist leichter Niederschlag möglich. Schnee gibt es oberhalb ca. 1800 m. Temperatur in 2000 m: 0 bis +2 Grad, Höhenwind: mäßig bis lebhaft aus Nordwest.  </wxSynopsisComment>
+          <tendencyComment>Der Samstag wird recht sonnig und nochmals sehr mild. In höheren Lagen weht kräftiger Nordwestwind. Dies führt dort zu frischer Triebschneebildung. Die Gefahr nasser Lawinen steigt wieder etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

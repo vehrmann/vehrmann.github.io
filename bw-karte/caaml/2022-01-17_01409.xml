@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1409RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1409RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr durch kleine Schneebrettlawinen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Kleine, störanfällige Triebschneeansammlungen sind das Hauptproblem. Sie befinden sich oberhalb der Waldgrenze im kammnahen Steilgelände der Expositionen Nordost über Ost bis Südwest sowie in eingewehten Rinnen und Mulden. Kleine Schneebrettlawinen können stellenweise schon durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Die Absturzgefahr ist dabei jedoch größer als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Mit Nordwestwind wird in der Nacht zum Dienstag Schnee verfrachtet. Der frische Triebschnee kommt in windberuhigten Bereichen auf älteren Triebschneeansammlungen, mancherorts auf Pulverschnee oder Oberflächenreif, in den Hochlagen an windexponierten Stellen auf Wind- und Schmelzharschkrusten zu liegen. Er ist stellenweise störanfällig. Die Altschneedecke ist gut gesetzt und stabil. Insgesamt ist die Schneedecke unterdurchschnittlich, in tieferen Lagen fehlt vielerorts eine Unterlage.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich am Mittwoch nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1409RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1409RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeansammlungen sind über der Waldgrenze vielerorts störanfällig. Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, darunter gering. Kleinere, störanfällige Triebschneeansammlungen sind das Hauptproblem. Sie befinden sich oberhalb der Waldgrenze im kammnahen Steilgelände der Expositionen Nordost über Ost bis Südwest sowie in eingewehten Rinnen und Mulden. Schneebrettlawinen können hier an vielen Stellen schon durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Lawinen bleiben meist klein, können in den Hochlagen stellenweise aber auch mittelgroß werden. </avActivityComment>
+          <snowpackStructureComment>Mit kräftigem Nordwestwind wird in der Nacht zum Dienstag Schnee verfrachtet. Lokal können bis zu 20 Zentimeter Neuschnee hinzukommen. Der frische Triebschnee kommt in windberuhigten Bereichen auf älteren Triebschneeansammlungen, mancherorts auf Pulverschnee oder Oberflächenreif, in den Hochlagen an windexponierten Stellen auf Wind- und Schmelzharschkrusten zu liegen. Er ist vielerorts störanfällig und schwer zu erkennen, da er am Dienstag Vormittag von Neuschnee ohne Wind überdeckt wird. Die Altschneedecke ist gut gesetzt und stabil. Insgesamt ist die Schneedecke unterdurchschnittlich, in tieferen Lagen fehlt vielerorts eine Unterlage.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich am Mittwoch nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

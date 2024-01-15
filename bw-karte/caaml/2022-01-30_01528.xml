@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1528RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1528RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammferne Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Vorsicht in Mulden und Leehängen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend GERING. &#13;
+Gefahrstellen gibt es nur wenige. Die Triebschneepakete der letzten Tage lassen sich nicht leicht auslösen. Mit großer Zusatzbelastungen kann man eventuell in sehr steilen Bereichen in Mulden, Rinnen und hinter Geländekanten ein einzelnes, meist kleines Schneebrett auslösen. </avActivityComment>
+          <snowpackStructureComment>Die Kombination von orkanartigem Sturm und relativ milden Temperaturen am Sonntag hat deutliche Spuren hinterlassen: Das Gelände ist noch stärker abgeweht und freigelegt wie an den Vortagen, vielfach wurde die Altschneedecke freigelegt. Der allgemein wenige Schnee hat verbreitet feste und harte Krusten. Unter den Krusten und den harten Triebschneepaketen gibt es verbreitet schwache Schichten aus kantigen Kristallen (Zuckerschnee).</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag trocken und zunächst sonnig. Am Nachmittag bewölkt und am Abend erste Schneeschauer. Neuerlich stürmischer Wind (60 bis 80 km/h). In 2000m wechselnde Temperaturen um -6 Grad.&#13;
+In der Nacht folgt mäßiger bis starker Schneefall mit viel Wind, der sich schauerartig in den ganzen Dienstag hineinzieht. In 24 Stunden, bis Dienstagabend, um 20 cm Neuschnee als Größenordnung.&#13;
+Ausblick: Am Mittwoch schwerer Sturm und Schneeschauer von Norden her. Um 280 bis 100 km/h. </wxSynopsisComment>
+          <tendencyComment>Deutlicher und rascher Anstieg der Lawinengefahr am Dienstag. Neuschnee/Triebschnee liegen auf einer schwachen Altschneedecke!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1528RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1528RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kompakte bis harte Triebschneepakete, große Zusatzbelastung, freies Gelände ist stark abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagsüber ist die Situation vom letzten Sturm gezeichnet</avActivityHighlights>
+          <avActivityComment>Die Triebschneegefahr ist oberhalb der Waldgrenze MÄßIG, darunter GERING. &#13;
+Gefahrstellen wo man mit großer Zusatzbelastung ein kompaktes bis hartes Triebschneepaket auslösen kann findet man von der Geländeform her sind Rinnen, Mulden und hinter Geländekanten. Je weiter man rauf kommt, desto leichter lässt sich ein Schneebrett auslösen. Potenzielle Lawinen sind klein, in den Tauern und am Hochkönig/Tennengebirge mittelgroß.  &#13;
+Durch den Sturm sind die Verhältnisse im Gelände auf engstem Raum sehr unterschiedlich. &#13;
+Mit dem Neuschnee ändert sich die Situation am Abend rasch. Die Lawinengefahr nimmt in der Nacht auf Dienstag deutlich zu (Triebschnee und Neuschneesituation auf harten, windbehandelten Oberflächen). </avActivityComment>
+          <snowpackStructureComment>Die Kombination von orkanartigem Sturm und relativ milden Temperaturen am Sonntag hat deutliche Spuren hinterlassen: Das Gelände ist stark abgeweht, vielfach wurde die Altschneedecke freigelegt. Der verfrachtete Triebschnee liegt kompakt bis hart in windgeschützteren Zonen. Weiche Schichten unter dem Triebschnee und tiefere Schwachschichten (rund um die oberste Kruste der Altschneedecke) werden am Montag kaum angesprochen bzw. brauchen dazu kräftige Impulse.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag zunächst trocken. Wolken verdichten sich. Am Nachmittag kann es da und dort schon leicht schneien. Temperaturen steigen kurz und fallen dann wieder. Am Nachmittag frischt neuerlich stürmischer Wind auf (60 bis 80 km/h). Am Abend und in der Nacht folgt starker Schneefall mit viel Wind, der sich in den ganzen Dienstag hineinzieht. In den Nordstaulagen schneit es intensiv! In 24 Stunden, bis Dienstagabend, verbreitet in der Größenordnung um 50 cm. In 2000m um -8 Grad, in 3000m -13 Grad.&#13;
+Ausblick: Am Mittwoch neuerlich Schnee, nicht mehr ganz so intensiv. In Summe baut sich bis Donnerstagfrüh verbreitet eine Schneedecke von 80 bis 100 cm auf. Am Donnerstag Erwärmung und nachfolgend ruhiger.</wxSynopsisComment>
+          <tendencyComment>Deutlicher und rascher Anstieg der Lawinengefahr ab dem Dienstagabend! Kann am Dienstag und vor allem am Mittwoch auf Grund der Neuschneemengen heikel werden. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

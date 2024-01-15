@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3103RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3103RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumige Triebschneepakete meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität am Nachmittag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Temperaturanstieg im Tagesverlauf und am Nachmittag überwiegend sonnig!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist anfangs gering, am Nachmittag mäßig. In den Hochlagen sind ganztägig kleinräumige Triebschneeablagerungen zu beachten, die vereinzelt auch durch geringe Zusatzbelastung in Steilhängen angesprochen werden könnten. Durch die steigenden Temperaturen und mit der Sonneneinstrahlung ist das Nassschneeproblem am Nachmittag zu beachten. Aus dem Steilgelände sind dann nasser Lockerschnee-, Schneebrettlawinen und vereinzelt Gleitschneelawinen möglich. Die Lawinen bleiben meist klein, vereinzelte Lawinen mittlerer Größe sind aber nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wird oberflächig mit den steigenden Temperaturen und der Einstrahlung im Tagesverlauf feucht bis teils auch nass und verliert an Festigkeit. Zuletzt gebildeter Triebschnee in den höheren Lagen liegt auf einer verharschten überwiegenden stabilen Altschneedecke. Die Bindung der Verfrachtungen ist nicht immer ausreichend. Vor allem schattseitig und hochgelegen sind vereinzelt noch Schwachschichten im Altschnee enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag sorgen durchziehende Wolkenfelder am Vormittag noch für teils trübe Verhältnisse. Ab Mittag setzt sich bei nur geringer Bewölkung und sehr guter Sicht überwiegend sonniges Wetter durch. Nur im Hochgebirge bleibt lebhafter Westwind spürbar, sonst weht der Wind schwach bis mäßig. Temperaturen in 1500 m zwischen 4 und 11 Grad, in 2000 m zwischen 2 und 8 Grad.&#13;
+Am Dienstag stecken die Berge der Nordalpen häufig in dichten Wolken, zusätzlich sorgt teils kräftiger Niederschlag für starke Sichteinschränkungen. Die Schneefallgrenze liegt zunächst um 1500 m und sinkt zum Abend hin auf 1200 m. Der Westwind weht lebhaft bis stark, in den Hochlagen der Nordalpen teils stürmisch. Temperaturen in 1500 m zwischen um 1 Grad, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag bildest sich in den Hochlagen frischer Triebschnee. Unter der Schneefallgrenze Nassschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3103RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3103RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dort wo nach ausreichend Schnee liegt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschnee im Tagesverlauf!</avActivityHighlights>
+          <avActivityComment>Dort wo noch ausreichend Schnee vorhanden ist, sind mit dem Temperaturanstieg und der Einstrahlung Nassschneelawinen aus dem Steilgelände am Nachmittag zu beachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wird oberflächig mit den steigenden Temperaturen und der Einstrahlung im Tagesverlauf feucht bis teils auch nass und verliert an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag sorgen durchziehende Wolkenfelder am Vormittag noch für teils trübe Verhältnisse. Ab Mittag setzt sich bei nur geringer Bewölkung und sehr guter Sicht überwiegend sonniges Wetter durch. Nur im Hochgebirge bleibt lebhafter Westwind spürbar, sonst weht der Wind schwach bis mäßig. Temperaturen in 1500 m zwischen 4 und 11 Grad, in 2000 m zwischen 2 und 8 Grad.&#13;
+Am Dienstag stecken die Berge der Nordalpen häufig in dichten Wolken, zusätzlich sorgt teils kräftiger Niederschlag für starke Sichteinschränkungen. Die Schneefallgrenze liegt zunächst um 1500 m und sinkt zum Abend hin auf 1200 m. Der Westwind weht lebhaft bis stark, in den Hochlagen der Nordalpen teils stürmisch. Temperaturen in 1500 m zwischen um 1 Grad, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschneeproblem mit dem Regeneintrag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

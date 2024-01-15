@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1250RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1250RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-29T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit einsetzendem Regen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>auf aufbauend umgewandelter Unterlage, ab etwa 2500 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem, in den Hochlagen Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1500 m ERHEBLICH, darunter MÄßIG. Aus dem Höhenbereich 1500 m bis 2400 m ist mit kleinen und mittleren, vereinzelt auch großen nassen Lawinen (locker und brettig) zu  rechnen. In höheren Lagen bilden Neuschnee und Sturm zudem frischen Triebschnee, der bereits bei geringer Zusatzbelastung als größeres Schneebrett ausgelöst werden kann.</avActivityComment>
+          <snowpackStructureComment>Auf einem Harschdeckel bzw. einer Regeneisschicht (darunter oft aufbauend umgewandelte kantige Kristalle) liegen 10 cm bis 40 cm (ganz im Nordwesten) Neuschnee. Bis etwa 2400 m hinauf ist die oberste Schicht nass bis feucht. Darüber trocken und oft stark windbehandelt. Die Altschneedecke bis auf wenige Fälle meist recht kompakt.</snowpackStructureComment>
+          <wxSynopsisComment>Der Alpenraum liegt in einer kräftigen Nordströmung. Der nächtliche Niederschlag klingt ab, es bleibt aber bis weit in den Nachmittag hinein trüb. Im Hochgebirge kommt starker, in exponierten Lagen auch stürmischer Nordwestwind auf. Mit Temperaturen in 2000 m um +3 und in 3000 m um -3 wird es sehr mild. Am Freitag setzt sich Hochdruckeinfluss mit strahlend sonnigem Wetter durch. Der Nordwestwind wird etwas schwächer. Es bleibt extrem mild.</wxSynopsisComment>
+          <tendencyComment>Milde Temperaturen und der letzte Regeneintrag sorgen für frühlingshafte Bedingungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1250RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1250RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-29T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Das Nassschneeproblem nimmt zu</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1500 m MÄSSIG, darunter GERING. Mit kleinen bis mittleren Nassschneelawinen ist zu rechnen. </avActivityComment>
+          <snowpackStructureComment>Mit steigenden Temperaturen wird die Schneedecke zunehmend feuchter. Schwachschichten in der Schneedecke werden dadurch weniger, jedoch verliert die Schneedecke mit zunehmender Durchfeuchtung auch an Stabilität.</snowpackStructureComment>
+          <wxSynopsisComment>Der Alpenraum liegt in einer kräftigen Nordströmung. Starker Nordwestwind lässt die Bewölkung am Donnerstag rasch aufreißen und sonnig werden. Mit Temperaturen zwischen -3 Grad und +2 Grad in 2500 m wird es sehr mild. Am Freitag herrscht strahlendes und ungewöhnlich mildes Bergwetter. Es wird noch milder.</wxSynopsisComment>
+          <tendencyComment>Milde Temperaturen sorgen für frühlingshafte Bedingungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1250RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1250RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-29T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Nassschneerutsche</avActivityHighlights>
+          <avActivityComment>Die Gefahr von noch etwas störanfälligeren Triebschneelinsen in Gipfelbereichen nimmt durch die Erwärmung markant ab. Nassschneelawinen sind nicht ganz ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>Mit der nach Osten ziehenden Warmfront sind einige Zentimeter feuchter Neuschnee gefallen welche durch den darauffolgenden Regen meist aber nicht mehr erkennbar sind. Die Schneedecke wird mit milden Temperaturen und der Sonneneinstrahlung zunehmend feuchter. Vorhandene Schwachschichten in der Schneedecke werden dadurch zunehmend abgebaut, die Schneedecke verliert aber zunehmend an Stabilität.</snowpackStructureComment>
+          <wxSynopsisComment>Der Alpenraum liegt in einer kräftigen Nordströmung. Der nächtliche leichte Niederschlag klingt schnell ab und tagsüber dürfte es weitgehend trocken bleiben und immer wieder kann sich auch die Sonne durchsetzen. Mit Plusgraden über die Gipfel hinaus wird es sehr mild. Die Temperaturen liegen in 1500 m zwischen null und +7 Grad. Der Wind aus Nordwest weht mäßig. Am Freitag herrscht strahlendes und ungewöhnlich mildes Bergwetter.</wxSynopsisComment>
+          <tendencyComment>Die Schneedecke verliert weiter an Stabilität.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

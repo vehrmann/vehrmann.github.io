@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2701RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2701RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Pulvriger, bindungsarmer Schnee herrscht vor.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m mäßig, darunter gering. Das Hauptproblem ist älterer Triebschnee. Einzelne Personen können an einigen kammnahen Steilhängen der Expositionen Nord über West bis Süd sowie in eingewehten Rinnen und Mulden noch kleinere Schneebrettlawinen auslösen. &#13;
+Daneben ist im Altschnee der Hochlagen am Übergang von viel zu wenig Schnee bei großer Zusatzbelastung noch die Auslösung mittelgroßer Schneebrettlawinen möglich. Das vor allem an wenigen Stellen im schattseitigen Steilgelände.</avActivityComment>
+          <snowpackStructureComment>Über der Inversionsschicht ab ca. 1500 m hat der Wechsel aus nächtlicher Ausstrahlung und Sonneneinstrahlung zu einer intensiven Setzung der Schneedecke geführt. Die Schneedecke der höheren Lagen ist stark vom Wind geprägt und wechselt kleinräumig zwischen gebundenen, windgepressten Schneeschichten und pulvrigen, spannungsarmen Bereichen. Nur im kammnahen Steilgelände sind kleinere Triebschneeansammlungen anzutreffen, die gebunden auf weichen Schichten aus aufgebaut umgewandelten Schneekristallen liegen und störanfällig sind. Sonnseitig ist in mittleren Lagen nach einer weiteren Strahlungsnacht dünner Bruchharsch anzutreffen. Besonders an schattseitigen Hängen der Hochlagen sind stellenweise schwache Schichten in der Altschneedecke erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2701RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2701RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Pulvriger, bindungsarmer Schnee herrscht vor, kammnah wenige Gefahrenstellen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Das Hauptproblem ist älterer Triebschnee. Wintersportler können an kammnahen Steilhängen der Expositionen Nord über West bis Süd sowie in eingewehten Rinnen und Mulden vereinzelt noch Schneebrettlawinen auslösen. Die Lawinen bleiben in der Regel klein und die Absturzgefahr überwiegt die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Tageszeitliche Erwärmung und Sonneneinstrahlung haben zu einer intensiven Setzung der Schneedecke geführt. Schattseitig ist der Schnee meist locker und spannungsarm. Sonnseitig ist nach einer weiteren Strahlungsnacht Bruchharsch anzutreffen.Nur im kammnahen Steilgelände sind kleinere, störanfällige Triebschneelinsen erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

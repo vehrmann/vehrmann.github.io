@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1663RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1663RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neuschnee mit wenig Wind</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - etwas Neuschnee und weiterhin Altschneeproblem in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über 1400m mit mäßig beurteilt. In steilen Hängen der Nord- bis Ostsektoren kann durch insbesondere große Zusatzbelastung ein Schneebrett ausgelöst werden. Die Gefahrenstellen befinden sich besonders kammnah, in Einfahrtsbereichen von Rinnen und Mulden. Vereinzelte spontane Nass- bzw. Gleitschneerutsche aus steilen Fels- und Wiesenhängen können nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Grundsätzlich ist die Schneedecke bereits gut gesetzt und stabil, nur in extrem steilen Nordsektoren in den Hochlagen existiert weiterhin ein Altschneeproblem. Im Laufe des Dienstages kommen bis maximal 15 cm Neuschnee hinzu, die mit mäßigem West- bis Nordwestwind verfrachtet werden. Der frische Schnee wird sich in den südlichen Sektoren mit weichem, feuchtem Altschnee recht gut verbinden, in den schattigen Hängen auf harten Windharschdeckeln oder älterem Triebschnee störanfällig gestalten. Bis in mittlere Lagen ist die Schneedecke bereits feucht. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Dienstag zieht bereits dichte Bewölkung auf, letzte Sonnenfenster gibt es nur mehr in der Früh auf den östlichen Bergen. Am Vormittag setzt von Westen her Schneefall ein, der am Nachmittag weiter in den Osten und in die Täler reichen wird. In den Grenzregionen zur Steiermark werden maximal 15 cm Neuschnee erwartet, im Norden jeweils weniger. Der Wind weht allgemein nur schwach bis mäßig aus West bis Nordwest. Die Temperaturen liegen in 1500m in der Früh um +2, am Abend um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Mittwoch ist es in der Früh noch sonnig, ehe die Schichtwolken einer aufziehenden Warmfront immer dichter werden und am Nachmittag leichter Niederschlag einsetzt. Das Temperaturniveau und damit die Schneefallgrenze steigen an. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1663RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1663RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Regeneintrag in die Schneedecke, geringen Neuschnee auf den Gipfeln</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Spontane Nass- bzw. Gleitschneerutsche aus steilen Fels- und Wiesenhängen können nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Grundsätzlich sind die Schneemengen eher gering und die Schneedecke ist bereits gut gesetzt. Im Laufe des Dienstages setzt Niederschlag ein, der später bis auf 700m als Schnee fallen wird. Die Schneedecke ist feucht bzw. durchnässt und faul. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Dienstag zieht bereits dichte Bewölkung auf, letzte Sonnenfenster gibt es nur mehr in der Früh auf den östlichen Bergen. Am Vormittag setzt von Westen her Schneefall ein, der am Nachmittag weiter in den Osten und in die Täler reichen wird. In den Grenzregionen zur Steiermark werden maximal 15 cm Neuschnee erwartet, im Norden jeweils weniger. Der Wind weht allgemein nur schwach bis mäßig aus West bis Nordwest. Die Temperaturen liegen in 1500m in der Früh um +2, am Abend um -2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Mittwoch ist es in der Früh noch sonnig, ehe die Schichtwolken einer aufziehenden Warmfront immer dichter werden und am Nachmittag leichter Niederschlag einsetzt. Das Temperaturniveau und damit die Schneefallgrenze steigen an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

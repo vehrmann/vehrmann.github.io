@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1462RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1462RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee der letzten Tage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten und meiden - Schneebrettgefahr ist oft noch erheblich!</avActivityHighlights>
+          <avActivityComment>Noch ist auf die erhebliche Schneebrettgefahr zu achten. Ab der Waldgrenze, teils auch in lichtem Bergwald darunter ist umfangreicher noch zu störender Triebschnee vorhanden. Eine Auslösung dieser Verfrachtungen ist bereits bei geringer Zusatzbelastung noch möglich. Anzahl sowie Umfang der Gefahrenstellen nehmen mit der Höhe deutlich zu. Verfüllte Steilhänge sowie steile Mulden und Rinnen aller Expositionen sind zu meiden. Im felsdurchsetzen Steilgelände ist auch verstärkt durch Sonnenschein mit einzelnen je nach Höhe verschieden großen spontanen feuchten Lockerschnee- und vereinzelten Schneebrettlawinen zu rechnen. </avActivityComment>
+          <snowpackStructureComment>Durch den zuletzt gefallenen, vielen Neuschnee mit Sturm sind störanfällige umfangreiche Verfrachtungen vorhanden, die mit der Altschneedecke noch schlecht binden, sich aber zu setzen beginnen. Der Triebschnee selbst enthält Schwachschichten oder liegt auf einer dünnen kantigen, weichen oder harten Schichten oder auch Oberflächenreif, die noch gestört werden können. Mit den milder werdenden Temperaturen und teils Sonnenschein setzt sich die Schneedecke weiter und bindet somit besser. Die Schneedecke ist allgemein stark vom Wind geprägt und sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist die Sicht zunächst noch häufig durch Nebel eingeschränkt, nur in der Dachsteinregion startet der Tag schon teilweise sonnig. Zum Nachmittag hin lockert es im Bereich der Nordalpen vermehrt auf. Nur in den Hochlagen ist noch teils kräftiger Nordwind spürbar. Temperaturen in 1500 m um -3 Grad, in 2000 m um -5 Grad.&#13;
+Am Dienstag können Hochnebelfelder die Sicht in tieferen Lagen des Alpennordrandes einschränken. Über den Nebelfeldern scheint die Sonne bei guter Fernsicht meist ungetrübt. Es weht mäßiger bis lebhafter Wind aus West bis Nord. Temperaturen in 1500 m um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>In den kommenden Tagen wird sich die Lawinensituation mit der Setzung weiter entspannen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3171RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3171RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Hänge mit Rissen meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Milde Temperaturen, etwas Regen und zeitweise Sonne - Nassschneeproblem, hochalpin lokale Gefahrenstellen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird ab den mittleren Höhenlagen als mäßig eingestuft. Mit den milden Temperaturen, Regenschauer und Auflockerungen am Nachmittag sind von der Früh weg spontane Nassschneelawinen möglich. Betroffen ist steiles Gelände bis zu den höheren Lagen. Je nach Schneelage sind meist klein bis teils mittelgroß Lawinen hier möglich. Steile Hänge mit Rissen in der Schneedecke sind zu meiden. Nur mehr vereinzelte gibt es Gefahrenstellen in den Hochlagen, wo im Steilgelände vor allem schattseitig einzelne Schneebrettlawinen durch Zusatzbelastung ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich gut setzen. Sie wird oberflächig, verstärkt durch etwas Regen bis rund 1600 m Höhe, feucht bis nass und verliert an Festigkeit. Darüber fällt etwas Schnee. Die Schneedecke ist je nach Exposition und Höhe im Inneren verschieden stark feucht, nur schattseitig höher gelegen oberflächig teils noch locker. Sie kann auch in schattseitig hohen Lagen teils noch Schwachschichten enthalten. In den tiefen Lagen ist es bereits aper und selbst in mittleren Lagen liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Dichte Wolken schränken am Montag die Sicht bis über die Mittagsstunden meist ein. Zeitweise ziehen Regen- und oberhalb von etwa 1200 bis 1500 m Schneeschauer durch. Am Nachmittag lockern die Wolken zwischendurch ein wenig auf. Tagsüber kommt lebhafter West- bis Nordwestwind auf. In 1500 m beträgt die Temperatur um 2 Grad, in 2000 m um -1 Grad.&#13;
+Am Dienstag scheint im Bereich der Kalkalpen meist die Sonne bei guter Sicht. Der Wind weht meist nur schwach bis mäßig stark. In 1500 m beträgt die Temperatur 2 bis 7 Grad, in 2000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschneeproblem mit Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID427RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID427RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin störanfälliger Triebschnee in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>In den Expositionen Ost bis Süd existiert weiterhin störanfälliger Triebschnee, der in sehr steilem Gelände teilweise schon bei geringer Zusatzbelastung als Schneebrett ausgelöst werden kann. Im Nordsektor gibt es noch Gefahrenstellen durch verdeckte Schwachschichten im Altschnee. In tieferen Lagen können durch den Wärmeeintrag aus sehr steilen Hängen besonders südseitig spontane, kleine Nassschneelawinen abgehen. </avActivityComment>
+          <snowpackStructureComment>Über 1800m liegt vom NW-Wind gepresster Triebschnee auf einer sehr kalten, lockeren Altschneeunterlage. Die Unterlage ist sonnseitig verkrustet, windexponiert kompakt und schattseitig bestehen weiterhin Schwachschichten aus kantigen Kristallen. In tieferen Höhenlagen wird die Schneeoberfläche schnell griffig und feucht, die Harschschichten darunter werden erst langsam umgewandelt. Davor ist die Verbindung zwischen den feuchten Schichten und den kalten Harschkrusten eher schlecht. </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag wird nach Auflösung einzelner Restwolken überwiegend sonnig und niederschlagsfrei. Es wird mild mit Mittagstemperaturen in 2000m um +2 Grad, in 1500m um +6 Grad. Der Wind weht mäßig aus west- bis südwestlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Am Freitag ziehen in der Obersteiermark etwas mehr Wolken über die Berge, ansonsten wird es häufig sonnig und es bleibt trocken. Das Temperaturniveau bleibt mild und die Anfeuchtung schreitet auch in den Hochlagen voran. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID427RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID427RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Noch kleinräumiger Triebschnee in den Kammbereichen, zunehmendes Nassschneeproblem.</avActivityHighlights>
+          <avActivityComment>Die Gefahrenstellen durch Triebschnee finden sich noch immer kammnah und besonders hinter Geländekanten der Expositionen Ost bis Süd. Hier kann durch überwiegend große Zusatzbelastung ein Schneebrett ausgelöst werden. Zudem können durch den Wärmeeintrag aus sehr steilen Hängen aller Expositionen spontane, kleine Nassschneelawinen abgehen. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen liegt besonders in den Expositionen Ost bis Süd störanfälliger Triebschnee auf einer verharschten Altschneedecke. Mit der Erwärmung wurde die Schneeoberfläche überall schnell griffig und feucht, die Harschschichten darunter werden erst langsam umgewandelt. Die Verbindung zwischen den feuchten Schichten und den kalten Harschkrusten ist eher schlecht. In tiefen Lagen wird die Dezimierung der Schneemächtigkeit durch Erwärmung und Einstrahlung beschleunigt. </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag wird nach Auflösung einzelner Restwolken überwiegend sonnig und niederschlagsfrei. Es wird mild mit Mittagstemperaturen in 2000m um +1 Grad, in 1500m um +3 Grad. Der Wind weht mäßig aus west- bis südwestlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Der Freitag ist überwiegend sonnig, nur in der Obersteiermark ziehen einige Wolke über die Berge. Es bleibt trocken und das Temperaturniveau mild. Das Nassschneeproblem nimmt auch in den Hochlagen zu. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

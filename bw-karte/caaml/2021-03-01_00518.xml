@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID518RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID518RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Tourenbedingungen und sehr milde Temperaturen!</avActivityHighlights>
+          <avActivityComment>In Niederösterreich herrscht geringe Lawinengefahr. Touren sind aufgrund von Schneemangel nur mehr eingeschränkt möglich. Sonnseitig sind vereinzelte nasse Lockerschneerutsche aus sehr steilem Gelände nicht auszuschließen. </avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung und Ausstrahlung in der Nacht verfestigt sich die Altschneedecke. Im Laufe des Tages wird die Schneeoberfläche wieder feucht, in mittleren Lagen sogar faul. Nordseitig und in höheren Lagen kann die Schneeoberfläche aber auch hart bzw. eisig bleiben. </snowpackStructureComment>
+          <wxSynopsisComment>Das ausgezeichnete Bergwetter mit ungetrübtem Sonnenschein und sehr guter Fernsicht geht weiter. Nur in manchen Voralpentälern kann sich bis zum Vormittag etwas Nebel halten. Der Wind weht schwach bis mäßig aus Ost bis Südost und die Temperaturen erreichen in 1500m bis zu +8 Grad.&#13;
+Auch am Mittwoch unveränderte Wetterbedingungen.</wxSynopsisComment>
+          <tendencyComment>Bis zum Ende der Woche wird keine wesentliche Änderung der Lawinensituation erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

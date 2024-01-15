@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1938RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1938RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-18T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-19T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-19T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-19T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tiefes Einsinken im Schnee und Gleitschneemäuler weisen auf die ansteigende Gefahr von nassen Lawinen im Tagesverlauf hin.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Das vorherrschende Lawinenproblem ist Nassschnee. Gefahrenstellen finden sich besonders im sonnseitigen, felsdurchsetzten Steilgelände. Im Laufe des Tages können sich hier kleine bis mittelgroße nasse Lockerschneelawinen von selbst lösen oder vom einzelnen Wintersportler ausgelöst werden. &#13;
+An steilen Wiesenhängen und im lückigen Bergwald ist zudem vereinzelt das Abrutschen von Gleitschneelawinen am glatten Boden möglich. Gleitschneelawinen können auch größere Ausmaße erreichen.</avActivityComment>
+          <snowpackStructureComment>Der Einfluss des Saharastaubs lässt nach, die Bewölkung nimmt ab, die Temperaturen gehen zurück und die Schneedecke stabilisiert sich in der klaren Nacht auf Samstag deutlich. Verbreitet herrscht morgens ein tragfähiger Harschdeckel vor, der im Tagesverlauf sonnseitig aufweicht. Damit verliert die Schneedecke  an Festigkeit und Bindung. Unterhalb des Harschdeckels  ist die Schneedecke bis in die Hochlagen tiefreichend durchfeuchtet und zum Boden hin verbreitet nass, was Gleitbewegungen der Schneedecke begünstigt. Die Schneemächtigkeit hat die letzten Tage deutlich abgenommen, sonnseitig ist der Boden bis 1400 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Die typischen Frühjahrsverhältnisse mit einem tageszeitlichen Anstieg der Lawinengefahr werden uns in der nächsten Zeit erhalten bleiben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

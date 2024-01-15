@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1656RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1656RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Übergänge von wenig zu mehr Schnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird ober rund 2000 m mit MÄSSIG beurteilt, wobei die Gefahrenstellen mit der Höhe und der Nähe zur nördlichen Landesgrenze etwas zunehmen. Mit auflebendem Wind entstehen in hohen und hochalpinen Lagen frische, kleinere Triebschneeablagerungen welche etwas leichter zu stören sind. Vor allem wenn diese den Übergang von wenig zu mehr Schnee überdecken können dann auch leicht die im unteren Bereich der Schneedecke vorhandenen Schwachschichten angesprochen werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich verbreitet gut gesetzt und verfestigt. Im unteren Teil der Schneedecke schwächen aufbauend umgewandelte Schichten die Schneedecke vor allem in schattseitigen Expositionen. Mit auflebendem Wind entstehen in hohen und hochalpine Lagen frische, kleinere Triebschneeablagerungen in schattseitigen Expositionen.</snowpackStructureComment>
+          <wxSynopsisComment>Hochdruckeinfluss bringt am Montag nochmals meist sehr sonniges Wetter. Im Bereich der Karnischen Alpen und Karawanken werden die Wolken im Tagesverlauf dichter. Bei lebhaftem Wind aus Südwest bis West liegen die Temperaturen zu Mittag in 2000 m bei -4 Grad. Am Dienstag sorgt eine Tiefdruckentwicklung über Oberitalien in Kärnten für Regen und Schnee. Der meiste Neuschnee wird in den Karnischen Alpen erwartet.</wxSynopsisComment>
+          <tendencyComment>Mit etwas Neuschnee und Wind in höheren Lagen, Anstieg der Lawinengefahr am Dienstag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1656RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1656RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Die während der Nachtstunden verharschte Schneedecke wird kaum aufgeweicht. In den Nockbergen besteht noch ein Altschneeproblem. Lawinen sind kaum noch auszulösen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich gut setzt und verfestigt können. Während der Nachtstunden hat sich die auf Grund der milden Temperaturen und Sonneneinstrahlung aufgeweichte und durchfeuchtete Schneedecke wieder verfestigen können. Durch die Einstrahlung wird die Schneedecke im Tagesverlauf wieder etwas aufgeweicht.</snowpackStructureComment>
+          <wxSynopsisComment>Hochdruckeinfluss bringt am Montag nochmals meist sehr sonniges Wetter. Im Bereich der Karnischen Alpen und Karawanken werden die Wolken im Tagesverlauf dichter. Bei lebhaftem Wind aus Südwest bis West liegen die Temperaturen zu Mittag in 2000 m bei -4 Grad. Am Dienstag sorgt eine Tiefdruckentwicklung über Oberitalien in Kärnten für Regen und Schnee. Der meiste Neuschnee wird in den Karnischen Alpen erwartet.</wxSynopsisComment>
+          <tendencyComment>In den Karnischen Alpen steigt die Lawinengefahr am Dienstag an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

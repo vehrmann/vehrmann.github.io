@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1699RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1699RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Baumgrenze - weiterhin Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Baumgrenze mit mäßig beurteilt. Dort können schattseitig noch Gefahrenstellen durch störanfälligen Triebschnee existieren, der durch überwiegend große Zusatzbelastung als Schneebrett ausgelöst werden kann. In mittleren Lagen hat sich das Nassschneeproblem beruhigt, aber es kann noch ganztägig zu spontanen Gleitschneelawinen aus steilem Gelände kommen. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden!</avActivityComment>
+          <snowpackStructureComment>Die warmen Temperaturen und der Regen der letzten Tage haben der Schneedecke in allen Höhen einige Zentimeter gekostet. Tiefe Lagen sind verbreitet ausgeapert. In mittleren Lagen wurde die Schneedecke feucht oder sogar schon bis zum Boden hinein nass. Über Nacht stabilisiert sich die Schneeoberfläche durch die Bildung eines tragfähigen Schmelzharschdeckels. Im Tagesverlauf wird die Schneedecke in den südexponierten Hängen aufgrund der Sonneneinstrahlung wieder weicher. &#13;
+In den Hochlagen wird mit dem Westwind weiterer kleinräumiger Triebschnee auf harter, harschiger Schneeoberfläche in den Leeseiten abgelagert. Die Verbindung zum Altschnee ist nicht besonders gut. In den steilen Schattseiten können auch noch Schwachschichten bestehend aus kantigen Kristallen, eingeschneitem Oberflächenreif oder Graupel innerhalb des Altschnees existieren.</snowpackStructureComment>
+          <wxSynopsisComment>In der Früh und am Vormittag sind noch vereinzelt unergiebige Schneeschauer möglich, die Schneefallgrenze pendelt um 900m Seehöhe. Tagsüber ist es dann trocken und ab Mittag setzt sich immer mehr die Sonne durch, in den Ybbstaler Alpen eventuell schon im Laufe des Vormittags. Der Wind bläst aber wieder stark bis stürmisch aus West. Die Höchsttemperaturen auf 1500m Seehöhe liegen bei -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag ist es überwiegend bewölkt, Sonne ist am ehesten noch im Osten zu erwarten. Es kommt immer wieder zu leichten Schneeregen- bzw. Schneeschauern, die Schneefallgrenze liegt bei 1100m bis 1400m Seehöhe. Der Wind dreht auf Südwest und weht auf den Gipfeln noch kräftig. Der Triebschnee in den Hochlagen bleibt zu beachten, die Nass- und Gleitschneeaktivität nimmt weiter ab. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1699RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1699RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber Gleitschneelawinen ganztägig möglich</avActivityHighlights>
+          <avActivityComment>Die Nassschneeproblematik beruhigt sich mit den tieferen Temperaturen wieder etwas, allerdings können spontane Gleitschneelawinen aus steilem, glattem Gelände jederzeit abgehen. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden! Südseitig kann es im Tagesverlauf zu nassen Lockerschneerutschen aus steilen, schneereichen Hängen kommen. </avActivityComment>
+          <snowpackStructureComment>Die warmen Temperaturen und der Regen der letzten Tage haben der Schneedecke in allen Höhen einige Zentimeter gekostet. Tiefe Lagen sind verbreitet ausgeapert. In mittleren Lagen wurde die Schneedecke feucht oder sogar schon bis zum Boden hinein nass. Über Nacht stabilisiert sich die Schneeoberfläche durch die Bildung eines tragfähigen Schmelzharschdeckels. Im Tagesverlauf wird die Schneedecke in den südexponierten Hängen aufgrund der Sonneneinstrahlung wieder weicher. In Gipfelnähe können kleinräumig Triebschneelinsen auf der verharschten Oberfläche liegen, welche sich eher schlecht verbinden. </snowpackStructureComment>
+          <wxSynopsisComment>In der Früh und am Vormittag sind noch vereinzelt unergiebige Schneeschauer möglich, die Schneefallgrenze pendelt um 900m Seehöhe. Tagsüber ist es dann trocken und ab Mittag setzt sich immer mehr die Sonne durch, in den Ybbstaler Alpen eventuell schon im Laufe des Vormittags. Der Wind bläst aber wieder stark bis stürmisch aus West. Die Höchsttemperaturen auf 1500m Seehöhe liegen bei -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag ist es überwiegend bewölkt, Sonne ist am ehesten noch im Osten zu erwarten. Es kommt immer wieder zu leichten Schneeregen- bzw. Schneeschauern, die Schneefallgrenze liegt bei 1100m bis 1400m Seehöhe. Der Wind dreht auf Südwest und weht auf den Gipfeln noch kräftig. Der Triebschnee in den Hochlagen bleibt zu beachten, die Nass- und Gleitschneeaktivität nimmt weiter ab. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

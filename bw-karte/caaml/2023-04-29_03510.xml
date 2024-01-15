@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3510RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3510RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mangels Abstrahlung und mit milden Temperaturen nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Auf Grund der durchnässten Schneedecke sind aus noch nicht entladenen Einzugsgebieten weiterhin spontane nasse Rutsche und mittlere Lawinen möglich - an steilen Grashängen auch Gleitschneelawinen. Auch durch Wintersportler können kleine bis mittlere Lawinen vor allem im sehr steilen Gelände ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke wurde durch viel Regen bis in hohe Lagen geschwächt. Mangels stark verminderter nächtlicher Abstrahlung ist teilweise nur eine dünne Schmelzkruste an der Oberfläche. Diese weicht im Tagesverlauf rasch auf. Nur oberhalb ca. 2400 m gab es etwas Neu- und Triebschnee. In tiefen und mittleren Lagen ist der Boden vor allem sonnseitig bereits oft wieder ausgeapert. Dem Lawinenwarndienst liegen nicht mehr viele Informationen aus diesen Gebieten vor.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trockene, aufgelockerte Nacht mit ein paar Hochnebelbänken und kaum Abstrahlung. Sonntag: Brauchbares, aber nicht einwandfreies Bergwetter. Die Sicht kann durch Hang- und Quellwolken immer wieder eingeschränkt werden. Am Nachmittag sollte man sich zudem auf kurze Schauer einstellen. Die Schneefallgrenze liegt um 2400 m. Temperatur in 2000m: 0 bis 6 Grad, Höhenwind: schwach</wxSynopsisComment>
+          <tendencyComment>Am Montag wird es stark bewölkt und im Laufe des Nachmittags regnerisch. Die Schneefallgrenze sinkt von anfangs 2400 m gegen 2000 m. Mangels Abstrahlung gefriert die Schneedecke kaum. Somit sind weiterhin nasse Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3510RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3510RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb ca. 2600 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 2600 m und vor allem Kammlagen im Hochgebirge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>nasse Lawinen und im Hochgebirge Neu- und Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist erheblich. Auf Grund der durchnässten Schneedecke sind aus noch nicht entladenen Einzugsgebieten weiterhin Selbstauslösungen kleiner und mittlerer Lawinen zu erwarten. Auch Auslösungen durch Wintersportler sind möglich. Wenn solche in tiefere Schichten durchbrechen können sie auch groß werden. An steilen Grashängen sind nach wie vor auch Gleitschneelawinen möglich. Im Hochgebirge ist Neu- und frischer Triebschnee teilweise störanfällig. Weiters können vor allem im schattseitigen Steilgelände des Hochgebirges noch oberflächennahe Schwachschichten gestört und als Schneebrett ausgelöst werden - meist ist dies jedoch nur mit großer Zusatzlast möglich.</avActivityComment>
+          <snowpackStructureComment>Im Hochgebirge führte zeitweise kräftiger Wind vor allem in Kammlagen zu Verfrachtungen des Neuschnees und zu frischer Triebschneebildung. Die Altschneedecke ist durch viel Regen und fehlender Abstrahlung bis in hohe Lagen geschwächt und weicht im Tagesverlauf weiter auf. Besonders an hoch gelegenen Schattenhängen sind teilweise noch ungünstige oberflächennahe oder tieferliegende Schichten in der Altschneedecke vorhanden. Meist können diese jedoch nur mit großer Zusatzlast gestört und somit Lawinen ausgelöst werden. Dem Lawinenwarndienst liegen nicht mehr viele Informationen aus dem Gelände vor. </snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trockene, aufgelockerte Nacht mit ein paar Hochnebelbänken und kaum Abstrahlung. Sonntag: Brauchbares, aber nicht einwandfreies Bergwetter. Die Sicht kann durch Hang- und Quellwolken immer wieder eingeschränkt werden. Am Nachmittag sollte man sich zudem auf kurze Schauer einstellen. Die Schneefallgrenze liegt um 2400 m. Temperatur in 2000m: 0 bis 6 Grad, Höhenwind: schwach</wxSynopsisComment>
+          <tendencyComment>Am Montag wird es stark bewölkt und im Laufe des Nachmittags regnerisch. Die Schneefallgrenze sinkt von anfangs 2400 m gegen 2000 m. Mangels Abstrahlung gefriert die Schneedecke kaum. Nasse Lawinen bleiben die Hauptgefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3510RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3510RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>weitere Durchfeuchtung der Schneedecke und nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Aus noch nicht entladenen Einzugsgebieten sind spontane nasse Rutsche und kleine Lawinen möglich - an steilen Grashängen nach wie vor auch kleine Gleitschneelawinen. </avActivityComment>
+          <snowpackStructureComment>Die nur noch geringmächtig vorhandene Altschneedecke wurde durch Regen und fehlende Abstrahlung aufgeweicht und weiter geschwächt. Insgesamt liegt nur noch sehr wenig Schnee. Dem Lawinenwarndienst liegen nicht mehr viele Informationen aus diesem Gebiet vor.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trockene, aufgelockerte Nacht mit ein paar Hochnebelbänken und kaum Abstrahlung. Sonntag: Die Sonne kann sich vormittags recht gut behaupten und sorgt für einen durchaus freundlichen Wettercharakter. Am Nachmittag gerät die Sonne eher wieder in den Hintergrund, zudem kann es bis zum Abend den einen oder anderen Regenspritzer geben. Temperatur in 2000 m: 0 bis 6 Grad, Höhenwind: insgesamt schwach windig.</wxSynopsisComment>
+          <tendencyComment>Am Montag wird es stark bewölkt und im Laufe des Nachmittags regnerisch. Die Schneefallgrenze sinkt von anfangs 2400 m gegen 2000 m. Mangels Abstrahlung gefriert die Schneedecke kaum. Somit sind weiterhin kleine nasse Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

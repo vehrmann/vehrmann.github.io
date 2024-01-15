@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2425RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2425RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumig hinter Geländeübergängen in den Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Niederösterreichischen Gebirgsgruppen besteht geringe Lawinengefahr. Durch ein paar Zentimeter Neuschnee und stürmischen Wind aus westlichen bis nordwestlichen Richtungen können sich in den Hochlagen hinter Geländeübergängen kleinräumig dünne Triebschneelinsen bilden, die als kleines Schneebrett ausgelöst werden können. Aufgrund des generellen Schneedefizits sind Gefahrenstellen selten.</avActivityComment>
+          <snowpackStructureComment>Im Zuge der milden Witterung um Weihnachten und durch zusätzlichen Regeneintrag wurde die Schneedecke angefeuchtet bis durchnässt, in weiterer Folge bildete sich ein Harschdeckel, die Hochlagen sind stellenweise vereist. Ansonsten schritt die Ausaperung zügig voran. Auf diese Unterlagen fallen in der Nacht von Montag auf Dienstag ein paar Zentimeter Neuschnee (um etwa 5cm in den Ybbstaler Alpen, nach Osten hin weniger), wobei sich durch den überaus stürmischen Wind kleinräumig frische Triebschneelinsen ausbilden können. Nach wie vor sind die Schneehöhen für Ende Dezember leider deutlich unter jenen eines durchschnittlichen Winters.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf den Dienstag ist bei einer von etwa 1700m auf 800m sinkenden Schneefallgrenze mit Niederschlägen zu rechnen. Es wird überaus stürmisch, in den Nachtstunden sind auch Orkanböen möglich. Der Morgen verläuft bereits niederschlagsfrei und es zeigt sich über weite Strecken die Sonne, ehe ab dem Nachmittag die Wolken wieder dichter werden. Der zunächst noch überaus stürmische Wind aus nordwestlichen Richtungen verliert im Tagesverlauf etwas an Stärke. Bei Mittagstemperaturen um -4 Grad in 1500m und -7 Grad in 2000m wird es merklich kälter als zuletzt.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch überwiegen über weite Strecken mittelhohe Wolken, es bleibt aber ganztägig niederschlagsfrei. Die Mittagstemperaturen liegen in 1500m um etwa +1, in 2000m um etwa -2 Grad. An der Lawinengefahr ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

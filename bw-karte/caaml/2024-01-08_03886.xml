@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3886RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3886RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>hinter Geländekanten, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr, aber Triebschneelinsen im Gipfelbereich!</avActivityHighlights>
+          <avActivityComment>Es herrscht allgemein geringe Lawinengefahr. Im kammnahen Gelände sowie hinter Geländekanten bildeten sich einige dünne Triebschneelinsen, die zwar bei geringer Zusatzbelastung als Schneebrettlawine ausgelöst werden können, allerdings nur zu kleinen Lawinen führen. </avActivityComment>
+          <snowpackStructureComment>Ein wenig Neuschnee vom Wochenende wurde erst in östliche und südliche Expositionen verfrachtet und wird am Dienstag mit Winddrehung nach Osten auch im Westsektor abgelagert. Die Triebschneeansammlungen bleiben aber klein. Im Ost- und Südsektor überdecken die Triebschneelinsen lockeren Neuschnee. Im Westsektor lagert der frische Triebschnee teilweise auf Oberflächenreif. Beides kommt als Schwachschicht infrage. Die Altschneedecke darunter ist hingegen kompakt und ohne nennenswerte Schwachschichten. </snowpackStructureComment>
+          <wxSynopsisComment>Nach einer klaren Nacht ziehen am Dienstagvormittag von Südosten her dichte Wolken auf. Die Gipfel geraten in Wolken, die Sichtbedingungen sind teilweise eingeschränkt und es können ein paar Schneeflocken fallen. Die Temperaturen 2000 m liegen zwischen -8 und -10 Grad und im Laufe des Tages kommt starker Ostwind auf.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt weiterhin kaltes, aber sonniges Bergwetter und teilweise starken Südwind. Die Lawinengefahr bleibt gering. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3886RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3886RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-08T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>auf ungünstiger Unterlage, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kalter Ostwind sorgt für frischen Triebschnee auch in West-Expositionen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. Das Hauptproblem ist Triebschnee, der sich vornehmlich in den Sektoren Ost über Süd bis West gebildet hat. Gefahrenstellen finden sich vermehrt im kammnahen Gelände, in Einfahrtsbereiche von Rinnen und Mulden sowie hinter Geländekanten. Dort wo der Schnee durch Wind brettartig gebunden wurde, können schon durch geringe Zusatzbelastung mittelgroße Schneebrettlawinen ausgelöst werden. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. &#13;
+Vereinzelt ist in allen Expositionen auch mit spontanen Gleitschneelawinen zu rechnen. Bereiche unter offenen Schneemäulern sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Der kalte Neu- bzw. Triebschnee vom Wochenende wurde erst in östliche und südliche Expositionen verfrachtet und wird am Dienstag mit der Winddrehung Richtung Osten zunehmend auch im Westsektor abgelagert. Im Ost- und Südsektor überdeckt der Triebschnee lockeren Neuschnee, der als Schwachschicht wirken kann. Im Westsektor lagert der frische Triebschnee teilweise auf Oberflächenreif, der ebenfalls eine Schwachschicht bildet. Die Altschneedecke darunter ist hingegen meist kompakt und ohne nennenswerte Schwachschichten. Nur in schattigen Bereichen und bei geringer Schneemächtigkeit in den Hochlagen schwächt aufbauende Umwandlung das Schneedeckenfundament. </snowpackStructureComment>
+          <wxSynopsisComment>Nach einer klaren Nacht ziehen am Dienstagvormittag von Südosten her dichte Wolken auf. Die Gipfel südlich des Alpenhauptkamms geraten in Wolken und die Sichtbedingungen sind teilweise eingeschränkt. Im westlichen Randgebirge können ein paar Schneeflocken fallen. Nördlich des Alpenhauptkamms überwiegt der Sonnenschein. Die Temperaturen 2000 m liegen zwischen -8 und -10 Grad und in den Nordalpen und im Randgebirge kommt im Laufe des Tages starker Ostwind auf.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt kaltes, aber sonniges Bergwetter und teilweise starken Südwind. Die Lawinengefahr wird weiterhin von der Triebschneeproblematik bestimmt, es bilden sich neue Gefahrenstellen in den Nord-Expositionen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

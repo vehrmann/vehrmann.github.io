@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2162RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2162RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-14T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-14T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Typische Frühjahresverhältnisse mit Tagesgang; geringe Lawinengefahr am Morgen, dann Anstieg der Gefahr von nassen Lawinen</avActivityHighlights>
+          <avActivityComment>Am Morgen herrschen allgemein günstige Verhältnisse. In hohen und hochalpinen Lagen sind die Triebschneeablagerungen vom Wochenende vereinzelt noch etwas störanfälliger. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung werden dann spontane, feuchte und nasse Lawinen, oberhalb rund 1600 m wahrscheinlicher.</avActivityComment>
+          <snowpackStructureComment>Die Triebschneeablagerungen vom Wochenende haben sich verbreitet gut mit dem Altschnee verbinden und setzen können. Während der Nachtstunden kann sich die Schneedecke wieder etwas verfestigen. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung wird die Schneedecke schon am Vormittag wieder feucht und auch nass. In tiefen Lagen liegt kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Das überwiegend sonnige und milde Wetter setzt sich auch am Gründonnerstag fort. In den westlichen Gebirgsgruppen kann Saharastaub und hohe Wolken den Sonnenschein immer wieder etwas trüben. Bei schwachem Wind werden in 3000 m rund +2 Grad, in 2000 m rund +9 Grad und in 1000 m bis zu +19 Grad erreicht. Der Freitag beginnt noch meist sonnig. Bis Mittag nehmen die Wolken zu und am Nachmittag gehen dann verbreitet Regenschauer nieder. Bei leichtem Nordwestwind wird es noch einmal recht mild.</wxSynopsisComment>
+          <tendencyComment>Die Verhältnisse bleiben frühlingshaft mit günstigeren Bedingungen am Morgen und einem tageszeitlichen Anstieg der Gefahr von feuchten und nassen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2162RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2162RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-14T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-14T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-14T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Typische Frühjahresverhältnisse mit Tagesgang; geringe Lawinengefahr am Morgen, dann Anstieg der Gefahr von nassen Lawinen</avActivityHighlights>
+          <avActivityComment>Am Morgen herrschen allgemein günstige Verhältnisse. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung werden dann spontane, feuchte und nasse Lawinen wahrscheinlicher.</avActivityComment>
+          <snowpackStructureComment>Während der Nachtstunden kann sich die Schneedecke wieder verfestigen. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung wird die Schneedecke wieder feucht und auch nass. In tiefen Lagen ist kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Das überwiegend sonnige und milde Wetter setzt sich auch am Gründonnerstag fort. In den westlichen Gebirgsgruppen kann Saharastaub und hohe Wolken den Sonnenschein immer wieder etwas trüben. Bei schwachem Wind werden in 3000 m rund +2 Grad, in 2000 m rund +9 Grad und in 1000 m bis zu +19 Grad erreicht. Der Freitag beginnt noch meist sonnig. Bis Mittag nehmen die Wolken zu und am Nachmittag gehen dann verbreitet Regenschauer nieder. Bei leichtem Nordwestwind wird es noch einmal recht mild.</wxSynopsisComment>
+          <tendencyComment>Die Verhältnisse bleiben frühlingshaft mit günstigen Bedingungen am Morgen und einem tageszeitlichen Anstieg der Gefahr von feuchten und nassen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2162RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2162RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr - Frühjahressituation</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Mit der tageszeitlichen Erwärmung wird die Schneedecke weiteren durchnässt und ausgeapert. Kleine spontane nasse Rutsche sind im Tagesverlauf möglich.</avActivityComment>
+          <snowpackStructureComment>Die recht geringe Schneedecke kann sich in den Nachtstunden wieder etwas verfestigen. Mit der tageszeitlichen Erwärmung wird die geringe Schneedecke weiter ausgeapert, feucht und nass. Bis in mittlere Lagen gibt es kaum noch Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Das überwiegend sonnige und milde Wetter setzt sich auch am Gründonnerstag fort. In den westlichen Gebirgsgruppen kann Saharastaub und hohe Wolken den Sonnenschein immer wieder etwas trüben. Bei schwachem Wind werden in 3000 m rund +2 Grad, in 2000 m rund +9 Grad und in 1000 m bis zu +19 Grad erreicht. Der Freitag beginnt noch meist sonnig. Bis Mittag nehmen die Wolken zu und am Nachmittag gehen dann verbreitet Regenschauer nieder. Bei leichtem Nordwestwind wird es noch einmal recht mild.</wxSynopsisComment>
+          <tendencyComment>Weitere Ausaperung, Durchfeuchtung und Durchnässung bei milden Temperaturen und Sonnenschein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

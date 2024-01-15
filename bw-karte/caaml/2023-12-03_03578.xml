@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3578RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3578RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch Triebschnee oberhalb der Waldgrenze! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht erhebliche Lawinengefahr durch Triebschneeansammlungen. Gefahrenstellen sind zunächst hauptsächlich in den Sektoren Ost bis Süd zu finden, im Laufe des Tages bilden sich aber auch in nördlichen Expositionen Triebschneeansammlungen und damit Gefahrenstellen. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Auf glatten Grashängen sind spontane Gleitschneelawinen zu möglich, die vereinzelt auch exponierte Verkehrswege erreichen können. Bereiche unter offenen Schneemäulern sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist durch Warmphasen und Regeneintrag großteils verharscht und kompakt. Darauf fiel am Samstag erst bei wenig Wind, später bei kräftigem bis stürmischem Nordwestwind bis zu 50 cm Neuschnee, der teilweise als Triebschnee in östlichen und südlichen Expositionen abgelagert wurde. Ab Montag entstehen durch Südwind frische Triebschneeablagerungen in nördlichen Expositionen. Schwachschichten innerhalb der frischen Schneeauflage wurden durch die Kälte konserviert. Darüber hinaus kann sich im Übergang vom warmen Schneedeckenfundament zum kalten Neu- und Triebschnee mit der Zeit eine Schwachschicht ausbilden. Auf steilen Wiesenhängen ist die Schneedecke nach wie vor am Gleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag bringt eine Warmfront mildere Verhältnisse als zuletzt und eine kompakte, mittelhohe Wolkendecke. Die Gipfel sollten aber mehrheitlich frei bleiben. Die Sonne scheint kaum. Der Wind dreht auf Südwest und wird im Tagesverlauf vor allem in den östlichen Gebirgsgruppen zunehmend stürmisch. Die Temperaturen in 2000 m steigen in den Nordalpen stark an und erreichen bis zu -2 Grad. In den südlichen Gebirgsgruppen fällt die Erwärmung mit -6 Grad in 2000 m etwas geringer aus. </wxSynopsisComment>
+          <tendencyComment>Am Dienstag zeigt sich am Vormittag teilweise die Sonne, am Nachmittag trübt es sich aber von Südwesten her ein und es beginnt im Oberen Murtal und auf der Koralpe leicht zu schneien. Die Schwachschichten in der neuen Schneeauflage bauen sich durch Setzung ab und die Lawinengefahr sinkt langsam. Ab Mittwoch kann das Triebschneeproblem durch Neuschnee südlich des Alpenhauptkammes wieder größer werden. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3578RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3578RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Waldgrenze durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr durch Triebschnee. Gefahrenstellen sind zunächst hauptsächlich in östlichen und südlichen Expositionen zu finden, im Laufe des Tages bilden sich aber auch in nördlichen Expositionen Triebschneeansammlungen und damit Gefahrenstellen. Insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen vereinzelt schon durch geringe Zusatzbelastung ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist geringmächtig und durch Warmphasen und Regeneintrag großteils verharscht und kompakt. Darauf fiel am Samstag erst bei wenig Wind, später bei kräftigem bis stürmischem Nordwestwind bis zu 30 cm Neuschnee, der teilweise als Triebschnee in östlichen und südlichen Expositionen abgelagert wurde. Ab Montag entstehen durch Südwind frische Triebschneeablagerungen in nördlichen Expositionen. Schwachschichten innerhalb der frischen Schneeauflage wurden durch die Kälte konserviert. Darüber hinaus kann sich im Übergang vom warmen Schneedeckenfundament zum kalten Neu- und Triebschnee mit der Zeit eine Schwachschicht ausbilden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag bringt eine Warmfront mildere Verhältnisse als zuletzt und eine kompakte, mittelhohe Wolkendecke. Die Gipfel sollten aber mehrheitlich frei bleiben. Die Sonne scheint kaum, am ehesten zeigt sie sich am Vormittag im Randgebirge. Der Wind dreht auf Südwest und wird im Tagesverlauf zunehmend stürmisch. Die Temperaturen in 2000 m steigen auf etwa -4 Grad an. </wxSynopsisComment>
+          <tendencyComment>Am Dienstag zeigt sich am Vormittag teilweise die Sonne, am Nachmittag trübt es sich aber von Südwesten her ein und es beginnt im Oberen Murtal und auf der Koralpe leicht zu schneien. Die Schwachschichten in der neuen Schneeauflage bauen sich durch Setzung ab und die Lawinengefahr sinkt langsam. Ab Mittwoch kann das Triebschneeproblem durch Neuschnee südlich des Alpenhauptkammes wieder größer werden. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

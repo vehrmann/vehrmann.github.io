@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3251RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3251RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>umfangreicher Triebschnee, kammnah, kammfern, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneebrettlawinen können leicht ausgelöst werden - Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist über der Waldgrenze erheblich, in lichten Bergwäldern mäßig. Durch starken bis kammnahe auch stürmischen Wind um West bis Nordwest und immer wieder Neuschnee haben sich frische, auch umfangreiche Triebschneeablagerungen gebildet. Schneebrettlawinen können bereits durch geringe Zusatzbelastung ausgelöst werden. Zu beachten sind Steilhänge, vor allem kammnahe aber auch kammferne Bereiche hinter Geländekanten und steile frisch  verfüllte Mulden sowie Rinnen. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Mittlere und teils große Lawinen sind möglich. Im Steilgelände sind einzelne spontane Lockerschnee- oder Schneebrettlawinen möglich. Mit dem Temperaturanstieg und je nach Regeneinfluss sind im Tagesverlauf spontane feuchte bis nasse Lawinen vor allem unterhalb der Schneefallgrenze zu beachten. </avActivityComment>
+          <snowpackStructureComment>Am Dienstag gab es weiterhin Neuschneezuwachs (rund 20 - 40 cm). Weiterhin starker bis stürmischer Wind hat wieder frischen Triebschnee gebildet. Die störanfälligen Triebschneepakte enthalten Schwachschichten und auch die Bindung zur Altschneedecke ist ungenügend. Die Altschneedecke ist oberflächig verfestigt, teils hart und tragfähig verharscht. Im Inneren ist die Schneedecke unverändert feucht, teils nass. In den mittlere und teils in den tiefen Lagen ist der Schnee der letzten Tage auf aperem Boden zu liegen gekommen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch stecken die Berge meist in dichten Wolken, die Sicht ist häufig eingeschränkt. Es regnet und schneit zeitweise mit Schwerpunkt am Vormittag. Die Schneefallgrenze steigt von tiefen Lagen rasch gegen 1500 m. In den Hochlagen weht starker bis stürmischer Wind aus West bis Nordwest. Temperaturen in 1500 m zwischen -3 und +4 Grad, in 2000 m zwischen -6 und 0 Grad.&#13;
+Am Donnerstag ist die Sicht immer wieder durch dichte Wolken eingeschränkt, zeitweise regnet es. Die Schneefallgrenze liegt um 2300 m. Am Nachmittag ziehen teils kräftige Schauer durch, zwischendurch gehen sich ein paar sonnige Phasen aus. Der Westwind legt im Tagesverlauf zu und weht zum Abend hin in den Hochlagen stark. Temperaturen in 1500 m um 7 Grad, in 2000 m um 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschneeproblem durch milde Temperaturen und Regeneinfluss.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

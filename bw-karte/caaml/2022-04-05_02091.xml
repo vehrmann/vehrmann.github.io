@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2091RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-05T05:25:15+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2091RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-05T05:25:15+00:00</beginPosition>
+          <endPosition>2022-04-06T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen, windbeeinflusste Steilhänge, &gt;2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regeneintrag nasse Lawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind in Hochlagen noch störanfällig - mit Erwärmung und Regen nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend mäßige Lawinengefahr. Neu- und Triebschnee vom Wochenende sind mit zunehmender Seehöhe teilweise noch störanfällig. Kleine und teilweise auch mittlere Lawinen können dort von einzelnen Wintersportler ausgelöst werden. Gefahrenstellen nehmen an Umfang und Größe mit der Seehöhe und mit weiterem Windeinfluss im Tagesverlauf zu. Sie sind vor allem in Kammlagen und im Hochgebirge anzutreffen. Mit Erwärmung und Regeneinfluss tritt vor allem in tieferen Lagen ein Festigkeitsverlust ein. Im Tagesverlauf sind an allen Expositionen feuchte Locker- und Nassschneelawinen zu erwarten. Zudem sind weiterhin Gleitschneelawinen an sehr steilen Grashängen möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Neu- und Triebschnee vom Wochenende konnten sich vor allem an besonnten Hängen und bis in mittlere Lagen weiter setzen und verfestigen. Mit zunehmender Seehöhe und vor allem in schattseitigem Gelände dauert dieser Prozess noch. Die Verbindung zur Altschneedecke ist meist gut, mit zunehmender Seehöhe und in Kammlagen teilweise auch nur mäßig. Kleine bis mittlere Lawinen können dort noch innerhalb des Neu- und Triebschnees oder im Bereich von Saharastaubschichten  ausgelöst werden. An Sonnenhängen in mittleren Lagen liegt der Neuschnee auf zuvor ausgeapertem Boden, wird von unten her angefeuchtet und kann an glatten Steilhängen abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag bleibt meist dicht bewölkt. Gelegentlich fällt auch leichter Niederschlag. Die Schneefallgrenze steigt von anfangs 1100 m gegen 1700 m. Temperatur in 2000m: -4 bis -1 Grad. Höhenwind: lebhafter, in Böen starker Westwind</wxSynopsisComment>
+          <tendencyComment>Die nächsten Tage werden wechselhaft. Die Lawinengefahr ändert sich nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

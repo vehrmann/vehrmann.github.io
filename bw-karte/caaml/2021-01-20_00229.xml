@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID229RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID229RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>kammnah, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr über der Waldgrenze - Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit erheblich, ansonsten mit mäßig bewertet. Die Gefahrenstellen befinden sich kammnah besonders in nord- bis südostexponierten Bereichen, hinter Geländekanten sowie in Rinnen und steilen Mulden. Die Auslösung einer Schneebrettlawine ist bereits bei geringer Zusatzbelastung möglich. In mittleren und tiefen Lagen kann es mit der weiteren Erwärmung aus steilen Hängen zu spontanen Lockerschneelawinen kommen. </avActivityComment>
+          <snowpackStructureComment>Aufgrund der milderen Temperaturen und der Sonneneinstrahlung konnte sich die Schneedecke bereits etwas setzten. Nord- bis ostseitig liegen die Triebschneepakete weiterhin auf einem durch kantige Kristalle und Schwimmschnee geschwächtem Schneefundament. In mittleren und tiefen Lagen wird die Schneedecke langsam feucht und verliert an Stabilität. </snowpackStructureComment>
+          <wxSynopsisComment>Über den Berggipfeln Niederösterreichs scheint am Donnerstag verbreitet die Sonne. In den Tälern liegen hingegen zum Teil zähe Nebel- oder Hochnebelfelder. Der Höhenwind aus südlichen Richtungen weht lebhaft bis stark. In 1500m Seehöhe liegen die Temperaturen um +5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Freitag legt der Höhenwind aus Südwest nochmal zu und weht stark bis stürmisch. Dichte Wolken verdecken immer wieder die Sonne und die Temperaturen liegen in 1500m maximal um +3 Grad. Die Lawinengefahr geht weiter zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID229RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID229RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird durchwegs mit mäßig beurteilt. Mit dem anfänglichen Nassschneeproblem können sich aus steilen Hängen vermehrt spontane Locker- und Nassschneelawinen lösen. Die Gefahrenstellen befinden sich besonders in den Südexpositionen, wo durch die Sonneneinstrahlung zusätzlicher Wärmeeintrag in die Schneedecke gelangt. Kammnah befinden sich schattseitig noch teils störanfällige Triebschneeablagerungen, die durch große Zusatzbelastung ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>Aufgrund der milderen Temperaturen und der Sonneneinstrahlung konnte sich die Schneedecke bereits etwas setzten. Die Schneedecke in den Südexpositionen wird durch die Sonneneinstrahlung zusätzlich schneller feucht und verliert an Stabilität. In den schattseitigen Gipfelbereichen liegen die Triebschneepakete weiterhin auf einem durch kantige Kristalle und Schwimmschnee geschwächtem Schneefundament. </snowpackStructureComment>
+          <wxSynopsisComment>Über den Berggipfeln Niederösterreichs scheint am Donnerstag verbreitet die Sonne. In den Tälern liegen hingegen zum Teil zähe Nebel- oder Hochnebelfelder. Der Höhenwind aus südlichen Richtungen weht lebhaft bis stark. In 1500m Seehöhe liegen die Temperaturen um +5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Freitag legt der Höhenwind aus Südwest nochmal zu und weht stark bis stürmisch. Dichte Wolken verdecken immer wieder die Sonne und die Temperaturen liegen in 1500m maximal um +3 Grad. Die Lawinengefahr geht weiter zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID437RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID437RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht mäßige Lawinengefahr. Hier gilt es noch den Triebschnee zu beachten, der sich mit teils stürmischem Wind gebildet hat. Gefahrenstellen, an denen Schneebrettlawinen ausgelöst werden können, befinden sich meist hinter Geländeübergängen und in Rinnen und Mulden, vorwiegend in den Expositionen Nord über Ost bis Südost. Durch die Tageserwärmung und mit der Sonneneinstrahlung sind zudem spontane Auslösungen aus dem besonnten Steilgelände möglich. Vereinzelt besteht in abgeschatteten Hochlagen noch ein Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>Der teils stürmische Wind hat in den Hochlagen Triebschnee gebildet, der noch weichere Schichten oder verharschte Bereiche überdeckt. Vereinzelt schwächen kantige Kornformen in abgeschatteten Hochlagen den Altschnee. Mit der Kombination aus Tageserwärmung und Sonneneinstrahlung stellt sich ein Festigkeitsverlust der Schneedecke ein.</snowpackStructureComment>
+          <wxSynopsisComment>Während sich in tieferen Lagen Nebelfelder halten können, ist auf den Niederösterreichischen Bergen am Samstag mit meist strahlendem Sonnenschein zu rechnen. Der Wind weht nur schwach bis mäßig aus nordwestlichen bis südwestlichen Richtungen. Die Mittagstemperaturen liegen mit +10 Grad in 1000m, +5 Grad in 1500m und +1 Grad in 2000m auf frühlingshaftem Niveau, wobei es in den höheren Lagen am Abend noch milder wird.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag erwarten uns auf den Bergen sonnige Verhältnisse. Bei schwachem bis mäßigem Wind aus südlichen Richtungen steigen die Temperaturen weiter an, die Mittagswerte liegen in 2000m bei +9 Grad, in 1500m bei +11 Grad. Im Hinblick auf die Lawinengefahr gilt es neben der Schneebrettgefahr mit Sonne und milden Temperaturen auch spontane Auslösungen zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID437RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID437RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Gefahrenstellen existieren nur vereinzelt und sind selten. Mit der Tageserwärmung und der zusätzlichen Sonneneinstrahlung sind spontane Rutschungen aus dem Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Nach nächtlicher Ausstrahlung setzt mit der Tageserwärmung und Sonneneinstrahlung ein Festigkeitsverlust ein, der vereinzelt zu spontanen Rutschungen führen kann. In dieser Region liegt generell recht wenig Schnee, der sich mit den milden Temperaturprognosen künftig weiter dezimieren wird.</snowpackStructureComment>
+          <wxSynopsisComment>Während sich in tieferen Lagen Nebelfelder halten können, ist auf den Niederösterreichischen Bergen am Samstag mit meist strahlendem Sonnenschein zu rechnen. Der Wind weht nur schwach bis mäßig aus nordwestlichen bis südwestlichen Richtungen. Die Mittagstemperaturen liegen mit +10 Grad in 1000m und +5 Grad in 1500m auf frühlingshaftem Niveau, wobei es in den höheren Lagen am Abend noch milder wird.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag erwarten uns auf den Bergen sonnige Verhältnisse. Bei schwachem bis mäßigem Wind aus südlichen Richtungen steigen die Temperaturen weiter an, die Mittagswerte liegen in 1500m bei +11 Grad. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches, es gilt mögliche spontane Auslösungen zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

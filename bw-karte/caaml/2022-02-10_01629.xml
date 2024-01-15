@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1629RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1629RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>speziell in höheren Lagen störanfällig, im Nordsektor</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee! Starker Wind!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in oberhalb der Baumgrenze mit mäßig beurteilt. Vereinzelte Gefahrenstellen für Schneebrettauslösungen liegen in den Hochlagen in sehr steilen Hängen in den Sektoren Ost und Nord. Hier können Lawinen bei großer Zusatzbelastung ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich durch die Erwärmung schon setzen. Nur in den schattseitigen Hochlagen lagert älterer Triebschnee auf Oberflächenreif bzw. auf einem Harschdeckel ab. Unterhalb des Harschdeckels liegen kantige Formen, die als Schwachschicht dienen können.&#13;
+Der frische Neuschnee lagert sich schattseitig auf Oberflächenreif ab und sonnseitig wird ein Harschdeckel überdeckt. &#13;
+Bis in mittlere Lagen wurde die Schneedecke nass. Durch die Abkühlung verfestigt sich wieder die Schneedeckenoberfläche. </snowpackStructureComment>
+          <wxSynopsisComment>Die höheren Berge geraten rasch in Wolken, dazu ist zeitweise mit Niederschlägen zu rechnen. Der Schwerpunkt der Niederschläge liegt in  den Ybbstaler und Türnitzer Alpen. Die Schneefallgrenze sinkt auf 500 bis 800m Seehöhe. 5 bis 10 cm Neuschnee werden erwartet. Der Höhenwind weht lebhaft bis stark aus West bis Nordwest. Die Temperaturen gehen in allen Höhen wieder deutlich zurück, zur Mittagszeit liegen die Temperaturen in 1500m Seehöhe um minus 2 oder  minus 3 Grad.&#13;
+Samstag: Während der ersten Tageshälfte halten sich noch viele Wolken, die Sonne lässt sich eher nur zwischendurch blicken. Am Nachmittag werden die sonnigen Phasen länger und häufiger. Der mäßige, teilweise lebhafte Wind dreht von anfangs Nordwest im Tagesverlauf auf südliche Richtungen.  In 1500m Seehöhe bewegen sich die Nachmittagstemperaturen um minus 3 oder minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1629RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1629RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht im Nordsektor - Altschneeproblem.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Gutensteiner Alpen und im Wechselgebiet mit gering beurteilt. Vereinzelte Gefahrenstellen für Schneebrettauslösungen liegen in den Hochlagen in den Sektoren Ost und Nord. Eine Schneebrettauslösung kann nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich durch die Erwärmung schon setzen. Nur in den schattseitigen Hochlagen lagert älterer Triebschnee auf Oberflächenreif bzw. auf einem Harschdeckel ab. Bis in mittlere Lagen wurde die Schneedecke nass. Durch die Abkühlung verfestigt sich wieder die Schneedeckenoberfläche. </snowpackStructureComment>
+          <wxSynopsisComment>Die höheren Berge geraten rasch in Wolken, dazu ist zeitweise mit Niederschlägen zu rechnen. Der Schwerpunkt der Niederschläge liegt in  den Ybbstaler und Türnitzer Alpen. Die Schneefallgrenze sinkt auf 500 bis 800m Seehöhe. Es wird nur wenig Neuschnee erwartet. Der Höhenwind weht lebhaft bis stark aus West bis Nordwest. Die Temperaturen gehen in allen Höhen wieder deutlich zurück, zur Mittagszeit liegen die Temperaturen in 1500m Seehöhe um minus 2 oder minus 3 Grad.&#13;
+Samstag: Während der ersten Tageshälfte halten sich noch viele Wolken, die Sonne lässt sich eher nur zwischendurch blicken. Am Nachmittag werden die sonnigen Phasen länger und häufiger. Der mäßige, teilweise lebhafte Wind dreht von anfangs Nordwest im Tagesverlauf auf südliche Richtungen.  In 1500m Seehöhe bewegen sich die Nachmittagstemperaturen um minus 3 oder minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

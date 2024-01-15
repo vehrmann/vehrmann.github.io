@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID991RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-25T08:16:30+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID991RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-25T08:16:30+00:00</beginPosition>
+          <endPosition>2021-05-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontano plazenje</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>količina novega snega z nadmorsko višino hitro narašča</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Velike količine novega snega, nepredelan sneg</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je nad okoli 1800 m nadmorske višine ZMERNA, 2. stopnje, v preostalem delu gora pa MAJHNA, 1. stopnje. V visokogorju Julijskih Alp je nad okoli 2200 m precej novega snega, ki se bo lahko prožil s strmih pobočij, nevarnost bosta povečala še današnja otoplitev in dež. Veliko je zametov. Nižje se bodo lahko s strmih pobočij ali pa po grapah prožili posamezni plazovi mokrega snega. V sredogorju je sneg večinoma stabilen.</avActivityComment>
+          <snowpackStructureComment>Ob koncu tedna je predvsem v visokogorju Julijskih Alp zapadlo okoli 50 cm snega. Tam je sneg mehak in moker, s podlago le delno sprijet. V ponedeljek se je v višinah ogrelo, sneženje bo prešlo v dež do najvišjih vrhov. Novi sneg se je zato namočil in postal bolj labilen. Nižje bo dež namakal snežno odejo, ki bo zato zmehčana, sicer pa dobro preobražena in uležana.</snowpackStructureComment>
+          <wxSynopsisComment>Danes bo spremenljivo do pretežno oblačno in občasno megleno. Nastajale bodo krajevne plohe, nad okoli 2000 m snežne. Pihal bo šibak do zmeren jugozahodnik. Ledišče bo na nadmorski višini okoli 2600 m. V sredo in četrtek bo dokaj sončno, v četrtek zvečer bodo možne posamezne plohe. Ledišče bo približno na višini najvišjih vrhov.</wxSynopsisComment>
+          <tendencyComment>V visokogorju je še vedno precej južnega in slabo predelanega snega, ki se bo še vedno plazil. Nevarna bodo strma pobočja in grape ter mesta z napihanim snegom. Nižje se bodo lahko plazile predvsem strme grape, možni bodo posamezni talni plazovi s strmih pobočij v visokogorju zaradi razmočene snežne odeje. V naslednjih dneh se bo nevarnost zmanjšala. Od srede dalje bo značilen dnevni hod, ko se bo sneg zaradi sonca čez dan na prisojnih pobočjih dodatno ojužil in postal bolj labilen. Spontanega plazenja bo malo, lahko pa sami sprožite manjši snežni plaz predvsem na mestih z napihanim snegom in na strmih pobočjih.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-02"/>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

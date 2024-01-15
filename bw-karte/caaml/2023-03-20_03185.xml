@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3185RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3185RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schwachen Altschnee vorsichtig beurteilen. Nasse Lawinen im Tagesverlauf.</avActivityHighlights>
+          <avActivityComment>Mit zunehmender Durchfeuchtung der Schneedecke steigt die Lawinengefahr auch in mittleren Höhenlagen im Tagesverlauf auf Mäßig an. Schwachschichten im Altschnee, in schattseitigen Hängen, können vereinzelt von Wintersportlern ausgelöst werden. Die Auslösebereitschaft steigt durch die zunehmende Durchfeuchtung an. Spontane nasse Lawinen aus steilen, vor allem südgerichteten Hängen, sind möglich. Touren sollten früh beendet werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist bis in höhere Lagen schon sehr feucht. Die nächtliche Abstrahlung während der vergangenen Nachtstunden hat kaum noch stattfinden können. Schattseitig hat die Schneedecke noch mehr Kältereserven. Milde Temperaturen und Sonnenschein sorgen vor allem in südgerichteten Expositionen für eine weitere Durchfeuchtung im Tagesverlauf. In schattseitigen Expositionen sind vor allem in hohen Lagen auch noch schwache, kantig aufgebaute Schichten vorhanden. In tiefen Lagen liegt kein Schnee mehr.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sorgt Hochdruckeinfluss für sonniges Bergwetter. Am Vormittag können noch einige harmlose Wolken im Norden und Osten durchziehen. Im Tagesverlauf bilden sich auch Quellwolken welche den Sonnenschein trüben können. Der Wind weht schwach aus Nordwest bis West und später teils aus Südwest. Die Temperaturen steigen in 3000 m auf -4 Grad, in 2000 m von Ost nach West auf +2 bis +5 Grad und in 1000 m auf +15 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch geht es mit recht sonnigem und mildem Bergwetter weiter. Mit milden Temperaturen und Sonnenschein steigt die Lawinengefahr im Tagesverlauf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3185RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3185RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit zunehmender Durchfeuchtung, Anstieg der Lawinengefahr im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag verbreitet noch gering. Schwachschichten im Altschnee können vereinzelt von Wintersportlern ausgelöst werden. Mit steigenden Temperaturen und Sonneneinstrahlung steigt die Lawinengefahr im Tagesverlauf auf Grund der zunehmenden Durchfeuchtung der Schneedecke oberhalb von rund 1800 m auf Mäßig an. Die Auslösebereitschaft steigt durch die zunehmende Durchfeuchtung an. Spontane nasse Lawinen aus steilen, vor allem südgerichteten Hängen, sind möglich. Touren sollten früh beendet werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist bis in höhere Lagen schon sehr feucht. Die nächtliche Abstrahlung während der vergangenen Nachtstunden hat kaum noch stattfinden können. Schattseitig hat die Schneedecke noch mehr Kältereserven. Milde Temperaturen und Sonnenschein sorgen vor allem in südgerichteten Expositionen für eine weitere Durchfeuchtung im Tagesverlauf. In schattseitigen Expositionen sind vor allem in hohen Lagen auch noch schwache, kantig aufgebaute Schichten vorhanden. In tiefen Lagen liegt kein Schnee mehr.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sorgt Hochdruckeinfluss für sonniges Bergwetter. Am Vormittag können noch einige harmlose Wolken im Norden und Osten durchziehen. Im Tagesverlauf bilden sich auch Quellwolken welche den Sonnenschein trüben können. Der Wind weht schwach aus Nordwest bis West und später teils aus Südwest. Die Temperaturen steigen in 3000 m auf -4 Grad, in 2000 m von Ost nach West auf +2 bis +5 Grad und in 1000 m auf +15 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch geht es mit recht sonnigem und mildem Bergwetter weiter. Mit milden Temperaturen und Sonnenschein steigt die Lawinengefahr im Tagesverlauf.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-03-02"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3185RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3185RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Gefahr von nassen Lawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf mit zunehmender Durchfeuchtung der Schneedecke leicht an wird aber noch mit Gering beurteilt. Kleine spontane nasse Lawinen, am Nachmittag auch nasse Lawinen mittlerer Größe, sind vor allem in sonnseitigen Expositionen aus steilem Gelände im Tagesverlauf möglich.</avActivityComment>
+          <snowpackStructureComment>Die zunehmend milderen Temperaturen der vergangenen Tage haben bis in hohe Lagen für eine Anfeuchtung und Durchnässung der Schneedecke geführt. Der bedeckte Himmel während der vergangenen Nachtstunden hat die Bildung eines Harschdeckels weitgehend verhindert. In den südlichen Gebirgsgruppen sind in schattseitigen Expositionen vereinzelt noch Schichten mit kantigen Kristallen in der Altschneedecke vorhanden. Bis in mittlere Lagen ist die Schneedecke lückenhaft. In tiefen Lagen liegt kein Schnee mehr.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sorgt Hochdruckeinfluss für sonniges Bergwetter. Am Vormittag können noch einige harmlose Wolken im Norden und Osten durchziehen. Im Tagesverlauf bilden sich auch Quellwolken welche den Sonnenschein trüben können. Der Wind weht schwach aus Nordwest bis West und später teils aus Südwest. Die Temperaturen steigen in 3000 m auf -4 Grad, in 2000 m von Ost nach West auf +2 bis +5 Grad und in 1000 m auf +15 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch geht es mit recht sonnigem und mildem Bergwetter weiter. Keine wesentliche Änderung der Lawinensituation. Einzelne kleine Nass- und Gleitschneerutsche sind möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-12-02"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-04-02"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-05-02"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

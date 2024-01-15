@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1595RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1595RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kalter, frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>&#13;
+Im Semmering - Wechselgebiet sowie in den Gutensteiner Alpen herrscht oberhalb von 1200 m mäßige Lawinengefahr. Gefahrenstellen in Form von frischen Triebschneeansammlungen existieren in Nord über Ost bis Süd ausgerichtete Steilhänge. An vereinzelten Steilhängen im kammnahen Gelände können Schneebretter bei einer großen Zusatzbelastung ausgelöst werden. Besondere Vorsicht bei Einfahrtsbereichen von Rinnen und Mulden sowie hinter Geländekanten!&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>Harte Schneedeckenoberflächen bzw. Oberflächenreif wird durch Triebschnee überdeckt. Die Verbindung der Triebschneeschicht mit der Altschneedecke wird nicht ausreichend sein. Bis in mittlere Lagen ist die Schneedecke oft feucht.</snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Eine Kaltfront zieht durch. Es werden in den Gutensteiner Alpen 10 bis 20 cm Neuschnee erwartet, im Wechselgebiet etwas weniger. Am Nachmittag bessert sich das Wetter und es sind auch ein paar Sonnenfenster dabei. Der Höhenwind weht stürmisch aus Nordwest. Temperaturen auf 1500m Seehöhe mittags nur noch um minus 7 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Eine Warmfront schickt einige ausgedehnte Wolkenfelder in die Bergwelt Niederösterreichs, die Sonne kommt höchstens kurz zum Vorschein. Der Höhenwind bläst stark bis stürmisch aus West. Es wird wieder deutlich milder. Die Temperaturen auf 1500 m Seehöhe steigen auf minus 1 Grad.&#13;
+Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1595RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1595RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>speziell in höheren Lagen störanfällig, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee! Erhebliche Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt in den Ybbstaler und Türnitzer Alpen, dem Gippel - Göller sowie dem Rax – Schneeberg Gebiet oberhalb von 1200 m auf erheblich an. Durch die Kaltfront (mit Neuschnee und Sturm) bilden sich am Montag frische störanfällige Triebschneebereiche im Ost- und Nordsektor. Hinter Geländekanten bzw. bei Einfahrten von Rinnen und Mulden reicht eine geringe Zusatzbelastung aus, um ein Schneebrett auslösen zu können. Vorsicht auf die frisch gebildeten Wechten, die sind instabil.  Aus steilen Böschungen sind auch spontane Gleitschneerutsche bzw. nasse Rutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Der prognostizierte Neuschnee bzw. Triebschnee lagert sich schattseitig auf Oberflächenreif ab. Im Südsektor ist die Schneedeckenoberfläche hart bzw eisig, die überdeckt wird. &#13;
+Bis in mittlere Lagen wurde die Schneedecke feucht. Durch den Temperaturrückgang stabilisiert sich die Schneedecke. &#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>In den Ybbstaler und Türnitzer Alpen stauen sich die Wolken und es schneit immer wieder, teils auch anhaltend. Es werden 30 bis 40 cm Neuschnee erwartet. Auch weiter im Osten schneit es, hier sind am Nachmittag aber auch ein paar Sonnenfenster dabei. Der Höhenwind weht stürmisch aus Nordwest. Temperaturen auf 1500m Seehöhe mittags nur noch um minus 7 Grad.</wxSynopsisComment>
+          <tendencyComment>Eine Warmfront schickt einige ausgedehnte Wolkenfelder in die Bergwelt Niederösterreichs, die Sonne kommt höchstens kurz zum Vorschein. Der Höhenwind bläst stark bis stürmisch aus West. Es wird wieder deutlich milder. Die Temperaturen auf 1500m Seehöhe steigen auf minus 1 Grad.&#13;
+Die erhebliche Lawinengefahr bleibt am Dienstag bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

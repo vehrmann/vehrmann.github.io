@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3434RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3434RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frische, teils störanfällige Triebschneeansammlungen beachten</avActivityHighlights>
+          <avActivityComment>Mit Neuschnee und Wind entstehen frische, teils störanfällige Triebschneeansammlungen. Gefahrenstellen sind mit zunehmender Seehöhe vor allem im schattseitigen Steilgelände und in eingewehten Rinnen und Mulden anzutreffen. Zudem können stellenweise Lawinen in oberflächennahen Schichten ausgelöst werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. Selbstauslösungen einzelner Gleitschneelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Mit Neuschnee und starkem Südwest- bis Südwind entstehen frische, störanfällige Triebschneeansammlungen. In den nächsten 24h sollen bis zu 20cm Neuschnee fallen. Der Trieb- und Neuschnee kommt vielerorts auf einer verharschten Oberfläche, an Nordhängen in hohen Lagen auf einer lockeren Altschneeoberfläche zu liegen. Mit der Abkühlung nimmt die Gefahr von nassen Lawinen ab. Besonders an Schattenhängen sind oberflächennahe Schichten teils noch störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trübe, bewölkte Nacht mit Schneefall oberhalb von rund 900m, der Schwerpunkt liegt dabei in den Nordstaulagen, im Montafon bleibt es eher trocken. Donnerstag: Spätwinterlich mit Wind und Schneefall, Berge verbreitet im Nebel, damit schlechte Sicht in den meisten Regionen. Die Schneefallgrenze steigt von 900 auf 1500 Meter an. Temperatur in 2000m: -5 Grad. Höhenwind: starker Südwind.</wxSynopsisComment>
+          <tendencyComment>Am Freitagfrüh mit Abzug des Höhentiefs gibt es letzte Schneeschauer, vormittags ist es noch eher bewölkt, nachmittags gibt es tendenziell mehr Sonne. Ab Freitag wird es wieder wärmer und der tagezeitliche Anstieg der Nassschneelawinengefahr rückt zunehmend wieder in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3434RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3434RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frische, teils störanfällige Triebschneeansammlungen beachten</avActivityHighlights>
+          <avActivityComment>Mit Neuschnee und Wind entstehen frische, teils störanfällige Triebschneeansammlungen. Gefahrenstellen sind mit zunehmender Seehöhe vor allem im schattseitigen Steilgelände und in eingewehten Rinnen und Mulden anzutreffen. Im Hochgebirge sind die Gefahrenstellen an allen Expositionen vorhanden. Zudem können stellenweise Lawinen in oberflächennahen Schichten ausgelöst werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. Lawinen können vereinzelt auch in tiefere Schichten durchbrechen und die Altschneedecke mitreißen. Aktivitäten abseits gesicherter Pisten erfordern Erfahrung in der Gelände- und Lawinenbeurteilung. Selbstauslösungen einzelner Gleitschneelawinen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Mit Neuschnee und starkem Südwest- bis Südwind entstehen frische, störanfällige Triebschneeansammlungen. In den nächsten 24h sollen bis zu 20cm Neuschnee fallen. Der Trieb- und Neuschnee kommt vielerorts auf einer verharschten Oberfläche, an Nordhängen in hohen Lagen auf einer lockeren Altschneeoberfläche zu liegen. Mit der Abkühlung nimmt die Gefahr von nassen Lawinen ab. Besonders an Schattenhängen sind oberflächennahe Schichten teils noch störanfällig. Vor allem im schattseitigen Steilgelände sind in den Hochlagen noch ungünstige Zwischenschichten erhalten geblieben. Meist können diese jedoch nur mit großer Zusatzlast gestört werden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Trübe, bewölkte Nacht mit Schneefall oberhalb von rund 900m, der Schwerpunkt liegt dabei in den Nordstaulagen, im Montafon bleibt es eher trocken. Donnerstag: Spätwinterlich mit Wind und Schneefall, Berge verbreitet im Nebel, damit schlechte Sicht in den meisten Regionen. Die Schneefallgrenze steigt von 900 auf 1500 Meter an. Temperatur in 2000m: -5 Grad. Höhenwind: starker Südwind.</wxSynopsisComment>
+          <tendencyComment>Am Freitagfrüh mit Abzug des Höhentiefs gibt es letzte Schneeschauer, vormittags ist es noch eher bewölkt, nachmittags gibt es tendenziell mehr Sonne. Ab Freitag wird es wieder wärmer und der tagezeitliche Anstieg der Nassschneelawinengefahr rückt zunehmend wieder in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

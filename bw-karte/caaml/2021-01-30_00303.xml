@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID303RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID303RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch frischen Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Von den Ybbstaler Alpen über die Gippel-Göller-Region bis hin zur Rax-Schneeberg-Gruppe herrscht über 1600m erhebliche Lawinengefahr. Mit anhaltend stürmischen Wind sind überwiegend in den Expositionen Nord über Ost bis Süd frische Triebschneeablagerungen entstanden. Es gilt somit Geländeübergänge sowie Rinnen und Mulden und insbesondere deren Einfahrtsbereiche zu beachten. Bereits die geringe Zusatzbelastung eines einzelnen Tourengehers kann zu einer Schneebrettauslösung führen. Diese können schattseitig auch in tiefere Schichten durchbrechen. Spontane Gleitschneeabgänge aus steilen Wald- und Wiesenböschungen nehmen ab, sind aber nicht auszuschließen. Schlechte Sichtbedingungen schränken die Gefahrenbeurteilung ein. </avActivityComment>
+          <snowpackStructureComment>In höheren Lagen entstand durch stürmischen Nordwestwind und stellenweise kräftigem Schneefall frischer Triebschnee, der innerhalb der Auflage (weiche schichten, Graupel) sowie im Übergang zum Altschnee leicht gestört werden kann. Schattseitig existiert zudem ein Altschneeproblem (kantige Kristalle, Schwimmschnee) im Bereich des Fundamentes, welches speziell bei einer geringmächtigen Schneedecke durch geringe Zusatzbelastung gestört werden kann. Zeitweise kräftiger Regen hat zwischen Donnerstagabend und Freitagmittag die Schneedecke bis auf ca.1600m durchfeuchtet und destabilisiert. Die folgende Abkühlung führt in diesen Lagen wiederum zu einer Stabilisierung, die Schneedecke gestaltet sich hier weitgehend kompakt. Feuchte Schmierschichten am Boden können in steilen Bereichen unter Umständen noch zu Gleitschneerutschen führen. </snowpackStructureComment>
+          <wxSynopsisComment>Die Berge stecken ganztätig in dichte Wolken und vor allem am Vormittag schneit es noch zeitweise ein wenig, am Nachmittag ziehen mitunter noch einzelne Schneeschauer durch. Der Höhenwind weht nur schwach bis mäßig aus östlichen Richtungen. Es kühlt vorübergehend weiter ab, die Temperaturen liegen in 1500m um -5 Grad, in 2000m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag freundlicheres Bergwetter, leichter Temperaturanstieg im Tagesverlauf. Das Triebschneeproblem nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID303RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID303RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringer Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht geringe Lawinengefahr. Nur vereinzelt sind Gleitschneerutsche aus steilen Wald- und Wiesenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Nach Regen bis in Gipfellagen und mit folgender Abkühlung gestaltet sich die Schneedecke weitgehend stabil und kompakt. Eine bestehende feuchte Schmierschicht am Boden kann in steilen Bereichen vereinzelt zu spontanen Gleitschneerutschungen führen. In tiefen Lagen hat der Regen die Schneedecke vollständig weggeschmolzen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Berge stecken ganztätig in dichte Wolken und vor allem am Vormittag schneit es noch zeitweise ein wenig, am Nachmittag ziehen nur noch einzelne Schneeschauer durch. Der Höhenwind weht nur schwach bis mäßig aus östlichen Richtungen. Es kühlt vorübergehend weiter ab, die Temperaturen liegen in 1000m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag freundlicheres Bergwetter, leichter Temperaturanstieg im Tagesverlauf. Es wird keine Änderung der Lawinensituation erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID303RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID303RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee sorgt für mäßige Lawinengefahr in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Im Semmering-Wechselgebietes herrscht oberhalb der Waldgrenze mäßige Lawinengefahr durch frischen Triebschnee, der vor allem in den Expositionen Nord über Ost bis Süd zu beachten ist. Vereinzelt kann eine Schneebrettauslösung bereits durch die geringe Zusatzbelastung eines einzelnen Tourengehers erfolgen. Vereinzelt finden sich Gefahrenstellen auch in lichten Waldbereichen. Weiters können spontane Gleitschneelawinen aus steilen Wald- und Wiesenböschungen nicht ganz ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen entstand bei stürmischen Nordwestwind und Schneefall frischer Triebschnee, der innerhalb der Auflage (weiche schichten, Graupel) sowie im Übergang zum Altschnee gestört werden kann. Schattseitig existiert zudem ein Altschneeproblem (kantige Kristalle, Schwimmschnee) im Bereich des Fundamentes. Zeitweise kräftiger Regen hat zwischen Donnerstagabend und Freitagmittag die Schneedecke bis auf ca.1600m durchfeuchtet und destabilisiert. Die folgende Abkühlung führt in diesen Lagen wiederum zu einer Stabilisierung, die Schneedecke gestaltet sich hier weitgehend kompakt. Feuchte Schmierschichten am Boden können in steilen Bereichen unter Umständen noch zu Gleitschneerutschen führen. </snowpackStructureComment>
+          <wxSynopsisComment>Die Berge stecken ganztätig in dichte Wolken und vor allem am Vormittag schneit es noch zeitweise ein wenig, am Nachmittag ziehen nur noch einzelne Schneeschauer durch. Der Höhenwind weht nur schwach bis mäßig aus östlichen Richtungen. Es kühlt vorübergehend weiter ab, die Temperaturen liegen in 1500m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag freundlicheres Bergwetter, leichter Temperaturanstieg im Tagesverlauf. Das Triebschneeproblem nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

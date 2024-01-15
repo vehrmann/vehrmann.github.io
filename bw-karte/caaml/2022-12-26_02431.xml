@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2431RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2431RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neu- und frischer Triebschnee sind störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; 2200 m überdeckte Schwachschichten im Altschnee sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer und älterer Triebschnee sowie Schwachschichten im Altschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>In hohen Lagen sind vor allem im kammnahen Steilgelände, in eingewehten Rinnen und Mulden sowie hinter Geländekanten frische und ältere Triebschneeansammlungen zu beachten. Umfang und Verbreitung nehmen mit der Seehöhe zu. Zudem sind oberhalb ca. 2200/2300 m besonders an steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelnen Wintersportler können Lawinen mittlerer Größe auslösen. Solche können teilweise die gesamte Schneedecke mitreißen und dann auch vereinzelt groß werden. An steilen Grashängen aller Expositionen unterhalb etwa 2200m können sich aus noch nicht entladenen Einzugsgebieten kleine bis mittlere Gleitschneelawinen von selbst lösen.</avActivityComment>
+          <snowpackStructureComment>Bis Dienstagmorgen sind bis 15cm Neuschnee in den Allgäuer Alpen, im Lechquellengebirge, in den Lechtaler Alpen und im Rätikon zu erwarten. In den übrigen Gebieten sind es bis 10cm. Vormittags können morgen noch bis zu 5 cm hinzukommen. Der starke Westwind zur Zeit des Schneefalls verfrachtet den Neuschnee und bildet störanfällige Triebschneeansammlungen. Vor allem in steilen Schattenhängen oberhalb etwa 2200 m ist der Schneedeckenaufbau ungünstig. Diese Gefahrenstellen sind von außen nicht erkennbar. Die meist geringmächtige oder unterdurchschnittliche Schneedecke ist bis gegen 2300 m feucht. Schitouren und Abfahrten im freien Gelände unterhalb der Walgrenze, teilweise auch unterhalb 2000 m, sind auf Grund fehlender bzw. nur geringmächtiger Schneebedeckung nicht lohnend. In tieferen Lagen ist vielerorts kein Schnee mehr vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Dienstag: Eine Kaltfront bringt Niederschlag, Schnee fällt zuerst gegen 1500m, in der Früh dann gegen rund 1000m oder tiefer. Dienstag: Anfängliche Schneeschauer werden vormittags immer weniger und die Nebelbänke lichten sich teilweise. Viel Sonne gibt es aber wohl kaum denn am Nachmittag ziehen die nächsten Wolkenfelder über die Gipfel. Vorübergehend kälter als zuletzt, Temperatur in 2000m: um -4 Grad. Höhenwind: der anfangs noch starke Westwind lässt tagsüber nach.</wxSynopsisComment>
+          <tendencyComment>Mit der Westströmung ziehen am Mittwoch ab und zu Wolkenfelder über die Gipfel. Mit den Temperaturen geht es wieder nach oben, Temperatur in 2000m: -6 bis -1 Grad, Höhenwind: mäßig bis stark aus West bis Südwest. Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2431RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2431RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus noch nicht entladenen Bereichen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unterhalb etwa 1800m ist nur sehr wenig bis kein Schnee mehr vorhanden.</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend geringe Lawinengefahr. An steilen, noch nicht entladenen Hängen können sich kleine Gleitschneelawinen von selbst lösen. Mit zunehmenderHöhe sind kleine, störanfällige Triebschneeansammlungen zu beachten.</avActivityComment>
+          <snowpackStructureComment>Die meist geringmächtige Schneedecke wurde bis in mittlere Lagen durchfeuchtet. Die milden Temperaturen begünstigten den weiteren Schneedeckenabbau. Es ist nur sehr wenig bis kein Schnee mehr vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Dienstag: Eine Kaltfront bringt Niederschlag, Schnee fällt zuerst gegen 1500m, in der Früh dann gegen rund 1000m oder tiefer. Dienstag: Anfängliche Schneeschauer werden vormittags immer weniger und die Nebelbänke lichten sich teilweise. Viel Sonne gibt es aber wohl kaum denn am Nachmittag ziehen die nächsten Wolkenfelder über die Gipfel. Vorübergehend kälter als zuletzt, Temperatur in 2000m: um -4 Grad. Höhenwind: der anfangs noch starke Westwind lässt tagsüber nach.</wxSynopsisComment>
+          <tendencyComment>Mit der Westströmung ziehen am Mittwoch ab und zu Wolkenfelder über die Gipfel. Mit den Temperaturen geht es wieder nach oben, Temperatur in 2000m: -6 bis -1 Grad, Höhenwind: mäßig bis stark aus West bis Südwest. Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

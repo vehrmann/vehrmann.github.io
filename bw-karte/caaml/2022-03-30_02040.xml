@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2040RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2040RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt durch Regeneintrag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem bei geringer Lawinengefahr beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Die prognostizierten Niederschläge fallen anfangs noch bis in höhere Lagen als Regen, womit die Schneedecke an Festigkeit verliert und aus steilen Hangbereichen mit Schneereserven Nassschnee- und Gleitschneerutsche nicht ausgeschlossen werden können. In höheren Lagen können am Nachmittag in kammnahen Leebereichen mit auflebendem Windeinfluss kleine Triebschneelinsen entstehen. In steilen Rinnen besteht zudem weiterhin Absturzgefahr auf harten Oberflächen. Aufgrund dichter Bewölkung herrschen oft schlechte Sichtbedingungen.</avActivityComment>
+          <snowpackStructureComment>Mit einsetzendem Niederschlag wird die oft bereits feuchte Schneedecke je nach Schneefallgrenze durch Regeneintrag vorerst weiter an- bzw. durchfeuchtet, stabilisiert sich in weiterer Folge mit fortschreitender Abkühlung vor allem in höheren Lagen. In Lagen mit Neuschnee verbindet sich dieser gut mit der Schneeoberfläche, nur vereinzelt können sich mit auflebendem Wind dünne Triebschneelinsen bilden, die sich vorerst aber noch nicht besonders störanfällig gestalten. Der Regen führt zu weiteren Ausaperung.</snowpackStructureComment>
+          <wxSynopsisComment>Ausgehend von einem Tiefdruckgebiet über Oberitalien stecken die Berge den ganzen Tag in meist dichten Wolken und es schneit bzw. regnet verbreitet. Die Schneefallgrenze sinkt bis zum Abend von ca. 1600m auf etwa 1200m ab. Die Höhenströmung dreht auf Nordost, der Wind bleibt aber schwach bis mäßig und wird erst in den Abendstunden etwas stärker. Das Temperaturniveau geht etwas zurück, in 2000m auf Nachmittagswerte um -2 Grad, in 1500m auf Werte um den Gefrierpunkt. </wxSynopsisComment>
+          <tendencyComment>Am Freitag sinkt die Schneefallgrenze weiter ab, bis Mittag schneit es mitunter kräftiger. Mit starkem bis stürmischem Wind aus Nordwest steigt die Schneebrettgefahr an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

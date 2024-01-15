@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1292RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1292RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen vereinzelt spontane Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Es herrscht allgemein geringe Lawinengefahr. Dennoch sind oberhalb von 1.400 m aus steilen Böschungen, Grashängen und Laubwäldern vereinzelt noch kleinere, spontane Gleitschneelawinen möglich. Die Bereiche unterhalb von Schneemäulern sollten daher möglichst gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Starker Regen und in Folge Sonne und ungewöhnlich milde Temperaturen um den Jahreswechsel haben die Schneedecke bis auf Gipfelniveau hinauf durchnässt. In den Schattseiten der Hochlagen ist die Oberfläche in Folge teilweise vereist und hart geworden. Die Schneedecke enthält derzeit keine wesentlichen Schwachschichten, kann aber mit der neuerlichen Erwärmung am Dienstag auf glattem Untergrund (Wiesenhänge, Laubwälder) wieder ins Gleiten kommen. Die meisten potenziellen Nass- und Gleitschneelawinen haben sich jedoch bereits entladen. Unter etwa 1.400 m ist kaum noch eine geschlossene Schneedecke zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Ostalpenraum liegt weiterhin in einer westlichen Höhenströmung. Eine schwach wetterwirksame Störung überquert am Dienstag die niederösterreichischen Gebirgsregionen. Sie bringt vor allem dichtere Wolkenfelder und anfangs unergiebigen Niederschlag, wobei die Schneefallgrenze rasch bis über das Gipfelniveau der höchsten Berge ansteigt. Der Höhenwind weht mäßig bis lebhaft aus West bis Südwest. Und die Temperaturen steigen nochmals kräftig an und erreichen zu Mittag in 2.000m +6 Grad, in 1.500m +8 Grad und in 1.000m +9 Grad.&#13;
+Am Mittwoch legt sich eine Kaltfront über die Ostalpen, gleichzeitig bildet sich ein Genuatief. Am gesamten östlichen Alpenbogen setzt im Laufe des Vormittages Niederschlag ein, wobei die Schneefallgrenze rasch von anfangs 1.000m bis in Tallagen sinkt. Die Temperaturen gehen deutlich zurück und es weht ab Mittag stürmischer Nordwestwind. Am Dreikönigstag setzen sich die Schneefälle in den Ybbstaler Alpen fort, weiter nach Osten hin werden sie seltener und hier lockern die Wolken zeitweise auf. Es bleibt aber überall kalt und stürmisch.  </wxSynopsisComment>
+          <tendencyComment>Ab Mittwochmittag Anstieg der Lawinengefahr durch die Bildung von frischem Triebschnee!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1305RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1305RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>kammnah, hinter Geländekanten,</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr in den höheren Gebirgslagen der Ybbstaler Alpen ist auf mäßig angestiegen. Neue Gefahrenstellen in Form von frischem Triebschnee haben sich  kleinräumig eher kammnah hinter Geländekanten sowie in Rinnen und Mulden gebildet. Eine Auslösung eines Schneebrettes ist bei großer Zusatzbelastung möglich. </avActivityComment>
+          <snowpackStructureComment>In den Ybbstaler Alpen sind in den Hochlagen zwischen 10cm und 15cm Neuschnee gefallen. Der  Schnee wird sich grundsätzlich gut mit der feuchten Altschneedecke verbinden können. In den schattseitigen Hochlagen lagerte  sich der Triebschnee teilweise auf einer härten Schicht ab. </snowpackStructureComment>
+          <wxSynopsisComment>Vor allem in den Ybbstaler Alpen stauen sich die Wolken bei zeitweiligem Schneefall. Der Wind kommt aus Nordwest und bläst oft sehr lebhaft, im Gipfelbereich auch stürmisch. Auf 1500m Seehöhe bewegen sich die Temperaturen um minus 7 Grad.&#13;
+ Am Freitag leichte Frostabschwächung, abnehmender Wind und im Gebirge wolkenlos. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr nimmt etwas ab. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1305RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1305RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in Rinnen und steilen Mulden, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Generell geringe Lawinengefahr, aber auf Triebschneelinsen achten!</avActivityHighlights>
+          <avActivityComment>In den Türnitzer Alpen, im Rax- Schneeberggebiet sowie am Wechsel bleibt die Lawinengefahr  gering. Am Mittwoch sind nur wenige Zentimeter Neuschnee dazugekommen, die teilweise verfrachtet wurden. Kleinräumige verteilte Triebschneelinsen in den dafür typischen Geländehohlformen (Rinnen, Mulden) sorgen für nur ganz lokale Gefahrenstellen. &#13;
+</avActivityComment>
+          <snowpackStructureComment>Etwas Neuschnee lagerte sich bis in die Hochlagen auf einer meist nassen bis feuchten Altschneedecke ab. Der Neuschnee hat  sich vorerst recht gut mit der meist feuchten Altschneedecke verbunden. Nur in den schattseitigen Hochlagen wurde der gering mächtige Neuschnee auf einer harten Altschneedecke abgelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Im Osten zeigt sich der Himmel abwechselnd sonnig und bewölkt. Zum Rax-Schneeberggebiet sowie zum Wechsel schaffen es nur einzelne Schneeschauer. Der Wind kommt aus Nordwest und bläst oft sehr lebhaft, im Gipfelbereich auch stürmisch. Auf 1500m Seehöhe bewegen sich die Temperaturen um minus 7 Grad.&#13;
+Am Freitag leichte Frostabschwächung, abnehmender Wind und im Gebirge meist wolkenlos. </wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

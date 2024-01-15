@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3089RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3089RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - vereinzelte Gefahrenstellen durch Triebschnee - weiterhin die Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Dennoch ist auf vereinzelte, dünne Triebschneelinsen in Einfahrten zu steilen Rinnen und Mulden zu achten. Diese sind vor allem im erweiterten Ostsektor störanfällig. Exponierte Bereiche sind oft hart und vereist, hier besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Auf einer windbearbeiteten und durch die Abkühlung meist verharschten Schneeoberfläche haben sich durch den stürmischen Wind vereinzelt dünne Triebschneelinsen gebildet, die mitunter nicht ausreichend mit der Altschneedecke verbunden sind. Darunter ist die Schneedecke weitgehend stabil und kompakt, aber  bis in höhere Lagen bereits feucht. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist. In tiefen bis mittleren Lagen existiert verbreitet keine geschlossene Schneedecke mehr.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag lässt der Westwind tagsüber nach, bevor er am Abend wieder stürmisch wird. Vor allem am Vormittag lässt sich immer wieder die Sonne blicken, ab Mittag überwiegen wieder die Wolken. Die Temperaturen in 1500 m steigen im Laufe des Tages von -8 Grad in der Früh auf etwa -2 Grad am Abend. </wxSynopsisComment>
+          <tendencyComment>Am Montag dreht die Strömung auf Südwest und es wird deutlich milder. Das Triebschneeproblem lässt nach, die Ausaperung schreitet weiter voran und die Lawinengefahr bleibt gering. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

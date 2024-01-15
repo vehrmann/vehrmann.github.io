@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3477RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-24T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3477RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-24T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-25T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen ist frischer Triebschnee störanfällig</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800m mäßig, unterhalb davon gering. Das Hauptproblem ist frischer Triebschnee. Vereinzelte Gefahrenstellen befinden sich im kammnahen, nord- über ost- bis südgerichteten Steilgelände sowie in frisch eingewehten Rinnen und Mulden. Der einzelne Skifahrer kann hier kleine Schneebretter auslösen. Die Absturzgefahr im Steilgelände ist dabei höher einzuschätzen als die Gefahr, verschüttet zu werden.&#13;
+Überall dort, wo noch ausreichend Schnee liegt, ist aus steilem Gelände jederzeit die Selbstauslösung mittelgroßer Gleitschneelawinen möglich. &#13;
+Aus felsdurchsetztem Steilgelände kann der Neuschnee in Form kleiner Lockerschneelawinen abgehen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke im Bayerischen Alpenraum ist stark zurückgegangen und bis in die Hochlagen hinein vollständig durchnässt. Schneeschauer sorgen bis Dienstagabend für etwas Neuschnee, der vor allem in höheren Lagen durch starken Nordwestwind verfrachtet wird. In den Hochlagen bilden sich kleine Triebschneeansammlungen, die störanfällig sein können. In mittleren Lagen liegt der wenige Neuschnee direkt auf dem warmen Boden, der schnell wieder ausapert, oder verbindet sich gut mit einer nassen Altschneedecke.</snowpackStructureComment>
+          <tendencyComment>Das Wetter bleibt kalt und wechselhaft. Die Lawinengefahr wird sich nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3477RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-24T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3477RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-24T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-25T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Auf Wanderwegen die Gefahr von am Boden abgleitenden Schneedeckenresten von oberhalb beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Problematisch ist Gleitschnee. Überall dort, wo noch ausreichend Schnee liegt, ist aus steilem Gelände jederzeit mit Selbstauslösungen meist kleiner Lawinen zu rechnen, die am glatten Boden abrutschen. &#13;
+Aus felsdurchsetztem Steilgelände kann der wenige Neuschnee in Form von Lockerschneerutschen abgehen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke im Bayerischen Alpenraum ist stark zurückgegangen und bis in höhere Lagen vollständig durchnässt. Schneeschauer sorgen bis Dienstagabend für etwas Neuschnee, der vor allem in höheren Lagen durch starken Nordwestwind verfrachtet wird. Der wenige Neuschnee liegt direkt auf dem warmen Boden, der schnell wieder ausapert, oder verbindet sich gut mit einer nassen Altschneedecke.</snowpackStructureComment>
+          <tendencyComment>Das Wetter bleibt kalt und wechselhaft. Die Lawinengefahr wird sich nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

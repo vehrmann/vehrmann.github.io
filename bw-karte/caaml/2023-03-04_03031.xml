@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3031RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3031RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hochalpin im Steilgelände Triebschnee meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hochalpin Triebschnee meiden - geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die geringe Lawinengefahr überwiegt. Es gibt nur einzelne Gefahrenstellen im sehr hoch gelegenen schattingen Steilgelände wo Schneebrettlawinen durch Zusatzbelastung angesprochen werden könnten. Nur an wenigen Stellen im Gelände sind kleine bis teils mittlere Schneebrettlawinen möglich. Triebschnee sollte daher kammnah, hinter Geländekanten und in Mulden sowie Rinnen gemieden werden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich schon gut setzen und ist überwiegend stabil. Zuletzt gebildeter Triebschnee konnte sich mit der Altschneedecke schon recht gut verbinden. Hochgelegen können ältere Triebschneeablagerungen vor allem schattseitig noch dünne Zwischenschichten enthalten. Die Schneeoberfläche ist in den Hochlagen windgepresst, windexponierte Bereiche sind abgeweht, schattseitig ist auch noch lockerer Schnee vorhanden und sonnseitig meist nur dünn verharscht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag stecken die Berge in dichten Wolken, die Sicht ist eingeschränkt und es schneit immer wieder unergiebig. In den freien Lagen weht kalter Wind aus westlicher Richtung mit 30 bis 60 km/h. In 1500 m -5 Grad, in 2000 um -8 Grad.&#13;
+Wolken in mehreren Niveaus sorgen am Montag für diffuses Licht oder schränken die Sicht auch ein. Niederschlag fällt kaum. Der Wind weht in den freien Lagen mäßig stark aus West bis Süd. In 1500 m -4 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2283RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2283RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frische Triebschneeansammlungen sind störanfällig und sollten im Steilgelände gemieden werden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neu- und Triebschnee liegen auf sehr störanfälligen Schwachschichten: Potenzial für großflächige Bruchausbreitungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunahme der Gefahrenstellen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf an und erreicht im Laufe des Nachmittags Gefahrenstufe 3, Erheblich. &#13;
+Vormittag: Die frischen Triebschneeansammlungen, welche sich mit starkem, mitunter stürmischem Südwind seit Donnerstagnacht gebildet haben, sind sehr störanfällig. Sie können insbesondere an Schattenhängen oberhalb der Waldgrenze von einzelnen Wintersportlern ausgelöst werden und vereinzelt mittlere Größe erreichen. Gefahrenstellen findet man vor allem hinter Geländekanten, in Mulden und Senken sowie allgemein in eher geschützten Bereichen, wo die Schneedecke über eine größere Fläche gleichmäßig verteilt ist. &#13;
+Nachmittag: Mit zunehmendem Niederschlag und einem Wechsel der Windrichtung am Samstagnachmittag werden Gefahrenstellen überschneit und sind somit kaum mehr zu erkennen. Es bilden sich neue, frische Triebschneeansammlungen und die Gefahrenstellen nehmen in Anzahl und Größe zu. Sie finden sich in allen Expositionen.</avActivityComment>
+          <snowpackStructureComment>Besonders an Schattenhängen ist der Schneedeckenaufbau derzeit ungünstig. Meist findet man im unteren Teil der (noch gering mächtigen) Schneedecke eine Abfolge von Schmelzkrusten und kantigen Kristallen, welche sich - je nach Höhenlage - in den letzten Wochen und Monaten ausgebildet haben. Vereinzelt ist das schwache Schneedeckenfundament  in windgeschützen Gebieten oberhalb der Waldgrenze von Triebschneepaketen überdeckt, welche entsprechend störanfällig sind. Wind und Neuschnee führen besonders ab Samstagnachmittag zur vermehrten Bildung  von frischen Triebschneeansammlungen. Windgeschützt, im Bereich der Waldgrenze oder auch auf Almflächen und Lichtungen unter der Waldgrenze findet man häufig Oberflächenreif auf der Schneeoberfläche, welcher mit dem Neuschnee eingeschneit wird. &#13;
+In stark (insb. vom Südföhn) windbeeinflussten Gebieten ist die Ausgangssituation vor den Schneefällen etwas günstiger: Die Schneedecke ist dort sehr unregelmäßig verteilt und inhomogen. Schwachschichten sind entsprechend etwas weniger flächig vorhanden und mögliche Lawinen bleiben kleiner. Auch sollte dort Oberflächenreif - als potenzielle zukünftige Schwachschicht - kein Thema sein.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Die Berge stecken in dichten Wolken, am Vormittag kann es vereinzelt ein wenig schneien, am Nachmittag legt der Schneefall zu. In den Hochlagen frischt mäßig starker Nordwestwind auf. In 2000m kühlt es von -3 auf -8 Grad ab, in 3000m hat es um -8 Grad.&#13;
+Sonntag: Am Sonntag stecken die Berge weiter meist in Wolken und es schneit zeitweise. In den Hochlagen weht der Nordwestwind zum Teil mit Spitzen um 80 km/h und sorgt für Schneeverfrachtungen. Es ist sehr kalt, in 2000m hat es um -13 Grad, in 3000m um -17 Grad. Die Kälte wird durch den Wind noch verschärft.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr steigt in der Nacht auf Sonntag weiter an. Neuschnee und mäßig bis starker Nordwestwind bei kalten Temperaturen führen zu intensiven Schneeverfrachtungen. Neu- und Triebschnee sind auf der schwachen Altschneedecke sehr störanfällig. Auch spontane Lawinen sind wahrscheinlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2283RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2283RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-09T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Im extremen Steilgelände (&gt; 40°) können schon kleine Lawinen große Konsequenzen mit sich bringen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-12-10T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-12-10T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Sei in allen Höhenlagen vorsichtiger: Neu- und Triebschnee sind störanfällig und Gefahrenstellen zunehmend schwieriger zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen nehmen ab dem Nachmittag in Anzahl und Größe zu</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt ab dem Nachmittag mit etwas Neuschnee und Wind auf die Gefahrenstufe 2, Mäßig an.&#13;
+Am Vormittag geht die Gefahr von kleinen, frischen Triebschneepaketen aus, welche bereits bei geringer Zusatzbelastung an vereinzelten Stellen ausgelöst werden können. Die Gefahrenstellen finden sich insbesondere an gipfel- bzw. kammnahen Nord- und Osthängen. Lawinen sind jedoch klein und die Mitreiß- und Absturzgefahr in der Folge einer Auslösung im extremen Steilgelände (&gt; 40°) ist höher einzuschätzen, als die Gefahr verschüttet zu werden.&#13;
+Am Nachmittag führt auflebender Nordwestwind zur Bildung neuer, störanfälliger Triebschneeansammlungen. Diese nehmen mit etwas Schneefall auch an Größe zu und können Wintersportlern zunehmend gefährlich werden. Gefahrenstellen liegen oberhalb der Waldgrenze, im Windschatten hinter Geländekanten sowie in Mulden und Rinnen. Sie sind schwierig zu erkennen.</avActivityComment>
+          <snowpackStructureComment>Der Schneedeckenaufbau der derzeit noch recht geringmächtigen Schneedecke ist oft ungünstig. Der Schnee zeigt sich bis zum Boden hin aufbauend umgewandelt mit z.T. eingelagerten Schmelzkrusten. An der Schneeoberfläche findet man besonders im Waldgrenzbereich sowie darunter Oberflächenreif. Dies auch in geschützten Bereichen oberhalb der Waldgrenze. Neu- und Triebschnee wird auf diese schwache Altschneedecke abgelagert und ist entsprechend störanfällig. Etwas besser ist die Situation an Sonnenhängen oder auch dort, wo der Wind für eine sehr unregelmäßige Verteilung des Schnees gesorgt hat. </snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Die Berge stecken in dichten Wolken, am Vormittag kann es vereinzelt ein wenig schneien, am Nachmittag legt der Schneefall zu. In den Hochlagen frischt mäßig starker Nordwestwind auf. In 2000m kühlt es von -3 auf -8 Grad ab, in 3000m hat es um -8 Grad.&#13;
+Sonntag: Am Sonntag stecken die Berge weiter meist in Wolken und es schneit zeitweise. In den Hochlagen weht der Nordwestwind zum Teil mit Spitzen um 80 km/h und sorgt für Schneeverfrachtungen. Es ist sehr kalt, in 2000m hat es um -13 Grad, in 3000m um -17 Grad. Die Kälte wird durch den Wind noch verschärft.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr steigt in der Nacht auf Sonntag weiter an. Neuschnee und mäßig bis starker Wind bei kalten Temperaturen führen zu intensiven Schneeverfrachtungen. Neu- und Triebschnee sind auf der schwachen Altschneedecke störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

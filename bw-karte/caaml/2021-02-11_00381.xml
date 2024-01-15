@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID381RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID381RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schneearme Hochlagen, Übergänge viel zu wenig Schnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen weiterhin das Altschneeproblem und störanfällige vorwiegend hochalpine Verfrachtungen beachten!</avActivityHighlights>
+          <avActivityComment>Vorwiegend in sehr hohen Lagen, lokal auch ab der Waldgrenze gibt es kammnahe störanfällige Verfrachtungen durch Wind um Nord. Diese Verfrachtungen können insbesondere durch große, aber auch geringe Zusatzbelastung ausgelöst werden und sind daher zu beachten. Daneben ist in schatt- und nordseitigen Hochlagen unverändert auf das Altschneeproblem zu achten. Im Steilgelände können hier durch Zusatzbelastung und tieferliegende, bodennahe Schwachschichten Schneebrettlawinen ausgelöst werden. Solche Gefahrenstellen sind vor allem schneearme Bereiche und Übergänge von mehr zu wenig Schnee. </avActivityComment>
+          <snowpackStructureComment>Durch den zuletzt gefallenen kalten, lockeren Neuschnee von rund 10 bis 15 Zentimeter und Windeinfluss gibt es vor allem hochalpin, teilweise ab der Waldgrenze Verfrachtungen, die störanfällig sind. Die Altschneedecke selbst ist gesetzt, gefestigt und oberflächig windgeprägt. Teilweise sind Eis- oder Harschschichten freigefegt. Vor allem in den schatt- und nordseitigen Hochlagen enthält sie immer noch Schwachschichten, die noch gestört werden können. In den tiefen und mittleren Lagen liegt nur wenig Schnee, der im Inneren nass bzw. feucht ist. Über der Waldgrenze ist die Schneedecke sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag bringt wolkenloses, aber auch sehr kaltes Bergwetter. In 1500 m -13 Grad, in 2000 m -14 Grad. Mäßiger bis lebhafter Nordostwind, oberhalb der Waldgrenze, meist um 20 bis 40 km/h.&#13;
+Auch am Samstag wolkenlos und sehr kalt. In 1500 m -16 Grad, in 2000 m -17 Grad. Spürbarer Nordwind, der das Ganze noch deutlich kälter macht.</wxSynopsisComment>
+          <tendencyComment>Durch die Kälte keine wesentliche Änderung der Lawinensituation. Vereinzelt Triebschnee- und verstecktes Altschneeproblem beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID381RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID381RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - lokal kleinräumig Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe Lawinengefahr. In Kammlagen sind im Gipfelbereich nur einzelne kleinräumige Verfrachtungen vorhanden, die auch störanfällig und zu beachten sind. Allgemein ist eine nur sehr geringmächtige Schneedecke vorhanden.</avActivityComment>
+          <snowpackStructureComment>Die zuletzt gefallenen nur wenige Zentimeter Neu- und eventuell gebildeter Triebschnee liegen auf einer geringmächtigen Schneedecke, die weitgehend gefestigt ist. Dazwischen ist aber eine dünne lockere Schicht eingelagert, die die nur kleinräumigen Verfrachtungen teilweise störanfällig machen. Abgewehte Bereiche sind vereist oder verharscht.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag bringt wolkenloses, aber auch sehr kaltes Bergwetter. In 1500 m -13 Grad, in 2000 m -14 Grad. Mäßiger bis lebhafter Nordostwind, oberhalb der Waldgrenze, meist um 20 bis 40 km/h.&#13;
+Auch am Samstag wolkenlos und sehr kalt. In 1500 m -16 Grad, in 2000 m -17 Grad. Spürbarer Nordwind, der das Ganze noch deutlich kälter macht.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

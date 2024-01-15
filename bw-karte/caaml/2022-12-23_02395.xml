@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2395RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2395RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Hochalpin ungünstiger Aufbau der Altschneedecke mit kantigen, weichen Schichten an der Schneedeckenbasis</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwächung der Schneedecke durch Regen in den Nachtstunden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem im Hochgebirge</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2200m ERHEBLICH, darunter MÄSSIG. &#13;
+Schwachschichten im Altschnee können an Schattenhängen oberhalb von rund 2200m stellenweise leicht ausgelöst werden. Dies insbesondere an eher windberuhigten Hängen, Felswandfüßen oder hinter Geländekanten. Gefahrenstellen sind schwer zu erkennen. Lawinen können mittlere Größe erreichen. Zudem sind die frischen Triebschneeansammlungen störanfällig. Dies besonders an steilen (&gt;30°) Nord- und Osthängen  oberhalb von rund 2200m. Gefahrenstellen hinter Geländekanten sowie in Rinnen und Mulden anzutreffen. Die Größe und Störanfälligkeit der Triebschneepakete nimmt mit der Höhe zu. Lawinen können mittelgroß werden. Auch ein Durchreißen in Schwachschichten in der Altschneedecke ist möglich. &#13;
+Mit Regen sind in den Nachtstunden unterhalb von rund 2200m nasse Lockerschneerutsche aus extrem steilen Hängen oder Böschungen zu erwarten. Zudem sind weiterhin Gleitschneelawinen aus steilen Grashängen aller Expositionen möglich. Aufgrund der geringen Schneemächtigkeit bleiben Lawinen klein.</avActivityComment>
+          <snowpackStructureComment>An hochalpinen Schattenhängen ist der Schneedeckenaufbau durch eine Abfolge von Schmelzkrusten und kantigen Kristallen im Schneedeckenfundament bzw. vereinzelt auch durch eingeschneiten Oberflächenreif oberhalb 2200m teilweise ungünstig. Besonders gilt dies für eher windberuhigte Hänge. Unterhalb 2600m bewirkte Sonne und Wärme zu Wochenbeginn zumindest &#13;
+eine oberflächliche Anfeuchtung der Schneedecke. Unter 2000m und auf &#13;
+Südhängen etwas weiter hinauf wurde sie oft bis zum Boden hin &#13;
+durchfeuchtet. Unter 1800m liegt nur mehr wenig Schnee.&#13;
+In der Nacht auf Samstag, 24.12. regnet es anfänglich bis auf 2200m hinauf, in den Morgenstunden kühlt es etwas ab. In der Höhe fällt bis Samstagmittag 5 bis 15 cm Schnee, welcher mit starkem Wind aus westlichen Richtungen verfrachtet wird. Triebschneeansammlungen werden besonders an Nord- und Osthängen in der Höhe auf eine lockere Schneeoberfläche abgelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Am Samstag schränken Wolken die Sicht im Tauernbereich zum Teil ein oder sorgen generell für diffuses Licht. Bis zum Vormittag kann es noch zeitweise leicht regnen oder schneien, oberhalb von 1600 bis 1900m geht der Regen in Schneefall über. Ab Mittag bleibt es mehrheitlich trocken, die Sicht wird etwas besser. Der Wind weht in exponierten Hochlagen mit 40 bis 60 km/h aus Südwest bis Nordwest. In 2000m um -1 Grad, in 3000m um -7 Grad.&#13;
+Sonntag: Am Sonntag sehr günstiges Bergwetter mit viel Sonnenschein. Restwolken an den Berghängen bilden sich zurück, die Sicht ist meist uneingeschränkt. Der Wind weht nur schwach und es ist extrem mild. In 2000m hat es 3 bis 7 Grad, in 3000m zu Mittag um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Die frischen Triebschneeansammlungen stabilisieren sich etwas. Sonneneinstrahlung führt zu kleinen, spontanen Lockerschneelawinen aus felsdurchsetztem Steilgelände. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2395RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2395RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>Kammnah und kammfern, Störanfälligkeit nimmt mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwächung der Schneedecke durch Regen in den Nachtstunden unterhalb von rund 2200m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem in der Höhe, Nass- und Gleitschneelawinen in den Nachtstunden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄSSIG. &#13;
+Oberhalb 2200m bilden sich mit Neuschnee und starkem Westwind frische Triebschneepakete, welche v.a. an sehr steilen Schattenhängen (&gt;35°)  von einzelnen Wintersportlern als Lawine ausgelöst werden können. Auslösewahrscheinlichkeit und Größe nehmen mit der Höhe zu. Lawinen bleiben meist klein. Vorsicht besonders im felsigen oder absturzgefährdeten Gelände. In den neuschneereichen Gebieten sind Gefahrenstellen umfangreicher und die Gefahr ist dort entsprechend etwas höher.&#13;
+In den Nachtstunden auf Samstag sind mit Regen bis auf 2200m  spontane Nass- und Gleitschneelawinen aus steilen Hängen oder Böschungen aller Expositionen zu erwarten. Die Lawinen bleiben aufgrund der geringmächtigen Schneedecke meist klein, können aber in den schneereicheren Gebieten sehr vereinzelt auch mittelgroß werden. Mit Absinken der Schneefallgrenze in den frühen Morgenstunden geht auch die spontane Aktivität zurück.</avActivityComment>
+          <snowpackStructureComment>In der Höhe konnte sich die Schneedecke mit den warmen Temperaturen seit Beginn dieser Woche setzen und verfestigen. Schwachschichten in der Altschneedecke findet man nur mehr vereinzelt an windberuhigten Schattenhängen entlang der Tauern. Unterhalb 2600m bewirkte Sonne und Wärme zu Wochenbeginn zumindest eine oberflächliche Anfeuchtung der Schneedecke. Unter 2000m und auf Südhängen etwas weiter hinauf wurde sie oft bis zum Boden hin durchfeuchtet. Unter 1800m liegt nur mehr wenig Schnee.&#13;
+In der Nacht auf Samstag, 24.12. regnet es anfänglich bis auf 2200m hinauf, in den Morgenstunden kühlt es etwas ab. In der Höhe fällt bis Samstagmittag entsprechend etwas Schnee, welcher mit starkem Wind aus westlichen Richtungen verfrachtet wird. Triebschneeansammlungen werden besonders in der Höhe an Schattenhängen auf eine lockere Schneeoberfläche abgelagert, bleiben aber meist klein. </snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Am Samstag schränken Wolken die Sicht im Tauernbereich zum Teil ein oder sorgen generell für diffuses Licht. Bis zum Vormittag kann es noch zeitweise leicht regnen oder schneien, oberhalb von 1600 bis 1900m geht der Regen in Schneefall über. Ab Mittag bleibt es mehrheitlich trocken, die Sicht wird etwas besser. Der Wind weht in exponierten Hochlagen mit 40 bis 60 km/h aus Südwest bis Nordwest. In 2000m um -1 Grad, in 3000m um -7 Grad.&#13;
+Sonntag: Am Sonntag sehr günstiges Bergwetter mit viel Sonnenschein. Restwolken an den Berghängen bilden sich zurück, die Sicht ist meist uneingeschränkt. Der Wind weht nur schwach und es ist extrem mild. In 2000m hat es 3 bis 7 Grad, in 3000m zu Mittag um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Rückgang der Gefahr. Mit warmen Temperaturen verfestigen sich die Triebschneeansammlungen, aus extrem steilen Hängen (&gt;40°) sind mit Sonneneinstrahlungen kleine Lockerschneerutsche möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2395RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2395RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>Kammnah und kammfern, Störanfälligkeit nimmt mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwächung der Schneedecke durch Regen in den Nachtstunden unterhalb von rund 2200m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee ist die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2200m ERHEBLICH, darunter MÄSSIG. Mit viel Neuschnee und Wind aus westlichen Richtungen bilden sich in der Höhe umfangreiche Triebschneeansammlungen. Diese sind besonders an Nord- und Osthängen störanfällig und können bereits von einzelnen Wintersportlern ausgelöst werden. Gefahrenstellen finden sich oberhalb 2200m hinter Geländekanten, in Rinnen und Mulden. Die Auslösewahrscheinlichkeit nimmt mit der Höhe zu. Lawinen können mittlere Größe erreichen.&#13;
+Zudem sind in der Nacht auf Samstag mit Regen bis 2200m hinauf kleine nasse Lockerschneerutsche und Gleitschneelawinen zu erwarten. Dies aus extrem steilen Hängen oder Böschungen aller Expositionen. Die Auslösewahrscheinlichkeit nimmt mit Absinken der Schneefallgrenze am Samstagmorgen wieder ab. </avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Samstag, 24.12. regnet es anfänglich bis auf 2200m hinauf, in den Morgenstunden kühlt es etwas ab. In der Höhe werden bis Samstagmittag rund 20 bis 40cm Neuschnee gefallen sein. Mit stark bis stürmischem Wind aus westlichen Richtungen wird der lockere Neuschnee umfangreich verfrachtet. Triebschneeansammlungen werden besonders in der Höhe auf eine lockere Schneeoberfläche abgelagert und sind dort störanfällig. Die Altschneedecke ist recht unregelmäßig verteilt, mit den warmen Temperaturen seit Wochenbeginn konnte sich diese gut verfestigen. Unter 2000m und auf Südhängen ist die Schneedecke oft feucht oder nass, unter 1800m liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Bis zum Vormittag kann es noch zeitweise leicht regnen oder schneien, oberhalb von 1600 bis 1900m geht der Regen in Schneefall über. Ab Mittag bleibt es mehrheitlich trocken, die Sicht wird etwas besser. Der Wind weht in exponierten Hochlagen mit 40 bis 60 km/h aus Südwest bis Nordwest. In 2000m um -1 Grad, in 3000m um -7 Grad.&#13;
+Sonntag: Am Sonntag sehr günstiges Bergwetter mit viel Sonnenschein. Restwolken an den Berghängen bilden sich zurück, die Sicht ist meist uneingeschränkt. Der Wind weht nur schwach und es ist extrem mild. In 2000m hat es 3 bis 7 Grad, in 3000m zu Mittag um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Leichter Rückgang der Gefahr. Neu- und Triebschnee verfestigen sich etwas. Mit Sonneneinstrahlung kommt es zu spontanen Lockerschneelawinen aus felsdurchsetztem Gelände.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2395RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2395RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit einsetzendem Regen, vereinzelt, klein</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt nasse Lockerschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Mit etwas Regen sind unterhalb 2200m kleine nasse Lockerschneelawinen möglich. An steilen Grashängen sind kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wurde mit Wärme und teilweise Regen seit Wochenbeginn an bzw. auch durchfeuchtet. In der Nacht auf Samstag regnet es erneut leicht bis auf etwa 2200m. Darüber fällt nur sehr wenig Neuschnee. In den höheren Lagen kann sich die Oberfläche mit der Abkühlung im Tagesverlauf etwas festigen. Die Schneehöhen sind unterdurchschnittlich. In tiefen Lagen liegt sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Samstag: Am Samstag, dem Heiligen Abend, überwiegen meist die Wolken. Es bleibt meist trocken. Die Sonne zeigt sich nur zwischendurch ein wenig. Der Wind weht aus West bis Nordwest, im Mittel mit 20 bis 40 km/h. In 1000m hat es 7 Grad, in 2000m 2 Grad, in 3000m um -5 Grad.&#13;
+Sonntag: Am Sonntag, dem Christtag kann man sich sehr gutes Bergwetter erwarten. Zum Teil scheint ungetrübt die Sonne. Nur mäßiger Wind aus westlicher Richtung mit Spitzen zwischen 20 und 40 km/h.  Anhaltend mild mit Werten in 2000m um 4 Grad und in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>weiterhin GERINGE Gefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2395RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2395RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur mehr vereinzelt, aus nicht entladenen sehr steilen Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend GERING. Nur mehr vereinzelt sind aus sehr steilen nicht entladenen Bereichen spontane kleine nasse Lockerschnee- oder Gleitschneelawinen möglich. Auf Grund der unterdurchschnittlichen Schneehöhen sind die Tourenmöglichkeiten eingeschränkt.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wurde durch Regen an bzw. auch durchfeuchtet. In der Nacht auf Samstag regnet es erneut bis über Gipfelniveau. In den höheren Lagen kann sich die Oberfläche mit der Abkühlung im Tagesverlauf etwas festigen. Die Schneehöhen sind unterdurchschnittlich. Die tiefen Lagen sind überwiegend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag halten sich am Vormittag noch oft dichte Wolken mit unergiebigem Regen und Schneefall (Schneefallgrenze 1600 bis 1800 m). Ab Mittag setzt sich trockenes Wetter durch, die Sicht wird vorübergehend etwas besser. In 1500 m um 1 Grad, in 2000 m um -3 Grad. Der Wind weht in exponierten Lagen mit 40 bis 60 km/h aus westlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Keine wesentlich Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

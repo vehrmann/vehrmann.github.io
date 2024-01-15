@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1155RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1155RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem in den höchsten Lagen der bayerischen Alpen</avActivityHighlights>
+          <avActivityComment>Oberhalb 2200 m herrscht eine mäßige Lawinengefahr. Das Hauptproblem sind störanfällige Zwischenschichten im Altschneepaket. Schneebrettlawinen können in den Hochlagen an schattigen Steilhängen insbesondere mit großer Zusatzbelastung ausgelöst werden, dort vor allem an Stellen mit geringer Schneehöhe, zum Beispiel bei der Einfahrt zu Rinnen und Mulden. Ausgelöste Lawinen können mittlere Größe erreichen. &#13;
+In mittleren Lagen ist weiterhin die Selbstauslösung vereinzelter Gleitschneelawinen an glatten und steilen Wiesenhängen möglich. Gleitschneelawinen sind meist klein, können im Allgäu aber nach wie vor mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten Tagen bei milden Temperaturen allgemein gut gesetzt und verfestigt. Bis in die Hochlagen bedeckt ein Harschdeckel unterschiedlicher Dicke die Schneedecke. Störanfällige Schichten aus aufgebauten Schneekristallen gibt es in den Hochlagen an der Schneedeckenbasis und im Bereich älterer Triebschneepakete. Schattseitig sind diese Schichten ausgeprägter und hier ist auch eine Bruchfortpflanzung wahrscheinlicher. In tiefen und mittleren Lagen ist die Schneedecke zum Boden hin feucht aber kompakt. Gleitbewegungen sind weiterhin nicht ausgeschlossen.</snowpackStructureComment>
+          <tendencyComment>Trotz geringfügigem Neuschnee im Osten wird die  Lawinengefahr in den nächsten Tagen weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1155RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1155RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gleitschneelawinen möglich.</avActivityHighlights>
+          <avActivityComment>Es herrscht eine geringe Lawinengefahr. In mittleren Lagen ist weiterhin die Selbstauslösung vereinzelter Gleitschneelawinen an glatten und steilen Wiesenhängen möglich. Nach Süden exponierte Hänge sind häufiger betroffen. Gleitschneelawinen sind meist klein, können im Allgäu aber auch mittlere Größe erreichen. Ansonsten können in Gipfellagen vereinzelt kleine  Schneebrettlawinen an extrem steilen Hängen mit großer Zusatzbelastung ausgelöst werden. Die Absturzgefahr ist allgemein größer einzuschätzen als die Gefahr verschüttet zu werden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten Tagen bei milden Temperaturen gut gesetzt und verfestigt. Die Schneeoberfläche ist verharscht und taut tagsüber südseitig oberflächlich an. Zum Boden hin ist der Schnee feucht aber kompakt. Gleitbewegungen sind weiterhin nicht ausgeschlossen. Störanfällige Schichten aus aufgebauten Schneekristallen finden sich vereinzelt an schattigen Hängen der Gipfellagen im Bereich von Harschdeckeln.</snowpackStructureComment>
+          <tendencyComment>Trotz geringfügigem Neuschnee im Osten wird sich die Lawinengefahr in den nächsten Tagen kaum verändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

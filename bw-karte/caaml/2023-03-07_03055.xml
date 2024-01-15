@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3055RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3055RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur geringe Lawinengefahr mit wenig Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unverändert gering. Kleine kammnahe Triebschneeablagerungen vorwiegend im Nordsektor sollten hinter Geländekanten und in steilen Mulden sowie Rinnen gemieden werden. Im sehr hoch gelegenen schattigen Steilgelände gibt es einzelne Gefahrenstellen, wo kleine bis teils mittlere Schneebrettlawinen durch Zusatzbelastung ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gesetzt, überwiegend stabil und wird bei Regen etwas angefeuchtet. Vor allem schattseitig und hochgelegen sind teils noch dünne Schwachschichten im Triebschnee enthalten. Die Schneeoberfläche ist in den Hochlagen windgepresst, windexponierte Bereiche sind abgeweht, hart und auch eisig, schattseitig gibt es auch noch lockeren Schnee und sonnseitig einen Harschdeckel.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen oft schon einige hohe Wolkenfelder über die Gipfel hinweg, welche die Sicht meist diffus erscheinen lassen. Im Lauf des Nachmittags ist auch kurzzeitig etwas Regen möglich. Der Wind weht mäßig, in hochalpinen Lagen des Dachsteins teils lebhaft aus Süd bis Südwest. In 1500 m milder mit 5 Grad am Nachmittag, in 2000 m um -2 Grad.&#13;
+Der Donnerstag bringt wiederholt dichtere Wolken, zeitweise ziehen rasch Regen- und Schneeschauer durch (Schneefallgrenze um 1700 m). Der Wind weht stark bis stürmisch aus West, in exponierten Lagen sind durchaus auch Orkanböen möglich. In 1500 m 4 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr trotz starkem bis stürmischem Wind.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

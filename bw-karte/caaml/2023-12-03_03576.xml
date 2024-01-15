@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3576RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3576RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten, kammnah, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einwehungen sind leicht zu stören</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist oberhalb der Waldgrenze ERHEBLICH (3), darunter MÄßIG. Hauptproblem ist der frische Triebschnee. Er kann im Steilgelände bereits durch einzelne Wintersportler:innen als mittlere bis große Schneebrettlawine ausgelöst werden. Derartige Gefahrenstellen gibt es vor allem auf nordost- über ost- bis südschauenden, kammnahen Steilhängen und in Rinnen. Daneben gibt es Gefahrenstellen (ohne Windeinfluss) auch in Steilhängen anderer Expositionen, deren Auslösung aber meist großer Zusatzbelastung (Sturz, Stapfen o.ä.) bedarf. Aus extrem steilem Gelände bis etwa 2400m hinauf sind spontan einige kleine und mittlere Gleitschneelawinen möglich. Aus hochalpinen Einzugsgebieten können Lawinen auch Staubanteil entwickeln.</avActivityComment>
+          <snowpackStructureComment>Der ergiebige Neuschnee vom Wochenende hat sich gesetzt, die Einsinktiefen liegen in windgeschützen Bereichen der Hochlagen aber immer noch bei beachtlichen 40 bis 70 cm. Der frische Schnee wurde in exponierten Kammlagen von kräftigem Wind aus West bis Nordwest zumindest kammnah verfrachtet, zu Wochenbeginn kann auch föhniger Südwind dünne Triebschneelinsen bilden. Diese Einwehungen liegen auf kaltem, lockerem Schnee und sind störanfällig. Auch innerhalb des letzten Neuschnees und an Harschkrusten im Altschnee gibt es Schwachschichten, die bei größerer Belastung oder als sekundäre Bruchflächen dienen können. Unterhalb von 2400m gleitet die Schneedecke zum Teil auf glattem Untergrund.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Montag verläuft sternenklar. Auf der Schneeoberfläche kann sich Reif bilden.&#13;
+Am Montag ist die Sicht meist passabel. &#13;
+Dichte Wolkenfelder sorgen zwar für häufig diffuses Licht, die &#13;
+Gipfel bleiben jedoch großteils frei. Es bleibt trocken. In den Tauern  (abseits des Hauptkamms) weht kräftiger Südwind mit Spitzen um 50 km/h, in den übrigen &#13;
+Gebirgsgruppen bleibt der Südwind meist mäßig stark mit Spitzen um 30 &#13;
+km/h. Die Temperaturen steigen tagsüber an. Zu Mittag im Norden um -2 &#13;
+Grad, im Süden um -8 Grad, in 3000 m um -8 Grad.&#13;
+Am Dienstag ist die Sicht am Vormittag meist noch &#13;
+ganz passabel, ab und zu scheint auch die Sonne. Am Nachmittag wird die &#13;
+Sicht zeitweise stark durch Nebel und Schneeschauer eingeschränkt. Es &#13;
+fallen aber nur wenige Zentimeter Neuschnee. Die Schneefallgrenze steigt &#13;
+kurzzeitig auf 1000 m bevor sie wieder absinkt. Der Südwind wird schon am Vormittag rasch schwächer, dann stört der Wind nirgends mehr.Die &#13;
+Temperaturen gehen tagsüber etwas zurück: In 2000 m von -2 auf -6 Grad. &#13;
+In 3000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Störanfälligkeit nimmt ab, Triebschneebereiche sollten weiterhin konsequent gemieden werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3576RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3576RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden, auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmatten- und Felsplattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Große Neuschneemengen und wechselnder Windeinfluss</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen ist ERHEBLICH (3). Hauptproblem ist der frische Triebschnee, der im Steilgelände bereits durch eine einzelne Person als mittlere bis große Schneebrettlawine ausgelöst werden kann. Derartige Gefahrenstellen gibt es vor allem auf nordwest- über nord- und ost- bis südschauenden Steilhängen und in Rinnen. Betroffen ist kammnahes wie kammfernes Steilgelände. Daneben gibt es Gefahrenstellen (ohne Windeinfluss) auch in Steilhängen anderer Expositionen, deren Auslösung aber meist großer Zusatzbelastung (Sturz, Stapfen o.ä.) bedarf. Aus extrem steilem Gelände bis 2400m hinauf sind spontan einige kleine und mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der ergiebige Neuschnee vom Wochenende hat sich gesetzt, die Einsinktiefen liegen in windgeschützen Bereichen der Hochlagen aber immer noch bei beachtlichen 40 bis 70 cm. Der frische Schnee wurde in exponierten Kammlagen von kräftigem Wind aus West bis Nord, hochalpin auch aus Nordost zumindest kammnah verfrachtet. Dazu kommt frischer Triebschnee, den föhniger Südwind zu Wochenbeginn bildet. Diese Einwehungen liegen alle auf kaltem, lockerem Schnee und sind störanfällig. Auch innerhalb des letzten Neuschnees und an Harschkrusten im Altschnee gibt es Schwachschichten, die bei größerer Belastung oder als sekundäre Bruchflächen dienen können. Unterhalb von 2400m gleitet die Schneedecke zum Teil auf glattem Untergrund.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Montag verläuft sternenklar. Auf der Schneeoberfläche kann sich Reif bilden.&#13;
+Am Montag ist die Sicht meist passabel. &#13;
+Dichte Wolkenfelder sorgen zwar für häufig diffuses Licht, die &#13;
+Gipfel bleiben jedoch großteils frei. Es bleibt trocken. Es &#13;
+weht kräftiger Südwind mit Spitzen um 70 km/h. Die Temperaturen steigen tagsüber an. Zu Mittag -6 bis -8 Grad, in 3000 m um -8 Grad.&#13;
+Am Dienstag ist die Sicht am Vormittag meist noch &#13;
+ganz passabel, ab und zu scheint auch die Sonne. Am Nachmittag wird die &#13;
+Sicht zeitweise stark durch Nebel und Schneeschauer eingeschränkt. Es &#13;
+fallen aber nur wenige Zentimeter Neuschnee. Die Schneefallgrenze steigt &#13;
+kurzzeitig auf 1000 m bevor sie wieder absinkt. Der Südwind wird schon am Vormittag rasch schwächer, dann stört der Wind nirgends mehr. Die &#13;
+Temperaturen gehen tagsüber etwas zurück: In 2000 m von -2 auf -6 Grad. &#13;
+In 3000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschneebereiche weiterhin konsequent meiden, Störanfälligkeit bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3576RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3576RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden, auch in Waldlichtungen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee auf störanfälliger Unterlage</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist oberhalb etwa 1500 m ERHEBLICH (3), darunter MÄßIG. Hauptproblem ist der frische Triebschnee. Gefahrenstellen gibt es vor allem in steilen Rinnen und Mulden, kammnah und auchkammfern, insbesondere im nordost- über ost- bis südwestschauenden Steilgelände. Eine Auslösung ist bereits bei geringer Zusatzbelastung (einzelne Person) möglich. Aus extrem steilem Gelände unterhalb etwa 1800m sind zudem kleine und mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Nach Regeneintrag bis gegen 2000m hinauf hat es am Samstag verbreit 20 bis 50 cm geschneit. Oberhalb von 2000m sind bis zu 80cm Neuschnee gefallen. Der Neuschn hat sich mittlerweile deutlich gesetzt. Seit Samstagnachmittag hat allerdings Wind aus West bis Nord phasenweise den kalten Schnee verfrachtet! Er ist auf der kalten, lockeren Unterlage darunter störanfällig. Unterhalb von etwa 1800m gleitet die Schneedecke zum Teil auf glattem Untergrund.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Montag verläuft sternenklar. Auf der Schneeoberfläche kann sich Reif bilden.&#13;
+Am Montag ist die Sicht meist passabel. &#13;
+Dichte Wolkenfelder sorgen zwar für häufig diffuses Licht, die &#13;
+Gipfel bleiben jedoch großteils frei. Es bleibt trocken. In den Kamm- und Passlagen weht kräftiger Südwind mit 40 bis 60 km/h. Die Temperaturen steigen tagsüber an. Zu Mittag um -8 Grad in 2000 m&#13;
+Am Dienstag ist die Sicht am Vormittag meist noch &#13;
+ganz passabel, ab und zu scheint auch die Sonne. Am Nachmittag wird die &#13;
+Sicht zeitweise stark durch Nebel und unergiebige Schneeschauer eingeschränkt. Der Wind stört kaum. In 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Der frische Triebschnee bleibt vorerst störanfällig und sollte weiterhin konsequent gemieden werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3576RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3576RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wechselnder Wind bringt Einwehung in vielen Expositionen</avActivityHighlights>
+          <avActivityComment>Die Gefährdung ist oberhalb etwa 1500m ERHEBLICH (3), darunter MÄßIG. Hauptproblem ist der frische Triebschnee, der im Steilgelände bereits durch eine einzelne Person als mittlere bis große Schneebrettlawine ausgelöst werden kann. Derartige Gefahrenstellen gibt es vor allem auf nordwest- über nord- und ost- bis südschauenden, kammnahen Steilhängen und in Rinnen. Daneben gibt es Gefahrenstellen (ohne Windeinfluss) auch in Steilhängen anderer Expositionen, deren Auslösung aber meist großer Zusatzbelastung (Sturz, Stapfen o.ä.) bedarf. Aus extrem steilem Gelände unterhalb von etwa 2000m sind spontan einige kleine und mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der ergiebige Neuschnee vom Wochenende hat sich gesetzt, die Einsinktiefen liegen in windgeschützen Bereichen der Hochlagen aber immer noch bei beachtlichen 30 bis 60 cm. Der frische Schnee wurde in exponierten Kammlagen von kräftigem Wind aus West bis Nordwest zumindest kammnah verfrachtet. Dazu kommt frischer Triebschnee, den föhniger Südwind zu Wochenbeginn bildet. Diese Einwehungen liegen alle auf kaltem, lockerem Schnee und sind störanfällig. Auch innerhalb des letzten Neuschnees und an Harschkrusten im Altschnee gibt es Schwachschichten, die bei größerer Belastung oder als sekundäre Bruchflächen dienen können. Unterhalb von 2000m gleitet die Schneedecke zum Teil auf glattem Untergrund.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht zum Montag verläuft sternenklar. Auf der Schneeoberfläche kann sich Reif bilden.&#13;
+Am Montag ist die Sicht meist passabel. &#13;
+Dichte Wolkenfelder sorgen zwar für häufig diffuses Licht, die &#13;
+Gipfel bleiben jedoch großteils frei. Es bleibt trocken. In den Kamm- und Passlagen weht kräftiger Südwind mit 40 bis 60 km/h. Die Temperaturen steigen tagsüber an. Zu Mittag im Norden um -2 &#13;
+Grad, im Süden um -8 Grad.&#13;
+Am Dienstag ist die Sicht am Vormittag meist noch &#13;
+ganz passabel, ab und zu scheint auch die Sonne. Am Nachmittag wird die &#13;
+Sicht zeitweise stark durch Nebel und Schneeschauer eingeschränkt. Es &#13;
+fallen aber nur wenige Zentimeter Neuschnee. Die Schneefallgrenze steigt &#13;
+kurzzeitig auf 1000 m bevor sie wieder absinkt. Der Südwind in den Tauern wird schon am Vormittag rasch schwächer, dann stört der Wind nirgends mehr. Die &#13;
+Temperaturen gehen tagsüber etwas zurück: In 2000 m von -2 auf -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Störanfälligkeit nimmt ab, Triebschneebereiche sollten weiterhin konsequent gemieden werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

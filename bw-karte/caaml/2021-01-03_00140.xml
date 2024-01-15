@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID140RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID140RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>kaum Schwachschichten in der dünnen Schneedecke, großteils lockerer Schnee auf aperem Boden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, wenig Schnee</avActivityHighlights>
+          <avActivityComment>Es gibt kaum Gefahrenstellen. Am ehesten kann man an ganz wenigen Stellen in extrem steilen Rinnen und kammnahen Steilhängen oberhalb von 1800 m im schattigen Nordsektor ein kleines Schneebrett bzw. Rutsch auslösen.</avActivityComment>
+          <snowpackStructureComment>Allgemein wenig Schnee. Meist trifft man auf 10 bis 15 cm alten Pulver, der beginnt kantig zu werden (Raschelpulver). Nordseitig hat der Schnee bis 1500 m keine Unterlage, südseitig ist es unter dem lockeren Schnee bis um 2000 m hinauf aper. Kammnah gibt es kleine Triebschneelinsen und dünne Triebschneeschichten vom Wochenende. Die dünne Altschneedecke ober der Waldgrenze ist stabil.</snowpackStructureComment>
+          <wxSynopsisComment>Oberhalb der Talnebel ist es am Montag sonnig. Nur hohe Wolken ziehen durch. Der Wind ist schwach. In 2000m -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung. Vorerst kein relevanter Neuschnee. Die kommenden Tage werden sehr kalt, wodurch die dünne Schneedecke stark aufbauend umgewandelt wird. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID140RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID140RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, dünne und kleinräumige Triebschneepakete vom Wochenende</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor oberhalb von 2200 m, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumiger kammnaher Triebschnee, mäßiges Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Einige potenzielle Gefahrenstellen gibt es im Nordsektor (W-N-O). Auslösen kann man dünne und kleinräumige frische Triebschneepakete im kammnahen Steilgelände. An wenigen Punkten könnte man auch ältere Schneeschichten im schneearmen Steilgelände und in Übergängen von wenig zu mehr Schnee stören. Kleine bis mittelgroße Schneebretter sind hier möglich.</avActivityComment>
+          <snowpackStructureComment>Man findet meist um 10 bis 15 cm alten Pulverschnee auf einer festeren Altschneedecke. Oberhalb von etwa 2000 m hat der Südwind am Wochenende unterschiedlich stark verfrachtet. Die meist kompakten Triebschneepakete sind geringmächtig und überschaubar, aber teilweise störanfällig weil sie auf lockeren Schichten liegen. Im Nordsektor und im Hochalpin gibt es kantige und lose Schneekristalle in der Altschnee als weitere potenzielle, wenngleich kleinräumige Bruchfläche.</snowpackStructureComment>
+          <wxSynopsisComment>Oberhalb der Talnebel ist es am Montag sonnig. Nur hohe Wolken ziehen durch. Der Wind ist abseits lokaler Fallwinde schwach. Am Nachmittag können die Wolken von Osten her etwas dichter werden. In 2000 m -5 Grad, in 3000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.Die kommenden Tage werden sehr kalt, wodurch die dünne Schneedecke stark aufbauend umgewandelt wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID140RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID140RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, leicht auslösbar, neben den abgewehten Flächen, Triebschnee ist spröde</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, im Nordsektor, auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Föhntriebschnee vom Wochenende ist teilweise noch leicht auslösbar</avActivityHighlights>
+          <avActivityComment>Erfahrung und defensives Verhalten sind angesagt! Der letzte Triebschnee ist im Lee teilweise leicht auslösbar. Es gibt einige Steilhänge, wo man bereits bei geringer Belastung ein mittleres, mitunter auch ein großes Schneebrett auslösen kann! Gefahrenstellen gibt es im kammnahen Steilgelände, hinter kammfernen Geländekanten und in steilen Rinnen. Vorsicht auch in schneearmen Zonen und Übergängen. Betroffen ist primär der erweiterte Nordsektor (W-N-O) vom lichten Hochwald aufwärts. Etwas stabiler sind Zonen wo in den letzten Tagen permanent der Föhnsturm geweht hat.</avActivityComment>
+          <snowpackStructureComment>Der Aufbau ist windbedingt sehr unterschiedlich. In den typischen Föhnzonen und hochalpinen Bereichen findet man frische und alte Triebschneepakete neben abgewehten Flächen. Der frische Triebschnee ist spröde und liegt teilweise auf kaltem Pulver. Die älteren Pakete liegen teilweise auf weichen und bindungslosen Schichten (aufbauende Umwandlung), die unterschiedlich gut überdeckt sind. In windgeschützteren Zonen findet man um 20 cm Pulver.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist es zunächst sonnig. Nur hohe Wolken ziehen durch. Der Wind ist abseits lokaler Fallwinde schwach, im Hochgebirge erreicht er um 30 km/h. Am Nachmittag können die Wolken etwas dichter werden. In 2000 m -6 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung. Die Kälte konserviert die Situation. Die Möglichkeiten bleiben eingeschränkt und erfordern Erfahrung und Gebietskenntnisse.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID140RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID140RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, dünne und meist kleinräumige Triebschneepakete, eher leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor, oberhalb der Waldgrenze, auslösbar im Übergang von wenig zu viel, großflächig zusammenhängende Abgänge mit geringer Mächtigkeit denkbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Föhntriebschnee im Steilgelände und Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Möglichkeiten sind eingeschränkt und erfordern Erfahrung in der Lawinenbeurteilung! Ab ca. 2000 m aufwärts kann einerseits der frische Triebschnee leicht angesprochen werden, andererseits ist die Altschneedecke in den generell eher schneearmen Zonen störanfällig. Dadurch kann man mit geringer Zusatzbelastung an einigen Steilhängen kleine und mittelgroße Lawinen auslösen. Am heikelsten sind schneearmes Steilgelände, kammnahe Hänge und Rinnen im erweiterten Nordsektor (W-N-O).</avActivityComment>
+          <snowpackStructureComment>Das Wochenende hat 10 bis 15 cm Neuschnee hinterlassen, der ober 2000 m stark verfrachtet wurde. Der dünne Triebschnee liegt teilweise auf unguter Unterlage und ist leicht auslösbar. Einerseits besteht die Unterlage aus lockerem Pulver, andererseits aus losen und weichen Altschneeschichten, die unterschiedlich gut überdeckt sind.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist es oberhalb der Talnebel zunächst sonnig. Der Wind ist abseits lokaler Fallwinde schwach. Am Nachmittag ziehen dichte Wolken auf, die Gipfel können in Nebel geraten, es kann leicht zu schneien beginnen. In 2000 m -7 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Vorerst wenig Änderung. Die Kälte konserviert die Situation. Die Möglichkeiten bleiben eingeschränkt und erfordern Erfahrung und Gebietskenntnisse.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID140RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID140RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, auslösbar im Übergang von wenig zu viel, oberflächliche Rutsche können auf tiefere Schichten durchbrechen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ab der Waldgrenze leicht auslösbar, Gefahrenstellen gehäuft kammnah und im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee und ausgeprägtes Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Unternehmungen erfordern Erfahrung, Zurückhaltung und gute Ortskenntnisse. An relativ vielen Stellen kann man ab dem lichten Hochwald aufwärts mit geringem Impuls ein Schneebrett auslösen. Die Lawinen können mittelgroß, mitunter auch groß (bis Größe 3) werden, wenn sie auf tiefere Schichten durchbrechen. Betroffen sind kammnahe und kammferne Steilhänge der Richtungen West über Nord bis Ost. Auch einzelne spontane Lawinen aus dem extrem steilen Gelände sind noch denkbar.</avActivityComment>
+          <snowpackStructureComment>Der letzte Neuschnee/Triebschnee (um 20 cm) liegt teilweise auf kaltem Pulver und ist immer noch labil. Die Altschneedecke darunter hat aus dem kalten Strahlungstagen im Dezember an zahlreichen Stellen weiche und kantige Formen mitgenommen, die in diesen Tagen zur Bruchausbreitung neigen. Wer selbst spurt, wird Gefahrenzeichen wie Risse, Setzungsgeräusche und eventuell auch einzelne Fernauslösungen wahrnehmen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist es oberhalb der Talnebel zunächst sonnig. Der Wind ist abseits lokaler Fallwinde schwach. Am Nachmittag ziehen dichte Wolken auf, die Gipfel können in Nebel geraten, es kann leicht zu schneien beginnen. In 2000 m -7 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Situation bleibt für den Wintersportler heikel. Die Kälte konserviert die Situation</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

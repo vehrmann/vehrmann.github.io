@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID129RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID129RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr aber weiterer Windeinfluss auf die Schneedecke!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird verbreitet mit gering bewertet, allerdings befinden sich weiterhin in Einfahrtsbereichen steiler Rinnen und hinter Geländekanten kleinräumige Gefahrenstellen. Besonders schattseitig kann teilweise bereits die geringe Zusatzbelastung ausreichen um ein Schneebrett auszulösen. Ansonsten sind die Kämme und Grate abgeblasen und eisig. </avActivityComment>
+          <snowpackStructureComment>Südseitig hat sich die Schneeauflage bereits etwas gesetzt und mit dem Altschnee verbunden. Schattseitig wurde durch den stürmischen Südwind vermehrt älterer Schnee eingefrachtet und lagert sich dort als teils störanfällige Triebschneelinsen ab. Im Allgemeinen ist die Schneelage aber noch unterdurchschnittlich für die Jahreszeit. </snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag ist den ganzen Tag überwiegend bewölkt mit teils stürmischem Wind aus südlichen Richtungen auf den Gipfeln. Die Luft ist wieder etwas milder mit Mittagstemperaturen in 1500m um 0 Grad im Osten und +2 Grad im Westen. Es bleibt bis zum Abend hin trocken.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Sonntag setzt östlich des Göllers Regen bzw. Schneefall ein, wobei die Schneefallgrenze bei 1000m Seehöhe liegt. In der Früh klingen die Niederschläge ab und es kann zu zwischenzeitlichen Auflockerungen kommen. Der Höhenwind lässt langsam nach. Die Lawinengefahr wird in den östlichen Gebieten mit dem neuerlichen Triebschnee etwas ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

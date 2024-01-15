@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3904RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3904RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-10T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Selbstauslösungen von Lockerschneelawinen im extremen Steilgelände</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist oberhalb der Waldgrenze mäßig, unterhalb davon ist sie gering. Triebschnee ist das Hauptproblem. Gefahrenstellen befinden sich im kammnahen Steilgelände westlicher und nördlicher Expositionen sowie in eingewehten Rinnen und Mulden. Triebschneeansammlungen können im sehr steilen Gelände bereits durch geringe Zusatzbelastung als Schneebrettlawine ausgelöst werden. Meist bleiben Schneebrettlawinen klein, sodass die Mitreiß- und Verletzungsgefahr im Vordergrund steht. Vereinzelt können Lawinen bei großen Lauflängen in anhaltend steilem Gelände auch mittlere Ausmaße erreichen.&#13;
+Zudem ist an sehr steilen Hängen mit glattem Untergrund aller Expositionen vereinzelt mit Gleitschneelawinen zu rechnen. Gleitschneelawinen können in höheren Lagen mittlere Größe erreichen.&#13;
+Vor allem sonnseitig ist außerdem mit Selbstauslösungen kleiner bis mittlerer, oberflächiger Lockerschneelawinen aus dem extremen Steilgelände zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Der Wind dreht am Donnerstag von Süd auf Ost, frischt auf und lässt kleine Triebschneelinsen entstehen. Frische und ältere Triebschneeansammlungen sind störanfällig. Schwachschichten innerhalb der oberflächennahen, trockenen Schneeschichten neigen nicht zu großflächigen Bruchfortpflanzungen. Die Oberfläche ist oberhalb von ca. 1800 m vom Wind geprägt. Sonnseitig bildet sich an steilen Hängen über Nacht eine dünne Kruste, die im Tagesverlauf wieder aufweicht. Mancherorts findet sich auch am Übergang zur harten Altschneeoberfläche eine Kruste, unter der sich kantige Kristalle gebildet haben. Die Altschneedecke ist ansonsten bis in die Hochlagen hinein durchfeuchtet und zum Boden hin oft nass. Auch in tieferen Lagen, wo der Boden vor dem letzten Schneefall bereits wieder ausgeapert war, ist die Schneedeckenbasis vielerorts nass. Gleitbewegungen der Schneedecke auf glattem Boden sind die Folge.</snowpackStructureComment>
+          <tendencyComment>Wenig Änderung der Lawinengefahr</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1392RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1392RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete, vereinzelt, im hohen und hochalpine Gelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im schneearmen, schattigen, hohen und hochalpinen Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Situation, kaum Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt nur vereinzelt Gefahrenstellen. Ein kleines bis mittelgroßes Schneebrett kann am ehesten im extrem steilen Ostsektor (letzter Triebschnee) oder in besonders schneearmen hohen und hochalpinen nordseitigen Bereichen (Altschneeproblem) mit großer Zusatzbelastung ausgelöst werden. Aus dem besonnten steilen (felsdurchsetzten) Gelände können sich kleine oberflächliche Lawinen lösen (mit und ohne Zutun von Wintersportlern). Die Absturzgefahr ist größer als die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und stabil. Die Schichten sind gut miteinander verbunden. Ein Bruch bei der obersten Schmelzharschkruste/Eiskruste ist nur ganz vereinzelt im schattigen hohen und hochalpinen Gelände erzielbar (Altschneeproblem). Schattseitig trifft man noch auf alten Pulverschnee, sonnseitig auf Harsch aller Arten. Stellenweise ist Windharsch anzutreffen, der meist jedoch nur in Schollen bricht und nur sehr vereinzelt zur Bruchausbreitung neigt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag scheint oft die Sonne und die Sicht ist meist gut. Es ziehen aber auch ein paar Wolken durch und die höchsten Gipfel können kurzzeitig in Nebel geraten. Am Nachmittag kommt teils lebhafter Nordwestwind auf. Tagsüber kühlt es ab. Zu Mittag in 2000m um 0 Grad, in 3000m um -5 Grad.&#13;
+Am Montag weht stürmischer Nordwestwind. Die Sicht ist schlecht. Dichte Wolken ziehen durch und es schneit zeitweise ein wenig. In 2000m um -6 Grad, in 3000m um -11 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag mit kräftigem Nordwestwind und etwas Neuschnee leichter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

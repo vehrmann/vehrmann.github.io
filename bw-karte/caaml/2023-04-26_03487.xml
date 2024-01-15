@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3487RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-26T06:54:01+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3487RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-26T06:54:01+00:00</beginPosition>
+          <endPosition>2023-04-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Aus noch schneegefüllten, extrem steilen Rinnen und Karen können spontane, nasse Lockerschneelawinen abrutschen! In Hochlagen oberhalb von 1.800m können mit dem Neuschnee und der Winddrehung auf Nordwest kleine, frische Triebschneeansammlungen entstehen. Außerdem sind Skitouren nur mehr eingeschränkt möglich</avActivityComment>
+          <snowpackStructureComment> Die Schneegrenze hat sich verbreitet auf 1500 m zurückgezogen. Außerdem haben sich viele noch schneegefüllte, steile Hänge der Hochlagen entladen. Die Schneedecke ist noch bis auf die Gipfel feucht und faul. Mit der Abkühlung gewinnt der Schnee zumindest in Hochlagen wieder etwas an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment>Mittwoch: Zunächst halten sich besonders im Bergland des Mostviertels einige Restwolken und zeitweise schneit es leicht daraus. Tagsüber wechseln aber generell Sonne und Wolken und es ziehen nur noch ab und zu kurze und unergiebige Schauer durch. Die Schneefallgrenze liegt in der Früh teils um 900m, tagsüber um 1200m Seehöhe. Der Höhenwind weht lebhaft aus  Nordwest. Die Temperaturen sind durchwegs winterlich mit maximal 0 Grad  auf 1500m Seehöhe.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Donnerstag: Zunächst halten sich besonders im Bergland des Mostviertels einige Restwolken und zeitweise schneit es leicht daraus. Tagsüber wechseln aber generell Sonne und Wolken und es ziehen nur noch ab und zu kurze und unergiebige Schauer durch. Die Schneefallgrenze liegt in der Früh teils um 900m, tagsüber um 1200m Seehöhe. Der Höhenwind weht lebhaft aus Nordwest. Die Temperaturen sind durchwegs winterlich mit maximal 0 Grad auf 1500m Seehöhe.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

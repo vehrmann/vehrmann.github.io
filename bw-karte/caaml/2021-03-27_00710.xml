@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID710RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID710RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hochalpin lokale Schneebrettgefahr sowie spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>In sehr hohen Lagen ist teils noch alter Triebschnee vorhanden, der vor allem in schattseitigen Hängen, eingewehten Mulden und Rinnen sowie an Übergängen von viel zu wenig Schnee insbesondere durch große Zusatzbelastung gestört werden kann. In mittleren, teils höheren Lagen sind auf vergrasten Steilhängen auch Gleitschneelawinen und im felsdurchsetzten Steilgelände spontane Lawinen, im Tagesverlauf zunehmend, möglich. Aufenthalte unter „Lawinenmäuler“ sind zu meiden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und hat sich weitgehend stabilisiert. Je nach Höhe und Exposition sowie vor allem sonnseitig verharscht die Schneedecke über Nacht oberflächig verschieden dick, geht aber im Tagesverlauf etwas auf. In den Hochlagen sind windgepresste Oberflächen und schattseitig Pulver vorhanden. Ältere Triebschneepakete enthalten teils noch schwache Zwischenschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag scheint häufig die Sonne. Die Sicht ist gut. Auf hohen Gipfeln ist teils lebhafter Nordwind spürbar. Die Temperaturen steigen wieder an: In 1500 m von -3 auf 3 Grad. In 2000 m um -3 Grad.&#13;
+Am Montag ist die Sicht gut und die Sonne scheint. Zeitweise ziehen dünne Wolkenfelder weit über die Gipfel. Auf hohen Gipfeln weht teils lebhafter Nordwestwind, ansonsten bleibt der Wind schwach. In 1500 m um 7 Grad, in 2000m um 3 Grad</wxSynopsisComment>
+          <tendencyComment>Frühlingshafte Bedingungen mit tageszeitlichem Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID710RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID710RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr und einzelne spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>Auf vergrasten, aper gewesenen Steilhängen ist auf Gleitschneelawinen und bei ausreichender Schneelage teils wieder auf spontane Nassschneelawinen zu achten. Nur mehr in kammnahen, steilen Gipfellagen sind teils vereinzelt ältere Verfrachtungen vorhanden, die gestört werden können.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und hat sich weitgehend gefestigt. Die Schneedecke konnte sich über Nacht festigen, verliert diese aber im Tagesverlauf und geht oberflächig etwas auf. In den tiefen und sonnseitigen Höhen ist die Schneedecke schon wieder zurückgegangen und es wird zunehmend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag scheint häufig die Sonne. Die Sicht ist gut. Auf hohen Gipfeln ist teils lebhafter Nordwind spürbar. Die Temperaturen steigen wieder an: In 1500 m von -3 auf 3 Grad. In 2000 m um -3 Grad.&#13;
+Am Montag ist die Sicht gut und die Sonne scheint. Zeitweise ziehen dünne Wolkenfelder weit über die Gipfel. Auf hohen Gipfeln weht teils lebhafter Nordwestwind, ansonsten bleibt der Wind schwach. In 1500 m um 7 Grad, in 2000m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Frühlingshafte Bedingungen mit tageszeitlichem Anstieg der Lawinengefahr und raschem Abbau der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

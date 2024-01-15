@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3568RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3568RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee, bis in lichte Waldbereiche hinab</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch Neuschnee und frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In den hohen und mittleren Lagen herrscht erhebliche Lawinengefahr durch große Neuschneemengen und frische Triebschneeansammlungen. Gefahrenstellen sind weit verbreitet, vermehrt in den Sektoren Ost bis Süd zu finden und reichen bis in lichte Waldbereiche hinab. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Sonnseitig sind aus extrem steilen Bereichen spontane Lockerschneelawinen zu erwarten. Auf glatten Grashängen sind spontane Gleitschneelawinen zu möglich, die vereinzelt auch exponierte Verkehrswege erreichen können. Bereiche unter offenen Schneemäulern sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist in mittleren Lagen feucht und in höheren Lage verharscht. Darauf fiel am Samstag erst bei wenig Wind, später bei kräftigem bis stürmischem Nordwestwind bis zu 50 cm Neuschnee, der teilweise ins Lee verfrachtet wurde. Schwachschichten finden sich sowohl innerhalb der frischen Schneeauflage, als auch im Übergang zum Altschnee. </snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag beginnt mit starkem Nordwestwind und Resten von Staubewölkung in den Nordalpen und der Nordseite der Niederen Tauern. Es  kommt zu Sichtbehinderungen, schneit aber kaum mehr. Im Laufe des Vormittags löst sich die Staubewölkung auf. Südlich des Alpenhauptkamms ist es von der Früh weg sonnig. &#13;
+Die Temperaturen in 2000 m liegen bei winterlichen -11 bis -14 Grad. Der Wind weht besonders am Vormittag noch kräftig aus Nordwest, lässt im Laufe des Tages aber etwas nach. Im Westen der Steiermark ist der Wind generell etwas schwächer. </wxSynopsisComment>
+          <tendencyComment>Am Montag bringt eine Warmfront kompakte Bewölkung und etwas mildere Temperaturen in das steirische Bergland. Die Lawinengefahr lässt langsam nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3568RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3568RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr in den Hochlagen durch große Neuschneemengen und frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen herrscht erhebliche Lawinengefahr durch frischen Triebschnee. Gefahrenstellen sind vornehmlich in östlichen und südlichen Expositionen zu finden. Insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden, aber auch auf offenen Hängen, können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Aus extrem steilen, südseitigen Hängen sind spontane Lockerschneelawinen zu erwarten. Auf glatten Grashängen sind spontane Gleitschneelawinen zu erwarten. Bereiche unter offenen Schneemäulern sollten gemieden werden. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist bis in die Hochlagen durch Regeneintrag nass. Darauf fiel am Samstagvormittag erst bei wenig Wind, später bei kräftigem bis stürmischem Nordwestwind bis zu 35 cm Neuschnee, der teilweise ins Lee verfrachtet wurde. Innerhalb der frischen Trieb- und Neuschneeauflage sind Schwachschichten zu erwarten (lockerer, ungebundener Neuschnee). </snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag beginnt sonnig, aber mit kräftigem Nordwestwind. Die Temperaturen in 2000 m liegen bei winterlichen -10 bis -12 Grad, fühlen sich durch den Wind aber wesentlich kälter an. Der Wind weht besonders am Vormittag noch kräftig aus Nordwest, lässt im Laufe des Tages aber etwas nach. Im Westen der Steiermark ist der Wind generell etwas schwächer. </wxSynopsisComment>
+          <tendencyComment>Am Montag bringt eine Warmfront kompakte Bewölkung und etwas mildere Temperaturen in das steirische Bergland. Die Lawinengefahr lässt langsam nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3568RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3568RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In exponierten Lagen herrscht mäßige Lawinengefahr durch frische Triebschneeansammlungen. Gefahrenstellen sind vornehmlich den Sektoren Nord über Ost bis Süd zu finden. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen vereinzelt schon durch geringe Zusatzbelastung ausgelöst werden. Auf glatten Grashängen sind spontane Gleitschneelawinen zu erwarten. Bereiche unter offenen Schneemäulern sollten gemieden werden. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist geringmächtig und verharscht. Am Samstag fiel darauf bis zu 35 cm Neuschnee, der durch zunehmend stürmischen Nordwestwind verfrachtet wurde. Die dadurch entstandenen Triebschneeansammlungen sind instabil, die frische Schneeauflage kann Schwachschichten enthalten (lockerer Neuschnee). </snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag beginnt mit starkem Nordwestwind und Resten von Staubewölkung in den Nordalpen. Es schneit aber kaum mehr. Im Laufe des Vormittages löst sich die Staubewölkung auf. Südlich des Alpenhauptkammes ist es von der Früh weg sonnig. &#13;
+Die Temperaturen in 2000 m liegen bei winterlichen -11 bis -14 Grad, fühlen sich durch den Wind aber wesentlich kälter an. Der Wind weht besonders am Vormittag noch kräftig aus Nordwest, lässt im Laufe des Tages aber etwas nach. Im Westen der Steiermark ist der Wind generell etwas schwächer. </wxSynopsisComment>
+          <tendencyComment>Am Montag bringt eine Warmfront kompakte Bewölkung und etwas mildere Temperaturen in das steirische Bergland. Die Lawinengefahr lässt langsam nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

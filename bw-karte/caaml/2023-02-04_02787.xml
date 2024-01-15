@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2787RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-04T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2787RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-04T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in steilen Rinnen und Mulden aller Expositionen, umfangreiche Triebschneepakete, kammnah und kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee bis in den Waldbereich!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze ERHEBLICH, darunter MÄßIG. Neuschnee und stürmischer Nordwestwind der letzten Tage bildeten umfangreiche Triebschneeablagerungen in allen Expositionen. Mit orkanartigem Wind nehmen die Gefahrenstellen weiter zu. Die Triebschneeansammlungen lagern kammnah und kammfern, in steilen Rinnen und Mulden sowie im Waldgrenzbereich und lichten Waldschneisen. Schwachschichten im Triebschnee können bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst werden und Lawinen in höheren Lagen gefährlich groß werden. Darüber hinaus können vereinzelt noch Schwachschichten im Altschnee durch große Zusatzbelastung angesprochen werden und große Lawinen verursachen. In neuschneereichen, steilen Zonen sind spontane Lawinen nicht ausgeschlossen. Die spontane Nassschneelawinenaktivität aus steilem Wald- und Wiesengelände wird mit zunehmender Abkühlung im Tagesverlauf abnehmen. An steilen Grashängen sind stellenweise spontane Gleitschneelawinen weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden sind in hohen Lagen nochmals bis zu 40 cm Neuschnee gefallen, Lagen unterhalb von 1400 m wurde die Schneedecke durch zeitweisen Regen angefeuchtet und destabilisert. Erst mit der Abkühlung im Tagesverlauf nimmt das Nassschneeproblem unterhalb von 1400 m ab. Durch die vorübergehende Erwärmung am Freitag konnte sich die Schneedecke bis in Lagen um 1600 bereits setzen. Zwar sind am Samstag keine großen Neuschneemengen mehr in Sicht, der Neuschnee der vergangenen Tage wird vom orkanartigen Wind jedoch verbreitet und in umfangreichen Triebschneepaketen abgelegt. Schwachschichten innerhalb der frischen Neu- und Triebschneeauflage sowie im Übergang zur älteren gebundenen Auflage sind sehr störanfällig! Tiefer in der Schneedecke befinden sich darüber hinaus Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen. </snowpackStructureComment>
+          <wxSynopsisComment>Von den Niederen Tauern nordwärts stauen sich weiter oft dichte Wolken an den Bergen, der intensive Schneefall ist nun jedoch abgeklungen. Vereinzelt kann es Samstags noch bis in tiefe Lagen schneien, es kommen jedoch bei orkanartigem Wind nur noch wenige Zentimeter Neuschnee zusammen und diese werden massiv verfrachtet! Nach Süden zu oft aufgelockert bewölktes Bergwetter mit kaum Niederschlag. Der Nordwestwind legt nochmals zu und erreicht am Berg Orkanböen, aber auch in tieferen Lagen wird es stürmisch! Das Temperaturniveau geht zurück, in 2000m von Werten um -6 auf -13 Grad, in 1500m von -3 auf -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag noch stürmisch aber ohne Niederschlag! Der Triebschnee bleibt störanfällig! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2787RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-04T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2787RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-04T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, kammnah und kammfern, bis in den Wald, sehr leicht auslösbar, auf ungünstiger Unterlage, Gefahrenstellen sind schlecht zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>UPDATE: Stürmischer Wind - GROSSE Lawinengefahr über 1400m! Störanfällige Triebschneeablagerungen bis in den Wald!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1400m GROß (Stufe 4). Darunter herrscht ERHEBLICHE Lawinengefahr. Die Gefahr von spontanen Lawinenabgängen aus steilem Gelände bleibt weiterhin bestehen. Lawinen können auch in tiefliegende Schwachschichten durchbrechen und groß werden. Orkanartiger Wind sorgt für zahlreiche Gefahrenstellen, Triebschneepakete entstehen in allen Expositionen, kammnah und kammfern. Die Schneedecke gestaltet sich bis in den Wald sehr störanfällig. Die Gefahrenstellen sind zahlreich und im Gelände schlecht zu erkennen. Schneebrettlawinen können von einzelnen Personen leicht ausgelöst werden und mittelgroß bis groß werden, auch Fernauslösungen sind möglich. Die spontane Nassschneelawinenaktivität aus steilem Wald- und Wiesengelände wird mit zunehmender Abkühlung im Tagesverlauf abnehmen. An steilen Grashängen sind stellenweise spontane Gleitschneelawinen &#13;
+weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden sind in hohen Lagen nochmals bis zu 50 cm Neuschnee gefallen, Lagen unterhalb von 1000 - 1200 m wurde die Schneedecke durch zeitweisen Regen angefeuchtet und destabilisert. Erst mit der Abkühlung im Tagesverlauf nimmt das Nassschneeproblem unterhalb von 1200 m ab. Durch die vorübergehende Erwärmung am Freitag konnte sich die Schneedecke bis in Lagen um 1400 bereits setzen. Zwar sind am Samstag keine großen Neuschneemengen mehr in Sicht, der Neuschnee der vergangenen Tage wird vom orkanartigen Wind jedoch verbreitet und in umfangreichen Triebschneepaketen abgelegt. Schwachschichten innerhalb der frischen Neu- und Triebschneeauflage sowie im Übergang zur älteren gebundenen Auflage sind sehr störanfällig! Tiefer in der Schneedecke befinden sich darüber hinaus Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen. </snowpackStructureComment>
+          <wxSynopsisComment>Von den Niederen Tauern nordwärts stauen sich weiter oft dichte Wolken an den Bergen, der intensive Schneefall ist nun jedoch abgeklungen. Vereinzelt kann es Samstags noch bis in tiefe Lagen schneien, es kommen jedoch bei orkanartigem Wind nur noch wenige Zentimeter Neuschnee zusammen und diese werden massiv verfrachtet! Nach Süden zu oft aufgelockert bewölktes Bergwetter mit kaum Niederschlag. Der Nordwestwind legt nochmals zu und erreicht am Berg Orkanböen, aber auch in tieferen Lagen wird es stürmisch! Das Temperaturniveau geht zurück, in 2000m von Werten um -6 auf -13 Grad, in 1500m von -3 auf -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Die niederschlagsreiche Wetterphase ist vorbei. Bis Sonntag bleibt es noch stürmisch, ab Montag übernimmt dann überwiegend freundliches Bergwetter mit viel Sonneschein. Die Lawinensituation entspannt sich!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2787RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-04T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2787RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-04T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in steilen Rinnen und steilen Mulden aller Expositionen, kammnah und kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze MÄßIGE Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht MÄßIGE Lawinengefahr, darunter ist die Lawinengefahr GERING. Stürmischer Nordwestwind führt zu kleinräumigen Triebschneeablagerungen in allen Expositionen. Sie lagern kammnah und kammfern bis in den Waldgrenzbereich und lichte Waldschneisen. Die Triebschneeansammlungen werden zum Teil von etwas frischem Neuschnee überdeckt und sind im Gelände damit schwer zu erkennen. Die Schwachschichten im Neu- und Triebschnee sind störanfällig und können leicht gestört werden, Lawinen bleiben jedoch eher klein. Die spontane Nassschneelawinenaktivität aus steilem Wald- und Wiesengelände wird mit zunehmender Abkühlung im Tagesverlauf abnehmen. An steilen Grashängen sind stellenweise spontane Gleitschneelawinen weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden sind etwa 20 cm Neuschnee zusammengekommen. In Lagen unterhalb von 1000 - 1200 m wurde die Schneedecke durch zeitweisen Regen angefeuchtet und destabilisert. Erst mit der Abkühlung im Tagesverlauf nimmt das Nassschneeproblem unterhalb von 1200 m ab. In höheren Lagen wird der frische Neuschnee vom stürmischen Nordwestwind verfrachtet und je nach Windeinfluss in allen Expositionen als lockerer Neuschnee oder gebundener Triebschnee abgelegt. Schwachschichten befinden sich im Neu- und Triebschnee und sind leicht zu stören! </snowpackStructureComment>
+          <wxSynopsisComment>Von den Niederen Tauern nordwärts stauen sich weiter oft dichte Wolken an den Bergen, der intensive Schneefall ist nun jedoch abgeklungen. Vereinzelt kann es Samstags noch bis in tiefe Lagen schneien, es kommen jedoch bei orkanartigem Wind nur noch wenige Zentimeter Neuschnee zusammen und diese werden massiv verfrachtet! Nach Süden zu oft aufgelockert bewölktes Bergwetter mit kaum Niederschlag. Der Nordwestwind legt nochmals zu und erreicht am Berg Orkanböen, aber auch in tieferen Lagen wird es stürmisch! Das Temperaturniveau geht zurück, in 2000m von Werten um -6 auf -13 Grad, in 1500m von -3 auf -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit stürmischem Wind am Sonntag ändert sich die Lawinengefahr wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2787RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-04T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2787RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-04T07:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, Gefahrenstellen nehmen mit der Höhe zu und sind sehr störanfällig, auch spontane Lawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>ERHEBLICHE Lawinengefahr in Lagen über 1000 m! Triebschnee ist sehr störanfällig!</avActivityHighlights>
+          <avActivityComment>Über 1000 m herrscht ERHEBLICHE Lawinengefahr, darunter ist die Lawinengefahr MÄßIG. Mit Neuschnee und Wind entstehen frische Triebschneeansammlungen. Diese sind sehr leicht und durch die geringe Zusatzbelastung einer Person zu stören und reichen bis in den Waldbereich. Stellenweise sind sie mit Neuschnee überdeckt und nur schlecht zu erkennen.&#13;
+Lawinen können aus sehr steilen, schneereichen Hängen aller Expositionen auch von selbst abgehen und größer werden. Die spontane Nassschneelawinenaktivität aus steilem Wald- und Wiesengelände wird mit zunehmender Abkühlung im Tagesverlauf abnehmen. An steilen Grashängen sind stellenweise spontane Gleitschneelawinen weiterhin möglich. </avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden sind etwa 20 - 40 cm Neuschnee zusammengekommen. In Lagen unterhalb von 1000 - 1200 m wurde die Schneedecke durch zeitweisen Regen angefeuchtet und destabilisert. Erst mit der Abkühlung im Tagesverlauf nimmt das Nassschneeproblem unterhalb von 1200 m ab. In höheren Lagen wird der frische Neuschnee vom stürmischen Nordwestwind verfrachtet und je nach Windeinfluss in allen Expositionen als lockerer Neuschnee oder gebundener Triebschnee abgelegt. Schwachschichten befinden sich im Neu- und Triebschnee und sind leicht zu stören! </snowpackStructureComment>
+          <wxSynopsisComment>Von den Niederen Tauern nordwärts stauen sich weiter oft dichte Wolken an den Bergen, der intensive Schneefall ist nun jedoch abgeklungen. Vereinzelt kann es Samstags noch bis in tiefe Lagen schneien, es kommen jedoch bei orkanartigem Wind nur noch wenige Zentimeter Neuschnee zusammen und diese werden massiv verfrachtet! Nach Süden zu oft aufgelockert bewölktes Bergwetter mit kaum Niederschlag. Der Nordwestwind legt nochmals zu und erreicht am Berg Orkanböen, aber auch in tieferen Lagen wird es stürmisch! Das Temperaturniveau geht zurück, in 2000m von Werten um -6 auf -13 Grad, in 1500m von -3 auf -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag noch stürmisch, aber kein Niederschlag. Die Triebschneesituation bleibt im Vordergrund!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

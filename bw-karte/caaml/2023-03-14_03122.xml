@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3122RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3122RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen einige Gefahrenstellen durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, in tieferen Lagen gering. Gefahrenstellen sind frische Triebschneeansammlungen hauptsächlich in den Sektoren Ost bis Süd hinter Geländekanten und in eingewehten Rinnen und Mulden. Hier können kleine bis mittelgroße Schneebrettlawinen teilweise schon durch geringe Zusatzbelastung ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist in den Hochlagen großteils verharscht und stabil, in mittleren und tiefen Lagen ist kein durchgehendes Schneedeckenfundament mehr vorhanden. Darauf fallen in den Ybbstaler Alpen bis zu 15 cm Neuschnee bei lebhaftem Wind, was zu kleineren Triebschneeansammlungen führt, die kurzfristig instabil sind. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Dienstag auf Mittwoch schneit es im Niederösterreichischen Bergland bei lebhaftem Wind aus Nord bis Nordwest. Die Schneefallgrenze sinkt dabei bis etwa 500 m. Der Schwerpunkt der Schneefälle mit 10 bis 15 cm Neuschnee liegt in den Ybbstaler Alpen, östlich und südlich davon kommen nur wenige Zentimeter Neuschnee an. Tagsüber sind die Gipfel zunächst noch in Wolken gehüllt und es schneit immer wieder ein wenig, am Nachmittag lockert es dann langsam auf. Temperaturen auf 1500 m liegen bei winterlichen -6 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Donnerstag bleibt es noch sehr kalt und ein paar Schneeflocken können die Tallagen erreichen. Im Laufe des Tages bessert sich das Wetter und die Temperaturen steigen langsam an. Die Kälte konserviert das Triebschneeproblem und die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3122RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3122RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelten Gefahrenstellen durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering, oberhalb der Waldgrenze ist aber dennoch Vorsicht geboten, da hauptsächlich in den Sektoren Ost bis Süd hinter Geländekanten und in eingewehten Rinnen und Mulden frische Triebschneelinsen als kleine Schneebrettlawinen ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist in den Hochlagen großteils verharscht und stabil, in mittleren und tiefen Lagen ist kein durchgehendes Schneedeckenfundament mehr vorhanden. Darauf fallen etwa 5 cm Neuschnee bei lebhaftem Wind, was zu kleinen Triebschneeansammlungen führt. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Dienstag auf Mittwoch schneit es im Niederösterreichischen Bergland bei lebhaftem Wind aus Nord bis Nordwest. Die Schneefallgrenze sinkt dabei bis etwa 500 m. Der Schwerpunkt der Schneefälle mit 10 bis 15 cm Neuschnee liegt in den Ybbstaler Alpen, östlich und südlich davon kommen nur wenige Zentimeter Neuschnee an. Tagsüber sind die Gipfel zunächst noch in Wolken gehüllt und es schneit immer wieder ein wenig, am Nachmittag lockert es dann langsam auf. Temperaturen auf 1500 m liegen bei winterlichen -6 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Donnerstag bleibt es noch sehr kalt und ein paar Schneeflocken können die Tallagen erreichen. Im Laufe des Tages bessert sich das Wetter und die Temperaturen steigen langsam an. Die Kälte konserviert das Triebschneeproblem und die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

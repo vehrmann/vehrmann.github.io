@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2250RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2250RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-28T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Kleine, oberflächliche Nassschneelawinen mit der Tageswärme, betrifft Höhenbereich ab 2000 m aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Stabiler Harsch - Kleine Nassschneelawinen mit der Tageswärme</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Es gibt nur ganz wenige Gefahrenstellen.&#13;
+Ein kleines Gefahrenmoment geht von oberflächlichen Nassschneerutschen und –lawinen aus (klein, selten mittelgroß). Diese können mit der Tageserwärmung aus dem extremen, meist felsdurchsetzten Steilgelände von selbst abgehen. &#13;
+Im Hochgebirge oberhalb von etwa 2400m aufwärts sollte man die letzten Triebschneepakete (kleinräumig) im extrem steilen Gelände sicherheitshalber meiden. Mitreiß- und Absturzgefahr. Betrifft vorwiegend Nordsektor ab 2400m und oberhalb von 2800 m auch tlw. den Ost- und Südsektor.</avActivityComment>
+          <snowpackStructureComment>Der letzte Neuschnee ist schon weitgehend umgewandelt und gut mit der Unterlage verbunden. Hochalpin (ober ca. 2400m) ist der oberste Schnee schattseitig noch trocken, sonst trifft man verbreitet auf einen festen Schmelzharschdeckel, der mit der Sonne und Wärme tagsüber auffirnt ohne dass es tief wird. &#13;
+Die Altschneedecke ist kompakt und abgesehen von den Nordseiten ober 2500 m ohne wesentliche Kältereserve. Alte potenzielle Schwachschichten entlang der Saharastaub-Schicht sind derzeit kaum ansprechbar.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist es nach einer sternenklaren Nacht sonnig und klar. Sehr gute Fernsicht und geringe Luftfeuchtigkeit. Am Nachmittag entstehen vorübergehend ein paar harmlose Quellwolken. Schwacher bis mäßiger Höhenwind aus Nord. Temperaturen in 2000m um 3 Grad, in 3000m um -3 Grad.&#13;
+Die Nacht auf Samstag ist neuerlich sternenklar. Es kann gut abstrahlen.&#13;
+Am Samstag herrscht bis Mittag bei guter Sicht und Sonnenschein passables Bergwetter. Am Nachmittag wird die Sicht diffuser, gegen Abend steigt das Risiko für punktuelle Regenschauer. Schnee erst oberhalb von 2200 m. Wind stört kaum. Temperaturen in 2000m zwischen 1 und 5 Grad, in 3000m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag ähnlich. &#13;
+Am Sonntag ist das Wetter deutlich wechselhafter und auch die Nacht auf Sonntag ist nicht mehr so klar.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID107RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID107RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee führt zu frischem, kleinräumigem Triebschnee!</avActivityHighlights>
+          <avActivityComment>In Niederösterreichs Bergen wird die Lawinengefahr verbreitet mit gering beurteilt. Es existiert noch keine geschlossene Schneedecke, allerdings können sehr kleinräumige Gefahrenstellen teilweise bereits bei geringer Zusatzbelastung gestört werden. In den kammnahen Einfahrtsbereichen von steilen Rinnen können Schneebrettlawinen ausgelöst werden, die kleine bis maximal mittlere Lawinengröße erreichen können. Die Hauptgefahr geht von Absturz verursacht durch Rutsche aus. </avActivityComment>
+          <snowpackStructureComment>Am Montag und in der Nacht auf Dienstag ist etwas Neuschnee hinzugekommen, allerdings halten sich die Mengen mit 10 bis 15 cm in Grenzen. Dieser wurde mit dem stürmischen Südwestwind verblasen und teilweise hinter Geländekanten und in die Einfahrtsbereiche von steilen Rinnen abgelagert. Dieser frische Triebschnee liegt auf älteren Trieb- und Altschneelinsen und gestaltet sich störanfällig. Im Allgemeinen ist die Schneelage unterdurchschnittlich für die Jahreszeit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstagvormittag scheint in den Bergen häufig die Sonne, und auch der Wind ist vorübergehend deutlich schwächer als zuletzt. Am Nachmittag ziehen mit auflebendem Süd-, Südwestwind erneut dichte Wolken durch, sie bringen aber keinen oder kaum Niederschlag. In 1500m Seehöhe liegen die Temperaturen zu Mittag um -1 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Mittwoch sind Niederösterreichs Berge in dichte Wolken gehüllt und in den Ybbstaler Alpen ziehen einzelne Schneeschauer durch. Am Nachmittag lockert es langsam auf und es kann noch einigen Sonnenschein geben. Das Temperaturniveau sinkt in allen Höhen etwa um 3 Grad. Die Lawinengefahr ändert sich nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

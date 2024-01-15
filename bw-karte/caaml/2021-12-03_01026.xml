@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1026RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1026RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen und Altschneeproblem in schattseitigen Expositionen</avActivityHighlights>
+          <avActivityComment>Triebschneeablagerungen in höheren Lagen und schwache, aufbauend umgewandelte Schichten in der dünnen Altschneedecke sind durch eine geringe Zusatzbelastung zu stören.</avActivityComment>
+          <snowpackStructureComment>Der vergangene Schneefall am Donnerstag hat in den Karawanken bis zu 40 cm Neuschnee gebracht, welcher vom schwach bis mäßig wehendem Wind, vor allem in höheren Lagen verfrachtet wurde. Wobei die Bindung der Triebschneeablagerungen untereinander noch immer störanfällig ist. In schattseitigen Expositionen sind in der dünnen Altschneedecke aufbauend umgewandelte Schichten vorhanden. In windberuhigten Bereichen ist der Schnee noch sehr locker. Sonnenschein hat am Freitag für eine Setzung der Schneedecke gesorgt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag wird mit einer Warmfront von Westen her, zunehmend feuchte Luft herangeführt. Meist bleibt es aber noch niederschlagsfrei. Nach einer eiskalten und oft gering bewölkter Nacht scheint zu Tagesbeginn zeitweise noch die Sonne, verschwindet aber schon am Vormittag hinter hohen Wolken. In exponierten höheren Lagen frischt der Wind aus westlicher Richtung auf. Mit der Warmfront wird es untertags wieder etwas milder, am Abend sinken die Temperaturen wieder. Die Temperaturen erreichen zu Mittag in 2000 m rund -5 Grad. In der Nacht auf Sonntag und am Sonntag sind dann eine Kaltfront und ein Italientief wetterbestimmend.</wxSynopsisComment>
+          <tendencyComment>Mit etwas Neuschnee und Wind bleibt die Lawinengefahr bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1026RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1026RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schwacher Altschnee und Triebschnee sind das Hauptproblem</avActivityHighlights>
+          <avActivityComment>Triebschneeablagerungen und Schwachschichten in der Altschneedecke sind die Hauptprobleme. Eine Lawinenauslösung ist oberhalb der Waldgrenze bereits durch eine geringe Zusatzbelastung möglich. Bei Übergängen von abgewehten zu vollgefüllten Geländeformen ist besondere Vorsicht geboten.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke der ersten Schneefälle im November ist mit einer Harschschicht abgeschlossen. Darunter befinden sich bereits aufbauend umgewandelte Kristalle. Während der letzten Schneefälle hat der starke Wind für Triebschneeablagerungen in allen Expositionen gesorgt welche teilweise recht schlecht miteinander verbunden sind.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag wird mit einer Warmfront von Westen her, zunehmend feuchte Luft herangeführt. Meist bleibt es aber noch niederschlagsfrei. Zu Tagesbeginn ist es nach einer eiskalten und oft gering bewölkten Nacht verbreitet frostig. Bald ziehen von Westen her Wolken auf und verdrängen die Sonne. Hie und da ist auch etwas Schneefall möglich. Mit Temperaturen zwischen -14 und -8 Grad in 3500 m wird es relativ mild. In exponierten höheren Lagen frischt der Wind aus Westen auf. In der Nacht auf Sonntag und am Sonntag sind dann eine Kaltfront und ein Italientief wetterbestimmend.</wxSynopsisComment>
+          <tendencyComment>Mit auffrischendem Wind entstehen frische störanfällige Triebschneeablagerungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1026RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1026RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Trieb- und Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Frische und ältere Triebschneeablagerungen sind wie die Schwachschichten in der Altschneedecke teilweise noch durch eine geringe Zusatzbelastung zu stören.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke der ersten Schneefälle im November ist mit einer Harschschicht abgeschlossen. Darunter befinden sich bereits aufbauend umgewandelte Kristalle. Der starke Wind währen der letzten Schneefälle hat für Triebschneeablagerungen gesorgt welche teilweise recht schlecht miteinander  und zur Altschneedecke verbunden sind.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag wird mit einer Warmfront von Westen her, zunehmend feuchte Luft herangeführt. Meist bleibt es aber noch niederschlagsfrei. Nach einer eiskalten und oft gering bewölkter Nacht scheint zu Tagesbeginn zeitweise noch die Sonne, verschwindet aber schon am Vormittag hinter hohen Wolken. In exponierten höheren Lagen frischt der Wind aus westlicher Richtung auf. Mit der Warmfront wird es untertags wieder etwas milder, am Abend sinken die Temperaturen wieder. Die Temperaturen erreichen zu Mittag in 2000 m rund -5 Grad. In der Nacht auf Sonntag und am Sonntag sind dann eine Kaltfront und ein Italientief wetterbestimmend.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1026RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1026RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen in höheren Lagen beachten</avActivityHighlights>
+          <avActivityComment>In höheren Kammlagen, Mulden und Rinnen sind noch etwas störanfälligere Triebschneeablagerungen vorhanden. Vereinzelt ist eine Störung durch einen einzelnen Wintersportler im steilen Gelände möglich.</avActivityComment>
+          <snowpackStructureComment>Mit Sonnenschein haben sich die Triebschneeablagerungen etwas setzen können. Auch die etwas milderen Temperaturen der kommenden Warmfront werden für eine weitere Setzung, aber auch Durchfeuchtung an der Oberfläche sorgen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag wird mit einer Warmfront von Westen her, zunehmend feuchte Luft herangeführt. Meist bleibt es aber noch niederschlagsfrei. Nach einer eiskalten und meist gering bewölkten Nacht beginnt der Samstag meist frostig. Bald ziehen von Westen dichtere Wolken auf, durch welche vormittags auch noch hie und da die Sonne durchscheinen kann. Ganz im Osten kann es auch noch etwas länger sonnig sein. Bei mäßigem Wind aus westlicher Richtung liegen die Temperaturen in 2000 m zwischen -7 und -2 Grad. In der Nacht auf Sonntag und am Sonntag sind dann eine Kaltfront und ein Italientief wetterbestimmend.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt mit der Bildung von frischen Triebschneeablagerung bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

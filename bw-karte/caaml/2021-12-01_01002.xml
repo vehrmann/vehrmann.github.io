@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1002RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1002RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen aller Richtungen, teils umfangreicher Triebschnee, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Triebschnee in den Hochlagen! Die Störanfälligkeit nimmt von der Waldgrenze aufwärts mit der Höhe zu. Oberhalb von etwa 2300 m kann bereits das Gewicht einer einzelnen Person ausreichen, die Gefährdung ist dort ERHEBLICH. Durch abgewehte Geländepartien und der allgemein noch hohen Bodenrauhigkeit im Tourengelände kann man die Gefahrenstellen noch leicht unterschätzen. &#13;
+Zweites Gefahrenmoment konzentriert sich auf sehr steile Grashänge. Dort können kleine und mittelgroße Gleitschneelawinen von selbst abgehen. </avActivityComment>
+          <snowpackStructureComment>Vor dem 25.11. war es auch schattseitig bis auf 2000m hinauf aper, seither sind die Schneehöhen auch in mittleren Höhenlagen auf 40 bis 100 cm angewachsen, bis zum Abend fallen am Donnerstag nochmals 10 bis 20 cm. Kräftige Erwärmung am Mittwoch hat zu einer deutlichen Setzung im Neuschnee geführt. Schwachschichten: (1) Zwischen den Triebschneeschichten sind im letzten Neuschneepakte schwache Zwischenschichten möglich. (2) Es gibt in den Hohen Tauern in Höhen ab ca. 2300 m aufwärts zumindest im erweiterten Nordsektor unter dem Harschdeckel von Mitte November eine dünne Sollbruchstelle (Altschneeproblem). &#13;
+Windexponierte Zonen sind komplett abgeweht, Rinnen und Mulden ober der Waldgrenze sind schon teilweise gut gefüllt, Grate hochalpin oft überwechtet. Am warmen und glatten Boden gleitet die Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist die Sicht oft von Wolken und Hangnebel stark &#13;
+getrübt. Aus den dichten Wolken schneit es immer wieder, aber auch mit ausen. 10 bis 20 cm Neuschnee kommen bis zum Abend zusammen. &#13;
+Sonnenschein ist nicht zu erwarten. Der Wind weht mäßig stark aus westlicher Richtung. In 2000 m: Abkühlung von -4 auf -9 Grad, in 3000 m von -11 auf -15 Grad.&#13;
+Am Freitag kalt und anfangs oft noch eingeschränkte Sicht mit etwas &#13;
+Schneefall. Im Tagesverlauf bessern sich die Verhältnisse insgesamt.</wxSynopsisComment>
+          <tendencyComment>In den Hochlagen weiterhin Triebschneeproblem, wenn auch die Störanfälligkeit etwas zurückgehen dürfte. Die mäßige Gleitschneetätigkeit bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1002RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1002RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in Rinnen und Gleitschnee aus steilen Grasmatten</avActivityHighlights>
+          <avActivityComment>Gefahrenmomente konzentrieren sich auf sehr steile Grashänge. Dort können kleine und mittelgroße Gleitschneelawinen spontan abgehen. Vorsicht auch bei Rinnen und steilen Mulden: Dort kann man vereinzelt ein Schneebrett auslösen, insbesondere bei großer Zusatzbelastung.</avActivityComment>
+          <snowpackStructureComment>Der Schneefall der letzten Novembertage hat sich am Mittwoch durch starke Erwärmung deutlich gesetzt und ist oberflächlich zum Teil verkrustet. Darauf fallen am Donnerstag 5 bis 10 cm kälterer Neuschnee. Ausgeprägte Schwachschicht gibt es keine. Windexponierte Zonen sind abgeweht, Triebschnee liegt vor allem nord- und ostseitig geländeausgleichend in Rinnen und Mulden. Am warmen und glatten Boden gleitet die Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist die Sicht oft von Wolken und Hangnebel stark getrübt. Aus den dichten Wolken schneit es immer wieder, aber auch mit Pausen. 5 bis 10 cm Neuschnee kommen bis zum Abend zusammen. Sonnenschein ist nicht zu erwarten. Der Wind weht mäßig stark aus westlicher Richtung. In 1500 m: Abkühlung von -2 auf -4 Grad.&#13;
+Am Freitag kalt und anfangs oft noch eingeschränkte Sicht mit etwas Schneefall. Im Tagesverlauf bessern sich die Verhältnisse insgesamt.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung. Die mäßige Gleitschneetätigkeit bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1002RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1002RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen aller Richtungen, kammnah, kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee ober der Waldgrenze in steilen Rinnen und Mulden, auf Gleitschneeaktivität achten</avActivityHighlights>
+          <avActivityComment>Von der Waldgrenze aufwärts zunehmendes Triebschneeproblem. Betrifft Rinnen, Mulden und leeseitiges Gelände. Vor allem oberhalb von etwa 2000 m kann man insbesondere bei großer Zusatzbelastung ein Schneebrett auslösen - die Gefährdung ist MÄßIG.&#13;
+Ein zweites Gefahrenmoment findet man in sehr steilen Grashängen. Dort können kleine und mittelgroße Gleitschneelawinen von selbst abgehen. </avActivityComment>
+          <snowpackStructureComment>Sturm und ergiebiger Neuschnee vom Dienstag gefolgt von markanter Erwärmung am Mittwoch haben kompakte Triebschneepakete von der Waldgrenze aufwärts hinterlassen. Darauf fallen am Donnerstag rund 10 cm kälterer Neuschnee. Ausgeprägte Schwachschicht gibt es kaum, am ehesten sind Brüche im Altschneefundament denkbar. Windexponierte Zonen sind abgeweht, Rinnen und Mulden ober der Waldgrenze sind schon teilweise gut gefüllt. Am warmen und glatten Boden gleitet die Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist die Sicht oft von Wolken und Hangnebel stark &#13;
+getrübt. Aus den dichten Wolken schneit es immer wieder, aber auch mit &#13;
+Pausen. Etwa 10 cm Neuschnee kommen bis zum Abend zusammen. &#13;
+Sonnenschein ist nicht zu erwarten. Der Wind weht mäßig stark aus &#13;
+westlicher Richtung. In 2000 m: Abkühlung von -4 auf -9 Grad.&#13;
+Am Freitag kalt und anfangs oft noch eingeschränkte Sicht mit etwas &#13;
+Schneefall. Im Tagesverlauf bessern sich die Verhältnisse insgesamt.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung. Steile Triebschneebereiche meiden, leichte Gleitschneetätigkeit bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

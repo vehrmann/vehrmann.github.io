@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1590RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1590RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in Rinnen und steilen Mulden, Steilhängen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität, vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sonnig und mild  - Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen, zum Teil auch noch ab der Waldgrenze sind teils Triebschneeablagerungen vorhanden, die insbesondere durch große, teils bei geringer Zusatzbelastung noch gestört werden können. Nord- über ost- bis südostseitig sind vorwiegend hochalpin eingefrachtete Steilhänge und steile verfüllte Mulden und Rinnen daher zu beachten. Mit den milderen Temperaturen und Sonnenschein sind im steilen felsdurchsetzten nicht entladenen Gelände und auf glatten Wiesenhängen vereinzelt spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Durch den stürmischen, dann teils starken Wind der vergangenen Tage ist die Schneedecke sehr stark umgelagert und geprägt worden. In der Nacht zum Samstag gab es nur wenige Zentimeter Neuschnee. Exponierte Flächen sind oft abgeweht, die Oberfläche ist oft windgepresst, teils verharscht oder hart und eisig, nur hochalpin in windgeschützten Bereichen noch locker. Die Schneedecke konnte sich schon setzen und besser binden. Triebschneepakete können vor allem in den höheren Lagen aber noch einzelne dünne unterschiedlich harte Schwachschichten enthalten oder im Übergang zum Altschnee sind kantige Schichten vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag gibt es im Bereich der Kalkalpen gute Sicht und am Vormittag scheint oft die Sonne. Hohe Wolken schränken den Sonnenschein am Nachmittag zunehmend ein. In mittleren Höhenlagen weht mäßig starker Wind, in den Gipfelregionen zunehmend lebhafter Südwestwind. In 1500 m hat es -2 bis 2 Grad, in 2000 m um -3 Grad.&#13;
+Am Montag weht auf den Bergen Sturm und es schneit länger anhaltend. In 1500 m hat es um -6 Grad, in 2000 m um -11 Grad.</wxSynopsisComment>
+          <tendencyComment>Sturm und Schneefall lassen die Lawinengefahr wieder allgemein ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

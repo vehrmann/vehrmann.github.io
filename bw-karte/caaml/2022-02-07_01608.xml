@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1608RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1608RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit Sonne und Erwärmung Selbstauslösungen von Lawinen in höheren Lagen möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im bayerischen Alpenraum oberhalb 1400 m erheblich, darunter mäßig. Das Hauptproblem geht vom Neuschnee aus, der vom starken Nordwestwind umfangreich verfrachtet wurde. Viele Gefahrenstellen finden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest sowie in frisch eingewehten Rinnen und Mulden. Störanfällige Triebschneeansammlungen finden sich aber auch im kammfernen Gelände hinter Hangkanten und in Waldschneisen. Hier ist bereits mit der geringen Zusatzbelastung eines einzelnen Wintersportlers die Auslösung von Schneebrettlawinen möglich. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu.&#13;
+Bei ansteigenden Temperaturen und Sonneneinstrahlung ist durch den ersten Setzungsimpuls des Neuschnees vor allem in höheren Lagen mit der Selbstauslösung von großen Lockerschnee- und Schneebrettlawinen zu rechnen.&#13;
+Zudem finden sich in der Altschneedecke störanfällige Schichten, die besonders in höheren Lagen am Übergang von wenig zu viel Schnee gestört werden können. Oberflächlich ausgelöste Lawinen können auf diese tieferliegenden Schichten durchschlagen. Besonders dann können Lawinen große Ausmaße annehmen.</avActivityComment>
+          <snowpackStructureComment>Begleitet von stürmischem Wind aus westlichen Richtungen erhielt der bayerische Alpenraum seit gestern einen Neuschneezuwachs von 20 bis 40 cm, in höheren Lagen auch 50 cm. Es sind frische, umfangreiche Triebschneeansammlungen entstanden, in die bindungsarme Graupelschichten eingelagert sind. Die Verbindung zu Wind- und Schmelzharschoberflächen und pulvrigem Schnee auf der Altschneedecke ist schlecht, der Triebschnee ist entsprechend störanfällig. Zudem finden sich im Altschneepaket in allen Expositionen aufgebaut kantige Kristalle im Bereich einer dünnen Harschschicht. Diese Schwachschicht ist in den Hochlagen besonders ausgeprägt und liegt je nach Windeinfluss näher an der Oberfläche oder verborgen unter mächtigen Triebschneepaketen. Unterhalb 1400 m ist die Schneedeckenbasis kompakt und weitgehend stabil.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird in den nächsten Tagen bei stabilem Hochdruckwetter langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-41"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

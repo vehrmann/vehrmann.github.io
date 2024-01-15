@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2626RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2626RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnaher Triebschnee, in Rinnen und steilen Mulden, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - Triebschnee beachten, teils ab der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Es besteht ab der Waldgrenze lokal mäßige Lawinengefahr. Zeitweiliger starker böiger Südföhn der letzten 2 Tage hat in Kammlagen vor allem im Nordsektor zu Verfrachtungen geführt, die teilweise bei geringer Zusatzbelastung auslösbar sind. Daneben ist in verfüllten Steilhängen, eingeblasenen steilen Mulden und Rinnen sowie bei Geländeübergängen im Ostsektor sowie schattseitig in Hochlagen auch noch auf Gefahrenstellen zu achten. Die Gefahrenstellen nehmen mit der Höhe allgemein zu.</avActivityComment>
+          <snowpackStructureComment>In der Nacht zum Mittwoch gibt es wieder einige Zentimeter Neuschnee. Der zuletzt gebildete Triebschnee bindet teils noch schlecht mit der harten, stellenweise vereisten Altschneedecke und ist störanfällig. Im älterem Triebschnee und am Übergang zur Altschneedecke sind schwache Zwischenschichten eingelagert. Die Schneehöhen sind unverändert unterdurchschnittlich, vor allem in Hochlagen windbeeinflusst und unregelmäßig verteilt und selbst in höheren Lagen liegt weiterhin nur sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht zum Mittwoch gibt es Schneeschauer, wobei die Schneefallgrenze bis in tiefe Lagen sinkt. &#13;
+Am Mittwoch klingen die Schneeschauer am frühen Vormittag großteils ab, die Sichtverhältnisse bessern sich. Es gehen sich ein paar sonnige Phasen aus, bevor sich die Wolken gegen Abend wieder verdichten. Es weht mäßiger bis lebhafter Wind aus westlichen Richtungen. Temperaturen in 1500 m um -6 Grad, in 2000 m um -10 Grad.&#13;
+Am Donnerstag ist die Sicht immer wieder durch Nebel eingeschränkt, nur zwischendurch können die Wolken etwas aufhellen. Zeitweise schneit es leicht. Der Wind weht mäßig stark aus West bis Nord. Temperaturen in 1500 m um -9 Grad, in 2000 m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Immer wieder nur wenig Neuschnee. Weiterhin keine wesentliche Änderung</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2626RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2626RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnaher kleinräumiger Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einzelnen Gefahrenstellen durch Triebschnee - geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es herrscht überwiegend geringe Lawinengefahr. Zeitweiliger starker böiger Südföhn der letzten 2 Tage hat aber kleinräumige Verfrachtungen gebildet, die man im Nordsektor beachten und meiden muss. Vereinzelt gibt es im Ostsektor ebenfalls Triebschnee. Insbesondere sind eingewehte Kammlagen, Übergänge und Einfahrtsbereiche zu steilen Rinnen sowie Mulden hier zu beachten. Hier können vereinzelt Triebschneepakete als Schneebrettlawinen ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>In der Nacht zum Mittwoch gibt es wieder einige Zentimeter Neuschnee. Der zuletzt gebildete Triebschnee bindet teils noch schlecht mit der harten, stellenweise vereisten Altschneedecke und ist störanfällig. Im älterem Triebschnee und am Übergang zur Altschneedecke sind schwache Zwischenschichten eingelagert. Die Schneehöhen sind unverändert unterdurchschnittlich, vor allem in Hochlagen windbeeinflusst und unregelmäßig verteilt und selbst in höheren Lagen liegt weiterhin nur sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht zum Mittwoch gibt es Schneeschauer, wobei die Schneefallgrenze bis in tiefe Lagen sinkt. &#13;
+Am Mittwoch klingen die Schneeschauer am frühen Vormittag großteils ab, die Sichtverhältnisse bessern sich. Es gehen sich ein paar sonnige Phasen aus, bevor sich die Wolken gegen Abend wieder verdichten. Es weht mäßiger bis lebhafter Wind aus westlichen Richtungen. Temperaturen in 1500 m um -6 Grad, in 2000 m um -10 Grad.&#13;
+Am Donnerstag ist die Sicht immer wieder durch Nebel eingeschränkt, nur zwischendurch können die Wolken etwas aufhellen. Zeitweise schneit es leicht. Der Wind weht mäßig stark aus West bis Nord. Temperaturen in 1500 m um -9 Grad, in 2000 m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Immer wieder nur wenig Neuschnee. Weiterhin keine wesentliche Änderung</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

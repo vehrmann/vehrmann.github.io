@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3256RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3256RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, störanfällig wo eine Altschneedecke vorhanden ist</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig, darunter ist sie gering. Die Hauptgefahr geht von frischem Triebschnee aus. Die Gefahrenstellen existieren vor allem in nord- bis südseitigen steilen Hängen, Rinnen und Mulden sowie hinter Geländekanten und nehmen mit der Höhe zu. Dort, wo ein Schneedeckenfundament vorhanden ist, gestaltet sich verfrachtete Auflage störanfällig und kann an einigen Stellen  als Schneebrettlawinen ausgelöst werden. Mit zunehmender Erwärmung bzw. etwas Regen können sich aus steilem Gelände kleine Lockerschneelawinen spontan lösen. Die Absturzgefahr in harten, eisigen Kammbereichen ist weiterhin zu beachten!</avActivityComment>
+          <snowpackStructureComment>Eine Kaltfront sorgte für 10 - 25cm Neuschnee und Sturm. Unter starkem Windeinfluss mit Böen um 150km/h lagerte sich auf ein stabiles aber geringmächtiges Schneedeckenfundament speziell im erweiterten Ostsektor Triebschnee ab. Durch Windeinfluss bestehen störanfällige Schwachschichten primär innerhalb der Triebschneeauflage. Oft lagerte sich der Neuschnee aber auf bereits aperen Boden ab und ist grundlos. Mit der Erwärmung und durch Regeneintrag verliert die Schneeauflage an Festigkeit und wird instabil.</snowpackStructureComment>
+          <wxSynopsisComment>Nach kurzem Hochdruckeinfluss ist es bis zur ersten Nachthälfte aufgelockert bzw. klar. Ausgedehnte Wolkenfelder einer von Westen her aufziehenden Warmfront sorgen danach für trübe Verhältnisse, vor allem am Vormittag kann es etwas Niederschlage geben. Die Schneefallgrenze steigt kontinuierlich von Tallagen auf 1200m - 1500m an. Nach kurzer Windberuhigung legt der auf West drehende Wind  wieder etwas zu. Das Temperaturniveau steigt im Tagesverlauf kontinuierlich an, in 2000m von -6 auf -1 Grad, in 1500m von -4 auf +2 Grad und in 1000m von -2 auf +5 Grad.    </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag dominieren im Bergland die Wolken, Sonnenfenster gibt es vor allem im Osten. Am Nachmittag schaueranfällig. Sehr mild, im Osten föhnig. Das Nassschneeproblem steht im Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3256RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3256RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - vereinzelte Gefahrenstellen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Dennoch existieren vereinzelte, frische Gefahrenstellen in Form von Triebschneepaketen, vor allem in nord- bis ostseitigen steilen Hängen, Rinnen und hinter Geländekanten, wo noch ein Schneedeckenfundament vorhanden ist. Die Störanfälligkeit nimmt mit zunehmender Erwärmung ab. Durch zusätzlichen Regeneintrag kann in sehr steilen Bereichen die nasse Auflage abrutschen. </avActivityComment>
+          <snowpackStructureComment>Eine Kaltfront sorgte für bis zu 25cm Neuschnee und Sturm. Unter starkem Windeinfluss lagerte sich im erweiterten Ostsektor Triebschnee ab. Generell fiel die Schneeauflage auf aperen Boden und ist grundlos. Die Störanfälligkeit des Triebschnees in Bereichen mit noch vorhandener Altschneedecke nimmt mit zunehmender Erwärmung ab. Zusätzlich führt Regeneintrag zu einem Festigkeitsverlust der Schneeauflage.</snowpackStructureComment>
+          <wxSynopsisComment>Nach kurzem Hochdruckeinfluss ist es bis zur ersten Nachthälfte aufgelockert bzw. klar. Ausgedehnte Wolkenfelder einer von Westen her aufziehenden Warmfront sorgen danach für trübe Verhältnisse, vor allem am Vormittag kann es etwas Niederschlage geben. Die Schneefallgrenze steigt kontinuierlich von Tallagen auf 1200m - 1500m an. Nach kurzer Windberuhigung legt der auf West drehende Wind  wieder etwas zu. Das Temperaturniveau steigt im Tagesverlauf kontinuierlich an, in 2000m von -6 auf -1 Grad, in 1500m von -4 auf +2 Grad und in 1000m von -2 auf +5 Grad.    </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag dominieren im Bergland die Wolken, Sonnenfenster gibt es vor allem im Osten. Am Nachmittag schaueranfällig. Sehr mild, im Osten föhnig. Die Schneedecke nimmt wieder rasch ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3256RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3256RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, störanfällig wo eine Altschneedecke vorhanden ist</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regen zunehmender Festigkeitsverlust</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee sowie zunehmende Anfeuchtung führen zu mäßiger Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Ybbstaler Alpen mäßig. Die Hauptgefahr geht vorerst in höheren Lagen von frischem Triebschnee aus. Die Gefahrenstellen existieren vor allem in nord- bis südseitigen steilen Hängen, Rinnen und Mulden sowie hinter Geländekanten und nehmen mit der Höhe zu. Dort, wo ein Schneedeckenfundament vorhanden ist, gestaltet sich verfrachtete Auflage störanfällig und kann an einigen Stellen durch geringe Zusatzbelastung als Schneebrettlawinen ausgelöst werden. Mit zunehmender Erwärmung und durch Regeneintrag steigt ab Mittag die Gefahr von spontanen nassen Lockerschneelawinen aus felsdurchsetztem Steilgelände an. An sehr steilen Wald- und Wiesenhängen sind kleiner Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Eine Kaltfront sorgte seit Montagnacht für Neuschnee und Sturm, in den Ybbstaler Alpen fielen 20 - 30cm, stellenweise auch mehr. Unter starkem Windeinfluss lagerte sich auf ein stabiles aber geringmächtiges Schneedeckenfundament speziell im erweiterten Ostsektor Triebschnee ab. Dieser beginnt sich mit der sich mit der Erwärmung zu setzen. Schwachschichten bestehen primär innerhalb der Triebschneeauflage, stellenweise auch im Übergang zum Altschnee (schattseitig). Oft lagerte sich der Neuschnee aber auf bereits aperen Boden ab und ist grundlos. Mit der Erwärmung und durch Regeneintrag verliert die Schneeauflage an Festigkeit und wird instabil. Bei gänzlicher Durchfeuchtung kann die Schneedecke am glatten Boden ins Gleiten kommen.  </snowpackStructureComment>
+          <wxSynopsisComment>Nach kurzem Hochdruckeinfluss ist es bis zur ersten Nachthälfte aufgelockert bzw. klar. Ausgedehnte Wolkenfelder einer von Westen her aufziehenden Warmfront sorgen danach für trübe Verhältnisse, vor allem am Vormittag kann es etwas Niederschlage geben. Die Schneefallgrenze steigt kontinuierlich von Tallagen auf 1200m - 1500m an. Nach kurzer Windberuhigung legt der auf West drehende Wind  wieder etwas zu. Das Temperaturniveau steigt im Tagesverlauf kontinuierlich an, in 2000m von -6 auf -1 Grad, in 1500m von -4 auf +2 Grad und in 1000m von -2 auf +5 Grad.    </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag dominieren im Bergland die Wolken, Sonnenfenster gibt es vor allem im Osten. Am Nachmittag schaueranfällig. Sehr mild, im Osten föhnig. Das Nassschneeproblem steht im Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

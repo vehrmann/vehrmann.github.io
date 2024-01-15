@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1790RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1790RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im erweiterten Nordsektor, in Rinnen und steile Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Waldgrenze, Graupeleinlagerungen im Altschnee.</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen der Ybbstaler Alpen, der Gippel-Göller-Region und auch der Rax-Schneeberg-Gruppe wird die Lawinengefahr als mäßig beurteilt, ansonsten als gering. Das Hauptproblem bilden Schwachschichten im Altschnee, bestehend aus Graupeleinlagerungen oder kantigen Kristallen. Diese sind vorangig noch im erweiterten Nordsektor von Nordwest bis Ost relevant und durch große Zusatzbelastung, eventuell aber auch durch geringe Zusatzbelastung eines einzelnen Skifahrers zu stören. Gefahrenstellen befinden sich in Rinnen und Mulden sowie am Übergang von wenig zu viel Schnee. Mit der ungehinderten Sonneneinstrahlung ist sonnseitig im Tagesverlauf zunehmend mit Lockerschneerutschen aus steilem Fels- und Schrofengelände zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Sonnseitig haben sich die Triebschneepakete vom vergangenen Wochenende großteils gut mit der ehemals verharschten und gut verfestigten Altschneedecke verbunden. In tieferen, sonnseitigen Lagen wurde die Schneedecke am Dienstag oberflächlich bereits etwas angefeuchtet, in der Nacht auf Mittwoch wird sich die Schneeoberfläche jedoch wieder verfestigen. Schattseitig lassen sich immer noch Graupeleinlagerungen in der Schneedecke finden, hier ist die Verbindung zum Altschnee teils noch schwach. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. Aufgegangene Risse und Schneemäuler in der Schneedecke deuten auf Gleitschneeaktivitäten hin, deren Bewegungsneigung während der derzeitigen kalten Wetterphase aber abgenommen hat. Am Mittwoch ist bei viel Sonnenschein erneut mit einer Anfeuchtung sonnseitiger Hänge zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Über den Berggipfeln Niederösterreichs gibt es auch zur Wochenmitte viele Sonnenstunden. Aufgrund der trockenen Luftmasse herrscht insbesondere in der Rax-Schneeberg-Gruppe ganztags ausgezeichnete Fernsicht. In den Ybbstaler Alpen wird es vormittags ebenfalls sehr sonnig, nachmittags ziehen hier immer wieder auch dichtere Wolkenfelder durch, die den Sonnenschein zeitweise trüben. Dazu weht oft nur schwacher Wind aus nördlichen Richtungen, im Bereich der Rax-Schneeberg-Gruppe weht er mäßig. In 1500m Seehöhe liegen die Temperaturen nachmittags um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch der Donnerstag verläuft großteils sonnig. Allerdings gibt es am Himmel einige Schleierwolken und am Nachmittag auch ein paar Quellwolken. Dazu weiterhin nur schwacher bis mäßiger Wind aus nördlichen Richtungen. Weitere Entspannung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1790RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1790RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, großteils günstige Lawinensituation</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht ebenso wie im Semmering-Wechsel-Gebiet geringe Lawinengefahr. Die Schneedecke ist allgemeint gut verfestigt, die kleinräumigen Triebschenepakete vom Wochenende haben sich verbreitet gut verbunden und es herrscht eine großteils günstige Situation. Nur vereinzelt könnten sich in schattseitigem Gelände bei großer Zusatzbelastung noch kleine Schneebretter durch störanfällige Schwachschichten im ehemaligen Triebschnee bzw. am Übergang zum Altschnee lösen. Mit Sonneneinstrahlung ist untertags zunehmend mit Lockerschneerutschen zu rechnen. </avActivityComment>
+          <snowpackStructureComment>Die Triebschneelinsen vom vergangenen Wochenende großteils gut mit der Altschneedecke verbunden. In tieferen, sonnseitigen Lagen wurde die Schneedecke am Dienstag oberflächlich bereits etwas angefeuchtet, in der Nacht auf Mittwoch wird sich die Schneeoberfläche jedoch wieder verfestigen. Schattseitig lassen sich vereinzelt noch Graupeleinlagerungen in der Schneedecke finden. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. Aufgegangene Risse und Schneemäuler in der Schneedecke deuten auf Gleitschneeaktivitäten hin, deren Bewegungsneigung während der derzeitigen kalten Wetterphase aber abgenommen hat. Am Aschermittwoch ist bei viel Sonnenschein erneut mit einer Anfeuchtung sonnseitiger Hänge zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Über den Berggipfeln Niederösterreichs gibt es auch zur Wochenmitte viele Sonnenstunden. Aufgrund der trockenen Luftmasse herrscht insbesondere im Semmering-Wechsel-Gebiet ganztags ausgezeichnete Fernsicht. In den Türnitzer und Gutensteiner Alpen wird es vormittags ebenfalls sehr sonnig, nachmittags ziehen hier immer wieder auch dichtere Wolkenfelder durch, die den Sonnenschein zeitweise etwas trüben. Dazu weht oft nur schwacher Wind aus nördlichen Richtungen, im Semmering-Wechsel-Gebiet weht er mäßig. In 1500m Seehöhe liegen die Temperaturen nachmittags um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Sonnenschein hält auch am Mittwoch an. Dazu weiterhin nur schwacher bis mäßiger Wind aus nördlichen Richtungen. Die Lawinensituation ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

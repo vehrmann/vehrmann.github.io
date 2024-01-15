@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2924RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2924RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr durch Nassschnee!</avActivityHighlights>
+          <avActivityComment>Nur in sehr hohen Lagen sind kleinräumig Triebschneeablagerungen vorhanden, die zu beachten sind. Eine Auslösung ist bereits bei geringer Zusatzbelastung im Steilgelände hier möglich. Durch die sehr milden Temperaturen und Sonnenschein ist weiterhin aus noch nicht entladenen Steilhängen mit Nassschnee- und Gleitschneelawinen im Tagesverlauf zu rechnen. Hänge mit Rissen in der Schneedecke sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Nur in den höheren Lagen gibt es einige Zentimeter Neuschnee vom Sonntag, der verfrachtet wurde. Die Bindung mit der Altschneedecke, die verharscht und hart ist, ist teils ungenügend. Schattseitig können im Hochgebirge noch relevante Schwachschichten vorhanden sein. Ansonsten hat Regen bis in die mittleren, teils höheren Lagen die Schneedecke an- bzw. durchfeuchtet und stark abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag lockern im Bereich der Kalkalpen die Wolken im Lauf des Vormittags auf und lassen die Sonne scheinen. Es weht zum Teil starker West- bis Nordwestwind. In 1500 m steigt die Temperatur von -1 auf 5 Grad, in 2000 m -4 bis -1 Grad.&#13;
+Am Dienstag scheint im Bereich der Nordalpen meist die Sonne bei guter Sicht. In den Hochlagen der Kalkalpen weht zum Teil lebhafter Nordwestwind. In 1500 m beträgt die Temperatur 2 bis 6 Grad, in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2924RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2924RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr durch Nassschnee!</avActivityHighlights>
+          <avActivityComment>Durch die sehr milden Temperaturen und Sonnenschein ist im Tagesverlauf aus noch nicht entladenen Steilhängen mit Nassschnee- und Gleitschneelawinen zu rechnen. Nur in sehr hohen Lagen sind kleinräumig Triebschneeablagerungen vorhanden, die zu beachten sind. Eine Auslösung ist bereits bei geringer Zusatzbelastung im Steilgelände hier möglich. Hänge mit Rissen in der Schneedecke sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Nur in den höheren Lagen gibt es einige Zentimeter Neuschnee vom Sonntag, der verfrachtet wurde. Die Bindung mit der Altschneedecke, die verharscht und hart ist, ist teils ungenügend. Schattseitig können im Hochgebirge noch relevante Schwachschichten vorhanden sein. Ansonsten hat Regen bis in die mittleren, teils höheren Lagen die Schneedecke an- bzw. durchfeuchtet und stark abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag lockern im Bereich der Kalkalpen die Wolken im Lauf des Vormittags auf und lassen die Sonne scheinen. Es weht zum Teil starker West- bis Nordwestwind. In 1500 m steigt die Temperatur von -1 auf 5 Grad, in 2000 m -4 bis -1 Grad.&#13;
+Am Dienstag scheint im Bereich der Nordalpen meist die Sonne bei guter Sicht. In den Hochlagen der Kalkalpen weht zum Teil lebhafter Nordwestwind. In 1500 m beträgt die Temperatur 2 bis 6 Grad, in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2924RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2924RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - nur mehr wenig Schnee!</avActivityHighlights>
+          <avActivityComment>Geringe Lawinengefahr. Durch die milden Temperaturen und Sonnenschein sind nur mehr einzelne Nassschneelawinen aus noch nicht entladenem Steilgelände und Gleitschneelawinen auf vergrasten Steilhängen je nach vorhandener Schneemenge noch möglich.</avActivityComment>
+          <snowpackStructureComment>Regen hat die Schneedecke an- bzw. durchfeuchtet und stark abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag lockern im Bereich der Kalkalpen die Wolken im Lauf des Vormittags auf und lassen die Sonne scheinen. Es weht zum Teil starker West- bis Nordwestwind. In 1500 m steigt die Temperatur von -1 auf 5 Grad, in 2000 m -4 bis -1 Grad.&#13;
+Am Dienstag scheint im Bereich der Nordalpen meist die Sonne bei guter Sicht. In den Hochlagen der Kalkalpen weht zum Teil lebhafter Nordwestwind. In 1500 m beträgt die Temperatur 2 bis 6 Grad, in 2000 m um 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneedecke geht weiter zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

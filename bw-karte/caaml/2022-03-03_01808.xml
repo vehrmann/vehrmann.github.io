@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1808RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1808RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>im erweiterten Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, sonnseitig nasse Lockerschneerutsche möglich.</avActivityHighlights>
+          <avActivityComment>In den niederösterreichischen Alpen wird die Lawinengefahr als gering bewertet. Die Schneedecke ist großteils gut verfestigt. Nur vereinzelt können sich in schattseitigem Gelände insbesondere bei großer Zusatzbelastung noch kleine Schneebretter durch störanfällige Schwachschichten im alten Triebschnee bzw. am Übergang zum Altschnee lösen. </avActivityComment>
+          <snowpackStructureComment>Schattseitig befindet sich an der Schneeoberfläche teils älterer Triebschnee, der auf einer kompakten Altschneedecke liegt. Vereinzelt sind hier noch störanfällige Graupeleinlagerungen im ehemaligen Triebschnee zu finden, welche als mögliche Schwachschicht in Frage kommen. In tieferen Schichten schwächen kantige Kristalle den Schneedeckenaufbau, diese sind jedoch kaum noch zu stören. In schattseitigen Waldschneisen sowie in windberuhigten Hängen und Gräben ist der Schnee oberflächlich nach wie vor ungebunden. Sonnseitig konnte sich die Schneedecke bereits gut setzen und wurde in den vergangenen Tagen bereits angefeuchtet. Über Nacht bildet sich verbreitet ein tragfähiger Harschdeckel, bei deutlichen Minusgraden und Bewölkung bleibt der Harschdecken untertags erhalten. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. </snowpackStructureComment>
+          <wxSynopsisComment>Es wird weniger sonnig als zuletzt. Die Gipfel Niederösterreichs sind am Freitag oft in Wolken gehüllt, einzelne unergiebige Schneeschauer sind nicht ausgeschlossen. Zwischendurch zeigt sich aber auch immer wieder die Sonne. Der eisige Höhenwind aus Nord frischt insbesondere östlich von Schneeberg und Rax lebhaft auf, sonst ist es mäßig windig. Es kühlt wieder deutlich ab, in 2000 m hat es um die Mittagszeit um minus 11 Grad, in 1500 m um minus 8 Grad, selbst unter 1000 m bleiben die Temperaturen leicht negativ.</wxSynopsisComment>
+          <tendencyComment>Sonnige Abschnitte gibt es in den niederösterreichischen Bergen am Samstag kaum. Die Gipfel sind die meiste Zeit in dichte Wolken gehüllt, immer wieder kann es unergiebig schneien. Der Höhenwind weht mäßig aus Nordost, von Schneeberg und Rax östlich auch lebhaft.In 1500m Seehöhe hat es am Nachmittag um minus 9 Grad. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2135RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2135RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, hinter Geländekanten, von der Waldgrenze aufwärts</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität, kleine Lockerschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen, Tagesgang wieder zunehmend Thema</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING mit einem leichten Tagesgang innerhalb dieser Gefahrenstufe. Es gibt nur vereinzelt Gefahrenstellen, etwa in Steilrinnen über 1500 m, wo bei großer Zusatzbelastung ein dünnes Schneebrett ausgelöst werden könnte. Die Absturzgefahr ist größer als die Verschüttungsgefahr. Zudem sind spontan kleine und einzelne mittlere nasse Lockerschneelawinen denkbar.</avActivityComment>
+          <snowpackStructureComment>Auf eine feuchte Altschneedecke fielen ein paar Zentimeter Neuschnee. Starker Wind aus Nord/Nordwest hat dünnen Triebschnee auf den Ost-und Südseiten und in Rinnen gebildet. Die Verbindung zur Unterlage ist mehrheitlich gut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag scheint meist die Sonne, vorübergehend wird der Sonnenschein aber auch von durchziehenden Wolken gedämpft. Wenig Wind. &#13;
+Deutliche Erwärmung: In 2000 m von -5 auf +2 Grad. Die Nacht zum Dienstag bringt nur dünne Wolken und gute Abstrahlung.&#13;
+Der Dienst ist sonnig mit überwiegend dünnen Schleierwolken. Es wird noch wärmer: in 2000 m hat es 5 bis 8 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der starken Erwärmung ist mit einem ausgeprägten Tagesgang der spontanen Lawinenaktivität zu rechnen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2135RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2135RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1999Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-10T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-11T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-11T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1999Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze, kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität, nasse Lockerschneelawinen aus stark besonntem Gelände und Gleitschnee auf steilen Grasmatten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in den Hochlagen und Nassschneeproblem im Tagesgang</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr oberhalb etwa 1800 m MÄßIG. Darunter ist sie zunächst GERING, steigt aber spätestens ab Mittag auch dort auf Stufe 2.&#13;
+Der frische Triebschnee, ist insbesondere mit großer Zusatzbelastung, hochalpin bereits bei geringer Zusatzbelastung, als kleines oder mittelgroßes Schneebrett auslösbar. Die Anzahl der Gefahrenstellen und die Mächtigkeit der Einwehungen nimmt mit der Höhe zu. Die meisten Gefahrenstellen gibt es im kammnahen erweiterten Ost- und Südsektor und in eingewehten Rinnen und Mulden. &#13;
+Spontan kommt es zu nassen Lockerschneelawinen (auch bei Zusatzbelastung) aus stark besonnten Steilbereichen und zu einzelnen Gleitschneelawinen aus extrem steilem Grasmattengelände. Diese können an einigen Stellen mittlere, vereinzelt auch große Ausßmaße annehmen. </avActivityComment>
+          <snowpackStructureComment>Neu- und Triebschnee (Neuschnee in den Hochlagen vielfach im Bereich von 30 bis 50 cm) binden bis in Höhenlagen um zumindest 2100 m meist gut mit der feuchten Unterlage. Darüber wird diese Verbindung mit zunehmender Seehöhe schlechter. Dies zeigen auch Sprengerfolge im frischen Triebschnee auf den Ost und Südseiten. Mit der Erwärmwung und Einstrahlung kommt es zu einem Festigkeitsverlust im Neuschnee, oberflächliche Harschkrusten weichen rasch auf.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag scheint oft die Sonne, vorübergehend wird der Sonnenschein aber auch von durchziehenden Wolken gedämpft. Wenig Wind. Deutliche Erwärmung: In 2000 m von -4 auf +3 Grad, in 3000 m von -8 auf -2 Grad. Die Nacht zum Dienstag bringt nur dünne Wolken und gute Abstrahlung.&#13;
+Der Dienst ist sonnig mit überwiegend dünnen Schleierwolken. Im Tauernbereich kommt föhniger Südwind mit 30 bis 50 km/h auf, sonst stört der Wind nicht. Es wird noch wärmer: in 2000 m hat es 5 bis 8 Grad, in 3000 m um +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Hochalpin bleibt das mäßige Triebschneeproblem aufrecht, wenngleich die Störanfälligkeit zurückgeht. Ausgeprägter Tagesgang mit  Nassschneeproblem bis in die Hochlagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2135RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2135RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-11T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden, hochalpin leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität, nasse Lockerschneelawinen und Gleitschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In hochalpinen Lagen störanfälliger Triebschnee, Nasschneeproblem im Tagesgang</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr oberhalb etwa 2600 m ERHEBLICH, darunter bis etwa 2000 m MÄßIG und sonst zunächst GERING, steigt aber spätestens ab Mittag auch in mittleren Höhenlagen auf Stufe 2.&#13;
+Der frische Triebschnee ist hochalpin bereits bei geringer Zusatzbelastung als mittleres bis großes Schneebrett auslösbar. Die Anzahl der Gefahrenstellen und die Mächtigkeit der Einwehungen nimmt mit der Höhe zu. Die meisten Gefahrenstellen gibt es im erweiterten Ost- und Südsektor, kammnah bzw. hinter steilen, kammfernen Geländekanten und in eingewehten Rinnen und Mulden. &#13;
+Spontan kommt es im Tagesgang zu nassen Lockerschneelawinen (auch bei Zusatzbelastung) aus stark besonnten Steilbereichen und zu einzelnen Gleitschneelawinen aus extrem steilem Grasmattengelände. Diese können an einigen Stellen mittlere, vereinzelt auch große Ausßmaße annehmen. </avActivityComment>
+          <snowpackStructureComment>Neu- und Triebschnee (3-Tages-Neuschneesummen hochalpin vielfach im Bereich von 50 bis 80 cm, lokal bis 100 cm) binden bis in Höhenlagen zwischen 2100 und 2400 m meist gut mit der feuchten Unterlage. Darüber wird diese Verbindung mit zunehmender Seehöhe schlechter. Dies zeigen auch gute Sprengerfolge im frischen Triebschnee auf den Ost und Südseiten. Mit der Erwärmwung und Einstrahlung kommt es zu einem Festigkeitsverlust im Neuschnee, oberflächliche Harschkrusten weichen rasch auf.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag scheint oft die Sonne, vorübergehend wird der Sonnenschein aber auch von durchziehenden Wolken gedämpft. Wenig Wind. Deutliche Erwärmung: In 2000 m von -4 auf +3 Grad, in 3000 m von -8 auf -2 Grad. Die Nacht zum Dienstag bringt nur dünne Wolken und gute Abstrahlung.&#13;
+Der Dienst ist sonnig mit überwiegend dünnen Schleierwolken. Im Tauernbereich kommt föhniger Südwind mit 30 bis 50 km/h auf, sonst stört der Wind nicht. Es wird noch wärmer: in 2000 m hat es 5 bis 8 Grad, in 3000 m um +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Hochalpin bleibt das Triebschneeproblem aufrecht, wenngleich die Störanfälligkeit zurückgeht (Mäßige Gefährdung am Dienstag). Ausgeprägter Tagesgang mit  Nassschneeproblem bis in die Hochlagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

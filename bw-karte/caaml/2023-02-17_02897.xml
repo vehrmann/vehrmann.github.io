@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2897RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2897RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände, zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet geringe Lawinengefahr - Gleitschneeproblematik weiterhin vorhanden.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird verbreitet mit gering (Stufe 1) eingestuft. Die Tourenbedingungen sind günstig, aber Gefahrenzeichen wie geöffnete Schneemäuler und frisch abgegangene Nassschneelawinen müssen beachtet werden. In steilem und extrem steilem Gelände sind weiterhin spontane Gleitschneelawinen möglich. In den Hochlagen gibt es im schattigen, extrem steilen Gelände noch vereinzelte Bereiche, wo im Übergang von wenig zu viel Schnee durch große Zusatzbelastung noch Schneebrettlawinen ausgelöst werden können. Exponierte Bereiche sind oft abgeweht und vereist - Vorsicht vor Absturzgefahr!</avActivityComment>
+          <snowpackStructureComment>Verbreitet ist die Schneedecke gut gesetzt, bis in Lagen um 1700 m ist sie aber bereits durchfeuchtet oder nass und verliert eher an Festigkeit. Besonders südseitig ist die Schneedecke bis zum Boden isotherm. In höheren Lagen wurden nur die oberflächennahen Schichten angefeuchtet, tiefere Schichten sind hier meist noch trocken. Schattseitg sind in den Hochlagen stellenweise noch relevante Schwachschichten in Form von kantigen Kristallen in der Schneedecke zu finden. Die Schneedecke ist allgemein stark vom Wind beeinflusst und sehr unregelmäßig verteilt. Mit dem starken Wind bildet sich ein unterschiedlich stabiler Windharschdeckel an der Schneeoberfläche. Exponierte Bereiche sind abgeweht und oft vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Samstag ist es überwiegend stark bewölkt, nur vereinzelte, kleine Sonnenfenster zwischendurch sind möglich. Lokal können kurze Schauer nicht ausgeschlossen werden, es bleibt aber weitgehend trocken. Der Höhenwind aus West/Nordwest legt zu und bläst stark bis stürmisch. Die Nachmittagstemperaturen liegen in 1500 m Seehöhe um +3 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Sonntag bleibt es stürmisch, dicht bewölkt und besonders in den Türnitzer und Ybbstaler Alpen gibt es öfter Regen- bzw. Schneeschauer oberhalb von rund 1400 m. Leichter Temperaturrückgang, in 1500 m hat es um 0 Grad. &#13;
+Der Regeneintrag in tiefen Lagen verstärkt nochmal das Gleitschneeproblem bzw. verringert die Schneehöhen weiter, in den Hochlagen werden sich frische Triebschneelinsen bilden. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

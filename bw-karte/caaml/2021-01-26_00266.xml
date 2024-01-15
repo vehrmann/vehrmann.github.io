@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID266RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID266RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee auch unterhalb der Waldgrenze – heikle Schneebrettsituation!</avActivityHighlights>
+          <avActivityComment>Stürmischer Wind und Neuschnee führten verbreitet zur Bildung von störanfälligem Triebschnee. Die Gefahrenstellen haben sich durch den starken Wind auch auf Hangzonen unterhalb der Waldgrenze ausgeweitet. Entsprechend der Hauptwindrichtung liegen sie in ost- bis südausgerichteten Hängen, aber auch in den übrigen Hangrichtungen können vor allen Rinnen, Mulden sowie Bereiche hinter Geländekanten seitlich eingeweht sein. Eine Schneebrettauslösung ist bereits bei geringer Zusatzbelastung wahrscheinlich. Lawinen können schattseitig bis zum schwachen Fundament durchschlagen, daher sind atypische große Lawinen weiterhin möglich. </avActivityComment>
+          <snowpackStructureComment>Der noch lockere Schnee vom Wochenende sowie der weitere Neuschneezuwachs am Dienstag wurde mit dem stürmischen Wind aus West bis Nordwest als spröder Triebschnee vorwiegend ost- bis südseitig abgelagert. Für einen ungünstigen Schneedeckenaufbau sorgt als potentielle Schwachschicht einerseits der Oberflächenreif, welcher sich in der klaren Nacht von Sonntag auf Montag bilden konnte. Mit Fortdauer der Schneefälle andererseits auch weichere Schneeeinlagerungen im Triebschnee, die durch das vorübergehende Nachlassen des Windes entstanden sind. Ältere Schwachschichten mit kantigen Kristallen sowie bodennaher Schwimmschnee finden sich generell in schattigen Hängen höherer Lagen. Durch das Gewicht des Schneezuwachses kann diese Schicht brechen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch hört es vorübergehend auch in den Nordalpen auf zu schneien und die Gipfel werden stellenweise frei. Auch die Sonne kommt zwischenzeitlich durch die Wolken. Erst ab dem mittleren Nachmittag sinken von Westen die Wolkenbasen wieder ab und es fängt erneut zu schneien an. Der in der Nacht auf Mittwoch noch stürmische Nordwestwind wird tagsüber schwächer und die Temperaturen steigen leicht an. Sie erreichen um die Mittagszeit in 2.000m -11 Grad und in 1.500m -6 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag und Freitag fallen weitere, ergiebige Niederschläge, wobei die Temperaturen und damit auch die Schneefallgrenze langsam steigen. Anstieg der Lawinengefahr! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID266RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID266RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze, umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Stürmischer Wind und Neuschnee – heikle Schneebrettsituation oberhalb der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Mit der Nordstauwetterlage kam es verbreitet zur Bildung von störanfälligem Triebschnee. Entsprechend der Hauptwindrichtung liegen die meisten Gefahrenstellen in ost- bis südausgerichteten Hängen, aber auch in den übrigen Hangrichtungen können vor allen Rinnen, Mulden sowie Bereiche hinter Geländekanten seitlich eingeweht sein. Eine Schneebrettauslösung ist bereits bei geringer Zusatzbelastung wahrscheinlich. Lawinen können schattseitig bis zum schwachen Fundament durchschlagen, daher sind atypische große Lawinen weiterhin möglich. </avActivityComment>
+          <snowpackStructureComment>Der noch lockere Schnee vom Wochenende sowie der weitere Neuschneezuwachs am Dienstag wurde mit dem stürmischen Wind aus West bis Nordwest als spröder Triebschnee vorwiegend ost- bis südseitig abgelagert. Für einen ungünstigen Schneedeckenaufbau sorgt als potentielle Schwachschicht einerseits der Oberflächenreif, welcher sich in der klaren Nacht von Sonntag auf Montag bilden konnte. Mit Fortdauer der Schneefälle andererseits auch weichere Schneeeinlagerungen im Triebschnee, die durch das vorübergehende Nachlassen des Windes entstanden sind. Ältere Schwachschichten mit kantigen Kristallen sowie bodennaher Schwimmschnee finden sich generell in schattigen Hängen höherer Lagen. Durch das Gewicht des Schneezuwachses kann diese Schicht brechen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch hört es vorübergehend auch in den Nordalpen und Tauern auf zu schneien und die Gipfel werden stellenweise frei. Auch die Sonne kommt zwischenzeitlich durch die Wolken. Erst ab dem mittleren Nachmittag sinken von Westen die Wolkenbasen wieder ab und es fängt erneut zu schneien an. Der in der Nacht auf Mittwoch noch stürmische Nordwestwind wird tagsüber schwächer und die Temperaturen steigen leicht an. Sie erreichen um die Mittagszeit in 2.000m -11 Grad und in 1.500m -6 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag und Freitag fallen weitere, ergiebige Niederschläge, wobei die Temperaturen und damit auch die Schneefallgrenze langsam steigen. Anstieg der Lawinengefahr! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID266RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID266RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, hinter Geländekanten, kammnah, kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneebildung durch starken Nordwestwind, dazu Altschneeproblem – erhebliche Lawinengefahr über der Baumgrenze!</avActivityHighlights>
+          <avActivityComment>In den Gurktaler und Seetaler Alpen sowie den südlichen Wölzer und Seckauern Tauern herrscht oberhalb der Baumgrenze erhebliche Lawinengefahr. Mit der Nähe zum Alpenhauptkamm nehmen die Gefahrenstellen zu: sie befinden sich vorwiegend in sehr steilen Hängen des Nord- über Ost- bis Südsektors. Vor allem südausgerichtete Rinnen werden jetzt mit störanfälligem Triebschnee befüllt. Eine Schneebrettauslösung ist bereits bei geringer Zusatzbelastung möglich. </avActivityComment>
+          <snowpackStructureComment>Der noch lockere Schnee vom vergangenen Wochenende sowie etwas Neuschnee vom Dienstag wurde mit dem teils stürmischen Wind aus West bis Nordwest als spröder Triebschnee vorwiegend ost- bis südseitig abgelagert. Für einen ungünstigen Schneedeckenaufbau sorgt als potentielle Schwachschicht Oberflächenreif, welcher sich in der klaren Nacht von Sonntag auf Montag bilden konnte. Ältere Schwachschichten mit kantigen Kristallen sowie bodennaher Schwimmschnee finden sich generell in schattigen Hängen höherer Lagen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch legt der Wind vorübergehend noch einmal deutlich zu, tagsüber lässt der Nordstau dann nach, die Wolken lockern auf und die Sonne scheint zeitweise. Erst gegen Abend werden die Wolken wieder dichter und es kann leicht schneien. Der Nordwestwind weht noch mit mäßiger Stärke und die Temperaturen steigen leicht, sie erreichen um die Mittagszeit in 2.000m -9 Grad und in 1.500m -4 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag verstärkt sich der Nordstau wieder, was sich alpensüdseitig vor allem mit teils stürmischem Nordföhn bemerkbar machen wird. Mit den windbedingten neuen Einwehungen ungünstige Triebschneesituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID266RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID266RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneebildung vom Dienstag - mäßige Lawinengefahr oberhalb der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>In den Mürztaler Alpen sowie entlang des Steirischen Randgebirges herrscht oberhalb der Waldgrenze mäßige Lawinengefahr. Mit dem stürmischen Wind haben die Gefahrenstellen zugenommen, sie betreffen nun auch das kammferne Gelände. Besonders betroffen sind die Expositionen Nord über Ost bis Süd.</avActivityComment>
+          <snowpackStructureComment>Der noch lockere Schnee vom vergangenen Wochenende wurde mit dem teils stürmischen Wind aus West bis Nordwest als spröder Triebschnee vorwiegend ost- bis südseitig abgelagert. Für einen ungünstigen Schneedeckenaufbau sorgt als potentielle Schwachschicht Oberflächenreif, welcher sich in der klaren Nacht von Sonntag auf Montag bilden konnte. Älterer, noch störanfälliger Triebschnee liegt ganz vereinzelt schattseitig auf einer durch die aufbauende Umwandlung geschwächten Schneeschicht.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpensüdseite ist weiterhin wetterbegünstigt, vor allem am Mittwochvormittag scheint häufig die Sonne. Erst ab Mittag ziehen in mittelhohen Schichten Wolkenfelder durch. Der Wind lässt am Vormittag rasch nach, es bleibt aber noch recht kalt. Die Temperaturen erreichen um die Mittagszeit in 2.000m -11 Grad und in 1.500m -7 Grad. </wxSynopsisComment>
+          <tendencyComment>Auch am Donnerstag vorerst sonnig und am Nachmittag mehr Wolken. Der Nordföhn wird wieder stärker und die Temperaturen steigen weiter. Keine Änderung der Lawinensituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

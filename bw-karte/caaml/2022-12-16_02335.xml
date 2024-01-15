@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2335RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2335RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Triebschnee und etwas Neuschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den niederösterreichischen Alpen mit GERING beurteilt. Älterer Triebschnee kann schattseitig an vereinzelten Stellen mit großer Zusatzbelastung ausgelöst werden. Große Lawinen (Größe 3) sind jedoch nicht zu erwarten. Frische kleinräumige Triebschneepakete liegen kammnah im Sektor Ost und West und sind morgen auslösbar.</avActivityComment>
+          <snowpackStructureComment>Schattseitig sind in steilen Rinnen und Mulden sowie in Kammnähe noch vereinzelt ältere Triebschneepakete zu finden. Als Schwachsicht kommt hier lokal noch überdeckter Oberflächenreif  (aus der frostigen Nacht von Montag auf Dienstag) in Frage. Teilweise kann in schattigen Hochlagen auch noch lockerer Pulverschnee vorhanden sein. Sonnseitig setzt sich die Schneedecke zunehmend, an der Schneeoberfläche befindet sich weicher, gebundener Schnee aus filzigen Kristallen oder runden Schneekörnern. Dieser ist teilweise oberflächlich schon feucht oder mit einer dünnen Schmelzharschkruste überdeckt. Mit der Abkühlung am Freitagnachmittag stabilisierte sich die Schneedecke. Etwas Neuschnee- bzw. Triebschnee lagert sich in der Nacht von Freitag auf Samstag auf der Schmelzkruste ab.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Der Samstag beginnt noch recht trüb und am Vormittag schneit es noch leicht. Viel Neuschnee wird nicht erwartet. Tagsüber klingt der Schneefall aber ab und am Nachmittag kommt allmählich die Sonne durch. Der Wind weht in der Höhe lebhaft aus Nordwest, lässt aber tagsüber etwas nach. Die Temperaturen erreichen in 1500m rund minus 7 Grad.&#13;
+ Sonntag: Generell setzt sich sehr sonniges aber kaltes Wetter durch. In den Niederungen gibt es Frühnebel, der sich meist auflöst. Der Wind weht in der Höhe mäßig aus südlichen Richtungen. In 1500m steigen die Temperaturen bereits deutlich an und sind am Abend mitunter sogar leicht positiv.</wxSynopsisComment>
+          <tendencyComment>Die kleinräumigen Triebschneepakete können sich mit der Erwärmung setzen. In den schattseitigen Hochlagen stellt sich ein Altschneeproblem ein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

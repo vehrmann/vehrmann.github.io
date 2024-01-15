@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID215RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID215RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Hochgebirge umfangreich, leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht zu störender Triebschnee und schlechter Schneedeckenaufbau - im Tourenbereich angespannte Triebschneesituation!</avActivityHighlights>
+          <avActivityComment>Umfangreiche ältere überdeckte und frische Triebschneeablagerungen (am Montag starker Wind aus West bis Nordwest) sind unbedingt zu beachten. Je nach Stärke des Windes aus Süd bis West bilden sich am Dienstag neue Gefahrenstellen. Allgemein befinden sich mögliche Auslösepunkte in Steilhängen sowie in steilen verfüllten Mulden und Rinnen in allen Expositionen bis in den lichten Bergwald hinunter. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich, in den Hochlagen auch wahrscheinlich. Aus nicht entladenen Bereichen sind kleine, ab den mittleren Lagen bis große spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Ab Sonntagabend bis Montag gab es 20 bis 30 cm Neuschnee (hochalpin auch noch etwas mehr), der durch starken Wind aus West bis Nordwest verfrachtet wurde. Am Dienstag kann zunehmender Wind aus Süd frischen Triebschnee bilden. In den Triebschneepaketen, im Übergang zum Altschnee und im Altschnee selbst sind Schwachschichten eingelagert. Die Schneedecke ist somit durch kantige, lockere und bindungslose Kristalle sowie eingelagerten Oberflächenreif geschwächt. Der Triebschnee und die Schneedecke sind allgemein sehr unregelmäßig verteilt. Mit den milderen Temperaturen beginnt sich die Schneedecke zu setzen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht am Vormittag gut, zeitweise scheint die Sonne. Am Nachmittag werden die Wolken dichter und hohe Gipfel geraten zeitweise in Nebel. Es weht lebhafter bis starker Wind aus Süd bis West. Deutliche Erwärmung. Zu Mittag in 1500 m um 0 Grad, in 2000 m um -5 Grad.&#13;
+Am Mittwoch ist die Sicht gut, oft scheint die Sonne. Es ziehen dünne Wolkenfelder weit über die Gipfel. Im Tagesverlauf kommt teils lebhafter Südwind auf. Es wird noch milder: In 1500 m zu Mittag +5 Grad, in 2000 m 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Weiterhin erhebliche Schneebrettgefahr. Mit den milden Temperaturen beginnt sich die Schneedecke langsam zu setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID215RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID215RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teils umfangreich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht auslösbarer Triebschnee und Altschneeproblem - Vorsicht im Tourenbereich!</avActivityHighlights>
+          <avActivityComment>Älterer überdeckter und teils frischer Triebschnee (am Montag teils starker Wind aus West bis Nordwest, am Dienstag zunehmender Wind aus Süd bis West) sind unbedingt zu beachten. Gefahrenstellen befinden sich in Steilhängen in allen Expositionen, sowie in steilen verfüllten Mulden und Rinnen bis in lichte Bergwälder hinab. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich, stellenweise wahrscheinlich. Aus steilen nicht entladenen Hängen sind je nach Höhenlage kleine bis einzelne große spontane Lawinen möglich.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Ab Sonntagabend bis Montag gab es rund 20 Neuschnee, der durch starken Wind aus West bis Nordwest verfrachtet wurde. Am Dienstag kann zunehmender Wind aus Süd frischen Triebschnee bilden. In den Triebschneepaketen, im Übergang zum Altschnee und im Altschnee selbst sind Schwachschichten eingelagert. Die Schneedecke ist somit durch kantige, lockere und bindungslose Kristalle sowie eingelagerten Oberflächenreif geschwächt. Der Triebschnee und die Schneedecke sind allgemein sehr unregelmäßig verteilt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht am Vormittag gut, zeitweise scheint die Sonne. Am Nachmittag werden die Wolken dichter und hohe Gipfel geraten zeitweise in Nebel. Es weht lebhafter bis starker Wind aus Süd bis West. Deutliche Erwärmung. Zu Mittag in 1500 m um 0 Grad, in 2000 m um -5 Grad.&#13;
+Am Mittwoch ist die Sicht gut, oft scheint die Sonne. Es ziehen dünne Wolkenfelder weit über die Gipfel. Im Tagesverlauf kommt teils lebhafter Südwind auf. Es wird noch milder: In 1500 m zu Mittag +5 Grad, in 2000 m 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Weiterhin erhebliche Schneebrettgefahr. Mit den milden Temperaturen beginnt sich die Schneedecke langsam zu setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID215RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID215RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht zu störender Triebschnee und schlechter Schneedeckenaufbau - teils große Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Umfangreiche ältere überdeckte und frische Triebschneeablagerungen (am Montag starker Wind aus West bis Nordwest) sind unbedingt zu beachten. Je nach Stärke des Windes aus Süd bis West bilden sich am Dienstag neue Gefahrenstellen. Allgemein befinden sich mögliche Auslösepunkte in Steilhängen sowie in steilen verfüllten Mulden und Rinnen in allen Expositionen bis in den lichten Bergwald hinunter. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung wahrscheinlich. Aus nicht entladenen Bereichen sind kleine, ab den mittleren Lagen bis große, vereinzelt auch sehr große spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Ab Sonntagabend bis Montag gab es 20 bis 40 cm Neuschnee (hochalpin auch noch etwas mehr), der durch starken Wind aus West bis Nordwest verfrachtet wurde. Am Dienstag kann zunehmender Wind aus Süd frischen Triebschnee bilden. In den Triebschneepaketen, im Übergang zum Altschnee und im Altschnee selbst sind Schwachschichten eingelagert. Die Schneedecke ist somit durch kantige, lockere und bindungslose Kristalle sowie eingelagerten Oberflächenreif geschwächt. Der Triebschnee und die Schneedecke sind allgemein sehr unregelmäßig verteilt. Mit den milderen Temperaturen beginnt sich die Schneedecke zu setzen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht am Vormittag gut, zeitweise scheint die Sonne. Am Nachmittag werden die Wolken dichter und hohe Gipfel geraten zeitweise in Nebel. Es weht lebhafter bis starker Wind aus Süd bis West. Deutliche Erwärmung. Zu Mittag in 1500 m um 0 Grad, in 2000 m um -5 Grad.&#13;
+Am Mittwoch ist die Sicht gut, oft scheint die Sonne. Es ziehen dünne Wolkenfelder weit über die Gipfel. Im Tagesverlauf kommt teils lebhafter Südwind auf. Es wird noch milder: In 1500 m zu Mittag +5 Grad, in 2000 m 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Überwiegend erhebliche Schneebrettgefahr. Mit den milden Temperaturen beginnt sich die Schneedecke langsam zu setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

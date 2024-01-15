@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1220RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1220RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in den Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen herrscht in den Hochlagen mäßige, darunter geringe Lawinengefahr. Gefahrenstellen finden sich in den Sektoren Nord über Ost bis Süd, wo hinter Kämmen, Geländekanten und in Einfahrten zu Rinnen und Mulden an einigen Steilhängen kleinere Schneebrettlawinen ausgelöst werden können. In tieferen Lagen kann es zu Nass- und Gleitschneerutschen kommen.</avActivityComment>
+          <snowpackStructureComment>Durch Neuschnee und Wind haben sich über etwa 1800 m Triebschneeablagerungen gebildet, die aber meist gut mit dem Untergrund verbunden sind. Darüber liegt in den höchsten Lagen etwas lockerer Neuschnee. Ausgesetzte Bereiche der Hochlagen wurden abgeblasen und sind vielfach vereist. Bis etwa 1700 m hinauf hat es geregnet, daher wurde die Schneedecke in mittleren und tiefen Lagen weiter angefeuchtet, bzw. nass. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag sind die Berge zunächst noch in Wolken gehüllt, aber bereits am Vormittag lockert es auf und ab Mittag überwiegt der Sonnenschein. Der Wind bleibt schwach und die Temperaturen in 1500 m betragen etwa +2 Grad. Der Dienstag präsentiert sich wieder etwas trüber, es bleibt aber vorerst windschwach und niederschlagsfrei. Erst in der Nacht auf Mittwoch erreicht uns eine Warmfront mit stürmischem Westwind.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1220RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1220RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Von den Türnitzer und Gutensteiner Alpen über das Gippel-Göller Gebiet und die Rax-Schneeberg-Gruppe bis hin zur Semmering-Wechsel-Region herrscht geringe Lawinengefahr. Dennoch existieren in den Hochlagen vereinzelte Gefahrenstellen in den leeseitigen Einfahrten zu Rinnen und Mulden, wo frischer Triebschnee durch große Zusatzbelastung vereinzelt als Schneebrettlawine ausgelöst werden kann. In mittleren und tiefen Lagen kann es vereinzelt zu Nass- und Gleitschneerutschen kommen. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen haben sich in Hohlformen kleinere Treibschneeansammlungen gebildet. Rücken und Grate sind abgeblasen und oft vereist. Das Schneedeckenfundament ist großteils stabil. In mittleren und tiefen Lagen ist die Schneedecke feucht bis nass.  </snowpackStructureComment>
+          <wxSynopsisComment> &#13;
+Am Montag sind die Berge zunächst noch in Wolken gehüllt, aber bereits am Vormittag lockert es auf und ab Mittag überwiegt der Sonnenschein. Der Wind bleibt schwach und die Temperaturen in 1500 m betragen etwa +2 Grad. Der Dienstag präsentiert sich wieder etwas trüber, es bleibt aber vorerst windschwach und niederschlagsfrei. Erst in der Nacht auf Mittwoch erreicht uns eine Warmfront mit stürmischem Westwind. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

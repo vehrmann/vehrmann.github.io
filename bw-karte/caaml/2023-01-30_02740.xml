@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2740RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2740RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch Neuschnee und stürmischen Wind bilden sich frische Triebschneeablagerungen!</avActivityHighlights>
+          <avActivityComment>Erhebliche Lawinengefahr vor allem über der Waldgrenze. Durch stürmischen Wind um West und Neuschnee bilden sich frische Triebschneeablagerungen kammnah und kammfern, die auch leicht gestört werden können. Eine Schneebrettlawine kann bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich vor allem über, stellenweise aber auch schon unter der Waldgrenze. Durch den stürmischen Wind können sie in allen Expositionen, gehäuft aber im erweiterten Ostsektor auftreten. Mit zunehmenden Neuschneemengen und größer werdenden Triebschneepaketen sind spontane Lockerschnee- und Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Durch stürmischen Wind und Neuschnee bilden sich frische Triebschneeablagerungen. Die Triebschneepakte enthalten Schwachschichten und liegen auf einer oberflächig weichen Altschneedecke, binden nur schlecht und sind daher störanfällig. Oberflächenreif wurde überdeckt und somit zur Schwachschicht. In der Altschneedecke sind schattseitig und höher gelegen Schwachschichten wie teils Oberflächenreif oder Harschschichten und im Fundament neben kantigen Kristallen ebenfalls Harschkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Montag auf Dienstag schneit es. Am Dienstag stecken die Berge öfter in Wolken, vor allem am Vormittag ist auch noch etwas Schneefall möglich. Nur vorübergehend können sich bessere Sichtverhältnisse mit ein paar sonnigen Phasen einstellen. Der Wind weht stark bis stürmisch aus West bis Nordwest. Temperaturen in 1500 m zwischen -7 und -3 Grad, in 2000 m um -10 bis -6 Grad.&#13;
+In der Nacht auf Mittwoch setzt wieder Schneefall ein. Am Mittwoch stecken die Berge häufig in Wolken, immer wieder ziehen auch Schneeschauer durch und schränken die Sicht zusätzlich ein. Auflockerungen sind nur von kurzer Dauer. Es weht starker bis stürmischer Wind aus West bis Nordwest. Temperaturen in 1500 m um -4 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Weiterhin erhebliche Lawinengefahr. Der Umfang und die Anzahl der Gefahrenstellen werden durch Schneefall und stürmischen Wind mehr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2003RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2003RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-26T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-27T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-27T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-27T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühjahrsbedingungen mit raschem Tagesgang der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Mit der Einstrahlung und Erwärmung steigt die Lawinengefahr bereits im Laufe des Vormittags von gering auf mäßig an. Besonders aus besonnten Hängen nimmt die Wahrscheinlichkeit von spontanen Nass- und Gleitschneelawinen aus steilem Gelände, die teils auch groß werden können, zu. Außerdem existiert in steilen Nordrinnen noch ein Altschneeproblem, wo an wenige Gefahrenstellen Schneebrettlawinen ausgelöst werden können. </avActivityComment>
+          <snowpackStructureComment>Ausstrahlungsbedingt gestaltet sich die Schneeoberfläche in der Früh noch verharscht, wird aber aufgrund milder Temperaturen in besonntem Gelände bis in die Hochlagen rasch weich. Die Durchfeuchtung der Schneedecke schreitet weiter voran, in mittleren Lagen ist der Schnee bereits faul. In steilen Nordhängen der Hochlagen sind noch Kältereserven vorhanden und kantige Kristalle bilden mögliche Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Sonntag herrscht ausgezeichnetes Bergwetter mit viel Sonnenschein, hervorragender Fernsicht und kaum Wind. Nur im nordöstlichen Bergland können am Nachmittag ein paar harmlose Quellwolken entstehen. Die Temperaturen sind auch in der Nacht weiterhin sehr mild, in 2000m Höhe hat es etwa +3 Grad. </wxSynopsisComment>
+          <tendencyComment>Für Montag ist keine Änderung der Wetter- und Lawinensituation zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2003RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2003RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühlingshaftes Wetter und günstige Tourenbedingungen</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr bei günstigen Bedingungen, allerdings nehmen Abgänge spontaner Nass- und Gleitschneelawinen aus extrem steilem Gelände im Laufe des Tages zu. Risse und Schneemäuler beachten!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist in der Früh noch harschig, wird aber sehr schnell am Vormittag wieder feucht und faul. Tiefe Lagen und Südexpositionen sind bereits weit hinauf ausgeapert. Die Tourenmöglichkeiten sind bereits eingeschränkt.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Sonntag herrscht ausgezeichnetes Bergwetter mit viel Sonnenschein, hervorragender Fernsicht und kaum Wind. Die Temperaturen sind auch in der Nacht weiterhin sehr mild, in 2000m Höhe hat es etwa +3 Grad. </wxSynopsisComment>
+          <tendencyComment>Für Montag ist keine Änderung der Wetter- und Lawinensituation zu erwarten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

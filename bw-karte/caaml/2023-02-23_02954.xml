@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2954RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2954RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus steilem Grasmattengelände und Laubwald, zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber immer noch vereinzelt Gleitschneelawinen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet. In allen Höhenlagen sind, insbesondere sonnseitig, Gleitschneelawinen zu beachten. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden und die Bereiche darunter gemieden werden! In den Hochlagen ist die Oberfläche oft vereist und es herrscht Absturzgefahr.  </avActivityComment>
+          <snowpackStructureComment>Verbreitet ist die Schneedecke gut gesetzt. Südseitig ist die Schneedecke bis in hohe Lagen feucht, nordseitig in den Hochlagen sehr hart. Exponierte Bereiche der Hochlagen sind abgeweht und oft vereist. An steilen Gras- oder Laubwaldhängen ist die verbleibende Schneedecke im Gleiten. In mittleren und tiefen Lagen apert die Schneedecke rasch aus. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag überwiegt am Vormittag noch der Sonnenschein, gegen Mittag werden die Wolken aber dichter und es mit unergiebigen Regen-, bzw. Schneeschauern zu rechnen. Die Schneefallgrenze liegt bei etwa 1700 m. Der Wind weht mäßig aus westlichen Richtungen und die Temperaturen in 1500 m steigen auf etwa +3 Grad. &#13;
+Am Samstag erreicht eine Kaltfront die Niederösterreichischen Berge. Die Schneefallgrenze sinkt im Laufe des Tages bis in die Tallagen und es treten immer wieder Schauer auf. Der Wind weht stürmisch aus Westen. </wxSynopsisComment>
+          <tendencyComment>Mit Wind und etwas Neuschnee bildet sich frischer Triebschnee und die Lawinengefahr steigt etwas an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1017RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1017RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee, schwacher, feuchter Altschnee und Triebschnee sind die Hauptprobleme</avActivityHighlights>
+          <avActivityComment>Schwachschichten in der Altschneedecke und Triebschneeablagerungen welche bereits ab der Waldgrenze anzutreffen sind, bilden derzeit das Hauptproblem. Die Altschneedecke ist zumeist noch recht feucht. Ältere Triebschneeablagerungen sind teils überschneit und schwer zu erkennen. Der Neuschnee übt eine Zusatzbelastung auf die Schwachschichten aus. Zurückhaltung ist bei Touren angesagt.</avActivityComment>
+          <snowpackStructureComment>Rund 30 cm bis 40 cm Neuschnee hat es in der Region am Donnerstag geschneit. Der Neuschnee hat die bereits vorhandene Schneedecke vom Wochenbeginn, welche sich durch die milden Temperaturen am Mittwoch bereits etwas gesetzt hat, überdeckt. Durch die starke Windbeeinflussung währen der vorangegangenen Schneefallperiode wurde die Schneedecke teilweise sehr stark verfrachtet. Die Bindung der Triebschneeablagerungen, welche jetzt vom Neuschnee überlagert wurden ist schlecht. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer kalten Nordströmung und steigendem Luftdruck setzt sich am Freitag von Westen her sonnigeres Wetter durch. Am Vormittag ziehen die Wolken nach Osten ab. Der Freitag beginnt oft noch stark bewölkt aber meist schon trocken. Es wird ein wenig milder aber noch sehr kalt, die Temperaturen erreichen in 3000m -16 Grad und in der Nacht zum Samstag trübt es mit einer Warnfront erneut ein. Der Wind kommt vermehrt aus nördlicher Richtung mit durchschnittlich 30 km/h.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1017RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1017RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schwacher Altschnee und Triebschnee sind die Hauptprobleme</avActivityHighlights>
+          <avActivityComment>Schwachschichten in der Altschneedecke und Triebschneeablagerungen welche bereits ab der Waldgrenze anzutreffen sind, bilden derzeit das Hauptproblem. Ältere Triebschneeablagerungen sind teils überschneit und schwer zu erkennen. Zurückhaltung ist bei Touren angesagt.</avActivityComment>
+          <snowpackStructureComment>Rund 20 cm Neuschnee hat es in der Region am Donnerstag geschneit. Der Neuschnee hat die bereits vorhandene Schneedecke vom Wochenbeginn, welche sich durch die milden Temperaturen am Mittwoch bereits etwas gesetzt hat, überdeckt. Durch die starke Windbeeinflussung währen der vorangegangenen Schneefallperiode wurde die Schneedecke teilweise sehr stark verfrachtet. Die Bindung der Triebschneeablagerungen, welche jetzt vom Neuschnee überlagert wurden ist schlecht. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer kalten Nordströmung und steigendem Luftdruck setzt sich am Freitag von Westen her sonnigeres Wetter durch. Am Vormittag ziehen die Wolken nach Osten ab. Der Freitag beginnt oft noch stark bewölkt aber meist schon trocken. Es wird ein wenig milder aber noch sehr kalt, die Temperaturen erreichen in 3000m -16 Grad und in der Nacht zum Samstag trübt es mit einer Warnfront erneut ein. Der Wind kommt vermehrt aus nördlicher Richtung mit durchschnittlich 30 km/h.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1017RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1017RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Oberhalb der Baumgrenze lokale Gefahrenstellen durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen sind noch Gefahrenstellen durch älteren Triebschnee, der zu Wochenbeginn gebildet wurden, vorhanden. Im Steilgelände können Schneebrettlawinen durch große, punktuell auch Zusatzbelastung ausgelöst werden. Zu beachten sind vor allem kammnahe, teils aber auch kammferne eingewehte steile Bereiche. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. </avActivityComment>
+          <snowpackStructureComment>Rund 20 cm Neuschnee hat es in der Region am Donnerstag geschneit. Der Neuschnee hat die bereits vorhandene Schneedecke vom Wochenbeginn, welche sich durch die milden Temperaturen am Mittwoch bereits gesetzt hat, überdeckt. Durch die starke Windbeeinflussung währen der vorangegangenen Schneefallperiode sind in der Altschneedecke noch labile Triebschneeablagerungen vorhanden und die Schneedecke oberhalb der Baumgrenze stark windbeeinflusst.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer kalten Nordströmung und steigendem Luftdruck setzt sich am Freitag von Westen her sonniges Wetter durch. Der Freitag beginnt oft noch stark bewölkt aber meist schon trocken. Am Vormittag ziehen die Wolken südostwärts ab und immer mehr kann sich die Sonne durchsetzen. Es wird ein wenig milder aber noch sehr kalt mit Temperaturen in 2000 m zwischen -11 und -6 Grad und in 1500 m zwischen -9 und -5 Grad.&#13;
+Am Samstag ziehen vermehrt ausgedehnte Wolkenfelder durch, aber zwischendurch gibt es immer wieder Auflockerungen, vor allem im Osten.</wxSynopsisComment>
+          <tendencyComment>Das Altschneeproblem tritt vermehrt in den Vordergrund, das Triebschneeproblem bleibt noch etwas bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1862RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1862RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschneelawinen und sonnseitig kleinere, nasse Lockerschneelawinen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist gering. Mit steigenden Temperaturen gewinnt die Nassschneeproblematik an Bedeutung. Sonnseitig können sich in der zweiten Tageshälfte vereinzelt kleine, nasse Lockerschneelawinen in felsdurchsetztem Steilgelände von selbst lösen. An steilen, vergrasten Hängen ist vereinzelt das Abrutschen von Gleitschneelawinen am glatten Boden möglich, die im Allgäu auch mittelgroß werden können. Bereiche unter Gleitschneemäulern sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke im Bayerischen Alpenraum ist allgemein gut verfestigt und stabil. Ehemals störanfällige Zwischenschichten im Altschnee zeigen keine Tendenz zur Bruchfortpflanzung mehr. Schattseitig findet sich an der Oberfläche oft bindungsloser, aufgefrorener Pulver, an windexponierten Stellen höherer Lagen häufig Windharsch. Südseitig weicht der tragfähige Schmelzharschdeckel tagsüber in der Sonne auf. Unterhalb 2000m ist die Schneedeckenbasis teilweise feucht, örtlich sind Gleitbewegungen zu beobachten.</snowpackStructureComment>
+          <tendencyComment>Die Lawinensituation wird sich zum Wochenende hin nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

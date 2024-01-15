@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3183RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3183RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem durch Erwärmung und Einstrahlung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Die Gefahr von spontanen Nassschneerutschen aus steilen, noch nicht entladenen Hängen nimmt im Laufe des Tages zu. Betroffen sind vor allem Südexpositionen. Zudem sind vereinzelt Gleitschneelawinen aus steilem Grasmattengelände möglich. Im lawinenexponierten Gelände ist eine frühe Beendigung von Touren empfehlenswert. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist unter 1500 m oft nicht mehr geschlossen. Darüber ist sie bis in hohe Lagen expositions-abhängig unterschiedlich stark durchfeuchtet, schattseitig kompakt und noch hart. In den hoch gelegenen Schattseiten sind aber kaum mehr Schwachschichten vorhanden. Im Tagesverlauf wird die Schneedecke weiter angefeuchtet, was zu einem Festigkeitsverlust führen kann. Eine bis zum Boden durchnässte Schneedecke kann auf glattem Untergrund zu gleiten beginnen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag steigt der Luftdruck und es wird großteils sonnig. Während im Norden des Alpenhauptkammes der Sonnenschein immer wieder von Wolken unterbrochen wird, ist es südlich davon fast durchgehend sonnig. Die Temperaturen in 1500 m steigen auf +5 Grad, der Wind weht mäßig aus West bis Nordwest.&#13;
+Der Mittwoch bringt großteils sonniges Bergwetter bei weiter steigenden Temperaturen und wenig Wind. </wxSynopsisComment>
+          <tendencyComment>Die Lawinensituation ändert sich nicht wesentlich, die Ausaperung schreitet voran.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1899RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T06:28:04+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1899RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T06:28:04+00:00</beginPosition>
+          <endPosition>2022-03-15T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-14T06:28:04+00:00</beginPosition>
+                  <endPosition>2022-03-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-15T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-14T06:28:04+00:00</beginPosition>
+                  <endPosition>2022-03-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-15T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frischer und älterer Föhntriebschnee im schattseitigen Lee meiden.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Anstieg der Gefahr von Nassschneelawinen im Tagesverlauf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer und älterer Föhntriebschnee meiden! Anstieg der Gefahr von Nassschneelawinen im Tagesverlauf.</avActivityHighlights>
+          <avActivityComment>Meist herrschen günstige frühlingshafte Bedingungen, mit geringer Lawinengefahr. Dort wo der Föhn am Wochenende und vor allem in der Nacht wehte, sind im schattseitigen Lee frische, meist nur kleine Triebschneeansammlungen entstanden, die teils störanfällig sind. Gefahrenstellen liegen besonders in Kamm- und Passlagen oberhalb etwa 2000m. Nebst der Verschüttungsgefahr sollte auch die Mitreiß- und Absturzgefahr beachtet werden. Mit der Erwärmung und Sonneneinstrahlung nimmt im Tagesverlauf die Gefahr von nassen Lawinen zu. Sonnseitig können sich in der zweiten Tageshälfte nasse Lawinen von selbst lösen. Unterhalb von etwa 2000m sind an glatten, sehr steilen Sonnenhängen kleine bis mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Föhn aus südlichen Richtungen sind meist nur kleine, frische Triebschneeansammlungen entstanden. Dies vor allem in den typischen Föhnregionen in den südlichen Landesteilen. An Nordhängen liegt der Triebschnee auf einer kantig aufgebauten Altschneedecke und ist teils störanfällig. Schattseitig ist der obere Teil der Schneedecke weich, mit kantig aufgebauten Kristallen an der Oberfläche. An sonnenbeschienenen Hängen ist ein tragfähiger Harschdeckel vorhanden, der mit der Erwärmung und Einstrahlung im Tagesverlauf aufweicht. Durch die mildere und feuchtere Luft verliert die Schneedecke heute im Tagesverlauf rascher an Festigkeit als an den Vortagen. In mittleren Lagen ist die Schneedeckenbasis teilweise feucht. An sehr steilen Grashängen kann das die Gleitbewegung der Schneedecke begünstigen.</snowpackStructureComment>
+          <wxSynopsisComment>Das gute Bergwetter bleibt bestehen. Sonnenschein dominiert, Wolken kommen nur zeitweise weit über den Gipfeln vor. Der Föhn schläft morgens ein. Abends ziehen aus Südwesten vermehrt höhere Wolken auf. Anhaltend mild, in 2000m -2 bis +3 Grad, es weht leichter bis mäßiger Südwestwind.</wxSynopsisComment>
+          <tendencyComment>Starke Schichtbewölkung am Dienstag macht die Sicht diffus, zudem kommt Trübung durch Saharastaub dazu. Der Westwind weht in der Höhe mäßig bis lebhaft. Die Lawinensituation ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

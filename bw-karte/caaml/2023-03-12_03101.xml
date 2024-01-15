@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3101RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3101RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-12T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-13T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-13T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - im Tagesverlauf zunehmend kleine Nassschneerutsche</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Während die Hochlagen schattseitig weiterhin vereist sind und Absturzgefahr herrscht, wird der Schnee sonnseitig schnell wieder feucht und aus extremem Steilgelände sind kleinere, spontane Nassschneerutsche zu erwarten. Die Lawinenaktivität nimmt im Verlauf des Tages ein wenig zu, die Lawinengefahr bleibt aber insgesamt gering. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist in den Hochlagen großteils hart bis vereist, wird aber sonnseitig und in mittleren und tiefen Lagen in allen Expositionen in Tagesverlauf feucht. Frische Triebschneebereiche können dadurch destabilisiert werden. Auch das Gleiten der Schneedecke auf steilen Grashängen nimmt wieder zu. Die Schneemächtigkeiten sind aber so gering, dass keine größeren Lawinen zu erwarten sind. In tiefen bis mittleren Lagen existiert verbreitet keine geschlossene Schneedecke mehr.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ziehen einige Wolkenfelder über Niederösterreichs Berge hinweg, die meisten Gipfel bleiben voraussichtlich aber frei. Am Vormittag sind auch ein paar Schneeflocken möglich, am Nachmittag setzt sich dann die Sonne durch. Der Wind weht kräftig aus Südwest bis Süd. Die Temperaturen 1500 m Höhe steigen stark an und erreichen bis zu +9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag sorgt ein Tiefdruckgebiet über Oberitalien für Wolken und Niederschlag über den Niederösterreichischen Bergen, bei vorerst noch recht milden Temperaturen. Die Lawinengefahr bleibt gering und die Ausaperung schreitet weiter voran. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

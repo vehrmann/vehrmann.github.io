@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2840RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2840RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee im Nord- und Ostsektor!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig beurteilt. Die Gefahrenstellen konzertieren sich in den Expositionen Nord und Ost. Frischer Triebschnee wurde am Donnerstag und am Freitag in den genannten Sektoren eingeweht. Bei geringer Zusatzbelastung können mittelgroße Lawinen ausgelöst werden. Besondere Vorsicht ist kammnah bei den Einfahrtsbereichen von Rinnen und Mulden geboten!  Die Triebschneemengen in den Hochlagen sollten nicht unterschätzt werden. &#13;
+Mit der Erwärmung können sich in den mittleren Lagen Gleitschneelawinen lösen. Aber auch mittlere spontane Schneebretter bzw. Lockschneelawinen aus steilen Fels- und Schrofengelände sind am Samstag möglich.</avActivityComment>
+          <snowpackStructureComment>Der Wind aus südlicher und westlicher Richtung transportierte den Schnee in die Nord- und Ostexposition. Der Wind wehte am Donnerstag und am Freitag teilweise stark und dadurch lagerte sich viel Triebschnee in Rinnen und Mulden sowie hinter Geländekanten ab. Vorsicht, der Triebschnee liegt auf einer Oberflächenreifschicht auf!  Kammnah hat sich ein Windharschdeckel ausgebildet. Das Schneedeckenfundament wird durch die aufbauende Umwandlung geschwächt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag merkt man die Erwärmung in den Bergen endgültig. Dazu sind die Gipfel zeitweise in dichte Wolken gehüllt, dann wieder scheint die Sonne nahezu ungetrübt. Regen oder Schneefall wird vor dem Abend nicht erwartet. Der Wind lebt im Bereich des Alpenhauptkamms lebhaft bis kräftig aus Nordwest auf, im Randgebirge bleibt es bei mäßigem Wind. In 2000m Höhe hat es zu Mittag zwischen -2 Grad am Dachstein und +1 Grad auf der Koralpe. </wxSynopsisComment>
+          <tendencyComment>Unbeständiges Bergwetter bringt der Sonntag. Die Gipfel stecken vormittags oft im Nebel, nördlichen des Alpenhauptkammes schneit es leicht. Nach Süden zu bleibt es weitgehend trocken und der teils lebhafte bis kräftige Nordwestwind kann die Wolken ab Mittag auch auflockern. Windspitzen mit über 60 km/h werden erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2840RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2840RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>auf ungünstiger Unterlage, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee im Nord- und Ostsektor!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze weiterhin mit mäßig beurteilt. Die Gefahrenstellen konzertieren sich in den Expositionen Nordwest über Nord bis Ost. Frischer Triebschnee wurde in den genannten Sektoren eingeweht und dieser kann bei geringer Zusatzbelastung ausgelöst werden. Besondere Vorsicht ist kammnah bei den Einfahrtsbereichen von Rinnen und Mulden geboten (von wenig Schnee zu viel Schnee). </avActivityComment>
+          <snowpackStructureComment>Die großen Triebschneemengen konnten sich setzen.  Tiefer in der Schneedecke befinden sich Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen. &#13;
+Am Mittwochnachmittag hat der Südwind eingesetzt und dieser transportierte Schnee in die Nordexposition. Am Freitag wehte starker Westwind und es wurden daher auch die Ostseite eingeweht. Der Triebschnee lagerte sich auf einer Oberflächenreifschicht ab. Die Verbindung zwischen dem frischen Triebschnee und der Altschneedecke ist nicht ausreichend! </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag merkt man die Erwärmung in den Bergen endgültig. Dazu sind die Gipfel zeitweise in dichte Wolken gehüllt, dann wieder scheint die Sonne nahezu ungetrübt. Regen oder Schneefall wird vor dem Abend nicht erwartet. Der Wind lebt im Bereich des Alpenhauptkamms lebhaft bis kräftig aus Nordwest auf, im Randgebirge bleibt es bei mäßigem Wind. In 2000m Höhe hat es zu Mittag zwischen -2 Grad am Dachstein und +1 Grad auf der Koralpe. </wxSynopsisComment>
+          <tendencyComment>Unbeständiges Bergwetter bringt der Sonntag. Die Gipfel stecken vormittags oft im Nebel, nördlichen des Alpenhauptkammes schneit es leicht. Nach Süden zu bleibt es weitgehend trocken und der teils lebhafte bis kräftige Nordwestwind kann die Wolken ab Mittag auch auflockern. Windspitzen mit über 60 km/h werden erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

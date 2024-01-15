@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3334RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3334RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in den höheren Lagen - mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Hochlagen teils mäßig. Auf lokal frischen Triebschnee, der durch geringe Zusatzbelastung gestört werden kann und teils noch älteren in steilen ost- bis südseitigen Kamm- und Gipfellagen ist zu achten. Stellenweise können meist kleine Schneebrettlawinen ausgelöst werden. Je nach Neuschneemenge sind im sehr steilen Gelände einzelne kleine Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Es gibt etwas Neuschnee, der hochgelegen auch verfrachtet wird. Die Schneedecke ist oberflächig je nach Höhe daher locker, windgepresst oder feucht. Der zuletzt gebildete Triebschnee konnte sich etwas setzen, ist teils noch störanfällig und liegt auf weicheren Schichten oder enthält eingelagerte dünne Krusten oder auch Harsch. Die Altschneedecke ist im Inneren bis weit hinauf durchfeuchtet. Nur sehr hoch gelegen, vereinzelt und schattseitig können noch ältere Schwachschichten in der Altschneedecke vorhanden sein. In den tiefen Lagen ist es aper, ab den mittleren Höhen fällt nochmals etwas Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht von Beginn durch dichte Wolken eingeschränkt, wiederholt regnet oder schneit es. Die Schneefallgrenze liegt meist um 700 m. Kurze sonnige Phasen sind am Nachmittag zwischen den Schauern möglich. Der Wind weht mäßig bis lebhaft aus nordwestlicher Richtung. Temperaturen in 1500 m um -3 Grad, in 2000 m um -6 Grad.&#13;
+Am Sonntag ist das Wetter bei wechselnder bis starker Bewölkung sehr unbeständig. Zwar kommt bei unterschiedlichen Sichtverhältnissen zeitweise die Sonne heraus, Schauer können aber speziell ab dem späteren Vormittag immer wieder dabei sein. Es schneit meist oberhalb von etwa 1000 m. Es weht schwacher bis mäßiger Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -2 Grad, in 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3334RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3334RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen gibt es vereinzelt Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering mit wenigen Gefahrenstellen. Lokaler frischer Triebschnee ist aber in den höheren Kamm- und Gipfellagen vor allem ost- bis südseitig zu beachten. Stellenweise können hier meist kleine Schneebrettlawinen durch große, frische Verfrachtungen durch geringe Zusatzbelastung ausgelöst werden. Je nach Neuschneemenge sind im sehr steilen Gelände einzelne kleine Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Es gibt etwas Neuschnee, der hochgelegen auch verfrachtet wird. Die Schneedecke ist oberflächig je nach Höhe daher locker, windgepresst oder feucht. Der zuletzt gebildete Triebschnee konnte sich etwas setzen, ist teils noch störanfällig und liegt auf weicheren Schichten oder enthält eingelagerte dünne Krusten oder auch Harsch. Die Altschneedecke ist im Inneren bis weit hinauf durchfeuchtet. In den tiefen Lagen ist es aper, ab den mittleren Höhen fällt nochmals etwas Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht von Beginn durch dichte Wolken eingeschränkt, wiederholt regnet oder schneit es. Die Schneefallgrenze liegt meist um 700 m. Kurze sonnige Phasen sind am Nachmittag zwischen den Schauern möglich. Der Wind weht mäßig bis lebhaft aus nordwestlicher Richtung. Temperaturen in 1500 m um -3 Grad, in 2000 m um -6 Grad.&#13;
+Am Sonntag ist das Wetter bei wechselnder bis starker Bewölkung sehr unbeständig. Zwar kommt bei unterschiedlichen Sichtverhältnissen zeitweise die Sonne heraus, Schauer können aber speziell ab dem späteren Vormittag immer wieder dabei sein. Es schneit meist oberhalb von etwa 1000 m. Es weht schwacher bis mäßiger Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -2 Grad, in 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

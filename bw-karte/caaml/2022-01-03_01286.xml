@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1286RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-03T06:26:50+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1286RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-03T06:26:50+00:00</beginPosition>
+          <endPosition>2022-01-04T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumig frische Einwehungen und teilweise überdeckte Triebschneeansammlungen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>glatte Wiesenhänge, Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In hohen Lagen teilweise frischer und älterer Triebschnee - in tieferen Lagen vereinzelt kleine bis mittlere Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>In höheren Lagen ist kleinräumig frischer und älterer Triebschnee das Hauptproblem. Solche Gefahrenstellen befinden sich oberhalb 2400m im kammnahen Steilgelände vorwiegend der Hangrichtungen W über N bis O sowie in frisch eingewehten Rinnen und Mulden. Kleine Schneebrettlawinen können teilweise von einzelnen Wintersportlern ausgelöst werden. In tieferen Lagen ist die Lawinengefahr überwiegend gering. Vereinzelte, kleine Lawinen sind im extremen Steilgelände möglich. Auf Grund der harten Schneeoberflächen ist die Absturzgefahr nicht zu unterschätzen.In mittleren Lagen sind an noch nicht entladenen, glatten Wiesenhängen oder in Waldschneisen jederzeit Gleitschneelawinen möglich. Bereiche unterhalb von Gleitschneerissen sollten gemieden werden. Vereinzelt können Lawinen mittlere Ausmaße erreichen.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist allgemein gut gesetzt und verfestigt. In den Hochlagen ist vereinzelt älterer Triebschnee erhalten geblieben, der teilweise noch zu stören ist. Kleinräumig sind frische Einwehungen entstanden, welche bindungsarm auf verharschten Altschneeoberflächen liegen. Im Mittelteil finden sich teilweise noch kantige Kristalle an schattigen Hängen oberhalb 2200 m. Die Schneeoberfläche ist bis in hohe Lagen vielerorts verharscht oder vereist. In mittleren Lagen ist die Schneedecke bis zum Boden durchfeuchtet und stark zurückgegangen. Unterhalb 1400 m liegt nur noch wenig Schnee.  </snowpackStructureComment>
+          <wxSynopsisComment>Vom Hinterwald bis ins Arlberggebiet kann es am Vormittag leicht schneien. Die Schneefallgrenze liegt bei 1500 bis 1900 m. Am Nachmittag wird es überall trocken, der Wind lässt nach, die Wolken lockern etwas auf und die Sichten verbessern sich. Temperatur in 2000 m: um 0 Grad. Höhenwind: stark bis stürmisch aus West, am Nachmittag etwas nachlassend.</wxSynopsisComment>
+          <tendencyComment>Der Dienstag bringt keine große Änderung. Auf Mittwoch bringt eine Kaltfront Niederschläge. Je nach Neuschnee wird die Lawinengefahr deutlich ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

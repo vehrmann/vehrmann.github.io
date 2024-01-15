@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID701RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID701RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hochalpin lokale Schneebrettgefahr und sonst Gleitschneelawinen!</avActivityHighlights>
+          <avActivityComment>In sehr hohen Lagen ist teils noch alter Triebschnee vorhanden, der vor allem in schattseitigen Hängen, eingewehten steilen Mulden und Rinnen sowie an Übergängen von viele zu wenig Schnee insbesondere durch große Zusatzbelastung gestört werden kann. Hier kann auch starker West- bzw. Nordwestwind zu kleineren frischen Verfrachtungen führen. In mittleren, teils höheren Lagen sind auf vergrasten Steilhängen trotz Abkühlung auch Gleitschneelawinen möglich und Aufenthalte unter „Lawinenmäuler“ zu meiden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und hat sich weitgehend stabilisieren. Bis in mittlere Lagen und sonnseitig ist die Schneedecke über Nacht oberflächig verharscht und je nach Höhe und Exposition hat sich die nasse bis feuchte Schneedecke mit der Abkühlung gefestigt. In den Hochlagen sind neben windgepressten Oberflächen und schattseitigem Pulver noch lokal Gefahrenstellen vorhanden, da ältere Triebschneepakete teils noch schwache Zwischenschichten enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag schränken Wolken und Nebel die Sicht meist ein. Die Sonne zeigt sich kaum. Zeitweise schneit es unergiebig. Der Wind weht lebhaft bis stark aus West bis Nordwest. Tagsüber gehen die Temperaturen zurück. In 1500 m sinken sie von 4 auf -1 Grad, in 2000 m auf -6 Grad.&#13;
+Am Sonntag scheint häufig die Sonne. Die Sicht ist gut. Auf hohen Gipfeln ist teils lebhafter Nordwind spürbar. Die Temperaturen steigen wieder an: In 1500 m von -3 auf 3 Grad. In 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird wieder milder. Leichter Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID701RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID701RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In kammnahen, steilen und eingefrachteten Gipfellagen, verfüllten Rinnen und Mulden sind teils vereinzelt ältere Verfrachtungen vorhanden, die insbesondere bei großer Zusatzbelastung noch ausgelöst werden können. Auf vergrasten, aper gewesenen Steilhängen ist auf Gleitschneelawinen zu achten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und hat sich weitgehend stabilisieren. Die oft oberflächig nasse bis feuchte Schneedecke konnte sich über Nacht bzw. mit der Abkühlung festigen. In den tiefen und sonnseitigen Höhen ist die Schneedecke schon wieder zurückgegangen und es wird zunehmend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag schränken Wolken und Nebel die Sicht meist ein. Die Sonne zeigt sich kaum. Zeitweise schneit es unergiebig. Der Wind weht lebhaft bis stark aus West bis Nordwest. Tagsüber gehen die Temperaturen zurück. In 1500 m sinken sie von 4 auf -1 Grad, in 2000 m auf -6 Grad.&#13;
+Am Sonntag scheint häufig die Sonne. Die Sicht ist gut. Auf hohen Gipfeln ist teils lebhafter Nordwind spürbar. Die Temperaturen steigen wieder an: In 1500 m von -3 auf 3 Grad. In 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird wieder milder. Leichter Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

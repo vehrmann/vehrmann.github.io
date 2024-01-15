@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID288RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID288RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität in mittleren und tiefen Lagen in der Nacht von Do. auf Fr.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch frischen Triebschnee in den Hochlagen und spontane Nassschneelawinen in tieferen Lagen!</avActivityHighlights>
+          <avActivityComment>Von den Ybbstaler Alpen über die Gippel-Göller-Region bis hin zur Rax-Schneeberg-Gruppe herrscht über der Waldgrenze erhebliche Lawinengefahr. Durch den stürmischen Wind sind überwiegend in den Expositionen Nord über Ost bis Süd frische Triebschneeablagerungen entstanden. Es gilt somit Geländeübergänge sowie Rinnen und Mulden und insbesondere deren Einfahrtsbereiche zu beachten. Bereits die geringe Zusatzbelastung eines einzelnen Tourengehers kann zu einer Schneebrettauslösung führen. In der Nacht von Donnerstag auf Freitag herrscht wegen einer durch Regeneintrag destabilisierten Schneedecke zusätzlich erhebliche Gefahr von spontanen Nassschneelawinen, die exponierte Verkehrswege erreichen können. </avActivityComment>
+          <snowpackStructureComment>Regen bis etwa 1400m hinauf hat die Schneedecke angefeuchtet, in tieferen Lagen auch durchnässt. In höheren Lagen hat sich bei stürmischem Westwind frischer, instabiler Triebschnee gebildet. In hohen Lagen herrscht vor allem schattseitig ein Altschneeproblem (kantige Kristalle, Schwimmschnee). </snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Niederschlagsfeld einer Warmfront zieht am Vormittag langsam nordostwärts ab. Die Schneefallgrenze liegt bei etwa 1400m und die Sichtverhältnisse in Gipfelniveau sind vormittags oft eingeschränkt. Weitere Schauer, vereinzelt Graupelgewitter, folgen am Nachmittag, danach sind kurze Auflockerungen und sogar einige Sonnenstrahlen möglich. Der Wind bläst stürmisch aus west-nordwestlicher Richtung, die Temperaturen in 1500m liegen bei 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Samstag beginnt aufgelockert bewölkt, bald verdichten sich aber die Wolken und die Niederschlagshäufigkeit nimmt bei gleichzeitig fallender Schneefallgrenze zu. Die Gefahr von spontanen Nassschneelawinen lässt nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID288RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID288RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-01-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-01-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität in der Nacht von Do. auf Fr.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch spontane Nassschneelawinen in tieferen Lagen!</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht in der Nacht von Donnerstag auf Freitag mäßige Lawinengefahr wegen einer durch Regeneintrag destabilisierten Schneedecke. Spontane Nassschneelawinen können exponierte Verkehrswege erreichen. Mit Nachlassen der Niederschläge sinkt die Lawinengefahr tagsüber.</avActivityComment>
+          <snowpackStructureComment>Regen bis etwa 1400m hinauf hat die Schneedecke angefeuchtet, in tieferen Lagen auch durchnässt, bzw. weggeschmolzen.</snowpackStructureComment>
+          <wxSynopsisComment>Ein Niederschlagsfeld einer Warmfront zieht ab Mittag langsam nordostwärts ab. Die Schneefallgrenze liegt bei etwa 1400m. Weitere Schauer, vereinzelt Graupelgewitter, folgen am Nachmittag, danach sind kurze Auflockerungen und sogar einige Sonnenstrahlen möglich. Der Wind bläst stürmisch aus west-nordwestlicher Richtung, die Temperaturen in 1500m liegen bei 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Samstag beginnt aufgelockert bewölkt, bald verdichten sich aber die Wolken und die Niederschlagshäufigkeit nimmt bei gleichzeitig fallender Schneefallgrenze zu. Die Gefahr von spontanen Nassschneelawinen lässt nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID288RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID288RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität in mittleren und tiefen Lagen in der Nacht von Do. auf Fr.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee sorgt für mäßige Lawinengefahr durch Triebschnee in hohen Lagen, Nassschnee in tieferen Lagen.</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen des Semmering-Wechselgebietes herrscht mäßige Lawinengefahr durch frischen Triebschnee, der vor allem in den Expositionen Ost bis Süd zu beachten ist. Vereinzelt kann eine Schneebrettauslösung bereits durch die geringe Zusatzbelastung eines einzelnen Tourengehers erfolgen. In der Nacht von Donnerstag auf Freitag sind wegen einer durch Regeneintrag destabilisierten Schneedecke zusätzlich spontane Nassschneerutsche zu erwarten. </avActivityComment>
+          <snowpackStructureComment>Regen bis etwa 1400m hinauf hat die Schneedecke angefeuchtet. In höheren Lagen hat sich bei stürmischem Westwind frischer, instabiler Triebschnee gebildet. In hohen Lagen herrscht vor allem schattseitig ein Altschneeproblem (kantige Kristalle, Schwimmschnee). </snowpackStructureComment>
+          <wxSynopsisComment>Die Ausläufer eines Niederschlagfeldes einer Warmfront ziehen am Nachmittag nordostwärts ab. Die Schneefallgrenze liegt bei etwa 1400m und die Sichtverhältnisse in Gipfelniveau sind vor allem vormittags oft eingeschränkt. Danach sind kurze Auflockerungen und sogar einige Sonnenstrahlen möglich. Der Wind bläst stürmisch aus nordwestlicher Richtung, die Temperaturen auf 1500m liegen bei 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Samstag beginnt aufgelockert bewölkt, bald verdichten sich aber die Wolken und die Niederschlagshäufigkeit nimmt bei gleichzeitig fallender Schneefallgrenze zu. Die Gefahr von spontanen Nassschneelawinen lässt nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

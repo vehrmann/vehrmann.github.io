@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3263RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3263RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Regen rascher Festigkeitsverlust</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem bei mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Durch starke Erwärmung und Regeneintrag herrscht mäßige Lawinengefahr. Die Hauptgefahr geht von Nassschneelawinen aus, die sich im Tagesverlauf bei ausreichender Durchfeuchtung der Schneedecke aus dem Steilgelände aller Expositionen spontan lösen können! Auch die Auslösung durch Wintersportler kann im extrem steilem Gelände nicht ausgeschlossen werden. Der seit letztem Wochenende entstandene Triebschnee konnte sich weitgehend setzten. An sehr steilen Wald- und Wiesenhängen sind kleiner Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Seit vergangenem Montag fielen 10 - 30cm Neuschnee, stellenweise auch mehr. Dies unter starkem Windeinfluss. Oft lagerte sich der Neuschnee auf bereits aperen Boden ab. Die entstandenen Triebschneebereiche konnten sich witterungsbedingt weitgehend entspannen. Mit der erwarteten Erwärmung und zusätzlichem Regeneintrag wird die Schneedecke zunehmend destabilisiert und verliert an Festigkeit. Bei gänzlicher Durchfeuchtung kann in schneereicheren Regionen die Schneedecke am glatten Boden ins Gleiten kommen. Erwärmung und Regen führen zum raschen Abschmelzen und fortschreitender Ausaperung! </snowpackStructureComment>
+          <wxSynopsisComment>Westwetterlage! Eine Abfolge von Fronten überquert den Ostalpenraum. In den niederösterreichischen Bergen ist es überwiegend trüb, die Gipfel stecken oft im Nebel. Nur selten zeigt sich die Sonne. Bei einer Schneefallgrenze um 2000m muss am Nachmittag stellenweise mit kräftigerem Regen gerechnet werden. Der Westwind ist vorerst mäßig, kann aber am Nachmittag deutlich auffrischen. Die höchsten Temperaturwerte werden zu Mittag erreicht, in 2000m mit +4 Grad und in 1500m mit +8 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Freitag gestaltet sich nach freundlichem Beginn meist zunehmend trüb, am Nachmittag fällt bei einer sinkenden Schneefallgrenze auf 1500m etwas Niederschlag. Nach einem meist trüben aber windigen Samstag wird für Sonntag mit deutlicher Abkühlung erneut etwas Neuschnee erwartet. Vorerst bleibt das Nassschneeproblem im Vordergrund.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

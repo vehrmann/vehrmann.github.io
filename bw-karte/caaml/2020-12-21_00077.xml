@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID77RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID77RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>günstiger Schneedeckenaufbau, kaum Schwachschichten in der Schneedecke</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Tourenbedingungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. In den Gurktaler Alpen sind einige wenige Gefahrenstellen oberhalb von 2.000m im Nordsektor zu finden. Hier können vereinzelt kleine Schneebrettlawinen noch ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Mit den relativ milden Temperaturen konnte sich der Schnee weiter setzen. Die Gesamtschneemenge auf den Bergen  nimmt von Norden nach Süden deutlich zu: In den Seckauer Alpen liegen in 1.800m um die 20cm Schnee, im westlichen Randgebirge bis 25cm und in den Gurktaler Alpen hingegen knapp 100cm. Sonnseitig wird der anfangs harte Schnee feucht und weicher, in tiefen Lagen auch nass und apert hier langsam aus. Schattseitig ist der Schnee hingegen teilweise noch pulvrig mit Oberflächenreif, in den schneeärmeren Gebieten beginnt hier allerdings die aufbauende Umwandlung die Schneedecke zu schwächen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Dienstag sorgt eine Warmfront für viele Wolken. Dienstagvormittag regnet es entlang der Nordalpen unergiebig, etwas Schnee fällt nur oberhalb von etwa 2.000m. Ab Mittag lockert die Bewölkung von Westen her auf, vor allem im südlichen Bergland dürften sich dann ein paar sonnige Abschnitte ausgehen. Der Wind weht kräftig aus West, die Temperaturen liegen in 2.000m bei +2 Grad und in 1.500m bei +5 Grad.</wxSynopsisComment>
+          <tendencyComment>Eine westliche Höhenströmung beschert uns am Mittwoch das fast schon traditionelle Weihnachtstauwetter. Bei abwechselnd sonnigen Phasen und dichteren Wolkenfeldern ist es viel zu mild, die Temperaturen steigen bis auf +7 Grad in 2.000m und die Frostgrenze liegt bei knapp 3.000m. Dazu weht kräftiger Wind aus Südwest bis West. Kälter mit ein wenig Neuschnee im Norden wird’s erst in der Nacht zum Christtag.&#13;
+An der Lawinengefahr ändert sich nichts.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1633RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1633RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor, auslösbar im Übergang von wenig zu viel Schnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in den Hochlagen. Schattseitig Altschneeproblem und im Lee frische Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Oberhalb von 1800 m herrscht mäßige Lawinengefahr. Gefahrenstellen finden sich schattseitig im Übergang von wenig zu viel Schnee (Altschneeproblem), sowie im Ostsektor und hinter Geländekanten, wo sich kleine, frische Triebschneelinsen bilden. Sonnseitig ist auf steilen Grashängen nach wie vor mit spontanen Gleitschneelawinen zu rechnen. Schneemäuler sollten als Gefahrenzeichen interpretiert werden. </avActivityComment>
+          <snowpackStructureComment>Sonnseitig ist die Schneedecke mit einer Harschkruste überzogen, in schattigen Lagen ist noch weicher Schnee zu finden. Insbesondere über 1800 m schwächen in  schattigen Lagen Schwachschichten im Altschnee die Schneedecke. Geringmächtige Triebschneelinsen können störanfällig sein. Sonnseitig haben sich auf steilen Wiesenhängen Gleitschneemäuler gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Eine Kaltfront bringt Abkühlung und in den Nordstau-Regionen und Niederen Tauern ein paar Zentimeter Neuschnee bei auflebendem Nordwestwind. Am Nachmittag sind die Sichtbedingungen auf den Bergen eingeschränkt. In 2000 m sinkt die Temperatur im Laufe des Tages von -1 auf -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Samstag wird sonnig und bringt auf der Rückseite der Kaltfront beste Fernsicht. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1633RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1633RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor, vereinzelt</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen in schattigen Hochlagen und Gleitschneeaktivität im Südsektor!</avActivityHighlights>
+          <avActivityComment>Im Randgebirge ist die Lawinengefahr generell gering. Dennoch finden sich vereinzelte Gefahrenstellen schattseitig im Übergang von wenig zu viel Schnee (Altschneeproblem). Sonnseitig ist auf steilen Grashängen vereinzelt mit spontanen Gleitschneelawinen zu rechnen. Schneemäuler sollten als Gefahrenzeichen interpretiert werden.</avActivityComment>
+          <snowpackStructureComment>Sonnseitig ist die Schneedecke mit einer Harschkruste überzogen und insbesondere über 1800 m schwächen in  schattigen Lagen Schwachschichten im Altschnee die Schneedecke. Sonnseitig haben sich auf steilen Wiesenhängen Gleitschneemäuler gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Eine Kaltfront bringt Abkühlung, aber südlich des Alpenhauptkammes kaum Neuschnee. Der Wind weht aus Nordwest und wird lebhaft. In 2000 m sinkt die Temperatur im Laufe des Tages von -1 auf -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Samstag wird sonnig und bringt auf der Rückseite der Kaltfront beste Fernsicht. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

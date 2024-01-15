@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1863RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1863RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne schattige Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit nur sehr wenigen Gefahrenstellen in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>In den schatt- und nordseitigen hochgelegenen Steilhängen könnten an wenigen Stellen im Gelände einzelne Schneebrettlawinen insbesondere durch große Zusatzbelastung ausgelöst werden. Vor allem bei Übergängen von mehr zu wenig Schnee könnten Schwachschichten in der Altschneedecke vereinzelt angesprochen werden. Aus extrem steilen felsdurchsetzten Gelände sind sonnseitig einzelne kleine Lockerschneelawinen am Nachmittag möglich.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist überwiegend kompakt und stabil. Schattseitig ist sie oft noch immer von einer meist nur dünnen lockeren Schicht überdeckt. Sonnseitig firnt es etwas auf. Je nach Höhe und Exposition ist die Altschneeoberfläche hart, teils eisig, verharscht und unterschiedlich tragfähig. Windgeschützt und meist schattseitig ist sie von einer lockeren bindungslosen dünnen Schicht überdeckt. </snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen scheint am Freitag die Sonne meist von einem wolkenlosen Himmel. Es weht mäßig starker Südostwind. In 1500 m hat es um -1 Grad und in 2000 m um -3 Grad.&#13;
+Am Samstag ist der Sonnenschein ungetrübt. In den Hochlagen frischt Südostwind auf und kann ab den Mittagsstunden Spitzen bis zu 50 km/h erreichen. In 1500 m hat es um +1 Grad und in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

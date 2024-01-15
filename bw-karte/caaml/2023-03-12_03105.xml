@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3105RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3105RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>etwa oberhalb ca. 1800 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Einstrahlung kleine bis mittlere nasse Lawinen; an glatten Grashängen zunehmend Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind in höheren Lagen störanfällig - untertags zunehmend nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Der jüngste Neu- und Triebschnee kann in höheren Lagen mit großer Zusatzbelastung als kleine bis mittlere Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen NW über N bis SE und in eingewehten Rinnen und Mulden. Mit Einstrahlung und dem markanten Temperaturanstieg sind vor allem an Sonnenhängen bis in hohe Lagen, aber auch in den anderen Expositionen zunehmend kleine bis mittlere nasse Lawinen zu erwarten. An steilen, glatten Grashängen sind auch Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der jüngste Neu- und Triebschnee konnte sich bis in höhere Lagen bereits setzen und etwas verfestigen. Die Bindung innerhalb der Neu- und Triebschneeschichten und zur Altschneeoberfläche ist meist mäßig. Durch Regen und verminderte nächtliche Abstrahlung wurde die Schneedecke bis in mittlere Lagen geschwächt. Mit Erwärmung und Einstrahlung verliert die Schneedecke untertags an Festigkeit. Die Störanfälligkeit nimmt zu.  </snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Am Abend klingen die letzten Schauer ab und die Nacht verläuft trocken. Es ziehen aber ausgedehnte, hohe Wolkenfelder durch. Montag: Hohe Wolkenfelder werden rasch dünner und beeinträchtigen den Sonnenschein tagsüber nur wenig. Die Milderung setzt sich fort und die Nullgradgrenze steigt knapp über 3000 m. Temperatur in 2000m: 0 bis 7 Grad, Höhenwind: lebhaft bis stark, auf Föhnbergen nachmittags stürmisch auf Südwest drehend.</wxSynopsisComment>
+          <tendencyComment>Der Dienstag bringt wieder Niederschläge und mit deutlicher Abkühlung Neuschnee. Mit Windeinfluss wird erneut Triebschnee gebildet. Die Gefahr trockener Lawinen kann somit wieder ansteigen. Die Gefahr nasser Lawinen geht deutlich zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3105RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3105RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, hinter Geländeknicken, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und Einstrahlung kleine bis mittlere nasse Lawinen; an glatten Grashängen zunehmend Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in hohen Lagen Triebschnee beachten - untertags spontane nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Es besteht erhebliche Lawinengefahr. Gefahrenstellen sind im eingewehten Steilgelände, hinter Geländekanten sowie in Rinnen und Mulden anzutreffen. Frische Triebschneebildung nimmt mit Windeinfluss untertags mit der Seehöhe an Umfang und Verbreitung zu. Kleine bis mittelgroße Schneebrettlawinen können durch einzelne Wintersportler ausgelöst werden. Risse und Wummgeräusche sind Gefahrenzeichen. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. In tieferen Lagen ist die Lawinengefahr meist mäßig. Mit Einstrahlung und markantem Temperaturanstieg sind vor allem an Sonnenhängen bis gegen 2500 m, aber auch in den anderen Expositionen zunehmend kleine bis mittlere nasse Lawinen zu erwarten. An steilen, glatten Grashängen sind zunehmend auch Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der jüngste Neu- und Triebschnee konnte sich bereits setzen und etwas verfestigen. Die Bindung innerhalb der Neu- und Triebschneeschichten und zur Altschneeoberfläche ist in höheren Lagen teilweise nur mäßig bis schwach und daher störanfällig. Vor allem an sehr steilen Schattenhängen weist die Schneedecke im Mittelteil teilweise noch ungünstige Zwischenschichten auf. Solche können jedoch meist nur mit großer Zusatzbelastung gestört werden. Durch Regen und verminderte nächtliche Abstrahlung wurde die Schneedecke bis in mittlere Lagen geschwächt. Mit Erwärmung und Einstrahlung verliert die Schneedecke untertags an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Am Abend klingen die letzten Schauer ab und die Nacht verläuft trocken. Es ziehen aber ausgedehnte, hohe Wolkenfelder durch. Montag: Hohe Wolkenfelder werden rasch dünner und beeinträchtigen den Sonnenschein tagsüber nur wenig. Die Milderung setzt sich fort und die Nullgradgrenze steigt knapp über 3000 m. Temperatur in 2000m: 0 bis 7 Grad, Höhenwind: lebhaft bis stark, auf Föhnbergen nachmittags stürmisch auf Südwest drehend.</wxSynopsisComment>
+          <tendencyComment>Der Dienstag bringt wieder Niederschläge und mit deutlicher Abkühlung Neuschnee. Mit Windeinfluss wird erneut Triebschnee gebildet. Die Lawinengefahr bleibt in höheren Lagen erheblich. Die Gefahr nasser Lawinen geht deutlich zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

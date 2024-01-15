@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1171RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-20T06:30:59+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1171RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-20T06:30:59+00:00</beginPosition>
+          <endPosition>2021-12-21T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>sehr steile Schattenhänge &gt;2200 m, Übergänge von wenig zu viel Schnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleine, vereinzelt auch mittlere Gleitschneelawinen an steilen Grashängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>teilweise schwacher Altschnee in schattseitigen Steilhängen und vereinzelt Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>Es herrschen überwiegend günstige Bedingungen. In höhergelegenen, schattseitigen Steilhängen können teilweise jedoch noch bodennahe Schwachschichten gestört werden. Kleine bis mittlere Schneebrettauslösungen sind insbesondere mit großer Zusatzbelastung an Übergängen von wenig zu viel Schnee, wie z.B. bei Einfahrten in Rinnen und Mulden, möglich. In Kammlagen ist kleinräumig frischer Triebschnee zu beachten. Sonnseitig unterhalb etwa 2400m und schattseitig unterhalb etwa 2000m sind vor allem in den schneereichen Regionen an noch nicht entladenen steilen Grashängen und Böschungen vereinzelt kleine bis mittlere Gleitschneelawinen möglich. Risse in der Schneedecke weisen auf solche Gefahrenstellen hin.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist an den meisten Steilhängen überwiegend gut verfestigt und stabil. In hochgelegenen, sehr steilen Schattenhängen sind jedoch teilweise noch überdeckte Schwachschichten aus kantigen Kristallen störbar. Nordseitig sowie in Bereichen mit flacher Sonneneinstrahlung sind die obersten Schichten meist noch locker. An steileren Sonnenhängen ist vielerorts eine dünne Schmelzharschkruste vorhanden. In tieferen und mittleren Lagen ist die Schneedecke feucht, was das Gleiten auf glattem Untergrund fördert. Kleine, frische Triebschneeansammlungen in Kammbereichen sind mit zunehmender Seehöhe störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Oberhalb der Nebelgebiete und vor allem im Süden des Landes wird es sehr sonnig. Lebhafter Nordwind lässt die Temperaturen kälter empfinden als sie eigentlich sind. Temperatur in 2000m: um -1 Grad, Höhenwind: lebhafter Nordwind</wxSynopsisComment>
+          <tendencyComment>Es bleibt untertags jeweils sonnig und kalt. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

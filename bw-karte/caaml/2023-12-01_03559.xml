@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3559RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3559RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr in den Hochlagen durch frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen herrscht erhebliche Lawinengefahr durch große Neuschneemengen und frische Triebschneeansammlungen. Gefahrenstellen sind oberhalb der Waldgrenze weit verbreitet in den Sektoren Nord über Ost bis Süd zu finden. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Aus extrem steilen Bereichen aller Expositionen sind spontane Lockerschneelawinen zu erwarten. Auf glatten Grashängen sind spontane Gleitschneelawinen zu erwarten, die vereinzelt auch exponierte Verkehrswege erreichen können. Bereiche unter offenen Schneemäulern sollten gemieden werden. Schlechte Sichtverhältnisse erschweren die Gefahrenbeurteilung im Gelände.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist von Warmphasen und Regenereignissen geprägt  und daher in mittleren Lagen feucht und in höheren Lage verharscht. In der Nacht auf Samstag sorgt Regeneintrag in tieferen Lagen für weitere Durchfeuchtung, bevor die Schneefallgrenze in den frühen Morgenstunden bis in die Tallagen absinkt. Im Laufe des Samstags wird bis zu 50 cm Neuschneezuwachs erwartet. Mit anfangs Südwestwind und später stürmischem Nordwestwind entstehen mächtige Triebschneeansammlungen. Schwachschichten sind sowohl innerhalb der frischen Schneeauflage zu erwarten, als auch im Altschnee teilweise bereits vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Ein Wechselspiel zwischen warmer, feuchter Luft aus Süden und polaren Luftmassen aus Norden sorgt am Samstag für ungünstiges, und in Bezug auf die Schneefallgrenze schwer vorhersagbares, Bergwetter. Die Sicht ist generell eingeschränkt und es werden intensive Niederschläge erwartet. &#13;
+Die Schneefallgrenze liegt in den Niederen Tauern in der Nacht von Freitag auf Samstag noch auf etwa 1300 m, in den Nordalpen auf etwa 1000 m und sinkt in den frühen Morgenstunden bis in die Tallagen ab. Es schneit am Vormittag stark, gegen Abend lässt der Niederschlag langsam nach. Der Wind dreht im Laufe des Tages von Südwest auf Nordwest und wird am Nachmittag zunehmend stürmisch. In 2000 m fallen die Temperaturen im Laufe des Tages bis -13 Grad am Abend.</wxSynopsisComment>
+          <tendencyComment>Der Sonntag bringt großteils sonniges, kaltes Bergwetter. Die Kälte konserviert das Triebschneeproblem. Keine wesentliche Änderung der Lawinengefahr. Besondere Vorsicht ist geboten, trotz des schönen Bergwetters bleibt die Lawinensituation heikel! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3559RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3559RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>umfangreicher Triebschnee, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr in den Hochlagen durch große Neuschneemengen und frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen herrscht erhebliche Lawinengefahr durch große Neuschneemengen und im Tagesverlauf wachsende Triebschneeansammlungen. Gefahrenstellen sind weit verbreitet und vornehmlich in östlichen und südlichen Expositionen zu finden. Insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden, aber auch auf offenen Hängen, können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Aus extrem steilen Hängen aller Expositionen sind spontane Lockerschneelawinen zu erwarten. Auf glatten Grashängen sind vermehrt spontane Gleitschneelawinen zu erwarten. Bereiche unter offenen Schneemäulern sollten gemieden werden. Schlechte Sichtverhältnisse erschweren die Gefahrenbeurteilung im Gelände.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist von Warmphasen und Regenereignissen geprägt  und daher in mittleren Lagen feucht und in höheren Lage verharscht. In der Nacht auf Samstag sorgt Regeneintrag bis über 2000 m für weitere Durchnässung, bevor die Schneefallgrenze in den frühen Morgenstunden schnell absinkt. Mit dem Regen nimmt das Gleiten der Schneedecke auf glattem Untergrund zu. Im Laufe des Samstags wird bis zu 60 cm Neuschneezuwachs erwartet. Mit dem auffrischenden Nordwestwind entsteht frischer Triebschnee auf dem als Schwachschicht wirkenden, lockeren Neuschnee. </snowpackStructureComment>
+          <wxSynopsisComment>Ein Wechselspiel zwischen warmer, feuchter Luft aus Süden und polaren Luftmassen aus Norden sorgt am Samstag für ungünstiges, und in Bezug auf die Schneefallgrenze schwer vorhersagbares, Bergwetter. Die Sicht ist generell eingeschränkt und es werden intensive Niederschläge erwartet. Die Schneefallgrenze liegt in den südlichen Gebirgsgruppen in der Nacht von Freitag auf Samstag voraussichtlich über 2000 m, sinkt in den frühen Morgenstunden auf 1000 m und im Laufe des Tages bis in die Tallagen ab. Es schneit am Vormittag stark, gegen Abend lässt der Niederschlag langsam nach. Der Wind dreht im Laufe des Tages von Südwest auf Nordwest und wird am Nachmittag vor allem in den östlichen Gebirgsgruppen auch stürmisch. In 2000 m fallen die Temperaturen von +3 Grad in der Nacht auf -10 Grad am Abend.</wxSynopsisComment>
+          <tendencyComment>Der Sonntag bringt großteils sonniges, kaltes Bergwetter. Die Kälte konserviert das Triebschneeproblem. Keine wesentliche Änderung der Lawinengefahr. Besondere Vorsicht ist geboten, trotz des schönen Bergwetters bleibt die Lawinensituation heikel! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3559RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3559RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch frischen Triebschnee! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>In exponierten Lagen herrscht mäßige Lawinengefahr durch frische Triebschneeansammlungen. Gefahrenstellen sind vornehmlich den Sektoren Nord über Ost bis Süd zu finden. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Schneebrettlawinen vereinzelt schon durch geringe Zusatzbelastung ausgelöst werden. Auf glatten Grashängen sind spontane Gleitschneelawinen zu erwarten. Bereiche unter offenen Schneemäulern sollten gemieden werden. Schlechte Sichtverhältnisse erschweren die Gefahrenbeurteilung im Gelände.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist von Warmphasen und Regenereignissen geprägt  und daher in mittleren Lagen feucht und in höheren Lage verharscht. In der Nacht auf Samstag sorgt Regeneintrag in tieferen Lagen für weitere Durchfeuchtung, bevor die Schneefallgrenze in den frühen Morgenstunden bis in die Tallagen absinkt. Im Laufe des Samstags wird bis zu 30 cm Neuschneezuwachs erwartet. Mit anfangs Südwestwind und später stürmischem Nordwestwind entstehen im Lee frische Triebschneeansammlungen. Die frische Schneeauflage kann Schwachschichten enthalten (lockerer Neuschnee). </snowpackStructureComment>
+          <wxSynopsisComment>Ein Wechselspiel zwischen warmer, feuchter Luft aus Süden und polaren Luftmassen aus Norden sorgt am Samstag für ungünstiges, und in Bezug auf die Schneefallgrenze schwer vorhersagbares, Bergwetter. Die Sicht ist generell eingeschränkt und es werden intensive Niederschläge erwartet. &#13;
+Die Schneefallgrenze liegt in der Nacht auf etwa 1000 m und sinkt bis zu den frühen Morgenstunden bis in die Tallagen ab. Es schneit am Vormittag stark, gegen Abend lässt der Niederschlag langsam nach. Der Wind dreht im Laufe des Tages von Südwest auf Nordwest und wird am Nachmittag zunehmend stürmisch. In 2000 m fallen die Temperaturen im Laufe des Tages bis -13 Grad am Abend.</wxSynopsisComment>
+          <tendencyComment>Der Sonntag bringt großteils sonniges, kaltes Bergwetter. Die Kälte konserviert das Triebschneeproblem. Keine wesentliche Änderung der Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

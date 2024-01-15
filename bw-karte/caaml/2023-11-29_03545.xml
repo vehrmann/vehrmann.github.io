@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3545RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3545RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>älterer Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch Alt- und Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze ist die Lawinengefahr mäßig, darunter gering. Die Gefahrenstellen befinden sich vor allem in den Sektoren Nord bis Südost. Dort kann im Steilgelände durch große Zusatzbelastung die Altschneedecke gestört werden und der darüber abgelagerte Triebschnee als mittelgroße Schneebrettlawine abgehen. In sehr steilen Wiesen- oder Laubwaldhängen können sich Schneemäuler bilden oder spontane Gleitschneelawinen abrutschen. </avActivityComment>
+          <snowpackStructureComment>Der frische Triebschnee liegt auf unterschiedlich harten Schichten kantiger Kristalle, darunter auch Harschkrusten. Zwischen den Krusten können sich potentielle Schwachschichten großer kantiger Kristalle bilden. Insgesamt ist die Schneedecke recht inhomogen, was mitunter die Bruchausbreitung behindert. Kämme und Rücken sind hart und abgeblasen während Rinnen und auch Waldlichtungen mit viel Triebschnee befüllt sind. Mit der leichten Erwärmung am Donnerstag wird die Setzung der Schneedecke begünstigt. In sehr steilem Wiesen- oder Laubwaldgelände verliert die Schneedecke zunehmend an Reibung zum Boden hin und kann abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag bringt eine Warmfront von Süden dichte Wolkenfelder und über den Tag verteilt auch zeitweise unergiebigen Schneefall. Erst gegen Abend breiten sich die Schneefälle weiter aus. Der Wind weht nur mehr schwach aus Südwest und die Nachmittagstemperaturen liegen in 1500m zwischen 0 und +2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag breiten sich die Niederschläge aus, wobei aus derzeitiger Sicht die Schneefallgrenze am Alpenostrand vorübergehend auf über 1500m steigt, sonst liegt sie meist um 1000m. Nachmittags gibt es intensiveren Schneefall und es kommen verbreitet einige Zentimeter Neuschnee zusammen. Die Triebschneesituation rückt wieder in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3545RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3545RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Steilgelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gut gesetzte Schneedecke</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die vereinzelten Gefahrenstellen befinden sich vor allem an freien Hängen der Sektoren Nord bis Südost. Im Steilgelände kann vereinzelt durch große Zusatzbelastung ein kleines Schneebrett ausgelöst werden und auch spontane Gleitschneelawinen können nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Lockerer Triebschnee liegt auf unterschiedlich harten Schichten kantiger Kristalle, darunter auch Harschkrusten. Zwischen den Krusten können sich potentielle Schwachschichten großer kantiger Kristalle bilden. Insgesamt ist die Schneedecke recht inhomogen, Kämme und Rücken sind hart und abgeblasen während Rinnen und auch Waldlichtungen mit Triebschnee befüllt sind. Mit der Erwärmung am Donnerstag wird die Setzung der Schneedecke begünstigt. In sehr steilem Wiesen- oder Laubwaldgelände verliert die Schneedecke zunehmend an Reibung zum Boden hin und kann abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag bringt eine Warmfront von Süden dichte Wolkenfelder und über den Tag verteilt auch zeitweise unergiebigen Schneefall. Erst gegen Abend breiten sich die Schneefälle weiter aus. Der Wind weht nur mehr schwach aus Südwest und die Nachmittagstemperaturen liegen in 1500m zwischen 0 und +2 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Freitag breiten sich die Niederschläge aus, wobei aus derzeitiger Sicht die Schneefallgrenze am Alpenostrand vorübergehend auf über 1500m steigt, sonst liegt sie meist um 1000m. Nachmittags gibt es intensiveren Schneefall und es kommen verbreitet einige Zentimeter Neuschnee zusammen. Die Triebschneesituation rückt wieder in den Vordergrund.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

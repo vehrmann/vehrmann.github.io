@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2955RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2955RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kaum mehr Skitouren in mittleren Lagen möglich.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Vereinzelt kann Gleitschnee ein Problem darstellen. Dies vor allem an steilen Wiesenhängen oder im lückigen Bergwald, wo noch genügend Schnee liegt. Dort kann es zum Abrutschen kleinerer Gleitschneelawinen auf glattem Untergrund kommen. Vorhandene Gleitschneerisse weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Insgesamt ist die Schneedecke gut gesetzt und kompakt. In mittleren Lagen ist der wenige Schnee bis zum Boden durchfeuchtet. Bruchharsch am Morgen weicht schnell auf, die Schneeoberfläche wird sulzig. In den Hochlagen firnt die Schneedecke nur sonnseitig leicht auf. Es dominieren Schmelz- und Windharsch an der Oberfläche. Schneedeckentests zeigen keine markante Schwachschichten. Der Boden apert bis in mittlere Lagen immer mehr aus.</snowpackStructureComment>
+          <tendencyComment>In der Nacht zum Samstag kann sich die Lawinengefahr mit Neuschnee bis in die Täler und aufkommendem Wind wieder verschärfen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3224RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3224RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, nur noch wenig Schnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Durch die Abkühlung konnte sich die nasse Schneedecke ein wenig stabilisieren. Vereinzelt sind aber kleine Gleitschneelawinen aus steilem Grasmattengelände der Hochlagen möglich. Für die meisten Skitouren liegt mittlerweile zu wenig Schnee. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist südseitig bis über 2000 m nicht mehr geschlossen. Nordseitig existiert in den Hochlagen noch eine geschlossene Schneedecke. Das Schneedeckenfundament ist bereits isotherm und meist nass. Durch die Abkühlung bildet sich in den Hochlagen eine Harschkruste. Die Ausaperung schreitet dennoch voran. </snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag startet noch mit einigen Sonnenfenstern, es zieht aber rasch zu und am Nachmittag beginnt es bei einer Schneefallgrenze von etwa 1400 m zunächst noch unergiebig zu schneien. Der Wind weht lebhaft aus Westen und die Temperaturen in 1500 m schwanken zischen -1 und +3 Grad. &#13;
+In der Nacht auf Montag erreicht uns eine Kaltfront, die Abkühlung, Sturm und Neuschnee bringt. </wxSynopsisComment>
+          <tendencyComment>Stürmischer Wind und Neuschnee lassen frischen Triebschnee entstehen. Die Lawinengefahr steigt etwas an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

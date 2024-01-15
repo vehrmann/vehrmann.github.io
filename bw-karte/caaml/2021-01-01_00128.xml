@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID128RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID128RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Älteren, teils frischen Triebschnee in den Hochlagen beachten - teils besteht hier noch erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Ab rund 2000/2200 m Höhe ist vereinzelt im erweiterten Nordsektor älterer Triebschnee zu beachten, der gemieden werden soll. Starker Südwind kann störanfällige frische Verfrachtungen bilden. In eingewehten Steilhängen, sowie in steilen verfüllten Mulden und Rinnen ist eine Auslösung von Schneebrettlawinen teils bei geringer Zusatzbelastung möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich setzen, ist allgemein sehr ungleichmäßig verteilt, oft windgepresst, sonnseitig dünn verharscht und neben völlig abgewehten Bereichen sind Steilhänge sowie steile Mulden und Rinnen gut gefüllt. Teils sind noch ältere und auch frische Verfrachtungen störanfällig. Im Triebschnee, sowie in nordseitigen Hochlagen sind im Altschnee oder Übergang zum Teil Schwachschichten eingelagert. Allgemein liegt auch in den Hochlagen nur wenig Schnee. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es auf den Bergen föhnig mit vielen Wolken und zwischendurch etwas Sonnenschein. In 1500 m hat es um 2 Grad, in 2000 m um -3 Grad. In den Hochlagen weht zum Teil kräftiger Südwind.&#13;
+Am Sonntag lockert föhniger Wind im Bergland die Wolken auf. In 1500 m hat es um -1 Grad, in 2000 m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID128RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID128RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe, vereinzelt mäßige Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Im erweiterten hochgelegenen Nordsektor sind frisch gebildete und einzelne ältere Verfrachtungen vorhanden, die noch beachtet werden müssen. Schneebrettlawinen können in den eingewehten kammnahen Steilhängen, sowie in steilen verfüllten Mulden und Rinnen insbesondere bei großer Zusatzbelastung noch ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich setzen, ist allgemein sehr ungleichmäßig verteilt, oft windgepresst, sonnseitig dünn verharscht und neben völlig abgewehten Bereichen sind Steilhänge sowie steile Mulden und Rinnen gut gefüllt. Teils sind noch ältere und auch frische Verfrachtungen störanfällig. Im Triebschnee, sowie in nordseitigen Hochlagen sind im Altschnee oder Übergang zum Teil Schwachschichten eingelagert. Allgemein liegt auch in den Hochlagen nur wenig Schnee. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es auf den Bergen föhnig mit vielen Wolken und zwischendurch etwas Sonnenschein. In 1500 m hat es um 2 Grad, in 2000 m um -3 Grad. In den Hochlagen weht zum Teil kräftiger Südwind.&#13;
+Am Sonntag lockert föhniger Wind im Bergland die Wolken auf. In 1500 m hat es um -1 Grad, in 2000 m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID128RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID128RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-01T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Vereinzelt sind kleinere Triebschneeansammlungen im Nordsektor als kleine Schneebrettlawinen/Rutsche auslösbar. Absturzgefahr beachten.</avActivityComment>
+          <snowpackStructureComment>In den Ennstaler Voralpen liegt nur sehr wenig Schnee, der windgepresst, verharscht ist oder bereits wieder ausapert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es auf den Bergen föhnig mit vielen Wolken und zwischendurch etwas Sonnenschein. In 1500 m hat es um 2 Grad, in 2000 m um -3 Grad. In den Hochlagen weht zum Teil kräftiger Südwind.&#13;
+Am Sonntag lockert föhniger Wind im Bergland die Wolken auf. In 1500 m hat es um -1 Grad, in 2000 m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

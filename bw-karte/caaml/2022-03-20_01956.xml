@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1956RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1956RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation, Anstieg der Lawinengefahr am Nachmittag beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird unterhalb von 2400 m am Vormittag mit GERING, am Nachmittag mit MÄSSIG&#13;
+beurteilt. Die spontane&#13;
+Auslösung von kleinen bis mittelgroßen Nassschneelawinen ist vor allem in steilen Rinnen in&#13;
+sonnigen Expositionen möglich. An steilen Wiesenhängen in sonnigen Expositionen sind sehr&#13;
+vereinzelt kleine bis mittelgroße Gleitschneelawinen möglich. Oberhalb von 2400 m wird die&#13;
+Lawinengefahr mit GERING beurteilt. In schattigen Expositionen bei den Übergängen von schneearm&#13;
+zu schneereich im selten befahrenen und extrem steilen Gelände ist eine Auslösung im Altschnee&#13;
+vereinzelt durch eine große Zusatzbelastung möglich. Bei der Auslösung im Altschnee sind&#13;
+Schneebrett-Lawinen bis zu mittlerer Größe möglich.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Die Temperaturen erreichen im Nordwesten über die teils bedeckte Nacht den Taupunkt. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung erfolgt eine Schwächung der Schneedecke. In schattigen Expositionen sind noch kantig aufgebaute&#13;
+Schwachschichten innerhalb der Altschneedecke vorhanden. An Geländekanten ist durch Windeinfluss&#13;
+meist nur eine sehr geringmächtige Schneedecke vorhanden. In tiefen Lagen liegt kaum noch Schnee.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag scheint ungetrübt die Sonne und es herrschen sehr gute Sichtverhältnisse. Es weht nur schwacher bis mäßiger Südost-Wind. Temperaturen: Tageshöchstwerte: auf 2000m -1 Grad, auf 3000m -5 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1956RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1956RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation, Anstieg der Lawinengefahr am Nachmittag beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Die Sonneneinstrahlung kann im Tagesverlauf zur spontanen Auslösung von kleinen bis mittelgroßen&#13;
+Nassschneelawinen führen. Gefahrenstellen sind dabei vereinzelt und umfassen dabei vor allem steile&#13;
+Rinnen in sonnigen Expositionen.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Es erfolgt eine nächtliche Energieabstrahlung und Verfestigung der Schneedecke. Die Schneedecke wird jedoch im Tagesverlauf durch die Sonneneinstrahlung geschwächt. Die&#13;
+Schwächung erfolgt bei geringmächtigen Schneedecken rascher. An Geländekanten ist durch&#13;
+Windeinfluss meist nur eine sehr geringmächtige Schneedecke vorhanden. In tiefen Lagen liegt kaum&#13;
+noch Schnee.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag scheint ungetrübt die Sonne und es herrschen sehr gute Sichtverhältnisse. Es weht nur schwacher bis mäßiger Südost-Wind. Temperatur: Tageshöchstwert auf 2000 m: +1 Grad. &#13;
+</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

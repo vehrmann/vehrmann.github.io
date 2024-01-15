@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1707RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1707RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumig Triebschneelinsen sowie latentes Gleit- und Altschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Über der Baumgrenze herrscht mäßige Lawinengefahr. Im erweiterten Ostsektor existieren  hinter Geländekanten sowie in hochgelegenen Einfahrtsbereichen von Rinnen und Mulden vereinzelte Gefahrenstellen in Form von störanfälligen Triebschneelinsen, die durch überwiegend große Zusatzbelastung als Schneebrett ausgelöst werden können. Zudem können im extrem steilem und schattigem Gelände Lawinen in die Altschneedecke durchbrechen. Die Gefahr von Nassschneelawinen hat mit der Abkühlung abgenommen, dennoch sind spontane Gleitschneelawinen aus steilem Gelände mit glattem Untergrund nicht auszuschließen. Schneemäuler stellen Gefahrenzeichen dar! In exponierten Lagen wie z.B. ausgeblasenen Rinnen ist es zudem hart und eisig, hier besteht akute Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Die warmen Temperaturen und der Regen der letzten Tage haben der Schneedecke in allen Höhen einige Zentimeter gekostet. Tiefe Lagen sind verbreitet ausgeapert. In mittleren Lagen wurde die Schneedecke feucht oder sogar schon bis zum Boden hinein nass. In exponierten, höheren Lagen hat der Sturm die Schneedecke bearbeitet, abgewehte, harte Bereiche wechseln mit schneereicheren Geländeabschnitten. Mit dem Westwind wird kleinräumig Triebschnee auf einer harten, harschigen Schneeoberfläche in den Leeseiten abgelagert. Die Verbindung zum Altschnee ist nicht besonders gut. In steilen Schattseiten können auch noch Schwachschichten bestehend aus kantigen Kristallen, eingeschneitem Oberflächenreif oder Graupel die Altschneedecke schwächen.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer in der anhaltend kräftigen Westströmung eingelagerten Warmfront ziehen am Sonntag viele Wolkenfelder über die Gipfel Niederösterreichs und die Sonne zeigt sich oft erst am Nachmittag ein wenig. Zunächst ist auch noch mit etwas Regen oder Schneefall zu rechnen, wobei die Schneefallgrenze von rund 700 auf 1200m Seehöhe ansteigt. Der Wind bläst anhaltend kräftig aus westlichen Richtungen. Die Temperaturen steigen in 2000m von -6 auf -3 Grad, in 1000m von 0 auf +4 Grad an.</wxSynopsisComment>
+          <tendencyComment>Am Montag sorgt eine Kaltfront am Vormittag speziell in den westlichen Gebirgsgruppen für etwas Niederschlag, die Schneefallgrenze sinkt auf 700 bis 900m ab. Am Vormittag kommt es vermehrt zu Auflockerungen, der Westwind bleibt stürmisch. An der Lawinengefahr ändert sich bis auf ein paar frische, dünne Triebschneeablagerungen in Regionen mit Neuschnee vorerst wenig. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1707RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1707RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber Gleitschneelawinen ganztägig möglich</avActivityHighlights>
+          <avActivityComment>Die Nassschneeproblematik hat mit der Abkühlung abgenommen, allerdings können spontane Gleitschneelawinen aus steilem, glattem Gelände jederzeit abgehen. Geöffnete Schneemäuler als Gefahrenzeichen interpretieren! Mitunter können sich in höheren Lagen in ostseitigen Leebereichen vereinzelt dünne Triebschneelinsen bilden.</avActivityComment>
+          <snowpackStructureComment>Die warmen Temperaturen und der Regen der letzten Tage haben der Schneedecke in allen Höhen einige Zentimeter gekostet. Tiefe Lagen sind verbreitet ausgeapert. In mittleren Lagen wurde die Schneedecke feucht oder sogar schon bis zum Boden hinein nass. Mit der Abkühlung stabilisiert sich die Schneedecke im tgesverlauf. Südexponierte Hänge weichen mit der Sonneneinstrahlung etwas auf. In Gipfelnähe existieren kleinräumig Triebschneelinsen auf einer verharschten Oberfläche, die Verbindung untereinander ist eher schlecht. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer in der anhaltend kräftigen Westströmung eingelagerten Warmfront ziehen am Sonntag viele Wolkenfelder über die Gipfel Niederösterreichs und die Sonne zeigt sich oft erst am Nachmittag ein wenig. Zunächst ist auch noch mit etwas Regen oder Schneefall zu rechnen, wobei die Schneefallgrenze von rund 700 auf 1200m Seehöhe ansteigt. Der Wind bläst anhaltend kräftig aus westlichen Richtungen. Die Temperaturen steigen in 2000m von -6 auf -3 Grad, in 1000m von 0 auf +4 Grad an.</wxSynopsisComment>
+          <tendencyComment>Am Montag sorgt eine Kaltfront am Vormittag speziell in den westlichen Gebirgsgruppen für etwas Niederschlag, die Schneefallgrenze sinkt auf 700 bis 900m ab. Am Vormittag kommt es vermehrt zu Auflockerungen, der Westwind bleibt stürmisch. An der Lawinengefahr ändert sich bis auf ein paar frische, dünne Triebschneeablagerungen in Regionen mit Neuschnee vorerst wenig. &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

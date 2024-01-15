@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID914RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID914RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-21T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-22T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-22T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-22T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Einstrahlung am Vormittag, ab Mittag regional Regeneintrag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt in sehr hochgelegenen Schattlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr mit rascher Häufigkeitszunahme von Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>Aus dem sehr steilen Gelände steigt die Gefahr von nassen Lockerschneelawinen bereits am Vormittag (Strahlung) bzw. im Tagesverlauf durch Regeneintrag an. In den neuschneereichen Gebieten, wo der Schnee der vergangenen Woche auf bereits apere und sehr steile Wiesenhänge fiel, ist mit mittelgroßen Gleitschneelawinen zu rechnen. &#13;
+Unter Zusatzbelastung auslösbare, trockene Schneebrettlawinen (Altschneeproblem) beschränken sich auf, schattiges, kammnahes Gelände der Hochlagen. Zudem entstehen im höhergelegenen Steilgelände stellenweise frische, dünne Triebschneelinsen, die es vorrangig im Sinne der Absturzgefahr zu beachten gilt.</avActivityComment>
+          <snowpackStructureComment>Über Nacht kann es zumindest zeitweise aufklaren, womit sich die  Schneeoberfläche im Abhängigkeit von der Höhe unterschiedlich stark verfestigt. Tagsüber setzt meist rasch (je nach Seehöhe und Hangrichtung) die oberflächliche Anfeuchtung durch Strahlung sowie Regeneintrag ein. Der Schnee verliert zunehmend an Festigkeit und gestaltet sich schwer, in tieferen Lagen auch nass bis faul. Vereinzelt existieren noch Schwachschichten im Altschnee für Schneebrettlawinen (im Übergang der Schneeauflage zur kompakten Altschneedecke), dies in Schattlagen über 2200m Seehöhe. Ein durch die Bodenwärme sowie durch einsickerndes Schmelz- und Regenwasser bestehender Schmierfilm fördert an steilen Grashängen außerdem die Gleitaktivität. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag bringt eine schwache Kaltfront tagsüber wieder einige Regen- und Schneeschauer, mitunter auch Graupelgewitter. Schnee fällt oberhalb von 1600m bis 2000m. Mit den Schauern geraten die Gipfel &#13;
+zumindest vorübergehend in Nebel, dazwischen zeigt sich auch die Sonne. Der Wind dreht auf Nordwest und wird stärker. Dei Temperaturen gehen mit der Kaltfront im Tagesverlauf zurück und liegen zumittag in 2000m um den Gerfriepunkt, in 1500m um +3 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Freitag herrscht weitgehend sonniges und stabiles Bergwetter. Im Tagesveraluf steht zunehmend das sonnseitige Nassschneeproblem im Vordergrund.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID914RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID914RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Einstrahlung und Regeneintrag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, trotzdem Vorsicht vor kleineren spontanen Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>Aus dem sehr steilen Gelände besteht die Gefahr von nassen Lockerschneelawinen durch Strahlung bzw. im Tagesverlauf durch Regeneintrag. Vereinzelte Gefahrenstellen für trockene Schneebretter (Altschneeproblem) bestehen mitunter im schattseitigen, extremen Steilgelände oberhalb von 2000m. </avActivityComment>
+          <snowpackStructureComment>Über Nacht kann es zumindest zeitweise aufklaren, womit sich die  Schneeoberfläche im Abhängigkeit von der Höhe unterschiedlich stark verfestigt. Tagsüber setzt meist rasch (je nach Seehöhe und Hangrichtung) die oberflächliche Anfeuchtung durch Einstrahlung sowie Regeneintrag ein. Der Schnee verliert zunehmend an Festigkeit und gestaltet sich schwer, in tieferen Lagen auch nass bis faul. Vereinzelt existieren noch Schwachschichten im Altschnee für Schneebrettlawinen, dies in Schattlagen über 2000m Seehöhe. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag bringt eine schwache Kaltfront tagsüber wieder einige Regen- und Schneeschauer, mitunter auch Graupelgewitter. Schnee fällt oberhalb von 1600m bis 2000m. Mit den Schauern geraten die Gipfel &#13;
+zumindest vorübergehend in Nebel, dazwischen zeigt sich auch die Sonne. Der Wind dreht auf Nordwest und wird stärker. Dei Temperaturen gehen mit der Kaltfront im Tagesverlauf zurück und liegen zumittag in 2000m um den Gerfriepunkt, in 1500m um +3 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Freitag herrscht weitgehend sonniges und stabiles Bergwetter. Im Tagesveraluf steht zunehmend das sonnseitige Nassschneeproblem im Vordergrund.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

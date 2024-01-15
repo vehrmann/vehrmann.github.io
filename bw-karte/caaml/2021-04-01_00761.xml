@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID761RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID761RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in den Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - nasser Schnee und Neuschnee auf den hohen Gipfeln.</avActivityHighlights>
+          <avActivityComment>Es herrscht generell geringe Lawinengefahr. Im Tagesverlauf bilden sich in den Hochlagen kleinräumig frische Triebschneeablagerungen. Trotz kühlerer Temperaturen ist aus steilen Wiesenhängen weiterhin mit kleinen bis mittleren spontanen Gleit- und Nassschneelawinen zu rechnen. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen hat sich auf die Schneedecke eine Harschkruste gebildet, in tieferen Lagen ist der Schnee feucht bzw. nass. Am Freitag regnet es bis weit hinauf, nur auf den höchsten Gipfeln schneit es und es bildet sich frischer Triebschnee in den windgeschützten Ost- bis Südexpositionen.</snowpackStructureComment>
+          <wxSynopsisComment>Der Karfreitag startet in den niederösterreichischen Bergen oft mit dichten Wolken, aus denen es etwas regnen, auf den höchsten Gipfeln auch schneien kann. Im Tagesverlauf lockert die Bewölkung auf und es kommt mitunter die Sonne zum Vorschein, mit der nordwestlichen Höhenströmung ist es aber bereits wesentlich kälter als zuletzt. In 1500m Seehöhe hat es am Nachmittag höchstens 0 bis +2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Ostersamstag wechseln sich Schauer, die auch bis in die Täler Schnee bringen können, und Sonnenschein ab. Der Höhenwind aus nordwestlicher Richtung legt zu und die Temperaturen sinken weiter, in 1500m auf -5 Grad. Die Lawinengefahr nimmt trotz neuerlichem Triebschnee nicht wesentlich zu. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

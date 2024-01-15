@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2873RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2873RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Meide schneearme Bereiche  sowie sehr steile konvexe Geländeformationen. Standardmaßnahmen wie Einzelabfahrten und sichere Sammelpunkte helfen das Risiko niedrig zu halten.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Je wärmer und fauler die Schneedecke wird, desto wahrscheinlicher werden nasse Lockerschneelawinen und warme Gleitschneelawinen. Extrem steile Südhänge und darunterliegende Gefahrenzonen meiden.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden, gefährdete Bereiche schnell passieren.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Meide schneearme Bereiche  sowie sehr steile konvexe Geländeformationen. Standardmaßnahmen wie Einzelabfahrten und sichere Sammelpunkte helfen das Risiko niedrig zu halten.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem in der Höhe, Nassschneelawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Am Vormittag MÄSSIGE Lawinengefahr oberhalb 2200m, darunter GERINGE Gefahr. Am Nachmittag Anstieg der Gefahr von Nassschneelawinen unterhalb etwa 2600m.&#13;
+Brüche in Schwachschichten im unteren Teil der Schneedecke können meist nur mehr mit großer Zusatzbelastung erzeugt werden. Eine Auslösung durch einzelne Wintersportler ist nur noch sehr vereinzelt an Übergängen von wenig zu viel Schnee an sehr steilen (&gt;35°), Nord- und Osthängen oberhalb etwa 2200m denkbar. Mit einer überlegten Routenwahl in Aufstieg und Abfahrt sowie Standardmaßnahmen (Entlastungsabstände, Sicherheitsabstände, sichere Sammelpunkte) kann das Risiko gering gehalten werden. Lawinen können mittlere Größe erreichen. &#13;
+Zudem sind aus steilen, glatten Wiesenhängen unterhalb etwa 2400 m weiterhin spontane Gleitschneelawinen bis mittlerer Größe möglich - das Gelände unterhalb von Gleitschneerissen sollte gemieden werden, wenn nötig Gefahrenbereiche schnell passieren.&#13;
+Am Nachmittag sind mit der Anfeuchtung der Schneedecke an extrem steilen Südhängen (SO-S-SW) unterhalb etwa 2600m kleine und mittlere spontane nasse Lockerschneelawinen zu erwarten. Eine zunehmend weicher werdende Schneedecke ab den Nachmittagsstunden ist ein Indiz für den Anstieg der Gefahr. </avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen haben sich Triebschneeansammlungen gesetzt und verfestigt. Tieferliegende Schwachschichten im Altschnee (kantige Kristalle, mitunter an Schmelzharschkrusten) sind aufgrund der soliden Überdeckung nur noch selten anzusprechen. An steilen Sonnenhängen bildet sich in der klaren Nacht bis mindestens 2400m hinauf eine tragfähige Schmelzharschkruste, oberhalb sowie an Ost- und Westhängen ist die Oberflächenkruste oft nicht tragfähig. Im Tagesverlauf weicht die Schneedecke besonders im Südsektor auf und wird zunehmend nass, verliert somit an Festigkeit. An Schattenhängen findet man einen Mix aus Windharsch und Pulverschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint oberhalb der Nebelfelder von Beginn an die Sonne vom oft wolkenlosen Himmel. In den Nordalpen reicht der Nebel meist nur bis 800 m, darüber ist es sonnig. Der Wind bleibt schwach. In 2000m 6 oder 7 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Gefahrensituation am Donnerstag. Die Temperaturen gehen wieder etwas zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2873RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2873RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden, gefährdete Bereiche schnell passieren.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Je wärmer und fauler die Schneedecke wird, desto wahrscheinlicher werden nasse Lockerschneelawinen. Extrem steile Südhänge und darunterliegende Gefahrenzonen meiden.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden, gefährdete Bereiche schnell passieren.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschneelawinen, nasse Lockerschneelawinen ab dem Nachmittag</avActivityHighlights>
+          <avActivityComment>Am Vormittag GERINGE Lawinengefahr, am Nachmittag unterhalb 2600m MÄSSIGE Lawinengefahr.&#13;
+Aus steilen, glatten Wiesenhängen unterhalb etwa 2400 m sind weiterhin spontane Gleitschneelawinen bis mittlerer Größe möglich - das Gelände unterhalb von Gleitschneerissen sollte gemieden werden, wenn nötig Gefahrenbereiche schnell passieren.&#13;
+Am Nachmittag sind mit der Anfeuchtung der Schneedecke an extrem steilen Südhängen (SO-S-SW) unterhalb etwa 2600m kleine und mittlere spontane nasse Lockerschneelawinen zu erwarten. Eine zunehmend weicher werdende Schneedecke ab den Nachmittagsstunden ist ein Indiz für den Anstieg der Gefahr.</avActivityComment>
+          <snowpackStructureComment> Die Schneedecke ist am Vormittag recht stabil. Mit den milden Temperaturen haben sich Triebschneeansammlungen gesetzt und verfestigt und sind nicht mehr störanfällig. An steilen Sonnenhängen bildet sich in der klaren Nacht bis mindestens 2400m hinauf eine tragfähige Schmelzharschkruste, oberhalb sowie an Ost- und Westhängen ist die Oberflächenkruste oft nicht tragfähig. Im Tagesverlauf weicht die Schneedecke besonders im Südsektor auf und wird zunehmend nass, verliert somit an Festigkeit. An Schattenhängen findet man einen Mix aus Windharsch und Pulverschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint oberhalb der Nebelfelder von Beginn an die Sonne vom oft wolkenlosen Himmel. In den Nordalpen reicht der Nebel meist nur bis 800 m, darüber ist es sonnig. Der Wind bleibt schwach. In 2000m 6 oder 7 Grad, in 3000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Keine wesentliche Änderung der Gefahrensituation am Donnerstag. Die Temperaturen gehen wieder etwas zurück.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

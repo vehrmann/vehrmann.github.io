@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2697RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2697RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen sind schwer erkennbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze ERHEBLICH, darunter MÄßIG. Triebschnee kann bereits durch geringe Zusatzbelastung als Schneebrett mittlerer Größe ausgelöst werden. Die meisten Gefahrenstellen gibt es in den Sektoren von West über Süd bis Ost sowohl kammnah als auch kammfern sowie in steilen Rinnen aller Richtungen. Die Gefahrenstellen sind im Gelände oft nur schlecht zu erkennen. Variantenfahrten und Touren erfordern lawinenkundliches Wissen, gute Geländekenntnis und Erfahrung!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich nach dem ergiebigen Schneefall vom Wochenbeginn gesetzt. Durch die klaren Nächte konnte sich Oberflächenreif bilden. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Älterer Triebschnee liegt in Rinnen und windabgewandte Mulden und ist oft überschneit. Die Verbindung zwischen dem bei milderen Temperaturen gefallenem Neuschnee und dem kalten Schnee darunter ist noch schlecht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint auf den Bergen anfangs noch die Sonne. Die Sicht verschlechtert sich tagsüber von Norden her allmählich.  In den Lungauer Nockbergen kommt zum Abend hin lebhafter Nordwestwind auf. Die Temperaturen gehen merklich zurück, in 2000m um -6 Grad.&#13;
+Auch am Freitag stecken die Berge meist in dichten, nebelartigen Wolken und zeitweise schneit es.</wxSynopsisComment>
+          <tendencyComment>Aufkommender Nordföhn verfrachtet Schnee erneut.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2697RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2697RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Frischer Triebschnee in kammnahen Lagen, hochalpin auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ungünstiger Schneedeckenaufbau: aufbauende Umwandlung, harte Krusten, eingelagerter Reif</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen in Rinnen und vor allem kammnahen Steilhängen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Der aus verschiedenen Richtungen kommende Wind der vergangenen Tage hat östlich bis nordwestlich ausgerichtete Hänge eingeblasen. Ein Schneebrett mittlerer Größe ist im Steilgelände bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen gibt es kammnah, hochalpin auch kammfern, sowie in steilen Rinnen und Mulden. In hochalpinen Lagen können oberflächliche Lawinen auch in tiefere Schichten der Altschneedecke durchreißen und größere Ausmaße annehmen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten beiden Tagen deutlich gesetzt. Durch die klaren Nächte konnte sich Oberflächenreif bilden. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Vor allem schattseitige Triebschneeansammlungen sind noch nicht ausreichend mit der Altschneedecke verbunden sind. Als Bruchfläche für Schneebretter kommt in erster Linie der sehr kalte und lockere überwehte Schnee in Frage. Daneben gibt es auch in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint auf den Bergen anfangs noch die Sonne. Die Sicht verschlechtert sich tagsüber von Norden her allmählich. In den Nordalpen fallen gegen Abend mitunter ein paar erste Schneeflocken. Die Temperaturen gehen merklich zurück, in 2000m um -6 Grad, in 3000m um -10 Grad.&#13;
+Auch am Freitag stecken die Berge meist in dichten, nebelartigen Wolken und zeitweise schneit es.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2697RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2697RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Triebschnee in hochalpinen Lagen von ca. 2500 m aufwärts, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen sind schwer erkennbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Der aus verschiedenen Richtungen kommende Wind der vergangenen Tage hat südöstlich bis nördlich ausgerichtete Hänge eingeblasen. Ein Schneebrett mittlerer Größe ist im Steilgelände bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen gibt es vor allem kammnah, sowie in steilen Rinnen und windabgewandten Mulden. Die Gefahrenstellen sind im Gelände oft nur schlecht zu erkennen.  In hochalpinen Lagen können oberflächliche Lawinen - Gefahrenstellen dort auch kammfern - auch in tiefere Schichten der Altschneedecke durchreißen und größere Ausmaße annehmen. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich nach dem ergiebigen Schneefall vom Wochenbeginn gesetzt. Durch die klaren Nächte konnte sich Oberflächenreif bilden. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Als Bruchfläche für Schneebretter kommt in erster Linie die Grenzfläche zwischen Neu-/Triebschnee zur kälteren und oft noch lockeren Unterlage in Frage. Daneben gibt es auch in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint auf den Bergen anfangs noch die Sonne. Die Sicht verschlechtert sich tagsüber von Norden her allmählich. In den Nordalpen fallen gegen Abend mitunter ein paar erste Schneeflocken. Die Temperaturen gehen merklich zurück, in 2000m um -6 Grad, in 3000m um -10 Grad.&#13;
+Auch am Freitag stecken die Berge meist in dichten, nebelartigen Wolken und zeitweise schneit es.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2697RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2697RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-25T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneebereiche meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1800 m MÄßIG, darunter GERING und wird maßgeblich vom letzten Windeinfluss bestimmt. Ein Schneebrett mittlerer Größe ist im Steilgelände bereits bei geringer Zusatzbelastung auslösbar. Gefahrenstellen befinden sich kammnah, hochalpin auch hinter kammfernen Geländekanten, vermehrt auf den West-, Süd- und Südostseiten sowie in steilen Rinnen und Mulden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten beiden Tagen deutlich gesetzt. Durch die klaren Nächte konnte sich Oberflächenreif bilden. Dort wo die Sonne die Schneedecke am Mittwoch oberflächlich angefeuchtet hat, konnte sich eine dünne Schmelzharschkruste ausbilden. &#13;
+Ältere Triebschneeansammlungen sind teilweise noch nicht ausreichend mit der Altschneedecke verbunden. Als Bruchfläche für Schneebretter kommt in erster Linie überwehter, lockerer Schnee in Frage. Daneben gibt es auch in der Altschneedecke Schwachschichten an Harschkrusten und im Schwimmschneefundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag scheint auf den Bergen anfangs noch die Sonne. Die Sicht verschlechtert sich tagsüber von Norden her allmählich. In den Nordalpen fallen gegen Abend mitunter ein paar erste Schneeflocken. Die Temperaturen gehen merklich zurück, in 2000m um -6 Grad, in 3000m um -10 Grad.&#13;
+Auch am Freitag stecken die Berge meist in dichten, nebelartigen Wolken und zeitweise schneit es.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

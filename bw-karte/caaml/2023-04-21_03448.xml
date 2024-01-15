@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3448RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-21T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3448RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-21T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-22T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber spontane Nassschneelawinen aus steilem Gelände beachten!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, aber besonders südseitig mehren sich im Tagesverlauf spontane nasse Lockerschneelawine aus steilen, schneegefüllten Hängen in den Hochlagen. Vorsicht auch bei mächtigen Wechten!</avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Samstag konnte sich die Schneedecke etwas verfestigen, weil sie durch die Ausstrahlung oberflächlich fror, aber mit der Sonneneinstrahlung am Samstag schmilzt der Harschdeckel rasch wieder und der Schnee apert aus weiter aus bzw. wird bis auf die Gipfel feucht und faul. Die Schneegrenze liegt in der Früh noch bei zirka 1200 m. In steilem Wiesen- und Felsgelände kann die noch vorhandene Schneedecke spontan an Haftung verlieren und als nasse Lockerschneelawine abgleiten. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es die meiste Zeit des Tages sonnig, es bilden sich vereinzelt Quellwolken ohne Niederschlag. Es weht schwacher bis lebhafter Wind aus südlicher bis südwestlicher Richtung und es wird etwas wärmer. Die Temperaturen erreichen in 1500m bis zu +10 Grad und in 2000 +5 Grad.&#13;
+In der Nacht auf Sonntag ziehen dichte Wolken auf, tagsüber ist es trüb und von Westen her breiten sich mittelhohe Wolken und leichte Regenschauer auf das gesamte Bergland aus. Dazu weht lebhafter Wind aus Südwest und die Temperaturen bleiben sehr mild. &#13;
+ </wxSynopsisComment>
+          <tendencyComment>Die Ausaperung schreitet voran, die Schneegrenze zieht sich bis in die Hochlagen zurück. Die Lawinengefahr bleibt gering bzw. ist in immer mehr Regionen nicht mehr vorhanden!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

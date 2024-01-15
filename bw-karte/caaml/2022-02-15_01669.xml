@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1669RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1669RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>zu jeder Tageszeit möglich, auch in weniger steilem Gelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weiterhin Altschneeproblematik schattseitig und Gleitschneeaktivität</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig, ansonsten mit gering beurteilt. Die Gefahrenstellen durch Schwachschichten im bzw. zum Altschnee befinden sich kammnah, im erweiterten Nordsektor und sind insbesondere durch große Zusatzbelastung auslösbar. Zusätzlich steigt die Gleitschneeaktivität aus steilen Hängen - vermehrt aus den Südexpositionen, da in den Schattseiten noch Kältereserven in der Schneedecke vorhanden sind. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist im Allgemeinen stabil. In den Hochlagen liegen lokal geringmächtige, frische Triebschneelinsen auf einer harten, windgepressten Schneeoberfläche oder schattseitig stellenweise noch auf lockerem Altschnee. Die Verbindung zum weichen Altschnee bzw. Schwachschichten innerhalb des Altschnees können noch störanfällig sein. In Lagen darunter prägt in der Früh noch ein tragfähiger Harschdeckel die Schneeoberfläche, doch im Laufe des Tages wird der Schnee rasch weich. Die ansteigenden Temperaturen setzen der Schneedecke auch in den Hochlagen zu. Mit fortschreitender Durchfeuchtung mehren sich geöffnete Schneemäuler und Gleitschneelawinen aus steilen Hängen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch klingt der Niederschlag rasch ab. Am Mittwoch selbst ist es anfangs überall sonnig, doch ab Mittag zieht mit einer neuerlichen Warmfront von Westen her dichte, mittelhohe Bewölkung auf. Der Westwind legt deutlich zu und die Temperaturen steigen rasch an. Zu Mittag hat es in 1500m noch um 0 Grad, am Abend bereits +4 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag lassen die warmen Temperaturen und lokale schwache Schauer die Schneedecke instabil werden – spontane Nassschneelawinen aus steilem Gelände mehren  sich. Der orkanartige Föhn aus westlicher Richtung setzt der Schneemenge in allen Höhenlagen zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1669RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1669RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>zu jeder Tageszeit möglich, auch in weniger steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Lawinensituation aber ganztätig spontane Gleitschneelawinen möglich</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr und grundsätzlich eine günstige Lawinensituation, allerdings schreitet die Durchfeuchtung der Schneedecke voran. Geöffnete Schneemäuler sollen als Gefahrenzeichen interpretiert werden. Aus steilen Wiesenhängen muss ganztätig - vermehrt aus südexponierten Bereichen - mit spontanen Gleitschneelawinen gerechnet werden.   </avActivityComment>
+          <snowpackStructureComment>In der Früh prägt noch ein tragfähiger Schmelzharsch die Schneeoberfläche, doch im Laufe des Tages wird der Schnee rasch weich. Die ansteigenden Temperaturen setzen der Schneedecke bis auf die Gipfel zu. Mit fortschreitender Durchfeuchtung mehren sich geöffnete Schneemäuler und Gleitschneelawinen aus steilen Hängen.  </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch klingt der Niederschlag rasch ab. Am Mittwoch selbst ist es anfangs überall sonnig, doch ab Mittag zieht mit einer neuerlichen Warmfront von Westen her dichte, mittelhohe Bewölkung auf. Der Westwind legt deutlich zu und die Temperaturen steigen rasch an. Zu Mittag hat es in 1500m noch um 0 Grad, am Abend bereits +4 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Donnerstag lassen die warmen Temperaturen und lokale schwache Schauer die Schneedecke weiter instabil werden. Zusätzlich setzt der orkanartige Föhn aus westlicher Richtung der Schneemenge bis auf die Gipfel ordentlich zu. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

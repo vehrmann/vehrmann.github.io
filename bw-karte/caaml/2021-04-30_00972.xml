@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID972RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID972RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-30T16:00:00+00:00</beginPosition>
+          <endPosition>2021-05-03T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-30T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-05-03T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-05-03T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-05-03T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem! Am Wochenende frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Am Samstag ist die Lawinengefahr dem Tagesgang unterworfen. In der Früh herrscht geringe und ab Mittag  mäßige Lawinengefahr. In den mittleren Lagen sind temperaturbedingt  spontane nasse Rutsche möglich. In den Nordalpen sind durch die Einstrahlung zudem nasse Lockerschneerutsche aus steilen Fels- und Schrofengelände möglich. &#13;
+Am Sonntag und am Montag ergibt sich in den Hochlagen eine Triebschneesituation. In den mittleren Lagen bleibt die Nassschneeproblematik aufrecht. &#13;
+ &#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>Mit der Einstrahlung weicht der Schnee je nach Höhenlage und Exposition unterschiedlich rasch auf. Die Schneedecke ist in den mittleren Lagen feucht bzw. nass.&#13;
+In den Gipfelregionen existieren vereinzelt Schwachschichten für Schneebrettlawinen. Die Ausaperung bis in mittlere Lagen schreitet weiter voran.&#13;
+Der Neuschnee am Wochenende wird sich in den Hochlagen nicht ausreichend mit der Altschneedecke verbinden.</snowpackStructureComment>
+          <wxSynopsisComment>Für den Samstag kündigt sich recht sonniges Bergwetter an. Erst im Laufe des Nachmittags werden die Quellwolken mehr und nachfolgend können daraus auch einzelne Gewitter heranwachsen. Wind und Höchsttemperatur in 2000m Höhe: Südwest mit 30 bis 60 km/h, um 8 Grad.&#13;
+Sonntag: Unbeständiges Bergwetter! In den Nordalpen dominieren von der Früh weg die Wolken und es regnet und schneit zeitweise. Mit kräftig auffrischendem Nordwestwind sinkt die Schneefallgrenze auf unter 1500m Höhe. Nach Süden zu kann es vormittags auch noch länger auflockern und der Wind weht inbesondere im Bereich der Koralpe noch stürmisch aus Südwest, nachmittags wird es auch hier dichte Wolken und Schauer geben. Wind und Höchsttemperatur in 2000m Höhe: Zunächst teils noch Südwest, ab Mittag verbreitet aus Nordwest, Abkühlung von +5 auf -3 Grad.&#13;
+ Deutlich kühler und wechselhaft verläuft der Montag. Zu Tagesbeginn regnet es noch häufig, Schnee fällt zum Zeil bis 1000m Höhe herab. &#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Sonntag ist der frische Triebschnee zu beachten. Die Lawinengefahr steigt in den Hochlagen auf mäßig an!&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

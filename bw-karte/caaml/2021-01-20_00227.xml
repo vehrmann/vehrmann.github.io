@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID227RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID227RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem in den Hochlagen - erhebliche Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Vom Dachstein über die Niederen Tauern bis zur Rax herrscht oberhalb der Waldgrenze weiterhin erhebliche Lawinengefahr. Störanfälliger Triebschnee befindet sich in den Sektoren Ost und Nord. Eine Schneebrettauslösung ist noch mit geringer Zusatzbelastung möglich. Die Lawine kann bis zum schwachen Fundament durchschlagen, daher sind atypische große Lawinen noch möglich. Mit der Sonneneinstrahlung sind Lockerschneelawinen aus steilem Fels- und Schrofengelände möglich. In tiefen Lagen werden nasse Rutsche erwartet. </avActivityComment>
+          <snowpackStructureComment>Die milden Temperaturen und die Sonneneinstrahlung haben sich positiv auf die Schneedecke ausgewirkt. Schattseitig überdeckt Triebschnee weiche Schichten. Die Schneedecke ist durch Schneeschichten mit kantigen Kristallen geschwächt. Bodennah bildet sich Schwimmschnee aus, der die Stabilität der Schneedecke schwächt. Bis in die mittleren Lagen wurde sonnseitig die Schneedeckenoberfläche feucht. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag geht es im Bergland meist sonnig, mild und teils recht windig weiter. Merklich weniger Wind gibt es an der Alpennordseite. Die Temperaturen liegen in 2000m leicht im positiven Bereich. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID227RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID227RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – Gefahrenstellen sind in den Nordseiten zu finden!</avActivityHighlights>
+          <avActivityComment>Von der Koralpe über das Grazer Bergland bis zum Wechsel herrscht geringe Lawinengefahr. Vereinzelte Gefahrenstellen befinden sich in den extrem steilen Hängen des Nordsektors. Hier können Schneebrettauslösungen nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Die milden Temperaturen und die Sonneneinstrahlung haben sich positiv auf die Schneedecke ausgewirkt. Schattseitig überdeckt Triebschnee weiche Schichten. &#13;
+Nur in den schneereicheren Gebieten ganz im Süden (Koralpe) ist das Fundament großteils stabil. Verbreitet sorgen kantige Formen für eine Schwachschicht in der Schneedecke. In den mittleren Lagen konnte sich die Schneedecke setzen. Hier wurde der Schnee angefeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag geht es im Bergland meist sonnig, mild und teils recht windig weiter. Der Südwestwind weht speziell auf der Koralpe mit Sturmböen. Ein paar Wolken (teils stehende Föhnwolken) oder auch Nebel gibt es auf der Koralpe. Wind und Höchsttemperaturen in 2000m Höhe: West bis Südwest, 30 bis 70 km/h, +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID227RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID227RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem. Mäßige Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>In den Gurk- und Seetaler Alpen herrscht oberhalb der Baumgrenze mäßige Lawinengefahr. Gefahrenstellen sind eher kleinräumig vorhanden, finden sich meist im kammnahen Gelände. Besonders betroffen sind die Expositionen Ost und Nord. Der Südwestwind weht während des Tages die Nord- und Ostseiten ein. Nasse spontane Lockerschneerutsche werden aus steilem Felsgelände erwartet.     </avActivityComment>
+          <snowpackStructureComment>Die milden Temperaturen und die Sonneneinstrahlung haben sich positiv auf die Schneedecke ausgewirkt. Der Triebschnee liegt schattseitig auf einer Oberflächenreifschicht oder durch eine aufbauende Umwandlung geschwächte Schneeschicht. Der Triebschnee ist nicht gut mit dem Schneedeckenfundament verbunden. Das Schneedeckenfundament ist grundsätzlich stabil. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag geht es im Bergland meist sonnig, mild und teils recht windig weiter. Ein paar Wolken (teils stehende Föhnwolken) oder auch Nebel gibt es zwischen Turrach und dem Zirbitzkogel. Der Wind weht stark aus West bis Südwest. In 2000m werden positive Temperaturen erwartet.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1315RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1315RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hochalpin, kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten - erhebliche Schneebrettgefahr vor allem in Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Schneebrettgefahr ist teils bereits ab der Waldgrenze aber vor allem in höheren Lagen lokal als erheblich einzustufen. Eine Auslösung des meist kleinräumigen älteren Triebschnees ist im eingewehten Steilgelände, in steilen Mulden und Rinnen nordost- über ost- bis südseitig noch bei geringer Zusatzbelastung möglich. Die Gefahrenstellen nehmen mit der Höhe etwas zu. In mittleren Lagen sind vereinzelt kleine Gleitschneelawinen, im besonnten Steilgelände Lockerschneerutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Überwiegend in den höheren Lagen ist durch starken Nordwest- bis Westwind der zuletzt gefallene Neuschnee von rund 20 cm verfrachtet worden. Der Neu- und Triebschnee setzt sich mit den kalten Temperaturen nur langsam und bindet mit der oberflächig oft verharschten, harten oder vereisten Altschneedecke teils noch ungenügend. Die Altschneedecke ist im Inneren je nach Höhe feucht bis nass. Tiefe Lagen sind wieder etwas eingeschneit worden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint bei schwachem Wind meist die Sonne. Erst im Lauf des Nachmittags ziehen von Westen her Wolken auf. In 1500 m: um -6 Grad, in 2000 m: um -9 Grad.&#13;
+Am Samstag gibt es viele Wolken, zeitweiligen Schneefall und damit oft sehr ungünstige Sichtverhältnisse. Die Neuschneemengen sind überschaubar (wenige Zentimeter). Am Nachmittag wird der Niederschlag seltener, mit auflockernder Wolkendecke wird auch die Sicht besser. Ein paar sonnige Phasen sollten sich ausgehen. Der Westwind weht um die Mittagszeit lebhaft mit Spitzen um 50 km/h. In 1500 m: -6 Grad, in 2000 m: -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1315RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1315RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumige Triebschneepakete, in Gipfel- und Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen und Gipfelbereichen beachten!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen und Gipfellagen ist teils störanfälliger, meist kleinräumiger Triebschnee vorhanden. Eine Auslösung dieses älteren Triebschnees ist in eingewehten steilen kammnahen Bereichen sowie in steilen Mulden und Rinnen nordost- über ost- bis südseitig insbesondere bei großer, teils noch geringer Zusatzbelastung möglich. In mittleren Lagen sind vereinzelt kleine Gleitschneelawinen, im besonnten Steilgelände Lockerschneerutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Überwiegend in den höheren Lagen ist durch starken Nordwest- bis Westwind der zuletzt gefallene Neuschnee von rund 20 cm verfrachtet worden. Der Neu- und Triebschnee setzt sich mit den kalten Temperaturen nur langsam und bindet mit der oberflächig oft verharschten, harten oder vereisten Altschneedecke teils noch ungenügend. Die Altschneedecke ist im Inneren je nach Höhe feucht bis nass. Tiefe Lagen sind wieder etwas eingeschneit worden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint bei schwachem Wind meist die Sonne. Erst im Lauf des Nachmittags ziehen von Westen her Wolken auf. In 1500 m: um -6 Grad, in 2000 m: um -9 Grad.&#13;
+Am Samstag gibt es viele Wolken, zeitweiligen Schneefall und damit oft sehr ungünstige Sichtverhältnisse. Die Neuschneemengen sind überschaubar (wenige Zentimeter). Am Nachmittag wird der Niederschlag seltener, mit auflockernder Wolkendecke wird auch die Sicht besser. Ein paar sonnige Phasen sollten sich ausgehen. Der Westwind weht um die Mittagszeit lebhaft mit Spitzen um 50 km/h. In 1500 m: -6 Grad, in 2000 m: -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

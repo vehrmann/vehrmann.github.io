@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1930RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1930RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr, Gefahrenstellen existieren nur vereinzelt!</avActivityHighlights>
+          <avActivityComment>In sämtlichen Niederösterreichischen Gebirgsgruppen herrscht geringe Lawinengefahr. Schattseitig besteht in praktisch allen Höhenlagen ein Altschneeproblem, hierbei kann es (insbesondere bei großer Zusatzbelastung) vereinzelt zu Schneebrettauslösungen kommen. Darüber hinaus gibt es noch älteren Triebschnee in den kammnahen Bereichen der Hochlagen zu beachten. Durch einige Wolken und gedämpfte Temperaturen sind sonnseitige Rutschungen seltener geworden und nur vereinzelt zu erwarten. An steilen Wald- und Wiesenbereichen sind einzelne Gleitschneeauslösungen, die sich vorab über aufgegangene Schneemäuler ankündigen, nicht ganz ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>In den Schatthängen gilt es in den Hochlagen kammnahen, älteren Triebschnee wie auch die Altschneeproblematik in praktisch allen Höhenbereichen zu beachten. Hier schwächen stellenweise aufgebaut umgewandelte, kantige und lockere Zwischenschichten den Aufbau der Schneedecke. Witterungsbedingt (gedämpfte Temperaturen, keine ungetrübte Einstrahlung) hält sich auch der tageszeitliche Festigkeitsverlust der Schneedecke in Grenzen und spontane (Gleitschnee-)Rutschungen sind zwar nicht ausgeschlossen, aber nur eher vereinzelt zu erwarten.</snowpackStructureComment>
+          <wxSynopsisComment>Zunächst ist im gesamten Niederösterreichischen Alpenraum mit tiefen und mittelhohen, dichten Wolken zu rechnen. Im Laufe des Vormittags lockert es mehr und mehr auf sodass sich ab etwa Mittag die Sonne wieder häufiger zeigen kann. Auch die Trübung durch den Saharastaub in der Atmosphäre sollte im Verlauf des Tages abnehmen. Es weht schwacher bis mäßiger Wind aus mehrheitlich östlichen Richtungen. Die Temperaturen gehen etwas zurück, sie erreichen um Mittag in 1500m etwa 0 Grad, in 2000m werden etwa -5 Grad erwartet.</wxSynopsisComment>
+          <tendencyComment>Nach noch weitgehend klarer Nacht ist am Samstag wieder mit dichteren Wolken zu rechnen, aus denen es auch ganz leicht schneien (oder in tieferen Lagen nieseln) kann. Die Temperaturen liegen um -3 Grad in 1500m und -6 Grad in 2000m. Es weht mäßiger, gegen Abend an Stärke gewinnender Südostwind. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

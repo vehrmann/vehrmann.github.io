@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID456RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-22T05:07:25+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID456RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-22T05:07:25+00:00</beginPosition>
+          <endPosition>2021-02-23T08:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T05:07:25+00:00</beginPosition>
+                  <endPosition>2021-02-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-23T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab Mittag südseitig Grund- und Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Am Vormittag ist &#13;
+die Lawinengefahr GERING. Vereinzelt kann im hohen und hochalpinen &#13;
+schattigen (NW, N, NO, O) extremen Steilgelände ein Schneebrett ausgelöst werden, wobei&#13;
+ die Absturz- und Mitreissgefahr höher ist als die Verschüttungsgefahr.&#13;
+Am Nachmittag ist die Lawinengefahr MÄßIG. Aus dem südseitigen &#13;
+Steilgelände sind Grundlawinen und oberflächliche Nasschneelawinen &#13;
+(können auch von Alpinisten ausgelöst werden) zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich die letzten Tage setzen, die Schneeschichten sind untereinander gut verbunden. Harschdeckel dominieren. Sonnseitig firnt es auf.</snowpackStructureComment>
+          <wxSynopsisComment>Sonnig und mild. Sehr gute Sicht. Der Wind bleibt meist schwach. In 2000 m um 7 Grad.</wxSynopsisComment>
+          <tendencyComment>Frühjahrsbedingungen mit leichtem Tagesgang.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID456RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-22T05:07:25+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID456RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-22T05:07:25+00:00</beginPosition>
+          <endPosition>2021-02-23T08:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T05:07:25+00:00</beginPosition>
+                  <endPosition>2021-02-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-23T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T05:07:25+00:00</beginPosition>
+                  <endPosition>2021-02-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-23T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Föhnschneisen, kammnah, kammfern, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr und frischen Föhntriebschnee beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 2000 m ganztägig MÄßIG. Südföhn hat in der Nacht auf Montag frischen, harten Triebschnee gebildet. Dieser ist insbesondere mit großer Zusatzbelastung im sehr und extrem steilen Gelände, kammnah und kammfern hinter Geländekanten auslösbar.&#13;
+Weiters gibt es einen Tagesgang der Nassschneelawinen. Ab Mittag ist die Lawinengefahr auch in mittleren Lagen MÄßIG Aus dem südseitigen Steilgelände sind Grundlawinen und oberflächliche Nasschneelawinen (können auch von Alpinisten ausgelöst werden) zu erwarten.</avActivityComment>
+          <snowpackStructureComment> Harschdeckel dominieren, tagsüber firnt es sonnseitig auf. Schwachschichten in der Altschneedecke sind kaum noch ansprechbar. Südföhn hat allerings auch die Altschneedecke teilweise angegriefen und auf die nordseiten verfrachtet. Der frische Triebschnee kam schattseitig teilweise noch auf älterem Pulver zu liegen.</snowpackStructureComment>
+          <wxSynopsisComment>Sonnig und mild. Beste Sicht. Am Vormittag weht teils noch lebhafter Südwind, der im Tagesverlauf deutlich nachlässt. In 2000 m um 7 Grad, in 3000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Frühjahrsbedingungen mit leichtem Tagesgang.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3433RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3433RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Schwachschicht innerhalb des Neuschnees der Vorwoche bzw. an der vormaligen Altschneeoberfläche, vermehrt auf Ost- und Südseiten von 2100m aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Föhntriebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1800m MÄßIG, darunter GERING. Hauptproblem ist der frische Föhn-Triebschnee. Er ist bereits bei geringer Zusatzbelastung als kleines bis mittelgroßes Schneebrett auslösbar. Gefahrenstellen gibt es - je nach Windeinfluss - kammnah und kammfern, hinter Geländekanten und in steilen Rinnen. Vermehrt betroffen sind die Nordseiten, Rinnen können aber auch seitlich eingeweht sein. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Abseits des Windeinflusses kann im extremen Steilgelände auch der lockere Neuschnee als vorwiegend kleine Lockerschneelawine ausgelöst werden. Unterhalb etwa 2300m sind weiterhin auch spontan kleine bis mittlere Gleitschneelawinen aus sehr steilen Grasmatten möglich.</avActivityComment>
+          <snowpackStructureComment>Der Schneefall der Vorwoche hat sich deutlich gesetzt und verfestigt und ist oberflächlich bis in Höhen um 2600m zum Teil verkrustet. Darauf liegen 5 bis 15 cm Neuschnee, die insbesondere in den Hochlagen direkt am Hauptkamm von föhnigem Südwind verfrachtet oder windgepresst werden. Die Altschneedecke selbst weist in hohen und hochalpinen Lagen oberflächennahe Schwachschichten auf, bei Sprengungen wurden zuletzt Auslösungen vor allem an der Grenzfläche zum Altschnee der Vorwoche erzielt. In mittleren Höhenlagen ist der Altschnee stark durchfeuchtet, unterhalb 1400m liegt nur wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>In der Früh und am Vormittag schneit es vor allem in Alpenhauptkammnähe leicht, die Wolken bleiben überwiegend dicht. Die Schneefallgrenze steigt im Lauf des Tages von etwa 1000m gegen 1600m an. In 2000m beträgt die Temperatur -3 bis 1 Grad, in 3000m -8 bis -4 Grad. Es weht der Südföhn mit 40 bis 60 km/h, direkt am Hauptkamm in Föhnstrichen auch stärker.</wxSynopsisComment>
+          <tendencyComment>Am Freitag weitere Erwärmung bei föhnigem Südwind. Die Frostgrenze steigt auf etwa 2500m an. Anfeuchtung im letzten Neuschnee und weitere spontane nasse Lockerschneelawinen, vereinzelt dadurch im Altschnee ausgelöst auch Schneebrettlawinen bis Größe 3 (Hochlagen).</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3433RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3433RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, in exponierten Hochlagen, Zunahme der Gefahrenstellen mit der Höhe</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Anfeuchtung und oberflächlicher Festigkeitsverlust, sobald die Sonne durchbricht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Lockerschneelawinen bei Sonneneinstrahlung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1400m MÄßIG, darunter GERING. In den Hochlagen ist auf kleinräumigen, frischen Triebschnee zu achten. Er ist bereits bei geringer Zusatzbelastung als überwiegend kleines Schneebrett auslösbar. Gefahrenstellen gibt es vor allem kammnah und in steilen Rinnen. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Mit der Sonneneinstrahlung sind spontan einige kleine, selten mittelgroße Lockerschneelawinen aus dem extremen Steilgelände zu erwarten. Unterhalb etwa 2300m sind spontan auch vorwiegend kleine Gleitschneelawinen aus sehr steilen Grasmatten möglich.</avActivityComment>
+          <snowpackStructureComment>Der Schneefall der Vorwoche hat sich deutlich gesetzt und verfestigt und ist in den Hochlagen oberflächlich zum Teil verkrustet, sonst vielfach aber stark angefeuchtet. Darauf liegen 5 bis 10 cm Neuschnee, die insbesondere in den hohen/hochalpinen Lagen der Nordalpen von föhnigem Südwind kleinräumig verfrachtet werden. Die Verbindung Neuschnee/Triebschnee zur Unterlage ist meist ausreichend, wird in den Hochlagen mit zunehmender Höhe aber ungünstiger. In mittleren Höhenlagen ist der Altschnee stark durchfeuchtet, unterhalb 1400m liegt nur wenig Schnee, teilweise fällt der Neuschnee auch auf apere Böden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Niederschlag klingt schon am Morgen ab und die Wolken lockern ab etwa Mittag auf. Nachfolgend kommt die Sonne durch.  In 2000m beträgt die Temperatur -3 bis 1 Grad, in 3000m -8 bis -4 Grad. In den freien Hochlagen kommt im Lauf des Vormittags föhniger Süd-/Südostwind auf und erreicht Böen von 40 bis 50 km/h.</wxSynopsisComment>
+          <tendencyComment>Am Freitag weitere Erwärmung bei föhnigem Südwind. Die Frostgrenze steigt auf etwa 2500m an. Anfeuchtung im letzten Neuschnee und weitere spontane nasse Lockerschneelawinen, vereinzelt dadurch im Altschnee ausgelöst auch Schneebrettlawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3433RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3433RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Regeneintrag unterhalb von etwa 1600m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumig dünner Triebschnee in den Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Festigkeitsverlust bei Regeneintrag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Aus dem extrem steilen Gelände (insbesondere unterhalb von 1600 m) heraus können spontan einzelne kleine Lawinen abgehen. Meist handelt es sich um oberflächliche nasse Lockerschneelawinen oder Gleitschneelawinen. In den Hochlagen gibt es vereinzelte Gefahrenstellen durch frischen Triebschnee auf den Nord-/Nordwestseiten und in Rinnen.</avActivityComment>
+          <snowpackStructureComment>Auf eine gut gesetzte, vielfach durchfeuchtete Altschneedecke fallen ca. 10cm Neuschnee. Dieser bindet zur Unterlage meist gut, einzig in den Hochlagen kann die Verbindung zu oberflächlichen Harschkrusten ungünstiger sein. Nur sehr kleinräumig bildet sich in den Hochlagen dünner Triebschnee durch den auflebenden Südwin. </snowpackStructureComment>
+          <wxSynopsisComment>In der Früh und am Vormittag regnet und schneit es leicht, die Wolken bleiben überwiegend dicht. Die Schneefallgrenze steigt tagsüber von 1200m gegen 1600m an. In 2000m beträgt die Temperatur -1 Grad. In exponierten Bereichen kann Wind aus südlicher Richtung mit 30 bis 40 km/h verfrachten.</wxSynopsisComment>
+          <tendencyComment>Am Freitag weitere Erwärmung bei föhnigem Südwind. Die Frostgrenze steigt auf etwa 2500m an. Anfeuchtung im letzten Neuschnee und vermehrte Aktivität spontaner nasser Lockerschnee- oder Gleitschneelawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

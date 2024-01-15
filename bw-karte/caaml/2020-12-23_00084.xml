@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID84RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID84RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Ab etwa 2300 m ist die Lawinengefahr MÄßIG, darunter GERING. Etwas Neuschnee und kräftiger Westwind bilden frischen Triebschnee. Dieser kommt vor allem im Nordsektor auf einer ungünstigen Unterlage (aufbauend umgewandelter Schnee, teils mit Reif oder Regeneisschicht) zu liegen. Vereinzelt sind diese dünnen Triebschneefelder kammnah und kammfern hinter Geländekanten als kleines Schneebrett mit geringer Zusatzbelastung auslösbar.</avActivityComment>
+          <snowpackStructureComment>Wenig Schnee und insgesamt gut gesetzt. Bodennahe Schwachschicht oft vorhanden, aber zurzeit kaum relevant. In hohen Lagen kommt der frische Triebschnee vor allem nordseitig auf lockerem Schnee (Schwachschicht) zu liegen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht wird am Donnerstag stark durch Wolken und Nebel eingeschränkt. Es schneit vor allem am Vormittag häufig (5 cm bis 10 cm). Dazu weht starker Westwind, auf hohen Gipfel und Graten ist der Wind auch stürmisch. Die Temperatur sinkt tagsüber in allen Höhen: In 2000 m Temperaturrückgang von -1 auf -4 Grad. In 3000 m von -6 auf -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Weiterer Anstieg der Lawinengefahr mit Schneefall und starkem Wind am Freitag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID84RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID84RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-23T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-24T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-24T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-24T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-23T23:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-24T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2020-12-24T11:00:00+00:00</beginPosition>
+                  <endPosition>2020-12-24T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten, dünne und kleinräumige Triebschneepakete, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf leichter Anstieg der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Ab etwa 2300 m steigt die Lawinengefahr tagsüber auf MÄßIG an. Frischer, dünner Triebschnee kann am Nachmittag vereinzelt als kleines Schneebrett mit geringer Zusatzbelastung ausgelöst werden. Der Triebschnee ist am ehesten im  steilen Nordsektor, stellenweise auch im Ostsekor auslösbar.  Der Triebschnee bildet sich vor allem kammnah.</avActivityComment>
+          <snowpackStructureComment>Gut gesetzte Schneedecke mit sehr variablen Oberflächen (von Pulver bis Regeneiskruste (zwischen 2000 m und 2500 m). Bodennahe Schwachschicht oft vorhanden, aber zurzeit nicht lawinenrelevant. Als Schwachschicht für den frischen Triebschnee können im schattigen Gelände aufbauend umgewandelte lockere Schichten in Oberflächennähe dienen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Vormittag ist die Sicht meist noch passabel. Ab Mittag deutliche Verschlechterung der Sicht. Am Nachmittag dominieren Nebel und Wolken und es schneit zeitweise (5 bis 10 cm). Kräftiger Wind aus West in freien Kammlagen. Die Temperturen sinken tagsüber in 2000 m von 0 auf -3 Grad, in 3000 m von -4 auf -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Freitag mit Neuschnee und Wind weiterer anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID84RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID84RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>sehr wenige Gefahrenpunkte im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Noch wenig Änderung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Der Temperaturrückgang stoppt die Schneeschmelze. Die max. 5 cm Neuschnee reichen noch nicht für einen Anstieg der Lawinengefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist (so vorhanden) verbreitet gut gesetzt und stabil. Bodennah trifft man oft auf aufbauend umgewandelten Schnee (Zuckerschnee). An der Oberfläche dominieren Harschdeckel aller Arten, nur in hohen Lagen schattseitig gibt es noch etwas aufbauend umgewandelten lockeren Schnee (teils mit Reif).</snowpackStructureComment>
+          <wxSynopsisComment>Von Westen her verdichten sich die Wolken und es setzen Schneeschauer ein, die am Abend auch im Lungau ankommen. (Neuschneemenge bis 5 cm). Auf Gipfeln und Graten weht lebhafter bis starker Westwind. Die Temperaturen sinken in allen Höhen spürbar. In 1500 m von 3 auf 0 Grad, in 2000 m von 0 auf -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Freitag mit Neuschnee und Wind Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

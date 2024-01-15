@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1655RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1655RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer kleinräumiger Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kammnahe etwas frischer Triebschnee, schattseitig hochgelegen Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>In den hochgelegen Kammlagen gibt es etwas frischen Triebschnee, der durch Wind um Süd gebildet wurde. Im Steilgelände könnten diese bereits durch geringe Zusatzbelastung gestört werden. In den hohen Nord- und Schattlagen sind Gefahrenstellen wie Übergänge von mehr zu wenig Schnee zu beachten. Hier könnten Schneebrettlawinen auf Grund des Altschneeproblems weiterhin ausgelöst werden. Auf vergrasten Steilhängen sind einzelne Gleitschneelawinen weiterhin nicht auszuschließen. Hänge mit Rissen in der Schneedecke sollten gemieden werden. Mit den milden Temperaturen und der starken Einstrahlung sind sonnseitig kleinere spontane Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In den kammnahen Hochlagen haben sich durch Südwind frische kleinere Triebschneeablagerungen gebildet, die nicht immer mit der Altschneedecke ausreichend binden. In den höheren schattigen Lagen sind in der Altschneedecke noch Schwachschichten (kantige Kristalle) eingelagert, die auch angesprochen werden könnten. Die Schneeoberfläche ist je nach Höhe und Exposition unterschiedlich ausgeprägt. Sie ist sonnseitig verharscht, bevor sie unter Tags aufweicht und feucht wird. Sehr oft ist sie windgepresst und schatt- und nordseitig höher gelegen auch noch locker.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag geht sich noch einmal gutes Tourenwetter aus, oft scheint bei ausgezeichneter Sicht die Sonne. Zeitweilige dünne hohe Wolken stören kaum. Der Wind weht schwach bis mäßig aus Ost bis Süd, am Dachsteingipfel teils lebhaft aus Süd bis West. In 1500 m um 3 Grad, in 2000 m um -1 Grad.&#13;
+Am Dienstag ziehen bald dichte Wolken mit Schneefall auf, die Sicht verschlechtert sich rasch. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500 m -3 Grad, in 2000 m um -5 Grad, es wird somit etwas kälter.</wxSynopsisComment>
+          <tendencyComment>Durch Neuschnee und Wind entstehen am Dienstag frische Gefahrenstellen - Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1655RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1655RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in den höheren Lagen, schattseitig</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr - hochgelegen lokales Altschneeproblem,</avActivityHighlights>
+          <avActivityComment>Nur in den schatt- und nordseitigen höheren Lagen lokales Altschneeproblem. Im Steilgelände sind Gefahrenstellen wie Übergänge von mehr zu wenig Schnee zu beachten. Nur vereinzelt gibt es hochgelegen und kammnah etwas frischen Triebschnee durch Südwind. Somit gibt es insgesamt nur sehr wenige Gefahrenstellen an denen Schneebrettlawinen durch Zusatzbelastung ausgelöst werden können. Auf vergrasten Steilhängen sind einzelne Gleitschneelawinen weiterhin nicht auszuschließen. Hänge mit Rissen in der Schneedecke sollten gemieden werden. Mit den milden Temperaturen und der starken Einstrahlung sind sonnseitig kleinere spontane Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Nur stellenweise und hochgelegen kann es lokal etwas frischen Triebschnee durch Südwind geben. In den höheren schattigen Lagen sind in der Altschneedecke noch Schwachschichten (kantige Kristalle) in der Altschneedecke eingelagert, die auch angesprochen werden könnten. Die Schneeoberfläche ist je nach Höhe und Exposition unterschiedlich ausgeprägt. Sie ist sonnseitig verharscht, bevor sie unter Tags aufweicht und feucht wird. Sehr oft ist sie windgepresst und schatt- und nordseitig höher gelegen auch noch locker.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag geht sich noch einmal gutes Tourenwetter aus, oft scheint bei ausgezeichneter Sicht die Sonne. Zeitweilige dünne hohe Wolken stören kaum. Der Wind weht schwach bis mäßig aus Ost bis Süd, am Dachsteingipfel teils lebhaft aus Süd bis West. In 1500 m um 3 Grad, in 2000 m um -1 Grad.&#13;
+Am Dienstag ziehen bald dichte Wolken mit Schneefall auf, die Sicht verschlechtert sich rasch. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500 m -3 Grad, in 2000 m um -5 Grad, es wird somit etwas kälter.</wxSynopsisComment>
+          <tendencyComment>Durch Neuschnee und Wind entstehen am Dienstag frische Gefahrenstellen - Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

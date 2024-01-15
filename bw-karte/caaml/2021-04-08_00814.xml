@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID814RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID814RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wetterverbesserung, aber nach wie vor Triebschneeproblematik!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr durch frischen Triebschnee. Gefahrenstellen finden sich vor allem ost- und südseitig hinter Geländekanten und in Einfahrten zu Rinnen und Mulden. Der kalte, frische Triebschnee ist teilweise schon durch geringe Zusatzbelastung auslösbar. Bei Sonneneinstrahlung können sich kleine und mittelgroße Schneebrett- und Lockerschneelawinen auch spontan lösen.</avActivityComment>
+          <snowpackStructureComment>Auf ein feuchtes Schneedeckenfundament sind bis zu 30 cm kalter Neuschnee gefallen. Der Neuschnee wurde durch Wind bearbeitet und verfrachtet. Die anfangs gute Verbindung des kalten Neu- bzw. Triebschnees mit dem Untergrund ist in den Hochlagen unzureichend.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag bring eine Südwestströmung sehr mildes Bergwetter. Großteils scheint die Sonne, es ziehen aber immer wieder auch Wolken durch. Der Wind weht mäßig aus Südwest und die Temperaturen in 1500 m liegen bei +7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag wird der Südwind zunehmend stürmisch, es bleibt aber mild. Die Lawinengefahr sinkt. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID814RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID814RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Triebschnee</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. In den Gipfelregionen ist auf kleinräumige frische Triebschneeansammlungen zu achten. Besonders betroffen sind die Expositionen Süd und Ost. Hier können kleinere Triebschneeschollen durch Tourengeher ausgelöst werden. Mit der Erwärmung sind auch spontane Lockerschneerutsche zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Auf ein feuchtes Schneedeckenfundament fiel seit Montag ein wenig Neuschnee bei Nordwestwind. In höheren Lagen ist die Verbindung des frischen, geringmächtigen Triebschnees mit der Altschneedecke nicht gut. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Am Samstag bring eine Südwestströmung sehr mildes Bergwetter. Großteils scheint die Sonne, es ziehen aber immer wieder auch Wolken durch. Der Wind weht mäßig aus Südwest und die Temperaturen in 1500 m liegen bei +7 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit einer Südwestströmung bleibt es am Samstag wechselnd bewölkt und mild. Das Triebschneeproblem lässt schnell nach, die Nassschneeproblematik tritt wieder in den Vordergrund. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID814RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID814RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Besseres Wetter, aber immer noch erhebliche Lawinengefahr durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht erhebliche Lawinengefahr durch frischen Triebschnee. Gefahrenstellen befinden sich vor allem ost- und südseitig hinter Geländekanten und in Einfahrten zu Rinnen und Mulden. Der kalte, frische Triebschnee ist meist schon durch geringe Zusatzbelastung auslösbar. Zusätzlich können sich bei Sonneneinstrahlung auch spontane Schneebrett- und Lockerschneelawinen lösen. </avActivityComment>
+          <snowpackStructureComment>Auf ein feuchtes Schneedeckenfundament sind bis zu 50 cm kalter Neuschnee gefallen. Der Neuschnee wurde durch Wind bearbeitet und verfrachtet. Die anfangs gute Verbindung des kalten Neu- bzw. Triebschnees mit dem Untergrund wird in den Hochlagen zunehmend schlecht. Im Tagesverlauf führt Erwärmung und Sonneneinstrahlung kurzzeitig zur Destabilisierung der Neuschneeauflage.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag überwiegt sonniges und milderes Bergwetter als zuletzt. Erst ab Mittag ziehen einige Wolken durch. Der Wind weht lebhaft aus Südwest. Die Temperaturen in 1500 m steigen im Tagesverlauf auf +6 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit einer Südwestströmung bleibt es am Samstag wechselnd bewölkt und mild. Das Triebschneeproblem lässt schnell nach, die Nassschneeproblematik tritt wieder in den Vordergrund. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

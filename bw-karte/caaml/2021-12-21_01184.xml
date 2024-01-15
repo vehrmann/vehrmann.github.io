@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1184RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1184RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem in den Hochlagen nimmt zu!</avActivityHighlights>
+          <avActivityComment>Im bayerischen Alpenraum herrscht eine geringe Lawinengefahr. Störanfällige Zwischenschichten im Altschneepaket sind das Hauptproblem. Schneebrettlawinen mittlerer Größe können vereinzelt im extremen Steilgelände mit großer Zusatzbelastung ausgelöst werden. Dies ist vor allem schattseitig oberhalb 2000 m an Stellen mit geringer Schneehöhe, zum Beispiel bei der Einfahrt zu Rinnen und Mulden, möglich. </avActivityComment>
+          <snowpackStructureComment>&#13;
+Die Schneedecke hat sich allgemein gut gesetzt und ist weitgehend kompakt und stabil. Vor allem sonnseitig ist die Schneeoberfläche verharscht und zum Teil vereist. In den Hochlagen finden sich Schneeschichten aus aufgebauten Schneekristallen an der Schneedeckenbasis. Schattseitig sind diese Schichten ausgeprägter und hier ist auch eine Bruchfortpflanzung wahrscheinlicher. &#13;
+</snowpackStructureComment>
+          <tendencyComment>Zum Freitag (Heiligabend) hin wird es deutlich milder und es kann hochreichend regnen. Bis dahin wird sich die Lawinengefahr nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

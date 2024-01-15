@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3552RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3552RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem - beginnender Schneefall am Nachmittag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig beurteilt. Die Gefahrenstellen befinden sich vor allem in den Sektoren Nord bis Südost, wo im Steilgelände durch große Zusatzbelastung die Altschneedecke gestört werden kann. Zum Abend hin nimmt die Größe der potentiellen Schneebrettlawinen durch vermehrten Neuschnee zu. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist aus unterschiedlich harten Schichten aufgebaut, darunter auch Harschkrusten. Zwischen den Krusten bilden sich potentielle Schwachschichten großer kantiger Kristalle. Darauf lagert sich ab Nachmittag/Abend unter geringem Windeinfluss frischer Neuschnee ab. In tiefen Lagen, in denen es anfangs noch regnet, kann die vorhandene Schneedecke zu rutschen beginnen und es können sich Schneemäuler öffnen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag überwiegt dichte Bewölkung aus der es immer wieder schneit. Ab Nachmittag intensiviert sich der Schneefall und die Schneefallgrenze sinkt von 1200 bis 1000m auf etwa 700m ab. Bis Freitag Mitternacht werden an die 20 cm Neuschnee erwartet. Die Nachmittagstemperaturen liegen in 1500m zwischen 0 und -2 Grad. Dazu weht mäßiger Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Am Samstag schneit es verbreitet anhaltend und ergiebig. Markante Neuschneesummen sind zu erwarten! Mit zunehmendem Wind aus Nord verschärft sich die Triebschneesituation und steigt die Lawinengefahr an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3552RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3552RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - beginnender Schneefall am Nachmittag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, verschärft sich aber am Abend. Die vereinzelten Gefahrenstellen befinden sich vor allem an freien Hängen der Sektoren Nord bis Südost. Im Steilgelände kann vereinzelt durch große Zusatzbelastung die Altschneedecke gestört werden und ein kleines Schneebrett ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Das oft erst sehr geringe Schneedeckenfundament ist aus unterschiedlich harten Schichten aufgebaut, darunter auch Harschkrusten. Zwischen den Krusten können sich potentielle Schwachschichten großer kantiger Kristalle bilden. Darauf lagert sich ab Nachmittag/Abend unter geringem Windeinfluss frischer Neuschnee ab.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag überwiegt dichte Bewölkung aus der es immer wieder schneit. Am Nachmittag intensiviert sich der Schneefall und die Schneefallgrenze sinkt von 1200 bis 1000m auf etwa 700m ab. Bis Freitagnacht werden an die 20 cm Neuschnee erwartet. Die Nachmittagstemperaturen liegen in 1500m zwischen 0 und -2 Grad. Dazu weht mäßiger Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Am Samstag schneit es verbreitet anhaltend und ergiebig. Markante Neuschneesummen sind zu erwarten! Mit zunehmendem Wind aus Nord verschärft sich die Triebschneesituation und steigt die Lawinengefahr an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

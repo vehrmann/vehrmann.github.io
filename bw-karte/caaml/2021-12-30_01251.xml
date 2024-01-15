@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1251RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T06:35:11+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1251RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T06:35:11+00:00</beginPosition>
+          <endPosition>2021-12-31T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vor allem oberhalb etwa 2200m sind Neu- und Triebschnee störanfällig. Steilgelände, hinter Geländekanten und eingewehte Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit milden Temperaturen und starkem Regeneintrag große Gefahr von Gleit- und Nassschneelawinen unterhalb etwa 2200m.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit Neuschnee, Regen und Wind große Nassschneelawinengefahr und erhebliche Gefahr von trockenen Lawinen.</avActivityHighlights>
+          <avActivityComment>Der Neuschnee und frische Triebschneeansammlungen sind störanfällig und können bereits bei geringer Zusatzbelastung als gefährlich große Lawine leicht ausgelöst werden. Gefahrenstellen befinden sich im Steilgelände aller Expositionen, hinter Geländekanten und in eingewehten Rinnen und Mulden. Der Umfang und die Anzahl der Gefahrenstellen nehmen mit der Höhe zu. Spontane große, vereinzelt auch sehr große Lawinenabgänge sind in den Hochlagen aus stark eingewehten Hängen möglich. Südlich der Landesgrenze im Rätikon und in der Silvretta wurde die Gefahrenstufe 4, "große Lawinengefahr" erreicht. In den angrenzenden Gebieten im Rätikon und in der Silvretta ist die Lawinengefahr in Hochlagen somit kritischer einzuschätzen. &#13;
+Mit den milden Temperaturen und dem intensiven Regeneintrag hat die Gefahr von Gleit- und Nassschneelawinen in allen Expositionen unterhalb etwa 2200m deutlich zugenommen und es sind spontan viele große Nassschneelawinen zu erwarten. Mit abklingendem Regen am Nachmittag wird die Gefahr von Nass- und Gleitschneelawinen allmählich abnehmen.</avActivityComment>
+          <snowpackStructureComment>Gestern begann am Nachmittag kräftiger Dauerregen, der sich in die Nacht auf Donnerstag hineinzog. Dabei wurde es ausgesprochen mild und die Schneefallgrenze stieg nach und nach deutlich über 2000m. Die Schneedecke wurde dadurch bis in hohe Lagen weiter durchnässt und geschwächt. Das Maximum der spontanen Nassschneelawinenaktivität dürfte in der Nacht auf Donnerstag gelegen sein. In den letzten 24 Stunden gab es oberhalb etwa 2200m 25 bis 30cm, in der Silvretta bis 35cm Neuschnee. Mit dem stürmischen Nordwestwind wurde der Neuschnee in der Höhe stark verfrachtet. Auch am Donnerstag wird mit starkem bis stürmischem Nordwestwind weiterhin auch kammfern Triebschnee gebildet. Der Neu- und Triebschnee kommt auf Wind- oder Schmelzharsch, auf Triebschneeschichten der letzten zwei Tage, in hochgelegenen Schattenhängen auf teilweise noch lockeren und pulvrigen Schichten zu liegen und ist störanfällig. An Südhängen ist die Verbindung zur Altschneeoberfläche besser. Zudem sind in höhergelegenen, sehr steilen Schattenhängen teilweise noch Schwachschichten im Mittelteil der Schneedecke störbar.</snowpackStructureComment>
+          <wxSynopsisComment>Eine markante Warmfront sorgt für nahezu unterirdische Bedingungen: Die Sicht bleibt während des Vormittages noch sehr schlecht, vormittags regnet es noch verbreitet bis gegen 2500 m hinauf. Der Regen klingt nachmittags ab, Neuschnee gibt es nur im Hochgebirge. Im Laufe des Nachmittags beginnt es langsam aufzulockern. Temperatur in 2000m: um +4 Grad, Höhenwind: zunächst stürmisch, nachmittags noch stark aus Nordwest.</wxSynopsisComment>
+          <tendencyComment>Es herrschen Frühjahrsverhältnisse mit tageszeitlichem Gefahrenanstieg.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1251RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-30T06:35:11+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1251RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-30T06:35:11+00:00</beginPosition>
+          <endPosition>2021-12-31T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit milden Temperaturen und starkem Regeneintrag große Gefahr von Gleit- und Nassschneelawinen unterhalb etwa 2200m.</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Dauerregen mit nach und nach steigender Schneefallgrenze bis deutlich über 2000m hat die Schneedecke geschwächt.</avActivityHighlights>
+          <avActivityComment>Mit den milden Temperaturen und dem intensiven Regeneintrag hat die Gefahr von Gleit- und Nassschneelawinen in allen Expositionen unterhalb etwa 2200m deutlich zugenommen und es sind spontan viele große Nassschneelawinen zu erwarten. Mit abklingendem Regen am Nachmittag wird die Gefahr von Nass- und Gleitschneelawinen allmählich abnehmen.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Gestern begann am Nachmittag kräftiger Dauerregen, der sich in die Nacht auf Donnerstag hineinzog. Dabei wurde es ausgesprochen mild und die Schneefallgrenze stieg nach und nach deutlich über 2000m. Die Schneedecke wurde dadurch bis in hohe Lagen weiter durchnässt und geschwächt. Das Maximum der spontanen Nassschneelawinenaktivität dürfte in der Nacht auf Donnerstag gelegen sein. In den letzten 24 Stunden gab es oberhalb etwa 2200m 25 bis 30cm, in der Silvretta bis 35cm Neuschnee. Mit dem stürmischen Nordwestwind wurde der Neuschnee in der Höhe stark verfrachtet. Auch am Donnerstag wird mit starkem bis stürmischem Nordwestwind weiterhin auch kammfern Triebschnee gebildet. Der Neu- und Triebschnee kommt auf Wind- oder Schmelzharsch, auf Triebschneeschichten der letzten zwei Tage, in hochgelegenen Schattenhängen auf teilweise noch lockeren und pulvrigen Schichten zu liegen und ist störanfällig. An Südhängen ist die Verbindung zur Altschneeoberfläche besser. Zudem sind in höhergelegenen, sehr steilen Schattenhängen teilweise noch Schwachschichten im Mittelteil der Schneedecke störbar.</snowpackStructureComment>
+          <wxSynopsisComment>Eine markante Warmfront sorgt für nahezu unterirdische Bedingungen: Die Sicht bleibt während des Vormittages noch sehr schlecht, vormittags regnet es noch verbreitet bis gegen 2500 m hinauf. Der Regen klingt nachmittags ab, Neuschnee gibt es nur im Hochgebirge. Im Laufe des Nachmittags beginnt es langsam aufzulockern. Temperatur in 2000m: um +4 Grad, Höhenwind: zunächst stürmisch, nachmittags noch stark aus Nordwest.</wxSynopsisComment>
+          <tendencyComment>Es herrschen Frühjahrsverhältnisse mit tageszeitlichem Gefahrenanstieg.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

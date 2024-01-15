@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2049RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2049RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Gelände möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bei geringer Lawinengefahr mögliche Gleitschneerutsche sowie vereinzelte Triebscheelinsen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird überwiegend mit gering bewertet. Mit etwas Neuschnee können sich in kammnahen Leebereichen bei etwas stärkerem Wind vereinzelt dünne Triebschneelinsen ausbilden, die mitunter störanfällig sind und im Sinne einer möglichen Absturzgefahr beachtet werden sollten. Aus sehr steilen Hangbereichen mit glattem Untergrund können trotz Abkühlung Gleitschneerutsche nicht ausgeschlossen werden, die Abgangsbereitschaft nimmt aber ab. In steilen Rinnen und Einfahrtsbereichen besteht durch den anfänglichen Regen auf den harten bis eisigen Oberfläche Absturzgefahr, dazu herrschen schlechte Sichtbedingungen.</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung kann sich die bis in hohe Lagen feuchte bzw. nasse Schneedecke verfestigen und stabilisieren. Generell konnte sich der bislang gefallene Neuschnee (bis 10cm) gut mit der Altschneeoberfäche verbinden. Mit weiterer Abkühlung und Schneefall können stellenweise unter Windeinfluss frische Triebschneelinsen entstehen, die im Übergang zur Altschneedecke gestört werden können. In regenreicheren Regionen mit Schneereserven sind aufgrund eines vorhandenen Schmierfilms am Boden weiterhin Gleitschneerutsche möglich. Der Regen führte zu weiteren Ausaperung bis in höhere Lagen.</snowpackStructureComment>
+          <wxSynopsisComment>Ausgehend von einem Tiefdruckgebiet über Oberitalien stecken die Berge den ganzen Tag in meist dichten Wolken und es schneit bzw. regnet verbreitet. Die Schneefallgrenze sinkt bis zum Abend von ca. 1600m auf etwa 1200m ab. Die Höhenströmung dreht auf Nordost, der Wind bleibt aber schwach bis mäßig und wird erst in den Abendstunden etwas stärker. Das Temperaturniveau geht etwas zurück, in 2000m auf Nachmittagswerte um -2 Grad, in 1500m auf Werte um den Gefrierpunkt. </wxSynopsisComment>
+          <tendencyComment>Am Samstag sinkt die Schneefallgrenze weiter ab, bis Mittag schneit es mitunter kräftiger. Mit starkem bis stürmischem Wind aus Nordwest steigt die Schneebrettgefahr an!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

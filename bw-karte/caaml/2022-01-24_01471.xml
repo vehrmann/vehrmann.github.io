@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1471RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1471RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1300Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1300Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler und Türnitzer Alpen, im Gippel-Göller-Gebiet und in der Rax-Schneeberg-Gruppe herrscht oberhalb von 1300 m erhebliche Lawinengefahr. Gefahrenstellen sind vor allem die Übergangsbereiche von abgewehten Bereichen zu mit Triebschnee beladenen Bereichen in den Sektoren Nord über Ost bis Süd. Insbesondere hinter Geländeübergängen, sowie in Einfahrtsbereichen zu Rinnen und Mulden können Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen existieren nicht nur in Kammnähe, sondern bis in Waldbereiche hinab.</avActivityComment>
+          <snowpackStructureComment>Neuschnee und Sturm am Wochenende haben eine sehr inhomogene Schneedecke hinterlassen, mit stark abgewehten exponierten Bereichen und mächtigen Triebschneeansammlungen bis in bewaldete Bereiche hinab. Innerhalb der frischen Triebschneeauflage sind kaum mehr Schwachschichten vorhanden, aber sowohl im Übergang zu Altschnee, als auch im oberen Bereich der Altschneedecke existieren Schwachschichten, die auch Ursache einiger Lawinenunfälle am Wochenende waren.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Gipfel zunächst wolkenverhangen und die Sicht ist eingeschränkt, ab Mittag werden die Wolken aber weniger und die sonnigen Abschnitte häufiger. Nur in einzelnen Tälern bleibt es länger trüb durch hochnebelartige Bewölkung. Der Wind weht mäßig aus Nordwest. Die Temperaturen in 1500 m liegen bei -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch wird abgesehen von Hochnebel in den Tälern bei gleichbleibenden Temperaturen sonnig. Das Triebschneeproblem geht zurück, die Altschneeproblematik bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1471RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1471RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Gutensteiner Alpen herrscht mäßige Lawinengefahr. Gefahrenstellen sind vor allem die Übergangsbereiche von abgewehten Bereichen zu mit Triebschnee beladenen Bereichen in den Sektoren Nord und Ost. Insbesondere hinter Geländeübergängen, sowie in Einfahrtsbereichen zu Rinnen und Mulden können Schneebrettlawinen ausgelöst werden. Gefahrenstellen existieren nicht nur in Kammnähe, sondern bis in Waldbereiche hinab.</avActivityComment>
+          <snowpackStructureComment>Neuschnee und Sturm am Wochenende haben eine sehr inhomogene Schneedecke hinterlassen, mit stark abgewehten exponierten Bereichen und mächtigen Triebschneeansammlungen bis in bewaldete Bereiche hinab. Innerhalb der frischen Triebschneeauflage sind kaum mehr Schwachschichten vorhanden, aber im Übergang zu Altschnee existieren teilweise Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Gipfel zunächst wolkenverhangen und die Sicht ist eingeschränkt, ab Mittag werden die Wolken aber weniger und die sonnigen Abschnitte häufiger. Nur in einzelnen Tälern bleibt es länger trüb durch hochnebelartige Bewölkung. Der Wind weht mäßig aus Nordwest. Die Temperaturen in 1500 m liegen bei -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch wird abgesehen von Hochnebel in den Tälern bei gleichbleibenden Temperaturen sonnig. Das Triebschneeproblem geht zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1471RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1471RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen besteht mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Im Semmering-Wechselgebiet herrscht oberhalb der Waldgrenze mäßige, ansonsten geringe Lawinengefahr. Es sollten vor allem in den Hochlagen Bereiche beachtet werden, in denen durch den Neuschnee und die überaus stürmische Windeinwirkung Verfrachtungen entstanden sind. Hier ist die Auslösung kleinerer Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Sturm am Wochenende hat eine sehr inhomogene Schneedecke hinterlassen, mit stark abgewehten exponierten Bereichen und geringmächtigen Triebschneeansammlungen in Hohlformen. Innerhalb der frischen Triebschneeauflage sind keine Schwachschichten vorhanden, aber im Übergang zu Altschnee existieren teilweise Schwachschichten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Gipfel zunächst wolkenverhangen und die Sicht ist eingeschränkt, ab Mittag werden die Wolken aber weniger und die sonnigen Abschnitte häufiger. Nur in einzelnen Tälern bleibt es länger trüb durch hochnebelartige Bewölkung. Der Wind weht mäßig aus Nordwest. Die Temperaturen in 1500 m liegen bei -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch wird abgesehen von Hochnebel in den Tälern bei gleichbleibenden Temperaturen sonnig. Die Lawinengefahr nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

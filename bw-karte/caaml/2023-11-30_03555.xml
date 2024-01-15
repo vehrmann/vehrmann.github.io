@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3555RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3555RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, kleinräumig, in Föhnschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schlechte Sicht, ab dem Abend viel Neuschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit MÄßIG (Stufe 2) beurteilt.&#13;
+Zurzeit treten zwei Lawinentypen auf. Erstens Gleitschneelawinen aus dem extrem steilen Grasmattengelände (oder vereinzelt auf glatten Felsen) meist kleine Gleitschneelawinen. Diese können jederzeit auftreten, vermehrt natürlich bei Regeneintrag.&#13;
+Zweitens Schneebretter: Der Triebschnee kann an einigen sehr bis extrem steilen Hängen oberhalb der Waldgrenze vor allem im Nord und Ostsektor als kleines oder mittleres Schneebrett ausgelöst werden. Meist bedarf es dazu großer Zusatzbelastung (mehrere Wintersportler oder Skifahrerinnen oder einen Sturz), im ungünstigsten Fall kann aber auch geringe Zusatzbelastung (eine Person) ausreichen. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist verbreitet gut gesetzt und an der Oberfläche stark vom Wind geprägt. Rücken und Grate sind oft abgeblasen, Rinnen und Mulden eingeweht. Kleine Triebschneefelder wechseln auf kleinem Raum mit Knie tiefem Schnee. Latschen und Steine schauen heraus. Ab etwa 1700 m trifft man auf 70 bis 120 cm Gesamtschneehöhe (sofern nicht verblasen). Nennenswerte Schwachschichten konnten bei den letzten Profilen nicht gefunden werden, am ehesten bricht ein Schneebrett innerhalb der letzten Neuschneeschicht, der Altschnee lässt sich bei Schneedeckentests nicht ansprechen.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist die Sicht häufig durch dichte Wolken und Nebel eingeschränkt. Es schneit zeitweise, am Abend wird der Niederschlag häufig und im Bereich der Tauern und Lungauer Nockberge intensiv. Die Schneefallgrenze liegt zunächst zwischen 900m im Norden und 1500m im Süden, am Nachmittag beginnt sie von Norden her abzusinken. Der Wind bleibt meist schwach bzw. macht sich nur in den Hochlagen der Tauern bemerkbar (tagsüber von Süd auf Nord drehend). Temperaturen in 2000m zwischen -5 und -1 Grad, in 3000m zwischen -8 und -3 Grad.&#13;
+In der Nacht zum Samstag schneit es intensiv bei wenig Wind.&#13;
+Am Samstag herrschen auf den Bergen sehr unwirtliche Verhältnisse. Nebel und kräftiger Schneefall schränken die Sicht stark ein. Am intensivsten sind die Schneefälle im Bereich der Tauern und Lungauer Nockberge, wo insgesamt über ein Meter Neuschnee zusammenkommen kann. Im Bereich der Nordalpen sind 30 bis 50 cm Neuschnee realistisch. Im Tagesverlauf wird der Nordwestwind allmählich stärker und erreicht am Abend Spitzen um 50 km/h. Temperaturen in 2000m zwischen -11 und -5 Grad, in 3000m zwischen -17 und -8 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht zum Samstag fallen große Neuschneemengen. In den Tauern und im Lungau erwarten wir bis zum Samstagabend einen guten Meter Schnee, auch weiter im Norden fallen 30 cm bis 50 cm. Der Wind aus Nordwest wird im Tagesverlauf stärker und beginnt voraussichtlich ab Mittag zu verfrachten. Die Lawinengefahr wird verbreitet zumindest erheblich sein (Neuschnee- und Triebschneeproblem).</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

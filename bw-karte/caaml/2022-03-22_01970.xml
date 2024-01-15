@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1970RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1970RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-22T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-23T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-23T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-23T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Erwärmung und Einstrahlung, im Tagesverlauf zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstig am Vormittag, zunehmender Festigkeitsverlust und mäßige Lawinengefahr am Nachmittag</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang. Nach überwiegend günstigen Verhältnissen und geringer Lawinengefahr am Vormittag steigt diese mit zunehmender Erwärmung und Einstrahlung auf mäßig an. Gefahrenstellen existieren besonders sonnseitig in felsdurchsetztem Steilgelände, wo sich im Laufe des Tages nasse Lockerschneelawinen spontan lösen bzw. auch von Wintersportlern ausgelöst werden können.  &#13;
+Aus steilen Wald- und Wiesenhängen mit glattem Untergrund sind zu jeder Tageszeit Gleitschneelawinen möglich, die auch größer werden können. Risse und Mäuler beachten! &#13;
+In abgeschatteten Steilhängen besteht mitunter noch ein lokales Altschneeproblem, hier sind vereinzelte Schneebrettauslösungen unter großer Zusatzbelastung nicht ganz auszuschließen. </avActivityComment>
+          <snowpackStructureComment>Während der klaren Nachtstunden kann sich die Schneedecke ausstrahlungsbedingt ausreichend verfestigen. Durch die frühlingshaften Temperaturen und die ungetrübte Einstrahlung verliert die tragfähig verharschte Schneeoberfläche im Tagesverlauf speziell sonnseitig an Festigkeit. Bei vollständiger Durchfeuchtung kann die instabile Schneedecke zunehmend ins Gleiten kommen. In abgeschatteten Hangbereichen können mitunter noch kantige Zwischenschichten den Aufbau der Schneedecke schwächen. Tiefe und mittlere Lagen apern zunehmend aus, Schneeaktivitäten sind oft nur mehr begrenzt möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Das wolkenlose und strahlend sonnige Hochdruckwetter setzt sich fort. Der Höhenwind weht schwach bis mäßig aus Süd. Die Temperaturen erreichen in 2000m am Nachmittag Werte um + 5 Grad, in 1000m um +11 Grad. </wxSynopsisComment>
+          <tendencyComment>Weiterhin frühlingshafte Bedingungen, es gilt den Tagesgang der Lawinengefahr zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1970RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1970RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühlingshafte Bedingungen und schwacher Tagesgang bei nur mehr eingeschränkten Schneesportmöglichkeiten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Vereinzelte Gefahrenstellen existieren sonnseitig, wo sich im Laufe des Tages nasse Rutsche lösen können.  Aus steilen Wald- und Wiesenhängen sind zu jeder Tageszeit Gleitschneelawinen möglich. Risse und Mäuler in der Schneedecke beachten! &#13;
+</avActivityComment>
+          <snowpackStructureComment>Während der klaren Nachtstunden kann sich die Schneedecke ausstrahlungsbedingt verfestigen. Im Tagesverlauf verliert die verharschte Schneeoberfläche speziell sonnseitig an Festigkeit. Bei vollständiger Durchfeuchtung kann die instabile Schneedecke zunehmend ins Gleiten kommen. Die frühlingshaften Bedingungen setzten der Schneedecke zu, die Ausaperung schreitet voran, Schneeaktivitäten sind oft nur mehr begrenzt möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Das wolkenlose und strahlend sonnige Hochdruckwetter setzt sich fort. Der Höhenwind weht schwach bis mäßig aus Süd. Die Temperaturen erreichen in 2000m am Nachmittag Werte um + 5 Grad, in 1000m um +11 Grad. </wxSynopsisComment>
+          <tendencyComment>Weiterhin frühlingshafte Bedingungen, keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

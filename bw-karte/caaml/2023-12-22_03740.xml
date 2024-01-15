@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3740RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3740RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee; kammfern, in Rinnen und Mulden, am Waldgrenzbereich, in Waldschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Angespannte Lawinensituation erfordert Zurückhaltung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist erheblich.&#13;
+Bei anhaltendem Sturm und weiterem Neuschnee können viele Lawinen noch leicht ausgelöst werden. Es sind Lawinen mittlerer Größe möglich. Gefahrenstellen befinden sich in allen Expositionen in windgeschützen Bereichen. Sie nehmen mit der Höhe zu.&#13;
+Bis auf Gipfelniveau können sich auch mittelgroße Gleitschneelawinen zu jeder Tageszeit spontan lösen. Betroffen sind Steilhänge mit glattem Untergrund (Grasmatten, Felsen) in allen Expositionen. &#13;
+Durch den Regeneintrag sind zudem nasse Lockerschneelawinen aus extrem steilem Gelände möglich. Sie bleiben aber meist klein.</avActivityComment>
+          <snowpackStructureComment>Der Sturm hat der Schneedecke zugesetzt. Rücken und Grate sind abgeblasen, der Triebschnee liegt kammfern. &#13;
+In der Höhe liegen umfangreiche Triebschneeansammlungen schattseitig auf einer lockeren Schneedecke. Auch dort, wo die Schneeoberfläche verharscht war, konnte sich vor dem Schneefall oberhalb der Kruste teilweise eine kantige Schwachschicht ausbilden. Zudem sind innerhalb des Neuschneepakets Schwachschichten zu finden.&#13;
+In mittleren bis tiefen Lagen erhöhen Regen als auch Schnee die Last auf die Schneedecke. Die gesamte Schneedecke kann auf glattem Untergrund (Fels, Gras) abgleiten. &#13;
+Durch den Regeneintrag verliert die Schneedecke in tiefen Lagen zunehmend an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment>Auch in der Nacht schneit es teils anhaltend und intensiv weiter. Die Niederschlagsschwerpunkte liegen einerseits in den klassischen Nordstaulagen, andererseits in den Tauern. Im Bereich der Osterhorngruppe sind etwa 20 bis maximal 30 cm Neuschnee zu erwarten. Die Schneefallgrenze steigt am Abend von Westen her auf knapp über 1000 m an. Der Schnee fällt verbreitet unter starkem Windeinfluss: Der Nordwestwind erreicht in exponierten Lagen teils Orkanstärke.&#13;
+Aus der Nacht heraus schneit es noch zeitweise. Am meisten Niederschlag fällt noch in den östlichen Gebirgsgruppen. Die Sicht ist durch tiefe Wolken sowie Schneeverwehungen stark eingeschränkt. Die Schneefallgrenze liegt anfangs bei etwa 1200 m, steigt im Tagesverlauf aber auf 1500 m an. Die Niederschläge lassen am Nachmittag deutlich nach. Der Wind weht stürmisch aus westlichen Richtungen und erreicht in den Hochlagen Spitzen von über 100 km/h, es kommt zu massiven Schneeverwehungen. Die Temperaturen erreichen in 2000 m um -2 Grad, in 3000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneeansammlungen verbinden sich zunehmend besser mit der Altschneedecke, das Gleitschneeproblem bleibt weiterhin präsent.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3740RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3740RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee; kammfern, in Rinnen und Mulden, am Waldgrenzbereich, in Waldschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Große Lawinengefahr bleibt weiter bestehen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1600 m groß, darunter erheblich. Die Situation erfordert Zurückhaltung.&#13;
+Bei anhaltendem Sturm und weiterem Neuschnee können viele Lawinen noch leicht ausgelöst werden und große Ausmaße erreichen. Vereinzelt sind während des Schneefalls in hochalpinen Lagen auch große spontane Lawinen mit Staubanteil möglich, die exponierte Verkehrswege erreichen können. Gefahrenstellen befinden sich in allen Expositionen in windgeschützen Bereichen. Sie nehmen mit der Höhe zu.&#13;
+Unterhalb von 2500 m können sich auch mittelgroße Gleitschneelawinen zu jeder Tageszeit spontan lösen. Betroffen sind Steilhänge mit glatten Untergrund (Grasmatten, Felsen) in allen Expositionen. &#13;
+Durch den Regeneintrag sind zudem nasse Lockerschneelawinen aus extrem steilem Gelände möglich. Sie bleiben aber meist klein.</avActivityComment>
+          <snowpackStructureComment>Der Sturm hat der Schneedecke zugesetzt. Rücken und Grate sind abgeblasen, der Triebschnee liegt kammfern. In der Höhe liegen umfangreiche Triebschneeansammlungen schattseitig auf einer lockeren Schneedecke. Auch dort, wo die Schneeoberfläche verharscht war, konnte sich vor dem Schneefall oberhalb der Kruste teilweise eine kantige Schwachschicht ausbilden. Zudem sind innerhalb des Neuschneepakets Schwachschichten zu finden.&#13;
+In mittleren bis tiefen Lagen erhöhen Regen als auch Schnee die Last auf die Schneedecke. Die gesamte Schneedecke kann auf glattem Untergrund (Fels, Gras) abgleiten. Durch den Regeneintrag verliert die Schneedecke in tiefen Lagen zunehmend an Festigkeit.&#13;
+In hochalpinen Lagen über 2500 m sind im Altschneefundament teilweise noch kantige Schwachschichten zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Auch in der Nacht schneit es teils anhaltend und intensiv weiter. Die Niederschlagsschwerpunkte liegen einerseits in den klassischen Nordstaulagen, andererseits in den Tauern. Dort kommen im Laufe der Nacht stellenweise noch einmal bis 50 cm Neuschnee dazu. Ansonsten sind 20 bis 30 cm Neuschnee zu erwarten. Die Schneefallgrenze steigt am Abend von Westen her auf knapp über 1000 m an. Der Schnee fällt verbreitet unter starkem Windeinfluss: Der Nordwestwind erreicht in exponierten Lagen teils Orkanstärke.&#13;
+Aus der Nacht heraus schneit es noch zeitweise. Am meisten Niederschlag fällt noch in den östlichen Gebirgsgruppen. Die Sicht ist durch tiefe Wolken sowie Schneeverwehungen stark eingeschränkt. Die Schneefallgrenze liegt anfangs bei etwa 1200 m, steigt im Tagesverlauf aber auf 1500 m an. Die Niederschläge lassen am Nachmittag deutlich nach. Der Wind weht stürmisch aus westlichen Richtungen und erreicht in den Hochlagen Spitzen von über 100 km/h, es kommt zu massiven Schneeverwehungen. Die Temperaturen erreichen in 2000 m um -2 Grad, in 3000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneeansammlungen verbinden sich zunehmend besser mit der Altschneedecke, das Gleitschneeproblem bleibt weiterhin präsent.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3740RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3740RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-22T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee; kammfern, in Rinnen und Mulden, am Waldgrenzbereich, in Waldschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Angespannte Lawinensituation erfordert Zurückhaltung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 1600 m erheblich, darunter mäßig.&#13;
+Bei anhaltendem Sturm und weiterem Neuschnee können viele Lawinen noch leicht ausgelöst werden. Es sind Lawinen mittlerer Größe möglich. Gefahrenstellen befinden sich in allen Expositionen in windgeschützen Bereichen. Sie nehmen mit der Höhe zu.&#13;
+Bis auf Gipfelniveau können sich auch mittelgroße Gleitschneelawinen zu jeder Tageszeit spontan lösen. Betroffen sind Steilhänge mit glattem Untergrund (Grasmatten, Felsen) in allen Expositionen. &#13;
+Durch den Regeneintrag sind zudem nasse Lockerschneelawinen aus extrem steilem Gelände möglich. Sie bleiben aber meist klein.</avActivityComment>
+          <snowpackStructureComment>Der Sturm hat der Schneedecke zugesetzt. Rücken und Grate sind abgeblasen, der Triebschnee liegt kammfern. In der Höhe liegen umfangreiche Triebschneeansammlungen schattseitig auf einer lockeren Schneedecke. Auch dort, wo die Schneeoberfläche verharscht war, konnte sich vor dem Schneefall oberhalb der Kruste teilweise eine kantige Schwachschicht ausbilden. Zudem sind innerhalb des Neuschneepakets Schwachschichten zu finden.&#13;
+In mittleren bis tiefen Lagen erhöhen Regen als auch Schnee die Last auf die Schneedecke. Die gesamte Schneedecke kann auf glattem Untergrund (Fels, Gras) abgleiten. &#13;
+Durch den Regeneintrag verliert die Schneedecke in tiefen Lagen zunehmend an Festigkeit.</snowpackStructureComment>
+          <wxSynopsisComment>Auch in der Nacht schneit es teils anhaltend weiter. Im Bereich der Lungauer Nockberge sind etwa 15 cm Neuschnee zu erwarten. Die Schneefallgrenze steigt am Abend von Westen her auf knapp über 1000 m an. Der Schnee fällt verbreitet unter starkem Windeinfluss: Der Nordwestwind erreicht in exponierten Lagen teils Orkanstärke.&#13;
+Aus der Nacht heraus schneit es noch zeitweise. Am meisten Niederschlag fällt noch in den östlichen Gebirgsgruppen. Die Sicht ist durch tiefe Wolken sowie Schneeverwehungen stark eingeschränkt. Die Schneefallgrenze liegt anfangs bei etwa 1200 m, steigt im Tagesverlauf aber auf 1500 m an. Die Niederschläge lassen am Nachmittag deutlich nach. Der Wind weht stürmisch aus westlichen Richtungen und erreicht in den Hochlagen Spitzen von über 100 km/h, es kommt zu massiven Schneeverwehungen. Die Temperaturen erreichen in 2000 m um -2 Grad, in 3000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneeansammlungen verbinden sich zunehmend besser mit der Altschneedecke, das Gleitschneeproblem bleibt weiterhin präsent.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

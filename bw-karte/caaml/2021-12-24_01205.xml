@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1205RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1205RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee- und Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Gefahrenstellen, an denen grundsätzlich durch große Zusatzbelastung Schneebrettlawinen ausgelöst werden können, finden sich leeseitig hinter Geländekanten, in sehr steilen Hängen und in Einfahrten zu Rinnen und Mulden. In den Hochlagen können auch im Nordsektor in schattigen Steilgelände Schneebrettlawinen ausgelöst werden (Altschneeproblem). Vorsicht auch wegen der Absturzgefahr auf vereisten Oberflächen!</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen hat sich eine harte bzw. vereiste Oberfläche gebildet. Auf dieser hat sich lokal wieder etwas Triebschnee abgelagert. Darunter ist das Schneedeckenfundament kompakt und weist kaum relevante Schwachschichten auf. Eine Ausnahme bilden schattseitige Hochlagen: Hier schreitet über der Waldgrenze die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus kantigen Kristallen, verliert an Festigkeit und wird daher grundlos.  </snowpackStructureComment>
+          <wxSynopsisComment>Nach der milden und in den Hochlagen teils stürmischen Westströmung am Heiligen Abend sickern am  Christtag von Nordosten her allmählich wieder kältere Luftmassen ein,  die Temperaturen gehen aber vorerst nur geringfügig zurück. Bei mäßigem bis lebhaftem Südwestwind dominiert starke bis geschlossene Bewölkung. Die Temperaturen liegen zu Mittag in 2.000m bei 0 Grad und in 1.500m bei +3 Grad.&#13;
+Der Stephanitag präsentiert sich wettermäßig zweigeteilt: Zwar dominieren weiterhin überall Wolken, entlang der Nordalpen und Tauern bleibt es jedoch mild und hier fällt unergiebiger Niederschlag bis auf etwa 1.500m in Form von Regen. Im Bereich des Randgebirges wird es hingegen deutlich kälter und hier kann es weit herunter schneien. </wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1205RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1205RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-24T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>dünne und kleinräumige Triebschneepakete, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Generell geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Generell ist die Lawinengefahr gering, vereinzelt bildeten sich in Hohlformen aber Triebschneelinsen, die nicht immer gut mit dem Untergrund verbunden sind. An diesen Gefahrenstellen können vereinzelt kleinere Schneebrettlawinen ausgelöst werden. Im schattseitigen Gelände (oberhalb der Baumgrenze) herrscht ein Altschneeproblem, Schneebrettauslösungen können hier nicht ausgeschlossen werden. Vorsicht auch wegen der Absturzgefahr auf vereisten Oberflächen!</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen ist die Schneeoberfläche hart und vereist oder windgepresst, darunter ist das Schneedeckenfundament kompakt und weist kaum Schwachschichten auf. Allerdings schreitet schattseitig über ca. 1.500m die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus wachsenden, kantigen Kristallen, verliert an Festigkeit und wird mitunter grundlos.  </snowpackStructureComment>
+          <wxSynopsisComment>Nach der milden und in den Hochlagen teils stürmischen Westströmung am Heiligen Abend sickern am  Christtag vorerst nur im  Nordosten etwas kältere Luftmassen ein. In den südlichen Gebirgsgruppen, insbesondere im Bereich des Sterischen Randgebirges bleibt es aber noch recht mild: Im Koralmgebiet liegen die Temperaturen  zu Mittag in 2.000m bei +2 Grad und in 1.500m bei +4 Grad.&#13;
+Der Stephanitag präsentiert sich wettermäßig zweigeteilt: Zwar dominieren weiterhin überall Wolken, entlang der Nordalpen und Tauern bleibt es jedoch mild und hier fällt unergiebiger Niederschlag bis auf etwa 1.500m in Form von Regen. Im Bereich des Randgebirges wird es hingegen deutlich kälter und hier kann es weit herunter schneien. </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

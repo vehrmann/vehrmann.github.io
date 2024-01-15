@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID931RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-23T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID931RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-23T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>obsežni zameti napihanega snega, za robovi (grebeni/slemena), nad gozdno mejo</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>močno odvisno od usmerjenosti pobočja</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zgodnje pomladanska situacija</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je večinoma MAJHNA, 1. stopnje. Čez dan se ob sončnem vremenu sneg na sončnih legah ojuži in postane nekoliko manj stabilen, nevarnost snežnih plazov se nad nadmorsko višino okoli 1700 m poveča in je ZMERNA, 2. stopnje. Predvsem v visokogorju so zato nevarna strma pobočja z napihanim snegom, kjer lahko ob večji obremenitvi snežne odeje sprožite plaz kložastega snega. Ob otoplitvi bodo sredi dneva in popoldne zlasti na prisojnih pobočjih možni tudi posamezni manjši plazovi mokrega snega. Ponekod so še opasti. Nevarnost zdrsa je največja zjutraj in zgodaj dopoldne, višje v visokogorju ter v senčnih legah pa ves dan</avActivityComment>
+          <snowpackStructureComment>Stanje snežne odeje je od kraja do kraja precej različno. Razmere so na osončenih pobočjih tipično spomladanske. Predvsem v visokogorju in v bolj senčnih legah pa je zgornja plast snega še vedno slabše preobražena, veliko je klož, zametov in opasti, ki pa so se razmeroma dobro sprijele s podlago. V izrazito zavetrnih senčnih legah je tudi nekaj suhega in mehkega snega. Spihana mesta ter grebeni so trdi in poledeneli. Snežna odeja se bo čez dan, zlasti na prisojnih legah, ojužila in ponoči pomrznila.</snowpackStructureComment>
+          <wxSynopsisComment>V soboto  in sprva v nedeljo bo precej jasno. Ledišče bo na nadmorski višini okoli 2500 m. V visokogorju bo pihal šibak severozahodnik, nižje pa šibak veter spremenljive smeri. V nedeljo popoldne se bo začelo oblačiti, najprej v Julijcih, možne bodo že posamezne plohe. V ponedeljek bo oblačno in ponekod megleno ter hladneje. Občasno bo v gorah snežilo, meja sneženja bo že v ponedeljek zjutraj na nadmorski višini okoli 800 m.</wxSynopsisComment>
+          <tendencyComment>Ob koncu tedna bodo snežne in lavinske razmere v gorah značilo spomladanske. Ponoči bo snežna odeja pomrznjena, čez dan se bo ojužila, le v senčnih legah visokogorja bo ostala pomrznjena in suha. Sneg se bo nižje talil, višje se bo krepila skorja. Nevarnost snežnih plazov bo zjutraj in zgodaj dopoldne majhna, v preostanku dneva pa na osončenih legah zmerna. S strmih pobočij se bo lahko sprožil kakšen manjši plaz mokrega snega, lahko se bo zrušila kakšna opast, a ne prav visoko v visokogorju. Na mestih z napihanim snegom boste lahko ob večji obremenitvi sprožili plaz kložastega snega. Po grebenih visokogorja, nižje pa predvsem zjutraj in zgodaj dopoldne, bo tudi nevarnost zdrsa.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+      <locRef xlink:href="SI-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

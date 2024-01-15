@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID97RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID97RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, in Föhnschneisen, in Rinnen und steile Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch frischen Triebschnee in den Hochlagen - stürmischer Südföhn!</avActivityHighlights>
+          <avActivityComment>Am Sonntag und am Montag bildet vor allem in den Hochlagen stürmischer Südföhn frischen Triebschnee. Schneebrettlawinen können in frisch eingewehten Bereichen (vor allem kammnahn) bereits bei geringer Zusatzbelastung ausgelöst werden. Aus stark besonnten Hängen sind kleine Lockerschneelawinen möglich. Älterer Triebschnee ist hochgelegen im erweiterten Ostsektor lokal zu beachten.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee ist kalt und locker. Daher wird dieser am Sonntag und Montag durch den erwarteten stürmischen Südföhn verfrachtet. Diese frischen Triebschneeablagerungen binden nur ungenügend. Hochgelegen sind noch ältere Triebschneeablagerungen vorhanden (Wind um West bis Nordwest). Mit abnehmender Höhe ist die Bindung dieser Schneeablagerungen deutlich besser. Die Schneehöhen sind weiterhin in allen Höhenlagen noch sehr unterdurchschnittlich. Mit den milderen Temperaturen und der Einstrahlung wird sich die Schneedecke setzen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag auf den Bergen beste Fernsicht und sonniges Wetter. Der Wind dreht auf Süd und frischt zunehmend auf, vom Gosaukamm ostwärts erreicht er in exponierten Bereichen bereits 40 bis 70 km/h. In 1500 m Temperaturen um 0 Grad, am Dachstein hat es um -5 Grad.&#13;
+Der Montag bringt im Alpenbereich stürmischen Südföhn, in der Dachsteinregion sind Böen um 100 km/h möglich. Zunächst ist die Sicht meist noch ausreichend, ab Mittag schränken dann tiefe Wolken und Schneeschauer die Sicht ein. Es kühlt wieder ab: zu Mittag in 1500m -1 Grad, am Dachstein -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Triebschnee, der durch den stürmischen Südföhn gebildet wird, ist zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID97RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID97RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, in Föhnschneisen, in Rinnen und steile Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee durch Südföhn, der stellenweise leicht auslösbar ist!</avActivityHighlights>
+          <avActivityComment>Am Sonntag und am Montag bildet stürmischer Südföhn frischen Triebschnee. Vor allem über der Waldgrenze können Schneebrettlawinen stellenweise bei geringer, anstonsten bei großer Zusatzbelastung ausgelöst werden. Aus stark besonnten Hängen sind kleine Lockerschneelawinen möglich. Älterer Triebschnee ist hochgelegen im erweiterten Ostsektor lokal zu beachten. Mit den milderen Temperaturen und der Einstrahlung wird sich die Schneedecke setzen.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene Schnee ist kalt und locker. Daher wird dieser am Sonntag und Montag durch den erwarteten stürmischen Südföhn verfrachtet. Diese frischen Triebschneeablagerungen binden nur ungenügend. Hochgelegen sind noch ältere Triebschneeablagerungen vorhanden (Wind um West bis Nordwest) die stellenweise zu beachten sind. Mit abnehmender Höhe ist die Bindung dieser Schneeablagerungen deutlich besser. Die Schneehöhen sind weiterhin in allen Höhenlagen noch sehr unterdurchschnittlich. Mit den milderen Temperaturen und der Einstrahlung wird sich die Schneedecke setzen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag auf den Bergen beste Fernsicht und sonniges Wetter. Der Wind dreht auf Süd und frischt zunehmend auf, vom Gosaukamm ostwärts erreicht er in exponierten Bereichen bereits 40 bis 70 km/h. In 1500 m Temperaturen um 0 Grad, am Dachstein hat es um -5 Grad.&#13;
+Der Montag bringt im Alpenbereich stürmischen Südföhn, in der Dachsteinregion sind Böen um 100 km/h möglich. Zunächst ist die Sicht meist noch ausreichend, ab Mittag schränken dann tiefe Wolken und Schneeschauer die Sicht ein. Es kühlt wieder ab: zu Mittag in 1500m -1 Grad, am Dachstein -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Triebschnee, der durch den stürmischen Südföhn gebildet wird, ist zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

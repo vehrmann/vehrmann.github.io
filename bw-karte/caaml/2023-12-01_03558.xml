@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3558RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3558RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>frischer leicht zu störender Triebschnee im Tagesverlauf am Samstag!</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und locker, ergiebiger Neuschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit dem stärker werdenden Wind erhebliches Triebschneeproblem im Tagesverlauf am Samstag!</avActivityHighlights>
+          <avActivityComment>Aufgrund von kräftigem Neuschneezuwachs und zunehmenden Wind um Nordwest bilden sich im Tagesverlauf frische leicht zu störende Triebschneeablagerungen. Da Schneebrettlawinen im Steilgelände bereits durch geringe Zusatzbelastung ausgelöst werden können, ist das Triebschneeproblem als erheblich einzustufen. Gefahrenstellen befinden sich über der Waldgrenze vor allem in Kammnähe und hinter Geländekanten. Anzahl und Mächtigkeit nehmen im Tagesverlauf des Samstages zu. Mit den sehr kalten Temperaturen bleibt die Lawinengefahr für das ganze Wochenende erheblich. Mit den ergiebigen Neuschneemengen und später mit den frischen Verfrachtungen sind aus dem Steilgelände spontane Lockerschnee- und Schneebrettlawinen bis mittlerer Größe möglich. Schwachschichten in der überdeckten Altschneedecke könnten in den Hochlagen noch angesprochen werden.</avActivityComment>
+          <snowpackStructureComment>Die gesetzte Altschneedecke, die sehr hochgelegen teils noch Schwachschichten enthält, wurde durch Neuschnee überdeckt. Die Altschneeoberfläche wurde etwas angefeuchtet. Bis Samstagabend werden rund 50 - 70 cm Neuschnee erwartet. Hochgelegen und lokal kann es auch deutlich mehr werden. Durch zunehmenden Wind um Nordwest bilden sich am Samstag im Tagesverlauf frische störanfällige Triebschneeablagerungen. Diese enthalten Schwachschichten bzw. ist auch die Bindung zur Altschneedecke in den Hochlagen nicht immer ausreichend. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag herrschen auf den Bergen unwirtliche Verhältnisse. Nebel und kräftiger Schneefall schränken die Sicht stark ein. Es werden rund 40 - 60 cm Neuschnee erwartet. Hochgelegen und lokal kann es durchaus auch mehr werden. Am Nachmittag wird der Schneefall schwächer. Der Westwind wird im Tagesverlauf stärker und erreicht am Abend Spitzen um 50 km/h. Die Temperaturen gehen in allen Höhen zurück: In 1500 m von -6 auf -10 Grad, in 2000 m von -7 auf -14 Grad. &#13;
+Am Sonntag lösen sich Nebel und Wolken am Vormittag bald auf und der Nachmittag bringt sehr gute Sicht und Sonnenschein. Der Wind schwächt sich tagsüber ab. Leichter Temperaturanstieg tagsüber: In 1500 m von -12 auf -7 Grad, in 2000 m von -14 auf -8 Grad.&#13;
+Am Montag scheint neben einigen durchziehenden Wolkenfeldern zumindest ab und zu die Sonne. Es bleibt trocken. Es weht schwacher Ostwind.</wxSynopsisComment>
+          <tendencyComment>Leicht auslösbarer Triebschnee ist weiterhin zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

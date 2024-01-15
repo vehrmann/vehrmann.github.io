@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1588RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1588RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Älteren Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Im Semmering - Wechselgebiet, in den Türnitzer Alpen sowie in den Gutensteiner Alpen herrscht geringe Lawinengefahr. Gefahrenstellen in Form von älteren  Triebschneeansammlungen existieren in nord- bis ostexponiertem Gelände in Rinnen und Mulden sowie hinter Geländekanten und können als kleinere Schneebretter ausgelöst werden.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist deutlich vom Wind geprägt, Triebschneeansammlungen existieren neben abgeblasenen, harten Bereichen. Oft existiert ein Schmelzharschdeckel. Bis in mittlere Lagen ist die Schneedecke oft feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Im Tagesverlauf ziehen wiederholt dichtere Wolkenfelder über die niederösterreichische Bergwelt und diese lassen das Sonnenlicht oft nur diffus durchscheinen. Einzelne Sonnenfenster sind aber bis um die Mittagszeit möglich. Gegen Abend trübt es sich vollständig ein. Es bleibt zwar trocken, doch bei teils stürmisch auflebendem Höhenwind aus West besteht in Gipfel- und Kammlagen oberhalb von rund 1500m Seehöhe! Temperaturanstieg in 1500m auf ca. minus 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag herrscht recht unwirtliches Bergwetter mit schlechter Sicht, Schneefall und Sturm. Die Berge stecken meist im Nebel und es schneit anhaltend, zum Teil auch recht kräftig. Dazu weht stürmischer Wind und es kühlt ab, in 2000m auf -9 Grad. &#13;
+Ein Anstieg der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1588RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1588RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>speziell in höheren Lagen störanfällig, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>aus felsdurchsetztem Gelände bzw. steilen Böschungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Älteren und frischen störanfälligen Triebschnee in höheren Lagen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Ybbstaler Alpen, dem Gippel - Göller sowie dem Rax – Schneeberg Gebiet in höheren Lagen mäßig. Es bestehen weiterhin störanfällige Triebschneebereiche im Ost- und Nordsektor, die meist bei großer Zusatzbelastung  als Schneebrettlawine ausgelöst werden können. Aus steilen Böschungen sind auch spontane Gleitschneerutsche bzw. nasse Rutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich durch den Temperaturanstieg sowie durch die Sonneneinstrahlung meist setzen. Die Schneedecke ist in höheren Lagen deutlich vom Wind geprägt, umfangreiche Triebschneeansammlungen existieren in den Schattenlagen. An der Grenze zur Altschneedecke finden sich stellenweise kantige Kristalle um eine dünne Harschschicht. Bis in mittlere Lagen wurde die Schneedecke feucht, wodurch sie aus steilen Wiesen- und Waldhängen abgleiten kann.</snowpackStructureComment>
+          <wxSynopsisComment>Im Tagesverlauf ziehen wiederholt dichtere Wolkenfelder über die niederösterreichische Bergwelt und diese lassen das Sonnenlicht oft nur diffus durchscheinen. Einzelne Sonnenfenster sind aber bis um die Mittagszeit möglich. Gegen Abend trübt es sich vollständig ein. Es bleibt zwar trocken, es weht teils stürmisch auflebendem Höhenwind aus West. Temperaturanstieg in 1500m auf ca. minus 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag herrscht recht unwirtliches Bergwetter mit schlechter Sicht, Schneefall und Sturm. Die Berge stecken meist im Nebel und es schneit anhaltend, zum Teil auch recht kräftig. In den Ybbstaler Alpen sind 30 bis 50 cm Neuschnee möglich! Dazu weht stürmischer Wind und es kühlt ab, in 2000m auf -9 Grad. Am Montag wird ein Anstieg der Lawinengefahr durch Neuschnee und Wind erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

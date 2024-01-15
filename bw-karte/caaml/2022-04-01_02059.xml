@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2059RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2059RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas frischer Triebschnee über der Waldgrenze durch auffrischenden Wind und schlechte Sichtverhältnisse!</avActivityHighlights>
+          <avActivityComment>Durch Neuschnee und durch auffrischenden Wind um Nordwest vor allem in den Nachmittagsstunden kann sich hochgelegen und kammnah etwas frischer Triebschnee bilden. Im Steilgelände können diese durch Zusatzbelastung auch angesprochen werden. Der Neuschnee kann im Steilgelände auch von selbst als Lockerschneelawinen abrutschen. Aus sehr steilen nicht entladenen Hängen können Gleitschneelawinen nicht ausgeschlossen werden. Auf Risse in der Schneedecke achten.</avActivityComment>
+          <snowpackStructureComment>Die Altschneeoberfläche kann sich mit den sehr kalten Temperaturen festigen und sie ist verharscht und hart. Sie ist von einer dünnen Neuschneeschicht überdeckt. Am Samstag kommen im Tagesverlauf bis zu 20 cm Neuschnee dazu und der Wind um Nordwest frischt auf. Somit können sich frische Triebschneeablagerungen bilden. Im Inneren ist die Altschneedecke schon bis teils in die Hochlagen hinauf feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht stark eingeschränkt, die Gipfel stecken im Nebel. Aus den dichten Wolken schneit es immer wieder, auf den Salzkammergutbergen und in der Pyhrn-Priel-Region am Nachmittag auch kräftiger. Der Wind weht aus nördlichen Richtungen und frischt am Nachmittag lebhaft auf. Temperaturen in 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Am Sonntag ist die Sicht zunächst durch dichte Wolken und etwas Schneefall in den Staulagen der Nordalpen stark eingeschränkt. Im Lauf des Tages setzt sich meist trockenes Wetter durch, die Wolken lockern aber nur sehr zögernd auf. Es weht mäßig starker Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -7 Grad, in 2000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2059RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2059RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>nur vereinzelt, kamm- und gipfelnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Nur in den Kamm- und Gipfellagen könnte es lokal etwas frischen Triebschnee geben, der zu beachten ist. Aus sehr steilen nicht entladenen Hängen und nur dort wo noch ausreichend Schnee vorhanden ist, können einzelne Gleitschneelawinen nicht ganz ausgeschlossen werden. Auf Risse in der Schneedecke achten.</avActivityComment>
+          <snowpackStructureComment>Die teils noch vorhandene Altschneedecke ist mit den sehr kalten Temperaturen oberflächig verharscht und hart. Kamm und Gipfelnah könnte es stellenweise etwas frischen Triebschnee durch auffrischenden Wind um Nordwest geben.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht stark eingeschränkt, die Gipfel stecken im Nebel. Aus den dichten Wolken schneit es immer wieder, auf den Salzkammergutbergen und in der Pyhrn-Priel-Region am Nachmittag auch kräftiger. Der Wind weht aus nördlichen Richtungen und frischt am Nachmittag lebhaft auf. Temperaturen in 1500 m um -7 Grad, in 2000 m um -10 Grad.&#13;
+Am Sonntag ist die Sicht zunächst durch dichte Wolken und etwas Schneefall in den Staulagen der Nordalpen stark eingeschränkt. Im Lauf des Tages setzt sich meist trockenes Wetter durch, die Wolken lockern aber nur sehr zögernd auf. Es weht mäßig starker Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -7 Grad, in 2000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID122RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID122RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit kleinräumigen Gefahrenstellen schattseitig!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird verbreitet mit gering bewertet. Es befinden sich aber weiterhin kleinräumige Gefahrenstellen in Einfahrtsbereichen steiler Rinnen und hinter Geländekanten. Hier sind besonders die schattseitigen Expositionen betroffen, wo teilweise bereits bei geringer Zusatzbelastung ein Schneebrett ausgelöst werden kann. Ansonsten sind die Kämme und Grate abgeblasen und es findet sich kaum eine geschlossene Schneedecke. </avActivityComment>
+          <snowpackStructureComment>Südseitig hat sich der frische Triebschnee bereits etwas gesetzt und mit dem Altschnee verbunden, aber schattseitig können sich zwischen den Triebschneeschichten und im Übergang zum Altschnee Schwachschichten befinden. Im Allgemeinen ist die Schneelage aber noch unterdurchschnittlich für die Jahreszeit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Neujahrstag ist es insgesamt trocken und freundlich, allerdings trüben schon im Laufe des Vormittags von Westen aufziehende hohe und mittelhohe Wolken den sonnigen Charakter. Die Temperaturen liegen in 1500m um -1 Grad und es weht schwacher bis mäßiger Wind aus Südwest. </wxSynopsisComment>
+          <tendencyComment>Am Samstag ist es ganztags bewölkt mit möglichen Schauern östlich des Göllers, wobei die Schneefallgrenze über 1000m liegt. Die Neuschneemengen fallen nur sehr gering aus. Die Lawinengefahr ändert sich nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

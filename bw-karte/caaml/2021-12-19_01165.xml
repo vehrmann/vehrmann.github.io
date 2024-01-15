@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1165RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1165RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee sorgt für Anstieg der Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Neuschnee und Sturm führen zu frischem, instabilem Triebschnee in südlich exponierten Geländeformen. Gefahrenstellen, an denen teilweise schon durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden können, finden sich leeseitig hinter Geländekanten, in steilen Hängen und in Einfahrten zu Rinnen und Mulden. In den Hochlagen können auch im Nordsektor in schattigen Bereichen wie Rinnen Schneebrettlawinen ausgelöst werden (Altschneeproblem). Zu beachten ist auch die Absturzgefahr auf vereisten Oberflächen.</avActivityComment>
+          <snowpackStructureComment>In tiefen Lagen ist die Schneedecke feucht und - je nach Höhenlage - mit einer teils tragenden Schmelzharschkruste überdeckt. In höheren Lagen ist die Oberfläche hart und vereist, oder windgepresst. Darunter ist das Schneedeckenfundament kompakt und weist kaum Lawinen-relevante Schwachschichten auf. Über 2000 m schreitet schattseitig aber die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus wachsenden, kantigen Kristallen, verliert an Festigkeit und wird grundlos. Durch Sturm und Neuschnee bildet sich am Montag leeseitig frischer Triebschnee. Schwachschichten können sowohl innerhalb des frischen Schnees, als auch im Übergang zum Altschnee auftreten.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag zieht von Nordosten eine Kaltfront durch und an der Alpennordseite schneit es in der Früh und am Vormittag bei stürmischem Nordwestwind. In den Mürzsteger Alpen, im Hochschwabgebiet und in den Eisenerzer Alpen werden bis zu 15 cm Neuschnee erwartet, in den Ennstaler Alpen, im Toten Gebirge, Dachsteingebiet und den nördlichen Niederen Tauern 5 - 10 cm. In den südlichen Niederen Tauern ist das Wetter besser, es zeigt sich immer wieder die Sonne und es ist kein nennenswerter Neuschnee zu erwarten. In 2000 m liegen die Temperaturen bei frischen -9 Grad. Der Wind weht äußerst stürmisch aus Nordwest, nur im Toten Gebirge und im Dachsteingebiet ist er schwächer. &#13;
+Am Montag bessert sich das Wetter wieder, es wird großteils sonnig, bleibt aber kalt.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich nur wenig.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1165RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1165RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Generell geringe Lawinengefahr, aber auf Triebschneelinsen und Absturzgefahr auf vereisten Oberflächen achten!</avActivityHighlights>
+          <avActivityComment>Generell ist die Lawinengefahr gering, vereinzelt bilden sich in Hohlformen aber Triebschneelinsen, die nicht immer gut mit dem Untergrund verbunden sind. An diesen Gefahrenstellen können vereinzelt kleinere Schneebrettlawinen ausgelöst werden. Vorsicht auch wegen Absturzgefahr auf vereisten Oberflächen!</avActivityComment>
+          <snowpackStructureComment>In tiefen Lagen ist die Schneedecke feucht und - je nach Höhenlage - mit einer teils tragenden Schmelzharschkruste überdeckt. In höheren Lagen ist die Oberfläche hart und vereist oder windgepresst, darunter ist das Schneedeckenfundament kompakt und weist kaum Schwachschichten auf. In Hohlformen liegen darauf kleine, seichte Triebschneelinsen, die nicht überall gut mit dem Untergrund binden. Über 2000 m schreitet schattseitig die aufbauende Umwandlung voran, die Schneedecke besteht vermehrt aus wachsenden, kantigen Kristallen, verliert an Festigkeit und wird grundlos.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag zieht von Nordosten eine Kaltfront durch, die südlich des Alpenhauptkammes aber kaum Schnee bringt. Alpensüdseitig zeigt sich immer wieder die Sonne, aber der Wind weht stürmisch aus Nordwest. In 2000 m liegen die Temperaturen bei frischen -9 Grad. &#13;
+Am Dienstag bessert sich das Wetter wieder, es wird großteils sonnig, bleibt aber kalt.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

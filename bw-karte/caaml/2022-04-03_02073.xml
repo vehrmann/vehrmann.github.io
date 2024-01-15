@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2073RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2073RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr – Störanfälliger Triebschnee in den Einfahrtsbereichen und hinter Geländekanten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit MÄßIG beurteilt. Die frischen Triebschneepakete finden sich besonders in süd- bis ostexponierten Rinnen und Mulden, hinter Geländekanten und Einfahrtsbereichen. Hier kann bereits von einer/m einzelnen Wintersportler/in ein Schneebrett ausgelöst werden. Mit der Sonneneinstrahlung kann es auch vermehrt zu spontanen Schneebrettlawinen aus steilem Gelände kommen. </avActivityComment>
+          <snowpackStructureComment>Bis Sonntagnachmittag sind stellenweise sogar über 30 cm Neuschnee gefallen. Über der Waldgrenze haben sich mit dem überwiegend Nord- bis Nordwestwind frische Triebschneepakete gebildet, die teils auch mächtig sein können. Diese Triebschneelinsen liegen störanfällig auf dem harten, eisigen Untergrund und können sich in steilen Bereichen auch von selbst lösen. Unter der Waldgrenze liegt der wenig windbearbeitete Neuschnee auf einer zuvor sehr feuchten Altschneedecke und verbindet sich besser, oder liegt nur mehr grundlos und verdeckt nur geringfügig Steine und Baumstümpfe. </snowpackStructureComment>
+          <wxSynopsisComment>Der Wochenbeginn bringt im Bergland ein Wechselspiel aus Sonne und Wolken, es bleibt aber weitgehend trocken. Der Höhenwind weht mäßig bis stark aus Südwest bis Nordwest. In 1500m Seehöhe bewegen sich die Temperaturen am frühen Nachmittag um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag ist es bewölkt, im Westen können leichte Schauer dabei sein und die Temperaturen steigen weiter, am Nachmittag hat es in 1500m schon um 0 Grad. Der Wind weht stürmisch bis orkanartig aus westlicher Richtung. Die steigenden Temperaturen begünstigen die Setzung der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2073RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2073RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Situation bei geringe Lawinengefahr, aber kleinräumige Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird generell mit gering bewertet. Es herrschen günstige Bedingungen mit einer pulvrigen Neuschneeauflage, aber diese liegt oft grundlos und überdeckt nur geringfügig Steine und Baumstümpfe. Außerdem haben sich in exponierten Bereichen frische Triebschneelinsen gebildet, die leicht gestört werden können. Schneebrettrutsche sind mit der Sonneneinstrahlung auch spontan aus steilem Gelände möglich. </avActivityComment>
+          <snowpackStructureComment>Bis Sonntagnachmittag sind bis zu 20 cm Neuschnee gefallen. In exponierten Bereich haben sich mit dem überwiegend Nord- bis Nordwestwind frische Triebschneepakete gebildet, die störanfällig auf dem harten, eisigen Untergrund liegen. Sie können sich in steilen Bereichen auch von selbst lösen. Sonst liegt der wenig windbearbeitete Neuschnee auf einer zuvor sehr feuchten Altschneedecke und verbindet sich besser, oder liegt nur mehr grundlos und verdeckt nur geringfügig Steine und Baumstümpfe. </snowpackStructureComment>
+          <wxSynopsisComment>Der Wochenbeginn bringt im Bergland ein Wechselspiel aus Sonne und Wolken, es bleibt aber weitgehend trocken. Der Höhenwind weht mäßig bis stark aus Südwest bis Nordwest. In 1500m Seehöhe bewegen sich die Temperaturen am frühen Nachmittag um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag ist es bewölkt, im Westen können leichte Schauer dabei sein und die Temperaturen steigen weiter, am Nachmittag hat es in 1500m schon um 0 Grad. Der Wind weht stürmisch bis orkanartig aus westlicher Richtung. Die steigenden Temperaturen begünstigen die Setzung der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1280RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1280RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur sehr wenige, extremes Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>vereinzelt, Steilgelände, über 2300 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur sehr wenige Gefahrenstellen - geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es herrscht überwiegend geringe Lawinengefahr. In den mittleren Lagen und teilweise in den Hochlagen sind vereinzelt nicht entladene vergraste Steilhänge zu beachten. Gleitschneelawinen könnten hier von selbst abgehen. Schneemäuler weisen auf diese Gefahr hin. Nur punktuelle Gefahr über rund 2300 m für Schneebrettlawinen im extremen Gelände. Gefahrenstellen im kammnahen Steilgelände und Steilrinnen. Kaum frischer Triebschnee in den Hochlagen durch ein wenig Neuschnee und starken bis stürmischen Westwind.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist stark durch Wärme und Regen geprägt. Bis in die Hochlagen hinauf ist sie feucht, darunter auch durchfeuchtet und nass. Nur sehr weit oben und schattseitig könnten sich noch Schwachschichten in der Altschneedecke gehalten haben. Tiefe Lagen sind überwiegend aper. Die Schneeoberfläche kann sich durch die vorübergehende Abkühlung festigen und weicht untertags nicht auf. Nur sehr wenig frischer Triebschnee in den Hochlagen durch unergiebigen Neuschnee unter Windeinfluss.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen weht am Montag starker bis stürmischer Westwind, der für wechselnde Sicht sorgt. Zeitweise regnet es, oberhalb von etwa 1500 m schneit es unergiebig. In 1500 m hat es um 2 Grad, in 2000 m -3 Grad.&#13;
+Am Dienstag kann es am Vormittag aus dichten Wolken ein wenig regnen, am Nachmittag lockern oder hellen die Wolken etwas auf. Die Schneefallgrenze liegt bei etwa 2300 m. In den Hochlagen weht zum Teil starker Südwestwind. In 1500 m hat es bis zu 10 Grad, in 2000 m 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

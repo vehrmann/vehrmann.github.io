@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2063RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-02T05:26:16+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2063RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-02T05:26:16+00:00</beginPosition>
+          <endPosition>2022-04-03T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;1800m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; 2000m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind mit zunehmender Seehöhe störanfällig.</avActivityHighlights>
+          <avActivityComment>Oberhalb etwa 1800m ist die Lawinengefahr erheblich, darunter mäßig. Mit Neuschnee und mäßigem Nordwind entstanden in exponierten Lagen frische Triebschneeansammlungen. Neu- und Triebschnee sind mit zunehmender Seehöhe störanfällig. Lawinen können von einzelnen Wintersportler ausgelöst werden und meist mittlere Größe erreichen. Gefahrenstellen nehmen an Anzahl und Umfang mit der Höhe zu, liegen vor allem in Kammlagen aller Expositionen, an sehr steilen Hängen in hohen Lagen und im Hochgebirge. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinenbeurteilung. Spontan können sich aus dem extremen Steilgelände Lockerschneelawinen lösen. Zudem sind einzelne Gleitschneelawinen an sehr steilen Grashängen möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Gestern schneite es vormittags anhaltend, nachmittags und nachts in Schauerform. Die Schneemengen sind moderat ausgefallen: Verbreitet gab es bis 15cm, lokal auch mehr Neuschnee. In den Rheintalangrenzenden Bergen des Bregenzerwaldgebirges und in der Silvretta kamen bis 30cm Neuschnee hinzu. Seit Mittwoch gab es in höheren Lagen verbreitet 30 bis 40cm, in den Rheintalangrenzenden Bergen des Bregenzerwaldgebirges und in der Silvretta lokal auch 50 bis 60cm Neuschnee. Dieser kam auf einer rauen Altschneeoberfläche zu liegen und ist meist gut mit ihr verbunden. In hochalpinen Lagen ist die Verbindung zur Altschneedecke schlechter. Lawinen können meist nur innerhalb der Neu- und Triebschneeschichten dieser Schneefallperiode, im Hochgebirge aber auch an der Schichtgrenze zum Altschnee ausgelöst werden. Die Altschneedecke ist durchfeuchtet und vor allem an Sonnenhängen bis in höhere Lagen nass. An sehr steilen und glatten Hängen begünstigt dies Gleitbewegungen. An Sonnenhängen in mittleren Lagen liegt der Neuschnee auf dem zuvor ausgeaperten Boden, wird von unten her angefeuchtet und kann an glatten Hängen abgleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer Nordströmung bleibt es eisig kalt und es schneit leicht bis mäßig. Zumindest der Wind ist kein großes Thema. Im Nordstau vom Bregenzerwald bis zum Arlberg schneit es kräftiger und häufiger als im Rätikon und der Silvretta. Wolken und Nebel sorgen den ganzen Tag für schlechte Sichtverhältnisse. Temperatur in 2000 m: um -10 Grad. Höhenwind: meist nur schwacher Wind aus nördlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag tritt eine Wetterberuhigung ein, es fallen noch ein paar Schneeflocken aber die Wolken werden tendenziell lichter. Vor allem bei Einstrahlung sind Lockerschneelawinen an steilen Sonnenhängen möglich. Die Lawinengefahr ändert sich am Sonntag nicht wesentlich, zu Wochenbeginn wird sie zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

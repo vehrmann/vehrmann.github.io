@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID834RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID834RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-12T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-12T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Festigkeitsverlust durch Regeneintrag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Gefahrenstellen nehmen im Tagesvrlauf zu</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leichter Anstieg der Lawinengefahr im Tagesverlauf durch frischen Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ändert sich im Tagesverlauf. Im Vorfeld eines Kaltfrontdurchzuges sinkt die Schneefallgrenze in den Morgenstunden allmählich ab. Im Laufe des Vormittages kann stellenweise noch Regen bis in mittelhohe Lagen zu einem Festigkeitsverlust der Schneedecke und vereinzelt zu spontanen Lockerschneelawinen aus steilem Gelände führen. Am Nachmittag wird der Neuschnee durch den an Stärke gewinnenden Nordwestwind zunehmend als Triebschnee abgelagert. Die Gefahrenstellen entstehen hinter Geländekanten sowie in Rinnen und Mulden der Expositionen Süd bis Nordost und nehmen in Abhängigkeit der Neuschneemengen bis zum Abend zu.  &#13;
+&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>Die allgemein gut gesetzte bzw. bis in höhere Lagen teils feuchte Schneedecke kann sich über Nacht oberflächig etwas verfestigen. Einsetzender Niederschlag fällt zu Beginn stellenweise als Regen und kann die Schneedecke bei stärkerer Intensität etwas destabilisieren. Mit rasch sinkender Temperatur (Kaltfront) beginnt sich die Schneedecke zu verfestigen. Der bis zum Abend in tiefe Lagen fallende Schnee bindet meist gut mit der Altschneedecket. Jedoch entstehen durch starken Nordwestwind zunehmend, vorerst noch kleinere Triebschneebereiche, die speziell in sehr steilem Gelände nicht ausreichend mit der Altschneedecke verbunden sind.&#13;
+&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Von Westen her nehmen die Wolken mit einer herannahenden Kaltfront bereits in den Morgenstunden rasch zu, Wolkenbasen und Schneefallgrenze sinken ab. Am Vormittag setzt Niederschlag ein, der zu Beginn stellenweise noch bis in höhere Lagen als Regen fallen kann. Ab Mittag sorgt der Frontdurchzug für eine markante Abkühlung, Schneefall bis in Tallagen und starken bis stürmischen Nordwestwind auf den Bergen. Die Temperaturen sinken in 2000m im Tagesverlauf von Werten um den Gefrierpunkt auf bis zu -7 Grad, in 1500m von +3 Grad auf -3 bis -5 Grad ab.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Die nächsten Tage bleibt es winterlich! Neuschnee und Wind führen zu einem Anstieg der Schneebrettgefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID834RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID834RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Festigkeitsverlust durch Regen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen durch Triebschnee</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Ab dem späten Vormittag kann Regen bis in mittelhohe Lagen zu einem Festigkeitsverlust der Schneedecke und vereinzelte spontane Lockerschneerutschen führen. Am Nachmittag sorgt ein Kaltfrontdurchzug für eine rasante Abkühlung. Mit etwas Neuschnee und teils stürmischem Nordwestwind entstehen vereinzelt frische, vorerst noch kleine Triebschneeablagerungen hinter Geländekanten sowie in Rinnen und Mulden der Expositionen Süd bis Nordost.</avActivityComment>
+          <snowpackStructureComment>Die allgemein gut gesetzte bzw. bis in höhere Lagen teils feuchte Schneedecke kann sich über Nacht stellenweise oberflächig etwas verfestigen. Einsetzender Niederschlag kann zu Beginn noch als Regen fallen und kann die Schneedecke bei stärkerer Intensität etwas destabilisieren. Mit sinkender Schneefallgrenze fällt bis zum Abend Schnee bis in tiefe Lagen, der meist gut mit der Altschneedecke bindet. Durch starken Nordwestwind entstehen kleinere Triebschneebereiche, die in sehr steilem Gelände mitunter nicht ausreichend mit der Altschneedecke verbunden sind.&#13;
+&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Von Westen her nehmen die Wolken mit einer herannahenden Kaltfront am Vormittag zu, Wolkenbasen und Schneefallgrenze sinken bis Mittag ab. Ab späterem Vormittag setzt Niederschlag ein, der stellenweise noch bis in höhere Lagen als Regen fallen kann. Ab Mittag sorgt der Frontdurchzug für eine markante Abkühlung, Schneefall sowie vereinzelte Graupelschauer bis in Tallagen und starken bis stürmischen Nordwestwind auf den Bergen. Die Temperaturen sinken in 2000m im Tagesverlauf von schwach positiven Werten auf bis zu -6 Grad, in 1500m von +5 Grad auf -3 bis -5 Grad ab.&#13;
+&#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>Die nächsten Tage bleibt es winterlich! Neuschnee und Wind führen zu einem Anstieg der Schneebrettgefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

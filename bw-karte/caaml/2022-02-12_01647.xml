@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1647RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1647RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>speziell in höheren Lagen störanfällig, im Nordsektor</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht im Nordsektor - Altschneeproblem.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in oberhalb der Baumgrenze mit mäßig beurteilt. Vereinzelte Gefahrenstellen für Schneebrettauslösungen liegen in den Hochlagen in sehr steilen Hängen im Sktor Nord. Hier können Lawinen bei großer Zusatzbelastung ausgelöst werden. Vereinzelte nasse Lockerschneelawinen bzw. Gleitschneelawinen können sich am Nachmittag spontan lösen. </avActivityComment>
+          <snowpackStructureComment>Der geringmächtige Neuschnee wurde in den Nordsektor verfrachtet. In den Schattenlagen schwächen Formen den Schneedeckenaufbau. &#13;
+Sonst hat sich ein tragfähiger Harschdeckel gebildet. Bis in mittlere Lagen ist die Schneedecke im Inneren nass. Durch die Abkühlung in der Nacht verfestigt sich wieder die Schneedeckenoberfläche.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen scheint den ganzen Tag die Sonne, über weite Strecken ist  es auch wolkenlos. Nur über Mittag ziehen vorübergehend ein paar hohe Schleierwolken durch. Es wird wieder etwas milder, die Temperaturen in 1500m Seehöhe erreichen tagsüber Werte um plus 1 Grad.&#13;
+Am Montag ist es nochmals sonnig und mild!</wxSynopsisComment>
+          <tendencyComment>Tagesgang der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1647RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1647RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht im Nordsektor - Altschneeproblem.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den Gutensteiner Alpen, in den Türnitzer Alpen und im Wechselgebiet mit gering beurteilt. Vereinzelte Gefahrenstellen für Schneebrettauslösungen liegen in den Hochlagen im Nordsektor. Eine Schneebrettauslösung kann nicht ausgeschlossen werden. Nasse Rutsche sind in den mittleren Lagen möglich. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich durch die Erwärmung schon setzen. Nur in den schattseitigen Hochlagen lagert älterer Triebschnee auf Oberflächenreif bzw. auf einem Harschdeckel ab. Bis in mittlere Lagen wurde die Schneedecke nass. Durch die Abkühlung verfestigte sich wieder die Schneedeckenoberfläche. </snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen scheint den ganzen Tag die Sonne, über weite Strecken ist  es auch wolkenlos. Nur über Mittag ziehen vorübergehend ein paar hohe Schleierwolken durch. Es wird wieder etwas milder, die Temperaturen in 1500m Seehöhe erreichen tagsüber Werte um plus 1 Grad.&#13;
+Am Montag wird es nochmals sonnig und mild.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

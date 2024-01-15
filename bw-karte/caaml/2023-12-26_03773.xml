@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3773RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3773RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneebrettlawinen nur noch schwer auslösbar, Wechtenbrüche und Absturzgefahr auf eisigen Flächen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das Hauptproblem ist Gleitschnee. An steilen Hängen mit glattem Untergrund, an denen noch genügend Schnee liegt, sind Gleitschneelawinen möglich. Diese können sich zu jeder Tages- und Nachtzeit von selbst lösen, unabhängig von der Exposition. Gleitschneelawinen können in höheren Lagen mittlere Größe erreichen, ansonsten sind sie meist klein. Gefahrenstellen finden sich unterhalb von Gleitschneerissen. &#13;
+Aus sonnenbeschienenem felsigem Steilgelände höherer Lagen können sich vereinzelt nasse Lockerschneelawinen von selbst lösen.&#13;
+Schwachschichten im Altschnee können örtlich ein Problem darstellen. Gefahrenstellen finden sich an eher schneearmen Stellen, sowie bei der Einfahrt in Rinnen und Mulden. Zur Auslösung von Schneebrettlawinen braucht es meist große Zusatzbelastung, zum Beispiel durch einen tief einsinkenden Fußgänger. Schneebrettlawinen können mittlere Größe erreichen. </avActivityComment>
+          <snowpackStructureComment>Der Harschdeckel, der sich nachts bilden kann, weicht mit der tageszeitlichen Erwärmung auf. Dann wird die Schneedecke bis in die Hochlagen feucht. Zum Boden hin ist sie oft nass und man bricht zu Fuß teilweise bis zur Hüfte ein. Gleitbewegungen auf glattem Untergrund sind dementsprechend möglich. Schattseitig bleibt es meist eisig, außer im Wald, wo die nächtliche Abstrahlung vermindert ist. Die älteren, teils mächtigen Triebschneepakete haben sich gut gesetzt und stabilisiert. Im Bereich von Harschdeckeln, die sich in unterschiedlicher Tiefe in der Schneedecke befinden sind örtlich kantig aufgebaute Kristalle eingelagert. Unterhalb 1300 m apert der Boden aus. Skitouren ohne Tragepassagen sind im bayerischen Alpenraum kaum mehr möglich.</snowpackStructureComment>
+          <tendencyComment>Die Temperaturen gehen in den nächsten Tagen langsam zurück. Die Lawinengefahr nimmt weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

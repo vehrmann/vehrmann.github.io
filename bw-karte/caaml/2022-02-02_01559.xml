@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1559RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-02T10:00:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1559RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-02T10:00:52+00:00</beginPosition>
+          <endPosition>2022-02-03T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kritische Neuschneemenge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>abseits gesicherter Bereiche heikle Situation und große Lawinengefahr</avActivityHighlights>
+          <avActivityComment>&#13;
+Neu- und umfangreicher Triebschnee sind die Hauptgefahr. Anzahl und Größe der Gefahrenstellen nehmen mit der Seehöhe zu. Neu- und frischer Triebschnee hinter Geländekanten sowie in eingewehten Rinnen und Mulden ist störanfällig. Einzelne Wintersportler können Lawinen auslösen. Aktivitäten abseits gesicherter Bereiche erfordern Zurückhaltung und große Erfahrung in der Lawinenbeurteilung. Unerfahrene sollten gesicherte Pisten nicht verlassen. Auch mittlere und große spontane Lawinen sind zunehmend möglich. Wenn solche in tiefere Schichten der Schneedecke durchreißen können sie auch sehr groß werden. Exponierte Bereiche können dadurch gefährdet sein. Mit der Erwärmung und Regen sind in tieferen Lagen an steilen Grashängen zunehmend Gleitschneelawinen und nasse Rutsche möglich.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Seit gestern gab es meist 25 bis 30 cm, am Arlberg und Hochtannberg bis 40 cm und im Kleinwalsertal 50 cm Neuschnee. Mit oft stürmischem Wind wurde dieser erneut umfangreich verfrachtet und somit viel Triebschnee abgelagert. Neu- und Triebschnee der vergangenen Tage liegen schattseitig oft auf lockeren Altschneeschichten. Teilweise sind Graupel eingelagert. Die Verbindung dazu und innerhalb der Neu- und Triebschneeschichten ist oft nur schwach. Die Altschneedecke ist überwiegend gut verfestigt und stabil. Schwachschichten im Bereich unterhalb von Schmelzharschkrusten im Mittelteil der Schneedecke könnten jedoch noch mit sehr großer Zusatzbelastung gestört werden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Niederschlag hält an. Wiederum gibt es im hinteren Bregenzerwald und in der Arlbergregion am meisten Neuschnee. Dieser wird stark verfrachtet. Die Schneefallgrenze liegt bei ca. 1000 m. Temperatur in 2000 m: -6 Grad. Höhenwind: stürmischer Nordwestwind</wxSynopsisComment>
+          <tendencyComment>Die Schneefälle klingen in der Nacht ab. Der Donnerstag wird meist bewölkt. Abseits gesicherter Pisten bleibt die Lawinensituation kritisch. An steilen, glatten Wiesenhängen sind vor allem in den neuschneereichen Gebieten zunehmend auch Gleitschneelawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

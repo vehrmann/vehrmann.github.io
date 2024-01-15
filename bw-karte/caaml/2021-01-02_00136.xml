@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID136RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID136RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Große Lawinengefahr durch große Neuschneemengen und großen Triebschneeansammlungen</avActivityHighlights>
+          <avActivityComment>Große Neuschneemengen unter Windeinfluss sorgt für große Lawinengefahr, teils bis in Tallagen. Zahlreiche Lockerschneelawinen sind zu erwarten. Große Triebschneeablagerungen in allen Expositionen können durch eine geringe Zusatzbelastung losgelöst werden. Abseits der gesicherten Pisten herrscht kritische und gefährliche Lawinensituation. Vor Unternehmungen im freien Skigelände wird abgeraten.</avActivityComment>
+          <snowpackStructureComment>Bis 40 cm Neuschnee, bei mäßig bis starkem Wind in höheren Lagen, hat es am Samstag bis in die Abendstunden geschneit. In der Nacht hält die Intensität bis nach Mitternacht an und lässt erst dann etwas nach. Bis zum Nachlassen der Niederschläge am Sonntagabend sind noch einmal 50 cm Neuschnee möglich. Der mäßig bis starke Wind aus südlicher Richtung hat den Neu- und Altschnee verfrachtet und auf eine meist lockere Schicht abgelagert. Die Altschneedecke ist kompakt und gut gefestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen bleiben im Einflussbereich eines Tiefdruckkomplexes der sich von Norwegen über die Westalpen bis in den Mittelmeerraum erstreckt. Von Süden trifft weiterhin feuchte Mittelmeerluft gegen die Alpen. Aus der Nacht heraus bis in den Vormittag schneit es noch verbreitet. Dann lassen die Niederschläge nach und bis zum Abend lockern die Wolken etwas auf. Bei mäßigem Wind aus Südwesten, erreichen die Temperaturen in 2000 m um die -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag bessert sich das Wetter und vor allem in den westlichen Gebirgsgruppen bleibt es trocken. Verbreitet heikle Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID136RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID136RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Wind sorgen für große Lawinengefahr oberhalb der Waldgrenze</avActivityHighlights>
+          <avActivityComment>Größere Neuschneemengen unter Windeinfluss sorgt für große Lawinengefahr oberhalb der Waldgrenze. Viele Lockerschneelawinen sind zu erwarten. Große Triebschneeablagerungen in allen Expositionen können durch eine geringe Zusatzbelastung losgelöst werden. Es herrscht heikle Lawinensituation und vor Unternehmungen im freien Gelände wird abgeraten.</avActivityComment>
+          <snowpackStructureComment>Bis 40 cm Neuschnee, bei mäßig bis starkem Wind in höheren Lagen, hat es am Samstag bis in die Abendstunden geschneit. In der Nacht hält die Intensität bis Mitternacht an und lässt erst dann etwas nach. Bis zum Nachlassen der Niederschläge am Sonntagabend sind noch einmal 40 cm Neuschnee möglich. Der mäßig bis starke Wind aus südlicher Richtung hat den Neu- und Altschnee verfrachtet und auf eine meist lockere Schicht abgelagert. Die Altschneedecke ist kompakt und gut gefestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen bleiben im Einflussbereich eines Tiefdruckkomplexes der sich von Norwegen über die Westalpen bis in den Mittelmeerraum erstreckt. Von Süden trifft weiterhin feuchte Mittelmeerluft gegen die Alpen. Aus der Nacht heraus bis in den frühen Vormittag schneit es noch verbreitet. Bei mäßigem Wind aus Südwesten, erreichen die Temperaturen in 2000 m um die -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag bessert sich das Wetter und vor allem in den westlichen Gebirgsgruppen bleibt es trocken. Verbreitet heikle Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID136RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID136RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und störanfällige Triebschneeansammlungen</avActivityHighlights>
+          <avActivityComment>Neuschnee und Wind sorgen für frische Triebschneeablagerungen welche bereits durch einen einzelnen Wintersportler losgelöst werden können. Aus steilen Geländeteilen sind auch einige, mitunter größere,  Lockerschneelawinen zu erwarten. Unternehmungen erfordern viel Erfahrung in der Beurteilung der Gefahrensituation und Zurückhaltung.</avActivityComment>
+          <snowpackStructureComment>20  bis 30 cm Neuschnee, bei mäßig bis starkem Wind in höheren Lagen, hat es am Samstag bis in die Abendstunden geschneit. Bis gegen Mitternacht schneit es noch stärker. Danach lassen die Niederschläge deutlich nach und sollten am Nachmittag enden. Rund 30 cm Neuschnee sind noch möglich. Der mäßig bis starke Wind aus südlicher Richtung hat den Neu- und Altschnee verfrachtet und auf eine meist lockere Schicht abgelagert. Die Altschneedecke ist kompakt und gut gefestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen bleiben im Einflussbereich eines Tiefdruckkomplexes der sich von Norwegen über die Westalpen bis in den Mittelmeerraum erstreckt. Von Süden trifft weiterhin feuchte Mittelmeerluft gegen die Alpen. Südlich des Tauernhauptkammes stauen sich dichte Wolken und es schneit auch noch leicht. Am Nachmittag wird es dann immer öfters trocken und bei nachlassendem Wind sind die ersten Auflockerungen möglich.</wxSynopsisComment>
+          <tendencyComment>Am Montag bessert sich das Wetter und vor allem in den westlichen Gebirgsgruppen bleibt es trocken. Verbreitet heikle Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID136RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID136RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfällige Treibschneeablagerungen oberhalb der Waldgrenze</avActivityHighlights>
+          <avActivityComment>Neuschnee und Wind sorgen für frische Triebschneeablagerungen welche bereits durch einen einzelnen Wintersportler losgelöst werden können. Aus steilen Geländeteilen sind auch einige Lockerschneelawinen zu erwarten. Unternehmungen erfordern viel Erfahrung in der Beurteilung der Gefahrensituation und Zurückhaltung.</avActivityComment>
+          <snowpackStructureComment>20  bis 30 cm Neuschnee, bei mäßig bis starkem Wind in höheren Lagen, hat es am Samstag bis in die Abendstunden geschneit. Bis gegen Mitternacht schneit es noch stärker. Danach lassen die Niederschläge deutlich nach und sollten am Nachmittag enden. Rund 30 cm Neuschnee sind noch möglich. Der mäßig bis starke Wind aus südlicher Richtung hat den Neu- und Altschnee verfrachtet und auf eine meist lockere Schicht abgelagert. Die Altschneedecke ist kompakt und gut gefestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen bleiben im Einflussbereich eines Tiefdruckkomplexes der sich von Norwegen über die Westalpen bis in den Mittelmeerraum erstreckt. Von Süden trifft weiterhin feuchte Mittelmeerluft gegen die Alpen. Nach nächtlichem Schneefall klingen die Schneefälle bald ab. Der noch mäßige Südwind lässt bis zum Abend deutlich nach. Die Temperaturen erreichen in 2000 m -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag bessert sich das Wetter und vor allem in den westlichen Gebirgsgruppen bleibt es trocken. Die Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID136RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID136RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische, störanfälligere Triebschneeansammlungen</avActivityHighlights>
+          <avActivityComment>Neuschnee und Wind sorgen für frische, störanfälligere Triebschneeablagerungen in vielen Mulden, Rinnen und hinter Geländekanten.</avActivityComment>
+          <snowpackStructureComment>10  bis 15 cm Neuschnee, bei mäßig bis starkem Wind in höheren Lagen, hat es am Samstag bis in die Abendstunden geschneit. Der Niederschlag hält bis in die Nachtstunden an, wird dann deutlich schwäche und klingt dann bald ab. 10 bis 20 cm Neuschnee kann es noch geben. Der mäßig bis starke Wind aus südlicher Richtung hat den Neu- und Altschnee verfrachtet und auf eine meist lockere Schicht abgelagert. Die Altschneedecke ist kompakt und gut gefestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen bleiben im Einflussbereich eines Tiefdruckkomplexes der sich von Norwegen über die Westalpen bis in den Mittelmeerraum erstreckt. Von Süden trifft weiterhin feuchte Mittelmeerluft gegen die Alpen. Nachdem es nachts verbreitet geschneit und unter 800 bis 1000 m auch geregnet hat, verläuft der Sonntag meist trocken. Der mäßige Wind aus südlichen Richtungen flaut im Tagesverlauf deutlich ab und die Temperaturen in 1500 m erreichen -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag bessert sich das Wetter und vor allem in den westlichen Gebirgsgruppen bleibt es trocken. Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

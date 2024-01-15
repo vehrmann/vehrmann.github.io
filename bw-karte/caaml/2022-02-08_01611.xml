@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1611RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1611RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>überwiegend in Hochlagen, umfangreicher Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch den starken/stürmischen Wind der letzten Tage Triebschnee-, in tiefen und mittleren Lagen Nassschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>Durch den starken bis stürmischen Wind der letzten Tage sind vor allem in den höheren Lagen immer noch Triebschneeablagerungen vorhanden, die bereits bei geringer, ansonsten großer Zusatzbelastung gestört werden können. Auf vielen Expositionen sind daher gut gefüllte Steilhänge, steile Mulden und Rinnen sowie Geländeübergänge zu beachten. Durch die starke Sonneneinstrahlung und den sehr milden Temperaturen sind im felsdurchsetzten besonnten Steilgelände spontane Lawinen, in tiefen und mittleren Lagen Gleit- und Nassschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der bis Dienstag anhaltende starke/stürmische Wind hat den vielen Neuschnee verfrachtet und umfangreichen noch störanfälligen Triebschnee gebildet, der sich mit den sehr milden Temperaturen nun setzen kann und langsam besser bindet. Die Schneedecke selbst ist stark windgeprägt und sehr unregelmäßig verteilt, nur in Hochlagen noch pulvrig, ansonsten mit den milden Temperaturen und Sonnenschein oft weit hinauf oberflächig feucht. In den höheren Lagen sind einzelne dünne harte oder kantige Schichten eingelagert. Die Schneedecke der tiefen und mittleren Lagen wird zunehmend feucht, sonnseitig teils nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint im Bereich der Kalkalpen den ganzen Tag die Sonne bei perfekter Sicht. Der Wind weht meist schwach bis mäßig stark. Es wird milder, in 1500 m: um 5 Grad, in 2000 m: um 4 Grad.&#13;
+Am Donnerstag scheint oberhalb des Nebels und Hochnebels oft die Sonne bei idealer Sicht. Erst gegen Abend tauchen von Westen Wolken auf. In 1500 m: um 3 Grad, in 2000 m: um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Auf Nassschneelawinen ist weiter zu achten. In den Hochlagen entspannt sich die Triebschneesituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

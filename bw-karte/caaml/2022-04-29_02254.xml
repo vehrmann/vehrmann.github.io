@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2254RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2254RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2022-05-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Sonneneinstrahlung spontane Lockerschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>nur vereinzelt, mit der Höhe zunehmend</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - spontane Lockerschneelawinen beachten - vereinzelte Triebschneelinsen nur in höheren Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Die Hauptgefahr geht von kleineren, meist nassen Lockerschneelawinen aus, die sich speziell aus dem besonnten, felsdurchsetzten Steilgelände spontan lösen können. In höheren Lagen existieren kammnah sowie in nord- bis ostexponierten steilen Rinnen vereinzelt dünne Triebschneepakete, die Gefahrenstellen nehmen mit der Höhe etwas zu. Aus steilen Hängen mit glattem Untergrund können  Gleitschneerutsche nicht ausgeschlossen werden. Generell überwiegt die Absturzgefahr der Verschüttungsgefahr. </avActivityComment>
+          <snowpackStructureComment>Auf eine weitgehend kompakte Schneeoberfläche sind zu Wochenbeginn bis zu 20cm Neuschnee gefallen, der mit Nordwestwind in exponierten Bereichen verfrachtet und als gebundener Triebschnee abgelagert wurde. Die Verbindung der Schneeauflage zur Altschneedecke ist inzwischen meist gut, in höheren Lagen vereinzelt noch störanfällig. Mit Strahlung und Erwärmung verliert die Schneedecke oberflächig an Festigkeit und kann sich spontan lösen. Die Altschneedecke ist weitgehend kompakt und bis in höhere Lagen isotherm.</snowpackStructureComment>
+          <wxSynopsisComment>Im Ostalpenraum herrschen zurzeit schwache Druckgegensätze. Der Samstag verläuft neben hohen Wolken bis über Mittag meist sonnig, die Gipfel sind frei. Am Nachmittag nimmt die Bewölkung von  Westen her zu und zwischen Schladminger Tauern, Dachstein und dem Toten Gebirge ist gegen Abend etwas Niederschlag möglich. Die Schneefallgrenze liegt um 2.000 m. Im Osten sowie entlang des Randgebirges bleibt es hingegen trocken und vorwiegend sonnig. Der Wind kommt meist schwach aus  Süd, die Temperaturen liegen zu Mittag in 2.000 m bei +4 Grad und in 1.500 m bei +8 Grad. &#13;
+Am 1. Mai stecken die westlichen Nordalpen oft in Wolken und Nebel und es schneit oder regnet ein wenig. Die Schneefallgrenze liegt zwischen 1.500 und 1.800m Höhe. In den übrigen Bergregionen überwiegen ebenfalls die Wolken, die Sichtverhältnisse sollten am Vormittag aber noch gut sein. Am Nachmittag bringen absinkende Wolkenbasen auch hier kurze Schauer. Mit schwachem Ostwind wird es kühler als zuletzt, die Mittagstemperaturen liegen in 2. 000 m bei 0 Grad und in 1.500 m bei +5 Grad. Auch in der neuen Woche hält der eher unbeständige Wettercharakter an.</wxSynopsisComment>
+          <tendencyComment>Die Lawinensituation ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

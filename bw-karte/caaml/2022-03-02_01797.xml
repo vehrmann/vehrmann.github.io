@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1797RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1797RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen auf älteren Triebschnee achten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2200 m mäßig, darunter gering. Älterer Triebschnee kann stellenweise noch auslösbar sein. Gefahrenstellen befinden sich kammnah in steilen Hängen und Rinnen der Expositionen Süd über West bis Nord und an schneearmen Stellen. Lawinen können insbesondere mit großer Zusatzbelastung ausgelöst werden und vor allem in den Hochlagen mittelgroß bis sehr vereinzelt noch groß werden, wenn sie auf tiefere Schichten durchschlagen. Neben der Verschüttungsgefahr ist die Absturzgefahr zu beachten.&#13;
+Aus dem sonnenbeschienenen, felsdurchsetzten Steilgelände können sich zudem kleinere Lockerschneelawinen von selbst lösen. Mit Schwerpunkt im Allgäu sind einzelne Gleitschneelawinen an glatten, steilen Wiesenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Ältere Triebschneeansammlungen sind teilweise noch störanfällig. Oft ist oberflächennah Graupel eingelagert. In windabgewandten Bereichen der Hochlagen finden sich geringmächtige, frische Einwehungen. Die Altschneedecke ist weitgehend kompakt und stabil, nur  in den Hochlagen können vereinzelt noch schwache Schichten aus kantigen Kristallen im Bereich von Krusten eingelagert sein. Schattseitig findet sich oberflächlich oft noch Pulver, teilweise aber auch dünner Windharsch. Nachts bildet sich südseitig und in tieferen Lagen ein dünner Schmelzharschdeckel, der im Tagesverlauf wieder aufweicht, wodurch die Schneedecke an Festigkeit verliert. Unterhalb 2000 m ist die Schneedecke an der Basis teilweise feucht.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird weiter zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1797RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1797RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Älterer Triebschnee kann vereinzelt noch als kleinere Schneebrettlawine ausgelöst werden.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Älterer Triebschnee kann vereinzelt noch problematisch sein. Einzelne Gefahrenstellen befinden sich vor allem kammnah in sehr steilen Hängen und Rinnen der Expositionen Süd über West bis Nord. Lawinen können insbesondere mit großer Zusatzbelastung ausgelöst werden und bleiben meist klein. Absturzgefahr beachten.&#13;
+Aus dem sonnenbeschienenen, felsdurchsetzten Steilgelände können sich zudem kleinere Lockerschneelawinen von selbst lösen. Mit Schwerpunkt im Allgäu sind einzelne Gleitschneelawinen an glatten, steilen Wiesenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Älterer, kleinräumiger Triebschnee kann vereinzelt noch störanfällig sein. In der Altschneedecke sind in höheren Lagen Zwischenschichten mit kantigen Kristallen im Bereich von Krusten zu finden, die aber kaum noch anzusprechen sind. Ansonsten ist sie stabil und kompakt. Schattseitig findet sich in den höheren Lagen oft noch Pulver, stellenweise aber auch dünner Windharsch. Nachts bildet sich in tieferen Lagen und südseitig ein dünner Schmelzharschdeckel, der im Tagesverlauf wieder aufweicht, wodurch die Schneedecke an Festigkeit verliert. Unterhalb 2000 m ist die Schneedecke an der Basis teilweise feucht.</snowpackStructureComment>
+          <tendencyComment>An der Lawinengefahr wird sich wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

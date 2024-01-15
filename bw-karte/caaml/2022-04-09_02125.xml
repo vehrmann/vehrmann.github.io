@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2125RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-09T05:33:04+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2125RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-09T05:33:04+00:00</beginPosition>
+          <endPosition>2022-04-10T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehte Rinnen und Mulden, windbeeinflusste Steilhänge &gt;2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit zunehmender Seehöhe ist frischer Triebschnee die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Frischer Triebschnee ist in hohen Lagen zunehmend störanfällig. Kleine bis mittlere Lawinen können dort von einzelnen Wintersportler ausgelöst werden. Gefahrenstellen sind vor allem in eingewehten Rinnen und Mulden sowie im schattseitigen Steilgelände anzutreffen. Verbreitung und Größe nehmen mit der Seehöhe und mit weiterem Schneefall und Wind untertags zu. Aus steilem Felsgelände sind auch kleine bis mittlere Lockerschneelawinen möglich. Mit der Abkühlung geht die Gefahr von Nassschneelawinen untertags deutlich zurück. Kleine Gleitschneelawinen an sehr steilen Grashängen sind weiterhin möglich. Vorsicht unterhalb von Gleitschneerissen. </avActivityComment>
+          <snowpackStructureComment>In der zweiten Nachthälfte setzten Niederschläge ein. Oberhalb ca. 1500 m gab es 5 bis 10 cm Neuschnee. Kräftiger, oft auch stürmischer Wind führte zu Verfrachtungen von Neu- und lockerem Altschnee und frischen Triebschneeansammlungen. Die Verbindung zur Altschneedecke ist meist gut, mit zunehmender Seehöhe und vor allem an steilen Schattenhängen teilweise auch nur mäßig. Kleine bis mittlere Lawinen können dort innerhalb des Neu- und Triebschnees oder im Bereich von Saharastaubschichten  ausgelöst werden. Mit Regeneintrag wurde die Schneedecke bis in mittlere Lagen nass und weiter geschwächt. Lagen unterhalb ca. 1000 bis 1500 m sind meist aper.</snowpackStructureComment>
+          <wxSynopsisComment>Der Tag beginnt winterlich mit Schneefall und Wind. Die Berge stecken im Nebel und es schneit. Nachmittags werden die Schneeschauer allmählich weniger und die Chance auf Auflockerungen und sonnige Abschnitte steigt. Temperatur in 2000 m: Temperatursturz auf -8 Grad. Höhenwind: Winddrehung von W auf NW, am Morgen stark windig, tagsüber mäßiger bis lebhafter Wind</wxSynopsisComment>
+          <tendencyComment>In Nacht kommt es zu weiteren Schneeschauern. Am Sonntag setzt sich untertags zunehmend die Sonne durch. Es bleibt jedoch kalt. Je nach Neuschnee kann die Gefahr trockener Lawinen in höheren Lagen gebietsweise ansteigen. In mittleren Lagen nimmt die Gefahr weiter ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

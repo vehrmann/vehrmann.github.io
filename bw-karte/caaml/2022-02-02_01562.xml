@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1562RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1562RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee, spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer umfangreicher störanfälliger Triebschnee - angespannte Situation durch leicht auslösbare Schneebrettlawinen und spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>Die letzten Tage brachten bei starkem bis stürmischem Wind aus West bis Nordwest und ergiebigem Neuschneezuwachs umfangreichen labilen Triebschnee. Gefahrenstellen sind in allen Exposition auch weit unter der Waldgrenze noch anzutreffen. Anzahl sowie Umfang der Gefahrenstellen nehmen aber mit der Höhe deutlich zu. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich, vor allem hochgelegen auch wahrscheinlich. Steilere Hänge mit Triebschneeablagerungen sind zu meiden. Durch die Neu- und Triebschneemengen sind im Steilgelände auch große spontanen Lockerschnee- oder Schneebrettlawinen möglich. Es ist viel Erfahrung in der Lawinenbeurteilung erforderlich. In den tiefen und mittleren Lagen sind spontane Lawinenabgänge mit den milderen Temperaturen möglich.</avActivityComment>
+          <snowpackStructureComment>Ergiebiger Neuschnee (in Summe auch mehr als 1 Meter) und stürmischer Wind hat in den letzten Tagen zu umfangreichen Triebschneeablagerungen geführt. Die mächtigen Triebschneepakete enthalten Schwachschichten und die Bindung zur Altschneedecke ist ungenügend. Dünne Zwischenschichten, überdeckter Graupel und kantige Kristalle im Übergang zur Altschneedecke sind vorhanden. Die Schneedecke ist allgemein stark windbeeinfluss und sehr unregelmäßig verteilt. Mit den milderen Temperaturen am Donnerstag kommt es zu einer Setzung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Der leichte Schneefall klingt spätestens im Lauf des Vormittags am Donnerstag ab. Am Nachmittag gibt es im Bereich der Kalkalpen bei hohen Wolken ausreichende Sicht. Der Wind weht mäßig stark. In 1500 m morgens -4 Grad abends bis zu +4 Grad, in 2000 m morgens -7 Grad abends +1.&#13;
+Am Freitag scheint im Bereich der Berge bei guter Sicht oft die Sonne. Der Wind weht schwach bis mäßig stark und in den freien Lagen zum Teil lebhaft. In 1500 m hat es um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1562RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1562RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-02T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht auslösbarer Triebschnee und spontane Lawinen - erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Weiterhin können Schneebrettlawinen bereits durch geringe Zusatzbelastung ausgelöst werden. Stürmischer Wind um West bis Nordwest und ergiebiger Neuschnee hat zu umfangreichen Triebschneeablagerungen geführt. Zu beachten sind Kamm- und Gipfellagen, lichte Waldflächen und eingefrachtete freie steile Hänge auch in tieferen Lagen. Anzahl sowie Umfang der Gefahrenstellen nehmen mit der Höhe zu. Zu meiden sind alle steilen mit Triebschnee eingewehten Bereiche. Durch die Neu-, teils auch großen Triebschneemengen sind im Steilgelände auch noch spontanen Lockerschnee- oder Schneebrettlawinen möglich. In den tiefen und mittleren Lagen sind spontane Lawinenabgänge mit den milderen Temperaturen möglich.</avActivityComment>
+          <snowpackStructureComment>Ergiebiger Neuschnee und stürmischer Wind hat in den letzten Tagen zu umfangreichen Triebschneeablagerungen geführt. Die mächtigen Triebschneepakete enthalten Schwachschichten und die Bindung zur Altschneedecke ist ungenügend. Dünne Zwischenschichten, überdeckter Graupel und kantige Kristalle im Übergang zur Altschneedecke sind vorhanden. Die Schneedecke ist allgemein stark windbeeinfluss und sehr unregelmäßig verteilt. Mit den milderen Temperaturen am Donnerstag kommt es zu einer Setzung der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Der leichte Schneefall klingt spätestens im Lauf des Vormittags am Donnerstag ab. Am Nachmittag gibt es im Bereich der Kalkalpen bei hohen Wolken ausreichende Sicht. Der Wind weht mäßig stark. In 1500 m morgens -4 Grad abends bis zu +4 Grad, in 2000 m morgens -7 Grad abends +1.&#13;
+Am Freitag scheint im Bereich der Berge bei guter Sicht oft die Sonne. Der Wind weht schwach bis mäßig stark und in den freien Lagen zum Teil lebhaft. In 1500 m hat es um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

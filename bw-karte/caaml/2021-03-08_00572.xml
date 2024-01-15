@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID572RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID572RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünner, kleinräumiger Triebschnee, Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen durch älteren Triebschnee in den höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend geringe Lawinengefahr. Lokal sind in schattseitigen hohen Kammlagen kleinräumige dünn überdeckte Triebschneeablagerungen vorhanden, die vereinzelt noch gestört werden können. Hochalpin und punktuell ist das Altschneeproblem zu beachten.</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gebildete Triebschnee bindet mit der harten Altschneedecke teils ungenügend und ist vereinzelt noch störanfällig. Die Schneedecke konnte sich etwas setzen und es gab Montagfrüh nur wenige Zentimeter Neuschnee. Die Schneeoberfläche ist oft noch locker oder windbeeinflusst, sonnseitig durch die nächtliche Ausstrahlung nur dünn verharscht. Die Altschneedecke ist überwiegend stabil und tragfähig. Die Schneehöhen sind deutlich unterdurchschnittlich, tiefe Lagen wieder aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag scheint zunächst oberhalb der Nebelfelder, die bis in Höhen von 700 bis 1000 m reichen, die Sonne. Dazu frischt Nordwestwind mit 30 bis 40 km/h auf. In 1500 m -6 bis -3 Grad, in 2000 m um -6 Grad.&#13;
+Am Mittwoch ist die Sicht durch tiefe Wolken und Nebel anfangs oft eingeschränkt, zeitweise schneit es. Tagsüber bricht die Sonne gelegentlich durch die Wolken, die Sicht wechselt immer wieder. Der Wind ist anfangs mäßig stark, frischt aber zunehmend auf und weht in exponierten Bereichen ab dem Vormittag mit 40 bis 60 km/h aus Nordwest. In 1500 m um -6 bis -3 Grad, im 2000 m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Etwas Schneefall und zunehmender Wind lassen die Lawinengefahr über der Waldgrenze am Mittwoch leicht ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

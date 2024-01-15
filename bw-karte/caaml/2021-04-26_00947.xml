@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID947RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-26T06:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID947RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-26T06:00:00+00:00</beginPosition>
+          <endPosition>2021-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-26T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-26T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-26T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Sonnenschein, Erwärmung, Regenschauer</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in einzelnen schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In der Früh günstige Bedingungen - dann steigt die Lawinengefahr auf mäßig an!</avActivityHighlights>
+          <avActivityComment>Es herrschen in der Früh günstige Bedingungen mit geringer Lawinengefahr, die im Tagesverlauf auf mäßig ansteigt. Anfangs Sonnenschein und milde Temperaturen, am Nachmittag leichte Regenschauer führen im Tagesverlauf zu vermehrter Nassschneeaktivität, die zu beachten ist. Im besonnten Steilgelände bzw. bei Regen am Nachmittag sind dann verstärkt spontane Nassschneelawinen zu erwarten. In steilen hochalpinen Kammlagen sind einzelne lokale Gefahrenstellen vor allem schattseitig zu beachten. Gleitschneelawinen auf vergrasten Steilhängen in den mittleren Lagen sind möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich über Nacht durch die Ausstrahlung je nach Höhe und Exposition oberflächig verschieden gut festigen, verharschen und geht mit der Sonneneinstrahlung und den steigenden Temperaturen dann auf und verliert somit ihre Festigkeit. Regenschauer verstärken den Festigkeitsverlust. Die Schneedecke wird somit feucht, nass und weicht auf und ist im Inneren ohnehin schon oft durchfeuchtet. In den Hochlagen gibt es nur schattseitig noch einzelne eingelagerte schwache Zwischenschichten. Tiefe und sonnseitig mittlere Lagen apern zunehmend aus.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen der Kalkalpen scheint heute Montag vorerst meist die Sonne. Im Lauf des Tages bilden sich Quellwolken, die die Gipfel zum Teil einhüllen. Am Dachstein und im Bereich des Toten Gebirges sind am Nachmittag einzelne Regen- und Schneeschauer möglich. In den Hochlagen weht zum Teil lebhafter Nordostwind. In 1500 m hat es 0 bis 5 Grad, in 2000 m um 2 Grad.&#13;
+Am Dienstag scheint am Vormittag auf den Bergen meist die Sonne. Am Nachmittag bilden sich Quellwolken die die Gipfel zum Teil einhüllen. In 1500 m hat es 0 bis 6 Grad, in 2000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinensituation ändert sich kaum. Auf den Tagesgang der Lawinengefahr ist zu achten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

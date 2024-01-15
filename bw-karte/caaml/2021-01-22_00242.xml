@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID242RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID242RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ab der Waldgrenze aufwärts, auslösbar im Übergang von wenig zu viel, extrem steile Hänge meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem erfordert kluge Spuranlage</avActivityHighlights>
+          <avActivityComment>Die Auslösung von Schneebrettlawinen ist an einzelnen steilen Hängen ober der Waldgrenze möglich. Auslösung ist insbesondere bei großer Belastung&#13;
+(einzelne Person zu Fuß, Zusammenstehen, Sturz, Gruppe) möglich. Potenzielle Gefahrenpunkte findet man vermehrt in den Richtungen NW-NO-SO, vereinzelt aber auch in den anderen Richtungen. Von der Geländeform her heikel sind die Übergänge von wenig Schnee zu mehr Schnee und schneearme Zonen. Die ausgelösten Schneebretter sind klein bis mittelgroß.</avActivityComment>
+          <snowpackStructureComment>Der kalte Neuschnee (meist 5-10 cm) deckt eine äußerst unterschiedliche Unterlage zu. Südseitig ist die Unterlage ein Schmelzharschdeckel. Rein nordseitig ist die Schneedecke teilweise immer noch grundlos. Dominant für die aktuelle Situation sind die weichen Schwachschichten aus kantigem Zuckerschnee im Inneren der nicht allzu üppigen Schneedecke. Diese waren in dieser Woche verantwortlich für Lawinenauslösungen und für die ungünstigen Stabilitätstests.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag dominieren Wolken, am Nachmittag wird die Sicht besser, diffus könnte die Sonne durchscheinen. In der Früh und am Vormittag schneit es mäßig stark, gegen Mittag kaum mehr. Neuschneemenge im Bereich um 5 bis 10 cm. In den ersten Stunden ist lebhafter Westwind dabei. Temperatursturz. In 2000m auf -8 Grad fallend.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung. Altschneeproblem bleibt dominant und erfordert Erfahrung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID242RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID242RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, auslösbar im Übergang von wenig zu viel und in schneearmen Zonen, sehr steile Zonen meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kleinräumige Triebschneepakete, meist dünn</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem erfordert Zurückhaltung und Erfahrung</avActivityHighlights>
+          <avActivityComment>Die Auslösung von Schneebrettlawinen ist an zahlreichen steilen Hängen ober der Waldgrenze möglich. Wobei bereits der Impuls einer Person ausreichen&#13;
+kann. Potenzielle Gefahrenpunkte findet man vermehrt in den Richtungen NW-NO-SO, vereinzelt aber auch in den anderen Richtungen. Von der Geländeform her heikel sind die Übergänge von wenig Schnee zu mehr Schnee. Die ausgelösten Schneebretter können mittelgroß, vereinzelt auch groß werden.</avActivityComment>
+          <snowpackStructureComment>Der kalte Neuschnee (meist 10 bis 15 cm) deckt eine äußerst unterschiedliche Unterlage zu. Südseitig ist die Unterlage ein Schmelzharschdeckel bis 2000 m hinauf. Windexponiert ist die Unterlage hart und abgeweht. Nordseitig gibt es kammnah nicht verfestigte Triebschneepakete vom Föhn der letzten Tage. Im schattigen Nordsektor ist die Schneedecke teilweise immer noch grundlos. Dominant für die aktuelle Situation sind die weichen Schwachschichten aus kantigem Zuckerschnee im Inneren der nicht allzu üppigen Schneedecke. Diese waren in dieser Woche verantwortlich für zahlreiche Lawinenauslösungen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag dominieren Wolken und Nebel. In der Früh und am Vormittag schneit es ein paar Stunden mäßig stark, am späteren Vormittag noch leicht und am Nachmittag kaum mehr. Neuschneemenge im Bereich um 10 bis 15 cm, kleinräumig mehr. In den ersten Stunden ist lebhafter Wind dabei, der Großteil des Schnees fällt mit wenig Wind. Temperatursturz. In 2000m auf -8 Grad fallend.</wxSynopsisComment>
+          <tendencyComment>Weiterhin ist Vorsicht und Zurückhaltung ab der Waldgrenze aufwärts wichtig. Hauptthema bleibt das Altschneeproblem, das sind also die alten und langlebigen Schwachschichten im Inneren der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID242RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID242RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, im Waldrandbereich, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, auslösbar im Übergang von wenig zu viel, in schneearmen Zonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unguter Mix: Neuschnee mit Wind, darunter das Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Gefahrenstellen sind zahlreich und auch für den Geübten/die Geübte nicht immer leicht zu erkennen. Es gilt am Samstag: Die sehr steilen Hänge meiden! Die meisten Gefahrenstellen findet man im Nord- und Ostsektor (W-N-SO), kammnah und kammfern, insbesondere auch hinter Geländestufen (Triebschnee). Zweiter Problemkreis neben dem frischen Triebschnee sind die Randbereiche von schneeärmeren Zonen, also die Einfahrten von abgewehten Rücken und Kuppen sowie felsdurchsetztes Steilgelände (Altschneeproblem). Dort kann man als Skifahrer vereinzelt mit geringer Belastung eine versteckte Schwachschicht stören. Kleine oberflächliche Lawinen könnten auf tiefe Schichten durchreißen. Lawinen können somit mittelgroß bis groß werden. Vereinzelte spontane Lawinen sind aus sehr steilen und stark eingewehten Zonen denkbar.</avActivityComment>
+          <snowpackStructureComment>Der kalte Neuschnee/Triebschnee (um 30 cm) verbindet sich mit der Unterlage nicht allzu gut und deckt eine äußerst unterschiedliche Unterlage zu. Im Nordsektor liegt am Waldrand und in den Rinnen und Mulden der noch nicht verfestigte Föhntriebschnee der letzten zwei Tage. Sonst ist viel abgeweht und hart unter dem Neuschnee. Im Inneren – und das ist immer noch sehr wichtig für die Situation – gibt es vor allem in den schneearmen Übergangszonen weiche Schwachschichten aus kantigem Zuckerschnee, welche in der letzten Woche für zahlreiche Lawinenauslösungen verantwortlich waren.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag dominieren Wolken und Nebel. In der Früh schneit es ein bis zwei Stunden intensiv, am Vormittag dann mäßig stark, am Nachmittag lässt der Schneefall nach. Neuschneemenge anwachsend auf 30 cm, im Grenzbereich zu Kärnten um 40 cm. In den ersten Stunden ist starker Wind dabei, teilweise aus Süd, später aus Nordwest. Temperatursturz. In 2000m auf -8 Grad, in 3000 m auf -13 Grad fallend.</wxSynopsisComment>
+          <tendencyComment>Auch am Sonntag heikel. Hauptthemen sind das frische Triebschneeproblem und das bekannte Altschneeproblem, das sind also die alten und langlebigen Schwachschichten im Inneren der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

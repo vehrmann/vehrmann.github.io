@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID101RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID101RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bei stürmischem Südwind überwiegend sonnige Verhältnisse, geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Von den Ybbstaler Alpen bis zur Rax-Schneeberggruppe besteht in höheren, windausgesetzten Lagen geringe Lawinengefahr. Gefahrenstellen in Form von dünnen Triebschneelinsen existieren nur vereinzelt hinter Geländeübergängen. Mit der Winddrehung auf Süd wird sich etwas Triebschnee im Nordsektor frisch ablagern.</avActivityComment>
+          <snowpackStructureComment>Der Weihnachts-Neuschnee lagerte sich auf aperen Böden oder durchbrochenen Altschneefeldern in den Hochlagen ab. Die Mengen fielen dabei je nach Region recht unterschiedlich aus und schwanken zwischen etwa 10 und knapp 30cm. Durch die Windeinwirkung konnten sich dünnere Triebschneelinsen bilden bzw. entstehen (mit der prognostizierten Winddrehung) in den Nordexpositionen neue. Nach wie vor ist die Schneesituation für Ende Dezember in Niederösterreich stark unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Der Sonntag verläuft zunächst überwiegend sonnig, im weiteren Tagesverlauf ist speziell von der Rax ostwärts mit einigen tieferen Wolkenfeldern zu rechnen. Die Temperaturen sind generell nicht mehr so kalt wie am Vortag, unterliegen aber einem ausgeprägten West-Ost-Gradienten. Liegen die Mittagswerte in den Ybbstaler Alpen in 1500m um 0 Grad, ist es im Bereich der Rax-Schneeberggruppe mit Werten um -4 Grad spürbar frischer. Der Wind weht stürmisch aus südlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>Am Montag überwiegen bei -2 Grad in 1500m ganztägig wieder dichtere Wolken. Ab dem Nachmittag ist zudem mit etwas Schneefall zu rechnen, allerdings werden nur wenige Zentimeter erwartet. Die Verhältnisse ändern sich nicht wesentlich, auch mit Blick Richtung Jahreswechsel ist kein lawinenrelevanter Schneezuwachs in Sicht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

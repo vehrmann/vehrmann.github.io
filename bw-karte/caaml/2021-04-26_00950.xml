@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID950RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-26T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID950RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-26T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in hochalpinen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem unter rund 2400 m</avActivityHighlights>
+          <avActivityComment>Ganztags sind auf Grund der kaum vorhanden Verfestigung der Schneedecke in den Nachtstunden und auch des Regeneintrages nasse Lawinen unterhalb rund 2400 m möglich. In schattseitigen hochalpinen Lagen besteht noch ein kleines Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>Der bedeckte Himmel, Regen bis gegen 1800 m und hohe Luftfeuchtigkeit führen dazu, dass sich die Schneedecke nur in hochalpinen Lagen in den Nachtstunden etwas verfestigen kann. Sonst ist die Schneedecke feucht und nass. In schattseitigen Expositionen sind in hohen und hochalpinen Lagen vereinzelt noch Schwachschichten im oberen Teil der Schneedecke zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Schwache Störungsausläufer in einer südwestlichen Strömung sorgen für einen wechselhaften Wetterverlauf. Am Dienstag überwiegen dichte Wolken aus welchen es besonders an der Südgrenze zu Schneeschauern kommen kann. Bei meist schwachem Wind aus S bis SW erreichen die Temperaturen in 2000 m -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch lockern die Wolken tagsüber ein wenig auf und nach kurzen sonnigen Phasen werden im Tagesverlauf die Quellwolken wieder etwas mehr. Es wird wieder milder. Tagesgang der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID950RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-26T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID950RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-26T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Vereinzelt sind aus steilen Geländeteilen spontane nasse Rutsche möglich.</avActivityComment>
+          <snowpackStructureComment>Die Ausaperung der feuchten und nassen Schneedecke schreitet rasch voran.</snowpackStructureComment>
+          <wxSynopsisComment>Schwache Störungsausläufer in einer südwestlichen Strömung sorgen für einen wechselhaften Wetterverlauf. Am Dienstag überwiegen dichte Wolken aus welchen es besonders an der Südgrenze zu Schneeschauern kommen kann. Bei meist schwachem Wind aus S bis SW erreichen die Temperaturen in 2000 m -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch lockern die Wolken tagsüber ein wenig auf und nach kurzen sonnigen Phasen werden im Tagesverlauf die Quellwolken wieder etwas mehr. Es wird wieder milder. Tagesgang der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

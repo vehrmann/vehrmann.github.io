@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3554RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3554RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In tiefen Lagen Durchnässung der Schneedecke, in höheren Lagen frischer Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt mit Neuschnee in Hochlagen und Regen in tieferen Lagen im Tagesverlauf an, bleibt aber voraussichtlich innerhalb der Gefahrenstufe MÄSSIG. Der Regen sorgt dabei für eine Durchfeuchtung und auch Durchnässung der Schneedecke was Gleitschneelawinen begünstigt. In höheren Lagen werden mit starkem bis stürmischem Wind frische Triebschneeablagerungen gebildet.</avActivityComment>
+          <snowpackStructureComment>Die Triebschneeablagerungen haben sich meist schon besser mit der Altschneedecke verbinden können. In Hochlagen ist die Bindung noch etwas schlechter. In der Altschneedecke sind Harschkrusten und aufbauend umgewandelte Schichten vorhanden. Am Freitagnachmittag wird die Schneedecke mit den Niederschlägen durchfeuchtet. Schnee, rund 20 bis 25 cm fällt dabei oberhalb von rund 1800 m.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag baut sich eine kräftige Südströmung auf, welche vorübergehend sehr warme Luft in den Alpenraum bringt. Den ganzen Tag bleiben die Wolken dicht und es regnet und schneit, bei einer Schneefallgrenze um 1800 m und darüber, verbreitet. Der Niederschlagsschwerpunkt liegt am Vormittag eher im Osten und am Nachmittag eher im Westen. Der starke Südwestwind weht in exponierten Lagen auch stürmisch. Die Temperaturen steigen tagsüber in 3000 m bis gegen -1 Grad, in 2000 m bis gegen +2 Grad und in 1000 m bis gegen +3 bis +6 Grad. In der Nacht auf Samstag intensivieren sich die Niederschläge und mit Zufuhr kalter Luft aus Norden sinkt dann auch die Schneefallgrenze bis in die Tallagen.</wxSynopsisComment>
+          <tendencyComment>Am Samstag gibt es einen markanten Wintereinbruch mit sehr viel Schnee, auch in den Tallagen. Damit steigt auch die Lawinengefahr markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3554RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3554RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-11-30T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-12-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-12-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Lawinengefahr im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von GERING auf MÄSSIG an. Die durchnässt Schneedecke kann als Gleitschneelawine abrutschen.</avActivityComment>
+          <snowpackStructureComment>In der noch gering mächtige Schneedecke sind vereinzelt Harschkrusten und aufbauend umgewandelte Schichten vorhanden. Mit den Niederschlägen welche oft bis gegen 2000 m, in den südlichen Gebirgsgruppen auch bis gegen 2400 m, als Regen fallen, wird die Schneedecke durchnässt. Dadurch entsteht ein Gleithorizont im Schneedeckenfundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag baut sich eine kräftige Südströmung auf, welche vorübergehend sehr warme Luft in den Alpenraum bringt. Den ganzen Tag bleiben die Wolken dicht und es regnet und schneit, bei einer Schneefallgrenze um 1800 m und darüber, verbreitet. Der Niederschlagsschwerpunkt liegt am Vormittag eher im Osten und am Nachmittag eher im Westen. Der starke Südwestwind weht in exponierten Lagen auch stürmisch. Die Temperaturen steigen tagsüber in 3000 m bis gegen -1 Grad, in 2000 m bis gegen +2 Grad und in 1000 m bis gegen +3 bis +6 Grad. In der Nacht auf Samstag intensivieren sich die Niederschläge und mit Zufuhr kalter Luft aus Norden sinkt dann auch die Schneefallgrenze bis in die Tallagen.</wxSynopsisComment>
+          <tendencyComment>Am Samstag gibt es einen markanten Wintereinbruch mit sehr viel Schnee, auch in den Tallagen. Damit steigt auch die Lawinengefahr markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3554RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3554RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-30T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mein geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Mit der Durchnässung steigt die Gefahr von kleinen Gleitschneelawinen etwas an.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist noch sehr gering mächtig. Kleine Triebschneelinsen in höheren Lagen haben sich meist gut gefestigt. Der Regen sorgt für eine Durchnässung und auch für einen Abbau der Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag baut sich eine kräftige Südströmung auf, welche vorübergehend sehr warme Luft in den Alpenraum bringt. Den ganzen Tag bleiben die Wolken dicht und es regnet und schneit, bei einer Schneefallgrenze um 1800 m und darüber, verbreitet. Der Niederschlagsschwerpunkt liegt am Vormittag eher im Osten und am Nachmittag eher im Westen. Der starke Südwestwind weht in exponierten Lagen auch stürmisch. Die Temperaturen steigen tagsüber in 3000 m bis gegen -1 Grad, in 2000 m bis gegen +2 Grad und in 1000 m bis gegen +3 bis +6 Grad. In der Nacht auf Samstag intensivieren sich die Niederschläge und mit Zufuhr kalter Luft aus Norden sinkt dann auch die Schneefallgrenze bis in die Tallagen.</wxSynopsisComment>
+          <tendencyComment>Mit sinkender Schneefallgrenze und intensiven Niederschlägen, steigt die Lawinengefahr an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-02"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-04-02"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-05-02"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

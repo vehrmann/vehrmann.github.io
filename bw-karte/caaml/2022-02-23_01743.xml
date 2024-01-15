@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1743RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1743RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem oberhalb der Waldgrenze</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit ERHEBLICH beurteilt, darunter ist sie GERING. Frische, mittelgroße Triebschneeablagerungen können bereits durch eine geringe Zusatzbelastung, vor allen in den Übergängen von wenig zu mehr Schnee, gestört werden und als mittelgroßes Schneebrett abrutschen.</avActivityComment>
+          <snowpackStructureComment>Der Triebschnee der letzten Tage ist sehr unterschiedlich verteilt. Mit Südwestwind, der im Tagesverlauf auf Nordwest dreht wird der Triebschnee jetzt in den Ostsektor verfrachtet. Die Altschneedecke hat sich gut gesetzt und verfestigt, in ihr sind aber kantige Schichten zu finden. Geländekanten sind meist abgeblasen.</snowpackStructureComment>
+          <wxSynopsisComment>Unter Zwischenhocheinfluss beginnt der Donnerstag sehr sonnig und mit ausgezeichneter Sicht. Im Tagesverlauf werden die hohen Wolken etwas dichter und in den Hohen Tauern wird es trüber mit diffuser Sicht. Der Wind aus westlicher Richtung weht schwach und in exponierten Lagen auch mäßig. In 3000 m hat es zu Mittag um -6 Grad, in 2000 m um -1 Grad und in 1000 m steigen die Temperaturen bis +8 Grad. Am Freitag zeigt sich kaum mehr die Sonne und am Nachmittag breitet sich leichter Schneefall aus. Der Wind dreht von anfangs Südwest auf Nordwest und wird auch wieder lebhafter. Die Temperaturen sinken wieder.</wxSynopsisComment>
+          <tendencyComment>Das Triebschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1743RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1743RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb rund 1900 m MÄSSIG, darunter GERING. Die frischen Triebschneeablagerungen werden durch stürmischem Wind ständig umgelagert. Eine Schneebrettauslösung ist insbesondere durch eine große Zusatzbelastung, vereinzelt auch durch eine geringe Zusatzbelastung möglich. Hier sind besonders die Übergänge von wenig zu mehr Schnee zu beachten.</avActivityComment>
+          <snowpackStructureComment>Mit mäßigem Südwind entstehen wieder frische Triebschneeablagerungen vor allem im Nordostsektor. Die Altschneedecke hat sich verbreitet gut gesetzt und verfestigt. In ihr sind aber aufbauend umgewandelte Schichten vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Unter Zwischenhocheinfluss beginnt der Donnerstag sehr sonnig und mit ausgezeichneter Sicht. Im Tagesverlauf werden die hohen Wolken etwas dichter und in den Hohen Tauern wird es trüber mit diffuser Sicht. Der Wind aus westlicher Richtung weht schwach und in exponierten Lagen auch mäßig. In 3000 m hat es zu Mittag um -6 Grad, in 2000 m um -1 Grad und in 1000 m steigen die Temperaturen bis +8 Grad. Am Freitag zeigt sich kaum mehr die Sonne und am Nachmittag breitet sich leichter Schneefall aus. Der Wind dreht von anfangs Südwest auf Nordwest und wird auch wieder lebhafter. Die Temperaturen sinken wieder.</wxSynopsisComment>
+          <tendencyComment>Das mäßige Triebschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1743RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1743RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit vereinzelten Triebschneelinsen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Vereinzelte Gefahrenstellen, wo die gering mächtigen Triebschneeablagerungen vereinzelt durch eine große Zusatzbelastung ausgelöst werden können, liegen in Gipfelbereichlagen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich gut setzen und verfestigen können. Auch die vereinzelten Triebschneelinsen haben sich stabilisieren können. In tiefen Lagen ist der noch vorhandene Schnee feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Unter Zwischenhocheinfluss beginnt der Donnerstag sehr sonnig und mit ausgezeichneter Sicht. Im Tagesverlauf werden die hohen Wolken etwas dichter und in den Hohen Tauern wird es trüber mit diffuser Sicht. Der Wind aus westlicher Richtung weht schwach und in exponierten Lagen auch mäßig. In 3000 m hat es zu Mittag um -6 Grad, in 2000 m um -1 Grad und in 1000 m steigen die Temperaturen bis +8 Grad. Am Freitag zeigt sich kaum mehr die Sonne und am Nachmittag breitet sich leichter Schneefall aus. Der Wind dreht von anfangs Südwest auf Nordwest und wird auch wieder lebhafter. Die Temperaturen sinken wieder.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

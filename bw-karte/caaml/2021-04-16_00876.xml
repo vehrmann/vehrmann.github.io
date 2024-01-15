@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID876RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-16T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID876RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-16T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-19T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>večje količine novega snega, obsežni zameti napihanega snega, za robovi (grebeni/slemena), nad gozdno mejo</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontano popoldansko plazenje, močno odvisno od usmerjenosti pobočja</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Prehodna ohladitev. Brez večjih padavin.</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je nad nadmorsko višino okoli 1700 m je ZMERNA,&#13;
+ 2. stopnje, nižje pa MAJHNA, 1. stopnje. Predvsem v visokogorju so še &#13;
+vedno nevarna strmejša pobočja z napihanim snegom, kjer lahko ob večji &#13;
+obremenitvi snežne odeje sprožite plaz kložastega snega. Na vetru &#13;
+izpostavljenih legah je nevarnost zdrsa.</avActivityComment>
+          <snowpackStructureComment>Snežna odeja je v suhem in mrzlem vremenu večinoma ostala suha in &#13;
+pomrznjena. Le v sredogorju se je ponekod na prisojnih legah čez dan &#13;
+prehodno ojužila. Spihana mesta ter grebeni so trdi in poledeneli. &#13;
+Veliko je klož, ki so večinoma na južnih in zahodnih straneh grebenov in&#13;
+ sedel.</snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Prevladovalo bo oblačno in ponekod megleno vreme. V nedeljo bodo vmes občasno manjše padavine. &#13;
+Ledišče bo med 1000 in 1300 m, meja sneženja med 700 in 1000 m nad morjem. Pihal bo šibak do zmeren&#13;
+ severovzhodnik. V ponedeljek bo oblačno in ponekod megleno z manjšimi padavinami.</wxSynopsisComment>
+          <tendencyComment>Snežna odeja se bo danes čez dan na prisojnih pobočjih prehodno ojužila &#13;
+predvsem pod nadmorsko višino okoli 1800 m. Ponoči bo pomrznila. V &#13;
+naslednjihj dneh se lavinske razmere zaradi oblačnega in hladnega &#13;
+vremena ne bodo kaj dosti spreminjale. Sneg bo večinoma pomrznjen in &#13;
+suh, do ponedeljka bo lahko zapadlo od 5 do 10 cm snega, več v vzhodnem &#13;
+delu naših gora. Še bo nevarnost zdrsa.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-02"/>
+      <locRef xlink:href="SI-04"/>
+      <locRef xlink:href="SI-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

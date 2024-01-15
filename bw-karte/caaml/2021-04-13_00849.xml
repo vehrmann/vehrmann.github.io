@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID849RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-13T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID849RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-13T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-14T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kleinräumiger Triebschnee in Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend mäßige Schneebrettgefahr - aber Triebschnee in höheren Lagen meiden und umgehen!</avActivityHighlights>
+          <avActivityComment>Überwiegend in den Hochlagen, teils auch ab der Waldgrenze ist störanfälliger Triebschnee vorhanden, der zu beachten ist. Eine Auslösung von Schneebrettlawinen ist in kammnahen eingewehten Steilhängen und steilen frisch verfüllten Rinnen vor allem nordost- über ost- bis südwestseitig auch bei geringer, ansonsten großen Zusatzbelastung möglich. Die Gefahrenstellen nehmen mit der Höhe auch zu. Je nach Neuschneemenge sind im Steilgelände einzelne kleine bis mittlere Lockerschneelawinen, sowie einzelne Gleitschneelawinen auf vergrasten Steilhängen in mittleren Lagen möglich.</avActivityComment>
+          <snowpackStructureComment>Gegen Abend und über Nacht zum Mittwoch gibt es in mittleren Lagen noch einmal rund 15/20 cm Neuschnee. Der bisherige Neuschneezuwachs ist bei meist schwachem bis mäßigem Wind gefallen. In den Hochlagen ist aber durch zeitweise starken Wind vermehrt Triebschnee vorhanden, der auch störanfällig ist. Die Bindung des zuletzt gebildeten und frischen Triebschnees mit der verharschten, gut gesetzten Altschneedecke, nur hochalpin schattseitig teils locker gebliebenem Schnee oder altem Triebschnee ist ungenügend und höhenabhängig. Im Inneren ist die Schneedecke je nach Höhe feucht bis nass. In tiefen Lagen gibt es wieder eine einige Zentimeter dicke Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch halten sich in den Bergen einige tiefe Wolken, die tagsüber aufquellen und aus denen sich leichte Schneeschauer entladen. Die Sicht ist wechselhaft. In 1500 m um -8 bis -4 Grad, in 2000 m um -8 Grad. Kalter Nordwind mit 30 bis 50 km/h verschärft die Temperaturen in den Hochlagen.&#13;
+Am Donnerstag lockern die Wolken vorübergehend ein wenig auf. Entlang der Berge überwiegen aber meist dichte Wolken und zeitweise entladen sich in Summe unergiebige Schneeschauer. In den Hochlagen weht lebhafter und kalter Nordwind. In 1500m hat es um -5 Grad, in 2000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. Triebschnee in den Hochlagen beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

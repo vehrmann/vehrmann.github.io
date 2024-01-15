@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1661RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1661RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Neuschnee mit mäßigem Wind</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im Nordsektor, an wenigen Stellen im Gelände auslösbar, auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee bei mäßigem Wind. Kleine trockene Lockerschneelawinen aus steilem Gelände sowie schattseitig weiterhin Schwachschichten im Altschnee berücksichtigen!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze wird die Lawinengefahr als MÄßIG beurteilt, darunter GERING. Gefahrenstellen finden sich schattseitig, im Übergang von wenig zu viel Schnee. Vereinzelt können Schwachschichten im Neuschnee bzw. am Übergang zum Altschnee ausgelöst werden. Durch große Zusatzbelastung können schattseitig auch noch Schwachschichten tiefer im Altschnee gestört werden und auch mittlere bis große Lawinen auslösen. Mit dem frischen Neuschnee sind trockene Lockerschneerutsche aus steilem Fels- und Schrofengelänge möglich. Sonnseitig ist auf steilen Grashängen weiterhin mit spontanen Gleitschneelawinen zu rechnen. Schneemäuler sollten als Gefahrenzeichen interpretiert werden. </avActivityComment>
+          <snowpackStructureComment>Sonnseitig hat sich die Schneedecke großteils gut gesetzt und ist stabil. An der Schneeoberfläche findet sich nach einigen sonnigen Tagen verbreitet ein tragfähiger Schmelzharschdeckel und stellenweise bereits Firn. Schattseitig ist die Schneeoberfläche teils noch recht weich, teils findet man Windharsch oder älteren Triebschnee. Darunter können auch noch Schwachschichten tiefer im Altschnee vorhanden sein. &#13;
+Im Laufe des Dienstags kommen ungefähr 15 - 20 cm Neuschnee bei nur mäßigem Wind hinzu. Sonnseitig wird sich der Neuschnee mit der teils feuchten Schneedecke gut verbinden können, hier finden sich Schwachschichten am ehesten im Neuschnee. Schattseitig kann es Schwachschichten zwischen Altschnee und Neuschnee sowie tiefer in der Altschneedecke geben&#13;
+Sonnseitig haben sich auf steilen Wiesenhängen Gleitschneemäuler gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag bestimmen eine Kaltfront aus Nordwest sowie ein Oberitalientief das Wettergeschehen. Bereits über Nacht ist es verbreitet bewölkt, ab der Früh liegen die Gipfel in den Wolken. Es herrschen eingeschränkte Sichtbedingungen auf den Bergen. Vormittags setzt im Ausseer Land bereits leichter Schneefall ein. Dieser breitet sich bis zum Nachmittag auch auf die östlichen Gebirgsgruppen aus. Nachmittags liegt der Niederschlagsschwerpunkt dann zwischen Hochschwab und Wechselgebiet. Mit der Front dreht der Wind von Südwest auf West bis Nordwest. Der Wind nimmt am späten Nachmittag etwas an Stärke zu, untertags gibt es auf den Bergen verbreitet Windgeschwindigkeiten bis zu 40 km/h, später Spitzen um 60 km/h. Die Schneefallgrenze liegt zwischen 800 und 1000 m und sinkt im Tagesverlauf leicht ab.  In 2000m Höhe gehen die Temperaturen auf etwa -5 Grad zurück.</wxSynopsisComment>
+          <tendencyComment>Der Niederschlag lässt am Dienstagabend bereits wieder nach, und verbreitet klart es auf. Im Laufe des Mittwochs nähert sich jedoch aus Nordwest bereits die Bewölkung einer Warmfront an, am Nachmittag setzt neuerlich Niederschlag ein. Voraussichtlich schneit es zu Beginn oberhalb von etwa 1200 m. Dazu wird es stürmisch. Mit Erwärmung,  Niederschlag und stürmischem Wind Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

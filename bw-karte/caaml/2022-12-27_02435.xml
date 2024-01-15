@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2435RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2435RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>vereinzelt und dünn in kammnahen Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es besteht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Niederösterreichischen Gebirgsgruppen herrscht weiterhin geringe Lawinengefahr. Wenige Zentimeter Neuschnee in der Nacht von Montag auf Dienstag haben in den Hochlagen zur Bildung dünner Triebschneelinsen geführt. Sie können in kammnahen Hochlagen hinter Geländeübergängen vereinzelt (und sofern sie auf einer Altschneeunterlage liegen) als kleines Schneebrett abgetreten werden. Aufgrund des generellen Schneedefizits sind Gefahrenstellen derzeit selten.</avActivityComment>
+          <snowpackStructureComment>Die wenigen Zentimeter Neu- bzw. Triebschnee lagerten sich windbearbeitet auf vormals angefeuchteten bis durchnässten, mittlerweile aber verharschten Oberflächen ab. Durch das überaus milde Wetter um Weihnachten ist die Ausaperung zügig vorangeschritten, auch in den Hochlagen liegt in allen Gebirgsgruppen deutlich weniger Schnee als in einem durchschnittlichen Winter.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ziehen am früheren Morgen aus dem Westen dichtere, mittelhohe Wolkenfelder auf, wobei es jedoch ganztägig niederschlagsfrei bleiben wird. Ab etwa Mittag kann sich auch die Sonne zeigen, am späteren Nachmittag ist generell häufiger mit Sonnenschein zu rechnen. Bei mäßigem bis starkem Wind aus westlichen Richtungen wird es etwas milder als am Vortag, die Mittagstemperaturen liegen in 1500m bei etwa +1 und in 2000m bei -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag zeigt sich zunächst noch ab und zu die Sonne, in weiterer Folge werden mittelhohe Wolkenfelder jedoch zunehmend dichter. Die Temperaturen liegen um Mittag in 1500m bei etwa +5 und in 2000m bei +2 Grad. Der Wind weht schwach bis mäßig aus unterschiedlichen Richtungen. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

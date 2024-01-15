@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3286RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3286RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee ist oberhalb der Waldgrenze leicht zu stören</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über der Waldgrenze mit mäßig&#13;
+ beurteilt, darunter ist sie gering. Die Hauptgefahr &#13;
+geht von frischen Triebschneepaketen in den Hochlagen aus, diese lagern hinter Geländekanten sowie in eingewehten Rinnen und Mulden der erweiterten Ostexpositionen. Sie sind störanfällig und können stellenweise bereits durch geringe Zusatzbelastung ausgelöst werden. Meist bleiben die Lawinen klein, vereinzelt erreichen sie jedoch mittlere Größe. Aufgrund der eingeschränkten Sichtbedinungen sind sie im Gelände schlecht zu erkennen. Dazu bleibt besonders in schneereichen Gebieten die Gefahr von Gleitschneelawinen an extrem steilen Wald- und Wiesenhängen bestehen.</avActivityComment>
+          <snowpackStructureComment>Bis Sonntagabend fallen bei starkem bis stürmischem Wind aus westlichen Richtungen 10 - 20 cm Neuschnee, in Staulagen kann es auch etwas mehr sein. Der Neu- bzw. Triebschnee lagert sich in den Hochlagen auf älteren Triebschneelinsen (vom Freitag und Samstag) ab, die Verbindung zwischen den Triebschneepaketen ist schlecht, auch weichere Schichten im Triebschnee sind störanfällig. Unter den Triebschneepaketen ist die Schneedecke auch in den Hochlagen bereits feucht oder es hat sich eine dünne Harschkruste gebildet. In mittleren und tiefen Lagen fällt der Schnee auf vormals apere Flächen oder eine stark durchbrochene, nasse Schneedecke. Die Verbindung zum Untergrund ist hier meist gut. Mit der zunehmenden Abkühlung verfestigt sich auch die Schneedecke tiefen und mittleren Lagen langsam wieder, dennoch ist es weiterhin nicht ausgeschlossen, dass die ehemals durchnässte Schneedecke am glatten Boden ins Gleiten kommt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Berggipfel in den Ybbstaler Alpen&#13;
+stecken in der Nacht sowie den gesamten Sonntag in dichten Wolken. Aus der Wolkenschicht &#13;
+regnet und schneit es bei einer Schneefallgrenze um 1200 m Seehöhe &#13;
+häufig. Besonders in den Nachmittagsstunden intensivieren sich die Niederschläge bei sinkender Schneefallgrenze, abends schneit es auf etwa 800 - 1000 m hinab.  Der Wind bläst auf &#13;
+den Gipfeln stark bis stürmisch zunächst aus West, am Nachmittag aus &#13;
+Nordwest bis Nord. Die Temperaturen liegen auf 1500 m Seehöhe morgens um 0 &#13;
+Grad, abends um -2.&#13;
+Am Montag bleiben die &#13;
+Berggipfel der Ybbstaler Alpen meist in dichte Wolken gehüllt, aus denen es bei &#13;
+einer Schneefallgrenze um 500m Seehöhe immer wieder leicht schneit. Nachmittags lässt der Niederschlag dann nach. Der Wind aus nördlichen Richtungen bläst &#13;
+lebhaft bei rund minus 8 Grad in 1500m Seehöhe.</wxSynopsisComment>
+          <tendencyComment>Das Triebschneeproblem bleibt bestehen, keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3286RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3286RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - dennoch auf frischen, störanfälligen Triebschnee in den Hochlagen achten!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, dennoch sollte man frische Triebschneelinsen in den Hochlagen zurückhaltend beurteilen. Diese bilden sich vorwiegend nachmittags hinter Geländekanten sowie in steilen Rinnen und Mulden und sind störanfällig. Schneebrettawinen bleiben allerdings klein, die Absturzgefahr überwiegt die Verschüttungsgefahr. Aufgrund der eingeschränkten Sichtbedinungen sind die Gefahrenstellen schlecht zu erkennen. Dazu bleibt die Gefahr von kleinen Gleitschneelawinen an extrem steilen Wald- und Wiesenhängen bestehen. Mit der Abkühlung geht das Nassschneeproblem zurück.</avActivityComment>
+          <snowpackStructureComment>Bis Sonntagabend fallen bei starkem bis stürmischem Wind aus westlichen Richtungen verbreitet 5 - 10 cm Neuschnee. Dieser lagert sich in den Hochlagen auf einer feuchten Schneeoberfläche oder einer dünnen Harschkruste ab, in mittleren und tiefen Lagen auf einer stark durchbrochenen, nassen Schneedecke oder vormals aperen Flächen. Die Verbindung zum Untergrund ist meist gut. Schwachschichten tiefer in der Schneedecke gibt es kaum noch, allerdings können weichere Schichten im frischen Triebschnee störanfällig sein. Mit der zunehmenden Abkühlung verfestigt sich auch die Schneedecke tiefen und mittleren Lagen langsam wieder, dennoch ist es weiterhin nicht ausgeschlossen, dass die ehemals durchnässte Schneedecke am glatten Boden ins Gleiten kommt.</snowpackStructureComment>
+          <wxSynopsisComment>Im Lauf der Nacht zieht es zu, der Sonntag verläuft meist dicht bewölkt. In der Nacht und am Sonntagvormittag schneit meist nur unergiebig, erst nach Mittag intensiviert sich der Niederschlag und schneit es bei einer Schneefallgrenze um 1200 m Seehöhe &#13;
+häufig. In den Nachmittagsstunden sinkt die Schneefallgrenze ab, abends schneit es auf etwa 800 - 1000 m hinab.  Der Wind bläst auf &#13;
+den Gipfeln stark bis stürmisch zunächst aus West, am Nachmittag aus &#13;
+Nordwest bis Nord. Die Temperaturen liegen auf 1500 m Seehöhe morgens um 0 &#13;
+Grad, abends um -2.&#13;
+Am Montag hängen morgens noch dichte, tiefe Wolken an den Bergen, diese lockern jedoch im Laufe des Vormittags auf und immer öfter kann auch die Sonne zum Vorschein kommen. Abgesehen von kurzen Schneeschauern sollte es meist trocken bleiben, die Schneefallgrenze liegt um 500 m. Der Wind aus nördlichen Richtungen bläst &#13;
+lebhaft bei rund minus 8 Grad in 1500m Seehöhe.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneelinsen bleiben vorerst störanfällig, es gibt keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2932RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2932RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunehmende Einsinktiefen weisen auf die Gefahr von Nassschneelawinen hin.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Morgen allgemein gering, steigt dann im Tagesverlauf bis in die Hochlagen hinein auf mäßig an.  Das Hauptproblem ist Nassschnee. Im Tagesverlauf kann es zur Selbstauslösung einiger kleinerer Nassschneelawinen kommen. An steilen Wiesenhängen und aus lückigen Bergwäldern ist das Abrutschen kleiner bis mittelgroßer Gleitschneelawinen auf glattem Untergrund möglich. Gleitschneerisse weisen auf die Gefahr hin. &#13;
+Daneben können besonders im Osten des Bayerischen Alpenraums in den höchsten Lagen teilweise geringmächtige Triebschneeansammlungen im kammnahen, nord- bis ostexponierten Steilgelände als kleines Schneebrett ausgelöst werden. Absturzgefahr beachten.</avActivityComment>
+          <snowpackStructureComment>Im Wechsel von nächtlicher Abstrahlung und tageszeitlicher Erwärmung ist die Schneedecke am Morgen allgemein gut gesetzt und verfestigt. In den mittleren Lagen ist sie unter einem Harschdeckel bis zum Boden durchfeuchtet. Mit Sonneneinstrahlung und tageszeitlicher Erwärmung weicht der Harschdeckel auf und die Schneedecke verliert bis in die Hochlagen hinein wieder an Festigkeit. Sonnseitig apert der Boden bis in mittlere Lagen immer mehr aus. In den höchsten Lagen besonders im Osten des Bayerischen Alpenraums konnte kleinräumig Triebschnee entstehen, der sich jedoch meist gut mit der Altschneeoberfläche verbindet.</snowpackStructureComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2932RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2932RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kaum mehr Skitouren möglich. Der wenige Schnee ist durchfeuchtet.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Das Hauptproblem ist Nassschnee. Im Tagesverlauf kann es zur Selbstauslösung einzelner, meist kleiner Nassschneelawinen kommen. An steilen, noch nicht entladenen Wiesenhängen und aus lückigen Bergwäldern ist das Abrutschen kleiner bis vereinzelt mittelgroßer Gleitschneelawinen auf glattem Untergrund möglich. Gleitschneerisse weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Im Wechsel von nächtlicher Abstrahlung und tageszeitlicher Erwärmung ist die Schneedecke am Morgen allgemein gut gesetzt und verfestigt. Unter einem Harschdeckel am Morgen ist sie bis zum Boden durchfeuchtet. Mit Sonneneinstrahlung und tageszeitlicher Erwärmung weicht der Harschdeckel auf und die Schneedecke verliert wieder an Festigkeit. Aufgrund der geringen Schneemächtigkeiten bleiben Auslösungen aber meist klein. Sonnseitig apert der Boden immer mehr aus.</snowpackStructureComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

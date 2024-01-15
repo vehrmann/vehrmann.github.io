@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3657RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3657RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>mit der Höhe Zunahme der Störanfälligkeit</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität nimmt im Tagesverlauf ab</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Waldgrenze - Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige Lawinengefahr. Die Gefahrenstellen bilden frische Triebschneeablagerungen speziell in den erweiterten Süd- bis Ostexpositionen, die bereits durch geringe Zusatzbelastung ausgelöst werden können. In mittleren und tiefen Lagen sind weiterhin spontane Nass- und Lockerschneelawinen aus sehr steilem Gelände aller Expositionen möglich, allerdings nimmt die Wahrscheinlichkeit mit der Abkühlung im Tagesverlauf ab. Aus sehr steilen Hängen mit Rasenflächen oder glattem Fels ist bei ausreichend mächtiger Schneedecke weiterhin mit Gleitschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Von der Koralpe bis zur Turrach sowie von den Niederen Tauern bis zum Toten Gebirge sind seit Dienstagnacht in den Hochlagen bis zu 30 cm Neuschnee gefallen. Diese haben sich bis auf etwa 1700 m Seehöhe auf eine feuchte bzw. nasse Schneedecke abgelagert und gut verbunden. Darüber lagerte sich der Neuschnee auf eine verharschte Schneeoberfläche ab, womit die Verbindung eher schlecht ist. Mit dem mäßigen bis stürmischen Nordwestwind bildeten sich Triebschneelinsen in den erweiterten Süd- bis Ostexpositionen, deren Störanfälligkeit mit der Höhe zunimmt. In den mittleren und tiefen Lagen ist die Schneedecke bereits bis zum Boden feucht bzw. nass und kann jederzeit als spontane Lawine abrutschen. Die Wahrscheinlichkeit nimmt aber im Tagesverlauf mit Rückgang der Temperaturen ab.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag stauen sich mit einer kräftigen Nordwestströmung entlang der Nordalpen und Niederen Tauern Wolken und es schneit leicht. Größere Neuschneemengen kommen nicht zusammen. An der Alpensüdseite sorgt der Nordwind für Föhneffekte, hier lockert die Bewölkung im Tagesverlauf immer mehr auf und die Sonne scheint. Der Nordwestwind weht mäßig, am Alpenostrand lebhaft, in exponierten Lagen auch stürmisch. In 2000 m kühlt es auf -4 bis -6 Grad ab.</wxSynopsisComment>
+          <tendencyComment>Unverändertes Wetter am Freitag. Während in den Nordalpen die Gipfel meist in dichten Wolken stecken und es immer wieder ein wenig schneit, zeigt sich im Süden bei aufgelockerter oder sogar geringer Bewölkung häufig die Sonne. Die Nassschneeproblematik nimmt weiter ab, in den Stauregionen kommt etwas mehr Neu- bzw. Triebschnee hinzu. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3657RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3657RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität nimmt im Tagesverlauf ab</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit noch möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nass- und Gleitschneelawinen aus sehr steilem Gelände noch möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem geht weiterhin von spontanen Nass- oder Gleitschneelawinen aus. Diese können sich noch ganztägig aus sehr steilen Hängen aller Expositionen lösen. Mit dem Rückgang der Temperaturen wird die Wahrscheinlichkeit aber im Tagesverlauf geringer.</avActivityComment>
+          <snowpackStructureComment>Die geringmächtige Schneedecke ist bis in höhere Lagen feucht bzw. bis zum Boden hin nass, hat keine gute Verbindung zum Boden und gleitet auf glattem Untergrund. Ansonsten ist die Schneedecke generell gut gesetzt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag stauen sich mit einer kräftigen Nordwestströmung entlang der Nordalpen und Niederen Tauern Wolken und es schneit leicht. Größere Neuschneemengen kommen nicht zusammen. An der Alpensüdseite sorgt der Nordwind für Föhneffekte, hier lockert die Bewölkung im Tagesverlauf immer mehr auf und die Sonne scheint. Der Nordwestwind weht mäßig, am Alpenostrand lebhaft, in exponierten Lagen auch stürmisch. In 2000 m kühlt es auf -4 bis -6 Grad ab.</wxSynopsisComment>
+          <tendencyComment>Unverändertes Wetter am Freitag. Während in den Nordalpen die Gipfel meist in dichten Wolken stecken und es immer wieder ein wenig schneit, zeigt sich im Süden bei aufgelockerter oder sogar geringer Bewölkung häufig die Sonne. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

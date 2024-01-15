@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3222RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3222RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee und Nassschnee bilden die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit Mäßig beurteilt. Die durchnässte Schneedecke kann sich mit den etwas sinkenden Temperaturen gering stabilisieren. Mit etwas Neuschnee und Wind aus Nordwest entstehen ober rund 1900 m frische Triebschneeablagerungen welche auch etwas leichter zu stören sind.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist bis in höhere Lagen schon sehr feucht und auch durchnässt. Die nächtliche Abstrahlung der Schneedecke ist reduziert und etwas Neuschnee fällt über rund 1500 m in der Nacht zum Samstag und am Samstag. Mit auflebendem Wind entstehen über rund 1900 m frische Triebschneeablagerungen welche auch etwas störanfälliger sind. In schattseitigen Expositionen sind vor allem in hohen Lagen auch noch schwache, kantig aufgebaute Schichten vorhanden. In tiefen Lagen liegt kein Schnee mehr.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht zum Samstag zieht eine Kaltfront mit Niederschlägen durch. Der Samstag beginnt stark bewölkt und in den östlichen Gebirgsgruppen kann es noch ein wenig schneien und regnen. Tagsüber lockern die Wolken von Westen her etwas auf und zwischendurch kann auch die Sonne scheinen. Der Wind dreht auf Nordwest und weht teils lebhaft. Die Temperaturen liegen tagsüber in 3000 m um -8 Grad, in 2000 m um -1 Grad und in 1000 m um +9 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Triebschnee kann sich etwas stabilisieren, das Nassschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3222RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3222RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb rund 1900 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee und Nassschnee bilden die Hauptgefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb rund 1600 m mit Mäßig beurteilt. In Lagen über 1900 m nimmt mit Neuschnee und Wind das Triebschneeproblem zu. In Lagen unter rund 1600 m wird die Schneedecke mit Regen weiter durchnässt, das Nassschneeproblem bleibt bestehen.</avActivityComment>
+          <snowpackStructureComment>Auf die durchnässte Schneedecke fällt etwas Neuschnee der vom lebhaften Wind aus nord- und südwestlicher Richtung in den höheren Lagen verfrachtet wird. In tieferen Lagen wird mit Regen die Schneedecke weiter durchnässt und abgebaut. In tiefen Lagen liegt kein Schnee mehr.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht zum Samstag zieht eine Kaltfront mit Niederschlägen durch. Der Samstag beginnt stark bewölkt und in den östlichen Gebirgsgruppen kann es noch ein wenig schneien und regnen. Tagsüber lockern die Wolken von Westen her etwas auf und zwischendurch kann auch die Sonne scheinen. Der Wind dreht auf Nordwest und weht teils lebhaft. Die Temperaturen liegen tagsüber in 3000 m um -8 Grad, in 2000 m um -1 Grad und in 1000 m um +9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Triebschneeablagerungen können sich am Sonntag etwas stabilisieren, das Nassschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-12-02"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3222RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3222RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Das Nassschneeproblem überwiegt, frische kleine Triebschneeablagerungen im Gipfelbereich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit Gering beurteilt. Der Temperaturrückgang bewirkt eine leichte Stabilisierung der nassen Schneedecke. Regen sorgt wieder für einen Festigkeitsverlust. Mit etwas Neuschnee und lebhaftem Wind entstehen im Gipfelbereich kleinere Triebschneeablagerungen welche überwiegend durch eine große Zusatzbelastung ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Mit sinkenden Temperaturen geht in der Nacht auf Samstag der Regen bis rund 1500 m langsam in Schneefall über. Es werden nur geringe Schneemengen erwartet. Dieser wird in Gipfelbereichen durch den lebhaften Nordwestwind etwas verfrachtet. Es entstehen kleine Triebschneelinsen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht zum Samstag zieht eine Kaltfront mit Niederschlägen durch. Der Samstag beginnt stark bewölkt und in den östlichen Gebirgsgruppen kann es noch ein wenig schneien und regnen. Tagsüber lockern die Wolken von Westen her etwas auf und zwischendurch kann auch die Sonne scheinen. Der Wind dreht auf Nordwest und weht teils lebhaft. Die Temperaturen liegen tagsüber in 3000 m um -8 Grad, in 2000 m um -1 Grad und in 1000 m um +9 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Triebschnee im Gipfelbereich stabilisiert sich, das Nassschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-02"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-05-02"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

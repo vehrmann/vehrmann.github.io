@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1628RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1628RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Abkühlung, etwas Neuschnee und Wind - in Hochlagen vereinzelt älteren, sonst lokal frischen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen sind lokal und vor allem schattseitig teils noch Triebschneeablagerungen vorhanden, die insbesondere bei großer Zusatzbelastung gestört werden können. Gut gefüllte Steilhänge, steile Rinnen und Übergänge von wenig zu viel Schnee sind hier zu beachten. Lokal, über der Waldgrenze gibt es frischen Triebschnee. Mit der Abkühlung geht die Gefahr für Nassschneelawinen deutlich zurück. Auf vergrasten Steilhängen sind einzelne Gleitschneelawinen aber möglich.</avActivityComment>
+          <snowpackStructureComment>Über Nacht und mit dem Temperaturrückgang hat sich die Schneedecke dann gefestigt, ist oberflächig oft tragfähig verharscht und hat sich stabilisiert. Es gibt nur unbedeutenden Schneefall bzw. Neuschnee der lokal etwas verfrachtet wird. Die Schneedecke selbst ist stark windbeeinflusst oft gepresst und sehr unregelmäßig verteilt, nur in sehr hohen Lagen schattseitig teils pulvrig. In den höheren schattigen Lagen sind vereinzelt Schwachschichten (kantige Kristalle) in der Altschneedecke eingelagert. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag führt ein Kaltfrontdurchgang zu dichten Wolken, Hangnebel und Schneeschauern. Dazu kommen Windspitzen aus westlicher Richtung um 60 km/h. Der meiste Neuschnee fällt im Bereich der Kalkalpen: 5 bis 10 cm. Die Schneefallgrenze sinkt im Tagesverlauf von über 1000 m auf etwa 500 m herab. Abkühlung: in 1500 m von -1 auf -6 Grad, in 2000 m: von -2 auf -8 Grad am Abend.&#13;
+Am Samstag verziehen sich ein paar letzte Wolkenfelder rasch, danach scheint die Sonne ungetrübt und die Sicht ist hervorragend. Der Ostwind weht mit Spitzen zwischen 30 und 40 km/h. Erwärmung in 1500 m von -6 auf -1 Grad, in 2000 m von -9 auf -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit den milderen Temperaturen und viel Sonnenschein kommt es im Tagesverlauf zu einem leichter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

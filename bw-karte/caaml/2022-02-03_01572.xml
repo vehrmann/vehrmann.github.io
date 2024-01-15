@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1572RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1572RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>umfangreicher Triebschnee, leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es ist teilweise noch immer leicht auslösbarer Triebschnee vorhanden!</avActivityHighlights>
+          <avActivityComment>Die Anzahl der Gefahrenstellen ist zurückgegangen. Vor allem über der Waldgrenze, stellenweise auch darunter (im lichten Bergwald, Freiflächen), sind weiterhin störanfällige umfangreiche Triebschneeablagerungen vorhanden. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich. Mit der Höhe nimmt die Zahl der Gefahrenstellen zu. Sie sind aber eher kammfern als kammnah anzutreffen. Aus den Hochlagen sind spontane Schneebrett- oder Lockerschneelawinen im Steilgelände möglich, die auch noch mittelgroß oder groß sein können. In den tiefen und mittleren Lagen können feuchte bis nasse spontane Lawinen bis mittlerer Größe nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen hat der stürmische Wind die Schneedecke sehr stark umgelagert. Exponierte Flächen sind oft stark abgeweht. Die Oberfläche ist oft windgepresst, teils auch sehr hart und eisig. Durch die milderen Temperaturen konnte sich die Schneedecke schon etwas setzen. Triebschneepakete können, vor allem in den höheren Lagen, aber noch immer Schwachschichten (überdeckter Graupel, unterschiedlich harte dünne Zwischenschichten) enthalten, die auch angesprochen werden können. In den tiefen Lagen wurde der Schnee auch schon angefeuchtet und teils nass.</snowpackStructureComment>
+          <wxSynopsisComment>Im Bereich der Kalkalpen scheint bei guter Sicht oft die Sonne. Der Wind weht schwach bis mäßig stark und in den freien Lagen zum Teil lebhaft. In 1500 m hat es um -1 Grad, in 2000 m um -3 Grad.&#13;
+In der Nacht auf Samstag schneit es ein wenig. Am Samstag lockern bei sehr windiger Witterung die Wolken bald auf und lassen oft die Sonne scheinen. In mittleren Höhenlagen weht der West- bis Nordwestwind lebhaft, in den Gipfelregionen zum Teil stürmisch. In 1500 m hat es um -5 Grad, in 2000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht weiter langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

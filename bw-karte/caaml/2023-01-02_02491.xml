@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2491RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2491RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>Absturzgefahr beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneemangel</avActivityHighlights>
+          <avActivityComment>Aufgrund von Schneemangel existieren in den Niederösterreichischen Alpen kaum noch lawinenrelevante Gefahrenstellen. Im schattigen Steilgelände ist auf harten, vereisten Oberflächen die Absturzgefahr zu beachten!</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltend extrem milden Temperaturen sowie ausbleibendem Niederschlag ist in alle Höhenlagen oft nur mehr eine durchbrochene, meist feuchte Schneedecke vorhanden, die Sonnseiten sind meist schneefrei. Schattseitig ist die Schneeoberfläche oft verharscht.  </snowpackStructureComment>
+          <wxSynopsisComment>In die westliche Höhenströmung ist eine schwache Kaltfront eingelagert, die im Niederösterreichischen Bergland bis zum Nachmittag für dichte Wolken aber nur unergiebigen Niederschlag sorgt. Die Schneefallgrenze sinkt auf ca. 1500m. Am Nachmittag besteht die Chance auf Auflockerungen. Mit leichter Abkühlung liegen die Temperaturen in 2000m um den Gefrierpunkt, in 1500m bei zarten Plusgraden. Der Wind aus westlichen Richtungen bleibt mäßig.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch herrscht vorerst freundliches Bergwetter, am Nachmittag ziehen aus Westen vermehrt Wolken einer Kaltfront auf, die am Donnerstag etwas Niederschlag bringt, vor allem aber für oft stürmische Verhältnisse auf den Bergen sorgt. Aus heutiger Sicht ist bis zum Beginn der kommenden Woche kein nennenswerter Niederschlag zu erwarten, dazu bleibt es weiterhin zu mild für Anfang Jänner. An der Lawinengefahr ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

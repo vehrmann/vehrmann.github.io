@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID363RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID363RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Triebschnee in den Hochlagen, mäßige Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr. In den Hochlagen sind durch Wind und Neuschnee in den Expositionen Nord über Ost bis Süd frische Triebschneelinsen entstanden, zudem herrscht in schattseitigen Hochlagen nach wie vor ein Altschneeproblem. Schneebrettlawinen können vor allem in Bereichen mit frischem Triebschnee hinter Geländeübergängen und in Einfahrten zu Rinnen und Mulden und bei Übergängen von wenig zu viel Schnee ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen besteht vor allem schattseitig vereinzelt noch ein Altschneeproblem (Schwimmschneefundament), abgesehen davon ist die Altschneedecke stabil. Oberflächlich haben sich kleinere Triebschneeansammlungen gebildet, die Schwachschichten enthalten können und nicht immer gut mit dem Untergrund verbunden sind. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Am Dienstag sind die Berge in Wolken gehüllt, die Sichtbedingungen sind schlecht und ab dem Vormittag ist immer wieder mit Schneefall zu rechnen. Die Schneefallgrenze liegt bei etwa 500m. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500m liegen die Mittagstemperaturen um -3 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch bleibt es trüb und winterlich mit schlechten Sichtbedingungen und etwas Schneefall. Der Wind dreht auf Südwest und wird stärker. Die Lawinengefahr durch frischen Triebschnee bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID363RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID363RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Triebschnee, geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>&#13;
+&#13;
+In den Türnitzer Alpen herrscht geringe Lawinengefahr. Rückläufige Temperaturen stabilisieren die nasse Schneedecke, darauf bilden sich vereinzelt kleine Triebschneelinsen. Mit sinkender Schneefallgrenze wird bei Westwind etwas Neuschnee fallen, allerdings sind die erwarteten Mengen kaum lawinenrelevant.&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>&#13;
+Regen hat die Schneedecke großteils durchfeuchtet, die Abkühlung seit Montag sorgt nun für eine Stabilisierung. Oberflächlich bilden sich kleine Triebschneeansammlungen, die nicht immer gut mit dem Untergrund verbunden sind. &#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+&#13;
+Am Dienstag sind die Berge in Wolken gehüllt, die Sichtbedingungen sind schlecht und ab dem Vormittag ist immer wieder mit Schneefall zu rechnen. Die Schneefallgrenze liegt bei etwa 500m. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500m liegen die Mittagstemperaturen um -3 Grad.&#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch bleibt es trüb und winterlich mit schlechten Sichtbedingungen und etwas Schneefall. Der Wind dreht auf Südwest und wird stärker. Die Lawinengefahr durch frischen Triebschnee bleibt bestehen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

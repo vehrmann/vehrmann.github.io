@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3090RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3090RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Noch kalt in 2000m!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb von 1900m mit mäßig und darunter mit gering beurteilt. Neue Gefahrenstellen sind in den Sektoren Nordost bis Südost. Der Sturm verfrachtete in den Hochlagen Schnee, der sich kammfern bzw. hinter Geländekanten abgelagert hat. Der frische Triebschnee ist spröde und leicht (durch eine geringe Zusatzbelastung) auslösbar. Da das Schneedeckenfundament stabil ist kann nur der Triebschnee ausgelöst werden, daher wird maximal eine Lawinengröße 2 erwartet.  </avActivityComment>
+          <snowpackStructureComment>Mit dem Kaltluftvorstoß stabilisierte sich dich Schneedeckenoberfläche. Es bildete sich eine Harschkruste aus. In den letzten 24 Stunden sind 5 bis 15cm Neuschnee gefallen. Der Sturm verfrachtete in den Hochlagen den Schnee und dieser lagerte sich auf der harten Altschneeoberfläche ab. Schwachschichten können innerhalb der Triebschneeschicht auftreten aber auch die Verbindung des kalten frischen Triebschnees mit der Altschneedecke ist nicht ausreichend. Die Altschneedecke ist generell recht stabil. Bodennah ist die Schneedecke feucht bzw. nass.</snowpackStructureComment>
+          <wxSynopsisComment>Die Gipfel der Nordalpen und der Niederen Tauern sind am Vormittag bereits in dichte Wolken gehüllt. Ab etwa Mittag setzt in der Dachstein-Tauern-Region leichter Schneefall ein, die Schneefallgrenze steigt gegen 1000m Seehöhe. Der Schnee breitet sich bis zum Abend entlang der Alpennordseite nach Osten aus. Der Wind weht nur noch in Kammlagen lebhaft aus Nordwest. In 2000m Seehöhe hat es zu Mittag um minus 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag sind die Gipfel der steirischen Berge immer wieder in dichte Wolken gehüllt, zwischendurch scheint die Sonne aber auch wieder von einem nahezu wolkenlosen Himmel. Der Höhenwind dreht auf West, weht in Kamm- und Gipfellagen aber weiterhin teils lebhaft. Es wird in allen Höhenlagen deutlich milder, in 2000m Seehöhe hat es zu Mittag um plus 6 Grad. Ein Tagesgang der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3090RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3090RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sturm - frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Vereinzelte Gefahrenstellen liegen im erweitertem Ostsektor. Triebschneelinsen können leicht ausgelöst werden. Allerdings wird nur die Lawinengröße 1 erwartet, nur bei Geländefallen ist die Lawinengröße 2 möglich. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich generell gut gesetzt. Der stürmische Nordwestwind lagerte in den Hochlagen kleine Triebschneemengen auf einer harten Altschneedecke ab. Die Triebschneelinsen haben voraussichtlich keine gute Verbindung mit der Altschneedecke. Mit dem Temperaturrückgang stabilisierte sich in den mittleren Lagen die Schneedeckenoberfläche. Im Grazer Bergland liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist es im Randgebirge anfangs noch sonnig, sonst sind viele Gipfel bereits in dichte Wolken gehüllt. Der Schnee breitet sich bis zum Abend entlang der Alpennordseite nach Osten aus, südlich des Alpenhauptkamms fallen nur vereinzelt Schneeflocken. Der Wind weht nur noch in Kammlagen lebhaft aus Nordwest. In 2000m Seehöhe hat es zu Mittag um minus 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag sind die Gipfel der steirischen Berge immer wieder in dichte Wolken gehüllt, zwischendurch scheint die Sonne aber auch wieder von einem nahezu wolkenlosen Himmel. Der Höhenwind dreht auf West, weht in Kamm- und Gipfellagen aber weiterhin teils lebhaft. Es wird in allen Höhenlagen deutlich milder, in 2000m Seehöhe hat es zu Mittag um plus 6 Grad. Ein Tagesgang der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

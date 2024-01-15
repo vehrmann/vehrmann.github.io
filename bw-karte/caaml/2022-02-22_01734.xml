@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1734RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1734RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammfernere Hangzonen bis zur Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee oberhalb der Waldgrenze beachten! Hangzonen unter Schneemäulern meiden!</avActivityHighlights>
+          <avActivityComment>Mit zunehmender Seehöhe rasche Zunahme der Gefahrenstellen und Anstieg der Lawinengefahr von GERING auf ERHEBLICH. Die Haupteinwehungsgebiete des frischen Triebschnees betreffen den erweiterten Ost- bis Südsektor, kleinräumigere Einwehungen, etwa hinter Geländekanten oder seitlich in Rinnen, sind aber auch in den übrigen Hangrichtungen nicht auszuschließen. Eine Schneebrettauslösung ist bereits bei geringer Zusatzbelastung möglich.&#13;
+An allen Steilhängen mit glattem Untergrund wird außerdem eine verstärkte Gleitschneelawinenaktivität beobachtet, besonders aber an Sonnhängen. An Hängen schattseitiger Hochlagen können auch weiterhin Altschneeprobleme auftreten, zuletzt in Form von länger zurückliegendem, eingeschneitem Oberflächenreif oder kantigen Kristallen unter Harschkrusten. In exponierten Lagen wie z.B. ausgeblasenen Rinnen ist es zudem hart und eisig, hier besteht akute Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>In höheren Lagen wurde in den vergangenen Tagen die harte und verharschte Altschneedecke mit dem Sturm freigelegt, an vielen Stellen auch mit einer dünnen, lockeren Triebschneeauflage überdeckt, die schlecht bindet. In den tiefer gelegenen Waldgebieten hatte sich Triebpulver (ungebundener Triebschnee) angesammelt. Auf diese Oberflächen kommt seit gestern der frische Neuschnee zu liegen, windbedingt vermehrt auch wieder in Form von gebundenem Triebschnee, der sich nicht gut auf der darunterliegenden, alten Triebschneeschicht halten wird. Kämme und Grate werden hingegen weiter abgeblasen, in tieferen Lagen kommt feuchter Neuschnee dazu, der von zeitweiligem Regen weiter angefeuchtet wird. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einer stürmischen Nordwestströmung wird feuchte und labil geschichtete Meereskaltluft gegen die Alpennordseite geführt. Ein Frontensystem erreicht ab der kommenden Nacht die Nordalpen und nördlichen Niederen Tauern und sorgt am Mittwoch bis in die Mittagsstunden für dichte Wolken und teils stürmischen Nordwestwind. In den genannten Gebirgsgruppen werden wieder, wie tags zuvor, bis zu 20cm Neuschnee fallen. Die Schneefallgrenze liegt dabei um die 1.000m. Im Laufe des Vormittages lockern die Wolken von Westen her wieder auf, zwischen Dachstein, Totem Gebirge und Ennstaler Alpen wird es recht sonnig, während es vom Hochschwab ostwärts noch bis in den Nachmittag hinein trüb bleiben dürfte.  &#13;
+Die Alpensüdseite ist wieder leebegünstigt. Bestenfalls ein paar Schauerwolken können am früheren Vormittag über die Tauern weiter nach Südosten ausgreifen. Die Temperaturen liegen zu Mittag in 2.000m bei -6 Grad und in 1.500m bei -1 Grad.&#13;
+Am Donnerstag sorgt ein Zwischenhoch für vorübergehend recht sonniges und deutlich milderes Wetter.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung beginnende Setzung der Schneedecke und leichter Rückgang der Schneebrettgefahr, aber anfangs vermehrte Lockerschneelawinenwaktivität. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1734RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1734RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Auf einzelnde Triebschneefelder achten (erkennbar durch Windzeichen)! Hangzonen unter Schneemäulern meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Im Vordergrund steht derzeit in den schneereicheren Gebieten die Gefahr von Gleitschneelawinen. Hangzonen unterhalb von aufgehenden Schneemäulern sind daher unbedingt zu meiden.&#13;
+Mangels verfrachtungsfähigen Schnees hat sich trotz der permanent stürmischen Witterung kaum neuer Triebschnee bilden können. Einzelne frische Triebschneelinsen sind kleinräumig verteilt, können aber in allen Hangrichtungen auftreten. Großflächige Schwachschichten sind derzeit unwahrscheinlich. &#13;
+An Hängen schattseitiger Hochlagen können auch weiterhin Altschneeprobleme auftreten, zuletzt in Form von länger zurückliegendem, eingeschneitem Oberflächenreif oder kantigen Kristallen unter Harschkrusten. In exponierten Lagen wie z.B. ausgeblasenen Rinnen ist es zudem hart und eisig, hier besteht akute Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Wechsel von höheren und niedrigeren Temperaturen hat die Schneedecke stabilisiert. Die Schneeoberflächen sind verharscht, schattseitig auch mit Presspulver versehen. Aufgrund des Mangels an Neuschnee und der recht harten Altschneedecke konnte frischer Triebschnee von eher geringer Mächtigkeit nur ganz vereinzelt entstehen, oft in Form einer dünnen, weichen Auflage am Harschdeckel des Altschnees.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einer stürmischen Nordwestströmung wird feuchte und labil geschichtete Meereskaltluft gegen die Alpennordseite geführt. Ein Frontensystem erreicht ab der kommenden Nacht die Nordalpen und nördlichen Niederen Tauern und sorgt am Mittwoch bis in die Mittagsstunden für dichte Wolken und teils stürmischen Nordwestwind. In den genannten Gebirgsgruppen werden wieder, wie tags zuvor, bis zu 20cm Neuschnee fallen. Die Schneefallgrenze liegt dabei um die 1.000m. Im Laufe des Vormittages lockern die Wolken von Westen her wieder auf, zwischen Dachstein, Totem Gebirge und Ennstaler Alpen wird es recht sonnig, während es vom Hochschwab ostwärts noch bis in den Nachmittag hinein trüb bleiben dürfte.  &#13;
+Die Alpensüdseite ist wieder leebegünstigt. Bestenfalls ein paar Schauerwolken können am früheren Vormittag über die Tauern weiter nach Südosten ausgreifen. Die Temperaturen liegen zu Mittag in 2.000m bei -6 Grad und in 1.500m bei -1 Grad.&#13;
+Am Donnerstag sorgt ein Zwischenhoch für vorübergehend recht sonniges und deutlich milderes Wetter.</wxSynopsisComment>
+          <tendencyComment>Weiterhin keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

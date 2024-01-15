@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2646RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2646RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee oberhalb der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige, darunter geringe Lawinengefahr. Mit Neuschnee und Wind konnten sich frische Triebschneeansammlungen bilden. Im Tagesverlauf können mit anhaltendem Wind frische Triebschneebereiche entstehen. Die Gefahrenstellen finden sich meist kammnah, hinter Geländekanten und insbesondere in steilen Einfahrten zu Rinnen und Mulden der Expositionen Nord über Ost bis Süd. Hier können teilweise schon durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden. Vorsicht vor Übergängen von wenig zu viel Schnee. Zudem muss beim Unternehmungen im Gelände weiterhin auf die Verletzungsgefahr durch überschneite Hindernisse wie Baumstümpfe oder Felsen geachtet werden.</avActivityComment>
+          <snowpackStructureComment>Es sind bis zu 15cm Neuschnee gefallen, die mit lebhaftem bis teils stürmischem Wind als gebundener Triebschnee abgelagert wurden. Die Verbindung zur meist verharschten Altschneedecke ist oft nicht ausreichend. Weiche, lockere Schneeschichten im Grenzbereich stellen eine potentielle Schwachschicht für Schneebrettlawinen dar. In windgeschützten Bereichen ist die ist die Schneeauflage ungebunden und locker. Zudem liegt stellenweise noch älterer Triebschnee nordseitig auf einer schwachen (aufbauend umgewandelten) Altschneedecke auf. Südseitig ist das Schneedeckenfundament weitgehend stabil. Generell ist die Schneemächtigkeit aber weiterhin sehr unterdurchschnittlich. </snowpackStructureComment>
+          <wxSynopsisComment>Tiefdruckeinfluss bestimmt das Wetter in den Niederösterreichischen Alpen. Meist ist es im Bergland stark bewölkt, nur vereinzelt kann es speziell im Osten etwas auflockern. Schon im Laufe des Vormittags kann es ausgehend von den Ybbstaler Alpen immer wieder leicht schneien, dazu bläst oft lebhafter Wind aus Nordwest bis Nord. Das Temperaturniveau ist winterlich und liegt bei Werten um -5 Grad in 1000m und -11 Grad in 2000m. &#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>&#13;
+Der Tiefdruckeinfluss sorgt auch am Wochenende für kaltes und oft stürmisches Wetter. Mit weiterem Neuschneezuwachs wird sich das Triebschneeproblem etwas verstärken.  &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2646RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2646RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>In den Gutensteiner- und Türnitzer Alpen herrscht geringe Lawinengefahr. Trotzdem müssen in höheren Lagen frische Triebschneelinsen beachtet werden. Vereinzelte Gefahrenstellen finden sich kammnah, hinter Geländekanten und insbesondere in sehr steilen Einfahrten zu Rinnen und Mulden der Expositionen Nord über Ost bis Süd. Hier können durch Zusatzbelastung kleine Schneebretter ausgelöst werden. Unternehmungen im Gelände sind aber weiterhin nur eingeschränkt möglich, es muss auf die Verletzungsgefahr durch überschneite Hindernisse wie Baumstümpfe oder Felsen geachtet werden.</avActivityComment>
+          <snowpackStructureComment>Ein paar Zentimeter Neuschnee sind bei mäßigem bis lebhaftem Wind gefallen. Stellenweise konnten sich dünne Triebschneelinsen bilden, die witterungsbedingt nicht gut mit der Altschneedecke verbunden sind. Weiterhin existiert meist nur ein durchbrochene Schneedecke bzw. wurde der apere Boden überschneit. Die Schneemächtigkeit ist weiterhin sehr unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Tiefdruckeinfluss bestimmt das Wetter in den Niederösterreichischen Alpen. Meist ist es im Bergland stark bewölkt, nur vereinzelt kann es speziell im Osten etwas auflockern. Schon im Laufe des Vormittags kann es ausgehend von den Ybbstaler Alpen immer wieder leicht schneien, dazu bläst oft lebhafter Wind aus Nordwest bis Nord. Das Temperaturniveau ist winterlich und liegt bei Werten um -5 Grad in 1000m und -9 Grad in 1500m. &#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>&#13;
+Der Tiefdruckeinfluss sorgt auch am Wochenende für kaltes und oft stürmisches Wetter. Mit weiterem Neuschneezuwachs wird sich das Triebschneeproblem etwas verstärken.  &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

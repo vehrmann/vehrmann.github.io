@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3178RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3178RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-20T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-21T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-21T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erwärmung und Einstrahlung führt zu tagsüber zunehmender Lawinengefahr durch Nassschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang und steigt im Laufe des Tages von gering auf mäßig an. Sonnseitig ist aus steilem felsdurchsetzten Gelände mit kleineren spontanen Nassschneelawinen zu rechnen. Bei starker Durchnässung sind später am Tag auch größere, nasse Schneebrettlawinen nicht auszuschließen. Zusätzlich sind in schattigen, extrem steilen Einfahrten zu Rinnen der Hochlagen vereinzelt noch Schneebrettlawinen durch geringe Zusatzbelastung auslösbar. </avActivityComment>
+          <snowpackStructureComment>Durch die anhaltende Wärme der vergangenen Tage wurde die Schneedecke sonnseitig bis in hohe Lagen angefeuchtet. Schattseitig hat die Schneedecke noch mehr Kältereserven, vereinzelt sind in Hochlagen auch noch Schichten aus kantigen Kristallen in der Altschneedecke zu finden, welche bei späterer Durchfeuchtung neuerlich als Schwachschicht aktiviert werden können. In den Hochlagen des Toten Gebirges, des Dachsteigebietes und der nördlichen Schladminger und Wölzer Tauern fiel darauf bis zu 10 cm Neuschnee, der durch die neuerliche Erwärmung sonnseitig destabilisiert wird. Generell ist im Laufe des Tages sonnseitig mit schneller Anfeuchtung und mäßiger Destabilisierung der Schneedecke zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag steigt der Luftdruck und es wird großteils sonnig. Während im Norden des Alpenhauptkammes der Sonnenschein immer wieder von Wolken unterbrochen wird, ist es südlich davon fast durchgehend sonnig. Die Temperaturen in 2000 m steigen auf +1 bis +3 Grad, der Wind weht mäßig aus West bis Nordwest.&#13;
+Der Mittwoch bringt großteils sonniges Bergwetter bei weiter steigenden Temperaturen und wenig Wind. </wxSynopsisComment>
+          <tendencyComment>Die Nassschneeproblematik bleibt das bestimmende Lawinenproblem, die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3178RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3178RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-20T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erwärmung und Einstrahlung führt zu tagsüber zunehmender Lawinengefahr durch Nassschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang und steigt im Laufe des Tages leicht an. Aufgrund der geringen Schneemengen und des stabilen Fundaments bleibt die Lawinengefahr aber insgesamt gering. Sonnseitig ist aus steilem, felsdurchsetzten Gelände mit kleineren spontanen Nassschneelawinen zu rechnen. Bei starker Durchnässung sind später am Tag auch vereinzelt größere, nasse Schneebrettlawinen nicht auszuschließen. </avActivityComment>
+          <snowpackStructureComment>Durch die anhaltende Wärme der vergangenen Tage wurde die Schneedecke sonnseitig bis in hohe Lagen angefeuchtet. Schattseitig hat die Schneedecke noch mehr Kältereserven, vereinzelt sind in Hochlagen auch noch Schichten aus kantigen Kristallen in der Altschneedecke zu finden, welche bei späterer Durchfeuchtung neuerlich als Schwachschicht aktiviert werden können. Generell ist im Laufe des Tages sonnseitig mit schneller Anfeuchtung und leichter Destabilisierung der Schneedecke zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag steigt der Luftdruck und es wird großteils sonnig. Während im Norden des Alpenhauptkammes der Sonnenschein immer wieder von Wolken unterbrochen wird, ist es südlich davon fast durchgehend sonnig. Die Temperaturen in 2000 m steigen auf +1 bis +3 Grad, der Wind weht mäßig aus West bis Nordwest.&#13;
+Der Mittwoch bringt großteils sonniges Bergwetter bei weiter steigenden Temperaturen und wenig Wind. </wxSynopsisComment>
+          <tendencyComment>Die Nassschneeproblematik bleibt das bestimmende Lawinenproblem, die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3665RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3665RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen störanfällig</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 2000 m erheblich, unterhalb mäßig. Das Hauptproblem ist Triebschnee. Dieser kann durch geringe Zusatzbelastung, z.B. durch einen einzelnen Skifahrer, als Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich im kammnahen Steilgelände der Expositionen Nordost über Süd bis Südwest sowie in Rinnen und Mulden. Umfang und Anzahl der Gefahrenstellen nehmen mit der Höhe zu. Lawinen können mittlere Größe erreichen. &#13;
+Zudem kann sich der Neuschnee als Lockerschneelawine im felsigen Steilgelände von selbst lösen, daher ist unterhalb von Felswänden Vorsicht geboten.&#13;
+An noch nicht entladenen steilen, glatten Wiesenhängen können vereinzelt Gleitschneelawinen auf dem Boden abrutschen. </avActivityComment>
+          <snowpackStructureComment>Bei schauerartigen Niederschlägen fällt örtlich einiges an  Neuschnee. Die Verbindung vom Neu- zum Altschnee ist in höheren Lagen nicht optimal; örtlich sind Graupel oder Schichten mit kantigen Kristallen eingelagert. Der Schneefall wird zeitweise von böigem Wind aus nordwestlichen Richtungen begleitet und in windabgewandten Bereichen wachsen Triebschneeansammlungen an. In den Hochlagen finden sich im oberen Bereich der Altschneedecke, vor allem im Bereich älterer Triebschneepakete, örtlich schwache Zwischenschichten.  In mittleren Lagen ist die Schneedecke zum Boden hin nass. Hier sind Gleitbewegungen auf nassem Untergrund weiterhin möglich. </snowpackStructureComment>
+          <tendencyComment>Zum Wochenende hin steigen die Temperaturen deutlich an und es kann wieder vermehrt zu Selbstauslösungen von Lawinen kommen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3665RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3665RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr mit Neuschnee im Steilgelände, Gefahrenstellen teils schwer zu erkennen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m mäßig, unterhalb gering. Das Hauptproblem ist der Neuschnee. Dieser kann durch geringe Zusatzbelastung, z.B. durch einen einzelnen Skifahrer, als Schneebrettlawine ausgelöst werden oder sich im felsigen Steilgelände von selbst lösen. Gefahrenstellen befinden sich besonders im kammnahen Steilgelände, in Rinnen und Mulden sowie unterhalb von Felswänden. Lawinen bleiben meist klein, neben der Gefahr einer  Verschüttung ist die Absturzgefahr zu beachten. &#13;
+An noch nicht entladenen steilen, glatten Wiesenhängen können vereinzelt Gleitschneelawinen auf dem Boden abrutschen. </avActivityComment>
+          <snowpackStructureComment>Bei schauerartigen Niederschlägen fällt örtlich einiges an  Neuschnee. Die Verbindung vom Neu- zum Altschnee ist in höheren Lagen nicht optimal, in tieferen Lagen verbindet sich der Neuschnee meist gut mit der feuchten Schneeoberfläche. Der Schneefall wird örtlich von böigem Wind aus nordwestlichen Richtungen begleitet. In windabgewandten Bereichen sind kleinräumig Triebschneeansammlungen entstanden, die teils überschneit sind. In mittleren Lagen ist die Schneedecke zum Boden hin nass. Hier sind Gleitbewegungen auf nassem Untergrund weiterhin möglich. </snowpackStructureComment>
+          <tendencyComment>Zum Wochenende hin steigen die Temperaturen deutlich an und es kann wieder vermehrt zu Selbstauslösungen von Lawinen kommen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3043RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3043RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt und kleinräumig kann Triebschnee zu stören sein.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Kleinräumiger Triebschnee kann in den Hochlagen vereinzelt ein Problem darstellen. Kleine Schneebrettlawinen können kammnah an extrem steilen, schattigen Hängen insbesondere mit großer Zusatzbelastung ausgelöst werden. Vor allem die Absturzgefahr sollte dabei beachtet werden.&#13;
+Vereinzelte kleine Gleitschneelawinen auf glattem Untergrund sind nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich insgesamt gut gesetzt und ist überwiegend stabil. An schattseitigen Hängen oberhalb 1700 m gibt es noch Pulverschnee. Über Nacht bildet sich ansonsten ein Harschdeckel, der in den mittleren Lagen tagsüber wieder etwas aufweichen kann. In den Hochlagen finden sich im Bereich von kleinräumigem, älterem Triebschnee nur vereinzelt schwache Schichten. In den höchsten Gipfellagen im Westen des Bayerischen Alpenraums können mit auffrischendem Wind geringmächtige, frische Triebschneeansammlungen entstehen. In den mittleren Lagen ist die Schneedecke oft bis zum Boden durchfeuchtet und die Südseiten beginnen wieder auszuapern.</snowpackStructureComment>
+          <tendencyComment>Mit Niederschlägen ab Mitte der Woche wird die Lawinengefahr wieder ansteigen. Bis dahin bleibt sie entspannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

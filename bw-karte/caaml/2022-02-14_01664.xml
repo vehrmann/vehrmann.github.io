@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1664RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1664RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische Triebschnee, über der Waldgrenze, vor allem kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, vereinzelt auslösbar durch große Zusatzbelastung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee und Wind - frischer Triebschnee - hochgelegenes Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Durch Neuschnee und Windeinfluss aus West bis Nordwest entstehen über der Waldgrenze, vor allem aber in den Kammlagen, frische Triebschneeablagerungen. Diese Verfrachtungen könnten im Steilgelände stellenweise bereits bei geringer Zusatzbelastung als meist nur kleines Schneebrett ausgelöst werden. In den hochgelegen Schatt- und Nordlagen können bei Übergängen von mehr zu wenig Schnee Schwachschichten in der Altschneedecke insbesondere durch große Zusatzbelastung angesprochen werden. Steile vergraste Hänge mit Rissen in der Schneedecke weisen auf Gleitschneeaktivität hin und sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Durch etwas Neuschnee und Wind aus West bis Nordwest bilden sich am Dienstag über der Waldgrenze frische Triebschneeablagerungen. Eine verharschte, windgepresste, teils vereiste und noch selten schattseitig hochgelegen lockere Altschneeoberfläche wird etwas überdeckt. Die Altschneedecke enthält in den Hochlagen schatt- und nordseitig noch Schwachschichten. Die Schneedecke ist allgemein sehr unregelmäßig verteilt und windbeeinflusst.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ziehen bald dichte Wolken mit Schneefall auf, die Sicht verschlechtert sich rasch. Im Bereich der Kalkalpen fallen 5 bis 15 cm Neuschnee. Die Schneefallgrenze liegt zu Beginn um 500m und steigt bis zum Abend auf etwa 1000 m. Der Wind weht mäßig bis lebhaft aus West bis Nordwest. In 1500 m: um -3 Grad, in 2000 m: um -6 Grad, es wird somit etwas kälter.&#13;
+Am Mittwoch ist die Sicht zunächst gut, auch wenn sich bald Wolken über den Himmel schieben. Im Lauf des Nachmittags wird die Sicht durch einsetzenden Niederschlag trüb und diffus. Schnee fällt ungefähr oberhalb von 1500 m, wobei die Schneefallgrenze bis zum Abend weiter auf über 2000 m steigt. Neuschnee: 5 bis 15 cm. Der Wind erreicht Spitzen um 50 km/h. In 1500 m: um 3 Grad, in 2000 m: um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Zuerst keine wesentliche Änderung der Lawinensituation. Am Mittwoch Nachmittag steigt die Gefahr mit steigender Schneefallgrenze und etwas Regen für Nassschneelawinen etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

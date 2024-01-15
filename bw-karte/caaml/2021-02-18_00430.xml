@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID430RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID430RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schneearme steile Hochlagen, Übergänge wenig zu viel Schnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch das Altschneeproblem in den Hochlagen und lokal noch älteren Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>In den hochgelegenen Schatt- und Nordlagen können Lawinen vereinzelt auf Grund des Altschneeproblems insbesondere durch große Zusatzbelastung im Steilgelände ausgelöst werden. Gefahrenstellen sind vor allem schneearme Bereiche und Übergänge von mehr zu wenig Schnee. Zuletzt gebildete Triebschneeablagerungen können im Steilgelände insbesondere durch große Zusatzbelastung angesprochen werden. Auf Grund der meist fehlenden Einstrahlung ist kaum mit spontanen Lawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Während der Nacht zum Freitag wird sich die Schneeoberfläche überwiegend festigen und ist dann oft tragfähig verharscht. Nur mehr sehr hochgelegen und schattseitig gibt es auch noch lockere Bereiche. In den schatt- und nordseitigen Hochlagen sind weiterhin tiefliegende bodennahe Schwachschichten vorhanden. Über der Waldgrenze gibt es noch ältere lokale Triebschneeablagerungen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag wird die Sicht durch Wolken und Nebel teils eingeschränkt. Am Nachmittag bessern sich die Sichtverhältnisse und die Sonne kann noch zum Vorschein kommen. Mäßig starker Westwind. In 1500 m um 2 Grad, in 2000 m um 0 Grad.&#13;
+Der Samstag bringt bei sonnigen Verhältnissen sehr gute Sicht. Zeitweise ziehen dünne hohe Wolken weit über die Gipfel. Weitere Erwärmung: Zu Mittag in 1500 m um 8 Grad, in 2000m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag sind mit dem sehr milden Temperaturen und der starken Einstrahlung spontane Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID430RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID430RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr - wenig Schnee!</avActivityHighlights>
+          <avActivityComment>In den gipfelnahen Kammlagen können einzelne kleinere Lawinen nicht ganz ausgeschlossen werden. Allgemein ist nur eine sehr geringmächtige Schneedecke vorhanden.</avActivityComment>
+          <snowpackStructureComment>Während der Nacht auf Freitag wird sich die geringmächtige Schneedecke oberflächig festigen. Im Inneren ist sie schon feucht bis nass und isotherm.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag wird die Sicht durch Wolken und Nebel teils eingeschränkt. Am Nachmittag bessern sich die Sichtverhältnisse und die Sonne kann noch zum Vorschein kommen. Mäßig starker Westwind. In 1500 m um 2 Grad, in 2000 m um 0 Grad.&#13;
+Der Samstag bringt bei sonnigen Verhältnissen sehr gute Sicht. Zeitweise ziehen dünne hohe Wolken weit über die Gipfel. Weitere Erwärmung: Zu Mittag in 1500 m um 8 Grad, in 2000m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

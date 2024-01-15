@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2123RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2123RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen durch kleinräumigen, frischen Triebschnee</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, dennoch ist wegen Sturm und etwas Neuschnee vereinzelt mit Gefahrenstellen durch frischen Triebschnee zu rechnen. Gefahrenstellen finden sich kleinräumig in Hohlformen und hinter Geländekanten der Sektoren West und Süd. </avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil und oft bis zum Grund durchfeuchtet. Dieses feuchte Fundament wird je nach Region am Samstag frisch überschneit, oder durch die Abkühlung mit einer Harschkruste versehen. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag regnet bis mindestens 1800 m hinauf, in der zweiten Nachthälfte geht der Regen in Schneefall über und die Schneefallgrenze auf rund 1000 m. Im Randgebirge bleiben die Neuschneemengen aber gering. Die Kaltfront bringt starke Sturmböen aus nordwestlicher Richtung, die den Schnee verfrachten. Am Nachmittag beruhigt sich das Wetter, die leichten Schneeschauer ziehen sich in die Nordalpen zurück und der Wind lässt nach. Die Temperaturen liegen zu Mittag in 2000 m bei winterlichen -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Palmsonntag bringt wechselhaftes Bergwetter und es bleibt kalt. Der Süden ist am Vormittag wetterbegünstigt, am Nachmittag sorgt ein Oberitalientief auch an der Alpensüdseite für Schneeschauer. Die Nassschneeproblematik lässt nach, die Triebschneeproblematik verringert sich aber nur geringfügig. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2123RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2123RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee - erhebliche Lawinengefahr in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Über 1800 m herrscht erhebliche Lawinengefahr, darunter ist die Lawinengefahr mäßig. Gefahrenstellen bilden frische Triebschneepakete in den Hochlagen der Sektoren West und Süd. Hier kann schon die geringe Zusatzbelastung eines einzelnen Tourengehers ausreichen, um eine Schneebrettlawine auszulösen. Schlechte Sichtverhältnisse erschweren die Beurteilung der Lawinensituation im Einzelhang. Insbesondere in der Nacht auf Samstag sind auch spontane Nassschneelawinen in allen Expositionen zu erwarten. Tagsüber lässt die Nassschneeproblematik nach. </avActivityComment>
+          <snowpackStructureComment>Unter dem Neuschnee vom vergangenen Wochenende haben sich teilweise Schwachschichten gebildet, die jedoch nur schwer ansprechbar sind. Darüber bildet sich in der Nacht auf Samstag frischer, instabiler Triebschnee. In tieferen Lagen ist die Schneedecke bis zum Grund feucht. Dieses feuchte Fundament wird je nach Region am Samstag frisch überschneit, oder durch die Abkühlung mit einer oberflächliche Harschkruste versehen. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag regnet es bis mindestens 1800 m hinauf, in der zweiten Nachthälfte geht der Regen in Schneefall über und die Schneefallgrenze sinkt an der Alpennordseite auf etwa 600 m. In der Dachsteinregion und im Toten Gebirge können bis zu 30 cm Neuschnee zusammenkommen. Die Kaltfront bringt starke Sturmböen aus nordwestlicher Richtung, die den Schnee verfrachten. Am Nachmittag beruhigt sich das Wetter, es sind aber weiterhin leichte Schneeschauer zu erwarten. Der Wind lässt nach. Die Temperaturen liegen zu Mittag in 2000 m bei winterlichen -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Palmsonntag bringt wechselhaftes Bergwetter und es bleibt kalt. Der Süden ist am Vormittag wetterbegünstigt, am Nachmittag sorgt ein Oberitalientief auch an der Alpensüdseite für Schneeschauer. Die Nassschneeproblematik lässt nach, die Triebschneeproblematik verringert sich aber nur geringfügig. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2123RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2123RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee - mäßige Lawinengefahr in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige Lawinengefahr, darunter ist die Lawinengefahr gering. Gefahrenstellen bilden kleinere, frische Triebschneepakete in den Hochlagen der Sektoren West und Süd. Hier kann vereinzelt schon die geringe Zusatzbelastung eines einzelnen Tourengehers ausreichen, um eine Schneebrettlawine auszulösen. Schlechte Sichtverhältnisse erschweren die Beurteilung der Lawinensituation im Einzelhang. Insbesondere in der Nacht auf Samstag sind vereinzelt auch spontane Nassschneelawinen in allen Expositionen zu erwarten. Tagsüber lässt die Nassschneeproblematik nach.</avActivityComment>
+          <snowpackStructureComment>Unter dem Neuschnee vom vergangenen Wochenende haben sich Schwachschichten gebildet, die jedoch nur schwer ansprechbar sind. Darüber bildet sich in der Nacht auf Samstag kleinräumig frischer, instabiler Triebschnee. In tieferen Lagen ist die Schneedecke bis zum Grund feucht. Dieses feuchte Fundament wird je nach Region am Samstag frisch überschneit, oder durch die Abkühlung mit einer oberflächliche Harschkruste versehen.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Samstag regnet bis mindestens 1800 m hinauf, in der zweiten Nachthälfte geht der Regen in Schneefall über und die Schneefallgrenze sinkt an der Alpennordseite auf etwa 600 m, an der Alpensüdseite auf rund 1000 m. In den Niederen Tauern und den östlichen Nordalpen werden etwa 15 cm Neuschnee erwartet. Die Kaltfront bringt starke Sturmböen aus nordwestlicher Richtung, die den Schnee verfrachten. Am Nachmittag beruhigt sich das Wetter, die leichten Schneeschauer ziehen sich in die Nordalpen zurück und der Wind lässt nach. Die Temperaturen liegen zu Mittag in 2000 m bei winterlichen -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Palmsonntag bringt wechselhaftes Bergwetter und es bleibt kalt. Der Süden ist am Vormittag wetterbegünstigt, am Nachmittag sorgt ein Oberitalientief auch an der Alpensüdseite für Schneeschauer. Die Nassschneeproblematik lässt nach, die Triebschneeproblematik verringert sich aber nur geringfügig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

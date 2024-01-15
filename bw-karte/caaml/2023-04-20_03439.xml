@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3439RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3439RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Nassschneelawinen aus extrem steilen Hängen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, aber spontane nasse Lockerschneelawinen sind aus extrem steilen Hängen in allen Höhenlagen möglich! Außerdem können in extrem steilen Nord- bis Nordwesthängen der Hochlagen ältere Triebschneepakete vereinzelt noch durch große Zusatzbelastung ausgelöst werden. Vorsicht bei mächtigen Wechten!</avActivityComment>
+          <snowpackStructureComment>Der Schnee ist verbreitet gut gesetzt und bis in die Gipfellagen zumindest bereits oberflächlich feucht. Der ältere Triebschnee in den Hochlagen liegt auf feuchtem Altschnee bzw. einer harten Kruste auf. Teils haben sich mächtige Wechten gebildet, die mit den warmen Temperaturen instabil werden. In mittleren Lagen ist der Schnee bereits durchnässt. Besonders in steilem Felsgelände verliert die Schneedecke an Haftung und kann spontan als nasse Lockerschneelawine abgleiten. Die Schneegrenze liegt sonnseitig bei zirka 1500 m.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag wird verbreitet ein recht sonniger Tag im Bergland. Um die Mittagszeit entstehen zwar vermehrt Quellwolken, aus denen ein paar Tropfen fallen können, es bleibt aber überwiegend trocken. Bei Temperaturen in 1500m um +5 Grad, in 2000m zwischen 0 und +2 Grad weht lebhafter Wind aus südöstlicher Richtung.&#13;
+Am Samstag ist es die meiste Zeit sonnig, und es wird wärmer. Die Temperaturen erreichen in 1500m bis zu +10 Grad und in 2000 +5 Grad. Dazu weht schwacher Wind aus Süd bis Südwest.&#13;
+ </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag kann sich die Schneedecke etwas verfestigen, weil sie durch die Ausstrahlung oberflächlich friert, aber mit der Sonneneinstrahlung am Samstag schmilzt der Harschdeckel rasch wieder und der Schnee apert im Laufe des Tages weiter aus bzw. wird bis auf die Gipfel feucht und faul. Die Lawinengefahr bleibt gering!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

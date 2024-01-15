@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1966RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1966RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände, immer noch sehr wenige, klein bis mittel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Top Frühlingsverhältnisse, nur kleiner Tagesgang</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING und steigt mit dem tageszeitlichen Festigkeitsverlust leicht an, bleibt aber in der Bandbreite von GERING.&#13;
+Einzelne und zumeist seltene Gleitschneelawinen (klein bis mittelgroß) sind aus sehr steilem Grasmattengelände zu jeder Tageszeit möglich, wobei die Wahrscheinlichkeit dafür am Nachmittag und Abend am höchsten ist. Risse beachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist zunächst tragfähig. Teilweise auch pickelhart und eisig. Tagsüber weicht der Schnee langsam auf. Rein sonnseitig werden die obersten 10 cm weich, west- und nordseitig bleibt es länger hart. Die Gleitschneeaktivität im extrem steilen Gelände nimmt von Tag zu Tag etwas zu.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag weiter wolkenlos und sehr klar. Luftfeuchtigkeit ist extrem niedrig. Südwind im Tagesverlauf, in exponierten Lagen 30 bis 40 km/h. Temperaturniveau noch unverändert.&#13;
+Keine Änderung am Mittwoch: wolkenlos, kaum Wind, geringe Luftfeuchtigkeit. In 2000m bis 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch den Rest der Woche top Frühlingsverhältnisse mit kleinem Gleitschneerisiko. Ab Mittwoch/Donnerstag dann zunehmender Tagesgang mit Nassschneeproblem am Nachmittag weil es wärmer wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1966RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1966RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände, immer noch sehr wenige, könnten dann aber mittel bis groß werden, unter 2400m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>es firnt spät auf, am Nachmittag an steilen und stark besonnten Hängen beachten, unter 2400m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Top Frühlingsverhältnisse, Tagesgang unter 2400 m</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag in allen Höhen GERING und steigt mit dem tageszeitlichen Festigkeitsverlust unter ca. 2400m im erweiterten Südsektor auf MÄßIG an. &#13;
+Aus dem stark besonnten Steilgelände (SO-S-SW) sind dann ab Mittag oder dem frühen Nachmittag an einigen Stellen spontan oder durch Zusatzbelastung kleine und mittelgroße nasse Lockerschneelawinen möglich. Meist extrem steilen Gelände. &#13;
+Einzelne und zumeist seltene Gleitschneelawinen (können dann mittel bis groß werden) sind aus sehr steilem Grasmattengelände zu jeder Tageszeit möglich, wobei die Wahrscheinlichkeit dafür am Nachmittag und Abend am höchsten ist. Risse beachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist zunächst tragfähig. Teilweise auch pickelhart und eisig. Tagsüber weicht der Schnee langsam auf. Rein sonnseitig werden die obersten 10 cm weich, west- und nordseitig bleibt es länger hart. Zuletzt wurde eine leichte Zunahme der Gleitschneeaktivität im extrem steilen Gelände beobachtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag weiter wolkenlos und sehr klar. Luftfeuchtigkeit ist extrem niedrig. Südwind im Tagesverlauf, in exponierten Lagen 30 bis fast 50 km/h. Temperaturniveau noch unverändert.&#13;
+Keine Änderung am Mittwoch: wolkenlos, kaum Wind, geringe Luftfeuchtigkeit. In 2000m bis 5 Grad, in 3000m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch den Rest der Woche top Frühlingsverhältnisse mit kleinem Gleitschneerisiko. Ab Mittwoch/Donnerstag dann zunehmender Tagesgang mit Nassschneeproblem am Nachmittag weil es wärmer wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1966RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1966RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-21T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-22T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-22T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände, immer noch sehr wenige, könnten dann aber mittel bis groß werden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>es firnt spät auf, am Nachmittag an steilen und stark besonnten Hängen beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Top Frühlingsverhältnisse, Tagesgang auf MÄßIG beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag GERING und steigt mit dem tageszeitlichen Festigkeitsverlust auf MÄßIG an. Aus dem stark besonnten Steilgelände sind dann an einigen Stellen spontan oder durch Zusatzbelastung kleine und mittelgroße nasse Lockerschneelawinen möglich. &#13;
+Einzelne und zumeist seltene Gleitschneelawinen (können dann mittel bis groß werden) sind aus sehr steilem Grasmattengelände zu jeder Tageszeit möglich, wobei die Wahrscheinlichkeit dafür am Nachmittag und Abend am höchsten ist. Risse beachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist zunächst tragfähig. Teilweise auch pickelhart und eisig. Tagsüber weicht der Schnee langsam auf. Rein sonnseitig werden die obersten 10 cm weich, west- und nordseitig bleibt es länger hart. Zuletzt wurde eine leichte Zunahme der Gleitschneeaktivität im extrem steilen Gelände beobachtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag weiter wolkenlos und sehr klar. Luftfeuchtigkeit ist extrem niedrig. Südwind im Tagesverlauf, in exponierten Lagen 30 km/h. Temperaturniveau noch unverändert.&#13;
+Keine Änderung am Mittwoch: wolkenlos, kaum Wind, geringe Luftfeuchtigkeit. In 2000m bis 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch den Rest der Woche top Frühlingsverhältnisse mit kleinem Gleitschneerisiko. Ab Mittwoch/Donnerstag dann zunehmender Tagesgang mit Nassschneeproblem am Nachmittag weil es wärmer wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

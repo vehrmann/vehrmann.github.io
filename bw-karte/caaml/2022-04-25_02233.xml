@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2233RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-25T05:32:19+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2233RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-25T05:32:19+00:00</beginPosition>
+          <endPosition>2022-04-26T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2000 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Tagesverlauf mit Windeinfluss zunehmend</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen kleinräumig frischen Triebschnee beachten - in Bereichen mit Regeneinfluss sind nasse Rutsche möglich</avActivityHighlights>
+          <avActivityComment>In höheren Lagen ist die Lawinengefahr mäßig. Gefahrenstellen sind vor allem an sehr steilen Schattenhängen, Kammlagen sowie in eingewehten Rinnen und Mulden anzutreffen. Anzahl und Größe solcher nehmen mit Windeinfluss untertags zu. Frische Triebschneeansammlungen können bereits von einzelnen Wintersportlern ausgelöst werden. Aus sehr steilen Geländeabschnitten sind zunehmend auch Lockerschneerutsche aus dem Neuschnee möglich. In sehr steilen Schattenhängen können in hochalpinen Lagen sehr vereinzelt noch Schwachschichten im Altschnee gestört werden. In Bereichen mit durchnässter Schneedecke sind kleine Nassschneelawinen möglich und an sehr steilen Grashängen weiterhin kleinere Gleitschneelawinen nicht auszuschließen. </avActivityComment>
+          <snowpackStructureComment>In Lagen oberhalb ca. 1500 m gab es meist 10 bis 15 cm, lokal bis 20 cm Neuschnee. Mit zeitweise kräftigem Wind wurde dieser verfrachtet und es entstanden kleinräumig frische Triebschneansammlungen. In hochalpinen Lagen sind vor allem an sehr steilen Schattenhängen noch lockere Altschneeoberflächen vorhanden. Mit zunehmender Seehöhe ist die Bindung zu diesen oft nur mäßig. Kleine bis mittlere Schneebrettlawinen können dort im Neuschnee oder im oberen Teil der Schneedecke ausgelöst werden.  In tiefen und mittleren Lagen liegt nur noch wenig Schnee. Mit Regeneinfluss wurde dieser geschwächt.</snowpackStructureComment>
+          <wxSynopsisComment>Es ziehen immer wieder Regenschauer bzw. oberhalb ca. 1500-2000 m Schnee- und Graupelschauer durch. Zwischendurch kann sich auch die Sonne zeigen - aber nicht für lange. Dazu ist es weiterhin kühl. Temperatur in 2000 m: -3 bis +1 Grad, Höhenwind: lebhaft bis starker Westwind.</wxSynopsisComment>
+          <tendencyComment> Es bleibt kühl und unbeständig. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

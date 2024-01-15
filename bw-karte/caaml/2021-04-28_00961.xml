@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID961RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-28T14:19:30+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID961RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-28T14:19:30+00:00</beginPosition>
+          <endPosition>2021-04-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>močno odvisno od usmerjenosti pobočja</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zgodnje pomladanska situacija</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je trenutno MAJHNA, 1. stopnje, vendar se bo čez dan povečala in bo nad okoli 1700 m ZMERNA, 2. stopnje. Snežna odeja je dobro povezana in na splošno stabilna, čez dan bo zaradi otoplitve zgornja plast snežne odeje ponekod postala nestabilna. Pričakujemo, da se bo bodo zlasti na strmih pobočjih, kjer je še vedno slabše predelan sneg, pojavljali posamezni manjši do srednje veliki plazovi mokrega snega. Večja nevarnost bo predvsem na bolj osončenih pobočjih. Predvsem na grebenih in vrhovih, ter osojnih legah je snežna odeja še vedno pomrznjena, zato je nevarnost zdrsa.</avActivityComment>
+          <snowpackStructureComment>Prevladovalo je oblačno in megleno vreme z občasnim rahlim sneženjem. Snežne razmere se niso bistveno spreminjale. V gorah je trenutno še vedno debela snežna odeja pretekle zime, na katero je tekom aprila zapadlo od 20 pa tudi več kot 50 cm snega. Ta plast snežne odeje se je bolj ali manj preobrazila. V ponedeljek in torek pa je zapadlo še okoli 5 cm snega, ki je zlasti v sredogorju že postal južen. Ponoči se je nad nadmorsko višino okoli 2000 m razjasnilo, snežna odeja je tam ostala pomrznjena, nižje je še vedno oblačno in megleno, snežna odeja ni pomrznila. Danes zaradi otoplitve pričakujemo hitrejšo preobrazbo snežne odeje. Predvsem senčne lege visokogorja bodo še vedno trde in pomrznjene, zato bo nevarnost zdrsa.</snowpackStructureComment>
+          <wxSynopsisComment>Danes bo pod 2000 m povečini oblačno in megleno, občasno bodo rahle padavine. V visokogorju bo sprva precej jasno, čez dan pa se bo tudi tam pooblačilo, vrhovi bodo v oblakih. Nastalo bo nekaj manjših ploh. Veter bo šibak, obračal se bo na jugozahodno smer. Temperatura na 1500 m bo sredi dneva okoli 4, na 2500 m pa okoli -1 °C.V četrtek bo povečini oblačno, vrhovi bodo v oblakih. Nekaj sonca bo lahko na Pohorju in v vzhodnih Karavankah. Predvsem v gorstvih zahodne Slovenije bodo krajevne padavine. Meja sneženja bo na nadmorski višini okoli 2300 m. Pihal bo okrepljen jugozahodni veter. Temperatura na 1500 m bo okoli 6, na 2500 m pa okoli 0 °C.Podobno vreme bo tudi v petek. Zlasti na območju Julijskih Alp bodo pogoste padavine, lahko nastane tudi kakšna nevihta. Meja sneženja bo na nadmorski višini med 2200 in 2500 m. Nestalno vreme bo tudi ob koncu tedna. Več padavin pričakujemo v noči na nedeljo in v nedeljo čez dan, ko nas bo prešla hladna fronta. Zelo vetrovno bo. Meja sneženja se bo v nedeljo popoldne ponovno spustila pod 2000 m.</wxSynopsisComment>
+          <tendencyComment>Ob vse toplejšem vremenu, vlažni zračni masi ter zaradi dežja bo nevarnost proženja snežnih plazov nad okoli 1700 m ostala ZMERNA, 2.stopnje. Snežna odeja tudi ponoči večinoma ne bo pomrznila. Možni bodo posamezni spontani plazovi mokrega snega. Nevarna bodo predvsem strma pobočja vseh orientacij, kjer je snežna odeja slabše preobražena. Pričakujemo tudi porušitev nekaterih opasti. V sredogorju se bo snežna odeja pospešeno talila. Na nadmorski višini okoli 2400 m bo večinoma snežilo ob okrepljenem jugozahodnem vetru, zato bo tam nevarnost proženja posameznih klož.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+      <locRef xlink:href="SI-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

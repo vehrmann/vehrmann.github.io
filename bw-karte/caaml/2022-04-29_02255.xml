@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2255RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2255RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr; tageszeitliches Nassschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Mit der tageszeitlichen Erwärmung, der Sonneneinstrahlung und auch den Niederschlägen steigt die Gefahr von nassen und feuchten Rutschen und kleinen Lawinen aus sonnseitigen steilen Geländeteilen an. In schattseitigen, hochalpinen Lagen können kleinere Triebschneeablagerungen im sehr steilen Gelände vereinzelt noch ausgelöst werden. Hier überwiegt jedoch die Mitreiß- und Absturzgefahr die Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die meist nur noch über den mittleren Lagen vorhandene Schneedecke ist feucht, aber überwiegend stabil und kompakt. Nach einer klaren Nacht ist die Schneeoberfläche wieder verharscht. Mit der tageszeitlichen Erwärmung wird die Harschkruste wieder aufgeweicht und die oberflächennahen Schneeschichten werden etwas geschwächt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es in den östlichen Gebirgsgruppen anfangs noch einmal länger sonnig. Im Westen werden die Wolken im Tagesverlauf rasch dichter und am späten Nachmittag sind einzelne gewittrige Regenscheuer möglich. Bei meist schwachem Wind erreichen die Temperaturen in 2000 m +4 Grad.&#13;
+Tiefdrucksysteme von Westen gewinnen die Oberhand. Am Sonntag sind die Gipfel bereits oft im Nebel und am Nachmittag häufen sich dann die Schneeschauer. Bei schwachem bis mäßigem Wind aus nordöstlicher Richtung erreichen die Temperaturen in 2000 m +3 Grad.&#13;
+Auch am Montag bleibt es bei dem schauerträchtigen und etwas kühlerem Wetter.</wxSynopsisComment>
+          <tendencyComment>Mit Niederschlägen steigt die Gefahr von nassen und feuchten Rutschen und Lawinen etwas an.&#13;
+Mit der weiteren Ausaperung rückt die Lawinengefahr gegenüber anderen alpinen Gefahren in den Hintergrund, weshalb der Lawinenwarndienst Kärnten die tägliche Berichterstellung mit 30. April 2022, bis zum Beginn der Wintersaison 2022/2023, einstellt. Der LWD Kärnten dankt allen treuen Nutzern und wünscht schöne Sommer- und auch Herbstmonate in den Bergen. Aber auch bis zum kommenden Saisonbeginn bleibt der LWD Kärnten für alle erreichbar.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

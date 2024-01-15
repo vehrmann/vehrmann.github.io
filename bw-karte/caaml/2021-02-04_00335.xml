@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID335RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID335RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Hochlagen, auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen lokale Gefahrenstellen für Schneebrettlawinen und leichter Anstiegt für Selbstauslösungen!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen sind lokale Gefahrenstellen vorhanden, an denen Schneebrettlawinen insbesondere durch große Zusatzbelastung ausgelöst werden können. Zuletzt gebildeter Triebschnee vor allem in Kammnähe ist zu beachten. Steiles Gelände in dem Schwachschichten in der Altschneedecke angesprochen werden können, wie bei Übergängen von mehr zu wenig Schnee, sind zu beachten. Mit den sehr milden Temperaturen und der Einstrahlung sind aus nicht entladenen steilen Bereichen in den tiefen und mittleren Lagen spontane Nassschnee, auf vergrasten Steilhängen Gleitschnee möglich. In den höheren Lagen sind aus sehr steilen Bereichen sonnseitig einzelne Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich gesetzt. Sie wird im Tagesverlauf je nach Höhe und Exposition oberflächig angefeuchtet. Schattseitig hochgelegen kann die Schneeoberfläche auch noch locker bleiben. Die Altschneedecke enthält in den höheren Lagen vor allem bodennahe Schwachschichten. In den tiefen und mittleren Lagen ist die Schneedecke im Inneren feucht bis teils nass. Über der Waldgrenze ist die Schneedecke sehr unregelmäßig verteilt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag wechseln Wolken und Sonne einander ab, meistens gibt es gute Sicht. Es bleibt mild, schwacher bis mäßiger Ostwind kommt auf. In 1500 m: um 6 Grad, in 2000 m: um 2 Grad.&#13;
+Am Samstag kommt oberhalb einer ausgedehnten Hochnebeldecke häufig die Sonne zum Zug. Zeitweise wandern Wolken über den Himmel, sie beeinträchtigen die Sicht jedoch wenig. Es bleibt trocken. Auf den Bergen bläst der Föhn aus südlicher Richtung. In 1500 m: um 8 Grad, in 2000 m: um 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID335RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID335RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Nur mehr einzelne mögliche Auslösepunkte von Schneebrettlawinen sind hochgelegen in Kammnähe und in Gipfellagen zu beachten. Nur dort, wo ausreichend Schnee vorhanden ist, sind vereinzelt spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich weiter gesetzt und ist im Inneren höher gelegen feucht, darunter auch nass. In den tiefen und teils mittleren Lagen wurde die Schneedecke stark abgebaut. Somit liegt nur mehr wenig Schnee und es ist auch aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag wechseln Wolken und Sonne einander ab, meistens gibt es gute Sicht. Es bleibt mild, schwacher bis mäßiger Ostwind kommt auf. In 1500 m: um 6 Grad, in 2000 m: um 2 Grad.&#13;
+Am Samstag kommt oberhalb einer ausgedehnten Hochnebeldecke häufig die Sonne zum Zug. Zeitweise wandern Wolken über den Himmel, sie beeinträchtigen die Sicht jedoch wenig. Es bleibt trocken. Auf den Bergen bläst der Föhn aus südlicher Richtung. In 1500 m: um 8 Grad, in 2000 m: um 6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

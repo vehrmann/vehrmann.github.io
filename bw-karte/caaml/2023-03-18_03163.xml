@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3163RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3163RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-18T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>keine ausreichende Abkühlung über Nacht, diffuse Strahlung tagsüber, spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - Nassschneelawinen aus steilem Gelände noch möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Aus extrem steilen, noch nicht entladenen Hängen können bei diffuser Strahlung weiterhin spontane, nasse Locker- oder Schneebrettlawinen nicht ausgeschlossen werden. Noch vorhandene Wechten sind instabil. Bis in die Hochlagen sind aus schneereicheren, steilen Wiesen- sowie glattem Felsgelände auch kleine Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist unter 1500m oft nicht mehr geschlossen und hat keine Kältereserven. Darüber ist sie bis in hohe Lagen feucht und kompakt. In der Nacht kann mit der Ausstrahlung ein dünner Harschdeckel entstehen, der mit der diffusen Strahlung aber oft wieder aufweicht. Weitere An- und Durchfeuchtung (diffuse Strahlung, Regen) führt zu einem Festigkeitsverlust, eine bis zum Boden durchnässte Schneedecke kann auf glattem Untergrund zu gleiten beginnen. In den hochgelegenen Schattseiten sind kaum mehr tieferliegenden Schwachschichten um Krusten vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Bei anhaltend südwestlicher Höhenströmung beeinflusst ein herannahender Trog das Wetter in den niederösterreichischen Alpen. Hohe Wolken sorgen für Eintrübung und diffuse Strahlung. Im Tagesverlauf werden die Wolken vom Westen her dichter, die Gipfel sollten aber bis zum Nachmittag frei bleiben. Am Abend steigt die Schauerneigung etwas an. Der Wind dreht ab Mittag auf westliche bis nordwestliche Richtungen, bleibt aber mäßig, vereinzelt lebhaft. Das Temperaturniveau geht leicht zurück, die Nachmittagswerte liegen in 2000m um +2 Grad, in 1500m bei +5 Grad und in 1000m um +8 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag im Westen Schauerreste und teils hartnäckige Wolken, am Alpenostrand lockert es rasch auf. Mit der Einstrahlung können Quellwolken und der eine oder andere Schauer auftreten.&#13;
+Die Ausaperung schreitet voran, die Lawinensituation ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

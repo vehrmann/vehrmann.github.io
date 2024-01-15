@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3072RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3072RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-09T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem hochalpin auf lokale Gefahrenstelle durch Triebschnee achten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Durch stürmischen Wind um West und Schneeschauer sind in den höheren Lagen kleine kammnahe störanfällige ältere und frische Triebschneeablagerungen nordost- bis teils südseitig vorhanden, auf die bei Geländekanten und in steilen Mulden sowie Rinnen geachtet werden muss. Mit den milden Temperaturen sind kleine nasse Lockerschneerutsche aus steilem felsdurchsetztem Gelände weiterhin möglich. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt. Wird durch Regenschauer bis in die mittleren Lagen dann feucht, darüber bringen nur Schneeschauer kaum Neuschnee. Vor allem schattseitig und hochgelegen sind vereinzelt noch Schwachschichten im Altschnee enthalten und zuletzt gebildeter Triebschnee bindet teils ungenügend. Die Altschneedecke ist oberflächig oft windbeeinflusst, hart, verharscht oder auch eisig, teils abgeweht und schattseitig gibt es in höheren Lagen noch lockeren Schnee. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ziehen schon bald einige hohe Wolken heran, die Sicht wird etwas diffuser. Um die Mittagszeit mischen ein paar Regen- und Schneeschauer mit (Schneefallgrenze um 1500 m). Danach lockert es öfter auf, die Sonne kommt kurz hervor. Der Wind weht schwach bis mäßig aus Süd bis West, am Abend kommt starker bis stürmischer Westwind auf. Am späten Nachmittag ziehen von Westen her rasch neuerliche Schauer heran, es kühlt dann ab. Zu Mittag in 1500 m 2 bis 5 Grad, in 2000 m um -1 Grad.&#13;
+Am Samstag folgen von Beginn an dichte Wolken mit etwas Schneefall und schlechter Sicht, schon bald setzt sich aber trockenes Wetter durch. Allmählich lockert die Bewölkung auf. Der Wind weht stark bis stürmisch aus West, schwächt sich im Tagesverlauf langsam ab. In 1500 m -5 Grad, in 2000 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch mit dem Sturm, Abkühlung und etwas Niederschlag ändert sich die Lawinengefahr nicht wesentlich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

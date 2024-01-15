@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2362RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2362RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Trotz geringer Lawinengefahr Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in der gesamten Steiermark gering. Dennoch können an wenigen Gefahrenstellen durch Zusatzbelastung kleinere Schneebrettlawinen ausgelöst werden. Diese Gefahrenstellen sind kammnahe Triebschneesammlungen hinter Geländekanten und an Rand- und Einfahrtsbereichen von Rinnen und Mulden. Besonders kritisch sind schattige Bereiche zu beurteilen, wo die Verbindung der Triebschneelinsen zum Untergrund noch unzureichend ist. Durch die Erwärmung ist auch mit kleineren, spontanen Lockerschneelawinen zu rechnen.  </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist aufgrund der Wechsel zwischen warmen und kalten Phasen großteils stabil, nur in schattigen Hochlagen besteht vereinzelt ein Altschneeproblem. Darauf lagern vereinzelt kleine Triebschneeansammlungen, die noch nicht gut mit dem Untergrund verbunden sind. Aufgrund der geringen Schneemengen ist aber nur mit kleinen Schneebrettlawinen zu rechnen. Durch Einstrahlung und  kräftige Erwärmung kann es südseitig zu kleineren, spontanen Lockerschneelawinen kommen.</snowpackStructureComment>
+          <wxSynopsisComment>Eine äußerst milde südwestliche Höhenströmung bestimmt das Bergwetter in der Steiermark. Der Dienstag wird im Gebirge recht sonnig, nur in hohen Schichten ziehen einige Wolkenfelder durch, die das Sonnenlicht etwas dämpfen. Der Wind weht schwach bis mäßig stark aus West bis Südwest. Die Temperaturwerte steigen in 2.000m im Tagesverlauf bis auf 9 Grad an.&#13;
+Der Mittwoch gestaltet sich alpennordseitig wolkig, die höheren Gipfel geraten dabei zeitweise in Nebel. Am späteren Nachmittag setzt hier etwas Schneefall oder Regen ein und die Temperaturen gehen zurück. Alpensüdseitig sind die Wolken dünner und hier bleibt es milder und auch meist niederschlagsfrei. </wxSynopsisComment>
+          <tendencyComment>Durch die Erwärmung stabilisiert sich der Triebschnee endgültig, die spontane Lawinenaktivität nimmt aber etwas zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

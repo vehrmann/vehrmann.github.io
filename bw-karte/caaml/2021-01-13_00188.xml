@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID188RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID188RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sturm bildet störanfälligen Triebschnee, in den höheren Lagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht mäßige Lawinengefahr. Es gilt vor allem den frischen Triebschnee zu beachten, der vom überaus stürmischen Wind gebildet wird. Die Verbindung zur Unterlage ist ungünstig und die Triebschneeauflage störanfällig, sodass bereits die geringe Zusatzbelastung eines einzelnen Tourengehers zu einer Schneebrettauslösung führen kann. Gefahrenstellen befinden sich vorwiegend in den Expositionen von Nord über Ost bis Süd, hinter Geländeübergängen sowie in Rinnen oder Mulden, insbesondere in deren Einfahrtsbereichen. In ausgesetzten Geländeabschnitten gilt es zudem auf die Absturzgefahr zu achten.</avActivityComment>
+          <snowpackStructureComment>Es sind in etwa 10 bis maximal 20cm Neuschnee bei tiefen Temperaturen und unter stürmischem Windeinfluss gefallen. Weitere 10 bis 15cm Neuschnee werden für den Donnerstag noch erwartet. Durch den Sturm bildet sich Triebschnee, der Reif, weiche Schichten, Graupel oder auch ältere Verfrachtungen überdeckt und dementsprechend störanfällig ist. Völlig abgeblasene und eingewehte Bereiche wechseln auf engem Raum. Die generelle Schneearmut sollte über die Störanfälligkeit der triebschneebeladenen Geländebereiche nicht hinwegtäuschen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag schneit es und aufgrund dichter, tiefer Wolken muss mit trüben Verhältnissen und Sichtbehinderungen gerechnet werden. Mit Mittagstemperaturen von -6 Grad in 1000m, -9 Grad in 1500m und -13 Grad in 2000m ist es winterlich kalt. Zudem weht äußerst stürmischer Wind aus nordwestlichen Richtungen, der das Kälteempfinden weiter verschärft.</wxSynopsisComment>
+          <tendencyComment>Am Freitag schneit es aus meist noch dichteren Wolken bei starkem bis stürmischem Wind aus nordwestlichen Richtungen nur noch unergiebig. Es bleibt mit zweistelligen Minusgraden in 1500m kalt und im Hinblick auf die Lawinengefahr gilt es weiterhin den Triebschnee zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID188RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID188RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen in Form von Triebschneelinsen, geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, Gefahrenstellen existieren nur vereinzelt. Durch den stürmischen Wind bilden sich frische Triebschneelinsen, die zwar nicht gut mit der Unterlage binden, jedoch meist nur kleinräumig ausgeprägt sind. Dies betrifft vorwiegend windausgesetzte Bereiche wie zum Beispiel Waldschläge.</avActivityComment>
+          <snowpackStructureComment>Es sind um etwa 10cm Neuschnee gefallen, ein paar Zentimeter werden für Donnerstag noch erwartet. Durch den stürmischen Wind haben sich in entsprechend exponierten Bereichen frische Triebschneelinsen gebildet. Sie überdecken stellenweise Reif, eine weiche Schicht oder Graupel und binden nicht gut, sind meist allerdings nur kleinräumig vorhanden. Trotz des Neuschnees sind die Schneemengen insgesamt gering und die Tourmöglichkeiten somit noch eingeschränkt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag schneit es und aufgrund dichter, tiefer Wolken muss mit trüben Verhältnissen und Sichtbehinderungen gerechnet werden. Mit Mittagstemperaturen von -6 Grad in 1000m, -9 Grad in 1500m und -13 Grad in 2000m ist es winterlich kalt. Zudem weht äußerst stürmischer Wind aus nordwestlichen Richtungen, der das Kälteempfinden weiter verschärft.</wxSynopsisComment>
+          <tendencyComment>Am Freitag schneit es aus meist noch dichteren Wolken bei starkem bis stürmischem Wind aus nordwestlichen Richtungen nur noch unergiebig. Es bleibt mit zweistelligen Minusgraden in 1500m kalt und im Hinblick auf die Lawinengefahr gilt es weiterhin den Triebschnee zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

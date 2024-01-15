@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID440RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID440RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In hohen und hochalpinen Lagen teils noch störanfälliger Triebschnee; im Tagesverlauf leichter Anstieg der Gefahr von Gleit- und Nassschneelawinen</avActivityHighlights>
+          <avActivityComment>Der teils noch kalte Triebschnee ist vor allem schattseitig eventuell noch durch eine geringe, allgemein nur durch eine große Zusatzbelastung, zu stören. Gefahrenstellen nehmen mit der Höhe zu. In sonnseitigen Expositionen steigt die Gefahr von spontanen feuchten und in tieferen auch nassen Lawinen im Tagesverlauf etwas an. Auch die Wahrscheinlichkeit von Gleitschneelawinen steigt im Tagesverlauf an.</avActivityComment>
+          <snowpackStructureComment>Ältere Triebschneeablagerungen liegen auf einer mit teils ungünstigen Schichten durchzogenen Altschneedecke. Milde Temperaturen und strahlender Sonnenschein sorgen einerseits für eine weitere Stabilisierung der Triebschneeablagerungen aber auch für eine weitere Durchfeuchtung der Schneedecke, vor allem in sonnseitigen Expositionen. Während der Nachtstunden kann sich ein tragfähiger Harschdeckel ausbilden, der aber rasch wieder aufgeweicht wird.</snowpackStructureComment>
+          <wxSynopsisComment>Über dem Alpenraum breitet sich ein kräftiges Hochdruckgebiet aus. Am Samstag ist es in den Bergen ganztags sehr sonnig, nur dünne Schleierwolken können sich am Himmel zeigen. Es weht nur schwacher Wind aus westlichen Richtungen. Mit Temperaturen in 2000 m um +3 Grad ist es für die Jahreszeit ausgesprochen mild.</wxSynopsisComment>
+          <tendencyComment>Auch am Sonntag geht es mit strahlendem Sonnenschein und meist nur schwachem Wind sowie milden Temperaturen weiter. Weiterhin tageszeitlicher Anstieg der Gefahr von nassen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID440RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID440RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumige Triebschneelinsen beachten; leichter tageszeitlicher Anstieg der Gefahr von nassen Lawinen</avActivityHighlights>
+          <avActivityComment>In schattseitigen Gipfelniveaulagen sind noch Triebschneelinsen vorhanden welche allgemein noch durch eine große Zusatzbelastung aber eventuell auch noch durch eine geringe Zusatzbelastung, vor allem im Übergangsbereich, zu stören sind. In tieferen Lagen wird die Schneedecke rasch feucht und die Wahrscheinlichkeit von feuchten, auch nassen Rutschen, an sonnseitigen Steilhängen, nimmt zu.</avActivityComment>
+          <snowpackStructureComment>Während der Nachtstunden hat die Schneedecke wieder eine Harschkruste bekommen. Diese wird aber durch rasch steigende und sehr milde Temperaturen, sowie der Sonneneinstrahlung, rasch wieder aufgeweicht. Die schattseitigen, noch etwas kälteren kleinen Triebschneelinsen verbinden sich mit der Altschneedecke immer besser.</snowpackStructureComment>
+          <wxSynopsisComment>Über dem Alpenraum breitet sich ein kräftiges Hochdruckgebiet aus. Am Samstag ist es in den Bergen ganztags sehr sonnig, nur dünne Schleierwolken können sich am Himmel zeigen. Es weht nur schwacher Wind aus westlichen Richtungen. Mit Temperaturen in 2000 m um +3 Grad ist es für die Jahreszeit ausgesprochen mild.</wxSynopsisComment>
+          <tendencyComment>Auch am Sonntag geht es mit strahlendem Sonnenschein und meist nur schwachem Wind sowie milden Temperaturen weiter. Weiterhin tageszeitlicher Anstieg der Gefahr von nassen Lawinen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1318RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1318RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah, hinter Geländekanten,</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr in Niederösterreich wird mit gering beurteilt. Gefahrenstellen in Form von frischem Triebschneelinsen haben sich  kleinräumig eher kammnah hinter Geländekanten sowie in Rinnen und Mulden gebildet. Vorsicht in den Expositionen Nord und Ost! Eine Auslösung eines Schneebrettes ist bei großer Zusatzbelastung nicht ausgeschlossen. Lockerschneerutsche können sich während des Tages, durch die Sonneneinstrahlung aus steilem Felsgelände lösen. </avActivityComment>
+          <snowpackStructureComment>In den letzten 24 Stunden sind nur ein paar wenige cm Neuschnee dazugekommen. Dieser ist aber nicht lawinenrelevant. Der Schnee von Dienstag auf Mittwoch hat sich grundsätzlich gut mit der feuchten Altschneedecke verbinden können. In den schattseitigen Hochlagen lagerte sich Triebschnee teilweise auf einer härten Schicht ab. &#13;
+In den östlichen Gebirgsgruppen gibt es nur wenig Schnee. Touren sind nur sehr eingeschränkt möglich. </snowpackStructureComment>
+          <wxSynopsisComment>Freitag:&#13;
+Auf den Bergen scheint verbreitet die Sonne, oft ist es wolkenlos. Nur in den Tälern können sich in den ersten Stunden flache Nebelfelder bemerkbar machen. Der Höhenwind weht mäßig aus Südwest. Die Temperaturen in 1500m Seehöhe liegen um minus 6 Grad.&#13;
+Samstag:&#13;
+Die Berge sind meist in dichte Wolken gehüllt und besonders am Vormittag schneit es häufiger, am Nachmittag dann kaum noch. Auch die sonnigen Abschnitte werden am ab Mittag häufiger. Der Höhenwind frischt am Nachmittag lebhaft bis kräftig aus West auf. Temperaturen auf 1500m Seehöhe maximal um minus 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Wochenende wird ein leichter Anstieg der Lawinengefahr erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

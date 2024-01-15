@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2998RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2998RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-03-01T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-03-01T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneebrettlawinen in höheren, Gleit- und Lockerschnee in tieferen Lagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1600 m mäßig, unterhalb davon steigt sie im Tagesverlauf von gering auf mäßig an. Das Hauptproblem ist Triebschnee. An einigen sehr steilen Hängen, vor allem kammnah in den  Expositionen Nord über West bis Südwest und in eingewehten Rinnen und Mulden, können Schneebrettlawinen mittlerer Größe durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. &#13;
+Aus extrem steilen, felsdurchsetzten und sonnenexponierten Hängen können sich zudem nasse Lockerschneelawinen von selbst lösen. Die größte Aktivität ist hierbei am Nachmittag zu erwarten. Auch vereinzelte Gleitschneelawinen rutschen dann auf steilen Wiesen ab. Diese Lawinen bleiben meist klein.</avActivityComment>
+          <snowpackStructureComment>Der Schnee vom Wochenende hat sich deutlich gesetzt und besonders in tieferen Lagen stabilisiert. Dort, wo der Schnee vom Wind verfrachtet wurde, sind Triebschneeansammlungen entstanden und diese liegen örtlich auf weichen Schichten, bestehend aus Graupel oder filzigem Schnee. Kleinräumig können diese störanfällig sein. Die Schneedeckenbasis ist in mittleren Lagen oft nass, was Gleitbewegungen auf glatter Unterlage begünstigt. Nachts bildet sich südseitig ein dünner Harschdeckel, der im Tagesverlauf wieder auftaut. Dann wird der Schnee sonnseitig oberflächlich nass und verliert an Festigkeit.</snowpackStructureComment>
+          <tendencyComment>Bei stabilem Hochdruckwetter und wärmeren Temperaturen wird sich die Schneedecke weiter setzen und die Gefahr trockener Schneebrettlawinen zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

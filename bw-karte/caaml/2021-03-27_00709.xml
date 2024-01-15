@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID709RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID709RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-27T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Situation, nur vereinzelte Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinensituation ist günstig und es herrscht generell geringe Lawinengefahr. Nur vereinzelt können kleine, frische Triebschneelinsen durch Tourengeher als kleine Schneebrettlawinen ausgelöst werden. Durch die Abkühlung ließ auch die Nassschneeproblematik nach, vereinzelt ist aber von steilen Wiesenhängen noch mit kleinen bis mittleren spontanen Gleitschneelawinen zu rechen. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte in höheren Lagen durch Abkühlung an Festigkeit zulegen und ist großteils verharscht. Darüber finden sich teilweise kleine Triebschneelinsen, die auf der Altschneeoberfläche abrutschen können. Das Schneedeckenfundament ist stabil. In tieferen Lagen ist die Schneedecke feucht bis nass.  </snowpackStructureComment>
+          <wxSynopsisComment>Nach Abzug einer Kaltfront bleibt es am Sonntag niederschlagsfrei. Vormittags dominieren noch die Wolken und der Westwind weht lebhaft. Zu Mittag können einige Quellwolken dazukommen, am Nachmittag steigt dann die Chance auf Sonnenschein. Die Temperaturen in 1500 m liegen in der Früh bei -2 Grad und steigen im Tagesverlauf auf +2 Grad an. </wxSynopsisComment>
+          <tendencyComment>Es wird wärmer und bleibt es niederschlagsfrei, wenn auch nicht wolkenlos. Die Lawinengefahr bleibt gering, es ist lediglich auf kleinere Nassschneerutsche und vereinzelte Gleitschneelawinen zu achten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1696RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-18T06:23:59+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1696RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-18T06:23:59+00:00</beginPosition>
+          <endPosition>2022-02-19T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-02-18T06:23:59+00:00</beginPosition>
+                  <endPosition>2022-02-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-02-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-02-19T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-02-18T06:23:59+00:00</beginPosition>
+                  <endPosition>2022-02-18T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-02-18T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-02-19T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Schattenhänge, Kammlagen, hinter Geländekanten sowie in Rinnen und Mulden oberhalb 2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb 2200m, an sehr steilen Sonnenhängen unterhalb von 2600m Nass- und Gleitschneeproblem beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen störanfälligen Triebschnee, unterhalb 2200 m Gefahr von Nass- und Gleitschneelawinen beachten.</avActivityHighlights>
+          <avActivityComment>Umfangreiche frische und ältere Triebschneeansammlungen der letzten Tage sind in höheren Lagen störanfällig und können bereits von einzelnen Wintersportlern ausgelöst werden. Gefahrenstellen liegen vor allem über 2000m an steilen Schattenhängen, in Kammlagen, hinter Geländekanten sowie in Rinnen und Mulden und sind oft nur schwer erkennbar. Ältere Schwachschichten im Altschnee können besonders im Rätikon, in der Silvretta und im Verwall an West-, Nord- und Osthängen stellenweise von einzelnen Wintersportlern noch ausgelöst werden. Dies vor allem oberhalb etwa 2000m im selten befahrenen Tourengelände an Übergängen von wenig zu viel Schnee. Ausgelöste Lawinen können dabei gefährlich groß werden. Touren und Variantenabfahrten erfordern eine defensive Routenwahl. An sehr steilen Sonnenhängen unterhalb von 2600m, sowie an Schattenhängen unterhalb von 2200m sind Nassschneelawinen und Gleitschneerutsche zu erwarten. Im Tagesverlauf nimmt mit der Erwärmung diese Gefahr zu.</avActivityComment>
+          <snowpackStructureComment>Erst in den Morgenstunden ließen die stürmischen bis orkanartigen West- bis Nordwestwinde in den Bergen nach und es klarte auf. In höheren Lagen konnte sich dadurch ein dünner, meist nicht tragfähiger Schmelzharschdeckel bilden. In höheren Kammlagen sind umfangreiche und störanfällige Triebschneeansammlungen entstanden. Innerhalb dieser Triebschneepakete und zur Altschneedecke hin sind störanfällige Schichten eingelagert. Schwachschichten finden sich auch noch im Mittelteil der Schneedecke. Diese sind an West-, Nord- und Osthängen noch störanfällig und schwierig einzuschätzen. Im Rätikon, im Verwall und in der Silvretta ist die Schneeüberdeckung dieser Schicht geringer und somit leichter zu stören. Solche Gefahrenstellen befinden sich an schneearmen Stellen und an Übergängen von wenig zu viel Schnee vor allem im selten befahrenen Tourengelände. Zudem können oberflächennah ausgelöste Lawinen in tiefere Schichten der Altschneedecke durchreißen und groß werden. Unterhalb 2200 m führte die Erwärmung und der Regen  zu einer Durchfeuchtung der Schneedecke, wodurch diese an Festigkeit verlor.</snowpackStructureComment>
+          <wxSynopsisComment>Es ist wechselnd bewölkt und damit zeitweise sonnig. Die durchziehenden Wolken liegen meist über den Gipfeln. Es bleibt dabei trocken, weiterhin sehr windig und wird erneut ausgesprochen mild mit einer Nullgradgrenze zu Mittag um 2900m. Temperatur in 2000m steigt von -2 auf +6 Grad. Der Höhenwind weht stark bis stürmisch aus West bis Südwest.</wxSynopsisComment>
+          <tendencyComment>Am Samstag Vormittag lassen die Schneeschauer der Nacht nach und es beginnt aufzulockern. Es wird deutlich kälter, die Schneefallgrenze sinkt gegen 800m. Die Gefahr von Nass- und Gleitschneelawinen wird dadurch etwas geringer. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1690RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1690RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>im Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem bis in die Hochlagen - verbreitet mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird verbreitet mit MÄßIG beurteilt. Das Hauptproblem ist der Nassschnee, wobei mit der neuerlichen Erwärmung und aufgrund des Regeneintrags von gestern aus allen Expositionen und bis in die Hochlagen spontane Nassschneelawinen aus steilem Gelände möglich sind. Zusätzlich muss in tieferen Lagen mit spontanen Gleitschneelawinen aus steilen Wiesen- und Waldbereichen gerechnet werden. In den schattigen Hochlagen existieren auch noch Gefahrenstellen durch störanfälligen Altschnee, der von  Triebschneelinsen überdeckt wird und wo überwiegend große Zusatzbelastung eine Schneebrettauslösung bewirken kann.</avActivityComment>
+          <snowpackStructureComment>Die warmen Temperaturen und der Regen am Donnerstag haben der Schneedecke in allen Höhen ein paar Zentimeter gekostet. Die oberste Schneeschicht wurde nass, in tiefen Lagen sogar bis zum Boden hinein. Mit dem Rückgang der Temperaturen im Laufe des Donnerstags und in der Nacht auf Freitag friert die Schneedecke wieder und bildet einen kompakten Deckel aus. &#13;
+In den Hochlagen lagern sich mit dem Westwind neuerliche Triebschneelinsen auf harter, harschiger Schneeoberfläche ab. In den steilen Schattseiten können auch noch Schwachschichten bestehend aus kantigen Kristallen, eingeschneitem Oberflächenreif oder Graupel im Altschnee existieren. In der Nacht bildet sich in den wolkenlosen Gebieten Oberflächenreif auf der Schneedecke. &#13;
+Im Laufe des Freitags steigt das Temperaturniveau wieder an und die Schneedecke wird wieder weich. Das Schmelzwasser dringt innerhalb der Schneedecke weiter teils bis zum Boden ein und destabilisiert die Schneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>In den Ybbstaler und Türnitzer Alpen überwiegen am Freitag meist die Wolken, am Alpenostrand zeigt sich zwischendurch auch länger die Sonne und es bleibt niederschlagsfrei. Der Wind bläst auf den Bergen anfangs noch stürmisch aus West, lässt tagsüber nach und dreht auf Süd bis Südwest. Die Temperaturen legen wieder zu und liegen in 1500m in der Früh noch bei -2 Grad, am Nachmittag schon um +8 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Samstag ist es in der Früh bewölkt mit vereinzelten Schneeschauern in den Ybbstaler Alpen. Mit lebhaftem Nordwestwind zieht die dichte Bewölkung bald Richtung Südost ab. Es wird trocken und wieder kalt mit Mittagstemperaturen in 1500m um -3 Grad. Die Nassschneesituation entspannt sich langsam. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID431RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID431RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Waldgrenze durch noch auszulösende Triebschneelinsen.</avActivityHighlights>
+          <avActivityComment>In den Hochlagen existieren weiterhin störanfällige Triebschneelinsen, welche teils bereits durch geringe Zusatzbelastung ausgelöst werden können. Die Gefahrenstellen finden sich kleinräumig, hinter Geländekanten besonders in den Schattseiten und in Einfahrtsbereichen extrem steiler Rinnen. In tieferen Lagen können aus besonntem, sehr steilem Gelände spontane Nassschneerutsche nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>In den Schattseiten und über 1800m in allen Expositionen hat die Altschneedecke noch genügend Kältereserven, sodass sich dort die Schneeoberfläche entweder harschig und hart oder eher locker und pulvrig gestaltet. Die kleinräumigen Triebschneelinsen sind eher schlecht mit der Altschneedecke verbunden, aber gut erkennbar. Sonnseitig und in Bereichen mit geringerer Schneemächtigkeit wird die Schneedecke relativ schnell feucht und der dünne Harschdeckel, der sich über Nacht gebildet hat, brüchig. </snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag hält sich im Norden teils stärkere Bewölkung auf den Bergen, ansonsten trüben überall hohe Wolken etwas den sonnigen Charakter. Es bleibt trocken und mild bei Mittagstemperaturen um 0 Grad in 2000m und +3 Grad in 1500m. Der Wind weht am Vormittag noch lebhaft aus Nordwest, dreht später auf Südost und schwächt sich deutlich ab. </wxSynopsisComment>
+          <tendencyComment>Am Samstag herrscht in der gesamten Steiermark strahlender Sonnenschein. Die Temperaturen steigen weiter an und die Anfeuchtung der Schneedecke nimmt auch schattseitig zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

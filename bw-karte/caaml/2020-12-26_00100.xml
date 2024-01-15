@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID100RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID100RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht zu störende Triebschneeablagerungen beachten</avActivityHighlights>
+          <avActivityComment>Triebschneeablagerungen in Mulden und Rinnen sind mit starkem Wind weiter angewachsen und können bereits durch eine geringe Zusatzbelastung gestört werden. Die Auslösebereitschaft nimmt mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Wind entstanden störanfällige Triebschneeansammlungen in Mulden und Rinnen. Die Triebschneeablagerungen liegen teilweise auf lockere, weichen Schichten. Darunter folgen nach einer kompakten und gut verfestigten Schneedecke im Fundament eine Schicht mit aufbauend umgewandelten Kristallen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen geraten an der Vorderseite eines Tiefs in eine stürmische Südwestlage. Am Sonntag sorgt zunächst Zwischenhocheinfluss für ruhiges aber sehr kaltes Wetter. Der Wind aus nördlicher Richtung schläft über Nacht ein. Im Tagesverlauf nimmt der Wind aus südwestlicher Richtung zu und kann am Nachmittag in exponierten Lagen, bereits stürmisch sein. Erst gegen Abend werden hochliegende Wolken mehr, sonst ist es ganztags sonnig.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront mit Starkschneefall und Sturm durch. Am meisten Neuschnee, mit bis zu 60 cm gibt es dabei in den südlichen Gebirgsgruppen. Die Lawinengefahr steigt markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID100RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID100RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen in Kammnähe beachten</avActivityHighlights>
+          <avActivityComment>Der stärkere Wind hat am Samstag wieder für frische Triebschneeablagerungen, besonders in Kammlagen gesorgt, welche auch durch eine geringe Zusatzbelastung gestört werden können.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Wind entstanden frische störanfällige Triebschneeansammlungen in kammnahen Mulden und Rinnen. Die Triebschneeablagerungen liegen teilweise auf lockere, weichen Schichten. Darunter folgen nach einer kompakten und gut verfestigten Schneedecke im Fundament eine Schicht mit aufbauend umgewandelten Kristallen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen geraten an der Vorderseite eines Tiefs in eine stürmische Südwestlage. Am Sonntag sorgt zunächst Zwischenhocheinfluss für ruhiges aber sehr kaltes Wetter. Der Wind aus nördlicher Richtung schläft über Nacht ein. Im Tagesverlauf nimmt der Wind aus südwestlicher Richtung an Stärke zu und wird in der Nacht zum Sturm. Erst gegen Abend werden hochliegende Wolken mehr, sonst ist es ganztags sonnig.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront mit Starkschneefall und Sturm durch. Am meisten Neuschnee, mit bis zu 60 cm gibt es dabei in den südlichen Gebirgsgruppen. Die Lawinengefahr steigt markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID100RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID100RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeablagerungen vorsichtig beurteilen</avActivityHighlights>
+          <avActivityComment>Durch mäßig bis starkem Wind sind wieder frische Triebschneeablagerungen gebildet worden. Gefahrenstellen und Auslösebereitschaft nimmt mit der Höhe zu.</avActivityComment>
+          <snowpackStructureComment>Mit starkem Wind entstanden frische störanfällige Triebschneeansammlungen in Mulden und Rinnen. Die Triebschneeablagerungen liegen teilweise auf lockere, weichen Schichten. Darunter folgen nach einer kompakten und gut verfestigten Schneedecke im Fundament eine Schicht mit aufbauend umgewandelten Kristallen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen geraten an der Vorderseite eines Tiefs in eine stürmische Südwestlage. Am Sonntag sorgt zunächst Zwischenhocheinfluss für ruhiges aber sehr kaltes Wetter. Der Wind aus nördlicher Richtung schläft über Nacht ein, weht kann am Abend, vor allem im Norden, bereits stark und wird in der Nacht zum Sturm. Erst gegen Abend werden hochliegende Wolken mehr, sonst ist es ganztags sonnig.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront mit Starkschneefall und Sturm durch. Am meisten Neuschnee, mit bis zu 60 cm gibt es dabei in den südlichen Gebirgsgruppen. Die Lawinengefahr steigt markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID100RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID100RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Vereinzelt können Triebschneeablagerungen als kleinere Schneebretter ausgelöst werden. In den nördlichen Nockbergen sind die Gefahrenstellen etwas mehr.</avActivityComment>
+          <snowpackStructureComment>Starker Wind hat vereinzelt für kleinere Triebschneeablagerungen gesorgt, vermehrt in den nördlichen Nockbergen. Im Osten ist die Schneedecke bis in mittlere Lagen sehr gering.</snowpackStructureComment>
+          <wxSynopsisComment>Die Alpen geraten an der Vorderseite eines Tiefs in eine stürmische Südwestlage. Am Sonntag sorgt zunächst Zwischenhocheinfluss für ruhiges aber sehr kaltes Wetter. Der Wind aus nördlicher Richtung schläft über Nacht ein, weht kann am Abend, vor allem im Norden, bereits stark und wird in der Nacht zum Sturm. Erst in der Nacht werden hochliegende Wolken mehr, sonst ist es ganztags sonnig.</wxSynopsisComment>
+          <tendencyComment>Am Montag zieht eine Kaltfront mit Starkschneefall und Sturm durch. Am meisten Neuschnee, mit bis zu 60 cm gibt es dabei in den südlichen Gebirgsgruppen. Die Lawinengefahr steigt markant an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

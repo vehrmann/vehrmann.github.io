@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2683RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2683RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-23T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicherer Triebschnee in Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingelagerte noch störanfällige Schwachschichten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verfrachtungen in Rinnen und kammnahen Steilhängen beachten - vor allem in höheren Lagen!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen, teils auch ab der Waldgrenze sind in verfüllten Steilhängen, steilen Rinnen sowie bei Geländeübergängen im erweiterten Westsektor aber auch in sonstigen Expositionen auf Triebschneeablagerungen, die bereits bei geringer Zusatzbelastung ausgelöst werden können, zu achten. Mittlere bis vereinzelt große Schneebrettlawinen sind hier möglich, wobei mit zunehmender Höhe die Gefahrenstellen deutlich mehr werden. Aus extrem steilem Gelände sind bei Sonneneinstrahlung dann auch spontane feuchte Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den etwas milderen Temperaturen kann sich die Schneedecke weiter setzen. Sie ist oberflächig oft noch locker und pulvrig, nur bei Windeinfluss gepresst, gebunden und störanfällig. Die Triebschneepakete erhalten zum Teil dünne, weiche und lockere kalte Zwischenschichten und binden daher noch ungenügend. Das Schneedeckenfundament enthält neben Harschschichten nordseitig auch aufbauend umgewandelte kantige Kristalle. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht meist gut, das Wetter bessert sich im Tagesverlauf. Zeitweise scheint die Sonne. Der Wind bleibt schwach. Weitere Erwärmung: In 1500 m um -2 Grad, in 2000 m um -3 Grad.&#13;
+Am Mittwoch ist die Sicht sehr gut, die Sonne scheint. Hangnebel lösen sich im Tagesverlauf auf. Der Wind bleibt schwach. In 1500 m um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der fortschreitenden Setzung der Schneedecke geht die Lawinengefahr in den kommenden Tagen zurück.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

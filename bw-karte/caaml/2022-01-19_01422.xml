@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1422RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1422RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-19T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-20T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-01-20T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-01-20T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälligen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist morgens noch gering und steigt im Tagesverlauf oberhalb der Waldgrenze auf mäßig an. Problematisch ist der frische Triebschnee. Oberhalb der Waldgrenze bilden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südwest sowie in Rinnen und Mulden fortlaufend mehr und größere Triebschneeansammlungen. Sie können vielerorts schon durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Wintersportler, ausgelöst werden. Potentielle Lawinen bleiben meist klein, können in der zweiten Tageshälfte stellenweise auch mittelgroß werden.</avActivityComment>
+          <snowpackStructureComment>Die Altschneeoberfläche besteht teilweise aus Pulverschnee oder älterem Triebschnee, zum Teil aus Wind- oder Schmelzharschkrusten. Im Tagesverlauf fallen lokal bis zu 20 cm Neuschnee, der von kräftiger werdendem Nordwestwind verfrachtet wird. Der frische Triebschnee ist mancherorts schlecht mit der Altschneeoberfläche verbunden. Die Altschneedecke ist allgemein gut gesetzt und stabil. Insgesamt ist die Mächtigkeit der Schneedecke unterdurchschnittlich, in tieferen Lagen fehlt vielerorts eine solide Unterlage.</snowpackStructureComment>
+          <tendencyComment>Abhängig von den Neuschneemengen kann die Lawinengefahr zum Wochenende hin weiter steigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

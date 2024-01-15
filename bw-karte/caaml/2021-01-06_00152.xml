@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID152RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID152RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – vereinzelt dünne Triebschneelinsen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Nur in höher gelegenen, schattseitigen Einfahrtsbereichen steiler Rinnen und hinter Geländekanten existieren  kleinräumig  Gefahrenstellen im Altschnee. Diese wurden durch eine dünne Neuschneeauflage überdeckt. In kammnahen, ostexponierten Bereichen entstehen durch den lebhaften Westwind frische, dünne aber meist gut erkennbare Triebschneelinsen.   </avActivityComment>
+          <snowpackStructureComment>Vom Göller westwärts fielen in der Nacht auf Mittwoch zwischen 5 und 10cm Neuschnee. Er lagerte sich als lockere Auflage auf aperen Boden bzw. einer gesetzten Altschneedecke ab. Mit lebhaftem Westwind entstehen in höhergelegenen, kammnahen Bereichen der Exposition Ost dünne Triebschneelinsen. In höheren, schattseitigen Lagen überdeckte der Neuschnee noch kleinräumig bestehende ältere Triebschneelinsen, diese Gefahrenstellen treten jedoch nur vereinzelt auf. Die Schneedecke ist generell unterdurchschnittlich und für eine lohnende Skitour meist zu geringmächtig. </snowpackStructureComment>
+          <wxSynopsisComment>Einige Wolken sorgen besonders in den Ybbstaler und Türnitzer Alpen für ein paar Schneeflocken. Letzte Schneeschauer klingen aber um die Mittagszeit ab, dann zeigt sich immer öfter die Sonne. Der Westwind ist speziell in der ersten Tageshälfte stellenweise lebhaft und verschärft bei Temperaturen um -7 Grad in 1500m das Kälteempfinden. </wxSynopsisComment>
+          <tendencyComment>Bei niederschlagsfreien aber kaltem Bergwetter kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID152RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID152RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, in steilen Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze frischer Triebschnee sowie lokales Altschneeproblem bei mäßiger Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige, ansonsten gering Lawinengefahr. Vereinzelte Gefahrenstellen befinden sich im Altschnee in Einfahrtsbereichen sehr steiler, schattseitigen Rinnen sowie hinter Geländekanten. Hier kann die Schneedecke durch Zusatzbelastung gestört werden. Zudem bilden sich in kammnahem, ostexponiertem Gelände mit lebhaftem Westwind frische, dünne Triebschneebereiche aus, die beachtet werden müssen aber meist gut erkennbar sind. </avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Mittwoch fielen zwischen Rax und Wechsel bei meist schwachem Windeinfluss zwischen 5 und 15cm Neuschnee. Er wurde als lockere Auflage auf aperen Boden bzw. einer meist gesetzten Altschneedecke abgelagert. Mit lebhaftem Westwind entstehen in ostexponierten Rinnen bzw. hinter Geländekanten dünne frische Triebschneelinsen, die sich nur schlecht mit der bestehenden Schneedecke (weiche Neuschneeauflage) verbinden. In schattseitigen Hochlagen schreitet temperaturbedingt die Umwandlung der geringmächtigen Altschneedecke (Boden, im Bereich von Krusten) zu lockeren, kantigen Formen voran. Die Schneedecke ist generell unterdurchschnittlich und für eine lohnende Skitour oft nicht ausreichend. </snowpackStructureComment>
+          <wxSynopsisComment>Es bleibt niederschlagsfreies, jedoch ziehen neben sonnigen Phasen oft Wolken durch. Der Westwind ist speziell in der ersten Tageshälfte oft lebhaft und verschärft bei Temperaturen um -7 Grad in 1500m das Kälteempfinden. </wxSynopsisComment>
+          <tendencyComment>Bei niederschlagsfreien aber kaltem Bergwetter kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

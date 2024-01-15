@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2230RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-24T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2230RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-24T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - vereinzelte Gefahrenstellen durch Nassschnee und Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Aus steilem Gelände sind durch den Regeneintrag vereinzelt spontane, nasse Lockerschneelawinen zu erwarten. Zudem besteht in schneereicheren Regionen weiterhin die Möglichkeit von spontanen Gleitschneelawinen an steilen Hängen mit glattem Untergrund. In den Hochlagen existieren kammnahe vereinzelt frische Triebschneelinsen, die als Schneebrettlawinen ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Regen bis etwa 1900 m hinauf sorgt für weitere Durchfeuchtung der Schneedecke, die dadurch instabil werden kann. Oberhalb davon führt Neuschnee unter Windeinfluss zu Triebschneebildung.  Der Neu- bzw. Triebschnee lagert auf einer feuchten, oberflächlich oft verharschten Altschneedecke, die Bindung ist meist gut, vereizelt aber störanfällig. Die Altschneedecke ist großteils kompakt und bis in höhere Lagen isotherm und feucht, in mittleren Lagen ist sie durchnässt, tiefe Lagen sind überwiegend schon aper.</snowpackStructureComment>
+          <wxSynopsisComment>Der Montag bringt von Norden her Regenschauer, die am Nachmittag auch auf die Alpensüdseite übergreifen. Die Schneefallgrenze liegt dabei bei 1800 m und der Wind weht lebhaft aus Nordwest. In 2000 m liegen die Temperaturen bei +2 Grad. Auch am Diensttag bleibt es schaueranfälling und vorerst mild, bevor in der Nacht auf Mittwoch eine Kaltfront die Schneefallgrenze sinken lässt.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Mittwoch sorgt eine Kaltfront für Neuschnee und Wind. Die Nassschneeproblematik lässt nach, Triebschnee wird das bestimmende Lawinenproblem.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

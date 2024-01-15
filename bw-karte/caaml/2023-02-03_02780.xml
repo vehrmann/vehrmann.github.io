@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2780RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2780RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide Lawinengelände oberhalb der Waldgrenze sowie Sturzbahnen und Auslaufbereiche großer Lawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Durch die Zusatzbelastung durch Neu- und Triebschnee können Schwachschichten im Altschnee initiiert und spontane Lawinen ausgelöst werden. Vermeide Sturzbahnen und Auslaufbereiche großer Lawinen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hohe Störanfälligkeit der Schneedecke</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit Gefahrenstufe 4, GROSS beurteilt. Darunter herrscht ERHEBLICHE Lawinengefahr.&#13;
+Rückmeldungen von zahlreichen großen und vereinzelt sehr großen spontanen sowie künstlich ausgelösten Schneebrettlawinen heute Freitag bestätigen die angespannte Lawinensituation. In der Nacht auf Samstag steigt mit Neuschnee und stürmischem Wind die spontane Aktivität erneut an. Noch nicht entladene nach Norden und Osten (N-NO-O-SO) orientierte Einzugsgebiete oberhalb der Waldgrenze sind insbesondere betroffen. Lawinen können stellenweise in die schwache Altschneedecke durchreißen und sehr große Ausmaße annehmen. Auch im Bereich der Waldgrenze und unterhalb ist die Störanfälligkeit der Schneedecke hoch. Lawinen können stellenweise leicht ausgelöst werden und mittlere Größe erreichen. Fernauslösungen sind möglich. Für Wintersport abseits gesicherter Pisten ist sehr viel Erfahrung und Zurückhaltung notwendig.&#13;
+An steilen Grashängen sind stellenweise spontane Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Es hat verbreitet 40 bis 60 cm, lokal auch bis zu 80 cm und mehr geschneit. Der Nordwestwind wehte meist stark. Bis Samstagvormittag sind erneut 30 bis 50 cm, in Staulagen der Hohen Tauern auch bis zu 70 cm Neuschnee möglich. Der Wind weht dabei verbreitet stürmisch. Der Neu- und Triebschnee ist störanfällig. Im unteren Teil der Schneedecke befinden sich stellenweise störanfällige Schwachschichten, welche durch die Auflast von Neu- und Triebschnee als Schneebrettlawine ausgelöst werden können. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag schneit es in der Früh und am Vormittag zum Teil noch kräftig, dann lässt der Schneefall nach, viele Berge bleiben aber noch in Wolken gehüllt. Vor allem in den Hochlagen weht stürmischer, am Tauernhauptkamm auch orkanartiger Nordwestwind. In 2000m beträgt die Temperatur um -8 Grad, in 3000m um -12 Grad Celsius.</wxSynopsisComment>
+          <tendencyComment>Es bleibt meist niederschlagsfrei, am Alpenhauptkamm weht der Wind immer noch teils stürmisch, tagsüber nimmt er aber sukzessive ab. Die Schneedecke verfestigt sich langsam, die Lawinengefahr geht etwas zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2780RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2780RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide Lawinengelände oberhalb der Waldgrenze sowie Sturzbahnen und Auslaufbereiche großer Lawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Spontan, in den Hauptniederschlagsgebieten auf steilen Grashängen tiefer und mittlerer Lagen.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hohe Störanfälligkeit der Schneedecke</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit Gefahrenstufe 4, GROSS beurteilt. Darunter herrscht ERHEBLICHE Lawinengefahr.&#13;
+ In der Nacht auf Samstag steigt mit Neuschnee und stürmischem Wind die spontane Aktivität erneut an. Bis in die frühen Morgenstunden sind große, vereinzelt sehr große spontane Schneebrettlawinen möglich. Mit Abklingen der Schneefälle nimmt auch die spontane Lawinenaktivität ab. Die Schneedecke bleibt aber sehr störanfällig. Einzelne Personen können an Steilhängen aller Expositionen oberhalb der Waldgrenze leicht Lawinen auslösen, auch große. Die Gefahrenstellen sind zahlreich und nicht zu erkennen. Fernauslösungen und einzelne spontane Lawinen sind weiterhin möglich. Auch unterhalb der Waldgrenze können Lawinen stellenweise leicht ausgelöst werden und mittlere Größe erreichen.&#13;
+An steilen Grashängen sind spontane Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Es hat verbreitet 60 bis 80 cm, lokal auch mehr geschneit. Der Nordwestwind wehte meist stark. Bis Samstagvormittag sind erneut 30 bis 50 cm möglich. Der Wind weht dabei verbreitet stürmisch. Der Neu- und Triebschnee ist störanfällig. Der untere Teil der Schneedecke ist recht kompakt und verfestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag schneit es in der Früh und am Vormittag zum Teil noch kräftig, dann lässt der Schneefall nach, viele Berge bleiben aber noch in Wolken gehüllt. Vor allem in den Hochlagen weht stürmischer Nordwestwind. In 2000m beträgt die Temperatur um -8 Grad, in 3000m um -12 Grad Celsius.</wxSynopsisComment>
+          <tendencyComment>Es bleibt meist niederschlagsfrei, der Wind weht nur mehr schwach bis mäßig. Die Schneedecke verfestigt sich langsam, die Lawinengefahr geht etwas zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2780RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2780RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide Lawinengelände oberhalb der Waldgrenze sowie Sturzbahnen und Auslaufbereiche großer Lawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Für Wintersportler*innen sehr heikle Lawinensituation</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit Gefahrenstufe 4, GROSS beurteilt. Darunter herrscht ERHEBLICHE Lawinengefahr.&#13;
+ Die Schneedecke ist sehr störanfällig. Spontane sowie künstlich ausgelöste mittlere und große Schneebrettlawinen in Bereich von 1500m und aufwärts bestätigen die angespannte Lawinensituation. In der Nacht auf Samstag steigt mit Neuschnee und stürmischem Wind die spontane Aktivität erneut an. Bis in die frühen Morgenstunden sind mittlere und große spontane Schneebrettlawinen möglich. Mit Abklingen der Schneefälle nimmt auch die spontane Lawinenaktivität ab. Die Schneedecke bleibt aber sehr störanfällig. Einzelne Personen können an Steilhängen aller Expositionen oberhalb der Waldgrenze leicht Lawinen auslösen, auch große. Die Gefahrenstellen sind zahlreich und nicht zu erkennen. Fernauslösungen sind möglich. Auch unterhalb der Waldgrenze können Lawinen stellenweise leicht ausgelöst werden und mittlere Größe erreichen. Sehr vereinzelt sind auch hier große Lawinen möglich. Für Wintersport abseits gesicherter Pisten ist sehr viel Erfahrung und Zurückhaltung notwendig.&#13;
+An steilen Grashängen sind stellenweise spontane Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Es hat verbreitet 40 bis 60 cm geschneit. Der Nordwestwind wehte meist stark. Bis Samstagvormittag kommen erneut 20 bis 40 cm Neuschnee hinzu. Der Wind weht stürmisch aus Nordwest. Der Neu- und Triebschnee ist störanfällig. Im etwas windberuhigten Waldgrenzbereich und darunter finden sich zudem unterhalb des Neu- und Triebschneepakets störanfällige Schwachschichten in Form von Wildschnee bzw. Oberflächenreif.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag schneit es in der Früh und am Vormittag zum Teil noch kräftig, dann lässt der Schneefall nach, viele Berge bleiben aber noch in Wolken gehüllt. Vor allem in den Hochlagen weht stürmischer Nordwestwind. In 2000m beträgt die Temperatur um -8 Grad, in 3000m um -12 Grad Celsius.</wxSynopsisComment>
+          <tendencyComment>Es bleibt meist niederschlagsfrei, der Wind weht nur mehr schwach bis mäßig. Die Schneedecke verfestigt sich langsam, die Lawinengefahr geht etwas zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2780RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2780RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Nutze Grate und Rippen, um Triebschneeansammlungen zu vermeiden. Meide frisch eingewehte Bereiche.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer störanfälliger Triebschnee</avActivityHighlights>
+          <avActivityComment>Oberhalb 1600m ERHEBLICHE Lawinengefahr. Die Hauptgefahr geht von frischen Triebschneeansammlungen aus. Diese können stellenweise bereits bei geringer Zusatzbelastung als mittelgroße Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich in Rinnen und Mulden sowie hinter Geländekanten aller Expositionen. Bei teilweise schlechter Sicht sind die Gefahrenstellen oft schwer zu erkennen. Im Waldgrenzbereich ist die Lawinensituation tendenziell am ungünstigsten.</avActivityComment>
+          <snowpackStructureComment>Mit stürmischem Nordwestwind und 5 bis 15 cm Neuschnee bilden sich weitere Triebschneeansammlungen. Die frischen und schon etwas älteren Triebschneepakete liegen an windgeschützen Bereichen stellenweise auf weichen Schichten und sind dort störanfällig. Der untere Teil der Schneedecke ist gut verfestigt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag weht im Bergland sehr stürmischer Nordwind, in exponierten Hochlagen ist sogar mit Orkanböen zu rechnen. Zudem greifen speziell in den nördlichen Gebirgsgruppen von Norden her noch ein paar Schneeschauer über. Der Nordföhn lockert die Wolken etwas auf. In 2000m hat es zu Mittag um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Wind lässt etwas nach. Triebschneeansammlungen verbinden sich langsam, bleiben aber noch stellenweise störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

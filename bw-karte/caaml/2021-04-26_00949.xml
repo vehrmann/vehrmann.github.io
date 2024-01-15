@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID949RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-26T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID949RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-26T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-26T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in einzelnen schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anfangs günstige Bedingungen durch geringe Lawinengefahr, die im Tagesverlauf auf mäßig steigt!</avActivityHighlights>
+          <avActivityComment>&#13;
+In der Früh und vormittags gibt es günstige Bedingungen mit geringer Lawinengefahr, die im Tagesverlauf dann auf mäßig ansteigt. Je nach Sonnenschein und mit der tagsüber ansteigenden Temperatur kommt es ab Mittag bzw. ab dem späten Vormittag zu vermehrter Nassschneeaktivität. Im Steilgelände, verstärkt sonnseitig sind dann spontane Nassschneelawinen zu erwarten. Auch Gleitschneelawinen auf vergrasten Steilhängen sind in den mittleren Lagen möglich. Lokale Gefahrenstellen, wo durch Zusatzbelastung eine Schneebrettlawine auslösbar ist, sind in steilen hochalpinen Kammlagen schattseitig vereinzelt vorhanden.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke kann sich in Abhängigkeit der nächtlichen Ausstrahlung oberflächig je nach Höhe und Exposition verschieden gut festigen, verharschen und geht mit der Sonneneinstrahlung und den steigenden Temperaturen dann auf und verliert somit ihre Festigkeit. Sie wird somit feucht, nass und weicht auf und ist im Inneren ohnehin schon oft durchfeuchtet. In den Hochlagen gibt es schattseitig noch einzelne eingelagerte schwache Zwischenschichten. Mittlere Lagen besonders sonnseitig apern zunehmend aus.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag scheint am Vormittag auf den Bergen meist die Sonne. Am Nachmittag bilden sich Quellwolken die die Gipfel zum Teil einhüllen. In 1500 m hat es 0 bis 6 Grad, in 2000 m um 3 Grad.&#13;
+Am Mittwoch wechseln Sonnenschein und Quellwolken bei weitgehend niederschlagsfreiem Wetter. Der Wind weht meist schwach bis mäßig stark. In 1500 m hat es 1 bis 8 Grad, in 2000 m um 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Zeitweiser Sonnenschein mit Wolken und einzelne Regenschauer ändern die Lawinensituation in den kommenden Tagen kaum.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

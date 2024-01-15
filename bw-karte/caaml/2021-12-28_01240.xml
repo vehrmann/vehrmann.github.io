@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1240RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1240RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in den Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr durch frischen Triebschnee. Gefahrenstellen sind hinter Kämmen und in Hängen der Expositionen Nord über Ost bis Süd zu finden und generell in den Einfahrten zu Rinnen und Mulden. Achtung! Obwohl aufgrund der mäßigen Neuschneemengen keine großen Lawinen zu erwarten sind, ist an einigen Gefahrenstellen durchaus mit Schneebrettauslösung durch geringe Zusatzbelastung zu rechnen!&#13;
+In tieferen Lagen ist mit spontanen Nassschneerutschen zu rechnen. Aufgrund der geringen Schneemengen sind aber hier keine größeren Lawinen zu erwarten. </avActivityComment>
+          <snowpackStructureComment>Über 1200 m bildet sich wegen Neuschnee und stürmischem Nordwestwind frischer Triebschnee. In den Ybbstaler Alpen wird bis zu 20 cm Neuschnee erwartet, in den übrigen Regionen bis zu 10 cm. Der Triebschnee bindet einigermaßen gut mit dem Untergrund, allerdings sind Schwachschichten innerhalb der frischen Auflage zu erwarten. Das Schneedeckenfundament ist großteils stabil. Unter etwa 1200 m wird die Schneedecke durch Regeneintrag durchnässt und destabilisiert. </snowpackStructureComment>
+          <wxSynopsisComment>Die niederösterreichischen Berge sind am Mittwoch in dichte Wolken gehüllt, die Sichtbedingungen sind schlecht und es schneit kräftig. Die Schneefallgrenze liegt bei etwa 1200 m, in tieferen Lagen regnet es. In den Hochlagen der Ybbstaler Alpen werden bis zu 20 cm Neuschnee erwartet, im Gippel-Göllergebiet und im Rax-Schneeberggebiet bis zu 10 cm. Gleichzeitig weht stürmischer Nordwestwind. Am Nachmittag lässt der Niederschlag kurzzeitig nach. Die Temperaturen in 1500 m Seehöhe liegen bei 0 Grad.&#13;
+Auch der Donnerstag wird stürmisch und niederschlagsreich, allerdings wird es deutlich wärmer und die Schneefallgrenze steigt bis über 2000 m.</wxSynopsisComment>
+          <tendencyComment>Durch Regeneintrag bis auf Gipfelniveau nimmt die Nassschneeproblematik zu, die Triebschneeproblematik lässt hingegen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1240RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1240RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit einsetzendem Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Regen führt zu Nassschneerutschen</avActivityHighlights>
+          <avActivityComment>Unterhalb von etwa 1200 m ist aufgrund von Regeneintrag mit Nassschneerutschen aus allen Expositionen zu rechnen. Allerdings ist aufgrund der geringen Schneemengen mit keinen größeren Lawinen zu rechnen. In den Hochlagen des Semmering-Wechselgebietes und der Türnitzer Alpen sind auch vereinzelte Gefahrenstellen hinter Geländekanten durch frische Triebschneelinsen zu beachten. </avActivityComment>
+          <snowpackStructureComment>Über 1200 m bildet sich wegen Neuschnee und stürmischem Nordwestwind frischer Triebschnee. In den Türnitzer Alpen sind bis zu 10 cm feuchter Neuschnee möglich, im Semmering-Wechselgebiet nur wenige Zentimeter. Der Triebschnee bindet relativ gut mit dem Untergrund. Das Schneedeckenfundament ist großteils stabil. Unter etwa 1200 m wird die Schneedecke durch Regeneintrag durchnässt und destabilisiert. </snowpackStructureComment>
+          <wxSynopsisComment>Die niederösterreichischen Berge sind am Mittwoch in dichte Wolken gehüllt, die Sichtbedingungen sind schlecht und es schneit kräftig. Die Schneefallgrenze liegt bei etwa 1200 m, in tieferen Lagen regnet es. In den Hochlagen der Türnitzer Alpen werden bis zu 10 cm Neuschnee erwartet, im Semmering-Wechselgebiet nur wenige Zentimeter. Gleichzeitig weht stürmischer Nordwestwind. Am Nachmittag lässt der Niederschlag kurzzeitig nach. Die Temperaturen in 1500 m Seehöhe liegen bei 0 Grad.&#13;
+Auch der Donnerstag wird stürmisch und niederschlagsreich, allerdings wird es deutlich wärmer und die Schneefallgrenze steigt bis über 2000 m.</wxSynopsisComment>
+          <tendencyComment>Durch Regeneintrag bis auf Gipfelniveau nimmt die Nassschneeproblematik zu. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

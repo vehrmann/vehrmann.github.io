@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1632RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1632RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Am Übergang von viel zu wenig Schnee kann ein einzelner Skifahrer weiterhin Schneebretter auslösen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das Hauptproblem sind störanfällige Zwischenschichten im Altschnee. Einige Gefahrenstellen befinden sich oberhalb 1600 m im kammnahen Steilgelände der Expositionen Nord über Ost bis Südost sowie in eingewehten Rinnen und Mulden. In diesen Bereichen ist insbesondere bei großer Zusatzbelastung, z.B. durch eine Skifahrergruppe ohne Abstände, die Auslösung auch großer Schneebrettlawinen möglich. Vor allem am Übergang von viel zu wenig Schnee, zum Beispiel an der Einfahrt in triebschneeverfüllte Rinnen kann auch der einzelne Skifahrer noch tieferliegende Schwachschichten im Altschnee auslösen.&#13;
+Mit Neuschnee und starkem Westwind entsteht in höheren Lagen ein Triebschneeproblem. Die frischen, eher kleineren Triebschneeansammlungen sind störanfällig und vom einzelnen Skifahrer auszulösen. Die Absturzgefahr ist dabei höher einzuschätzen als die Gefahr, verschüttet zu werden.&#13;
+In mittleren Lagen kann vor allem an triebschneebeladenen, steilen Grashängen die Schneedecke am Boden abgleiten. Die Gleitschneelawinen können mittelgroß werden. Hänge mit Gleitschneerissen deshalb meiden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich allgemein gut gesetzt, ist windgepackt und sonnseitig oberflächlich verharscht. Sie ist stark vom Wind geprägt, Rücken und Grate sind abgeblasen, in leeseitigen Rinnen und Mulden liegt der verfrachtete Schnee meterhoch. Im Altschneepaket finden sich noch aufgebaut kantige Kristalle im Bereich einer dünnen Harschschicht. Diese Schwachschicht ist in den Hochlagen besonders ausgeprägt und liegt je nach Windeinfluss näher an der Oberfläche oder verborgen unter mächtigen Triebschneepaketen. Am Freitagmorgen setzt bei stark auffrischendem Westwind Schneefall ein. Der wenige Neuschnee wird in höheren Lagen verfrachtet und bildet kleine, störanfällige Triebschneeansammlungen.</snowpackStructureComment>
+          <tendencyComment>Am Freitag beendet eine schwache Kaltfront das frühlingshafte Wetter mit etwas Neuschnee. Die Lawinengefahr wird sich am Wochenende bei kühleren Temperaturen weiter entspannen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

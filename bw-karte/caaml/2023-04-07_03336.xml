@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3336RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3336RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr auf verharschtem Schnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. In mittleren Lagen kann Gleitschnee ein Problem darstellen. An noch nicht entladenen Steilhängen mit glattem Untergrund unterhalb von 2000 m ist die Selbstauslösung von vereinzelten kleinen bis mittelgroßen Gleitschneelawinen nicht auszuschließen. &#13;
+Einzelne störanfällige Triebschneeansammlungen sind in den Hochlagen zu beachten. Diese können von einzelnen Personen ausgelöst werden. Die Absturzgefahr ist dabei höher einzuschätzen als die Gefahr verschüttet zu werden.</avActivityComment>
+          <snowpackStructureComment>In den Hochlagen entstehen mit mäßigem Wind aus nördlichen Richtungen kammnah kleine Triebschneelinsen, die auf einer verharschten Altschneedecke zu liegen kommen. Ansonsten überdeckt lockerer Neuschnee eine kompakte und weitgehend stabile Altschneedecke oder liegt direkt auf dem Boden. Der Schnee wird bei Sonneneinstrahlung oberflächlich schnell feucht. Die Schneedeckenbasis ist in mittleren Lagen vielerorts nass. </snowpackStructureComment>
+          <tendencyComment>Mit ansteigenden Temperaturen wird Nassschnee nach den Ostertagen zum Problem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

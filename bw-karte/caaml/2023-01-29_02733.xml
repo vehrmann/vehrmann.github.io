@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2733RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2733RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab der Waldgrenze und im Tagesverlauf deutlicher Anstieg der Lawinengefahr auf erheblich!</avActivityHighlights>
+          <avActivityComment>Schneefall und stürmischer Wind um Nordwest lassen die Lawinengefahr am Nachmittag auf erheblich ansteigen. Der frische umfangreiche Triebschnee über der Waldgrenze ist sehr störanfällig und bereits bei geringer Zusatzbelastung im Steilgelände auslösbar. Mit der steigenden Neuschneemenge sind dann aus dem Steilgelände spontane Lockerschnee- und Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind bildet frische störanfällige Verfrachtungen, die auf einer oft oberflächig lockeren weichen Altschneedecke zu liegen kommen und daher schlecht binden. In der Altschneedecke sind schattseitig und höher gelegen Schwachschichten wie teils Oberflächenreif oder Harschschichten und im Fundament neben kantigen Kristallen ebenfalls Harschkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht auf den Bergen zunehmend stürmischer Nordwestwind, am Nachmittag sind in exponierten Lagen Böen um 90 km/h möglich. Zunächst ist die Sicht bei aufgelockerter Bewölkung noch gut, doch schon ab dem späten Vormittag sorgen dichte Wolken und teils kräftige Schneeschauer für ungünstige Verhältnisse und eine deutliche Sichteinschränkung. Temperaturen in 1500 m um -4 Grad, in 2000 m zu Mittag um -6 Grad.&#13;
+Am Dienstag stecken die Berge öfter in Wolken, vor allem am Vormittag ist auch etwas Schneefall möglich. Inneralpin überwiegt bei besseren Sichtverhältnissen und längeren sonnigen Phasen trockenes Wetter. Der Wind weht stark bis stürmisch aus West bis Nordwest. Temperaturen in 1500 m zwischen -7 und -3 Grad, in 2000 m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Die erhebliche Lawinengefahr durch Triebschnee und starken bis stürmischen Wind ist unbedingt zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2733RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2733RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-29T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-01-30T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-01-30T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab der Waldgrenze und im Tagesverlauf deutlicher Anstieg der Lawinengefahr auf erheblich!</avActivityHighlights>
+          <avActivityComment>Schneefall und stürmischer Wind um Nordwest lassen die Lawinengefahr am Nachmittag auf erheblich ansteigen. Der frische umfangreiche Triebschnee über der Waldgrenze ist sehr störanfällig und bereits bei geringer Zusatzbelastung im Steilgelände auslösbar. Mit der steigenden Neuschneemenge sind dann aus dem Steilgelände spontane Lockerschnee- und Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind bildet frisch störanfällige Verfrachtungen, die auf einer oft oberflächig lockeren weichen Altschneedecke zu liegen kommen und daher schlecht binden. In der Altschneedecke sind schattseitig und höher gelegen Schwachschichten wie teils Oberflächenreif oder Harschschichten und im Fundament neben kantigen Kristallen ebenfalls Harschkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht auf den Bergen zunehmend stürmischer Nordwestwind, am Nachmittag sind in exponierten Lagen Böen um 90 km/h möglich. Zunächst ist die Sicht bei aufgelockerter Bewölkung noch gut, doch schon ab dem späten Vormittag sorgen dichte Wolken und teils kräftige Schneeschauer für ungünstige Verhältnisse und eine deutliche Sichteinschränkung. Temperaturen in 1500 m um -4 Grad, in 2000 m zu Mittag um -6 Grad.&#13;
+Am Dienstag stecken die Berge öfter in Wolken, vor allem am Vormittag ist auch etwas Schneefall möglich. Inneralpin überwiegt bei besseren Sichtverhältnissen und längeren sonnigen Phasen trockenes Wetter. Der Wind weht stark bis stürmisch aus West bis Nordwest. Temperaturen in 1500 m zwischen -7 und -3 Grad, in 2000 m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Die erhebliche Lawinengefahr durch Triebschnee und starken bis stürmischen Wind ist unbedingt zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

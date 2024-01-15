@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3613RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3613RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. Die Gefahrenstellen befinden sich im Nord und im Ostsektor. Der Südwind hat in den letzten Tagen die Nordhänge eingeweht und mit dem Windwechsel sind jetzt wieder die Osthänge betroffen. In Hängen über 30 Grad kann bei großer Zusatzbelastung ein Schneebrett ausgelöst werden. Vorsicht hinter Geländekanten und bei Einfahrten von Rinnen und Mulden, hier sollten die älteren Triebschneemengen nicht unterschätzt werden. In den mittleren Lagen sind Gleitschneelawinen weiterhin möglich. Kleine bis mittlere Nassschneelawinen sind in den tiefen Lagen möglich. Diese können im Wald auf einer Laubschicht abgleiten!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich setzen.  In den Hochlagen ist die Schneedecke meist hart und teilweise eisig. Im Leebereich liegt älterer Triebschnee auf einer weichen Schicht auf. Der Wind hat die Schneedecke oberhalb der Baumgrenze massiv bearbeitet. Luvhänge sind teils schneelos. Rinnen und Mulden wurden mit Triebschnee gefüllt. In den mittleren und tiefen Lagen wurde der Schnee mit der Erwärmung feucht, teilweise auch nass. </snowpackStructureComment>
+          <wxSynopsisComment>Großteils überwiegt sonniges und trockenes Bergwetter. In den Tälern liegen hingegen Nebel oder Hochnebel teils zäh. Im Laufe des Nachmittags macht sich dann von Westen her ein Schirm aus hochliegenden Wolken bemerkbar, der für diffuse Lichtverhältnisse sorgt. Der Höhenwind dreht auf Süd bis Südwest, am Alpenostrand kann er lebhaft auffrischen und das Kälteempfinden beträchtlich steigern! Die Temperaturen auf 1500m Seehöhe erreichen in den Ybbstaler Alpen bis plus 4 Grad, im Schneeberg-Raxgebiet kaum über 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3613RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3613RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gleitschneelawinen sind möglich!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Frische Wechten sowie Triebschnee sind in Kammnähe bzw. hinter Geländekanten auslösbar. In den mittleren und tiefen Lagen sind auch kleine Gleitschneerutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Mit der Erwärmung wurde der Schnee feucht und teilweise auch nass. Die Schneedecke ist homogen. Teilweise gibt es noch einen nicht tragfähigen Harschdeckel.</snowpackStructureComment>
+          <wxSynopsisComment>Großteils überwiegt sonniges und trockenes Bergwetter. In den Tälern liegen hingegen Nebel oder Hochnebel teils zäh. Im Laufe des Nachmittags macht sich dann von Westen her ein Schirm aus hochliegenden Wolken bemerkbar, der für diffuse Lichtverhältnisse sorgt. Der Höhenwind dreht auf Süd bis Südwest, am Alpenostrand kann er lebhaft auffrischen und das Kälteempfinden beträchtlich steigern! Die Temperaturen auf 1500m Seehöhe erreichen in den Ybbstaler Alpen bis plus 4 Grad, im Schneeberg-Raxgebiet kaum über 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

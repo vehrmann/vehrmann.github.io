@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID984RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-06T09:11:10+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID984RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-06T09:11:10+00:00</beginPosition>
+          <endPosition>2021-05-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>večje količine novega snega, nad 1500 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>na grebenih in pod njimi, za robovi (grebeni/slemena)</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zlasti na območju Julijskih Alp veliko novega snega</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je trenutno nad nadmorsko višino okoli 1700 m ZMERNA, 2. stopnje, nižje pa MAJHNA, 1. stopnje. Novejši sneg se je večinoma že splazil. Nevarnejša so zlasti strma prisojna pobočja, kjer se ob sončnem vremenu lahko čez dan sprožijo posamezni plazovi mokrega snega. Zlasti okoli grebenov in vrhov ter po grapah so tudi klože, ki se lahko sprožijo že ob manjši obremenitvi. Vetru izpostavljena mesta so spihana do trde in ponekod poledenele podlage, zato je v visokogorju nad okoli 2000 m nevarnost zdrsa.</avActivityComment>
+          <snowpackStructureComment>Po sneženju v začetku tedna se je najprej močno ohladilo, a že naslednji dan se je spet segrelo, danes. Novi sneg se je precej sesedel, le v senčnih legah visokogorja je slabo preobražen in ponekod še suh ali pomrznjen. Nižje je mehak in moker, zjutraj pa skorjast. V visokogorju je veliko klož, grebeni so trdi in poledeneli. Nižje je sneg moker.</snowpackStructureComment>
+          <wxSynopsisComment>Vreme bo v naslednjih dneh kar precej spremenljivo. Danes bo sprva oblačno in ponekod megleno, zjutraj in deloma dopoldne bo v gorah še možno rahlo sneženje. Popoldne se bo oblačnoast trgala. Veter bo šibak in južnih smeri, ledišče bo dopoldne na nadmorski višini okoli 1300 m, popoldne pa se bo nulta izoterma hitro dvigala. V petek bo sprva deloma sončno, čez dan se bodo hribi ovili v oblake. Popoldne se bodo od severa začele pojavljati padavine, ki se bodo do noči razširile proti jugu. Meja sneženja bo sprva na okoli 2100 m, a se bo hitro spustila pod 1200 m, spet se bo hitro ohladilo. Pihal bo okrepljen jugozahodnik.Ob koncu tedna bo dokaj sončno in hitro spet topleje.</wxSynopsisComment>
+          <tendencyComment>Zaradi občasnih padavin se bodo snežne razmere spreminjale iz dneva v dan. Novi sneg se bo predvidoma kar dobro sprijemal s podlago, zato večjih spontanih plazov ne pričakujemo. Jugozahodnik bo gradil zamete in opasti. Do vključno petka sonca ne bo prav veliko, zato ne bo bistveno vplival na lavinske razmere. Zaradi hitrih in občutnih temperaturnih sprememb se bo novi sneg razmeroma hitro sesedal, le v visokogorju nad okoli 1900 m se bo kopičil in bo ostal večinoma suh in mehak. Nižje bo vse od mokrega in mehkega do skorjastega in pomrznjenega. V splošnem se bo nevarnost postopno POVEČALA. Predvsem ob koncu tedna, ob ponovni izraziti otoplitvi, se bodo spet prožili plazovi mokrega snega in snežna odeja se bo na soncu čez dan labilizirala, novi sneg pa se bo ojužil in hitro sesedal.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+      <locRef xlink:href="SI-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

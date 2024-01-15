@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1717RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1717RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, in steilen Rinnen, auslösbar im Übergang von wenig zu viel Schnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleinräumig Triebschneelinsen sowie Altschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Über der Baumgrenze herrscht mäßige Lawinengefahr. Vor allem im erweiterten Ostsektor existieren mit anhaltendem Sturm  hinter Geländekanten sowie in Einfahrtsbereichen von Rinnen und Mulden vereinzelte Gefahrenstellen in Form von frischen, störanfälligen Triebschneelinsen, die als Schneebrettlawine ausgelöst werden können. Zudem können im extrem steilen und schattigen Gelände Lawinen in die Altschneedecke durchbrechen. Die Gefahr von Nassschneelawinen hat mit der Abkühlung abgenommen, dennoch sind spontane Gleitschneelawinen aus steilem Gelände mit glattem Untergrund nicht vollkommen auszuschließen. In exponierten Lagen wie z.B. ausgeblasenen Rinnen und Gipfelbereichen ist es zudem hart und eisig, hier besteht akute Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>In exponierten, höheren Lagen hat der Sturm die Schneedecke bearbeitet. Abgewehte, harte Bereiche wechseln mit schneereicheren Geländeabschnitten. Mit dem Westwind wird kleinräumig Triebschnee auf eine weichere (Triebschnee) oder harschige Schneeoberfläche in den Leeseiten abgelagert. Die Verbindung ist besonders zu den weichen Schichten oft nicht ausreichend. Lockerer Triebpulver befindet sich oft kammfern im Übergang zum lichten Wald. In steilen Schattseiten können auch noch Schwachschichten bestehend aus kantigen Kristallen, eingeschneitem Oberflächenreif oder Graupel die Altschneedecke schwächen. Bis in mittlere Lagen ist die Schneedecke speziell sonnseitig teilweise noch schwach feucht. </snowpackStructureComment>
+          <wxSynopsisComment>In eine kräftige West- bis Nordwestströmung ist eine Kaltfront eingelagert. Die Berge sind meist in Wolken und schon ab der Früh treten (mit Schwerpunkt in den Ybbstaler Alpen) Regen-, Schnee- und Graupelschauer auf, die Mengen bleiben aber meist gering. Die Schneefallgrenze sinkt von 1200 auf 700m ab. Am Nachmittag ziehen nur noch einzelne Schauer durch und vorübergehend lockert es dann sogar auf. Der Wind aus westlichen Richtungen legt im Tagesverlauf zu, auf den Gipfeln sind teils kräftige Sturmböen zu erwarten. Die Temperaturen sinken in 1500m von +3 Grad auf Werte um -3 Grad ab, in 2000m hat es am Nachmittag nur mehr winterliche -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag und Mittwoch weiterhin stürmische und winterliche Bedingungen mit Neuschnee in den westlichen Regionen. Die Schneebrettgefahr wird ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1717RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1717RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend günstige Bedingungen bei geringer Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In höheren Lagen können sich mit stürmischem Westwind in Leebereichen vereinzelt dünne Triebschneelinsen bilden. Die Gefahr von spontanen Gleitschneelawinen aus steilem, glattem Gelände nimmt mit der Abkühlung ab, kann aber nicht zur Gänze ausgeschlossen werden. Exponierte Bereiche sind hart und eisig, es besteht Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist meist gut verfestigt und stabil. In exponierten, höheren Lagen hat der Sturm die Schneedecke bearbeitet. Abgewehte, harte Bereiche wechseln mit schneereicheren Geländeabschnitten. Mit dem Westwind kommt es kleinräumig zu Verfrachtungen die sich auf eine harschige Schneeoberfläche in den Leeseiten abgelagert. Lockerer Triebpulver befindet sich mitunter schattseitig im Übergang zum lichten Wald. Bis in mittlere Lagen ist die Schneedecke speziell sonnseitig teilweise noch schwach feucht. </snowpackStructureComment>
+          <wxSynopsisComment>In eine kräftige West- bis Nordwestströmung ist eine Kaltfront eingelagert. Die Berge sind meist in Wolken und schon ab der Früh treten (mit Schwerpunkt in den Ybbstaler Alpen) Regen-, Schnee- und Graupelschauer auf, die Mengen bleiben aber meist gering. Die Schneefallgrenze sinkt von 1200 auf 700m ab. Am Nachmittag ziehen nur noch einzelne Schauer durch und vorübergehend lockert es dann sogar auf. Der Wind aus westlichen Richtungen legt im Tagesverlauf zu, auf den Gipfeln sind teils kräftige Sturmböen zu erwarten. Die Temperaturen sinken in 1500m von +3 Grad auf Werte um -3 Grad ab, in 2000m hat es am Nachmittag nur mehr winterliche -7 Grad.&#13;
+</wxSynopsisComment>
+          <tendencyComment>Am Dienstag und Mittwoch weiterhin stürmische und winterliche Bedingungen mit Neuschnee in den westlichen Regionen. Die Schneebrettgefahr steigt an. &#13;
+&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

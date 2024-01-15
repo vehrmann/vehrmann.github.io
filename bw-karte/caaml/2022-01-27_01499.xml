@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1499RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1499RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, kammfern, leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer labiler Triebschnee ist unbedingt zu beachten und zu meiden!</avActivityHighlights>
+          <avActivityComment>Durch Neuschnee und Sturm aus West bis Nordwest entstehen frische störanfällige Triebschneeablagerungen. Der Umfang der Gefahrenstellen nimmt im Tagesverlauf und mit der Höhe zu. Gefahrenstellen können in allen Expositionen bis teils auch in lichte Bergwälder auftreten. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich. Ältere Triebschneeablagerungen werden überdeckt. Sehr schlechte Sichtbedingungen erschweren die Einzelhangbeurteilung und das erkennen der Gefahrenstellen.</avActivityComment>
+          <snowpackStructureComment>Durch Neuschnee und Sturm entstehen frische störanfällige Triebschneeablagerungen. Eine oberflächig verharschte, windgepresste und teils mit Reif überzogene Altschneedecke wird überdeckt. Die Triebschneepakete binden somit nicht ausreichend. Frische Einwehungen kann es bis in lichte Bergwälder geben. Windexponiertes Gelände wird abgeweht.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag bringt ein gänzlich anderes Bild als zuletzt: Es überwiegen dichte Wolken mit stark eingeschränkter Sicht und Schneefall oder auch fallweise Graupel, dazu weht oft stürmischer West- bis Nordwestwind, Orkanböen sind in besonders exponierten hochalpinen Regionen nicht ausgeschlossen! Insgesamt lässt der Niederschlag am Nachmittag etwas nach. In 1500 m kälter mit -6 Grad, in 2000 m um -10 Grad.&#13;
+Am Samstag geht es am Vormittag trocken weiter, bei einigen Wolkenfeldern sollte die Sicht noch in Ordnung sein. Im Lauf des Nachmittags verschlechtert sich diese, unergiebiger Regen und Schneefall sind zu erwarten (Schneefallgrenze steigt auf knapp über 1000 m). Der Wind weht auf den Bergen weiterhin lebhaft bis stark aus West bis Nordwest. In 1500 m Erwärmung von -5 auf -1 Grad, in 2000 m von -8 auf -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

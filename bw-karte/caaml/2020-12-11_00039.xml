@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID39RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID39RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Randbereich von Rinnen und Mulden, vor allem in schattigen Lagen von 2000 m aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, vereinzelte Gefahrenstellen in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Ein Schneebrett kann am ehesten mit großer Zusatzbelastung bei der kammnahen Einfahrt in schattige Rinnen und Mulden, am Übergang von wenig zu mehr Schnee erfolgen. Die Gefahrenstellen sind allerdings schwer zu erkennen.</avActivityComment>
+          <snowpackStructureComment>5 bis 15 cm Neuschnee vom Dienstag/Mittwoch überdecken von der Waldgrenze aufwärts eine dünne, kompakte und windbehandelte Altschneeunterlage von 10 cm bis 30 cm. Älteren, überschneiten Triebschnee (meist geringmächtig) gibt es vor allem im Nordsektor, insbesondere in Rinnen und Mulden.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht wird oft durch Wolken eingeschränkt. Es bleibt weitgehend trocken. Kaum Wind. In 1500 m -2 bis 1 Grad, in 2500 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID39RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID39RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frisch, kammnah und kammfern, dünn, mit dem Südföhn am Donnerstag entstanden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Randbereich von Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Föhntriebschnee</avActivityHighlights>
+          <avActivityComment>Mäßige Lawinengefahr ab dem lichten Hochwald und in den Föhnschneisen. Im erweiterten Nordsektor (W-N-O) kann vor allem bei der Einfahrt in sehr steile Rinnen und Mulden der Triebschnee als Schneebrett ausgelöst werden. Insgesamt ist die Absturz- und Mitreißgefahr aber größer als die Verschüttungsgefahr, auch wenn das Schneebrett an tiefer liegenden Schwachschichten bricht.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist stark vom Wind gezeichnet. Viele Flächen sind abgeblasen, Rinnen und Mulden mit Triebschnee gefüllt. Schwachschichten, die bedingt zur Bruchausbreitung neigen, gibt es sowohl zwischen frischen und älteren Triebschneepaketen, als auch an der Grenze zum Boden. Insgesamt aber noch wenig Schnee und viele Steine sind kaum überschneit.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht wir meist von Wolken eingeschränkt. Der Wind bleibt schwach. In 2500 m um -6 Grad, in 3500 m um -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID39RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID39RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steile Mulden, auslösbar im Übergang von wenig zu viel, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen, allerdings schlecht erkennbar</avActivityHighlights>
+          <avActivityComment>Geringe Lawinengefahr. Nur ganz vereinzelt könnte ein Schneebrett am Übergang von wenig zu mehr Schnee in schattigen, hohen Lagen ausgelöst werden. Allerdings sind die Gefahrenstellen überschneit und somit kaum erkennbar.</avActivityComment>
+          <snowpackStructureComment>Das kompakte Schneedeckenfundament wird meist von einem Windharschdeckel abgeschlossen auf dem vor allem nordseitig etwas lockere Schnee liegt.</snowpackStructureComment>
+          <wxSynopsisComment>Die Sicht ist ganz passabel, zeitweise kommt die Sonne zum Vorschein. Der Wind bleibt schwach, dreht aber auf Nordwest. In 1000 m -4 bis 1 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

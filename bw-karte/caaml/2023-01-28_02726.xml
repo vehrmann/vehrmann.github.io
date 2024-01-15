@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2726RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2726RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>hinter Geländekanten, in Einfahrten zu Rinnen und steilen Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee und Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Baumgrenze mit mäßig, darunter mit gering bewertet. Gefahrenstellen bilden frische, störanfällige Triebschneeablagerungen. In nordost- über südost- bis südwestexponierten Bereichen hinter Geländekanten sowie in steileren Einfahrten zu Rinnen und Mulden können Schneebrettlawinen bei geringer Zusatzbelastung ausgelöst werden. Zudem besteht in den Hochlagen ein Altschneeproblem, das stellenweise und bei überwiegend großer Zusatzbelastung zu einer Lawinenauslösung führen kann, die auch größer werden können. Mit der Sonneneinstrahlung können sich in den neuschneereicheren Gebieten kleine Lockerschneelawinen aus felsigem Gelände spontan lösen.  </avActivityComment>
+          <snowpackStructureComment>Mit bis zu 25cm Neuschnee bildete sich bei Windeinfluss frischer Triebschnee. Die Verbindung zur Altschneefläche ist aufgrund von überlagerten kantigen Schichten sowie Graupel meist ungünstig. Älteren Triebschneeablagerungen in den Westsektoren konnten sich weiter setzen. Im Schneedeckenfundament bilden verbreitet kantige Kristallen rund um Schmelzkrusten potentielle Schwachschichten für Lawinen. In windgeschützten Bereichen ist der Neuschnee locker und pulvrig. Mit der Sonneneinstrahlung kann in steilen, felsigen Bereichen die lockere Neuschneeauflage an Stabilität verlieren und spontan als Lockerschneelawine abgehen. </snowpackStructureComment>
+          <wxSynopsisComment>Das zuletzt wetterbestimmende Mittelmeertief verliert an Einfluss. Von Westen setzt sich vorübergehend Hochdruckeinfluss durch. Zunächst halten sich speziell in den westlichen Gebirgsgruppen noch einige tiefe Wolken. Tagsüber lockern diese aber auf und es scheint die Sonne. Am Nachmittag trübten von Norden aufkommende hohe Schleierwolken das Sonnenlicht. Der Höhenwind aus Nordwest schwächt sich zeitweise auch in den östlichen Regionen etwas ab und ist in exponierten Lagen mäßig bis lebhaft. Frostmilderung, in 1500m sowie 2000m liegen die Temperaturen zu Mittag um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Zu Wochenbeginn stellt sich das Wetter um und leitet aus heutiger Sicht eine turbulentere Phase ein. Nach zeitweise noch sonnigem Bergwetter am Montagvormittag kündigen dichte Wolken, zunehmender Westwind und aufkommende Schnee- und Graupelschauer eine Kaltfront an. Sturm und Neuschnee sorgen für eine Verschärfung des Triebschneeproblems!&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2726RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2726RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt frische Triebschneelinsen - Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Dennoch existieren vereinzelte Gefahrenstellen in steilen Süd- bis Ostexpositionen in Form von frischen Triebschneelinsen. Eine Schneebrettauslösung kann nicht ausgeschlossen werden.&#13;
+&#13;
+</avActivityComment>
+          <snowpackStructureComment>&#13;
+Auf eine weitgehend gut verfestigte Schneedecke lagerten sich bis zu 20cm Zentimeter Neuschnee ab. Bei stärkerem Windeinfluss konnten sich gebundene Treibschneelinsen bilden, die bei unzureichender Verbindung mit der Altschneedecke gestört werden können. In windgeschützten Bereichen ist der Neuschnee locker und pulvrig. &#13;
+&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Das zuletzt wetterbestimmende Mittelmeertief verliert an Einfluss. Von Westen setzt sich vorübergehend Hochdruckeinfluss durch. Zunächst halten mitunter noch einige tiefe Wolken. Tagsüber lockern diese aber auf und es scheint die Sonne. Am Nachmittag trübten von Norden aufkommende hohe Schleierwolken das Sonnenlicht. Der Höhenwind aus Nordwest schwächt sich zeitweise auch in den östlichen Regionen etwas ab und ist in exponierten Lagen mäßig bis lebhaft. Frostmilderung, in 1500m sowie 2000m liegen die Temperaturen zu Mittag um -5 Grad.&#13;
+&#13;
+</wxSynopsisComment>
+          <tendencyComment>Zu Wochenbeginn stellt sich das Wetter um und leitet aus heutiger Sicht eine turbulentere Phase ein. Nach zeitweise noch sonnigem Bergwetter am Montagvormittag kündigen dichte Wolken, zunehmender Westwind und aufkommende Schnee- und Graupelschauer eine Kaltfront an. Sturm und Neuschnee sorgen für eine Verschärfung des Triebschneeproblems!&#13;
+&#13;
+ &#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

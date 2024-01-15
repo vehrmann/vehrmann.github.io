@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3760RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3760RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-24T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht bei der Einfahrt in Rinnen und Mulden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das Hauptproblem ist Triebschnee. Gefahrenstellen finden sich in eingefrachteten Steilhängen aller Expositionen, sowohl kammnah als auch kammfern, sowie bei der Einfahrt in Rinnen und Mulden. Schneebrettlawinen können durch große Zusatzbelastung, an schneearmen Stellen örtlich auch vom einzelnen Skifahrer ausgelöst werden. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. Lawinen erreichen mittlere Größe.&#13;
+Zudem sind vereinzelt Gleitschneelawinen an steilen Hängen mit glattem Untergrund möglich. Diese können sich zu jeder Tages- und Nachtzeit von selbst lösen, unabhängig von Exposition und Höhenlage. Bereiche unterhalb von Gleitschneerissen sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>In windberuhigten Bereichen sind in den letzten Tagen umfangreiche Triebschneeansammlungen entstanden. Rücken, Grate und dem Wind ausgesetzte Flächen sind abgeblasen, verharscht oder nahezu schneefrei. Der Triebschnee verbindet sich zunehmend  mit der darunterliegenden Schneedecke. Schwache Zwischenschichten, teils aus Graupel bestehend, innerhalb der Triebschneepakete machen diese stellenweise störanfällig. Im Bereich von Harschdeckeln, die sich in unterschiedlicher Tiefe in der Schneedecke befinden, sind örtlich kantig aufgebaute Kristalle eingelagert, die eine potentielle Schwachschicht darstellen. Die Schneedecke ist in mittleren Lagen feucht mit unterschiedlichen Einsinktiefen, in tieferen Lagen auch zum Boden hin nass. Gleitbewegung auf glattem Untergrund sind daher möglich. Mit der tageszeitlichen Erwärmung verliert die Schneeoberfläche an Festigkeit. Unterhalb 1300 m apert der Boden zunehmend aus.</snowpackStructureComment>
+          <tendencyComment>Bei milden Temperaturen und starkem Wind nimmt die Schneemächtigkeit und Auslösebereitschaft schnell ab, die Lawinengefahr geht weiter zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

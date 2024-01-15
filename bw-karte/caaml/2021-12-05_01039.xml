@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1039RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1039RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch frischen Triebschnee in den höheren Lagen!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen der Ybbstaler Alpen sowie in jenen des Gippel-Göller-Gebiets herrscht mäßige Lawinengefahr, ansonsten wird sie noch mit gering bewertet. Durch den Windeinfluss wurde der Neuschnee verfrachtet und es konnten sich Triebschneebereiche bilden, die in den Hochlagen beachtet werden sollten. Hier existieren vor allem in kammnahen Bereichen und in den Expositionen Nord über Ost bis Süd Gefahrenstellen, an denen Schneebrettlawinen (mitunter schon bei geringer Zusatzbelastung) ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Der starke bis stürmische Wind hat den Neuschneezuwachs vom Wochenende verfrachtet und stellenweise frischen Triebschnee gebildet. Ausgesetzte Bereiche der Hochlagen wurden abgeblasen, Bereiche hinter Geländeübergängen sowie Hohlformen mit Triebschnee befüllt. Die frische und zum Teil störanfällige Auflage liegt auf einer stellenweise verharschten Altschneedecke mit teils feuchtem Fundament. Weichere Einlagerungen, örtlicher Graupel sowie der Übergang zum Altschnee stellen die derzeitigen Problembereiche dar.</snowpackStructureComment>
+          <wxSynopsisComment>Das Wetter ist am Montag im gesamten Niederösterreichischen Alpenraum durchwachsen, es überwiegen dichtere, tiefe Wolken aus denen es zeitweise überall leicht und unergiebig schneien kann. In den östlichen Gebirgsgruppen besteht die Chance auf vorübergehende, kurze Auflockerungen. Der Wind nimmt zu und weht auf den Bergen stark bis stürmisch aus nordwestlichen Richtungen. Die Temperaturen sind mit -11 Grad in 2000m und -8 Grad in 1500m auf winterlichem Niveau.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag überwiegen noch tiefere Wolken, ab Mittag kann es in den Ybbstaler Alpen auch etwas schneien. Der Nordwestwind weht bei unverändert frischen Temperaturen stark bis stürmisch. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1039RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1039RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Bereichen beachten, geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es besteht geringe Lawinengefahr. Generell sind die Schneemengen in den östlichen Gebirgsgruppen geringer als in den westlichen Nachbarregionen, jedoch gibt es auch hier in den Hochlagen bedingt durch Neuschnee und Windeinfluss Gefahrenstellen in Form von frischem Triebschnee. Dies betrifft vorwiegend kammnahe Bereiche sowie die Expositionen Nord über Ost bis Südost. Die Auslösung eines (kleineren) Schneebrettes ist möglich.</avActivityComment>
+          <snowpackStructureComment>Der starke bis stürmische Wind hat den Neuschnee, der am Wochenende gefallen ist, verfrachtet. Ausgesetzte Bereiche der Hochlagen wurden abgeblasen, hinter Geländeübergängen und in Hohlformen konnte sich hingegen frischer Triebschnee bilden. Dieser liegt zum Teil störanfällig auf einer oftmals verharschten Altschneedecke mit stellenweise feuchtem Fundament.</snowpackStructureComment>
+          <wxSynopsisComment>Das Wetter ist am Montag im gesamten Niederösterreichischen Alpenraum durchwachsen, es überwiegen dichtere, tiefe Wolken aus denen es zeitweise überall leicht und unergiebig schneien kann. In den östlichen Gebirgsgruppen besteht die Chance auf vorübergehende, kurze Auflockerungen. Der Wind nimmt zu und weht auf den Bergen stark bis stürmisch aus nordwestlichen Richtungen. Die Temperaturen sind mit -11 Grad in 2000m und -8 Grad in 1500m auf winterlichem Niveau.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag überwiegen noch tiefere Wolken, es bleibt aber weitgehend niederschlagsfrei. Der Nordwestwind weht bei unverändert frischen Temperaturen stark bis stürmisch. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

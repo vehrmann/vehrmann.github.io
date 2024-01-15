@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3014RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3014RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Triebschnee und Nassschnee im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Kleinräumige Triebschneeansammlungen können in höheren Lagen vereinzelt noch ein Problem darstellen. An schattigen, extrem steilen Hängen, vor allem kammnah und am Übergang zu eingewehten Rinnen und Mulden, können Schneebrettlawinen ausgelöst werden. Hierfür ist meist eine große Zusatzbelastung nötig und die Lawinen sind eher klein. Die Absturzgefahr ist größer einzuschätzen als die Gefahr verschüttet zu werden.&#13;
+Aus sonnenexponierten Hängen können sich zudem vereinzelt kleine nasse Lockerschneelawinen oder Gleitschneelawinen von selbst lösen. Die Lawinenaktivität steigt hierbei im Tagesverlauf geringfügig an. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich insgesamt gut gesetzt und ist weitgehend stabil. Schattseitig ist der Schnee pulvrig, sonnseitig morgens verharscht, nachmittags wird die Schneeoberfläche feucht. Die Schneedeckenbasis ist in mittleren Lagen teils feucht, was Gleitbewegungen auf glatter Unterlage ermöglicht. Wenn Triebschneeansammlungen auf weichen Schichten aufliegen oder schwache Schichten eingelagert sind, können diese kammnah noch störanfällig sein. Schneedeckentests zeigen jedoch keine Tendenz zur Bruchausbreitung. </snowpackStructureComment>
+          <tendencyComment>Die Lawinenlage bleibt die nächsten Tage entspannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID387RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID387RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Dünnen Triebschnee und verstecktes Altschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Es herrscht mäßige Lawinengefahr über der Waldgrenze. In den Expositionen Ost über Süd bis West bestehen dünne Triebschneepakete, die vom Umfang her kleinräumig hinter Geländeübergängen sowie in Rinnen und Mulden auftreten. Die Gefahrenstellen sind leicht auszulösen und speziell im Sinne der Mitreiß- und Absturzgefahr zu beachten. Zudem schwächt in schattseitigen Hochlagen nach wie vor ein Altschneeproblem das Schneedeckenfundament. Speziell in extrem steilen Bereichen mit geringer Schneemächtigkeit kann es zu einer Auslösung kommen. Exponierte Hänge gestalten sich oft hart und eisig, die Absturzgefahr darf nicht unterschätzt werden!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke gestaltet sich in höheren Lagen oft windgepresst bzw. abgeweht und hart. In geschützten bzw. tieferen Lagen existiert stellenweise eine dünne, lockere Schneeauflage. In Rinnen und Mulden konnten sich mit stürmischem Nordwind dünne Triebschneepakete bilden, die nicht gut mit der Altschneedecke verbunden sind. In hochgelegenen, schattseitigen Rinnen schwächen mitunter weiche, kantige Formen das Schneedeckenfundament. Abgesehen davon ist die Altschneedecke stabil und kompakt. In tieferen Lagen existiert oft wenig Schnee bzw. ist die dünne Auflage grundlos.</snowpackStructureComment>
+          <wxSynopsisComment>Bei einem Mix aus Sonne (speziell um Mittag) und Wolken können bei anhaltender Nordströmung zeitweise kurze Schneeschauer auftreten. Der Höhenwind aus nördlichen Richtungen ist oft lebhaft, zwischen Göller und Wechsel auch stark. Das Temperaturniveau bleibt tief winterlich bei Tageshöchsttemperaturen um -14 Grad in 1500m sowie -19 Grad in 2000m.</wxSynopsisComment>
+          <tendencyComment>Bei überwiegend sonnigem und einer Spur milderem Bergwetter kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID387RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID387RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>sehr wenige Gefahrenstellen im Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weitgehend günstigen Verhältnisse</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht geringe Lawinengefahr. Nur vereinzelt können dünne Triebschneelinsen Gefahrenstellen (im Sinne der Mitreiß- und Absturzgefahr) bilden, die auch in lichten Waldbereichen bzw. Schneisen existieren. Diese sind in der Regel gut erkennbar.</avActivityComment>
+          <snowpackStructureComment>Auf der verharschten und stabilen Altschneedecke liegt stellenweise eine dünne, windbeeinflusste, in geschützten Lagen eine lockere Schneeauflage. Es konnten sich kleinere Triebschneepakete bilden, die nicht immer gut mit dem Untergrund verbunden sind. In tiefern Lagen liegt wenig Schnee bzw. ist die dünne Auflage grundlos.</snowpackStructureComment>
+          <wxSynopsisComment>Bei einem Mix aus Sonne (speziell um Mittag) und Wolken können bei anhaltender Nordströmung zeitweise kurze Schneeschauer auftreten. Der Höhenwind aus nördlichen Richtungen ist oft lebhaft. Das Temperaturniveau bleibt tief winterlich bei Tageshöchsttemperaturen um -10 Grad in 1000m.</wxSynopsisComment>
+          <tendencyComment>Bei überwiegend sonnigem und einer Spur milderem Bergwetter kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

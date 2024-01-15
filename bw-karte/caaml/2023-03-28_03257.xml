@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3257RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T15:30:20+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3257RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T15:30:20+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>meist kleine nasse Lockerschneelawinen und Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneelawinen aus steilen Einzugsgebieten beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab etwa 1500 m MÄßIG, darunter GERING (etwas Neuschnee auf aperen Boden)&#13;
+Die Hauptgefahr geht von kleinen (vereinzelt mittleren) Lockerschneelawinen (vereinzelt auch Brettern) oder Gleitschneelawinen aus. Der Triebschnee hat sich gut mit dem Untergrund verbunden und ist wenn dann nur im extremen Steilgelände insbesondere mit großer Zusatzbelastung oberhalb etwa 2000 m als kleines Schneebrett auslösbar.</avActivityComment>
+          <snowpackStructureComment>Von mittleren Höhenlagen aufwärts gibt es verbreitet 30 bis 50 cm Neuschnee, im Nordstau regional auch mehr, deutlich weniger in den Nockbergen. Durch den starken Windeinfluss aus West bis Nordwest ist die Verteilung sehr unterschiedlich. Die Verbindung zur angefeuchteten Unterlage ist bis in Höhen von 2200 m überwiegend günstig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch stecken die Berge oft in den Wolken, die Sicht ist meist schlecht. Es kann ein wenig regnen oder schneien mit Schwerpunkt am Vormittag. Die Schneefallgrenze steigt rasch auf 1800 m an. Auch die Temperaturen steigen tagsüber deutlich. In 2000 m von -5 Grad in der Früh auf +1 Grad am Abend. Der Wind weht lebhaft bis stark aus Südwest bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>Die Nasschneelawinenaktivität nimmt am Donnerstag zu, die Frostgrenze steigt auf über 2500 m an und es kann weit hinauf regnen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3257RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-28T15:30:20+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3257RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-28T15:30:20+00:00</beginPosition>
+          <endPosition>2023-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer Triebschnee, kammnah und kammfern, in den Hochlagen leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>meist kleine nasse Lockerschneelawinen, Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allmähliche Setzung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist aufgrund des Triebschneeproblems ab etwa 2200 m ERHEBLICH, darunter mit dem Nassschneeproblem MÄßIG.&#13;
+In hohen und hochalpinen Lagen kann ein kleines bis mittelgroßes Schneebrett bereits durch das Gewicht eines einzelnen Wintersportler ausgelöst werden. Am kritischten sind kammnahe und kammferne Geländekanten im nord- und ostseitigen Gelände sowie Rinnen und Mulden aller Expositionen. Der Schnee ist trotz der tiefen Temperaturen relativ schwer und das Entkommen aus der Lawine eher nicht möglich. Vereinzelt kann sich ein Brett auch spontan lösen.In mittleren Lagen geht die Hauptgefahr von meist kleinen Lockerschneelawinen oder Gleitschneelawinen aus, diese können vereinzelt auch in hohen Lagen auftreten, falls die Sonne länger scheint als geplant.</avActivityComment>
+          <snowpackStructureComment>Von mittleren Höhenlagen aufwärts gibt es verbreitet 30 bis 50 cm Neuschnee, regional auch mehr. Durch den starken Windeinfluss aus West bis Nord ist die Verteilung sehr unterschiedlich: West- und Nordhänge sind teils komplett abgeblasen, Rinnen und Mulden mit Triebschnee gefüllt. Die Verbindung zur angefeuchteten Unterlage ist bis in Höhen um etwa 2200 m überwiegend günstig. Darüber wird sie mit zunehmender Höhe ungünstiger. Schneebretter brechen meist im Neuschnee eventuell auch am Deckel zum Altschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch stecken die Berge oft in den Wolken, die Sicht ist meist schlecht. Es kann ein wenig regnen oder schneien mit Schwerpunkt am Vormittag. Die Schneefallgrenze steigt rasch auf 1800 m an. Auch die Temperaturen steigen tagsüber deutlich. In 2000 m von -5 Grad in der Früh auf +1 Grad am Abend, in 3000 m von -9 auf -5 Grad. Der Wind weht lebhaft bis stark aus Südwest bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>Die Nasschneelawinenaktivität nimmt am Donnerstag zu, die Frostgrenze steigt auf über 2500 m an und es kann weit hinauf regnen. Der Triebschnee kann sich hingegen weiter setzen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

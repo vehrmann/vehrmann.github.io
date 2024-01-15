@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1298RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1298RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>sehr vereinzelt, aus steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneefall, starker Wind und frischer Triebschnee - erhebliche Schneebrettgefahr vor allem in Hochlagen!</avActivityHighlights>
+          <avActivityComment>Durch Schneefall und starken bis stürmischen Wind bildet sich ab dem laufenden Vormittag frischer störanfälliger Triebschnee. Die Schneebrettgefahr steigt damit teils bereits rund um die Waldgrenze, vor allem aber in höheren Lagen auf erheblich. Eine Auslösung des frischen Triebschnees ist im eingewehten Steilgelände, in steilen Mulden und Rinnen im Ostsektor und südseitig bereits bei geringer Zusatzbelastung möglich. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. Trotz der Abkühlung ist vorwiegend in mittleren Lagen vereinzelt auf Steilhängen mit glattem Untergrund auf Gleitschneelawinen zu achten.</avActivityComment>
+          <snowpackStructureComment>Im Laufe des Tages fallen 20, in den Hochlagen bis zu 40 cm Neuschnee, der verfrachtet wird. Starker, in Gipfellagen stürmischer Nordwestwind bildet störanfälligen Triebschnee, der mit der Altschneedecke teils schlecht bindet. Diese ist bis in die Hochlagen feucht, darunter auch durchfeuchtet und nass, oberflächig mit der Abkühlung aber verharscht, hart, teils eisig. Nur hochalpin und schattseitig könnten noch einzelne Schwachschichten eingelagert sein. Tiefe Lagen werden wieder etwas eingeschneit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch schneit es im Bereich der Kalkalpen länger anhaltend aus dichten Wolken und die Sicht ist stark eingeschränkt. Bis zum Abend sinkt die Schneefallgrenze von etwa 1500 m bis in die Täler. Der Nordwestwind legt im Lauf des Tages zu und weht am Nachmittag stark und in den Gipfelregionen stürmisch (Windspitzen um 50 km/h). In 1500 m Abkühlung von 2 auf -7 Grad, in 2000 m auf -8 Grad.&#13;
+Am Donnerstag ziehen immer wieder Wolken durch, die von Zeit zu Zeit unergiebige Schneeschauer bringen (max. bis 10 cm). Die Sicht ist somit nicht immer ideal, kann zwischendurch aber auch aufreißen. Der West- bis Nordwestwind weht lebhaft bis kräftig und erreicht in den Kalkalpen Spitzen bis 60 km/h. In 1500 m: -7 Grad, in 2000 m: um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. Triebschnee beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1298RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1298RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>vereinzelt in Gipfellagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneefall, starker Wind und frischen Triebschnee in Gipfellagen beachten!</avActivityHighlights>
+          <avActivityComment>Durch Schneefall und starken Wind bildet sich ab dem laufenden Vormittag frischer teils störanfälliger Triebschnee. Eine Auslösung des frischen Triebschnees ist in eingewehten steilen kammnahen Gipfellagen sowie Mulden und Rinnen im Ostsektor und südseitig insbesondere bei großer, eventuell geringer Zusatzbelastung vereinzelt möglich. Trotz der Abkühlung ist je nach Schneelage vereinzelt auf vergrasten Steilhängen auf Gleitschneelawinen zu achten.</avActivityComment>
+          <snowpackStructureComment>Im Laufe des Tages fallen bis zu 20 cm Neuschnee, der verfrachtet wird. Starker, in Gipfellagen teils stürmischer Nordwestwind bildet lokal störanfälligen Triebschnee, der mit der Altschneedecke, falls noch vorhanden teils schlecht bindet. Diese ist bis in die Gipfellagen feucht, bzw. durchfeuchtet oder nass, oberflächig mit der Abkühlung dann aber verharscht, hart, teils eisig. Auch tiefe Lagen werden wieder etwas eingeschneit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch schneit es im Bereich der Kalkalpen länger anhaltend aus dichten Wolken und die Sicht ist stark eingeschränkt. Bis zum Abend sinkt die Schneefallgrenze von etwa 1500 m bis in die Täler. Der Nordwestwind legt im Lauf des Tages zu und weht am Nachmittag stark und in den Gipfelregionen stürmisch (Windspitzen um 50 km/h). In 1500 m Abkühlung von 2 auf -7 Grad, in 2000 m auf -8 Grad.&#13;
+Am Donnerstag ziehen immer wieder Wolken durch, die von Zeit zu Zeit unergiebige Schneeschauer bringen (max. bis 10 cm). Die Sicht ist somit nicht immer ideal, kann zwischendurch aber auch aufreißen. Der West- bis Nordwestwind weht lebhaft bis kräftig und erreicht in den Kalkalpen Spitzen bis 60 km/h. In 1500 m: -7 Grad, in 2000 m: um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. Triebschnee beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

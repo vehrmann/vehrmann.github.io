@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID407RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID407RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Triebschneepakete und die Absturzgefahr bilden die Hauptgefahren</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze besteht weiterhin mäßige Lawinengefahr. In den Expositionen Ost über Süd bis West entstanden mit stürmischem Nordwind dünne Triebschneepakete, die vom Umfang her kleinräumig hinter Geländeübergängen sowie in Rinnen und Mulden auftreten. Die Gefahrenstellen sind durch die Kälte konserviert und somit immer noch leicht auslösbar, in der Regel aber gut zu erkennen und zu umgehen. Exponiertes Gelände gestaltet sich oft abgeweht, picklhart und eisig, womit oft akute Absturzgefahr besteht! Zudem schwächt in schattseitigen Hochlagen nach wie vor ein Altschneeproblem das Schneedeckenfundament.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke gestaltet sich oft windgepresst bzw. abgeweht und hart. In geschützten bzw. tieferen Lagen liegt darauf oft eine dünne, lockere Schneeauflage. In Rinnen und Mulden konnten sich vergangene Woche mit stürmischem Nordwind dünne, spröde Triebschneepakete bilden, die stellenweise nicht gut mit der Altschneedecke verbunden sind. Die anhaltende Kälte konservierte die Gefahrenstellen. In hochgelegenen, schattseitigen Rinnen schwächen mitunter weiche, kantige Formen das Schneedeckenfundament. Abgesehen davon ist die Altschneedecke stabil und kompakt. In tieferen Lagen existiert oft wenig Schnee bzw. ist die dünne Auflage grundlos.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen scheint nochmals verbreitet die Sonne. Im Laufe des Nachmittages treffen in den Ybbstaler Alpen von Westen ausgedehnte Wolkenfelder ein, die sich bis zum Abend auf alle Regionen ausbreiten. Der Höhenwind aus nördlichen Richtungen weht nur noch schwach und dreht im Laufe des Vormittages allmählich auf West. Das Temperaturniveau steigt im Tagesverlauf in 1500m von Werten um -7 Grad auf bis zu -4 Grad, in 2000m von -10 Grad auf ca. -7 Grad an.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Dienstag fällt mit dem Durchzug einer Warmfront oberhalb von 1000 – 1200m etwas Neuschnee bei starkem bis lebhaftem Westwind, somit entsteht in höheren Lagen etwas frischer Triebschnee, darunter wird die Schneedecke zunehmend angefeuchtet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID407RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID407RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>günstiger Schneedeckenaufbau</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Weitgehend günstigen Verhältnisse, in tieferen Lagen wenig Schnee</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen ist die Lawinengefahr weiterhin gering. Bis auf vereinzelte, dünne Triebschneelinsen herrschen günstige Verhältnisse. Auf der stellenweise verharschten Schneeoberfläche darf in steilen Bereichen die Absturzgefahr nicht unterschätzt werden.</avActivityComment>
+          <snowpackStructureComment>Auf der verharschten und stabilen Altschneedecke liegt stellenweise eine dünne, windbeeinflusste, in geschützten Lagen eine lockere, kalte Schneeauflage. Es konnten sich kleinere Triebschneepakete bilden, die nicht immer gut mit dem Untergrund verbunden sind. In tieferen Lagen liegt wenig Schnee bzw. ist die dünne Auflage grundlos und wird (speziell südseitig) zunehmend feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Auf den Bergen scheint nochmals verbreitet die Sonne. Im Laufe des Nachmittages treffen in von Westen allmählich Wolkenfelder ein, die sich bis zum Abend auf alle Regionen ausbreiten. Der Höhenwind aus nördlichen Richtungen weht nur noch schwach und dreht im Laufe des Vormittages auf West. Das Temperaturniveau steigt im Tagesverlauf in 1000m von anfänglich -7 Grad auf Werte um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Dienstag fällt mit dem Durchzug einer Warmfront oberhalb von 1000 – 1200m etwas Neuschnee, darunter wird die Schneedecke zunehmend angefeuchtet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

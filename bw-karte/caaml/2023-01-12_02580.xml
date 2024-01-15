@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2580RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2580RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in Rinnen und steilen Mulden, Kammlagen, Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee beachten und Schwachschichten in der Altschneedecke - vorwiegend hochalpin!</avActivityHighlights>
+          <avActivityComment>Es besteht über rund 1800 m mäßige Lawinengefahr. In Steilhängen, eingeblasenen steilen Mulden und Rinnen, Geländeübergängen nordost- über ost- bis südseitig sind Verfrachtungen vorhanden, die teils auch noch bei geringer Zusatzbelastung auslösbar sind. Hinzu kommt die Absturzgefahr und potentielle Schwachschichten im hochalpinen extrem steilen schattseitigen Gelände. </avActivityComment>
+          <snowpackStructureComment>In den höheren Lagen ist noch Triebschnee vorhanden, der aber mit der Altschneedecke besser bindet. Mildere Temperaturen führten zu einer leichten Setzung der Schneedecke. Die Altschneedecke enthält hochgelegen und schattseitig teils potentielle Schwachschichten. In windzugewandten und tieferen Bereichen ist die Schneedecke auch verharscht. Die Schneehöhen sind unverändert unterdurchschnittlich. In mittleren, selbst auch hohen Lagen liegt nur sehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag werden von der Früh weg die mittelhohen Wolken dominieren und die Sicht einschränken. In den südlichen Bergen bleibt es zwar länger niederschlagsfrei, doch auch hier dominieren die Wolken und am Nachmittag wird es schaueranfällig. Es weht lebhafter bis mäßiger Südwestwind. In 1500 m zwischen -1 und +2 Grad, in 2000 m um -3 Grad.&#13;
+Der Samstag beginnt abseits der Nebelfelder schon recht sonnig, hohe Wolken sorgen aber für diffuses Licht. Am Nachmittag kommen von Westen her dichte Wolken auf, welche die höheren Gipfel einhüllen, es bleibt aber niederschlagsfrei. Im südlichen Bergland kommt mäßiger Südwestwind am Nachmittag auf. In 1500 m -3 Grad, in 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Schnee- und Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2580RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2580RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, kaum Gefahrenstellen selbst in Gipfel- und Kammlagen!</avActivityHighlights>
+          <avActivityComment>Selbst in Kammlagen und Gipfelbereichen liegt wenig Schnee und es sind kaum Gefahrenstellen vorhanden. Die Absturzgefahr ist zu beachten.</avActivityComment>
+          <snowpackStructureComment>Der wenige Schnee wurde durch zeitweise Regen weitgehend abgebaut. Die Schneehöhen sind sehr unterdurchschnittlich bzw. meist ist es verbreitet aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag werden von der Früh weg die mittelhohen Wolken dominieren und die Sicht einschränken. In den südlichen Bergen bleibt es zwar länger niederschlagsfrei, doch auch hier dominieren die Wolken und am Nachmittag wird es schaueranfällig. Es weht lebhafter bis mäßiger Südwestwind. In 1500 m zwischen -1 und +2 Grad, in 2000 m um -3 Grad.&#13;
+Der Samstag beginnt abseits der Nebelfelder schon recht sonnig, hohe Wolken sorgen aber für diffuses Licht. Am Nachmittag kommen von Westen her dichte Wolken auf, welche die höheren Gipfel einhüllen, es bleibt aber niederschlagsfrei. Im südlichen Bergland kommt mäßiger Südwestwind am Nachmittag auf. In 1500 m -3 Grad, in 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2860RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2860RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor und ostseitig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen mäßige Lawinengefahr mit wenigen Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in höheren Lagen als mäßig eingestuft. In kammnahen Steilhängen, verfüllten steilen Rinnen und Mulden im Nordsektor und ostseitig sind einzelne Gefahrenstellen vorhanden, die zu beachten sind. Triebschnee vom Wochenende ist an sehr steilen hochalpinen Schattenhängen stellenweise noch durch geringe Zusatzbelastung auslösbar. Steile vergraste Hänge mit Rissen in der Schneedecke sind zu meiden und sonnseitig sind meist kleine spontane Lawinen im Tagesverlauf im Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gesetzt, enthält teils lockere Schichten oder schattseitig eventuell Oberflächenreif. Oberflächig wird sie mit den milden Temperaturen und viel Sonnenschein im Tagesverlauf je nach Höhe und Exposition verschieden stark feucht. Die Schneedecke ist allgemein stark windbeeinflusst, sehr unregelmäßig verteilt und teilweise ist es völlig abgeblasen. Im Schneedeckenfundament sind kantige Kristalle und Schmelzkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 1500 m pendeln die Temperaturen um 4 Grad, in 2000 m um 2 Grad.&#13;
+Am Dienstag geht es auf den Bergen mit meist strahlend blauem Himmel und viel Sonnenschein weiter. Die Fernsicht ist sehr gut. Es ist in allen Höhen nur schwach windig. In 1500 m liegen die Temperaturen zwischen 6 und 8 Grad, in 2000 m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Im Tagesgang Nass- und Gleitschneeproblematik beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2860RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2860RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr, aber einzelne Gefahrenstellen beachten!</avActivityHighlights>
+          <avActivityComment>Nur vereinzelt sind Gefahrenstellen im sehr steilen Gelände vorhanden, die zu beachten sind. Steile vergraste Hänge mit Rissen in der Schneedecke sind wegen der möglichen Gleitschneeaktivität zu meiden und sonnseitig sind meist kleine spontane Lawinen im Tagesverlauf im Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gesetzt, enthält teils lockere Schichten oder schattseitig eventuell Oberflächenreif. Oberflächig wird sie mit den milden Temperaturen und viel Sonnenschein im Tagesverlauf je nach Höhe und Exposition verschieden stark feucht. Die Schneedecke ist allgemein stark windbeeinflusst, sehr unregelmäßig verteilt und teilweise ist es völlig abgeblasen. Im Schneedeckenfundament sind kantige Kristalle und Schmelzkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Das Bergwetter präsentiert sich am Montag von seiner sehr sonnigen Seite. Die Fernsicht ist oberhalb lokaler Dunst- oder Frühnebelfelder in Tallagen sehr gut. Es ist nur schwach windig. In 1500 m pendeln die Temperaturen um 4 Grad, in 2000 m um 2 Grad.&#13;
+Am Dienstag geht es auf den Bergen mit meist strahlend blauem Himmel und viel Sonnenschein weiter. Die Fernsicht ist sehr gut. Es ist in allen Höhen nur schwach windig. In 1500 m liegen die Temperaturen zwischen 6 und 8 Grad, in 2000 m um 5 Grad.</wxSynopsisComment>
+          <tendencyComment>Im Tagesgang Nass- und Gleitschneeproblematik beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

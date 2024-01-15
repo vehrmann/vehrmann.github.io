@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID702RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID702RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schattseitige Triebschneepakete</avActivityHighlights>
+          <avActivityComment>Schattseitig sind ältere Triebschneepakete noch durch eine große Zusatzbelastung zu stören. Frische, kleine Triebschneepakete sind noch etwas leichter zu stören, jedoch ist die Verschüttungsgefahr, auf Grund der geringen Mächtigkeit, sehr gering.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist verbreitet stabil. Sonnseitig ist die Wärme- und Sonneneinwirkung der letzten Tage deutlich merkbar. Schattseitig ist in höheren Lagen der Windeinfluss deutlich sichtbar. Nur wenige Zentimeter Neuschnee sind in höheren Lagen zu erwarten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag nehmen die Wolken rasch zu und verdecken immer wieder die Sonne. Bis zum frühen Nachmittag fällt aber kein nennenswerter Niederschlag. Mit dem Durchzug einer Kaltfront werden Schauer häufiger. Bei mäßigem Südwestwind hat es zu Mittag in 2000 m um null Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag sind die Wolken am Vormittag meist dicht. Ab Mittag ziehen die Wolken dann nach Südosten ab und es sollt sich überall die Sonne durchsetzen. Mit mäßigem Westwind steigen die Temperaturen wieder an. Leichter Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID702RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID702RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit Gering beurteilt. Eine Lawinenauslösung ist am ehesten in im nordseitigen Steilgelände denkbar.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist stabil und kompakt. Die kleineren Triebschneepakete haben sich gut gesetzt und mit der Altschneedecke verbunden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag nehmen die Wolken rasch zu und verdecken die Sonne. Es dürfte aber überwiegend trocken bleiben und erst gegen Abend kann es mit Kaltfrontdurchzug ein paar Schauer geben. Der Wind aus nordwestlicher Richtung frischt auf. Es kühlt ab jedoch bleiben die Temperaturen in 1500 m deutlich im Plusbereich.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag sind die Wolken am Vormittag meist dicht. Ab Mittag ziehen die Wolken dann nach Südosten ab und es sollt sich überall die Sonne durchsetzen. Mit mäßigem Westwind steigen die Temperaturen wieder an. Keine wesentlich Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

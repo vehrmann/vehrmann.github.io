@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2122RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2122RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>mit der Höhe zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit der Abkühlung zurückgehend, aber generell möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab der Waldgrenze mäßige, teils erhebliche Schneebrettgefahr und den frischen störanfälligen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Mit dem Sturm und Schneefall bilden sich neue frische Verfrachtungen, die störanfällig und daher zu beachten sind. Eine Auslösung von Schneebrettlawinen ist in verfüllten steilen Mulden und Rinnen sowie auf eingewehten Steilhängen vor allem in den höheren Lagen bei geringer Zusatzbelastung möglich. Mit der Abkühlung geht die Gefahr von Nassschneelawinen zurück, vereinzelt sind sie aber möglich. Auch Gleitschneelawinen im Steilgelände bleiben möglich und daher sollten Hänge mit Rissen in der Schneedecke gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung sinkt die Schneefallgrenze rasch in tiefe Lagen und die Schneedecke kann sich oberflächig etwas festigen, darunter ist sie aber feucht bis nass. Die Altschneedecke selbst ist weitgehend kompakt. Stürmischer Wind aus West bis Nordwest bildet frische mit zunehmender Höhe leicht zu störende Triebschneeablagerungen. Selbst tiefe Lagen bekommen etwas Neuschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht durch Wolken, Nebel, Regen und Schneefall oft stark eingeschränkt. In den Morgenstunden zieht eine Kaltfront von Westen her durch. Sie bringt neben stürmisch auffrischendem Wind (Böen bis etwa 80 km/h) einen markanten Temperatursturz: In 1500 m kühlt es in kurzer Zeit von +3 auf -4 Grad, in 2000 m auf -6 Grad ab. &#13;
+Am Sonntag schränken tief hängende Wolken die Sicht ein, im Alpenbereich schneit es häufig leicht. Der Wind weht in den Hochlagen verbreitet mit 40 bis 60 km/h aus westlicher Richtung. In 1500 m um -4 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschnee in den höheren Lagen beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2122RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-08T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2122RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-08T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-09T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>störanfälliger Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit der Abkühlung zurückgehend, aber generell möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ab der Waldgrenze mäßige Schneebrettgefahr und den frischen störanfälligen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Mit dem Sturm und Schneefall bilden sich neue frische Verfrachtungen, die störanfällig und zu beachten sind. Eine Auslösung von Schneebrettlawinen ist in verfüllten steilen Mulden und Rinnen sowie auf eingewehten Steilhängen vor allem in den höheren Lagen bei eventuell bei geringer Zusatzbelastung möglich. Mit der Abkühlung geht die Gefahr von Nassschneelawinen zurück, vereinzelt sind sie aber möglich. Auch Gleitschneelawinen im Steilgelände bleiben möglich und daher sollten Hänge mit Rissen in der Schneedecke gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung sinkt die Schneefallgrenze rasch in tiefe Lagen und die Schneedecke kann sich oberflächig etwas festigen, darunter ist sie aber feucht bis nass. Die Altschneedecke selbst ist weitgehend kompakt. Stürmischer Wind aus West bis Nordwest bildet frische mit zunehmender Höhe leicht zu störende Triebschneeablagerungen. Selbst tiefe Lagen bekommen etwas Neuschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht durch Wolken, Nebel, Regen und Schneefall oft stark eingeschränkt. In den Morgenstunden zieht eine Kaltfront von Westen her durch. Sie bringt neben stürmisch auffrischendem Wind (Böen bis etwa 80 km/h) einen markanten Temperatursturz: In 1500 m kühlt es in kurzer Zeit von +3 auf -4 Grad, in 2000 m auf -6 Grad ab. &#13;
+Am Sonntag schränken tief hängende Wolken die Sicht ein, im Alpenbereich schneit es häufig leicht. Der Wind weht in den Hochlagen verbreitet mit 40 bis 60 km/h aus westlicher Richtung. In 1500 m um -4 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschnee beachten, sonst keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

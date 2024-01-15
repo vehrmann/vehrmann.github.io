@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1452RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1452RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>vereinzelte Gefahrenstellen kammfern, im Waldrandbereich, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Vorsicht vor dem Triebschnee in steilen Mulden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab dem Waldrand aufwärts MÄSSIG. Vereinzelte Gefahrenstellen durch frische Triebschneepakete gibt es in eingewehten Steilbereichen (Rinnen, steile Mulden, Waldlichtungen etc.) und im kammfernen Gelände der Wichtungen W-S-O. </avActivityComment>
+          <snowpackStructureComment>Durch den Sturm ist das Gelände stark abgeweht und in Mitleidenschaft gezogen. Harte Deckel liegen neben den gut erkennbaren Triebschneepaketen in den windgeschützteren Zonen (Waldrand, Mulden). Der Triebschnee liegt teilweise auf schwachen Schichten und den Harschkrusten. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist es sonnig. Es ist nicht mehr so stürmisch, der Nordwind erreicht noch 40 bis 50 km/h in den exponierten Zonen. Temperaturen in 2000m um -7 Grad.&#13;
+Am Montag scheint die Sonne. Meist schwacher Wind. Temperaturen in 2000m um -4 Grad, in 3000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung. Gefahrenmomente nehmen durch die Erwärmung leicht ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1452RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1452RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfernes Gelände; Schneebrett kann groß bis sehr groß werden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Setzungsimpuls des Neuschnees durch Erwärmung und Sonne am Nachmittag; kleine und mittelgroße Lawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Unterschied mit der Höhe! Labiler Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von etwa 2000 m noch GROSS (4), darunter meist MÄSSIG. &#13;
+Die hohe Einstufung resultiert daraus, dass der Wintersportler zum einen sehr leicht ein Schneebrett auslösen kann und zum anderen, dass diese dann groß, mitunter sogar sehr groß werden können. &#13;
+Gefahrenstellen gibt es durch den letzten Sturm in allen Richtungen. Der Impuls einer einzelnen Person kann im steilen Gelände bereits zur Auslösung ausreichen. Schneebrettlawinen können mittelgroß bis sehr groß werden. Etwas Vorsicht verdienen auch sehr steile schattseitige Hängen, auch unter der Waldgrenze.&#13;
+Die Wahrscheinlichkeit für spontane Lawinen ist deutlich geringer als am Vortag. Einzelne spontane Schneebrettlawinen könnten aus stark eingewehten Bereichen sowie Lockerschneelawinen aus dem felsdurchsetzten Steilgelände durch die Erwärmung und (diffuse) Sonne am Nachmittag von selbst abgehen. </avActivityComment>
+          <snowpackStructureComment>Der ergiebige Neuschnee wurde mit dem Sturm ober der Waldgrenze stark verblasen und sehr unregelmäßig verteilt. Windexponiertes Gelände der Hochlagen ist stark ausgeweht, am meisten Neuschnee findet man am Waldrand und auf den Süd- und Ostseiten der Berge.&#13;
+Mit dem Erwärmungsimpuls am Samstag hat die Störanfälligkeit in den unteren Höhen abgenommen (Setzung). In den Hochlagen jedoch noch nicht! Unter dem letzten Triebschnee und dem ganzen Neuschneepaket der letzten drei Tage (50 bis 100 cm) gibt es aber noch schwache Schichten, die man stören kann (überschneiter Pulverschnee und kantige Schwachschichten unter den letzten Harschkrusten im Nordsektor und in den Hochlagen). </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht noch häufig durch Wolken und Schneeschauer eingeschränkt. Es schneit bis etwas Mittag, nachlassend; von Samstagabend bis Sonntagmittag in der Größenordnung 10 bis 30 cm. Am späten Nachmittag könnte es zaghaft auslockern. In den Hochlagen NW-Wind mit 30 bis 40 km/h. Temperaturen in 2000m um -7 Grad, in 3000m um -9 Grad.&#13;
+Am Montag scheint die Sonne. Meist schwacher Wind. Temperaturen in 2000m um -4 Grad, in 3000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1452RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1452RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammfern, am Waldrand, teilweise leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Setzungsimpuls des Neuschnees durch Erwärmung und Sonne am Nachmittag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliches Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ERHEBLICH (3) und beginnt bereits unter der Waldgrenze. Zurückhaltung und Erfahrung sind von Vorteil.&#13;
+Durch den letzten Sturm trifft man in fast allen Richtungen Triebschneepakete, die bereits durch den Impuls einer Person auslösbar sein können. Schneebrettlawinen können dabei mittelgroß bis groß werden. Gefahrenstellen liegen oft direkt neben den abgewehten Stellen. &#13;
+Spontane Lawinen sind am Sonntag eher selten. Einzelne spontane Schneebrettlawinen könnten aus stark eingewehten Bereichen sowie Lockerschneelawinen aus dem felsdurchsetzten Steilgelände durch die Erwärmung und Sonne am Nachmittag ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Der teilweise ergiebige Neuschnee wurde mit dem Sturm stark verblasen und sehr unregelmäßig verteilt. Windexponiertes Gelände der Hochlagen ist stark ausgeweht, am meisten Neuschnee findet man am Waldrand und auf den Südseiten der Berge.&#13;
+Mit dem Erwärmungsimpuls am Samstag hat die Störanfälligkeit etwas abgenommen. Unter dem letzten Triebschnee und dem ganzen Neuschneepaket der letzten drei Tage (40 bis 70 cm) gibt es aber noch schwache Schichten, die man stören kann (überschneiter Pulverschnee und kantige Schwachschichten unter den letzten Harschkrusten).</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht zunächst noch häufig durch Wolken und Schneeschauer eingeschränkt. Es schneit am Vormittag noch leicht; von Samstagabend bis Sonntagmittag in der Größenordnung 10 bis 20 cm. Gegen Mittag setzt sich vom Pinzgau her die Sonne durch, später kann es auch im Pongau auflockern. In den Hochlagen NW-Wind um 30 bis 40 km/h. Temperaturen in 2000m um -7 Grad, in 3000m um -9 Grad.&#13;
+Am Montag scheint die Sonne. Meist schwacher Wind. Temperaturen in 2000m um -4 Grad, in 3000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1452RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1452RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kammfern, am Waldrand, nach oben hin tlw. noch leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Setzungsimpuls des Neuschnees durch Erwärmung und Sonne am Nachmittag; kleine und mittelgroße Lawinen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee mit zunehmender Höhe noch leicht auslösbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von etwa 1500 m ERHEBLICH (3), darunter meist MÄSSIG. Zurückhaltung und Erfahrung sind im freien Gelände von Vorteil.&#13;
+Der Wintersportler kann in sehr steilen Zonen ober 1500 m – insbesondere in den Richtungen NO-O-S-W leicht ein Schneebrett auslösen. Der Impuls einer einzelnen Person kann bereits ausreichen. Schneebrettlawinen können mittelgroß und groß werden. Etwas Vorsicht verdienen auch sehr steile schattseitig Hänge, auch unter der Waldgrenze.&#13;
+Spontane Lawinen sind am Sonntag eher selten. Einzelne spontane Schneebrettlawinen könnten aus stark eingewehten Bereichen sowie Lockerschneelawinen aus dem felsdurchsetzten Steilgelände durch die Erwärmung und Sonne am Nachmittag ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Der teilweise ergiebige Neuschnee wurde mit dem Sturm ober der Waldgrenze stark verblasen und sehr unregelmäßig verteilt. Windexponiertes Gelände der Hochlagen ist stark ausgeweht, am meisten Neuschnee findet man am Waldrand und auf den Süd- und Ostseiten der Berge.&#13;
+Mit dem Erwärmungsimpuls am Samstag hat die Störanfälligkeit in den unteren Höhen abgenommen (Setzung). In den Hochlagen jedoch noch nicht! Unter dem letzten Triebschnee und dem ganzen Neuschneepaket der letzten drei Tage (40 bis 60 cm) gibt es aber noch schwache Schichten, die man stören kann (überschneiter Pulverschnee und kantige Schwachschichten unter den letzten Harschkrusten im Nordsektor und in den Hochlagen). </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht zunächst noch häufig durch Wolken und Schneeschauer eingeschränkt. Es schneit am Vormittag da und dort noch leicht; von Samstagabend bis Sonntagmittag in der Größenordnung 10 bis 20 cm. Gegen Mittag setzt sich im Pinzgau die Sonne durch, später kann es auch im Pongau auflockern. In den Hochlagen NW-Wind um 30 km/h. Temperaturen in 2000m um -7 Grad, in 3000m um -9 Grad.&#13;
+Am Montag scheint die Sonne. Meist schwacher Wind. Temperaturen in 2000m um -4 Grad, in 3000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1452RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1452RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kammfern, am Waldrand, nach oben hin noch leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Lockerschnee aus felsdurchsetztem Steilgelände; einzelne Gleitschneelawinen aus zuvor aperen Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee mit zunehmender Höhe noch leicht auslösbar</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von etwa 1500 m ERHEBLICH (3), darunter MÄSSIG. Zurückhaltung und Erfahrung sind im freien Gelände von Vorteil.&#13;
+Der Wintersportler kann in sehr steilen Zonen – insbesondere in den Richtungen NO-O-S-W ein Schneebrett auslösen. Der Impuls einer einzelnen Person kann bereits ausreichen. Schneebrettlawinen können mittelgroß und groß werden. &#13;
+Spontane Lawinen sind am Sonntag eher selten. Einzelne Lockerschneelawinen aus dem felsdurchsetzten Steilgelände oder einzelne Gleitschneelawinen sind möglich. </avActivityComment>
+          <snowpackStructureComment>Der teilweise ergiebige Neuschnee wurde mit dem Sturm ober der Waldgrenze stark verblasen und sehr unregelmäßig verteilt. Windexponiertes Gelände der Hochlagen ist stark ausgeweht, am meisten Neuschnee findet man am Waldrand und auf den Süd- und Ostseiten der Berge.&#13;
+Mit dem Erwärmungsimpuls am Samstag hat die Störanfälligkeit in den unteren Höhen abgenommen (Setzung). In den Hochlagen jedoch noch nicht! Unter dem letzten Triebschnee und dem ganzen Neuschneepaket der letzten drei Tage (40 bis 70 cm) gibt es aber noch schwache Schichten, die man stören kann (überschneiter Pulverschnee und kantige Schwachschichten unter den letzten Harschkrusten im Nordsektor).</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht noch häufig durch Wolken und Schneeschauer eingeschränkt. Es schneit bis etwas Mittag, nachlassend; von Samstagabend bis Sonntagmittag in der Größenordnung 10 bis 30 cm. Am späten Nachmittag könnte es zaghaft auslockern. In den Hochlagen NW-Wind mit 30 bis 40 km/h. Temperaturen in 2000m um -7 Grad.&#13;
+Am Montag scheint die Sonne. Meist schwacher Wind. Temperaturen in 2000m um -4 Grad, in 3000m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

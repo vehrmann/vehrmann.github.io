@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3731RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3731RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Massive Verfrachtungen, der Umfang der Gefahrenstellen nimmt im Tagesverlauf und mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>weiterhin zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet erhebliche, in höheren Lagen große Lawinengefahr - weiterhin Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>Große Neuschneemengen und Sturm führen sowohl im kammnahen als auch kammfernen Steilgelände zu massiven und leicht auslösbaren Triebschneeablagerungen. Dies in sämtlichen Expositionen. Die Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schneebrettlawinen können mittelgroß bis groß werden. Die Möglichkeit von spontanen Auslösungen nimmt im Tagesverlauf zu, diese können exponierte Verkehrswege betreffen.&#13;
+Gleitschneelawinen können weiterhin zu jeder Tageszeit in allen Expositionen aus sehr steilen Wald- bzw. Grashängen sowie auf glattem Felsuntergrund abgehen. &#13;
+In mittleren und tieferen Lagen führt in Abhängigkeit der schwankenden Schneefallgrenze Regeneintrag zu Nassschneerutschen aus steilen Böschungen und Waldhängen.   </avActivityComment>
+          <snowpackStructureComment>In den Staugebieten fallen große Neuschneemengen, stürmischer Wind führt zu mächtigen Triebschneeablagerungen bis in Waldbereiche. Schwachschichten bilden sich innerhalb der gebundenen Schneeauflage (weiche Einlagerungen). Zudem ist die Bindung zur oft verharschten Altschneedecke mit kantig aufgebauten Kristalle an der Oberfläche bzw. im Bereich von Krusten nicht ausreichend. Regeneintrag destabilisiert die Schneedecke bzw. die frische Auflage und führt zu raschem Festigkeitsverlust. Das Schneedeckenfundament ist bis in mittlere Lagen feucht bzw. nass was zu einem anhaltenden Gleitschneeproblem führt.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der stürmischen, nordwestlichen Höhenströmung wird labile Kaltluft an die Alpennordseite geführt. Im Bergland weht starker Sturm aus Nordwest, exponiert sind auch Orkanböen zu erwarten. Dazu schneit es in der nördlichen Obersteiermark stark, auf den Bergen kann hier bis Freitagnacht bis zu einem Meter Neuschnee fallen. Auch in den Niederen Tauern schneit es häufig und zeitweise auch stärker mit max. Neuschneesummen um 60cm im Hochgebirge. Alpensüdseitig sind die Mengen etwas geringer, von den Gurktaler Alpen bis zu Gleinalm werden je nach übergreifen in höheren Lagen bis ca. 40cm erwartet, etwas weniger im östlichen Randgebirge. Die Schneefallgrenze schwankt in den östlichen Nordalpen zwischen den Tallagen und 1000m, in Richtung Turrach und Seetaler Alpe zwischen 1000 und 1300m. Weniger Schnee fällt entlang des Steirischen Randgebirges, speziell auf der Koralpe. In 2000m werden Temperaturn um -6 Grad erreicht, alpensüdseitig ist es um 3 Grad milder.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag und tagsüber anhaltender und teils kräftiger Schneefall in den Nordstauregionen bei unverändert stürmisch bis orkanartigem Nordwestwind. Die Schneefallgrenze schwankt weiter zwischen 700 und 1000m, im Süden zwischen 1000 und 1300m. Am tiefsten liegt sie weiterhin in den östlichen Regionen. Die Lawinengefahr steigt weiter an! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3731RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3731RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Massive Verfrachtungen, der Umfang der Gefahrenstellen nimmt im Tagesverlauf und mit der Höhe zu</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>weiterhin zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Verbreitet erhebliche Schneebrettgefahr - weiterhin Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>Große Neuschneemengen und Sturm führen sowohl im kammnahen als auch kammfernen Steilgelände zu massiven und leicht auslösbaren Triebschneeablagerungen. Dies in sämtlichen Expositionen. Die Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schneebrettlawinen können mittelgroß werden. Die Möglichkeit von spontanen Auslösungen nimmt im Tagesverlauf zu.&#13;
+Gleitschneelawinen können weiterhin zu jeder Tageszeit in allen Expositionen aus sehr steilen Wald- bzw. Grashängen sowie auf glattem Felsuntergrund abgehen. &#13;
+In mittleren und tieferen Lagen führt in Abhängigkeit der schwankenden Schneefallgrenze Regeneintrag zu Nassschneerutschen aus steilen Böschungen und Waldhängen.   </avActivityComment>
+          <snowpackStructureComment>Es fallen teils große Neuschneemengen, stürmischer Wind führt zu mächtigen Triebschneeablagerungen bis in Waldbereiche. Schwachschichten bilden sich innerhalb der gebundenen Schneeauflage (weiche Einlagerungen). Zudem ist die Bindung zur oft verharschten Altschneedecke mit kantig aufgebauten Kristalle an der Oberfläche bzw. im Bereich von Krusten speziell in höheren schattigen Lagen nicht ausreichend. Regeneintrag destabilisiert die Schneedecke bzw. die frische Auflage und führt zu raschem Festigkeitsverlust. Das Schneedeckenfundament ist bis in mittlere Lagen feucht bzw. nass was zu einem anhaltenden Gleitschneeproblem führt.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der stürmischen, nordwestlichen Höhenströmung wird labile Kaltluft an die Alpennordseite geführt. Im Bergland weht starker Sturm aus Nordwest, exponiert sind auch Orkanböen zu erwarten. Dazu schneit es in der nördlichen Obersteiermark stark, auf den Bergen kann hier bis Freitagnacht bis zu einem Meter Neuschnee fallen. Auch in den Niederen Tauern schneit es häufig und zeitweise auch stärker mit max. Neuschneesummen um 60cm im Hochgebirge. Alpensüdseitig sind die Mengen etwas geringer, von den Gurktaler Alpen bis zu Gleinalm werden je nach übergreifen in höheren Lagen bis ca. 40cm erwartet, etwas weniger im östlichen Randgebirge. Die Schneefallgrenze schwankt in den östlichen Nordalpen zwischen den Tallagen und 1000m, in Richtung Turrach und Seetaler Alpe zwischen 1000 und 1300m. Weniger Schnee fällt entlang des Steirischen Randgebirges, speziell auf der Koralpe. In 2000m werden Temperaturn um -6 Grad erreicht, alpensüdseitig ist es um 3 Grad milder.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag und tagsüber anhaltender und teils kräftiger Schneefall in den Nordstauregionen bei unverändert stürmisch bis orkanartigem Nordwestwind. Die Schneefallgrenze schwankt weiter zwischen 700 und 1000m, im Süden zwischen 1000 und 1300m. Am tiefsten liegt sie weiterhin in den östlichen Regionen. Die Lawinengefahr steigt weiter an! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3731RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3731RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Teils erhebliche Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Neuschnee und Sturm führen im sowohl kammnahen als auch kammfernen Steilgelände zu teils größeren und leicht auslösbaren Triebschneeablagerungen in sämtlichen Expositionen. Die Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schneebrettlawinen können mittelgroß werden. &#13;
+Gleitschneelawinen können weiterhin zu jeder Tageszeit in allen Expositionen aus sehr steilen Wald- bzw. Grashängen sowie auf glattem Felsuntergrund abgehen. &#13;
+In mittleren und tieferen Lagen führt in Abhängigkeit der schwankenden Schneefallgrenze Regeneintrag zu Nassschneerutschen aus steilen Böschungen und Waldhängen.   </avActivityComment>
+          <snowpackStructureComment>Neuschnee und stürmischer Wind führt zu Triebschneeablagerungen bis in Waldbereiche. Schwachschichten bilden sich innerhalb der gebundenen Schneeauflage (weiche Einlagerungen). Zudem ist in höheren Schattlagen die Bindung zur oft verharschten Altschneedecke mit kantig aufgebauten Kristalle an der Oberfläche bzw. im Bereich von Krusten nicht ausreichend. Regeneintrag destabilisiert die Schneedecke bzw. die frische Auflage und führt zu raschem Festigkeitsverlust. Das Schneedeckenfundament ist bis in mittlere Lagen feucht bzw. nass was zu einem anhaltenden Gleitschneeproblem führt.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der stürmischen, nordwestlichen Höhenströmung wird labile Kaltluft an die Alpennordseite geführt. Im Bergland weht starker Sturm aus Nordwest, exponiert sind auch Orkanböen zu erwarten. Dazu schneit es in der nördlichen Obersteiermark stark, auf den Bergen kann hier bis Freitagnacht bis zu einem Meter Neuschnee fallen. Auch in den Niederen Tauern schneit es häufig und zeitweise auch stärker mit max. Neuschneesummen um 60cm im Hochgebirge. Alpensüdseitig sind die Mengen etwas geringer, von den Gurktaler Alpen bis zu Gleinalm werden je nach übergreifen in höheren Lagen bis ca. 40cm erwartet, etwas weniger im östlichen Randgebirge. Die Schneefallgrenze schwankt in den östlichen Nordalpen zwischen den Tallagen und 1000m, in Richtung Turrach und Seetaler Alpe zwischen 1000 und 1300m. Weniger Schnee fällt entlang des Steirischen Randgebirges, speziell auf der Koralpe. In 2000m werden Temperaturn um -6 Grad erreicht, alpensüdseitig ist es um 3 Grad milder.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag und tagsüber unverändert stürmisch. Es fällt etwas Neuschnee, die Schneefallgrenze schwankt zwischen 1000 und 1300m. Leichte Verschärfung der Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3731RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3731RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>frische, störanfällige Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Schneebrettgefahr in höheren Lagen - frische Triebschneeansammlungen beachten</avActivityHighlights>
+          <avActivityComment>Mit stürmischen Wind und etwas Neuschnee entstehen stellenweise kleine, frische und störanfällige Triebschneeablagerungen speziell in den Expositionen Nord über Ost bis Süd oberhalb von rund 1600m. Ungünstig sind vor allem Einfahrten in Rinnen und Mulden sowie Bereiche hinter Geländekanten. Schneebrettlawinen können bei geringe Zusatzbelastung ausgelöst werden und sind meist klein bis mittelgroß. &#13;
+Zudem sind Gleitschneelawinen möglich. Vorsicht in Hängen mit Gleitschneerissen. Dies vor allem an steilen Grashängen und an Böschungen.</avActivityComment>
+          <snowpackStructureComment>Etwas Neuschnee und stürmischer Wind führt zu kleineren Triebschneeablagerungen bis in lichte Waldbereiche. Schwachschichten bilden sich innerhalb der gebundenen Schneeauflage (weiche Einlagerungen). Das Schneedeckenfundament ist bis in mittlere Lagen feucht bzw. nass was zu einem anhaltenden Gleitschneeproblem führt.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der stürmischen, nordwestlichen Höhenströmung wird labile Kaltluft an die Alpennordseite geführt. Im Bergland weht starker Sturm aus Nordwest, exponiert sind auch Orkanböen zu erwarten. Dazu schneit es in der nördlichen Obersteiermark stark, auf den Bergen kann hier bis Freitagnacht bis zu einem Meter Neuschnee fallen. Auch in den Niederen Tauern schneit es häufig und zeitweise auch stärker mit max. Neuschneesummen um 60cm im Hochgebirge. Alpensüdseitig sind die Mengen etwas geringer, von den Gurktaler Alpen bis zu Gleinalm werden je nach übergreifen in höheren Lagen bis ca. 40cm erwartet, etwas weniger im östlichen Randgebirge. Die Schneefallgrenze schwankt in den östlichen Nordalpen zwischen den Tallagen und 1000m, in Richtung Turrach und Seetaler Alpe zwischen 1000 und 1300m. Weniger Schnee fällt entlang des Steirischen Randgebirges, speziell auf der Koralpe. In 2000m werden Temperaturn um -6 Grad erreicht, alpensüdseitig ist es um 3 Grad milder.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag und tagsüber unverändert stürmisch. Es fällt etwas Neuschnee, die Schneefallgrenze schwankt zwischen 1000 und 1300m. Leichte Verschärfung der Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3731RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3731RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Frische, störanfällige Triebschneeablagerungen, der Umfang der Gefahrenstelen nimmt im Tagesverlauf und mit der Höhe zu</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - frischen Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Neuschnee und Sturm führen im kammnahen als auch kammfernen Steilgelände zu leicht auslösbaren Triebschneeablagerungen im Steilgelände. Die Gefahrenstellen nehmen im Tagesverlauf und mit der Höhe zu. Schneebrettlawinen können schon durch geringe Zusatzbelastung ausgelöst werden und klein bis mittelgroß werden. &#13;
+Aus Steilhängen mit Grasflächen oder laubbedecktem Boden mit ausreichender Schneedecke sind vereinzelt spontane Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Neuschnee und stürmischer Wind führt zu Triebschneeablagerungen bis in Walbereiche. Schwachschichten bilden sich innerhalb der gebundenen Schneeauflage (weiche Einlagerungen). Zudem ist die Bindung zur oft verharschten Altschneedecke mit kantig aufgebauten Kristalle an der Oberfläche bzw. im Bereich von Krusten nicht ausreichend. Das Schneedeckenfundament ist bis in mittlere Lagen feucht bzw. nass was zu einem anhaltenden Gleitschneeproblem führt.</snowpackStructureComment>
+          <wxSynopsisComment>Mit der stürmischen, nordwestlichen Höhenströmung wird frische, labile Kaltluft an die Alpennordseite geführt. Im Bergland weht starker Sturm aus Nordwest, exponiert sind auch Orkanböen zu erwarten. Dazu schneit es in der nördlichen Obersteiermark stark, auf den Bergen kann hier bis Freitagabend bis zu einem Meter Neuschnee fallen. Auch in den Niederen Tauern schneit es häufig und zeitweise auch stärker mit max. Neuschneesummen um 60cm im Hochgebirge. Alpensüdseitig sind die Mengen etwas geringer, von den Gurktaler Alpen bis zu Gleinalm werden je nach übergreifen in höheren Lagen bis ca. 40cm erwartet, etwas weniger im östlichen Randgebirge. Die Schneefallgrenze schwankt in den Nordalpen zwischen den Tallagen (Osten) und 1000m, in Richtung Turrach und Seetaler Alpe zwischen 1000 und 1300m. Weniger Schnee fällt entlang des Steirischen Randgebirges, speziell auf der Koralpe. In 2000m werden Temperaturn um -6 Grad erreicht, alpensüdseitig ist es um 3 Grad milder.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Samstag und tagsüber unverändert stürmisch. Mit weiterem Neuschnee nehmen die Gefahrenstellen zu. Zunehmende Verschärfung der Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

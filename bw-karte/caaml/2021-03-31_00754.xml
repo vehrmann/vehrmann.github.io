@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID754RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID754RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mögliche spontane Lawinen ab Mittag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an seltenen Stellen im Gelände auslösbar, extrem steil, schattig, ober 2300 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang und Hangausrichtung beachten</avActivityHighlights>
+          <avActivityComment>Nassschneeproblem: Schattseitige Touren bleiben trocken und teilweise hart. Reine Westhänge firnen sehr spät auf. Am Vormittag und ab ca. 2600 m aufwärts auch ganztags sehr günstige Verhältnisse. Es firnt auf ohne dass es bis Mittag tief wird. Am Nachmittag sind dann einige mittelgroße, im Süd- und Südwestgelände auch einzelne große Nassschneelawinen möglich. Betrifft extremes Steilgelände bis etwa 2600 m hinauf. Vermehrte Lawinenaktivität ist vor allem dort möglich, wo felsigen Gelände mit im Spiel ist oder wo nicht allzu viel Schnee liegt. Vereinzelt gibt es Gleitschneelawinen.&#13;
+Altschneeproblem: Ein einzelnes und seltenes Schneebrett kann man an sehr wenigen Stellen im extrem steilen Nordsektor oberhalb von etwa 2300 m auslösen. Diese Schneebretter könnten im Falle einer Auslösung groß werden. Vorsicht bei schneearmen Einfahrten.</avActivityComment>
+          <snowpackStructureComment>In der Nacht kann es gut abstrahlen, im besonnten Sektor gibt es bis 2800 m hinauf einen harten Schmelzharschdeckel, der im Tagesverlauf unterschiedlich tief aufweicht. Im Süd- und Westsektor (SO-SW) geht die Durchfeuchtung unter 2600 m teilweise auch tiefer in die Schneedecke hinein. Nordseitig ist die Schneedecke ab ca. 2000 m aufwärts noch trocken. &#13;
+Oberhalb von 2300 m gibt es im Nordsektor vereinzelt schwache Schichten aus der ersten Märzhälfte, die derzeit aber kaum ansprechbar sind.</snowpackStructureComment>
+          <wxSynopsisComment>Nach klarer Nacht ist es am Donnerstag sonnig. Am Nachmittag bilden sich über den Gipfeln ein paar lockere Haufenwolken und es frischt lebhafter NW-Wind auf. Noch warm, wobei die Temperaturen etwas zurückgehen: In 2000 m um 6 Grad, in 3000 m -1 Grad.&#13;
+Die Nacht auf Freitag ist teilweise schon bewölkt. Am Freitag selbst viele Wolken, zeitweise Nebel in den Gipfelbereichen. Ab und zu geht ein kurzer und leichter Schauer. Schneefallgrenze um 2000 m Seehöhe. Nordwestwind mit 40 km/h. In 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der bewölkten Nacht und den Risiko für Regenschauer wird es am Freitag insgesamt unter 2300 m ungünstiger. Deutlich besser wieder am Sonntag und Montag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID754RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID754RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-31T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-01T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-01T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mögliche spontane Lawinen ab Mittag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an sehr wenigen Stellen im Gelände auslösbar, extrem steil, schattig, ober 2300 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang und Hangausrichtung beachten</avActivityHighlights>
+          <avActivityComment>Nassschneeproblem: Schattseitige Touren bleiben trocken und teilweise hart. Reine Westhänge firnen sehr spät auf. Am Vormittag sind die Verhältnisse sehr günstig. Es firnt auf ohne dass es bis Mittag tief wird. Am Nachmittag sind dann kleine bis mittelgroße Nassschneelawinen möglich. Betrifft extremes Steilgelände. Vereinzelt gibt es Gleitschneelawinen.&#13;
+Altschneeproblem: Ein einzelnes und seltenes Schneebrett ist im extrem steilen Nordsektor oberhalb von etwa 2300 m nicht ganz ausgeschlossen. Betrifft sehr wenige Stellen.</avActivityComment>
+          <snowpackStructureComment>In der Nacht kann es gut abstrahlen, im besonnten Sektor gibt es bis 2800 m hinauf einen harten Schmelzharschdeckel, der im Tagesverlauf unterschiedlich tief aufweicht. Im Süd- und Westsektor (SO-SW) geht die Durchfeuchtung unter 2600 m teilweise auch tiefer in die Schneedecke hinein. Nordseitig ist die Schneedecke ab ca. 2000 m aufwärts noch trocken. &#13;
+Oberhalb von 2300 m gibt es im Nordsektor vereinzelt schwache Schichten aus der ersten Märzhälfte, die derzeit aber kaum ansprechbar sind.</snowpackStructureComment>
+          <wxSynopsisComment>Nach klarer Nacht ist es am Donnerstag sonnig. Am Nachmittag bilden sich über den Gipfeln ein paar lockere Haufenwolken und es frischt lebhafter NW-Wind auf. Noch warm, wobei die Temperaturen etwas zurückgehen: In 2000 m um 6 Grad, in 3000 m -1 Grad.&#13;
+Die Nacht auf Freitag ist teilweise schon bewölkt. Am Freitag selbst viele Wolken, zeitweise Nebel in den Gipfelbereichen. Ab und zu geht ein kurzer und leichter Schauer. Schneefallgrenze um 2000 m Seehöhe. Nordwestwind mit 40 km/h. In 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der bewölkten Nacht und den Risiko für Regenschauer wird es am Freitag insgesamt unter 2300 m ungünstiger. Deutlich besser wieder am Sonntag und Montag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

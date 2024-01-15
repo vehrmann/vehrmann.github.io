@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1118RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1118RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen bleibt das Hauptproblem</avActivityHighlights>
+          <avActivityComment>Vom Gippel-Göller-Gebiet über die Rax-Schneeberg-Gruppe bis zum Semmering - Wechselgebiet besteht in höheren Lagen mäßige Lawinengefahr. Mit dem Temperaturanstieg konnte sich die Schneedecke etwas setzen. In höheren Lagen geht die Hauptgefahr weiterhin von frischen dünnen und älteren Triebschneebereichen aus. Speziell hinter Geländekanten sowie in steilen Rinnen und Mulden der Expositionen Nordwest über Ost bis Süd reicht mitunter die geringe Zusatzbelastung aus, um ein Schneebrett auszulösen. Aus felsigem Gelände können sich punktuell kleinere, nasse Rutsche lösen.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind aus Nordwest hat Gipfel und Grate abgeweht und leeseitig Triebschnee gebildet. Mit einsetzender Erwärmung in der Nacht auf Montag begann sich die Schneedecke bis in mittlere Lagen zu setzen, punktuell führt die Anfeuchtung zu einem Festigkeitsverlust. In höheren, vornehmlich schattseitigen Bereichen sind die Kältereserven der Schneedecke deutlich größer, hier sorgen eingelagerte Schwachschichten in Form von weichem Schnee und Reif weiterhin für eine Störanfälligkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Mit einem schwachen Störungsausläufer stecken am Dienstag die Berge meist in tiefen und mittelhohen Wolken, zeitweise regnet oder schneit es unergiebig. Die Schneefallgrenze bewegt sich um 1200m bis 1400m Seehöhe. Der Höhenwind schwächt sich gegenüber den Vortagen ab und weht lebhaft aus Nordwest. Die Temperaturen liegen zu Mittag in 2000m um -1 Grad, in 1500m um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr geht langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1118RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1118RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Gutensteiner Alpen besteht überwiegend geringe Lawinengefahr. Mit der Erwärmung konnte sich die Schneedecke setzen. Aus steilen Böschungen und Wiesenhängen sind aufgrund der fortschreitenden Durchnässung kleinere Gleitschneerutsche nicht ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>Die Warmfront am Montag sorgte meist nur für unergiebigen Niederschlag, der vornehmlich als Regen oder feuchter Schnee fiel. Somit wurde die Schneedecke speziell in tieferen Lagen feucht bzw. nass, was zu einem Festigkeitsverlust führt. Stellenweise ist die Schneedecke für Unternehmungen im Gelände nicht ausreichend.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einem schwachen Störungsausläufer stecken am Dienstag die Berge meist in tiefen und mittelhohen Wolken, zeitweise regnet oder schneit es unergiebig. Die Schneefallgrenze bewegt sich um 1200m bis 1400m Seehöhe. Der Höhenwind schwächt sich gegenüber den Vortagen ab und weht lebhaft aus Nordwest. Die Temperaturen liegen zu Mittag in 1000m um um +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1118RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1118RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Teils schwacher Alt- und Triebschnee in höheren Lagen, in tieferen Lagen vorhandenes Potential für Gleitschneelawinen</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler Alpen besteht oberhalb der Waldgrenze erhebliche Lawinengefahr. In Abhängigkeit der Schneefallgrenze existieren in höheren Lagen frische und ältere Triebschneebereiche. In steilen Einfahrtsbereichen, hinter Geländekanten sowie in eingewehten Rinnen und Mulden der Hangrichtungen Nordwest über Ost bis Südost können Schneebrettlawinen mitunter durch geringe Zusatzbelastung ausgelöst werden. &#13;
+Mit der Erwärmung konnte sich die Schneedecke in mittleren und tiefen Lagen setzen. In Regionen, in denen viel Regen fiel, besteht punktuell mitunter ein schwaches Nassschneeproblem. Zudem besteht auf steilen Grashängen sowie im lichten Wald die Gefahr von Gleitschneelawinen, Schneemäuler weisen auf akute Gefahrenbereich hin.</avActivityComment>
+          <snowpackStructureComment>Eine Warmfront sorgte auf den Bergen der Ybbstaler Alpen für etwas Neuschnee. Mit teils starkem Wind aus nordwestliche Richtungen entstanden in höheren Lagen frische, dünne Triebschneeablagerungen. Speziell schattseitig sorgen eingelagerte Schwachschichten in Form von weichem Schnee und Reif in der Altschneedecke weiterhin für eine Störanfälligkeit. &#13;
+In mittleren und tiefen Lagen konnte sich die Schneedecke mit der Erwärmung setzen, verlor stellenweise durch Regeneintrag auch an Festigkeit. Auf Wiesen und im Wald ist die Schneedecke am Boden häufig feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einem schwachen Störungsausläufer stecken am Dienstag die Berge meist in tiefen und mittelhohen Wolken, zeitweise regnet oder schneit es unergiebig. Die Schneefallgrenze bewegt sich um 1200m bis 1400m Seehöhe. Chancen auf Auflockerungen gibt es am ehesten am Nachmittag. Der Höhenwind schwächt sich gegenüber den Vortagen deutlich ab und weht mäßig bis lebhaft aus Nordwest. Die Temperaturen liegen zu Mittag in 2000m um -1 Grad, in 1500m um +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr nimmt langsam ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1118RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1118RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Punktuell älteren Triebschnee sowie potentielles Gleitschneeproblem beachten</avActivityHighlights>
+          <avActivityComment>Triebschneeablagerungen in höheren Lagen konnten sich mit der Erwärmung zunehmend entspannen und sind nur mehr stellenweise hinter Geländekanten sowie in sehr steilen Rinnen in Hinblick auf eine Schneebrettauslösung zu beachten. Mit erwärmungsbedingter, anhaltender Durchfeuchtung der Schneedecke in mittleren und tiefen Lagen sind an sehr steilen Grashängen Gleitschneerutsch nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Eine Warmfront sorgte am Montag für Erwärmung und etwas Niederschlag, der weit hinauf als Regen und nur in höheren Lagen als Schnee fiel. Somit konnte sich die Schneedecke weitgehend setzten, nur in höheren Lagen mit Kältereserven schwächen eingelagerte, weiche Schichten den Schneedeckenaufbau. In tieferen Lagen verlor die Schneedecke (speziell mit Regeneintrag) punktuell an Festigkeit und Stabilität. Auf Wiesen und im Wald ist die Schneedecke am Boden häufig feucht bis nass.</snowpackStructureComment>
+          <wxSynopsisComment>Mit einem schwachen Störungsausläufer stecken am Dienstag die Berge meist in tiefen und mittelhohen Wolken, zeitweise regnet oder schneit es unergiebig. Die Schneefallgrenze bewegt sich um 1200m bis 1400m Seehöhe. Die Chancen auf Auflockerungen gibt es am ehesten am Nachmittag. Der Höhenwind schwächt sich gegenüber den Vortagen deutlich ab und weht mäßig bis lebhaft aus Nordwest. Die Temperaturen liegen zu Mittag in 1000m um +3 Grad.</wxSynopsisComment>
+          <tendencyComment>Weiterer Rückgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

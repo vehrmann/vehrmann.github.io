@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID720RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID720RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2021-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-28T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leichter Tagesgang mit der Erwärmung</avActivityHighlights>
+          <avActivityComment>Am Vormittag günstige Verhältnisse. Am Nachmittag sind kleine oder mittlere Nassschneelawinen aus dem besonnten extremen Steilgelände heraus möglich. Diese können auch von Wintersportlern ausgelöst werden. Vereinzelt gibt es auch kleine Gleitschneelawinen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und stabil. An der Oberfläche lassen sich je nach Exposition, Höhe und Tageszeit alle Schneearten (von älterem Pulver bis Firn und Sulz und dazwischen Harsch aller Arten) finden. Oft gibt es bereits eine tragfähige Schmelzharschkruste in der Früh, die tagsüber auffirnt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist die Sicht gut und die Sonne scheint. Zeitweise ziehen dünne Wolkenfelder weit über die Gipfel. Der Wind bleibt meist schwach. Zu Mittag in 1500m um 7 Grad.</wxSynopsisComment>
+          <tendencyComment>Tagesgang beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID720RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID720RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2021-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-28T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-28T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-03-29T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-03-29T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leichter Tagesgang mit der Erwärmung</avActivityHighlights>
+          <avActivityComment>Am Vormittag &#13;
+günstige Verhältnisse. Am Nachmittag sind kleine oder mittlere &#13;
+Nassschneelawinen unterhalb etwa 2400 m aus dem besonnten extremen &#13;
+Steilgelände heraus möglich. Diese können auch von Wintersportlern &#13;
+ausgelöst werden. Vereinzelt gibt es Gleitschneelawinen.&#13;
+Ein Schneebrett kann vereinzelt vor allem im schattigen Steilgelände oberhalb von etwa 2300 m ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und stabil. An der Oberfläche lassen sich je nach Exposition, Höhe und Tageszeit alle Schneearten (von älterem Pulver bis Firn und Sulz und dazwischen Harsch aller Arten) finden. Oft gibt es bereits eine tragfähige Schmelzharschkruste in der Früh, die tagsüber auffirnt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag ist die Sicht gut und die Sonne scheint. Zeitweise ziehen dünne Wolkenfelder weit über die Gipfel. Auf hohen Gipfeln weht teils lebhafter Nordwestwind, ansonsten bleibt der Wind schwach. Zu Mittag in 2000m um 4 Grad, in 3000m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Tagesgang beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

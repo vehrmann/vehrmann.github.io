@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2818RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2818RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Tagesverlauf kann sich mit Südostwind kammnah frischer Triebschnee bilden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unter Gleitschneemäulern meiden, treten bis 2300 m hinauf auf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas frischer Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab der Waldgrenze MÄßIG, darunter GERING.&#13;
+Südostwind bildet im Tagesverlauf vor allem kammnah frischen Triebschnee. Dieser bleibt meist dünn, kann aber stellenweise bereits durch das Gewicht eines einzelnen Wintersportler als kleines bis mittelgroßes Schneebrett ausgelöst werden. Vorsicht im nordseitigen Steilgelände, die frischen Verfrachtungen sind gut erkennbar. Der ostseitige Triebschnee vom Ende der letzten Woche ist kaum noch ansprechbar.&#13;
+Aus steilem, glatten Gelände (Grasmatten, Felsplatten) können sich einzelne Gleitschneelawinen (meist klein bis mittelgroß) lösen - das Gelände unter Fischmäulern sollte gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist verbreitet sehr gut gesetzt, die Schichten sind meist gut miteinander verbunden. Die oft einzige Schwachschicht ist die Grenze zwischen Boden und Schneedecke (Gleitschneelawinen), Schwachschichten in der Altschneedecke gibt es kaum, am ehesten in hohen schattigen Lagen. Rein sonnseitig hat sich im steilen Gelände bereits eine dünne Schmelzharschkruste gebildet. Der Südostwind kann im Tagesverlauf den oft noch vorhandenen Pulverschnee verblasen und nordseitig auf lockerem Schnee und Oberflächenreif ablagern.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist die Sicht sehr gut und die Sonne scheint. Im Tagesverlauf wird der Wind aus Südost stärker und erreicht am Nachmittag in exponierten Lagen der Niederen Tauern Spitzen um 50 km/h, ansonsten 30 km/h bis 40 km/h. In 2000 m um -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Donnerstag heißt es auf frischen Triebschnee im Nordsektor achten. Der Wind weht in der Nacht von Mittwoch auf Donnerstag am stärksten (Spitzen um 60 km/h) und lässt am Donnerstag tagsüber rasch wieder nach.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2818RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2818RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer Triebschnee, schattseitig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>der Triebschnee wird mehr, Vorsicht in den Föhnschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-07T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schwacher Altschnee, Durchreißen vor allem an schneearmen Stellen möglich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-08T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-08T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>schwacher Altschnee, Durchreißen vor allem an schneearmen Stellen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Föhnschneisen aufpassen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf in hohen und hochalpinen Lagen von MÄßIG auf ERHEBLICH an.&#13;
+Südostwind bildet im Tagesverlauf kammnah und kammfern frischen Triebschnee. Dieser kann stellenweise bereits durch das Gewicht eines einzelnen Wintersportler als Schneebrett ausgelöst werden. Beim Durchreißen auf die teils schwache Altschneedecke können Schneebretter auch groß werden. Vorsicht bei Wind im nordseitigen Steilgelände! Der ostseitige Triebschnee vom Ende der letzten Woche ist kaum noch ansprechbar.&#13;
+Aus steilem, glatten Gelände (Grasmatten, Felsplatten) können sich einzelne Gleitschneelawinen (meist klein bis mittelgroß) lösen - das Gelände unter Fischmäulern sollte gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist verbreitet gut gesetzt, die Schichten sind meist ausreichend miteinander verbunden. Schwachschichten in der Altschneedecke gibt es eher nur kleinräumig, vor allem schattseitig in hohen und hochalpinen Lagen. Rein sonnseitig hat sich im steilen Gelände bereits eine dünne Schmelzharschkruste gebildet. Der Südostwind kann im Tagesverlauf den oft noch vorhandenen Pulverschnee verblasen und nordseitig auf lockerem Schnee und Oberflächenreif ablagern.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist die Sicht sehr gut und die Sonne scheint. Im Tagesverlauf wird der Wind aus Südost stärker und erreicht am Nachmittag in exponierten Lagen und Föhnschneisen Spitzen zwischen 40 km/h und 60 km/h. In 2000 m um -8 Grad, in 3000 m um -14 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Donnerstag heißt es auf frischen Triebschnee im Nordsektor achten. Der Wind weht in der Nacht von Mittwoch auf Donnerstag am stärksten (Spitzen um 70 km/h) und lässt am Donnerstag tagsüber rasch wieder nach.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

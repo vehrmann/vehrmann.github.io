@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1554RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1554RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frische Triebschneepakete in Rinnen und hinter Geländekanten, störanfällig!</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Sturm</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist von der Waldgrenze aufwärts ERHEBLICH, darunter gering.&#13;
+Gefahrstellen gibt es dort, wo der frische Triebschnee im steilen Gelände liegen bleibt. Dort lassen sich die Triebschneepakete bereits bei geringer Belastung stören. Vorsicht in sehr steilen Bereichen der Mulden, Rinnen und hinter Geländekanten. Potenzielle Schneebretter sind klein bis mittelgroß. </avActivityComment>
+          <snowpackStructureComment>Zum Schneefall vom Wochenbeginn (wenige bis maximal 15 cm) fallen am Mittwoch nochmals 15 bis 25 cm. Nordweststurm erzeugt frischen Triebschnee, der auf der kalten Unterlage störanfällig ist. Die Neuschneeauflage überdeckt ältere Triebschneepakete und Krusten, unter denen sich weiche kantige Schichten befinden. Sie kommen aber höchstens vereinzelt und bei sehr großer Zusatzbelastung als Bruchfläche in Frage.</snowpackStructureComment>
+          <wxSynopsisComment>Von Norden greifen am Mittwoch mit stürmischem Nordwestwind (60 bis 80 km/h) zeitweise Schneeschauer über. Dichte Wolken, die die Sicht einschränken können, wechseln mit kurzen Sonnenfenstern. In 2000 m um -7 Grad.&#13;
+Am Donnerstag nur in der Früh noch ein paar Schneeflocken, dann trocken. Die Wolken lichten sich tagsüber, die Sicht wird besser und der Wind lässt deutlich nach. Damit spürbar milder: In 2000 m -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag noch keine wesentliche Änderung - steile Triebschneebereiche meiden!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1554RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1554RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>4</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nochmals 25 bis 50 cm Neuschnee, labil auf kälterer Unterlage, spontane Lawinenaktivität, Lawinen mit Staubanteil</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>leicht auslösbar, umfangreich, bis in lichten Waldbestand</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Große Gefahr durch Neu- und Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen ist GROß - Stufe 4! Lawinen können in allen Höhenlagen bei geringer Zusatzbelastung ausgelöst werden. In vielen Steilbereichen ist die Auslösung eines mittleren bis großen Schneebretts sogar wahrscheinlich! Betroffen sind Rinnen und steile eingewehte Hänge aller Expositionen, insbesondere auch der Waldrandbereich.&#13;
+Aus dem extrem steilen Gelände werden vermehrt Lawinen von selbst abgehen. Abgänge aus den Hochlagen können dabei auch Staubanteil entwickeln und große, in den neuschneereichsten Zonen der Nordalpen und Tauern vereinzelt auch sehr große Ausmaße annehmen und exponierte Verkehrswege bedrohen.</avActivityComment>
+          <snowpackStructureComment>Zum bis Dienstagnachmittag bereits ergiebigen Schneefall - auf den Bergen fielen bei stürmischem Wind aus West bis Nord verbreitet 30 bis 70 cm - kommen am Mittwoch nochmals 30 bis 50 cm dazu. Der Nordweststurm verfrachtet umfangreich und lagert große Triebschneemengen in Rinnen und Mulden und insbesondere auch im Waldrandbereich und in Waldlichtungen ab. Der Triebschnee ist auf der kälteren Unterlage sehr störanfällig. Bruchflächen gibt es vor allem innerhalb des Neu-/Triebschnees, im Zuge von Lawinenabgängen können im Einzelfall aber auch tiefer liegende Schwachschichten im oberen Bereich der Altschneedecke angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch und am Mittwoch schneit es aus dichten Wolken anhaltend und ergiebig weiter. Mit stürmischem Nordwestwind wird es dabei etwas milder! In 2000 m hat es um -8 Grad, in 3000 m um -14 Grad.&#13;
+Am Donnerstag klingt der Schneefall am Vormittag ab. Am Nachmittag gibt es bei hohen Wolken oft gute Sicht. Der Wind weht mäßig stark und in den Hochlagen der Tauen lebhaft. Die Temperatur beträgt in 2000 m -3 bis 0 Grad, in 3000 m -9 bis -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Situation bleibt für den Wintersportler/die Wintersportlerin insbesondere in den Hochlagen angespannt und dürfte dort noch im Bereich der Stufe 4 - GROSS - bleiben. Der Höhepunkt der spontanen Lawinenaktivität dürfte am Donnerstag aber bereits überschritten sein.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

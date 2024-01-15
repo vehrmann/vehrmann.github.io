@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1296RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1296RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Triebschnee auf ungünstiger Unterlage, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Windeinfluss bei ungünstiger Unterlage</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen steigt am Vormittag rasch und ist oberhalb der Waldgrenze verbreitet MÄßIG. Gefahrenstellen durch frischen Triebschnee gibt es in Rinnen und steilen Mulden und insbesondere in kammnahen Steilhängen von Nordost über Ost bis Süd. Eine Lawinenauslösung ist bereits durch geringe Zusatzbelastung möglich, wobei Lawinen auch mittlere Ausmaße annehmen können. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist in den obersten 10 bis 15 cm aus dünnen Krusten aufgebaut, zwischen denen sich weiche Schichten aus kantigen Kristallen, teilweise auch Reif, befinden. Die Schneeoberfläche ist vielfach verharscht, teilweise auch eisig glatt. Auf diese Unterlage fällt zunächst unter geringem, später unter starkem Windeinfluss und bei stetig sinkenden Temperaturen tagsüber der Neuschnee. Aufgrund der ungünstigen Unterlage muss von einer hohen Störanfälligkeit des frischen Triebschnees ausgegangen werden. Bruchflächen sind sowohl im lockeren, frischen Neuschnee als auch unter einer der o.a. Harschkrusten möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch schneit es von der Früh weg und zumindest mäßig stark bis kräftig, die Sicht ist oft stark eingeschränkt. Bis zum Abend fallen verbreitet 10 bis maximal 20 cm Neuschnee. Der Wind frischt tagsüber aus West bis Nord auf, weht in den freien Lagen mit 40 bis 60 km/h und verfrachtet den Neuschnee umfangreich.  In 2000 m kühlt es von -3 auf -10 Grad ab.&#13;
+Am Donnerstag schneit es noch leicht, teilweise auch mäßig stark (in Summe wenige bis max. 10 cm). Die Sicht ist häufig eingeschränkt. Der Wind weht mit 30 bis 40 km/h aus West/Nordwest. Es bleibt winterlich kalt. In 2000 m hat es -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschneebereiche oberhalb der Waldgrenze am Donnerstag unbedingt meiden, die Störanfälligkeit ist vorerst noch erhöht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1296RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1296RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-04T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>umfangreicher Triebschnee, kammnah und kammfern, auf ungünstiger Unterlage, leicht auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ergiebiger Neuschnee, Verfrachtung und ungünstige Unterlage</avActivityHighlights>
+          <avActivityComment>Die Gefährdung durch Lawinen steigt am Vormittag rasch und ist von der Waldgrenze aufwärts bald ERHEBLICH. Gefahrenstellen durch frischen Triebschnee gibt es in Rinnen und steilen Mulden und insbesondere in kammnahen Steilhängen von Nordost über Süd bis Südwest. Eine Lawinenauslösung ist bereits durch geringe Zusatzbelastung möglich, wobei Lawinen vielfach mittlere bis gefährlich große Ausmaße annehmen können. In den neuschneereichsten Regionen am Tauernhauptkamm sind in den Hochlagen auch Selbstauslösungen von Lawinen (bis Größe 3) möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist in den obersten 10 bis 15 cm aus drei dünnen Krusten aufgebaut, zwischen denen sich weiche Schichten aus kantigen Kristallen, teilweise auch Reif, befinden. Die Schneeoberfläche ist vielfach glatt, in den Hochlagen zum Teil vereist, im Hochgebirge auch von großen Windgangeln zerfurcht. Auf diese Unterlage fällt zunächst unter geringem, später unter starkem Windeinfluss und bei stetig sinkenden Temperaturen tagsüber ergiebiger Neuschnee. Aufgrund der ungünstigen Unterlage muss von einer hohen Störanfälligkeit des frischen Triebschnees ausgegangen werden. Bruchflächen sind sowohl im lockeren, frischen Neuschnee als auch unter einer der o.a. Harschkrusten möglich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch schneit es von der Früh weg und zeitweise kräftig, die Sicht ist oft stark eingeschränkt. Bis zum Abend fallen verbreitet 15 bis 30 cm, im Tauernbereich 40 bis 50 cm Neuschnee. Der Wind dreht auf West bis Nord, erreicht 50 bis 80 km/h und verfrachtet den Neuschnee umfangreich.  In 2000 m kühlt es von -3 auf -10 Grad ab, in 3000 m von -6 auf -16 Grad.&#13;
+Am Donnerstag schneit es noch leicht, gelegentlich auch noch mäßig stark (in Summe wenige bis max. 10 cm). Die Sicht ist häufig eingeschränkt. Der Wind weht in den Tauern und Nockbergen mit 50 bis 70 km/h aus West/Nordwest. Es bleibt winterlich kalt. In 2000 m hat es -10 Grad, in 3000 m -16 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag zumindest in den Hochlagen verbreitet ERHEBLICHE Schneebrettgefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

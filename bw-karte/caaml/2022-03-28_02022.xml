@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2022RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2022RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-28T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-29T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr auf der vormittags verharschten Schneeoberfläche sowie mögliche Wechtenbrüche beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist gering. Problematisch ist der Nassschnee. Im extrem steilen Gelände mittlerer Lagen können sich im Tagesverlauf vereinzelt kleinere, nasse Lockerschneelawinen von selbst lösen. An steilen Hängen mit glattem Untergrund sind daneben mittelgroße Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Am Morgen ist die Schneedecke oberflächlich verharscht und stabil.   Bei milden Temperaturen und hoher Bewölkung weicht der Harschdeckel im Tagesverlauf wieder auf. Dies führt zu oberflächlichen Bindungsverlusten und zunehmender Durchfeuchtung der Schneedecke, die zum Boden hin vielerorts nass ist. Die Schneemächtigkeit ist für die Jahreszeit unterdurchschnittlich, sonnseitig ist der Boden bis 1500 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich am Mittwoch nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

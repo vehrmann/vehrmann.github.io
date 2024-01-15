@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3295RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-02T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3295RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-02T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-03T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>über der Waldgrenze, etwas frischer Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus dem Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Lokale Gefahrenstellen durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist über der Waldgrenze mäßig. Durch etwas Neuschnee und lebhaften Wind um West bis Nord bilden sich lokal frische Triebschneeablagerungen. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände sowie hinter Geländekanten. Eine Auslösung von Schneebrettlawinen ist insbesondere bei großer, nur vereinzelt aber auch bei geringer Zusatzbelastung möglich. Auf Grund des durchfeuchteten Schneedeckenfundaments sind einzelne Gleit- und Nassschneelawinen aus nicht entladenem Steilgelände vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Am Sonntag (nur wenige cm Neuschnee) und in der Nacht auf Montag gibt es frischen Triebschnee durch etwas Neuschnee (rund 10 cm) und lebhaften Wind um West bis Nord. Das Schneedeckefundament ist bis weit hinauf durchfeuchtet. Mit der Abkühlung kann sich die Altschneeoberfläche festigen. In den tiefen und teils mittleren Lagen ist es meist aper bzw. liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag bessern sich die Sichtverhältnisse. Nebel kann aber teilweise den ganzen Tag störend bleiben. Ab und zu scheint die Sonne. Es weht teils starker Nordwind. In 1500 m um -5 Grad, in 2000 m um -8 Grad.&#13;
+Am Dienstag wird die Sicht durch Nebel und Hochnebel meist eingeschränkt. Die Sonne zeigt sich kaum. Es weht starker Nordwind. In 1500 m um -8 Grad, in 2000 m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1792RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1792RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>älterer Triebschnee in Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt in Hochlagen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen besteht lokal eine mäßige Schneebrettgefahr. Es sind ost- über süd- bis nordwestseitig ältere Verfrachtungen vorhanden, die insbesondere bei großer Zusatzbelastung gestört werden können. Gut gefüllte Steilhänge, Steilrinnen sowie Mulden und vor allem Übergänge von wenig zu viel Schnee sind noch zu beachten. Mit der Erwärmung und zeitweisem Sonnenschein sind spontane Lawinen aus felsdurchsetztem Steilgelände nur vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Durch die milderen Temperaturen und Sonneinstrahlung konnte sich die Schneedecke weiter setzen. Die Altschneedecke selbst ist gut gesetzt, weitgehend gefestigt, enthält aber in schattigen höheren Lagen teils noch Schwachschichten wie kantige Kristalle. Teils ist noch älterer Triebschnee, der auf einer Harsch- oder einer weicheren Schicht liegt, störanfällig. Der zuletzt kalte, lockere, pulvrige bzw. wenn dann nur teils leicht verharschte oder windgepresste Schnee wird oberflächig mit der Sonne nur etwas angefeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist es trocken und bis in den Vormittag hinein noch eher sonnig. Die hohe Bewölkung wird im Tagesverlauf aber immer kompakter und kann unter Umständen für diffuses Licht sorgen. Der Wind weht schwach bis mäßig aus Nordwest bis Ost. In 1500 m um -1 Grad, in 2000 m um -5 Grad.&#13;
+Der Donnerstagvormittag zeigt sich neben ein paar hohen Wolkenfeldern zumeist sonnig, am Nachmittag tauchen ein wenig mehr Quellwolken im Gebirge auf. Der Wind weht schwach bis mäßig, in exponierten Lagen teils lebhaft aus Nordwest. In 1500 m -1 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1792RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1792RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Auf einzelne Gefahrenstellen in Hoch- und Gipfellagen achten!</avActivityHighlights>
+          <avActivityComment>In eingewehten höheren Lagen sowie Gipfellagen und hier in kammnahen steilen Bereichen sind vereinzelt im erweiterten Südsektor und bis nordwestseitig ältere Triebschneeablagerungen vorhanden, die insbesondere bei großer Zusatzbelastung gestört werden können. Gut gefüllte steile Rinnen, Mulden und vor allem Übergänge von wenig zu viel Schnee sind hier zu beachten. Mit der Erwärmung und etwas Sonne sind spontane Lawinen aus felsdurchsetztem Steilgelände nur vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Durch die milderen Temperaturen und Sonneinstrahlung konnte sich die Schneedecke weiter setzen. Die Altschneedecke selbst ist gut gesetzt, weitgehend gefestigt, enthält aber in schattigen höheren Lagen teils noch Schwachschichten wie kantige Kristalle. Teils ist noch älterer Triebschnee, der auf einer Harsch- oder einer weicheren Schicht liegt, störanfällig. Der zuletzt kalte, lockere, pulvrige bzw. wenn dann nur teils leicht verharschte oder windgepresste Schnee wird oberflächig mit der Sonne nur etwas angefeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist es trocken und bis in den Vormittag hinein noch eher sonnig. Die hohe Bewölkung wird im Tagesverlauf aber immer kompakter und kann unter Umständen für diffuses Licht sorgen. Der Wind weht schwach bis mäßig aus Nordwest bis Ost. In 1500 m um -1 Grad, in 2000 m um -5 Grad.&#13;
+Der Donnerstagvormittag zeigt sich neben ein paar hohen Wolkenfeldern zumeist sonnig, am Nachmittag tauchen ein wenig mehr Quellwolken im Gebirge auf. Der Wind weht schwach bis mäßig, in exponierten Lagen teils lebhaft aus Nordwest. In 1500 m -1 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

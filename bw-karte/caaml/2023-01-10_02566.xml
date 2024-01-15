@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2566RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2566RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-10T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>Triebschnee auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälligen Triebschnee beachten und meiden - in höheren Lagen und über der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Der zuletzt gefallene Neuschnee wurde durch starken, in höheren Lagen zeitweise stürmischem Wind verfrachtet. Diese Triebschneeablagerungen sind in Steilhängen, eingeblasenen steilen Mulden und Rinnen überwiegend nordost- über ost- bis südseitig vorhanden und bereits bei geringer Zusatzbelastung auslösbar.&#13;
+Hinzu kommt die Absturzgefahr auf der überdeckten harten Altschneedecke und punktuell ein Altschneeproblem im hochalpinen extrem steilen schattseitigen Gelände.</avActivityComment>
+          <snowpackStructureComment>In den letzten 48 Stunden gab es in den mittleren Lagen rund 20 cm, darüber 30 cm und mehr an Neuschnee. Starker, zeitweise stürmischer Wind hat zu stärkeren Verfrachtungen geführt, die mit der teils eisigen oder verharschten Altschneedecke schlecht binden. Wieder milder werdende Temperaturen führen zur leichten Setzung der Schneedecke. Die Altschneedecke enthält hochgelegen und schattseitig teils bodennahe Schwachschichten. &#13;
+Die Schneehöhen sind weiterhin unterdurchschnittlich bzw. liegt der zuletzt gefallene Neuschnee, abgesehen von den höheren Lagen, oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch startet mit zunehmender Bewölkung, die Sicht kann in höheren Lagen oft eingeschränkt sein. Ab und zu ist im südlichen Bergland mit Regen und Schneefall zu rechnen, die Schneefallgrenze steigt tagsüber auf 1500 m. Am frühen Nachmittag setzt sich wieder oft trockenes Wetter durch. In 1500 m am Nachmittag milder mit 2 Grad, in 2000 m um -2 Grad.&#13;
+Am Donnerstag halten sich anfangs noch Niederschläge aus der Nacht und dichte Wolken behindern oft die Sicht. Über Mittag gehen sich ein paar trockene, wenn auch dennoch bewölkte Abschnitte aus, ehe es am Nachmittag von Nordwesten wieder zu Regen und ab 1200 m zu Schnee kommt. Der Wind weht teils lebhaft aus südwestlicher Richtung. In 1500 m um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschnee beachten und meiden. Mit den weiteren aber nur unergiebigen Schneefällen ändert sich die Lawinengefahr kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2566RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2566RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-10T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne, kammnahe Triebschneelinsen, Gipfelbereiche</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In Gipfel- und Kammlagen einzelne Gefahrenstellen bei Triebschnee!</avActivityHighlights>
+          <avActivityComment>Wenn, dann gibt es meist in Kammlagen und Gipfelbereichen störanfälligen Triebschnee, der zu beachten ist. Dort, wo Triebschnee im Steilgelände auf einer vorhandenen Altschneedecke liegt, kann er durch geringe Zusatzbelastung ins Rutschen gebracht werden. Die Absturzgefahr ist dabei zu beachten.</avActivityComment>
+          <snowpackStructureComment>Durch Schneefall und starken Wind um West bis Nordwest sind kleinräumige Triebschneeablagerungen vorhanden. Dort, wo diese auf einer harten Altschneeoberfläche zu liegen kommen, binden sie nur ungenügend. Die Schneehöhen sind sehr unterdurchschnittlich bzw. hat es neu eingeschneit.</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch startet mit zunehmender Bewölkung, die Sicht kann in höheren Lagen oft eingeschränkt sein. Ab und zu ist im südlichen Bergland mit Regen und Schneefall zu rechnen, die Schneefallgrenze steigt tagsüber auf 1500 m. Am frühen Nachmittag setzt sich wieder oft trockenes Wetter durch. In 1500 m am Nachmittag milder mit 2 Grad, in 2000 m um -2 Grad.&#13;
+Am Donnerstag halten sich anfangs noch Niederschläge aus der Nacht und dichte Wolken behindern oft die Sicht. Über Mittag gehen sich ein paar trockene, wenn auch dennoch bewölkte Abschnitte aus, ehe es am Nachmittag von Nordwesten wieder zu Regen und ab 1200 m zu Schnee kommt. Der Wind weht teils lebhaft aus südwestlicher Richtung. In 1500 m um 0 Grad, in 2000m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschnee beachten und meiden. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2110RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2110RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - spontane Nassschneerutsche beachten.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, dennoch ist mit der Erwärmung vereinzelt mit kleineren, spontanen Nassschneelawinen aus steilem Gelände zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil. Mit der Erwärmung wird die Schneedecke durchfeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>Viele Wolken ziehen über die Steiermark und an der Alpennordseite regnet und schneit es besonders in den Morgenstunden. Tagsüber regnet es dann nur mehr gelegentlich kurz, bevor am Abend von Nordwesten der Niederschlag wieder mehr wird. An der Alpensüdseite ist nur am Nachmittag lokal mit kurzen Schauern zu rechnen, zwischendurch scheint auch Sonne. Die Schneefallgrenze steigt von morgens 1200m rasch auf 2000m an. In 2000m steigt die Temperatur von -2 auf +3 Grad. Der Wind weht kräftig bis stürmisch aus West mit Spitzen zwischen 40 und 60 km/h.</wxSynopsisComment>
+          <tendencyComment>Eine Kaltfront zieht von Nordwesten durch und bringt starke Sturmböen. Mit einem Oberitalientief ist auch an der Alpensüdseite Regen und Schnee zu erwarten. Die Schneefallgrenze sinkt im Norden auf 600 m, an der Alpensüdseite auf 900 m. Sehr stürmischer Nordwestwind frischt auf. In 2000m sind Böen zwischen 80 und 110 km/h zu erwarten.&#13;
+Ein Anstieg der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2110RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-07T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2110RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-07T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-08T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität am Nachmittag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - Nassschneeproblem.</avActivityHighlights>
+          <avActivityComment>Es herrscht mäßige Lawinengefahr. Gefahrenstellen sind in den Sektoren Nord und Ost, oberhalb von 2000m zu finden. Nasse Schneebrettlawinen können bei großer Zusatzbelastung ausgelöst werden. Außerdem muss mit dem Regeneintrag vermehrt mit spontanen Nassschneelawinen aus steilem Gelände gerechnet werden.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil. Die Schneedeckenoberfläche wurde durch die Erwärmung weich und feucht. Ältere Triebschneepakete finden sich noch oberhalb von 2000m. Diese sind noch nicht mit der Altschneedecke verbunden. </snowpackStructureComment>
+          <wxSynopsisComment>Viele Wolken ziehen über die Steiermark und an der Alpennordseite regnet  und schneit es besonders in den Morgenstunden. Tagsüber regnet es dann nur mehr gelegentlich kurz, bevor am Abend von Nordwesten der Niederschlag wieder mehr wird. Die Schneefallgrenze steigt von morgens 1200m rasch auf 2000m an. In 2000m steigt die Temperatur von -2 auf +3 Grad. Der Wind weht kräftig  bis stürmisch aus West mit Spitzen zwischen 40 und 60 km/h.</wxSynopsisComment>
+          <tendencyComment>Eine Kaltfront zieht von Nordwesten durch und bringt starke Sturmböen. Mit einem Oberitalientief ist auch an der Alpensüdseite Regen und Schnee zu erwarten. Die Schneefallgrenze sinkt im Norden auf 600 m, an der Alpensüdseite auf 900 m. Sehr stürmischer Nordwestwind frischt auf. In 2000m sind Böen zwischen 80 und 110 km/h zu erwarten.&#13;
+Triebschneesituation oberhalb von 2000 m beachten!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

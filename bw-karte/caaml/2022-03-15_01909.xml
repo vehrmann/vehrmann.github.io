@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1909RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-15T06:29:23+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1909RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-15T06:29:23+00:00</beginPosition>
+          <endPosition>2022-03-16T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb etwa 2200m frischer und älterer Triebschnee in Kamm- und Passlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>die Gefahr von Nassschneelawinen steigt im Tagesverlauf kaum an</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit fehlender Sonneneinstrahlung sind tagsüber kaum nasse Lawinen zu erwarten</avActivityHighlights>
+          <avActivityComment>Frische und ältere Triebschneeansammlungen sind vor allem an Nordhängen teils störanfällig. Gefahrenstellen liegen besonders in Kamm- und Passlagen oberhalb etwa 2200m. Diese sollten vor allem im absturzgefährdeten Gelände gemieden werden. Mit starker Schichtbewölkung und fehlender Sonneneinstrahlung sind tagsüber kaum nasse Lawinen zu erwarten. Unterhalb von etwa 2000m sind an glatten, sehr steilen Sonnenhängen kleine bis mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Nacht war bedeckt, es gab Spuren von Niederschlag und mit fehlender nächtlicher Abkühlung und Ausstrahlung konnte sich kaum ein Harschdeckel ausbilden. Mit starker Schichtbewölkung sind nasse Lawinen tagsüber aber eher nicht zu erwarten. Mit starker bis stürmischem West- bis Südwestwind sind in der Nacht in exponierten Lagen meist kleine, frische Einwehungen entstanden. Inzwischen ist kaum noch verfrachtbarer Schnee vorhanden. Ältere Triebschneeansammlungen, welche sich während des Föhns in den letzten Tagen gebildet haben, liegen an Nordhängen auf einer kantig aufgebauten Altschneedecke und sind vereinzelt noch störanfällig. In mittleren Lagen ist die Schneedeckenbasis teilweise feucht. An sehr steilen Grashängen kann das die Gleitbewegung der Schneedecke begünstigen.</snowpackStructureComment>
+          <wxSynopsisComment>Südwestströmung. Die kompakte Schichtbewölkung liegt zwar zumeist über den Gipfeln, sie macht die Sicht aber diffus und dazu kommt noch zusätzliche Trübung durch Saharastaub. Bis auf wenige Schneeflocken bzw. Regentropfen unterhalb 2000 m vor allem in der Früh und dann wieder gegen Abend bleibt es vorwiegend trocken. Mild. Temperatur in 2000m: +1 bis +5 Grad, Höhenwind: mäßiger bis lebhafter Westwind, in Föhnstrichen zusätzlich föhnig.</wxSynopsisComment>
+          <tendencyComment>Die Nacht auf Mittwoch ist bedeckt und es gibt unbedeutenden Niederschlag. Am Vormittag lockern die Wolken auf und es wird zunehmend sonnig. Mit der tageszeitlichen Erwärmung und Sonneneinstrahlung wird die Gefahr durch Nass-und Gleitschneelawinen in den Vormittagsstunden rasch ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1037RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1037RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem in den Hochlagen weiterhin zu beachten</avActivityHighlights>
+          <avActivityComment>Oberhalb 1800 m herrscht eine mäßige Lawinengefahr. Hauptproblem sind bodennahe Schwachschichten im Altschnee. Diese können insbesondere mit großer Zusatzbelastung und am Übergang von viel zu wenig Schnee gestört werden. Vor allem bei der Einfahrt in Rinnen und Mulden, an Geländekanten und im felsigen Steilgelände oberhalb 1800 m können Schneebrettlawinen ausgelöst werden. Risse in der Schneedecke und Wummgeräusche weisen auf die Gefahr hin. Lawinen können in eingefrachteten Hängen unter Umständen groß werden. &#13;
+Des Weiteren kommt es vereinzelt zur Selbstauslösung von Gleitschneelawinen. Betroffen sind steile Wiesenhänge aller Expositionen. Je nach Schneelage sind Lawinen mittlerer Größe nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Lockerer Neuschnee überdeckt in höheren Lagen eine durch Wind geprägte Schneedecke. Im Bereich älterer Triebschneepakete und bodennah finden sich in den Hochlagen in allen Expositionen Schneeschichten aus aufgebaut umgewandelten Kristallen. Besonders an Stellen mit wenig Schnee sind diese störanfällig. Unterhalb 1800 m bedeckt der Neuschnee eine gut gesetzte und verharschte Altschneedecke. Zum Boden hin ist diese teils feucht, was Gleitbewegungen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>...</wxSynopsisComment>
+          <tendencyComment>Das Wetter bleibt die nächsten Tage wechselhaft. Die Lawinengefahr kann je nach Wind und Neuschneemengen wieder etwas ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1037RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1037RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Gleitschneelawinen.</avActivityHighlights>
+          <avActivityComment>Es herrscht eine geringe Lawinengefahr. Vereinzelt kommt es zur Selbstauslösung von Gleitschneelawinen. Betroffen sind steile Wiesenhänge aller Expositionen und Höhenlagen. Je nach Schneelage sind Lawinen mittlerer Größe nicht auszuschließen.&#13;
+Vereinzelt ist in Gipfellagen älterer Triebschnee zu beachten. Dieser kann als kleine Schneebrettlawine ausgelöst werden, wobei die Absturzgefahr gegenüber der Gefahr verschüttet zu werden überwiegt. Gefahrenstellen finden sich im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden. </avActivityComment>
+          <snowpackStructureComment>Lockerer Neuschnee überdeckt in höheren Lagen eine durch Wind geprägte Schneedecke. Im Bereich älterer Triebschneepakete und bodennah finden sich in Gipfellagen Schneeschichten aus aufgebaut umgewandelten Kristallen. Ansonsten bedeckt der Neuschnee eine gut gesetzte, verharschte und weitgehend stabile Altschneedecke. Zum Boden hin ist diese teils feucht, was Gleitbewegungen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>...</wxSynopsisComment>
+          <tendencyComment>Das Wetter bleibt die nächsten Tage wechselhaft. Die Lawinengefahr kann je nach Wind und Neuschneemengen wieder etwas ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1744RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1744RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>An sonnenbeschienenen Steilhängen sind Selbstauslösungen mittlerer Lockerschnee- und Schneebrettlawinen möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1600m mäßig, darunter gering. Das Hauptproblem ist der Triebschnee. Gefahrenstellen finden sich im kammnahen, eingewehten Steilgelände der Expositionen Nordwest über Ost bis Süd, hinter Geländekanten sowie in triebschneeverfüllten Rinnen und Mulden. Mit der geringen Zusatzbelastung eines einzelnen Skifahrers können vor allem an Übergangsbereichen von wenig zu viel Schnee mittelgroße Schneebrettlawinen ausgelöst werden. &#13;
+Mit milden Temperaturen und Sonneneinstrahlung ist in den höheren Lagen aus sonnseitigem, felsdurchsetztem und triebschneebeladenem Steilgelände mit der Selbstauslösung von meist mittleren, vereinzelt aber auch größeren Lockerschnee- und Schneebrettlawinen zu rechnen.&#13;
+In den mittleren Lagen können sich vereinzelt kleine Gleitschneelawinen auf glatten, steilen Wiesenhängen von selbst lösen.</avActivityComment>
+          <snowpackStructureComment>Der bayerische Alpenraum erhielt in der Nacht zum Mittwoch einen nur unbedeutenden Neuschneezuwachs, bis 1400m regnete es. Starker Nordwestwind bildete in höheren Lagen neue, kleinere Triebschneeansammlungen. Die Triebschneeansammlungen der letzten Tage verbinden sich zunehmend. An schwachen Zwischenschichten im Triebschnee selbst und eingelagertem Graupel ist er noch störanfällig. Insgesamt beginnt sich die stark vom Wind geprägte Schneedecke zu setzen. Windzugewandte Rücken und Grate sind abgeblasen, in leeseitigen Rinnen liegt der verfrachtete und gebundene Schnee. In den Hochlagen finden sich zudem örtlich kantige Kristalle unter tiefer liegenden Harschschichten in der Altschneedecke. In mittleren Lagen ist die Schneedeckenbasis kompakt und zum Boden hin oft feucht, was Gleitbewegungen der Schneedecke begünstigt. Sonneneinstrahlung hat die Schneeoberfläche angefeuchtet und es bildet sich in der klaren Nacht Bruchharsch. Dieser weicht am Donnerstag schnell wieder auf und die oberflächliche Durchfeuchtung der Schneedecke setzt sich fort, was mit Festigkeitseinbußen verbunden ist.</snowpackStructureComment>
+          <tendencyComment>In der Nacht zum Freitag erreicht die nächste Störung mit Neuschnee und Wind den bayerischen Alpenraum. Die Lawinengefahr wird sich voraussichtlich nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-20"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

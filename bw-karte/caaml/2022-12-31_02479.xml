@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2479RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2479RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>Absturzgefahr beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, die Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>In den Niederösterreichischen Alpen ist die Lawinengefahr weiterhin gering. Es existieren kaum Gefahrenstellen. Mit anhaltender Erwärmung und Einstrahlung können sich dort, wo noch ausreichend Schnee vorhanden ist, vereinzelt Nass- und Gleitschneerutsche aus steilem Gelände spontan lösen. Im schattigen Steilgelände sollte die lockere bzw. weichere Schneeauflage im Sinne der Absturzgefahr beachtet werden!</avActivityComment>
+          <snowpackStructureComment>Durch die milden Temperaturn kann sich die Schneedecke über Nacht meist nicht ausreichend verfestigen. Stellenweise ist die Altschneedecke noch verharscht, schattseitig stellenweise eisig. Mit den milden Temperaturen und der Einstrahlung wird die Schneedecke weiter angefeuchtet und verliert an Festigkeit. Die Ausaperung schreitet zügig voran, auch in den Hochlagen liegt in allen Gebirgsgruppen deutlich weniger Schnee als in einem durchschnittlichen Winter.</snowpackStructureComment>
+          <wxSynopsisComment>Die Südwestströmung hält auch am Neujahrestag weiter an, es werden sehr milde und überwiegend trockene Luftmassen in die Niederösterreichischen Alpen geführt. Über den Berggipfeln präsentiert sich das Wetter vielfach sonnig und trocken. Stellenweise ziehen dünne, hohe Wolken durch. Der Wind aus Südost bis Südwest bleibt meist schwach bis mäßig. Das Temperaturmaximum dieser milden Wetterphase wurde über Nacht erreicht, das Niveau sinkt Tagsüber etwas ab, bei Mittagswerten um +7 Grad in 2000m und +10 Grad in 1500m ist es aber weiterhin deutlich zu mild für diese Jahreszeit. </wxSynopsisComment>
+          <tendencyComment>Auch der Montag bleibt mild und freundlich, am Dienstag zieht eine schwache Klatfront durch, die jedoch kaum Niederschlag bringt. An der Lawinengefahr ändert sich nichts wesentliches, die Gefahr von nassen Rutschen geht am Dienstag zurück. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

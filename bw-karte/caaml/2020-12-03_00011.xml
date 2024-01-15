@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID11RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID11RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen, in Föhnschneisen auch dickere Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingeschneiter Reif, weiche kantige Schichten unter der ersten Kruste</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Südföhn entwickelt sich rasch zum Sturm. Gegen Abend beginnt es zu schneien.</avActivityHighlights>
+          <avActivityComment>Der Föhn legt Triebschneepakente und Linsen ab, die leicht auszulösen sind, aber heute noch dünn und von der Ausdehnung her klein sind. In Föhnschneisen könnte hinter Geländekanten vereinzelt auch schon mehr zusammenkommen. Aktuell ist die Absturzgefahr meist noch größer. Mit der Abenddämmerung nimmt die Triebschneegefahr zu.</avActivityComment>
+          <snowpackStructureComment>Ab ca. 1800 m gibt es im Nordsektor eine geschlossene Altschneedecke, die nicht optimal aufgebaut ist. Oberflächlich wurde am Donnerstag eine ausgeprägte Reifschicht eingeschneit. Tiefer drin hat die aufbauende Umwandlung wcihe Schichten  als Sollbruchstellen hinterlassen. Sonnseitig ist der Aufbau des Altschnees besser.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Gipfel von Süden her in Staubewölkung.Nach Norden hin sind die Gipfel frei, die Sicht ist aber diffus. Stürmischer Südwind! Verbreitet 60 bis 80 km/h, in Föhnschneisen bis 120 km/h. Am späten Nachmittag setzt starker Schneefall ein. Temperaturen in 2000 m: um -1 Grad, in 3000 m: um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Ergiebiger Neuschnee mit Sturm. Am Samstag und Sonntag von Süden her 1,0 bis 1,5 m Neuschnee! Unter 1500 m feuchter Schnee. markanter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID11RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID11RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingeschneite Reifschichten im erweiterten Nordsektor</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Südföhn entwickelt sich rasch zum Sturm. In der ersten Nachthälfte beginnt es zu schneien.</avActivityHighlights>
+          <avActivityComment>Der Föhn legt Triebschneepakente und Linsen ab, die leicht auszulösen sind, aber heute noch dünn und von der Ausdehnung her klein sind. In Föhnschneisen könnte hinter Geländekanten vereinzelt auch schon mehr zusammenkommen. Aktuell ist die Absturzgefahr meist noch größer. </avActivityComment>
+          <snowpackStructureComment>Ab ca. 1600 m gibt es im Nordsektor eine geschlossene Altschneedecke, die nicht optimal aufgebaut ist. Oberflächlich wurde am Donnerstag eine ausgeprägte Reifschicht eingeschneit. Tiefer drin hat die aufbauende Umwandlung wcihe Schichten  als Sollbruchstellen hinterlassen. Sonnseitig ist der Aufbau des Altschnees besser.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Gipfel von Süden her in Staubewölkung.Nach Norden hin sind die Gipfel frei, die Sicht ist aber diffus. Stürmischer Südwind! Verbreitet 60 bis 80 km/h, in Föhnschneisen bis 100 km/h. Am Abend setzt starker Schneefall ein. Temperaturen in 2000 m: um -1 Grad, in 3000 m: um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Ergiebiger Neuschnee mit Sturm. Am Samstag und Sonntag von Süden her 60 bis 90 cm Neuschnee! Unter 1600 m feuchter Schnee. markanter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID11RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID11RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>harte Oberflächen überwiegen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Südföhn. Noch zu wenig Schnee.</avActivityHighlights>
+          <avActivityComment>Der Föhn legt zu, kann aber kaum etwas verfrachten. Die wenigen Zentimeter vom Donnerstag sind zu wenig. Aktuell ist nur die Absturzgefahr im Steilgelände ein Thema.</avActivityComment>
+          <snowpackStructureComment>Ab ca. 1600 m gibt es im Nordsektor eine geschlossene Altschneedecke, die nicht optimal aufgebaut ist. Oberflächlich wurde am Donnerstag eine ausgeprägte Reifschicht eingeschneit. Tiefer drin hat die aufbauende Umwandlung wcihe Schichten  als Sollbruchstellen hinterlassen. Sonnseitig ist der Aufbau des Altschnees besser.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist es sonnig mit hohen Wolken, die die sicht ein bisschen diffus machen können. Stürmischer Südwind! Verbreitet 60 bis 80 km/h oberhalb der Waldgrenze. Temperaturen in 2000 m: bis +2 Grad, in 3000 m: um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Samstag ändert sich wenig. Von Süden her schneit oder regnet es im Föhnsturm kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID11RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID11RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-03T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Südföhn entwickelt sich rasch zum Sturm. Am Abend beginnt es zu stark zu schneien.</avActivityHighlights>
+          <avActivityComment>Der Föhn legt Triebschneepakente und Linsen ab, die leicht auszulösen sind, aber heute noch dünn und von der Ausdehnung her klein sind. In Föhnschneisen könnte hinter Geländekanten vereinzelt auch schon mehr zusammenkommen. Aktuell ist die Absturzgefahr meist noch größer. </avActivityComment>
+          <snowpackStructureComment>Ab ca. 1600 m gibt es im Nordsektor eine geschlossene Altschneedecke, die nicht optimal aufgebaut ist. Oberflächlich wurde am Donnerstag eine ausgeprägte Reifschicht eingeschneit. Tiefer drin hat die aufbauende Umwandlung wcihe Schichten  als Sollbruchstellen hinterlassen. Sonnseitig ist der Aufbau des Altschnees besser.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag stecken die Gipfel von Süden her in Staubewölkung.Nach Norden hin sind die Gipfel frei, die Sicht ist aber diffus. Stürmischer Südwind! Verbreitet 60 bis 80 km/h. Am Abend setzt starker Schneefall ein. Temperaturen in 2000 m: um -1 Grad, in 3000 m: um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Ergiebiger Neuschnee mit Sturm. Am Samstag und Sonntag von Süden her 60 bis 90 cm Neuschnee! Unter 1600 m feuchter Schnee. markanter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

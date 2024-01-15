@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2380RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2380RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geländebereiche unterhalb von Rissen und Gleitschneemäulern in der Schneedecke meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb 2100 m mäßig, darüber ist sie gering. An steilen, glatten Wiesenhängen können sich jederzeit meist kleine, vereinzelt auch mittelgroße Gleitschneelawinen von selbst lösen. Unterhalb 1600m sind wegen der geringen Schneemächtigkeit nur kleine Lawinen zu erwarten.&#13;
+Im schattseitigen Altschnee der Hochlagen finden sich vereinzelt noch schwache Schichten in eingewehten Bereichen und schneereicheren Rinnen und Mulden. Diese können stellenweise bei großer Zusatzbelastung noch ausgelöst werden. Lawinen bleiben klein bis vereinzelt mittelgroß.</avActivityComment>
+          <snowpackStructureComment>Die unterdurchschnittlich mächtige Schneedecke ist von oben bis zum Boden durchfeuchtet, wo sich eine markante nasse Gleitschicht gebildet hat. Gleitbewegungen des Schnees werden begünstigt. Südseitig ist der Boden bis in mittlere Lagen zunehmend ausgeapert. Durch die Erwärmung hat sich der Schnee insgesamt gut gesetzt und die Schichten innerhalb der Schneedecke haben sich verbunden.  Nur im Altschnee der Hochlagen sind stellenweise noch schwache Schichten aus kantigen Kristallen erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2380RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2380RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleine Gleitschneelawinen aus noch nicht entladenen Steilflächen beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. An steilen, noch nicht entladenen, glatten Wiesenhängen können sich kleinere Gleitschneelawinen von selbst lösen.&#13;
+Im schattseitigen Altschnee der Hochlagen finden sich vereinzelt noch schwache Schichten in eingewehten Bereichen und schneereicheren Rinnen und Mulden. Diese können stellenweise bei großer Zusatzbelastung noch ausgelöst werden. Lawinen bleiben klein bis vereinzelt mittelgroß.</avActivityComment>
+          <snowpackStructureComment>Die unterdurchschnittlich mächtige Schneedecke ist von oben bis zum Boden durchfeuchtet, wo sich eine markante nasse Gleitschicht gebildet hat. Gleitbewegungen des Schnees werden begünstigt. Südseitig ist der Boden bis in mittlere Lagen zunehmend ausgeapert. Durch die Erwärmung hat sich der Schnee gut gesetzt und die Schichten innerhalb der Altschneedecke verbinden sich zunehmend.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

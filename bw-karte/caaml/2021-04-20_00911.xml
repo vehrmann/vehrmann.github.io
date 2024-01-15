@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID911RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID911RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-20T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-21T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-21T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-21T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch Nass- und Gleitschnee!</avActivityHighlights>
+          <avActivityComment>Durch Erwärmung und Einstrahlung steigt die Lawinengefahr im Tagesverlauf rasch von gering auf mäßig an. Insbesondere in mittleren Lagen sorgt Durchfeuchtung für einen Festigkeitsverlust der Schneedecke und es können sich aus dem Steilgelände aller Expositionen Nassschneerutschungen spontan lösen. Auf steilen Wiesenhängen und Böschungen besteht auch die Möglichkeit von spontanen Gleitschneeabgängen.</avActivityComment>
+          <snowpackStructureComment>In den Hochlagen gibt es noch kalte Triebschneeablagerungen, die aber meist gut mit der Altschneedecke verbunden sind. In mittleren und tiefen Lagen wird der Schnee zunehmend nass und verliert an Stabilität. Auf steilen Wiesen und in Laubwäldern beginnt der Schnee am Untergrund abzugleiten.  </snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch beginnt großteils sonnig, im Tagesverlauf bilden aber sich vermehrt Quellwolken und es kommt zu gewittrigen Schauern. Die Schneefallgrenze steigt auf etwa 1700 m an und die Maximaltemperaturen in 1500 m liegen bei +4 Grad. Der Wind weht mäßig aus Westen. </wxSynopsisComment>
+          <tendencyComment>Der Donnerstag beginnt sonnig, bevor eine Kaltfront wieder mäßige Niederschläge bei einer Schneefallgrenze von etwa 1700 m bringt. Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID911RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-20T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID911RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-20T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-21T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber Nassschneerutsche beachten!</avActivityHighlights>
+          <avActivityComment>Durch Erwärmung und Einstrahlung können sich aus dem Steilgelände aller Expositionen kleine Nassschneerutschungen spontan lösen. Auf steilen Wiesenhängen und Böschungen besteht auch vereinzelt die Möglichkeit von spontanen Gleitschneeabgängen. Es sind aber keine größeren Lawinen zu erwarten.</avActivityComment>
+          <snowpackStructureComment>In mittleren und tiefen Lagen wird die Schneedecke nass und verliert an Festigkeit. Auf steilen Wiesen und in Laubwäldern kann die Schneedecke am Boden abgleiten. </snowpackStructureComment>
+          <wxSynopsisComment>Der Donnerstag beginnt sonnig, bevor eine Kaltfront wieder mäßige Niederschläge bei einer Schneefallgrenze von etwa 1700 m bringt. Die Lawinengefahr ändert sich kaum. </wxSynopsisComment>
+          <tendencyComment>Der Donnerstag beginnt sonnig, bevor eine Kaltfront wieder mäßige Niederschläge bei einer Schneefallgrenze von etwa 1700 m bringt. Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

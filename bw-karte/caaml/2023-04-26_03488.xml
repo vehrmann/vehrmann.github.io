@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3488RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-26T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3488RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-26T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-27T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frische Triebschneebereiche in höheren Lagen, kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleine Triebschneepakete in den Hochlagen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Die wenigen Gefahrenstellen befinden sich vornehmlich kammnahe und hinter Geländekanten in den Schattseiten sowie im Ostsektor oberhalb von 2000m. Nasse Lockerschneelawinen aus extrem steilen Hängen sind noch möglich.</avActivityComment>
+          <snowpackStructureComment>Mit mäßig bis starkem Nordwestwind bildeten sich Anfang der Woche kleinräumige Triebschneebereiche, die (speziell schattseitig) nicht ausreichend mit der Altschneeoberfläche verbunden und störanfällig sind. In Mittelgebirgslagen verliert die Schneedecke durch die Erwärmung an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag gibt es in den steierischen Bergen von allem etwas. Es gibt sonnige Phasen, dann stecken Gipfel wieder in dichten Wolken. Mal regnet es, mal schneit es. Kurz, es herrscht Aprilwetter. Die Schneefallgrenze steigt im Tagesverlauf aber gegen 1600m Seehöhe. In 2000m hat es mittags noch um minus 2 Grad, bis zum Abend wird es noch milder.</wxSynopsisComment>
+          <tendencyComment>Freitag: Ein Warmfrontdurchgang sorgt für Niederschlag und Erwärmung in allem Höhen. Von der Früh weg ist es trüb, die Gipfel liegen in dichten Wolken. Im Dachsteingebiet regnet und schneit es bereits morgens, später breitet sich der Niederschlag auf alle Bergregionen der Steiermark aus. Die Schneefallgrenze steigt bis zum Nachmittag auf 2200 - 2400m an, die Niederschlagsmengen bleiben aber überschaubar.&#13;
+Das Nassschneeproblem steigt etwas an. &#13;
+ </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

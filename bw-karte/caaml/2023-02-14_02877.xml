@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2877RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2877RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen meiden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls, Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen möglichst meiden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Gefahr für spontane Lawinen steigt im Tagesverlauf an!</avActivityHighlights>
+          <avActivityComment>Anfangs ist die Lawinengefahr überwiegend gering. Mit den sehr milden Temperaturen und der starken Einstrahlung sind im Tagesverlauf spontane Lawinen möglich. Aus steilen nicht entladenen Bereichen sind feuchte spontane Lockerschnee- und Schneebrettlawinen möglich. Nur sehr hoch gelegen könnten im extremen Gelände einzelne trockene Schneebrettlawinen durch Zusatzbelastung ausgelöst werden. Steile vergraste Hänge mit Rissen in der Schneedecke sind weiterhin zu meiden. Gleitschneelawinen könnten hier unabhängig von der Tageszeit spontan abgehen.</avActivityComment>
+          <snowpackStructureComment>Über Nacht kann sich mit der Ausstrahlung und der Abkühlung ein überwiegend tragfähiger Harschdeckel bilden. Mit der starken Einstrahlung und den milden Temperaturen weicht die Schneeoberfläche im Tagesverlauf je nach Höhe und Exposition unterschiedlich schnell wieder auf. Die Schneedecke verliert somit an Festigkeit. In den hohen Lagen enthält die Schneedecke vor allem schatt- und nordseitig noch Schwachschichten. Die Schneedecke ist allgemein stark windbeeinflusst, sehr unregelmäßig verteilt und teilweise ist es völlig abgeblasen. Im Schneedeckenfundament sind kantige Kristalle und Schmelzkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint oberhalb der Nebelfelder von Beginn an die Sonne vom oft wolkenlosen Himmel. Der Wind bleibt schwach. In 1500 m um +8 Grad, in 2000 m um +6 Grad.&#13;
+Am Donnerstag scheint auf den Bergen meist die Sonne. Es ziehen allerdings einige hohe Wolken durch, welche teils für diffuses Licht sorgen können, die Sicht bleibt aber allgemein gut. Der Wind bleibt schwach. In 1500 m um 5 Grad, in 2000m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation. Tagesgang der Lawinengefahr beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

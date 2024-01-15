@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID617RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID617RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht mäßige Lawinengefahr, ansonsten wird sie mit gering bewertet. Es sollte der frische Triebschnee beachtet werden, der sich mit der Windeinwirkung überwiegend in den Expositionen Nord über Ost bis Süd bildet. Gefahrenstellen im Hinblick auf die Auslösung von (meist kleineren) Schneebrettlawinen existieren vor allem hinter Geländeübergängen sowie in Rinnen und Mulden inklusive deren Einfahrtsbereichen.</avActivityComment>
+          <snowpackStructureComment>Der durch den starken bis stürmischen Wind entstandene bzw. frisch entstehende Triebschnee überdeckt weiche Schichten, Graupel, ältere Verfrachtungen oder eine harte Altschneedecke. Diese Triebschneeauflage bindet somit nicht gut und ist stellenweise störanfällig. Mit der Niederschlagsintensivierung ab den Abendstunden nimmt der Umfang der Verfrachtungen etwas zu. Die Altschneedecke ist hingegen zum Großteil verharscht und weitgehend stabil.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Montag überwiegen insgesamt die Wolken, aus denen es tagsüber zeitweise etwas schneien kann. Zwischenzeitlich sind kurzfristige Auflockerungen möglich. Ab den Abendstunden intensivieren sich die Schneefälle vor allem in den westlichen Gebirgsgruppen. Es weht meist starker Wind aus westlichen bis nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei 0 Grad, in 1500m bei -5 Grad und in 2000m bei frischen -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Vor allem in den westlichen Gebirgsgruppen schneit es in der Nacht auf den Dienstag ergiebiger, wobei die Niederschläge bei etwas nachlassender Intensität auch tagsüber anhalten. Es weht bei Mittagstemperaturen um -6 Grad in 1500m stürmischer Wind aus nordwestlichen Richtungen. Die Lawinengefahr steigt an, es sollte vor allem der Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID617RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID617RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Gefahrenstellen existieren nur vereinzelt in den Hochlagen, wo sich frische, dünnere Triebschneelinsen auf Altschneebereichen ablagern.</avActivityComment>
+          <snowpackStructureComment>In dieser Region fallen ein paar Zentimeter Neuschnee auf bereits ausgeaperte Böden oder stabilen, verharschten Altschnee in den Hochlagen. Triebschneelinsen entstehen in den höheren Bereichen zwar frisch, sind meist jedoch nur geringmächtig ausgeprägt.</snowpackStructureComment>
+          <wxSynopsisComment>Auch am Montag überwiegen insgesamt die Wolken, aus denen es tagsüber zeitweise etwas schneien kann. Zwischenzeitlich sind kurzfristige Auflockerungen möglich. Ab den Abendstunden intensivieren sich die Schneefälle vor allem in den westlichen Gebirgsgruppen. Es weht meist starker Wind aus westlichen bis nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei 0 Grad, in 1500m bei -5 Grad und in 2000m bei frischen -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Vor allem in den westlichen Gebirgsgruppen schneit es in der Nacht auf den Dienstag ergiebiger, wobei die Niederschläge bei etwas nachlassender Intensität auch tagsüber anhalten. Es weht bei Mittagstemperaturen um -6 Grad in 1500m stürmischer Wind aus nordwestlichen Richtungen. Die Lawinengefahr steigt an, es sollte vor allem der Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

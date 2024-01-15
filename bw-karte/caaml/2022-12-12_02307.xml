@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2307RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2307RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Höhe eingewehte Rinnen und Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb ca. 2200 m - überdeckte Schwachschichten sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer und älterer Triebschnee sowie in sehr steilen Schattenhängen teilweise schwacher Altschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe, in höheren Lagen mäßige Lawinengefahr. Gefahrenstellen sind vor allem oberhalb ca. 2000 m vorhanden. Kleinräumig frische und ältere, überdeckte Triebschneeansammlungen in eingewehten Rinnen und Mulden sowie hinter Geländekanten sind störanfällig. Zudem sind oberhalb ca. 2200 m in sehr steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelne Wintersportler können kleine, mit zunehmender Seehöhe vereinzelt auch mittlere Schneebrettlawinen auslösen. Dies ist bei Aktivitäten abseits gesicherter Bereiche zu beachten. Mit auffrischendem Westwind entstehen im Tagesverlauf weitere störanfällige Triebschneeansammlungen und die Lawinengefahr steigt vor allem in höheren Lagen leicht an. Auch in Bereichen mit geringer Lawinengefahr sind vereinzelte Gefahrenstellen im extremen Steilgelände vorhanden. Wintersportler können dort kleine Schneebretter oder Lockerschneelawinen auslösen. Neben einer Verschüttung sollte auch die Mitreiß- und Absturzgefahr beachtet werden.</avActivityComment>
+          <snowpackStructureComment>Am Montag war es recht sonnig. Der Höhenwind wehte schwach bis mäßig, in Böen auch lebhaft aus West bis Nordwest, sodass nur in höheren Kamm- und Passlagen teilweise kleine Triebschneeansammlungen gebildet wurden. Frischer und älterer, überschneiter Triebschnee sind mit zunehmender Seehöhe störbar. Durch die tiefen Temperaturen findet nur wenig Setzung statt und der jüngste Neuschnee blieb meist sehr locker. Die frischen und älteren Triebschneeansammlungen liegen auf einer kalten, lockeren Schneeoberfläche und mancherorts auch auf Oberflächenreif. Speziell in sehr steilen Schattenhängen oberhalb ca. 2200 m ist die Altschneedecke vom Spätherbst teilweise kantig aufgebaut. Solche Zwischenschichten sind bei Belastung durch Wintersportler störanfällig und von außen nicht erkennbar. Insgesamt ist die Schneedecke noch unregelmäßig: Windexponierte Bereiche waren oft abgeweht und sind jetzt nur mit wenig Neuschnee bedeckt, in Rinnen, Mulden und hinter Geländekanten wurde oft älterer Triebschnee überschneit. Schitouren und Aktivitäten abseits präparierter Pisten und glatten Wiesenhängen sind in tieferen und mittleren Lagen auf Grund des wenigen Schnees in den meisten Gebieten noch nicht lohnend. Weitere Schneedeckeninformationen und Stabilitätstests liegen dem Lawinenwarndienst derzeit noch nicht vor.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Dienstag: Der Himmel bleibt bis über Mitternacht hinaus klar, bevor von Südwesten her dünne, hohe Wolkenfelder aufziehen. Es wird erneut eisig kalt. Dienstag: Bis über Mittag sind im Bergland trotz hoher Wolkenfelder noch einige Sonnenstrahlen dabei, die Sichten bleiben passabel. Am Nachmittag sinkt die Wolkenbasis, die Gipfel geraten in Nebel und die Sonne kommt kaum noch durch. Der Frost im Gebirge schwächt sich zwar ab, mit auflebendem Westwind fühlt sich die Luft immer noch eisig an. Temperatur in 2000m: -10 bis -5 Grad. Höhenwind: zunehmend starker Wind aus dem Westsektor.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Mittwoch: Der Höhenwind weht lebhaft bis stark aus Südwest bis West mit weiterer Frostmilderung, Nullgradgrenze liegt bei knapp 2000 Meter. Bis zum Abend schneit es vor allem im Bregenzerwald und in den Allgäuer Alpen bei einer Schneefallgrenze von 1000 bis 1500 Meter. Der Neuschneezuwachs ist aber nur gering. Vor allem in Kamm- und Passlagen entstehen frische Triebschneeansammlungen, Umfang und Verbreitung der Gefahrenstellen nehmen somit zu. Die Lawinengefahr kann daher leicht ansteigen.&#13;
+&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

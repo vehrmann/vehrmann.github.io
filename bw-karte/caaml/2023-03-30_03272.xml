@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3272RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3272RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 2000 m eingewehtes Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>reduzierte Abstrahlung, unterhalb etwa 2200m nasse Lawinen - kleinräumig Triebschnee beachten</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Unterhalb etwa 2200m ist die Schneedecke durchnässt. Folglich können sich an sehr steilen Hängen aller Expositionen kleine bis mittlere nasse Lawinen von selbst lösen. An steilen Wiesenhängen sind kleine bis mittlere Gleitschneelawinen möglich. In hohen Lagen sind Neu- und Triebschnee teilweise störanfällig. Solche Gefahrenstellen befinden sich im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden. Einzelne Personen können kleine bis mittlere Lawinen auslösen.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und dem Regen kam es am Donnerstag neuerlich zu einer Durchfeuchtung der Schneedecke. Frischer und älterer Triebschnee nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Neu- und Triebschnee der vergangenen Tage sind teils schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Die Verbindung zur weit hinauf durchnässten und somit schwachen Altschneedecke ist jedoch meist gut. In tieferen Lagen liegt der Neuschnee der vergangenen Tage oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Letzte Schauer klingen ab, es ist zunächst aufgelockert bewölkt. In der zweiten Nachthälfte meist stark bewölkt und in den Morgenstunden beginnt es stellenweise wieder zu regnen, der bis auf 1900 bis 2000 m hinaufreicht. Freitag: Unbeständiges Wetter mit Wolken und zeitweise Nebel: Tagsüber ziehen mehrmals Schauer von Westen herein. Die Schneefallgrenze sinkt dabei von 2000m auf 1600m, mit Schauern in der Nacht auf Samstag sogar gegen 1100m. Ein paar Auflockerungen zwischendurch sind durchaus möglich. Temperatur in 2000m: von +3 auf -1 Grad, Höhenwind: starker, im Hochgebirge stürmischer West- bis Südwestwind.</wxSynopsisComment>
+          <tendencyComment>Der Samstag bringt Neuschnee ins Gebirge. Es ist unbeständig mit zeitweiligem Schneefall, unterhalb etwa 1100 bis 1400m Regen. Der Höhenwind weht mäßig bis stark aus West- bis Nordwest. Die Lawinengefahr ändert sich in höheren Lagen nicht wesentlich. Die Gefahr nasser Lawinen geht mit der Abkühlung leicht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3272RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-30T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3272RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-30T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; ca. 2000 m Kammlagen, eingewehte Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Nass- und Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen teilweise erhebliche Lawinengefahr - unterhalb etwa 2200m nasse Lawinen</avActivityHighlights>
+          <avActivityComment>In höheren Lagen sind Neu- und Triebschnee das Hauptproblem. Gefahrenstellen nehmen mit der Seehöhe an Umfang und Verbreitung zu. Einzelne Personen können im kammnahen Steilgelände sowie in eingewehten Rinnen und Mulden kleine bis mittelgroße Lawinen auslösen. Teilweise können Lawinen auch in tiefe Schichten durchreißen und groß werden. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Unterhalb etwa 2200m ist die Schneedecke durchnässt. An sehr steilen Hängen aller Expositionen können sich daher kleine bis mittlere nasse Lawinen von selbst lösen. Wenn solche in tiefere Schichten durchbrechen und Altschnee mitreißen, können sie auch groß werden. An steilen Wiesenhängen sind kleine bis mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und dem Regen kam es am Donnerstag neuerlich zu einer Durchfeuchtung der Schneedecke. Frischer und älterer Triebschnee nehmen an Umfang und Verbreitung mit der Seehöhe zu. Im Neu- und Triebschnee der vergangenen Tage sind teils schwache Zwischenschichten, wie z.B. Graupel, eingelagert. Die Verbindung ist mit zunehmender Seehöhe teilweise nur mäßig bis schwach. Vor allem im schattseitigen Steilgelände sind in hohen Lagen noch ungünstige Zwischenschichten erhalten geblieben. Meist können diese jedoch nur mit großer Zusatzlast gestört werden. In tieferen Lagen liegt der Neuschnee der vergangenen Tage auch oft auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Letzte Schauer klingen ab, es ist zunächst aufgelockert bewölkt. In der zweiten Nachthälfte meist stark bewölkt und in den Morgenstunden beginnt es stellenweise wieder zu regnen, der bis auf 1900 bis 2000 m hinaufreicht. Freitag: Unbeständiges Wetter mit Wolken und zeitweise Nebel: Tagsüber ziehen mehrmals Schauer von Westen herein. Die Schneefallgrenze sinkt dabei von 2000m auf 1600m, mit Schauern in der Nacht auf Samstag sogar gegen 1100m. Ein paar Auflockerungen zwischendurch sind durchaus möglich. Temperatur in 2000m: von +3 auf -1 Grad, Höhenwind: starker, im Hochgebirge stürmischer West- bis Südwestwind.</wxSynopsisComment>
+          <tendencyComment>Der Samstag bringt Neuschnee ins Gebirge. Es ist unbeständig mit zeitweiligem Schneefall, unterhalb etwa 1100 bis 1400m Regen. Der Höhenwind weht mäßig bis stark aus West- bis Nordwest. Die Lawinengefahr ändert sich in höheren Lagen nicht wesentlich. Die Gefahr nasser Lawinen geht mit der Abkühlung leicht zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

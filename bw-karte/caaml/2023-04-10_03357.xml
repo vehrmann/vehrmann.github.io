@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3357RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-10T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3357RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-10T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, dünner und kleinräumiger Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>am Mittwoch mit steigender Schneefallgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unbeständiges Wetter - in den Hochlagen etwas frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Durch etwas Neuschnee und teils starken Wind aus westlichen Richtungen können sich vor allem in Kamm- und Gipfelnähe am Dienstag während des Tages kleinräumige frische Triebschneeablagerungen bilden. Diese frischen Verfrachtungen könnten im Steilgelände durch Zusatzbelastung als kleines Schneebrett ausgelöst werden.&#13;
+Vor allem am Mittwoch sind bei steigender Schneefallgrenze und etwas Regeneintrag meist nur kleine oberflächige feuchte Lockerschneelawinen aus sehr steilem Gelände möglich. In den Kamm- und Gipfellagen ist weiterhin das kleine lokale Triebschneeproblem zu beachten.</avActivityComment>
+          <snowpackStructureComment>In den höheren Lagen gibt es am Dienstag und dann auch am Mittwoch ein paar Zentimeter Neuschnee bei teils starken Wind. Daher gibt es kamm- und gipfelnahe etwas frischen Triebschnee. Am Mittwoch steigt dann die Schneefallgrenze an. Somit wird der frische wenige Schnee unter der Schneefallgrenze angefeuchtet. Die Altschneedecke ist im Inneren bis weit hinauf durchfeuchtet. Tiefe Lagen sind aper. In den mittleren Höhen liegt nur mehr wenig Schnee bzw. ist es teilweise auch schon aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag geraten die Berge schon in den Morgenstunden in dichte Wolken, von Westen her werden Niederschläge häufiger und schränken die Sicht zusätzlich ein. Die Schneefallgrenze liegt bei rund 1500 m. Es weht lebhafter bis starker Wind aus westlichen Richtungen. Temperaturen in 1500 m um 2 Grad, in 2000 m um -2 Grad.&#13;
+Am Mittwoch ist die Sicht auf den Bergen häufig durch dichte Wolken eingeschränkt. Dazu kommen am Vormittag leichte bis mäßige Niederschläge. Die Schneefallgrenze steigt gegen 2000 m. Am Nachmittag ist es meist niederschlagsfrei, der teils lebhafte Südföhn kann die Wolken etwas aufhellen oder auflockern. Temperaturen zu Mittag in 1500 m um 3 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Das Wetter bleibt sehr unbeständig. In den Hochlagen gibt es immer wieder Neuschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

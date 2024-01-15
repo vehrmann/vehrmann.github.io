@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1398RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1398RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen Triebschnee über der Waldgrenze beachten!</avActivityHighlights>
+          <avActivityComment>Durch etwas Neuschnee und stürmischen Wind entstehen über der Waldgrenze und in lichten Waldbereichen frische Gefahrenstellen nord- über ost- bis südseitig. Eine Auslösung von Schneebrettlawinen ist eventuell auch bei geringer Zusatzbelastung möglich. Gefahrenstellen befinden sich vor allem in frisch eingewehten steilen Hängen, Mulden, Rinnen und hinter Geländekanten in Leebereichen. Die Anzahl der Gefahrenstellen nimmt während des Tages und mit der Höhe zu. Schlechte Sicht erschwert die Einzelhangbeurteilung.</avActivityComment>
+          <snowpackStructureComment>Auf einer gut gesetzten Altschneedecke, die oberflächig hochgelegen und schattseitig teils auch noch locker oder sonst hart ist, kommt etwas Neu- und Triebschnee zu liegen. Die Bindung des Triebschnees ist nicht immer ausreichend. Lockere dünne Schichten oder Oberflächenreif können als Schwachschichten auftreten. Windexponierte Bereiche werden abgeweht und sind somit hart und vereist.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht stürmischer Nordwestwind. Die Sicht ist schlecht. Dichte Wolken ziehen durch und es schneit zeitweise ein wenig. In 1500 m um -4 Grad, in 2000 m um -8 Grad.&#13;
+Am Dienstag wird die Sicht durch Wolken und Nebel meist stark eingeschränkt. Zeitweise schneit es noch ein wenig. Am Vormittag weht teils noch lebhafter Wind aus West bis Nordwest, am Nachmittag bleibt der Wind schwach. In 1500 um -4 Grad, in 2000 m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

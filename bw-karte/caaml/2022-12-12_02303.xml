@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2303RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2303RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten, in Rinnen und steilen Mulden, oberhalb der Waldgrenze, im Waldrandbereich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem – Vorsicht im kammnahen Gelände sowie in steilen Rinnen und Mulden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in den niederösterreichischen Alpen mit GERING beurteilt. Die wenigen Gefahrenbereiche liegen insbesondere in steilen Rinnen und Mulden, wo frisch gebildete, spröde Triebschneepakete noch schlecht mit der Altschneeoberfläche verbunden sind und von einem einzelnen Skifahrer ausgelöst werden können. Abseits davon können vereinzelt im kammnahen Gelände und an Geländeübergängen, insbesondere in den Sektoren Ost und Süd, sowie oberhalb der Waldgrenze und im Waldgrenzbreich kleine Schneebrettlawinen im Triebschnee ausgelöst werden. Auch frisch gebildete Wechten stellen lokal Gefährungsbereiche dar, die gemieden werden sollten. </avActivityComment>
+          <snowpackStructureComment>Das vergangene Niederschlagsereignis brachte seit Samstag zwischen 10 und 30 cm Neuschnee in den niederösterreichischen Alpen. Der Niederschlagsschwerpunkt lag dabei den Ybbstaler Alpen. Dazu wehte teils starker bis stürmischer Wind aus NW, der den kalten, pulvrigen Neuschnee in den mittleren Lagen stark verfrachten konnte. Der kalte Neu- bzw. Triebschnee liegt auf einer kompakten, meist unterbrochenen Altschneedecke und ist nur schlecht mit dieser verbunden. Unterhalb von etwa 1000 - 1400 m wurden meist apere Grasflächen vom überdeckt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag scheint die Sonne von der Früh weg nahezu ungetrübt. Erst am späten Nachmittag ziehen von Südwesten her hohe Wolkenfelder auf. In den Tallagen bleiben die Temperaturen am Dienstag meist unter 0 Grad, in den Morgenstunden ist es klirrend kalt! In 1500 m Seehöhe hat es morgens noch um -11 Grad, im Tagesverlauf setzt dann langsam Frostmilderung ein, die Temperaturen bleiben jedoch vorerst noch unter Null, mittags sind in 1500m Seehöhe um -7 Grad zu erwarten.  Der Höhenwind hat in der Nacht auf Dienstag auf südliche Richtungen gedreht weht nur noch schwach bis mäßig aus Südwest bis Süd. &#13;
+Am Mittwoch führt dann eine Warmfront zu einer deutlichen Erwärmung, vor allem in der Höhe. Morgens kann es noch verbreitet bis in tiefe Lagen ein paar Schneeflocken geben, später geht der unergiebige Niederschlag zunehmend in Regen oder Nieseln  über. Meist ist es dicht bewölkt. </wxSynopsisComment>
+          <tendencyComment>Mit Frostmilderung in der Höhe nimmt die Verbindung des Triebschnees mit der Altschneedecke ab Mittwoch langsam zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

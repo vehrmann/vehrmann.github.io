@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1853RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-09T06:28:08+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1853RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-09T06:28:08+00:00</beginPosition>
+          <endPosition>2022-03-10T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Verbreitet günstige Lawinensituation</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahes schattseitiges Steilgelände oberhalb 2400m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>recht günstige Tourenverhältnisse</avActivityHighlights>
+          <avActivityComment>Insgesamt herrschen günstige Bedingungen, die Lawinengefahr ist gering. Vereinzelte Gefahrenstellen finden sich noch im schattseitigen, kammnahen Steilgelände und hinter Geländekanten, sowie an Übergängen von wenig zu viel Schnee oberhalb rund 2400m, besonders im selten befahrenen Steilgelände. Vor allem mit großer Zusatzbelastung könnten diese lokal noch gestört werden. Mit der Erwärmung und Einstrahlung nimmt ab dem Mittag die Gefahr von nassen Lawinen zu. Besonders an steilen Sonnenhängen sind kleine bis mittlere nasse Lockerschneelawinen möglich. Unterhalb von 2200m steigt die Gefahr von Gleitschneelawinen vor allem an steilen Sonnenhängen mit der Erwärmung an. Vorsicht ist auch im Bereich der teils mächtigen Wechten geboten.</avActivityComment>
+          <snowpackStructureComment>Die Nacht war weniger kalt als gestern, die Abstrahlung dank meist wolkenlosem Himmel aber dennoch gut. An Südhängen konnte sich ein tragfähiger Harschdeckel bilden, an SO- und SW-Hängen ist dieser teilweise noch nicht tragfähig. Schattseitig - von Nordost über Nord bis Nordwest liegt meist noch lockerer Schnee. Oberhalb 2200m ist an nordseitigen Hängen die oberflächliche Altschneedecke teilweise zur Gänze aufbauend umgewandelt. Kammnah können an sehr steilen Hängen und an Übergängen von wenig zu viel Schnee  oberhalb etwa 2400m in den Expositionen West über Nord bis Ost vereinzelt Schwachschichten in der Altschneedecke noch störanfällig sein. Unterhalb 2000m ist die Schneedecke teilweise feucht, was die Gleitbewegung an sehr steilen Grashängen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>Sonne pur auf Vorarlbergs Bergen von früh bis spät. Der Himmel ist weitgehend wolkenlos. Der Wind ist im Vergleich zu den Vortagen schwächer. Der Frost wird abgeschwächt. Temperatur in 2000m: -5 bis -1 Grad. Höhenwind: schwacher bis mäßiger Nordostwind.</wxSynopsisComment>
+          <tendencyComment>Die Wetterprognose verspricht bis zum Sonntag weiterhin recht sonniges Bergwetter, es wird täglich etwas milder. Ab Freitag macht sich leichter Föhneinfluss bemerkbar. Die Gefahr von nassen Lawinen steigt mit der tageszeitlichen Erwärmung und Einstrahlung im Tagesverlauf jeweils etwas an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

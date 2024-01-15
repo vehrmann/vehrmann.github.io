@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1638RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1638RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>dünne und kleinräumige Triebschneepakete, oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in den Hochlagen. Schattseitig weiterhin das Altschneeproblem berücksichtigen. Auf kleinräumige, frische Triebschneelinsen achten!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr. Gefahrenstellen finden sich schattseitig im Übergang von wenig zu viel Schnee (Altschneeproblem), sowie im Ostsektor und hinter Geländekanten. Vereinzelt können die Schwachschichten im Altschnee noch angesprochen werden und auch mittlere bis große Lawinen auslösen. Darüber haben sich mit  etwas Neuschnee und Wind kleine, frische Triebschneelinsen gebildet. Diese sind eventuell auch bei geringer Zusatzbelastung zu stören. Sonnseitig ist auf steilen Grashängen nach wie vor mit spontanen Gleitschneelawinen zu rechnen. Schneemäuler sollten als Gefahrenzeichen interpretiert werden. Aus steilem Fels- und Schrofengelände sind im Tagesverlauf kleine feuchte Lockerschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Eine Kaltfront hat am Freitag bei kräftigem Nordwestwind 5 - 10 cm Neuschnee gebracht. Sonnseitig haben sich die frischen Triebschneelinsen auf einer Harschkruste abgelagert. Schattseitig war die Schneeoberfläche verbreitet noch weich, teilweise sogar pulvrig. Die Verbindung des Triebschnees mit der Altschneedecke ist schattseitig also schwach. Geringmächtige Triebschneelinsen können störanfällig sein.  Zusätzlich können hier auch noch Schwachsichten tiefer in der Altschneedecke vorhanden sein. Sonnseitig haben sich auf steilen Wiesenhängen Gleitschneemäuler gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Die Niederschläge klingen im Laufe der Nacht auf Samstag ab. In den Morgenstunden gibt es in der Obersteiermark noch  Restwolken, die Gipfel sind wolkenverhangen. Die Wolken lösen sich jedoch bald auf und dann scheint meist ungetrübt die Sonne. Über den höheren Gipfeln herrscht gute Fernsicht. In 2000m hat es zu Mittag etwa -6 Grad, am Nachmittag wird es besonders im Norden schon wieder milder. Der Wind weht anfangs eher schwach, legt aber im Tagesverlauf zu und dreht auf südliche Richtung. Windspitzen 20 bis 50 km/h.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag leichte Frostabschwächung und weiterhin großteils sonnig. Die Lawinengefahr ändert sich kaum.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1638RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1638RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor, vereinzelt</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen in schattigen Hochlagen und Gleitschneeaktivität im Südsektor!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Einzelne Gefahrenstellen finden sich dennoch, insbesondere schattseitig im Übergang von wenig zu viel Schnee (Altschneeproblem), sowie im Ostsektor und hinter Geländekanten. Vereinzelt können die Schwachschichten im Altschnee noch ausgelöst werden und auch Lawinen mittlerer Größe verursachen. Sonnseitig ist auf steilen Grashängen vereinzelt mit spontanen Gleitschneelawinen zu rechnen. Schneemäuler sollten als Gefahrenzeichen interpretiert werden. </avActivityComment>
+          <snowpackStructureComment>Sonnseitig ist die Schneedecke mit einer Harschkruste überzogen. Schattseitig können in höheren Lagen noch Schwachsichten tiefer in der Altschneedecke vorhanden sein. Sonnseitig haben sich auf steilen Wiesenhängen Gleitschneemäuler gebildet. </snowpackStructureComment>
+          <wxSynopsisComment>Verbreitet ist es von der Früh weg recht sonnig. Einzelne Wolkenfelder lösen sich bald auf und dann scheint meist ungetrübt die Sonne. Über den höheren Gipfeln herrscht gute Fernsicht. In 2000m hat es zu Mittag etwa -8 Grad. Der Wind weht anfangs eher schwach, legt aber im Tagesverlauf zu und dreht auf südliche Richtung. Windspitzen bis 60 km/h.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag leichte Frostabschwächung und weiterhin großteils sonnig. Die Lawinengefahr bleibt gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2222RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-23T05:20:11+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2222RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-23T05:20:11+00:00</beginPosition>
+          <endPosition>2022-04-24T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-23T05:20:11+00:00</beginPosition>
+                  <endPosition>2022-04-23T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-23T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-24T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-23T05:20:11+00:00</beginPosition>
+                  <endPosition>2022-04-23T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-23T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-24T06:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Einstrahlung, Erwärmung und  Regen im Tagesverlauf Anstieg der Gefahr von Nassschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf Anstieg der Gefahr von nassen Lawinen unterhalb etwa 2400m.</avActivityHighlights>
+          <avActivityComment>Es herrschen verbreitet günstige Bedingungen und ein geringe Lawinengefahr am Vormittag. Mit der tageszeitlichen Erwärmung steigt die Gefahr von feuchten Rutschen unterhalb etwa 2400m im Laufe des Tages leicht an. Spontan oder mit geringer Zusatzbelastung sind im Tagesverlauf vor allem an Ost-, Süd- und Westhängen meist kleine bis mittlere nasse Lawinen möglich. Schitouren und Aktivitäten im freien Gelände sollten daher frühzeitig begonnen und rechtzeitig beendet werden. In den schneereicheren Gebieten sind an sehr steilen Grashängen vereinzelt meist kleine Gleitschneelawinen möglich. In sehr steilen Schattenhängen können in hochalpinen Lagen sehr vereinzelt noch Schwachschichten im Altschnee gestört werden. </avActivityComment>
+          <snowpackStructureComment>Die Nacht war recht warm und teilweise bewölkt. Nur noch in hohen Lagen ist die Schneeoberfläche tragfähig. Mit der frühlingshaften Wetterbedingungen verliert die Schneedecke im Tagesverlauf an Festigkeit und die Gefahr von nassen Lawinen steigt etwas an. In tiefen und mittleren Lagen liegt nur noch wenig Schnee. In hochalpinen Lagen sind vor allem an sehr steilen Schattenhängen noch sehr vereinzelt Gefahrenstellen für trockene Lawinen vorhanden. Kleine bis mittlere Schneebrettlawinen können dort im oberen Teil der Schneedecke oder im Bereich von Saharastaubschichten noch ausgelöst werden.</snowpackStructureComment>
+          <wxSynopsisComment>Südföhn und damit wechselhaft. Der Föhn wird im Tagesverlauf immer kräftiger. Dabei ziehen zeitweise kompakte Wolkenfelder in hohen und mittelhohen Niveaus durch. Dafür steigt dann in der labileren Luft die Schauerneigung besonders im Norden etwas an. In der Folgenacht ist dann etwas Niederschlag von Süden zu erwarten. Temperatur in 2000 m: um 5 Grad. Der Höhenwind weht kräftig und in Föhngebieten dann auch stark aus Süd.</wxSynopsisComment>
+          <tendencyComment> Mit den prognostizierten Niederschlägen werden in höheren Lagen frische, störanfällige Triebschneeansammlungen entstehen, die zu beachten sind. Mit der Abkühlung am Sonntag nimmt die Gefahr von feuchten und nassen Rutschen etwas ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

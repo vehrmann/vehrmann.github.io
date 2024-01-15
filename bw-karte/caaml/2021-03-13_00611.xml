@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID611RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID611RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Hochlagen herrscht mäßige Lawinengefahr, ansonsten wird sie mit gering bewertet. Es gilt vor allem den frischen Triebschnee zu beachten, der sich mit dem Wind aus nordwestlichen Richtungen bildet. Gefahrenstellen im Hinblick auf die Auslösung von (meist kleineren) Schneebrettlawinen befinden sich somit vorwiegend hinter Geländeübergängen und in Rinnen und Mulden sowie deren Einfahrtsbereichen.</avActivityComment>
+          <snowpackStructureComment>Durch etwa 10cm (bis maximal 15cm) Neuschnee bei Windeinfluss bilden sich frische Triebschneelinsen, die ältere Verfrachtungen, weiche Schichten oder harte, verharschte Bereiche überdecken. Sie binden mit der Unterlage meist nicht gut und sind in den Hochlagen somit zum Teil störanfällig. Die zum Großteil hart verharschte Altschneedecke ist hingegen weitgehend stabil.</snowpackStructureComment>
+          <wxSynopsisComment>Noch in der Nacht auf den Sonntag breiten sich aus dem Westen kommend Niederschläge aus, wobei die Schneefallgrenze von mittleren auf tiefere Lagen absinken wird. Am häufigsten schneit es dabei in den Ybbstaler Alpen, weiter ostwärts fallen die Niederschläge geringer aus. Die Temperaturen liegen um Mittag in 1000m bei -1 Grad, in 1500m bei -6 Grad und in 2000m bei -10 Grad. Zudem weht starker bis stürmischer Wind aus nordwestlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>Auch am Montag überwiegen die Wolken und zeitweise kann es etwas schneien. Bei teils starkem Westwind liegen die Mittagstemperaturen in 1500m um -5 Grad. Die Lawinengefahr ändert sich nicht wesentlich, auch weiterhin sollte der frische Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID611RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID611RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es herrscht geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Gefahrenstellen in Form von älteren und (durch etwas Neuschnee und Wind) frischen Triebschneelinsen existieren vereinzelt in den Hochlagen. Auf harten oder eisigen Bereichen sollte zudem die Absturzgefahr nicht unterschätzt werden.</avActivityComment>
+          <snowpackStructureComment>Der Neuschneezuwachs hält sich in dieser Region mit wenigen Zentimetern in Grenzen. Durch die Windeinwirkung können in den Hochlagen Triebschneelinsen frisch entstehen, sie sollen (wenn sie auch nicht gut mit der Unterlage binden) allerdings meist dünn bleiben. Die zum Großteil verharschte Altschneedecke ist meist stabil.</snowpackStructureComment>
+          <wxSynopsisComment>Noch in der Nacht auf den Sonntag breiten sich aus dem Westen kommend Niederschläge aus, wobei die Schneefallgrenze von mittleren auf tiefere Lagen absinken wird. Am häufigsten schneit es dabei in den Ybbstaler Alpen, weiter ostwärts fallen die Niederschläge geringer aus. Die Temperaturen liegen um Mittag in 1000m bei -1 Grad, in 1500m bei -6 Grad und in 2000m bei -10 Grad. Zudem weht starker bis stürmischer Wind aus nordwestlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>Auch am Montag überwiegen die Wolken und zeitweise kann es etwas schneien. Bei teils starkem Westwind liegen die Mittagstemperaturen in 1500m um -5 Grad. Die Lawinengefahr ändert sich nicht wesentlich, auch weiterhin sollte der frische Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

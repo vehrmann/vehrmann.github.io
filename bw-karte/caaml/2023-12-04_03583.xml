@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3583RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3583RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch Triebschnee oberhalb der Waldgrenze! Zusätzlich Gleitschneeaktivität beachten!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht erhebliche Lawinengefahr durch Triebschneeansammlungen. Gefahrenstellen sind hauptsächlich in den Sektoren Nord, über Ost bis Süd zu finden. In eingewehten Hängen und insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Triebschneeansammlungen als Schneebrettlawinen schon durch geringe Zusatzbelastung ausgelöst werden. Auf glatten Grashängen sind spontane Gleitschneelawinen zu möglich, die vereinzelt auch exponierte Verkehrswege erreichen können. Bereiche unter offenen Schneemäulern sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist durch Warmphasen und Regeneintrag großteils verharscht und kompakt. Darauf fiel unter wechselnden Windverhältnissen (von wenig Wind, über Nordwestwind, bis zuletzt Südwind) bis zu 50 cm Neuschnee, der teilweise als Triebschnee in nördlichen, östlichen und südlichen Expositionen abgelagert wurde. Schwachschichten innerhalb des Triebschnees wurden durch die Kälte konserviert. Darüber hinaus kann sich im Übergang vom warmen Schneedeckenfundament zum kalten Neu- und Triebschnee mit der Zeit eine Schwachschicht ausbilden. Auf steilen Wiesenhängen ist die Schneedecke nach wie vor am Gleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag beginnt nördlich des Alpenhauptkamms großteils bedeckt und im Laufe des Tages wird die Wolkendecke dichter und sinkt ab, sodass es auf den Gipfeln vermehrt zu Sichtbehinderungen kommt. Vor allem in den westlichen Gebirgsgruppen kommt es immer wieder zu unergiebigen Schneeschauern. Die Temperaturen liegen in 2000 m bei -4 Grad und der Wind bleibt den ganzen Tag über schwach. </wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt Wolken und mäßigen, im Osten auch starken Nordwestwind. Im Nordstau schneit es unergiebig, in den östlichsten Gebirgsgruppen eventuell ein wenig stärker. Die Triebschneeproblematik vom Wochenende lässt generell nach, nur ganz im Osten kann ein neues Triebschneeproblem entstehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3583RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3583RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Waldgrenze durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze herrscht mäßige Lawinengefahr durch Triebschnee. Gefahrenstellen sind hauptsächlich in nördlichen, östlichen und südlichen Expositionen zu finden. Insbesondere hinter Geländekanten und in Einfahrten zu Rinnen und Mulden können Triebschneeansammlungen als Schneebrettlawinen vereinzelt schon durch geringe Zusatzbelastung ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist geringmächtig und durch Warmphasen und Regeneintrag großteils verharscht und kompakt. Darauf fiel bei wechselnden Windverhältnissen (Nordwest- und Südwind) bis zu 30 cm Neuschnee, der teilweise als Triebschnee in nördlichen, östlichen und südlichen Expositionen abgelagert wurde. Schwachschichten innerhalb der frischen Schneeauflage wurden durch die Kälte konserviert. Darüber hinaus kann sich im Übergang vom warmen Schneedeckenfundament zum kalten Neu- und Triebschnee mit der Zeit eine Schwachschicht ausbilden. </snowpackStructureComment>
+          <wxSynopsisComment>Der Dienstag zeigt sich am Vormittag zeitweise noch die Sonne, im Laufe des Tages zieht es aber immer mehr zu. Gegen Abend beginnt es von Süden her leicht zu schneien. Die Temperaturen liegen in 2000 m bei -2 Grad und der Wind bleibt den ganzen Tag über schwach.</wxSynopsisComment>
+          <tendencyComment>Der Mittwoch bringt Wolken und mäßigen, im Osten auch starken Nordwestwind. Im Nordstau schneit es unergiebig, in den östlichsten Gebirgsgruppen eventuell ein wenig stärker. Die Triebschneeproblematik vom Wochenende lässt generell nach, nur ganz im Osten kann ein neues Triebschneeproblem entstehen.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

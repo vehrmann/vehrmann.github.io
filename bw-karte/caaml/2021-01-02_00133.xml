@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID133RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID133RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr bei geringen Schneehöhen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, allerdings befinden sich weiterhin in Einfahrtsbereichen steiler Rinnen und hinter Geländekanten kleinräumige Gefahrenstellen. Besonders schattseitig kann überwiegend durch große Zusatzbelastung eine Schneebrettlawine ausgelöst werden. Ansonsten sind die Kämme und Grate abgeblasen und eisig. </avActivityComment>
+          <snowpackStructureComment>Südseitig ist die Schneeauflage schon deutlich von der Sonne angegriffen, in Kammnähe wurde durch den stetigen Südwind älterer Schnee eingefrachtet und lagert sich schattseitig als teils störanfällige Triebschneelinsen ab. Im Allgemeinen ist die Schneelage aber noch unterdurchschnittlich für die Jahreszeit. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Sonntag schneit es in der Grenzregion zur Steiermark über 1000m Seehöhe geringe Mengen, in der Früh klingt der Niederschlag rasch ab. Die Berge sind am Sonntag anfangs oft noch in Wolken gehüllt, es lockert aber im Laufe des Tages auf. Der Wind weht lebhaft aus südlichen Richtungen und die Temperaturen liegen zu Mittag in 1500m um -1 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Montag gestaltet sich der Nebel in den Tälern hartnäckig, aber die Gipfel sind anfangs noch in der Sonne, ehe sie am Nachmittag auch in den Wolken verschwinden. Das Temperaturniveau sinkt, in 1500m hat es zu Mittag maximal -3 Grad und es bleibt trocken. Der Wind weht schwach aus Süd. Die wenigen Gefahrenstellen bleiben erhalten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID133RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID133RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Waldgrenze durch störanfälligen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze wird die Lawinengefahr mit mäßig ansonsten mit gering beurteilt. Die Gefahrenstellen befinden sich besonders in den Expositionen Nordwest über Nord bis Ost in Einfahrtsbereichen steiler Rinnen und hinter Geländekanten. Hier können bereits durch geringe Zusatzbelastung die Triebschneeablagerungen gestört werden und eine Schneebrettlawine ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Südseitig hat sich die Schneeauflage bereits etwas gesetzt, schattseitig bilden sich mit dem stetigen Südwind weitere Triebschneelinsen. Dort bilden weichere Schichten innerhalb der Triebschneelinsen aufgrund wechselnder Windverhältnisse Schwachschichten aus. In den windgeschützten Bereichen und unterhalb der Waldgrenze gibt es teils noch Pulver. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Sonntag schneit es in der Grenzregion zur Steiermark über 1000m Seehöhe bis zu 10cm Neuschnee, wobei der Schwerpunkt östlich vom Semmering liegt. In der Früh klingt der Niederschlag rasch ab. Am Vormittag dominieren noch die Wolken, auf den Bergen lockert es tagsüber aber auf während unter 1200m hartnäckige Schichtbewölkung hängen bleibt. Der Wind weht lebhaft aus südlichen Richtungen und die Temperaturen liegen zu Mittag in 1500m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag hüllt hochnebelartige Bewölkung die Berge ein, nur die höchsten Gipfel ragen heraus. Das Temperaturniveau sinkt, in 1500m hat es zu Mittag maximal -3 Grad und es bleibt trocken. Der Wind weht schwach aus Süd. Die Lawinengefahr bleibt mäßig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

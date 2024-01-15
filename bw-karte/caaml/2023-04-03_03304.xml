@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3304RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3304RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr – Triebschnee in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt, in tieferen Lagen herrscht geringe Lawinengefahr. Die Hauptgefahr geht von frischem Triebschnee aus. Besonders in steilen, ost- bis südexponierten Einfahrtsbereichen reicht vereinzelt schon die geringe Zusatzbelastung eines einzelnen Tourengehers aus, um eine Schneebrettlawine auszulösen. Die Lawinen bleiben aber eher klein. </avActivityComment>
+          <snowpackStructureComment>Mit dem stürmischen Nordwind lagert sich weiterhin ein wenig kalter Triebschnee hinter Geländekanten ab. Die Verbindung zur Altschneedecke ist allerdings meist gut. Das Schneedeckenfundament ist bis mindestens 2000 m hinauf angefeuchtet und großteils stabil. Nur in den höchsten Lagen ist schattseitig noch mit tiefer liegenden Schwachschichten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Gipfel entlang der Nordalpen vielfach in den Wolken, die Sichtbedingungen sind eingeschränkt und es schneit unergiebig. Weiter südlich ist es großteils sonnig. Der Wind weht immer noch stark aus Norden und die Temperaturen in 2000 m liegen bei winterlichen -12 Grad.&#13;
+Der Mittwoch startet im Nordstau noch etwas bewölkt, die Wolken lösen sich aber rasch auf und es wird sonnig. Der Nordwind lässt etwas nach und die Temperaturen steigen leicht an.  </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr lässt langsam nach. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3304RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3304RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – dennoch in den Hochlagen Triebschneelinsen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Dennoch gibt es vereinzelte Gefahrenstellen in Form von frischem, kleinräumigem Triebschnee in den Hochlagen. Insbesondere im Ost- und Südsektor kann in extrem steilen Einfahrtsbereichen eine Schneebrettauslösung nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Mit dem stürmischen Nordwind lagert sich weiterhin ein wenig kalter Triebschnee hinter Geländekanten ab. Die Verbindung zur Altschneedecke ist allerdings meist gut. Das Schneedeckenfundament ist bis mindestens 2000 m hinauf angefeuchtet und großteils stabil. Nur in den höchsten Lagen ist schattseitig noch mit tiefer liegenden Schwachschichten zu rechnen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag stecken die Gipfel entlang der Nordalpen vielfach in den Wolken, die Sichtbedingungen sind eingeschränkt und es schneit unergiebig. Weiter südlich ist es großteils sonnig. Der Wind weht immer noch stark aus Norden und die Temperaturen in 2000 m liegen bei winterlichen -12 Grad.&#13;
+Der Mittwoch startet im Nordstau noch etwas bewölkt, die Wolken lösen sich aber rasch auf und es wird sonnig. Der Nordwind lässt etwas nach und die Temperaturen steigen leicht an.  </wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich kaum. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

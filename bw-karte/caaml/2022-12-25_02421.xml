@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2421RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2421RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; 2300 m überdeckte Schwachschichten im Altschnee sind schwierig zu erkennen; zudem ist mit zunehmender Seehöhe frischer Triebschnee zu beachten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und in Bereichen mit durchnässter Schneedecke - auch Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Achtung Wintersportler - in höheren Lagen immer noch teilweise heikle Situation</avActivityHighlights>
+          <avActivityComment>In hohen Lagen sind vor allem im kammnahen Steilgelände, in eingewehten Rinnen und Mulden sowie hinter Geländekanten frische und ältere Triebschneeansammlungen zu beachten. Umfang und Verbreitung nehmen mit der Seehöhe zu. Zudem sind oberhalb ca. 2200/2300 m besonders an steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Kleine bis mittlere, vereinzelt auch große Schneebretter können von einzelnen Wintersportlern ausgelöst werden. Solche können teilweise die gesamte Schneedecke mitreissen und dann auch groß werden. Mit Einstrahlung und Erwärmung sind aus steilem Felsgelände und aus Sonnenhängen vermehrt Lockerschneerutsche und -lawinen möglich. In mittleren Lagen aller Expositionen aus noch nicht entladenen Einzugsgebieten weiterhin nasse Rutsche und kleine bis mittlere Lawinen sowie an steilen Grashängen Gleitschneelawinen möglich. Je nach Schneemächtigkeit können letztere auch mittelgroß werden.</avActivityComment>
+          <snowpackStructureComment>Zeitweise kräftiger Wind aus westlichen Richtungen führte in hohen Lagen zu Schneefegen und kleinräumigen Triebschneeansammlungen. Der jüngste Neu- und frische Triebschnee liegen dort teilweise auf einer verkrusteten Altschneeoberfläche. Die Bindung dazu und innerhalb der Triebschneeschichten  hat sich mit der Erwärmung verbessert, ist aber in hohen schattseitigen Lagen teilweise nur mäßig bis schwach. Zudem ist vor allem in steilen Schattenhängen oberhalb etwa 2200 m der Schneedeckenaufbau ungünstig. Diese Gefahrenstellen sind von außen nicht erkennbar. Die meist geringmächtige oder unterdurchschnittliche Schneedecke ist bis gegen 2300 m feucht und hat somit an Festigkeit verloren. Schitouren und Abfahrten im freien Gelände unterhalb der Walgrenze bis teilweise gegen 2000 m sind auf Grund keiner bzw. nur geringmächtiger Schneebedeckung nicht lohnend. In tieferen Lagen ist vielerorts kein Schnee mehr vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Montag: Die Nacht verläuft trocken und sehr mild. Montag: Der Vormittag wird trotz aufziehender Wolken noch einigermaßen sonnig. Nach Mittag trübt es immer mehr ein und abends bringt eine Kaltfront Schneeschauer begleitet von starken bis stürmischen Windböen. Temperatur in 2000m: Rückgang von +4 auf -2 Grad. Höhenwind: lebhaft bis stark aus Südwest </wxSynopsisComment>
+          <tendencyComment>In de Nacht auf Dienstag ist wieder etwas Niederschlag angekündigt. Zudem kühlt es deutlich ab. Die Gefahr von nassen Lawinen nimmt somit deutlich ab. In sehr hohen Lagen ist weiterhin Triebschnee zu beachten und das Altschneeproblem in höheren Schattenhängen bleibt weiter bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2421RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2421RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus noch nicht entladenen Bereichen und Waldschneisen vereinzelt Rutsche und kleine Lawinen - vereinzelt auch Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>vereinzelt kleine nasse Lawinen infolge Erwärmung</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend geringe Lawinengefahr. Mit Erwärmung sind aus noch nicht entladenen Bereichen in mittleren und tieferen Lagen aller Expositionen weiterhin nasse Rutsche und kleine Lawinen sowie an steilen Grashängen kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die meist geringmächtige Schneedecke wurde bis in mittlere Lagen durchfeuchtet und verliert somit weiter an Festigkeit. Die milden Temperaturen begünstigen den weiteren Schneedeckenabbau. Es ist nur sehr wenig bis kein Schnee mehr vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Montag: Die Nacht verläuft trocken und sehr mild. Montag: Der Vormittag wird trotz aufziehender Wolken noch einigermaßen sonnig. Nach Mittag trübt es immer mehr ein und abends bringt eine Kaltfront Schneeschauer begleitet von starken bis stürmischen Windböen. Temperatur in 2000m: Rückgang von +4 auf -2 Grad. Höhenwind: lebhaft bis stark aus Südwest </wxSynopsisComment>
+          <tendencyComment>In de Nacht auf Dienstag ist wieder etwas Niederschlag angekündigt. Zudem kühlt es deutlich ab. Die Gefahr von nassen Lawinen nimmt somit deutlich ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2421RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2421RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;1800 m älterer Triebschnee ist störanfällig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung und in Bereichen mit durchnässter Schneedecke auch kleine Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>meist geringe, in höheren Lagen mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenzen sind vor allem im kammnahen Steilgelände, in eingewehten Rinnen und Mulden sowie hinter Geländekanten ältere Triebschneeansammlungen zu beachten. Umfang und Verbreitung nehmen mit der Seehöhe zu. Kleine bis mittlere Schneebretter können insbesonders mit großer Zusatzlast ausgelöst werden. Mit Einstrahlung und Erwärmung sind in allen Expositionen aus noch nicht entladenen steilen Einzugsgebieten weiterhin nasse Rutsche und kleine bis mittlere Lawinen sowie an steilen Grashängen kleine Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Der jüngste Neu- und frischer Triebschnee liegen teilweise auf einer verkrusteten Altschneeoberfläche. Die Bindung dazu und innerhalb der Triebschneeschichten ist meist mäßig. Die Schneedecke ist bis in hohe Lagen durch Regen und Erwärmung durchfeuchtet und hat somit an Festigkeit verloren. Unterhalb der Waldgrenzen und in tieferen Lagen ist vielerorts kein Schnee mehr vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Montag: Die Nacht verläuft trocken und sehr mild. Montag: Der Vormittag wird trotz aufziehender Wolken noch einigermaßen sonnig. Nach Mittag trübt es immer mehr ein und abends bringt eine Kaltfront Schneeschauer begleitet von starken bis stürmischen Windböen. Temperatur in 2000m: Rückgang von +4 auf -2 Grad. Höhenwind: lebhaft bis stark aus Südwest </wxSynopsisComment>
+          <tendencyComment>In de Nacht auf Dienstag ist wieder etwas Niederschlag angekündigt. Zudem kühlt es deutlich ab. Die Gefahr von nassen Lawinen nimmt somit deutlich ab.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

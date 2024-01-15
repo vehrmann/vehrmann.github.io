@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID469RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID469RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-23T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-24T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-24T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-24T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr durch sonnseitiges Nassschneeproblem. Schattseitig vereinzelt Altschneeproblem</avActivityHighlights>
+          <avActivityComment>Sonnseitig&#13;
+steigt in den Hochlagen die Gefahr von nassen Schneebrettlawinen&#13;
+(sowohl spontan, als auch künstlich ausgelöst) im Tagesverlauf rasch an. Aufgrund der unterdurchschnittlichen Schneehöhen handelt es sich meist um Lawinen mittlerer Größe (Größe 2). In mittleren Lagen ist aus extremem Steilgelände mit kleineren nassen Lockerschneelawinen zu rechnen.&#13;
+Schattseitig&#13;
+finden sich vereinzelt Geländeabschnitte mit einem schwachen Schneefundament (Altschneeproblem), ältere Triebschneepakete können hier meist durch große Zusatzbelastung noch als Schneebrettlawinen ausgelöst werden können.</avActivityComment>
+          <snowpackStructureComment>Sonnseiten: Trotz der relativ hohen Lufttemperaturen gewinnt die Schneedecke aufgrund des wolkenlosen Himmels über Nacht wieder an Festigkeit. Am Morgen sind die Schneeoberflächen daher hart, firnen im Laufe des Vormittages auf und wandeln sich spätestens ab Mittag – je nach Höhenlage – zu weichen oder tiefer werdenden Sulzschnee um.&#13;
+Schattseiten: Auch hier nimmt die Festigkeit ausstrahlungsbedingt zu, allerdings hat der Schnee hier noch deutlich mehr Kältereserven und wird auch tagsüber kaum weich. In höheren Lagen schwächen hier allerdings Schichten aus kantigen Kristallen und Schwimmschnee das Schneedeckenfundament (Altschneeproblem). Hier sind darüber noch einige alte, trockene Triebschneepakete zu finden, die teilweise schlecht mit dem Fundament verbunden sind.</snowpackStructureComment>
+          <wxSynopsisComment>Eine nahezu ortsstabiles Omega-Hoch mit Kern über Mitteleuropa bestimmt weiterhin das Wetter im Ostalpenraum. Auf den steirischen Bergen bleibt es am Mittwoch den ganzen Tag über wolkenlos, nur Saharastaub lässt den Himmel nicht immer ganz so blau erscheinen. Die für die Jahreszeit viel zu milden Temperaturen liegen zu Mittag in 2.000m bei +8 Grad und in 1.500m bei +12 Grad. Dazu weht ganz schwacher Wind aus südlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Es bleibt sonnig und warm, Nassschnee bleibt das bestimmende Lawinenproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID469RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID469RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-23T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, trotzdem Vorsicht vor kleineren spontanen Nassschneelawinen!</avActivityHighlights>
+          <avActivityComment>Es herrscht allgemein geringe Lawinengefahr. Nur vereinzelt können in den höchsten Lagen schattseitig noch Triebschneelinsen als kleinere Schneebrettlawinen ausgelöst werden. Sonnseitig ist aus extremem Steilgelände mit kleineren, spontanen, nassen Lockerschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Schattseitig schwächen ganz vereinzelt noch Schichten aus kantigen Kristallen das Schneedeckenfundament. Sonnseitig wird die Schneedecke im Tagesverlauf schnell feucht bzw. durchnässt und faul. In tiefen Lagen gibt es sonnseitig kaum noch Schnee, auch höhere Lagen beginnen sonnseitig auszuapern.</snowpackStructureComment>
+          <wxSynopsisComment>Eine nahezu ortsstabiles Omega-Hoch mit Kern über Mitteleuropa bestimmt weiterhin das Wetter im Ostalpenraum. Auf den steirischen Bergen bleibt es am Mittwoch den ganzen Tag über wolkenlos, nur Saharastaub lässt den Himmel nicht immer ganz so blau erscheinen. Die für die Jahreszeit viel zu milden Temperaturen liegen zu Mittag in 2.000m bei +7 Grad und in 1.500m bei +11 Grad. Dazu weht ganz schwacher Wind aus südlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Es bleibt sonnig und warm, Nassschnee bleibt das bestimmende Lawinenproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

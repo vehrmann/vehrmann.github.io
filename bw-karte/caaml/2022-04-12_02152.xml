@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2152RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-12T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2152RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-12T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-13T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-13T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-04-13T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-04-13T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tageszeitlicher Anstieg der Lawinengefahr – Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf durch die milden Temperaturen und Einstrahlung von gering auf mäßig an. Die Hauptgefahr geht von spontanen oder durch Zusatzbelastung ausgelöste Nassschneelawinen aus steilen, nicht entladenen Bereichen aus. Außerdem steigt die Wahrscheinlichkeit von Gleitschneelawinen wieder an, Bereiche unter Schneemäulern sollte gemieden werden!&#13;
+In höheren Lagen können im Steilgelände ältere Triebschneeablagerungen noch durch große Zusatzbelastung als Schneebrettlawinen abgehen. </avActivityComment>
+          <snowpackStructureComment>Mit der Ausstrahlung über Nacht kann sich die Schneedecke oberflächlich etwas verfestigen. Mit den sehr milden Temperaturen und der Einstrahlung geht der Harschdeckel besonders südseitig schnell wieder auf. Die Schneedecke ist bis über 2000m bereits isotherm und die Destabilisierung schreitet je nach Höhe und Exposition unterschiedlich schnell voran. Der Triebschnee in den Hochlagen konnte sich bereits gut setzen und ist nur mehr an sehr wenigen Gefahrenstellen störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint oft die Sonne, es ziehen aber besonders im Westen der Obersteiermark auch ein paar hohe Wolken durch. Bei teils lebhaftem Südostwind ist es sehr mild. In 2000m hat es +6 Grad, in 1500m um +12 Grad. Am stärksten ist der Wind im Nordosten der Steiermark.&#13;
+Am Donnerstag gibt es keine Wetteränderung, nur von den Niederen Tauern bis zum Toten Gebirge mischen sich ein paar mittelhohe Wolken dazu. </wxSynopsisComment>
+          <tendencyComment>Frühjahrsbedingungen mit tageszeitlichem Anstieg der Lawinengefahr aufgrund der Nassschneeproblematik und weiteres Ausapern der Schneedecke.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2152RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-12T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2152RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-12T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-13T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Situation aber bereits sehr eingeschränkte Tourenmöglichkeiten</avActivityHighlights>
+          <avActivityComment>Es herrscht die günstige Situation bei geringer Lawinengefahr. Im Tagesverlauf steigt die Gefahr von spontanen Nass- oder Gleitschneelawinen aus steilen, noch nicht entladenen Bereichen an. Es ist ratsam Touren zeitig zu starten. </avActivityComment>
+          <snowpackStructureComment>Mit der Ausstrahlung über Nacht kann sich die Schneedecke oberflächlich etwas verfestigen. Mit den sehr milden Temperaturen und der Einstrahlung geht der Harschdeckel jedoch schnell wieder auf, die Schneedecke wird feucht und faul und die Ausaperung schreitet rasch voran. Die Tourenmöglichkeiten sind allgemein bereits sehr eingeschränkt. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch scheint oft die Sonne, es ziehen aber besonders im Westen der Obersteiermark auch ein paar hohe Wolken durch. Bei teils lebhaftem Südostwind ist es sehr mild. In 2000m hat es +6 Grad, in 1500m um +12 Grad. Am stärksten ist der Wind im Nordosten der Steiermark.&#13;
+Am Donnerstag gibt es keine Wetteränderung, nur von den Niederen Tauern bis zum Toten Gebirge mischen sich ein paar mittelhohe Wolken dazu. </wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3008RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3008RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, in Föhnschneisen, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Am Hauptkamm sollten die Triebschneemengen nicht unterschätzt werden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb der Baumgrenze gering, darüber mäßig. Die Gefahrenstellen befinden sich vor allem im Nordsektor. Hier können bei geringer Zusatzbelastungen kleine bis mittlere Lawinen (Schneebretter) ausgelöst werden. Speziell von der Planneralm bis zur steirischen Kalkspitze ist mit größeren Triebschneemächtigkeiten im Nordsektor zu rechnen. Der Triebschnee liegt in Rinnen und Mulden sowie hinter Geländekanten. Kritisch zu beurteilen ist das kammnahe Gelände. Sonnseitig sind vereinzelte Lockerschneelawinen aus steilen Fels- und Schrofengelände möglich.   </avActivityComment>
+          <snowpackStructureComment>Der Wind aus Ost bis Süd hat frischen Triebschnee in den Nordsektor verfrachtet. Der Triebschnee liegt meist auf einer Harschschicht. Innerhalb der Triebschneeschicht befinden sich weiche Schichten, die als Schwachschichten in Frage kommen. Aufgrund der kalten Temperaturen in den Hochlagen konnte sich der Neuschnee vom Wochenende nur bedingt setzen. Durch den anhaltenden Südwind ist mit weiteren Einwehungen im Nordsektor zu rechnen! Die bodennahe Schneeschicht ist bis in die Hochlagen feucht. </snowpackStructureComment>
+          <wxSynopsisComment>In der Regionen der Nordalpen und in den Niederen Tauern scheint auch am Donnerstag für mehrere Stunden die Sonne. Mäßiger Wind aus Süd bis Südost, im Norden weht Föhn. In 2000m Höhe liegt die Temperatur um 2- Grad, der Wind weht meist nur schwach bis mäßig aus Südost.&#13;
+ </wxSynopsisComment>
+          <tendencyComment>Das Bergwetter verläuft auch am Freitag wechselhaft. Meist überwiegen die Wolken, die Sichten sind in Hochlagen durch Nebel eingeschränkt. Schauer gibt es aber kaum und am Nachmittag kann es auch stärker auflockern. Wind und Höchsttemperatur in 2000m Höhe: Der Wind dreht auf Nord und weht schwach bis mäßig und in 2000m werden -4 Grad erwartet. Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3008RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3008RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem - vereinzelte Gefahrenbereiche!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Einige wenige Gefahrenstellen durch Schneebretter beschränken sich auf die Hochlagen des extrem steilen schattseitigen Geländes oberhalb von 1600m. Eine Schneebrettauslösung ist nur noch bei großer Zusatzbelastung möglich. Im Nordsektor haben sich frische Triebschneelinsen gebildet, die leicht auslösbar sind. Allerdings werden bei einer Auslösung nur Rutsche erwartet.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich gut setzen, die einzelnen Schichten gut verbinden. Frischer Triebschnee lagerte sich im Nordsektor auf einer Harschschicht ab. Schattseitige Hochlagen weisen oft recht harte Verhältnisse auf, viele Hangzonen sind hier auch abgeweht. Im Grazer Bergland liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Es dominieren weiterhin Wolken, Nebel und schlechte Sichten. Stellen- und zeitweise fallen auch ein paar Schneeflocken, der eine oder andere Zentimeter Neuschnee kommt noch von der Stubalpe bis zur Koralpe zusammen. Mäßiger Wind aus Süd bis Südost, im Norden weht Föhn. In 2000m Höhe liegt die Temperatur um 2- Grad, der Wind weht meist nur schwach bis mäßig aus Südost.&#13;
+ </wxSynopsisComment>
+          <tendencyComment>Das Bergwetter verläuft auch am Freitag wechselhaft. Meist überwiegen die Wolken, die Sichten sind in Hochlagen durch Nebel eingeschränkt. Schauer gibt es aber kaum und am Nachmittag kann es auch stärker auflockern. Wind und Höchsttemperatur in 2000m Höhe: Der Wind dreht auf Nord und weht schwach bis mäßig und in 2000m werden -4 Grad erwartet. Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

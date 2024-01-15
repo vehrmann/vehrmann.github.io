@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3025RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3025RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt Triebschnee noch zu stören und Nassschnee im Tagesverlauf beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Kleinräumige Triebschneeansammlungen können in höheren Lagen vereinzelt noch ein Problem darstellen. Schneebrettlawinen können kammnah an schattigen Steilhängen   meist nur noch mit großer Zusatzbelastung ausgelöst werden und bleiben in der Regel klein. Die Absturzgefahr ist größer einzuschätzen als die Gefahr verschüttet zu werden.&#13;
+In allen Expositionen der mittleren Lagen und an Sonnenhängen der Hochlagen können sich zudem einzelne, kleinere nasse Lockerschneelawinen oder Gleitschneelawinen von selbst lösen. Die Lawinenaktivität steigt hierbei im Tagesverlauf leicht an. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich insgesamt gut gesetzt und ist weitgehend stabil. An schattseitigen Hängen in den Hochlagen ist der Schnee noch pulvrig. In allen Expositionen der mittleren Lagen und sonnseitig in den Hochlagen bildet sich über Nacht ein dünner Harschdeckel, der tagsüber mit Erwärmung und Sonneneinstrahlung wieder aufweicht. In den höheren Lagen finden sich im kleinräumigen Triebschnee oder am Übergang zum Altschnee vereinzelt noch schwache Schichten. Schneedeckentests zeigen jedoch keine Tendenz zur Bruchausbreitung.</snowpackStructureComment>
+          <tendencyComment>Die Lawinenlage bleibt die nächsten Tage entspannt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

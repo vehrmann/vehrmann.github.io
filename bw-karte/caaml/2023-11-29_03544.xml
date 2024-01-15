@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3544RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3544RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in den höheren Lagen lokal frischer Triebschnee vom Dienstag</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>lokale Gefahrenstellen in den Hochlagen durch Schwachschichten in älteren Triebschneepaketen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneebrettgefahr im Steilgelände über der Waldgrenze beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den mittleren und hohen Lagen mäßig. Zu beachten sind frische Triebschneeablagerungen durch Neuschnee und Windeinfluss. Im Steilgelände können kleine bis mittlere Schneebrettlawinen stellenweise auch bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich über der Waldgrenze, vor allem aber in den kammnahen Hochlagen sowie teils hinter Geländekanten und in steilen verfüllten Mulden und Rinnen. In älteren Triebschneepakete könnten noch Schwachschichten durch große Zusatzbelastung angesprochen werden.</avActivityComment>
+          <snowpackStructureComment>Am Dienstag gab es rund 20 cm Neuschnee bei mäßigem, im exponierten Gelände auch starken Windeinfluss. Somit bildeten sich frische Triebschneeablagerungen, die im Steilgelände nicht immer ausreichend binden. Die jetzt überdeckte Altschneedecke konnte sich schon setzen. Ältere Triebschneepakete können noch Schwachschichten enthalten. Über rund 2000 m gibt es eine meist durchgehende geringmächtige verharschte Altschneeschicht vom Frühwinter.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist die Sicht anfangs durch Restwolken und teils noch leichten Schneefall eingeschränkt. Im Lauf des Vormittags machen die Wolken immer öfter der Sonne Platz, der Nachmittag zeigt sich sehr freundlich mit guten Sichtverhältnissen. Es weht schwacher bis mäßig starker Westwind, der Spitzen um etwa 40 km/h erreicht. Temperaturen in 1500 m hat es zu Mittag -7 Grad und in 2000 m - 10 Grad.&#13;
+Am Donnerstag herrschen auf den Bergen überwiegend diffuse Sichtverhältnisse durch eine ausgedehnte Wolkendecke und teils auch Nebel. Es weht mäßig starker Wind aus Süd bis West. Temperaturen in 1500 m zwischen -3 und 0 Grad und in 2000 m -5 bis -2 Grad.&#13;
+Am Freitag ist es stark bewölkt, die Sicht ist eingeschränkt und es schneit. Zudem kann der Wind um Nordwest im Tagesverlauf zulegen. </wxSynopsisComment>
+          <tendencyComment>Je nach Neuschneemengen und Windeinfluss am Freitag und Samstag wird die Anzahl der Gefahrenstellen durch frischen Triebschnee zunehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

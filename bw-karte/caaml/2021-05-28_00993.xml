@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID993RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-05-28T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID993RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-05-28T16:00:00+00:00</beginPosition>
+          <endPosition>2021-05-31T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontano plazenje kot posledica dnevne odjuge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>V visokogorju precej nepredelanega snega</avActivityHighlights>
+          <avActivityComment>Nevarnost snežnih plazov je trenutno večinoma MAJHNA, 1. stopnje, a se bo čez dan v visokogorju nad nadmorsko višino okoli 1800 m povečala in bo ZMERNA, 2. stopnje. Nevarna bodo zlasti strmejša prisojna pobočja, kjer je zaradi pogostega sneženja še vedno precej nepredelanega snega. Čez dan se bodo zaradi dnevne otoplitve pojavljali posamezni manjši do srednji veliki plazovi mokrega snega. Nevarnejše bodo tudi strme grape, kjer so snežni nanosi. V sredogorju se večinoma nahaja star in uležan sneg, ki je stabilen. Nevarno je lahko predvsem na območjih blizu sten in ob izteku daljših grap, kjer se lahko iz višjih predelov sproži snežni plaz. V visokogorju je tudi precej klož, ki jih lahko sprožite ob večji obremenitvi snežne odeje. Razmere so zimske. Snežna odeja je zaradi jasne noči marsikje pomrznila, zato je zlasti v jutranjem in dopoldanskem času nevarnost zdrsa.</avActivityComment>
+          <snowpackStructureComment>V visokogorju in tudi ponekod v sredogorju je za konec maja rekordno veliko snega. V četrtek popoldne in zvečer se je ob prehodu hladne fronte meja sneženja znova spustila do nadmorske višine okoli 2000 m. V visokogorju je zapadlo od 5 do 10, krajevno pa tudi okoli 20 cm južnega snega. Ponekod je zapadla tudi večja količina sodre ali drobne toče. Padavine so bile izrazito neenakomerno razporejene. Ob sneženju je zapihal zmeren do močan severni veter, ki je prenašal sneg in gradil nove zamete. Ponoči se je razjasnilo, nov sneg je pomrznil, ponekod je nastala skorja. Le v v višjih delih visokogorja je nov sneg še vedno rahel. Čez dan se bo zaradi vpliva sonca in otoplitve nov sneg ojužil in postal nestabilen ter se plazil. Proces bo izrazitejši predvsem na prisojnih legah. Ponekod v sredogorju še vedno stara snežna odeja, ki pa je uležana in stabilna.</snowpackStructureComment>
+          <wxSynopsisComment>Danes bo sprva pretežno jasno. Čez dan se bodo razvili kopasti oblaki in nekateri vrhovi bodo lahko v oblakih. Severni veter bo čez dan slabel. Temperatura na 1500 m bo okoli 7, na 2500 m pa okoli 1 °C. V soboto bo spremenljivo do pretežno oblačno in ponekod megleno. Predvsem popoldne bodo krajevne plohe, nad okoli 2000 m snežne. Pihal bo šibak severni veter, ki se bo zvečer nekoliko okrepil. Temperatura na 1500 m bo okoli 6, na 2500 m pa okoli 0 °C. V nedeljo in ponedeljek bo sprva pretežno jasno, čez dan pa spremenljivo oblačno. Popoldne bodo nastale posamezne kratkotrajne plohe. Vetrovno bo, pihal bo zmeren severnik. Za konec maja bo neobičajno hladno. Na 1500 m bo sredi dneva okoli 6, na 2500 m okoli -2 °C. Ničta izoterma bo na nadmorski višini okoli 2000 m.</wxSynopsisComment>
+          <tendencyComment>Danes in tudi v naslednjih dneh pričakujemo tipično spomladansko situacijo. Nov sneg se bo čez dan ojužil in postal bolj labilen, ponoči pa zaradi jasnega vremena pomrznil. Nevarnost proženja snežnih plazov bo tako večinoma MAJHNA, 1. stopnje, le v visokogorju se bo čez dan povečala in bo ZMERNA, 2. stopnje. Popoldne bodo v visokogorju nastajale snežne plohe, zapade lahko nekaj centimetrov snega, ki pa ne bo bistveno vplival na razmere. Predvsem v jutranjem času bo precejšnja nevarnost zdrsa.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="SI-02"/>
+      <locRef xlink:href="SI-03"/>
+      <locRef xlink:href="SI-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

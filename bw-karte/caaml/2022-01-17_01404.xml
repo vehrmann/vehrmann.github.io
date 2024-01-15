@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1404RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-17T06:25:17+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1404RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-17T06:25:17+00:00</beginPosition>
+          <endPosition>2022-01-18T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelte Gefahrenstellen in sehr steilen Schattenhängen und im extremen Steilgelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kleinräumig frische Einwehungen in Kammlagen und hinter Geländeknicken</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>vereinzelte Gefahrenstellen im extremen Steilgelände - kleinräumig frische Einwehungen beachten</avActivityHighlights>
+          <avActivityComment>Es besteht überwiegend geringe Lawinengefahr. Vereinzelte  Gefahrenstellen sind an sehr steilen Schattenhängen des Hochgebirges und im extremen Steilgelände. Kleine Lawinenauslösungen sind dort möglich. Neben einer Verschüttung ist dabei auch die Mitreiß- und Absturzgefahr zu beachten. In mittleren und tieferen Lagen sind vor allem an Sonnenhängen weiterhin vereinzelte Gleitschneelawinen möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Mit zeitweise kräftigem bis stark auflebendem Höhenwind aus westlichen Richtungen wurde gestern in exponierten Hochlagen und im Hochgebirge lockerer Altschnee verfrachtet und kleinräumig frischer Triebschnee gebildet. Die Schneedecke ist überwiegend gut gesetzt und verbreitet stabil. Schwachschichten im älteren Triebschnee bzw. im Bereich der obersten Schmelzharschkruste sowie im Mittelteil der Schneedecke können nur noch vereinzelt im schattigen Steilgelände und im Hochgebirge gestört werden. Am Wochenende wurden in den Touren- und Freerideregionen zahlreiche Steilabfahrten durchgeführt. Dabei kam es zu keinen Lawinenauslösungen.</snowpackStructureComment>
+          <wxSynopsisComment>In den nördlichen Regionen oft stark bewölkt und neblig mit zeitweiligem leichten Schneefall. Nach Süden zu kaum Flocken und vor allem am Nachmittag Chance auf ein paar Sonnenfenster. Temperatur in 2000 m: um -6 Grad. Höhenwind: mäßig und im Hochgebirge teils stark aus W bis NW</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr kann im Tagesverlauf je nach Neuschnee und Wind in höheren Lagen der nördlichen Regionen leicht ansteigen. Insgesamt bleiben die Verhältnisse jedoch günstig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

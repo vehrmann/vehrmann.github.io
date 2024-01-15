@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2142RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-11T05:27:16+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2142RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-11T05:27:16+00:00</beginPosition>
+          <endPosition>2022-04-12T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen, eingewehte Rinnen und Mulden, windbeeinflusste Steilhänge &gt;2000m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Einstrahlung und Erwärmung im Tagesverlauf</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen ist Triebschnee die Hauptgefahr - im Tagesverlauf vermehrt nasse Rutsche und Lawinen</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Frischer und älterer Triebschnee ist mit zunehmender Seehöhe noch störanfällig. Kleine bis mittlere Lawinen können von einzelnen Wintersportler ausgelöst werden. Gefahrenstellen sind vor allem in eingewehten Rinnen und Mulden, in Kammlagen sowie im schattseitigen Steilgelände anzutreffen. Verbreitung und Größe nehmen mit der Seehöhe zu. Im Hochgebirge ist die Situation daher noch etwas kritischer einzuschätzen. Mit deutlicher Tageserwärmung und Einstrahlung sind aus steilem Felsgelände zunehmend auch kleine bis mittlere feuchte Rutsche und nasse Lawinen möglich. Kleine Gleitschneelawinen an sehr steilen Grashängen sind weiterhin möglich. Vorsicht unterhalb von Gleitschneerissen. </avActivityComment>
+          <snowpackStructureComment>In höheren Lagen gab es gestern noch bis zu 10 cm Neuschnee. Der Wind hat deutlich nachgelassen. Neu- und Triebschneeansammlungen der vergangenen Tage konnten sich weiter setzen und leicht verfestigen. Die Verbindung zur Altschneedecke ist meist gut, mit zunehmender Seehöhe und vor allem an steilen Schattenhängen teilweise auch nur mäßig. Kleine bis mittlere Schneebrettlawinen können dort innerhalb des Neu- und Triebschnees oder im Bereich von Saharastaubschichten  ausgelöst werden. Mit der Abkühlung hat sich die bis in mittlere Lagen nasse Schneedecke verfestigt und stabilisiert. Diese weicht mit Einstrahlung und Erwärmung untertags allmählich auf und verliert dabei an Festigkeit. </snowpackStructureComment>
+          <wxSynopsisComment>Hohe, teils etwas dichtere Wolken dünnen am Vormittag aus und es wird überwiegend sonnig. Dazu steigen die Temperaturen stark an. Temperatur in 2000 m: von -2 auf +6 Grad. Höhenwind: schwach bis mäßig aus westlichen Richtungen</wxSynopsisComment>
+          <tendencyComment>Die kommenden Tage werden sonnig. Zeitweise sorgt Saharastaub für trübe Lichtverhältnisse. Dazu wird es noch milder. Die Gefahr trockener Lawinen geht weiter zurück. Mit Tageserwärmung und Einstrahlung sind vermehrt wieder Nass- und Gleitschneelawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

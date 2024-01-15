@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3298RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-02T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3298RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-02T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-03T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, an wenigen Stellen in den Hochlagen auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Trotz geringer Lawinengefahr Triebschneepakete vorsichtig beurteilen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering, dennoch sind frische Triebschneepakete in den Hochlagen zurückhaltend zu beurteilen. Diese lagern hinter &#13;
+Geländekanten sowie in eingewehten Rinnen und Mulden der erweiterten &#13;
+Ostexpositionen und können stellenweise noch durch große Zusatzbelastung&#13;
+ ausgelöst werden. Aufgrund der eingeschränkten Sichtbedinungen sind sie im Gelände schlecht zu erkennen. Meist bleiben die Lawinen klein, vereinzelt sind &#13;
+Lawinen mittlerer Größe jedoch nicht auszuschließen. Es überwiegt die Absturzgefahr vor der Verschüttungsgefahr.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut verfestigt. Am Sonntag sind in den Hochlagen verbreitet 10, stellenweise bis zu 20 cm Neuschnee bei kräftigem Westwind gefallen. In der Nacht zum Montag und am Montag kommen noch wenige Zentimeter hinzu. Der Neu- und Triebschnee lagert auf älteren Triebschneelinsen (vom Freitag und Samstag) und verbindet sich mit diesen meist gut. Vereinzelt könnten jedoch noch weichere Schichten in den jungen Triebschneepaketen bestehen, welche als Schwachschicht in Frage kommen.  Unter den Triebschneepaketen ist die Schneedecke auch in den Hochlagen bereits feucht. In mittleren und tiefen Lagen fiel der Schnee auf vormals apere Flächen oder eine stark durchbrochene, nasse Schneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Zu Beginn der Karwoche bleiben die Berggipfel der Ybbstaler Alpen und &#13;
+Türnitzer Alpen meist in dichte Wolken gehüllt, aus denen es bei einer &#13;
+Schneefallgrenze um 500 m immer wieder leicht schneit. Weiter östlich gehen sich wiederholt kurze Sonnenfenster aus, Schneefall gibt es hier kaum noch.&#13;
+ Nachmittags lässt der Niederschlag dann überall nach. Der Wind aus nördlichen &#13;
+Richtungen bläst lebhaft bei rund minus 8 Grad in 1500 m Seehöhe.&#13;
+Am Dienstag lockert die Bewölkung überall öfters auf, zwischendurch sind aber ein paar Schneeflocken nicht ausgeschlossen. Die &#13;
+Temperaturen auf 1500 m Seehöhe liegen auch am Nachmittag um -10 Grad, die gefühlten Werte liegen jedoch aufgrund des lebhaften bis &#13;
+kräftigen Nordwindes noch einmal deutlich tiefer!</wxSynopsisComment>
+          <tendencyComment>Es bleibt kalt. Keine wesentliche Änderung der Lawinengefahr. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

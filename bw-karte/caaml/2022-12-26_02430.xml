@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2430RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2430RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf vergrasten Steilhängen, selten und nur bei genügend hoher Schneemächtigkeit</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen, teils ab der Waldgrenze - frische kleine Triebschneeablagerungen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Etwas Schneefall mit teils starkem Wind bildet frische aber nur kleinräumige Verfrachtungen, die als kleines Schneebrett ausgelöst werden können. Diese und einzelne Gefahrenstellen in den Hochlagen über rund 2000 m Höhe bei Geländeübergängen und in sehr steilen Mulden sowie Rinnen sind zu beachten. Mit der Abkühlung geht die Gefahr für Nassschneerutsche zurück. Nur bei genügend Schnee sind auf vergasten Steilhängen einzelne Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In der Nacht zum Dienstag und in den Morgenstunden fallen bis zu 10 cm Neuschnee, der durch teils stärkeren Wind um West etwas verfrachtet wird. Der frische Triebschnee bindet zum Teil ungenügend und ist daher störanfällig. Die bis teils in die Hochlagen hinauf feuchte bzw. darunter auch nasse Schneedecke kann sich mit der Abkühlung oberflächig festigen. Oberhalb von etwa 2000 m können schattseitig Schwachschichten aus kantigen Schneekristallen im Fundament eingelagert sein. Die Schneehöhen sind deutlich unterdurchschnittlich, tiefe und teils mittlere Lagen aper. Die Tourenmöglichkeiten bleiben daher auch weiterhin stark eingeschränkt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag halten sich im Bereich der Nordalpen in den Morgenstunden noch dichtere Wolken, vereinzelt schneit es noch leicht. Im Lauf des Vormittags setzt sich dann recht sonniges Wetter durch. Der Wind weht zunächst lebhaft bis stark aus westlichen Richtungen, lässt aber im Tagesverlauf nach. Temperaturen in 1500 m um -3 Grad, in 2000 m um -6 Grad.&#13;
+Am Mittwoch ziehen zunächst dichtere hohe Wolken durch, wodurch die Sicht teilweise diffus sein kann. Spätestens ab Mittag setzt sich überwiegend sonniges und gutsichtiges Wetter durch. Der Wind weht schwach bis mäßig stark aus Süd bis West. Temperaturen in 1500 m um 1 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird wieder milder. Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

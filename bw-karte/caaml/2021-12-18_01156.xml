@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1156RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1156RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in den Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee und Absturzgefahr stehen im Vordergrund!</avActivityHighlights>
+          <avActivityComment>In sämtlichen niederösterreichischen Gebirgsgruppen herrscht geringe Lawinengefahr. In den Hochlagen sind vereinzelt Gefahrenstellen in Form von Triebschneebereichen vorhanden, diese sind vorwiegend in kammnahen Bereichen und hinter Geländeübergängen wie Rinnen und Mulden zu beachten, meist in den Expositionen Nordost über Ost bis Süd. Hier können (kleinere) Schneebretter ausgelöst werden. Zudem sind einzelne Gleitschneeabgänge aus dem besonnten Steilgelände (Wald- und Wiesenbereich) nicht gänzlich ausgeschlossen. Aufgrund oftmals vereister, harter Oberflächen gilt es zudem die Absturzgefahr zu beachten.</avActivityComment>
+          <snowpackStructureComment>Die Verhältnisse sind derzeit stark vom Windeinfluss geprägt, ausgesetzte Bereiche der Hochlagen wurden abgeblasen, Geländehohlformen sowie Leebereiche dementsprechend mit Triebschnee befüllt. Durch den vorangegangenen Witterungsverlauf (teils Regen bis in höhere Lagen und Sonneneinstrahlung) entstanden harte, verharschte und zum Teil auch eisige Oberflächen. Die Altschneedecke ist meist recht kompakt, Schwachschichten sind eventuell in hochgelegenen Schatthängen vereinzelt vorhanden. Das Fundament der Schneedecke ist zum Teil feucht und neigt stellenweise zum Gleiten.</snowpackStructureComment>
+          <wxSynopsisComment>Für den Sonntag kündigt sich ein Wechselspiel aus tieferen Wolkenfeldern und zwischenzeitlichen sonnigen Phasen an. Der Wind weht überaus stürmisch aus nordwestlichen Richtungen. Die Temperaturen sind in den östlichen Gebirgsgruppen tendenziell etwas milder als im Westen, sie liegen zu Mittag in 1500m dementsprechend zwischen -1 und +2 Grad, in 2000m erwarten uns mit Werten um +1 bis +2 Grad zarte Plusgrade.</wxSynopsisComment>
+          <tendencyComment>Bereits am Sonntagabend trübt es sich immer mehr ein und in den Nachtstunden ist voraussichtlich in allen Gebirgsgruppen - zumindest mit etwas - Neuschnee zu rechnen. Tagsüber lichten sich die Wolken und es kommt die Sonne zum Vorschein. Der Wind weht recht variabel, zum Teil aber stark bis stürmisch aus überwiegend nordwestlichen Richtungen. Die Temperaturen gehen mit Mittagswerten um -6 Grad in 1500m und -10 Grad in 2000m deutlich zurück. Es wird sich stellenweise frischer Triebschnee bilden können und somit wird die Lawinengefahr - je nach Ausprägung der Schneefälle - etwas ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

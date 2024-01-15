@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2297RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2297RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen auf frischen Triebschnee achten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Berchtesgadener Alpen oberhalb 1800 m mäßig, im restlichen Bayerischen Alpenraum gering.&#13;
+Das Hauptproblem sind frische Triebschneeansammlungen. Gefahrenstellen befinden sich oberhalb von rund 1800 m im kammnahen Steilgelände und in eingewehten Rinnen und Mulden in ost- und südexponierten Steilhängen. Schneebrettlawinen können hier bereits durch geringe Zusatzbelastung ausgelöst werden, bleiben aber meist klein. In den Berchtesgadener Alpen können sie auch mittlere Größe erreichen. Der Triebschnee ist für das geübte Auge gut zu erkennen. &#13;
+Daneben können mancherorts im Altschnee höherer Lagen kleinere Schneebrettlawinen ausgelöst werden - insbesondere durch große Zusatzbelastung in schneereichen Rinnen und Mulden aller Expositionen. Vereinzelt sind zudem Gleitschneelawinen an steilen Wiesenhängen möglich. Schneemäuler weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Talnah liegt meist nur wenig Neuschnee auf dem Boden. Oberhalb von ca. 1300 m liegen verbreitet zwischen 30 und 60 Zentimeter Schnee, in Rinnen und Mulden der Hochlagen zum Teil auch mehr. In der Nacht zum Montag entstehen oberhalb von ca. 1800 m frische Triebschneeansammlungen, die in windberuhigten Bereichen auf dem lockeren Schnee vom Wochenende zu liegen kommen und störanfällig sind. Im Altschnee finden sich teilweise lockere Schichten zwischen älteren Krusten und Winddeckeln. Zum Boden hin ist die Schneedecke vielerorts feucht.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich vorerst nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2297RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2297RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen auf frischen Triebschnee achten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Berchtesgadener Alpen oberhalb 1800 m mäßig, im restlichen Bayerischen Alpenraum gering.&#13;
+Das Hauptproblem sind frische Triebschneeansammlungen. Gefahrenstellen befinden sich oberhalb von rund 1800 m im kammnahen Steilgelände und in eingewehten Rinnen und Mulden in ost- und südexponierten Steilhängen. Schneebrettlawinen können hier bereits durch geringe Zusatzbelastung ausgelöst werden, bleiben aber meist klein. In den Berchtesgadener Alpen können sie auch mittlere Größe erreichen. Der Triebschnee ist für das geübte Auge gut zu erkennen. &#13;
+Daneben können mancherorts im Altschnee höherer Lagen kleinere Schneebrettlawinen ausgelöst werden - insbesondere durch große Zusatzbelastung in schneereichen Rinnen und Mulden aller Expositionen. Vereinzelt sind zudem Gleitschneelawinen an steilen Wiesenhängen möglich. Schneemäuler weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Talnah liegt meist nur wenig Neuschnee auf dem Boden. Oberhalb von ca. 1300 m liegen verbreitet zwischen 30 und 60 Zentimeter Schnee, in Rinnen und Mulden der Hochlagen zum Teil auch mehr. In der Nacht zum Montag entstehen oberhalb von ca. 1800 m frische Triebschneeansammlungen, die in windberuhigten Bereichen auf dem lockeren Schnee vom Wochenende zu liegen kommen und störanfällig sind. Im Altschnee finden sich teilweise lockere Schichten zwischen älteren Krusten und Winddeckeln. Zum Boden hin ist die Schneedecke vielerorts feucht.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich vorerst nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

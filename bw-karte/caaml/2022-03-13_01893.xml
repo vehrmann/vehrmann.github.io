@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1893RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1893RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es besteht geringe Lawinengefahr, dennoch sollten vereinzelte, schattseitige Gefahrenstellen beachtet werden!</avActivityHighlights>
+          <avActivityComment>In sämtlichen Niederösterreichischen Gebirgsgruppen herrscht geringe Lawinengefahr. Gefahrenstellen in Form eines Altschneeproblems betreffen abgeschattete Steilhänge in praktisch allen Höhenlagen, hier können vereinzelt Schneebrettauslösungen (insbesondere bei großer Zusatzbelastung) erfolgen. Zudem haben sich mit dem Südwind in den Leebereichen der Hochlagen frischen, meist aber nur kleinräumige Triebschneeansammlungen gebildet. An hart verharschten oder vereisten Oberflächen besteht Absturzgefahr. Mit Einstrahlung und Tageserwärmung sind einzelne sonnseitige Rutschungen oder Gleitschneeabgänge nicht ganz auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Wind aus meist südlichen Richtungen hat in den hochgelegenen Kammlagen frische Triebschneelinsen bilden können. Diese sind meist nur kleinräumig ausgeprägt, binden mit reifüberzogenen oder kantig umgewandelten Unterlagen zum Teil aber nicht gut. Schattseitig gibt es neben dem Triebschnee noch älteren Pulver bzw. aufbauend umgewandelten Schnee. Hier schwächen lockere, kantige Zwischenschichten den Altschnee. Ausgesetzte Gipfelbereiche sind abgeblasen, hart verharscht oder auch eisig. Sonnseitig wird der Schnee durch die Einstrahlung angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Der Montag beginnt zunächst strahlend sonnig, im weiteren Tagesverlauf ist mit wenigen Wolken zu rechnen, die aber harmlos bleiben. Der Wind dreht noch in den frühen Morgenstunden von Südwest auf Nordwest bis West, weht zunächst noch mäßig bis stark, lässt aber in der weiteren Folge deutlich nach. Die Temperaturen liegen in 1500m um etwa +2 Grad, in 2000m bei -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag erwarten uns zwar dichtere, mittelhohe Wolken, es bleibt aber niederschlagsfrei. Bei Temperaturen um +5 Grad in 1500m und +3 Grad in 2000m weht tagsüber noch mäßiger bis starker Wind aus südlichen bis westlichen Richtungen. Er dreht in den Abendstunden auf Nordwest bis West und gewinnt an Stärke. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

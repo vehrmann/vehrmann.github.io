@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3281RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-31T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3281RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-31T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-01T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>etwas Regen in den mittleren Lagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>in den Hochlagen, etwas frischer kleinräumiger Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Schneefall und Regen - teils stürmischer Wind um West - etwas frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Über der Schneefallgrenze, vor allem in den Hochlagen, bilden sich durch etwas Neuschnee und teils stürmischen Wind aus westlichen Richtungen frische kleinräumige Triebschneeablagerungen. Vereinzelt könnte eine Schneebrettlawine im Steilgelände durch Zusatzbelastung angesprochen werden. Da die Schneedecke bis weit hinauf durchfeuchtet ist, sind aus steilen nicht entladenen Bereichen spontane Gleit- und Nassschneelawinen möglich. Lawinen bis mittlerer Größe sind möglich.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist bis weit hinauf stark durchfeuchtet. Nur oberflächig kann sie sich in den höheren Lagen etwas festigen. Die Stabilität zum Boden hin ist nicht immer ausreichend gegeben. Mit etwas Neuschnee und teils starken Wind um West kann sich lokal frischer Triebschnee bilden. Die Bindung zur Altschneedecke ist oft gut. Dünne weiche Zwischenschichten können aber als Schwachschichten auftreten. In den tiefen und teils mittleren Lagen ist es oft aper bzw. liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag herrschen auf den Bergen sehr unbeständige Verhältnisse. Die Sichtverhältnisse wechseln immer wieder, wiederholt ziehen Regen- und Schneeschauer durch. Die Schneefallgrenze liegt zwischen 1300 m und 1700 m. Der Wind weht stark, in den Hochlagen teils auch stürmisch aus westlichen Richtungen. Temperaturen in 1500 m um 1 Grad, in 2000 m um -2 Grad.&#13;
+Am Sonntag ist die Sicht schlecht. Nebel, Wolken, Regen und Schneefall dominieren. Die Schneefallgrenze liegt zwischen 1000 und 1400 m. Der Wind aus West bis Nord weht lebhaft. In 1500 m um 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

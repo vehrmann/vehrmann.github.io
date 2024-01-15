@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1928RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1928RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>bis in mittlere Lagen, sonnseitig nur bei ausreichendem Sonnenschein</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>nur hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - in höheren Lagen lokales Triebschneeproblem beachten - nur leichter Tagesgang!</avActivityHighlights>
+          <avActivityComment>Überwiegend günstige Verhältnisse, nur in den höheren Lagen gibt es kleinräumig etwas Triebschnee, der im sehr steilen Gelände bei geringer Zusatzbelastung ausgelöst werden kann. In schattseitigen Hochlagen gibt es einzelne Gefahrenstellen durch eingelagerte ältere Schwachschichten (großer Zusatzbelastung). Hänge mit Rissen in der Schneedecke und Gleitschneeaktivität sollten generell gemieden werden. Spontane Feucht-/Nassschneelawinen sind kaum zu erwarten.</avActivityComment>
+          <snowpackStructureComment>Nur in den Hochlagen ist Triebschnee lokal vorhanden, der mit der Altschneedecke teils schlecht bindet. Die Schneedecke kann sich über Nacht nur wenig festigen, geht aber durch die abgeschirmte Sonne und zurückgegangenen Temperaturen kaum weiter auf. Bis in die mittleren sonnseitigen Lagen ist sie oft schon durchfeuchtet. Die Altschneedecke enthält hochalpin und schattseitig teils noch ältere kantige, teils lockere Schwachschichten. In den letzten Tagen wurde verbreitet Saharastaub abgelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist die Sicht auf den Bergen bis über Mittag teils durch dichteren Wolken eingeschränkt, höhere Gipfel stecken in Nebel. Am Nachmittag zeigt sich öfter die Sonne, Saharastaub dämpft aber nicht nur den Sonnenschein sondern auch die Sichtweite. In Hochlagen weht mäßiger bis lebhafter Wind aus Nordost. In 1500 m werden maximal 0 bis +3 Grad erreicht, in 2000 m -2 Grad. &#13;
+Am Samstag ist auf den Bergen bis über Mittag mit viel Sonnenschein zu rechnen. Am Nachmittag tauchen da und dort ein paar Quellwolken auf, welche die Gipfel vorübergehend in Nebel hüllen können. Der Wind weht speziell am Nachmittag lebhaft aus Südost. Es bleibt weitgehend trocken. In 1500 m werden maximal -3 bis -1 Grad erreicht, in 2000 m -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. Nur leichter Tagesgang.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2044RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-31T05:27:17+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2044RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-31T05:27:17+00:00</beginPosition>
+          <endPosition>2022-04-01T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dort wo ausreichend Schnee vorhanden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>unterhalb 1800 mit Regeneinfluss dort wo ausreichend Schnee vorhanden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit Beginn der mehrtägigen Schneefallperiode Wechsel des Gefahrencharakters.</avActivityHighlights>
+          <avActivityComment>Es besteht noch überwiegend "geringe" Lawinengefahr. In Hochlagen entstehen tagsüber meist kleine Triebschneeansammlungen welche vor allem im schattseitigen Steilgelände ausgelöst werden können. Neben einer Verschüttungsgefahr ist auch die Mitreiß- und Absturzgefahr zu beachten. Die Gefahr von Nass- und Gleitschneelawinen ist in Bereichen mit Regeneinfluss leicht angestiegen. Es sind kleine nasse Rutsche und einzelne Gleitschneelawinen vor allem an Nordhängen, bzw. wo noch ausreichend Schnee liegt, möglich. Vorsicht unterhalb von Gleitschneerissen.</avActivityComment>
+          <snowpackStructureComment>Die Nacht auf Donnerstag war regnerisch mit einer Schneefallgrenze von etwa 1600 auf 1300 m sinkend. Es gab nur Spuren bis wenige Zentimeter Neuschnee. Dieser kam auf einer rauen Altschneeoberfläche zu liegen und ist meist gut mit ihr verbunden. Der Wind wehte dabei meist unter der Verfrachtungsstärke. Nur in exponierten hohen Lagen konnte gestern kleinräumig frischer Triebschnee entstehen. Mit Neuschnee und Wind können tagsüber weitere meist kleine Einwehungen in Kamm- und Passlagen gebildet werden. In mittleren Lagen wurde mit wenig Regen die Schneedecke etwas geschwächt. In höheren Lagen konnte sich ein tragfähiger Harschdeckel bilden. Die Altschneedecke ist durchfeuchtet und vor allem an Sonnenhängen bis in höhere Lagen nass. An sehr steilen und glatten Hängen begünstigt dies Gleitbewegungen. In mittleren Lagen sind Sonnenhänge meist ausgeapert.</snowpackStructureComment>
+          <wxSynopsisComment>Nass. Die kompakten Wolken bzw. Nebel bleiben ganztags bestehen und daraus fällt häufig Regen bzw. Schnee. Die Schneefallgrenze sinkt langsam gegen rund 1300 m. Chancen auf Auflockerungen gibt es praktisch nicht. Temperatur in 2000 m: um -2 Grad, der Höhenwind weht schwach aus West bis Nordwest.</wxSynopsisComment>
+          <tendencyComment>Mit sinkenden Temperaturen und Neuschnee wird die Gefahr für trockene Lawinen am Freitag ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

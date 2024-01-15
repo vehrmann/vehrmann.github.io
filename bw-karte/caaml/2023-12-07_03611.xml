@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3611RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3611RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kammnah störanfälliger Triebschnee - Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist oberhalb der Waldgrenze mäßig, unterhalb davon gering. Das Hauptproblem ist Triebschnee. Dieser kann stellenweise durch geringe Zusatzbelastung wie z.B. durch einen einzelnen Skifahrer ausgelöst werden. Gefahrenstellen finden sich im kammnahen Steilgelände aller Expositionen und nehmen an Anzahl und Umfang mit der Höhe zu. Schneebrettlawinen können mittlere Größe erreichen.&#13;
+An steilen Wiesenhängen und im Bergwald kann es daneben in allen Expositionen zur Selbstauslösung von kleinen und mittleren Gleitschneelawinen kommen. Gleitschneerisse weisen auf Gefahrenstellen hin.</avActivityComment>
+          <snowpackStructureComment>Mit böig auffrischendem Wind aus unterschiedlichen Richtungen entstehen in der Nacht zum Freitag frische Triebschneeansammlungen. Diese sind teils sehr störanfällig, da sie auf weichem Pulverschnee, zum Teil auch auf Oberflächenreif, zu liegen kommen. Die für diese Jahreszeit überdurchschnittlich mächtige Altschneedecke hat sich gut gesetzt und ist in sich stabil. In mittleren und tiefen Lagen ist die Schneedeckenbasis oft nass und Gleitbewegungen auf glattem Untergrund sind die Folge.</snowpackStructureComment>
+          <tendencyComment>Mit stärker werdendem Wind wird sich am Samstag das Triebschneeproblem in den Hochlagen verschärfen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

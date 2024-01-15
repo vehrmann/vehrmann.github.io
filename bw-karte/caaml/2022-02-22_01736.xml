@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1736RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-22T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1736RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-22T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-23T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammferne Hangzonen auch unterhalb der Waldgrenze, leicht auslösbare</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Leicht auslösbare Triebschneeablagerungen sind zu beachten!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze und auch im lichten Bergwald sind frische Triebschneeablagerungen vorhanden, die zu beachten sind. Gefahrenstellen befinden sich hinter Geländekanten, in verfüllten Mulden und Rinnen und in eingewehten steilen Hängen in fast allen Expositionen. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich. Lawinen bis mittlerer, vereinzelt auch großer Größe sind möglich. Sollten tieferliegende Schwachschichten mit angesprochen werden (hochgelegenes schattseitiges Altschneeproblem) ist mit großen Lawinen zu rechnen. Kleinere Lockerschneelawinen sind aus extrem steilem felddurchsetztem Gelände möglich. </avActivityComment>
+          <snowpackStructureComment>Durch Neuschnee (am Dienstag rund 20 cm, am Mittwoch 10 - 15 cm) und Sturm aus westlichen Richtungen gibt es frische labile Triebschneeablagerungen. Sie liegen überwiegend auf einer harten, teils vereisten Altschneedecke und binden nur schlecht. Durch Schneefallunterbrechungen und Graupeleinlagerungen enthalten die Triebschneepakte Schwachschichten. Hochgelegen und schattseitig kann die Altschneedecke noch Schwachschichten enthalten. Windexponierte Bereiche sind abgeht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch wird die Sicht am Vormittag durch Nebel, Wolken und Schneefall eingeschränkt. Ab Mittag bessern sich die Bedingungen und die Sonne scheint am Nachmittag. Der Wind aus West bis Nordwest weht stark bis stürmisch, lässt zum Abend hin aber dann nach. In 1500 m zu Mittag um -3 Grad, in 2000 m um -6 Grad.&#13;
+Am Donnerstag herrschen abseits einiger Frühnebelfelder sehr gute Verhältnisse. Die Sicht ist meist ungetrübt frei. Der Wind bleibt schwach. In 1500 m um 4 Grad, in 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag wird das Wetter mild und windschwach. Somit kann sich der letzte Schnee setzen. Die Schneebrettgefahr ist aber weiterhin zu beachten. Mit den milden Temperaturen und der Sonneneinstrahlung sind spontane Lawinen zu beachten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

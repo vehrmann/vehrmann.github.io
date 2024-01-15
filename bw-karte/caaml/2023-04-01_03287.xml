@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3287RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3287RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>über der Waldgrenze, etwas frischer kleinräumiger Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee - lebhafter Wind um Nordwest - frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird über rund 1500 m mäßig eingestuft. Vor allem in den Hochlagen können sich durch etwas Neuschnee und lebhaften Wind um Nordwest kleinräumige frische Triebschneeablagerungen bilden. Vor allem im erweiterten Ostsektor könnten im Steilgelände einzelne Schneebrettlawinen bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich vor allem kammnah, hinter Geländekanten und in steilen Rinnen und Mulden. Auf Grund des durchfeuchteten Schneedeckenfundaments sind einzelne Gleit- und Nassschneelawinen nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Durch etwas Neuschnee und lebhaften Wind um Nordwest bilden sich kleinräumige frische Triebschneeablagerungen. Ältere Verfrachtungen werden überdeckt. Dünne unterschiedlich harte Zwischenschichten können in den Hochlagen eingelagert sein. Das Schneedeckefundament ist bis weit hinauf durchfeuchtet. In den tiefen und teils mittleren Lagen ist es meist aper bzw. liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht schlecht. Nebel, Wolken, Regen und Schneefall dominieren. Die Schneefallgrenze liegt zwischen 1000 m und 1400 m und sinkt zum Abend hin etwas ab. Der Wind aus West bis Nord weht lebhaft. In 1500 m zu Mittag um 0 Grad, in 2000 m um -3 Grad.&#13;
+Am Montag bessern sich die Sichtverhältnisse am Vormittag und über Mittag und am Nachmittag kann die Sonne zeitweise zum Vorschein kommen. Es weht starker Nordwind. In 1500 m um -5 Grad, in 2000m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

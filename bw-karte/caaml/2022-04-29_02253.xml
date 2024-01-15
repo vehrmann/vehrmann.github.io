@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2253RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-29T05:24:48+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2253RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-29T05:24:48+00:00</beginPosition>
+          <endPosition>2022-04-30T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>überwiegend günstige Bedingungen - mit Erwärmung und Einstrahlung nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Gefahrenstellen sind vor allem noch an sehr steilen Schattenhängen des Hochgebirges und im extremen Steilgelände anzutreffen. Dort können insbesondere mit großer Zusatzbelastung vereinzelt noch Schwachschichten im Altschnee gestört und als kleine Schneebrettlawinen ausgelöst werden. Neben einer Verschüttung ist dabei auch die Mitreiss- und Absturzgefahr zu beachten. Mit Erwärmung und Einstrahlung sind untertags vor allem an steilen Sonnenhängen kleine Nassschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Vor allem im Hochgebirge sind kleinräumig noch ältere Triebschneeansammlungen anzutreffen. Die Bindung solcher ist vor allem in schattseitigen Steilhängen mit dort teilweise weicheren Altschneeschichten stellenweise nur mäßig. Kleine Schneebrettauslösungen sind dort vereinzelt noch innerhalb von Triebschneeschichten oder im oberen Teil der Altschneedecke möglich. Nach klarer und kalter Nacht ist die Schneedecke in den Morgen- und Vormittagsstunden überwiegend kompakt und stabil. In tiefen und mittleren Lagen liegt ohnehin nur noch wenig Schnee.  Dem Lawinenwarndienst liegen nur noch wenige Informationen zur Schneedecke vor.</snowpackStructureComment>
+          <wxSynopsisComment>Es wird sehr sonnig. Hohe Schleierwolken und wenige, kleine Quellwolken am Nachmittag stören kaum. Die Nullgradgrenze liegt bei 3000 m. Temperatur in 2000 m: 0 bis +7 Grad, Höhenwind: schwach aus Nord bis West</wxSynopsisComment>
+          <tendencyComment>Nachts trübt es ein und in den Morgenstunden setzt Niederschlag ein. Bei schlechten Sichten regnet und schneit es vormittags anhaltend und teils kräftig. Die  Schneefallgrenze liegt bei 1600 m. Die Lawinengefahr kann je nach Neuschnee und Wind in höheren Lagen wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1825RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1825RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <comment>im erweiterten Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, vereinzelt Schwachschichten im Altschnee.</avActivityHighlights>
+          <avActivityComment>In den niederösterreichischen Alpen wird die Lawinengefahr weiterhin als gering bewertet. Nur vereinzelt können sich in schattseitigem Gelände bei großer Zusatzbelastung in extrem steilen Hängen noch kleine Schneebretter durch störanfällige Schwachschichten im alten Triebschnee bzw. am Übergang zum Altschnee lösen. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist großteils gut verfestigt. Schattseitig befindet sich an der Schneeoberfläche älterer Triebschnee, der auf einer Abfolge von Schmelzkrusten und kantigen Kristallen liegt. Vereinzelt sind noch störanfällige Graupeleinlagerungen im ehemaligen Triebschnee zu finden, welche als mögliche Schwachschicht in Frage kommen. Die kantigen Schichten sind kaum noch störanfällig. Darunter befindet sich eine kompakte Altschneedecke, welche zum Boden hin bereits teilweise angefeuchtet ist. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. </snowpackStructureComment>
+          <wxSynopsisComment>Sonntag: Wolkenfelder in tiefen und mittleren Schichten ziehen durch und stören oft den Sonnenschein. Nennenswerte Niederschläge werden aber kaum erwartet. Der Wind bläst selbst oben auf den Bergen vorübergehend recht schwach aus Nord bis Ost. Mittagstemperaturen in 1500m Seehöhe nur um minus 6 Grad.&#13;
+Montag: Von Norden her stauen sich kompakte Wolken gegen die Alpen. Daraus schneit es immer wieder ein wenig.  Auflockerungen mit Sonne bleiben selten, am ehesten gibt es sie am Alpenostrand. Es bleibt kalt.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

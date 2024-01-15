@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID69RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID69RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>kaum Schwachschichten in der Schneedecke</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Tourenbedingungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. In den Gurktaler Alpen sind einige wenige Gefahrenstellen oberhalb von 2000m im Nordsektor zu finden. Hier können vereinzelt kleine Schneebrettlawinen noch ausgelöst werden.&#13;
+Aus steilem Fels- und Schrofengelände sind in den übrigen Gebirgsgruppen tagsüber spontane, nasse Lockerschneerutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Mit den relativ milden Temperaturen konnte sich der Schnee setzen. Die Gesamtschneemenge auf den Bergen  nimmt von Norden nach Süden deutlich zu: In den Seckauer Alpen liegen in 1.800m um die 30cm Schnee, in den Gurktaler Alpen hingegen über 100cm. Der Schnee ist in mittleren Lagen feucht und in tiefen Lagen auch nass und apert hier langsam aus. Durch die nächtliche Abkühlung bildet sich an der Schneedeckenoberfläche sonnseitig tagsüber eine Schmelzkruste, die jedoch nicht immer trägt (Bruchharsch).Schattseitig ist der Schnee hingegen oft noch pulvrig mit Oberflächenreif, in den schneeärmeren Gebieten beginnt hier allerdings die aufbauende Umwandlung die Schneedecke zu schwächen.</snowpackStructureComment>
+          <wxSynopsisComment>Das Hochdruckwetter setzt sich weiter fort. Auf den Bergen dominiert am Sonntag wieder strahlender Sonnenschein, in den Niederungen hält sich hingegen oft zäher Nebel und Hochnebel. Der Wind im Gebirge ist meist schwach und kommt aus unterschiedlichen Richtungen. Die Temperaturen liegen in 2.000m bei +2°C und in 1.500m bei +3°C.&#13;
+Am Montag setzt sich nach anfänglich dichteren Wolken bis Mittag wieder die Sonne durch. Es wird etwas kühler als zuletzt.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

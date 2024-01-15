@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3240RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3240RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-27T16:00:00+00:00</beginPosition>
+          <endPosition>2023-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>umfangreicher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen störanfälligen Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird ab der Waldgrenze, vor allem aber in den höheren Lagen, als erheblich eingestuft. Durch starken bis kammnahe auch stürmischen Wind um West bis Nordwest und Neuschnee haben sich frische, auch umfangreiche Triebschneeablagerungen gebildet. Schneebrettlawinen können bereits durch geringe Zusatzbelastung ausgelöst werden. Zu beachten sind Steilhänge, vor allem kammnahe aber auch kammferne Bereiche hinter Geländekanten und steile frisch  verfüllte Mulden sowie Rinnen. Lawinen bis mittlerer Größe sind möglich. Im extrem steilen Gelände sind einzelne spontane Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In den höheren Lagen gab rund 30/40 cm Neuschnee, lokal war es auch mehr. Durch starken bis stürmischen Wind haben sich frische labile Triebschneeablagerungen gebildet. Die Bindung zur Altschneedecke und älterem Triebschnee ist ungenügend. Daher sind die Verfrachtungen störanfällig. Die Altschneedecke ist oberflächig verfestigt, teils hart und tragfähig verharscht. Im Inneren ist die Schneedecke unverändert feucht, teils nass. In den mittlere und teils in den tiefen Lagen liegt der Neuschnee auf aperem Boden.</snowpackStructureComment>
+          <wxSynopsisComment>Mit zum Teil stürmischem Nordwestwind stauen sich meist dichte Wolken an den Bergen und es schneit bis über die Mittagsstunden zeitweise ein wenig. Im Lauf des Nachmittags lockern die Wolken zwischendurch etwas auf. Es ist sehr kalt, in 1500 m zu Mittag -7 Grad und in 2000 m -11 Grad. Die maximalen Windspitzen erreichen um 70 km/h.&#13;
+Die Berge stecken meist in dichten Wolken und es regnet und schneit ein wenig. Die Schneefallgrenze steigt von den Niederungen auf etwa 1500 m. Lebhafter Westwind bringt mildere Luft, in 1500 m steigt die Temperatur von -3 auf 4 Grad, in 2000 m von -6 auf 0 Grad. Die Windspitzen erreichen in den freien Hochlagen um 60 km/h.</wxSynopsisComment>
+          <tendencyComment>Mit den milder werdenden Temperaturen kann sich der Schnee setzen. Der Triebschnee ist in den Hochlagen noch zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

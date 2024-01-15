@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID488RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID488RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-25T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-25T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-26T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-25T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-26T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>wenige Stellen im Steilgelände, ganztags</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem mit leichtem Tagesgang und hochalpin lokales Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Durch milde Temperaturen, die aber im Tagesverlauf zurückgehen und Sonnenschein nimmt  im Tagesgang je nach Höhe und Exposition, vor allem sonnseitig die spontane Nassschneeaktivität wieder etwas zu. Einzelne steile bis sehr steile Geländeabschnitte sowie Übergänge von viel zu wenig Schnee sind in hohen Lagen nord- und schattseitig zu beachten. Vereinzelt können hier durch Zusatzbelastung Schneebrettlawinen ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Über Nacht festigt sich die Schneeoberfläche und verharscht. Mit den milden Temperaturen und Sonnenschein wird sie dann oberflächig weich, feucht und verliert wieder an Festigkeit. Ansonsten ist sie gut gesetzt, nur hochgelegen schattseitig teils noch locker. In nord- und schattseitigen sehr hohen Lagen enthält sie lokal, meist tieferliegende teils noch zu störende Schwachschichten. Die Schneehöhen sind selbst in den Hochlagen deutlich unterdurchschnittlich, tiefe und sonnseitige mittlere Lagen sind bereits aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag bleibt das Bergwetter sehr freundlich. Am Vormittag scheint die Sonne, am Nachmittag machen sich auch vermehrt hohe Wolken bemerkbar. Die Sicht kann dadurch zeitweise diffus sein. Es weht schwacher bis mäßiger Wind aus westlichen Richtungen. Temperaturen in 1500 m um 8 Grad, in 2000 m um 4 Grad.&#13;
+Am Samstag stecken die Berge der Nordalpen zunächst meist in dichten Wolken, auch leichter Regen oder Schneefall ist möglich. Die Schneefallgrenze liegt zwischen 700 und 1000 m. Im Tagesverlauf bessert sich die Sicht auch hier, es setzt sich zunehmend sonniges Wetter durch. Es weht mäßig starker Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -1 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Abkühlung geht die Nassschneeaktivität allgemein zurück. Vereinzelte Gefahrenstellen ab den Hochlagen sind zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID488RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID488RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-25T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-25T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-02-26T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-02-26T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>wenige Stellen im Steilgelände, ganztags</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem mit leichtem Tagesgang und hochalpin lokales Altschneeproblem!</avActivityHighlights>
+          <avActivityComment>Durch milde Temperaturen, die aber im Tagesverlauf zurückgehen und Sonnenschein nimmt  im Tagesgang je nach Höhe und Exposition, vor allem sonnseitig die spontane Nassschneeaktivität wieder etwas zu. Einzelne steile bis sehr steile Geländeabschnitte sowie Übergänge von viel zu wenig Schnee sind in hohen Lagen nord- und schattseitig zu beachten. Vereinzelt können hier durch Zusatzbelastung Schneebrettlawinen ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Über Nacht festigt sich die Schneeoberfläche und verharscht. Mit den milden Temperaturen und Sonnenschein wird sie dann oberflächig weich, feucht und verliert wieder an Festigkeit. Ansonsten ist sie gut gesetzt, nur hochgelegen schattseitig teils noch locker. In nord- und schattseitigen sehr hohen Lagen enthält sie lokal, meist tieferliegende teils noch zu störende Schwachschichten. Die Schneehöhen sind selbst in den Hochlagen deutlich unterdurchschnittlich, tiefe und sonnseitige mittlere Lagen sind bereits aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag bleibt das Bergwetter sehr freundlich. Am Vormittag scheint die Sonne, am Nachmittag machen sich auch vermehrt hohe Wolken bemerkbar. Die Sicht kann dadurch zeitweise diffus sein. Es weht schwacher bis mäßiger Wind aus westlichen Richtungen. Temperaturen in 1500 m um 8 Grad, in 2000 m um 4 Grad.&#13;
+Am Samstag stecken die Berge der Nordalpen zunächst meist in dichten Wolken, auch leichter Regen oder Schneefall ist möglich. Die Schneefallgrenze liegt zwischen 700 und 1000 m. Im Tagesverlauf bessert sich die Sicht auch hier, es setzt sich zunehmend sonniges Wetter durch. Es weht mäßig starker Wind aus nördlichen Richtungen. Temperaturen in 1500 m um -1 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der Abkühlung geht die Nassschneeaktivität allgemein zurück. Vereinzelte Gefahrenstellen ab den Hochlagen sind zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

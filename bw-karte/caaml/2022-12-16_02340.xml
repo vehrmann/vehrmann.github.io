@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2340RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2340RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-16T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Höhe kammnahes Steilgelände, eingewehte Rinnen und Mulden und hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb ca. 2200 m - überdeckte Schwachschichten sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischer und älterer Triebschnee sowie in steilen Schattenhängen teilweise schwacher Altschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze ist die Lawinengefahr mäßig, darunter gering. In hohen Lagen entstanden mit  teils kräftigem  Wind aus Süd bis West frische störanfällige Triebschneeansammlungen. Gefahrenstellen sind vor allem im kammnahen Steilgelände, in eingewehten Rinnen und Mulden sowie hinter Geländekanten vorhanden. Frische und ältere Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden. Zudem sind oberhalb ca. 2200 m besonders an steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Einzelne Wintersportler können stellenweise kleine, mit zunehmender Seehöhe aber auch mittlere Schneebrettlawinen auslösen. Dies ist bei Aktivitäten abseits gesicherter Bereiche zu beachten. Neben einer Verschüttung sollte auch die Mitreiß- und Absturzgefahr beachtet werden.</avActivityComment>
+          <snowpackStructureComment>Im Laufe des Tages sind 5 bis 10cm Neuschnee dazugekommen. Der Wind wehte besonders auf den Föhnregionen des Rätikons und der Silvretta teils kräftig aus Süd bis West, sonst meist nur schwach bis mäßig. Vor allem in den klassischen Föhnschneisen bildeten sich in höheren Lagen dadurch frische Triebschneeansammlungen. Die frischen und älteren Einwehungen sind störanfällig. Zudem gibt es vor allem im Nordsektor oberhalb etwa 2200m im Altschnee Krusten zwischen denen sich kantige Kristalle gebildet haben, die bei Belastung gestört werden können und von außen nicht erkennbar sind.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Samstag: Es schneit zunächst zeitweise noch leicht aus kompakten Wolken. In der Nacht überwiegen schon die trockenen Phasen und die Wolken lockern von Norden her auf. Tiefstwerte: -9 bis -4 Grad.Samstag: In allen Gebirgsregionen setzt sich am Vormittag die Sonne gegen etwaige Restwolken durch. Die meiste Zeit des Tages kann man strahlenden Sonnenschein genießen. Die Luft fühlt sich eisig an, der Nordwestwind verstärkt das Kälteempfinden. Allerdings ist der vorläufige Höhepunkt der Kälte im Gebirge bereits wieder erreicht. Temperatur in 2000m: von -10 auf -5 Grad, Höhenwind: mäßiger bis lebhafter Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag setzt sich Hochdruckeinfluss durch und es wird auf den Bergen deutlich wärmer. Später ziehen vermehrt Schleierwolken auf. Tiefstwerte: -15 bis -8 Grad, Höchstwerte: -3 bis 0 Grad, in freien Mittelgebirgslagen um 5 Grad. Die Lawinengefahr ändert sich nicht wesentlich, die Gefahr von Gleitschneerutschen in tieferen Regionen wird etwas zunehmen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

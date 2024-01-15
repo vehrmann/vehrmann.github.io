@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID148RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID148RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ältere Triebschneebereiche</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht mäßige, ansonsten gering Lawinengefahr. Gefahrenstellen in Form von älteren Triebschneelinsen befinden sich in Einfahrtsbereichen steiler Rinnen sowie hinter Geländekanten der Expositionen Nordwest über Nord bis Ost. Hier kann mitunter schon die geringe Zusatzbelastung zu einer Schneebrettauslösung führen. Die Gefahrenstellen werden durch eine dünne Neuschneeauflage überdeckt. Der Neuschnee fällt meist bei schwachem bis mäßigem Windeinfluss, wodurch sich im Tagesverlauf nur vereinzelt in nordostexponierten, kammnahen Bereichen eine frische, dünne jedoch störanfällige Triebschneelauflage bilden kann.   </avActivityComment>
+          <snowpackStructureComment>In der Nacht bzw. am Donnerstagvormittag fallen bis zu 10cm Neuschnee. Er lagert sich als lockere Auflage auf aperen Boden bzw. einer meist gesetzten Altschneedecke ab. In höheren, schattseitigen Bereichen überdeckt er noch bestehende ältere aber noch störanfällige Triebschneelinsen. In schattseitigen Hochlagen wandelt sich die geringmächtige Altschneedecke zunehmend zu lockeren, kantigen Formen um. Die Schneedecke ist generell unterdurchschnittlich und für eine lohnende Skitour meist zu geringmächtig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch setzt von Südosten her Schneefall ein, bei dichter Bewölkung fallen bis Mittag um 10cm Neuschnee. Am Nachmittag klingt der Schneefall ab und stellenweise lockert es mit etwas Sonne schon wieder auf. Der vorerst schwache bis (in exponierten Lagen) mäßige Wind dreht im Laufe des Vormittags von südöstlichen Richtungen auf West und wird gegen Abend stellenweise etwas stärker. Die Temperaturen auf 1500m Seehöhe liegen zu Mittag um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag gestaltet sich durchwegs sonnig, die Temperaturen gehen etwas zurück. Mit lebhaften Westwind entstehen kleinräumig frische Triebschneebereiche im erweiterten Ostsektor! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID148RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID148RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>älterer Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr bei etwas Neuschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Nur in höher gelegenen, schattseitigen Einfahrtsbereichen steiler Rinnen und hinter Geländekanten existieren noch kleinräumige Gefahrenstellen in Form von älterem Triebschnee, die überwiegend durch große Zusatzbelastung gestört werden können. Diese werden durch eine dünne Neuschneeauflage überdeckt. Der Neuschnee fällt meist bei schwachem bis mäßigem Wind wodurch sich nur vereinzelt in nordostexponierten, kammnahen Bereichen frische dünne Triebschneelinsen bilden können.</avActivityComment>
+          <snowpackStructureComment>In der Nacht bzw. am Donnerstagvormittag fallen bis zu 10cm Neuschnee. Er lagert sich als lockere Auflage auf aperen Boden bzw. einer gesetzten Altschneedecke ab. In höheren, schattseitigen Bereichen überdeckt er kleinräumig noch bestehende ältere Triebschneelinsen, solche Gefahrenstellen treten jedoch nur vereinzelt auf. Die Schneedecke ist generell unterdurchschnittlich und für eine lohnende Skitour meist zu geringmächtig. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Mittwoch setzt von Südosten her Schneefall ein, bei dichter Bewölkung fallen bis Mittag bis 10cm Neuschnee. Am Nachmittag klingt der Schneefall weitgehend ab, speziell in den Ybbstaler Alpen können noch am Nachmittag ein paar Schneeflocken fallen, stellenweise kann es ein wenig auflockern. Der vorerst schwache bis (in exponierten Lagen) mäßige Wind dreht im Laufe des Vormittags von südöstlichen Richtungen auf West und wird gegen Abend stellenweise etwas stärker. Die Temperaturen auf 1500m Seehöhe liegen zu Mittag um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag gestaltet sich durchwegs sonnig, die Temperaturen gehen etwas zurück. Mit lebhaften bis starkem Westwind entstehen kleinräumig frische Triebschneebereiche im erweiterten Ostsektor! </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

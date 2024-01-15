@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2660RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-21T09:41:59+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2660RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-21T09:41:59+00:00</beginPosition>
+          <endPosition>2023-01-22T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kalt und sehr locker, ansteigende Schneefallgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch frischen Triebschnee und spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>Mehr Neuschnee als erwartet und Windeinfluss aus nördlichen Richtungen haben zu einem Anstieg der Lawinengefahr geführt. Die Anzahl der Gefahrenstellen nimmt mit der Höhe deutlich zu. Gefahrenstellen durch frischen Triebschnee befinden sich vor allem in den Kammlagen und hinter Geländekanten speziell im erweiterten Ostsektor, aber auch in anderen Expositionen. Zu beachten sind Kammlagen, Geländeübergänge und verfüllte Mulden und Rinnen. Eine Schneebrettlawinen kann bereits durch geringe Zusatzbelastung ausgelöst werden. Mit dem ungünstigen Schneedeckenaufbau können Schneebrettlawinen spontan abgehen und aus extrem Steilgelände kann der kalte pulvrige Schnee als Lockerschneelawinen abgehen.</avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen gab es immer wieder kalten lockeren Neuschnee. Am Samstag folgt weiter Schneezuwachs und der Wind aus nördlichen Richtungen legt zu. Somit entstehen frische labile Triebschneeablagerungen. Älterer Triebschnee wird durch frischen überdeckt. Die Schneepakete enthalten dünne Zwischenschichten, wie weichen lockeren Schnee und Schwachschichten im Übergang zum Schneedeckenfundament. Das Fundament enthält Harschschichten und aufbauend umgewandelte kantige Kristalle.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stecken die Berge in dichten Wolken, durch Nebel und Schneefall wird die Orientierung stark erschwert. Es weht mäßiger Wind aus Nordwest bis Nordost. Temperaturen in 1500 m um -10 Grad, in 2000 m um -13 Grad.&#13;
+Am Sonntag bessern sich die Sichtverhältnisse im Tagesverlauf. Am Vormittag schneit es noch leicht, am Nachmittag bleibt es weitgehend trocken und die Wolken lockern etwas auf. Der Nordwind flaut weiter ab. In 1500 m um -9 Grad, in 2000 m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Die erhebliche Lawinengefahr ist weiterhin zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

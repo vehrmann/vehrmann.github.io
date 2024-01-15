@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2174RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2174RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hochalpin und kleinräumig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee und hochalpin lokale Verfrachtungen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird als gering, nur hochalpin lokal als mäßig eingestuft. Frischer Triebschnee ist in den höheren Lagen zu beachten und dieser kann kleinräumig im Steilgelände durch geringe Zusatzbelastung ausgelöst werden. Die Gefahr für Nassschneelawinen ist mit der Abkühlung zurückgegangen, einzelne sind aber möglich. Bei Sonnenschein sind am Nachmittag im besonnten felsdurchsetzten Steilgelände dann kleine spontane Lockerschneelawinen (Neuschnee) möglich. Steile Hänge mit Rissen in der Schneedecke sind wegen möglicher Gleitschneelawinen zu beachten.</avActivityComment>
+          <snowpackStructureComment>Die durch Regen, anfangs bis in die Hochlagen feuchte bis nasse Schneedecke hat sich mit der Abkühlung oberflächig gefestigt, darauf liegt etwas Neuschnee. In den Hochlagen sind vereinzelt kleine Verfrachtungen vorhanden, die lokal störanfällig sind. Die Altschneedecke ist je nach Höhe im Inneren feucht bis nass aber weitgehend stabil. Bis in die mittleren Lagen hinauf liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Karsamstag halten sich am Vormittag noch dichte Restwolken und speziell in den Nordalpen regnet und schneit es immer wieder schauerartig. Die Schneefallgrenze sinkt auf rund 1200 m ab. Die Sicht ist oft durch die tiefen Wolken und Nebel eingeschränkt. Ab Mittag lockert es immer mehr auf und die Sonne kann sich öfter durchsetzen. In 1500 m um -2 bis 0 Grad, in 2000 m -5 Grad.&#13;
+Das Bergwetter zeigt sich am Ostersonntag von seiner sonnigen und stabilen Seite. Über weite Strecken zeigt sich der Himmel dabei sogar wolkenlos. In 1500 m liegen die Temperaturen zwischen -4 und 0 Grad, in 2000 m um -4 Grad.</wxSynopsisComment>
+          <tendencyComment>Kalt aber sonnig. Leichter Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

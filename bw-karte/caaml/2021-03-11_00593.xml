@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID593RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID593RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr mit kleinräumigem Triebschnee in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>In Niederösterreich wird die Lawinengefahr mit gering bewertet. In den kammnahen Bereichen sehr steiler Hänge existieren noch kleinräumige Gefahrenstellen. In den Nordexpositionen kann durch große Zusatzbelastung die Altschneedecke, in den Expositionen Ost bis Süd die Triebschneeauflage gestört werden. Es werden nur kleine Lawinen erwartet. Auf harten und eisigen Kamm- und Gipfelbereichen sowie in extrem steilen Rinnen gilt Absturzgefahr! </avActivityComment>
+          <snowpackStructureComment>Kleinräumige Triebschneelinsen liegen in den Hochlagen vermehrt in den Expositionen Ost bis Süd auf einer harten Altschneedecke. Die Verbindung ist teilweise nicht gut. In den Nordexpositionen existieren innerhalb der Altschneedecke weiterhin Schwachschichten durch kantige Kristalle, die allerdings von Krusten überdeckt sind. Eine geschlossene Schneedecke beginnt erst ab zirka 1400m. </snowpackStructureComment>
+          <wxSynopsisComment>In der Früh gibt es noch Restbewölkung mit letzten Schauern (Schneefallgrenze um 1000m). Tagsüber stellt sich eine sonnige Phase ein, ehe am Nachmittag von Süden neuerliche Bewölkung aufzieht, es bleibt aber meist niederschlagsfrei. Der Wind weht stürmisch, im Osten Niederösterreichs auch orkanartig, aus West bis Nordwest. Die Mittagstemperaturen liegen in 1500m um -1 Grad. </wxSynopsisComment>
+          <tendencyComment>Am Samstag ziehen immer wieder einzelne Wolkenfelder durch, es bleibt trocken und die Temperaturen werden etwas milder mit +2 Grad zu Mittag in 1500m. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

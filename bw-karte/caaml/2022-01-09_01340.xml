@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1340RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1340RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr in Niederösterreich wird in den Ybbstaler und in den Türnitzer Alpen sowie im Göller- Gippelgebiet oberhalb der Waldgrenze mit mäßig beurteilt. Die Gefahrenstellen werden aufgrund des Triebschnees mehr und konzentrieren sich auf das kammnahe Gelände der Expositionen Ost und Süd!&#13;
+Hier ist eine Auslösung eines Schneebretts mit geringer Zusatzbelastung möglich. Aufgrund der erwarteten Neuschneemengen werden typischerweise Lawinen der Größe 2 erwartet. </avActivityComment>
+          <snowpackStructureComment>Frischer Triebschnee und Neuschnee überdecken den Oberflächenreif, welcher sich in den letzten 2 Tagen gebildet hat. Das Schneedeckenfundament ist stabil (hart bzw. eisig). In den tiefen und mittleren Lagen werden apere Flächen wieder überdeckt. </snowpackStructureComment>
+          <wxSynopsisComment>Montag: Die Berge stecken weiterhin in Wolken und immer wieder ist mit Schneefall zu rechnen, am meisten schneit es in den nördlichen Staulagen  in den Ybbstaler und Türnitzer Alpen. Es werden bis Sonntag am Abend bis zu 20cm Neuschnee erwartet. Der Wind bläst auf den Bergen lebhaft bis stark aus Nordwest bis Nord. In 1500m Seehöhe bewegen sich die Temperaturen tagsüber um minus 5 Grad.&#13;
+Dienstag: Die letzten Schneeflocken sind in den Ybbstaler Alpen noch in der Früh zu erwarten. Danach bleibt es niederschlagsfrei und mit steigendem Luftdruck lösen sich die Wolkenreste am Vormittag immer mehr auf.</wxSynopsisComment>
+          <tendencyComment>Die mäßige Lawinengefahr bleibt am Dienstag noch erhalten. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1340RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1340RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr in den Gutensteiner Alpen, im Rax- Schneeberggebiet und am Wechsel wird mit gering beurteilt. Gefahrenstellen in Form von Triebschneelinsen haben sich  kleinräumig eher kammnah hinter Geländekanten sowie in Rinnen und Mulden gebildet. Vorsicht in den Expositionen Süd und Ost! Eine Auslösung eines Schneebrettes ist bei großer Zusatzbelastung nicht ausgeschlossen. </avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist hart, kompakt und teilweise vereist. An der Schneedeckenoberfläche liegt Oberflächenreif oder eine weiche Schicht. Der Oberflächenreif wird mit Triebschnee bzw. Neuschnee überdeckt. Die Neuschneemengen sind jedoch noch nicht lawinenrelevant. In den Gutensteiner Alpen lagert sich der Neuschnee meist auf apere Flächen ab. </snowpackStructureComment>
+          <wxSynopsisComment>Montag: Die Berge stecken weiterhin in Wolken und immer wieder ist mit Schneefall zu rechnen. Große Neuschneemengen werden jedoch nicht erwartet. Am meisten Schnee (bis zu 15cm) gibt es  in den Gutensteiner Alpen. Am Nachmittag wird der Schneefall am Alpenostrand seltener. Der Wind bläst auf den Bergen lebhaft bis stark aus Nordwest bis Nord. In 1500m Seehöhe bewegen sich die Temperaturen tagsüber um minus 5 Grad.&#13;
+Am Dienstag bleibt es in den östlichen Gebirgsgruppen niederschlagsfrei. Die Wolkenreste am Vormittag lösen sich auf und es wird sonnig. Der Wind weht lebhaft aus Nordwest. Es bleibt kalt.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

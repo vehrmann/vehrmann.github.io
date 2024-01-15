@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID838RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID838RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagsüber kühlt es ab und es fallen ein paar Zentimeter Schnee</avActivityHighlights>
+          <avActivityComment>Günstige Lawinensituation. Gefahrenstellen gibt es nur vereinzelt. Am Vormittag ist eine kleine Nassschnee- oder Gleitschneelawine möglich. Am Nachmittag bilden sich einzelne kammnahe Triebschneeschollen.</avActivityComment>
+          <snowpackStructureComment>Gut gesetzte und kompakte Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag nur in der Früh noch kurze Sonnenfenster, in 1500m hat es +4 Grad. Rasch breiten sich mit stark auffrischendem Westwind dichte Wolken aus und hüllen die Berge in Nebel. Einzelne Regenschauer sind am Vormittag möglich, diese gehen rasch in Schneeschauer über und bringen einen Temperatursturz von 5 bis 10 Grad. Am Nachmittag schneit es zeitweise (Neuschneemenge 3 bis 10 cm).</wxSynopsisComment>
+          <tendencyComment>Mit Neuschnee und Wind Anstieg der Lawinengefahr - Triebschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+    </Bulletin>
+    <Bulletin gml:id="RID838RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID838RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-12T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-11T22:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-04-12T10:00:00+00:00</beginPosition>
+                  <endPosition>2021-04-12T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>die Anzahl der Gefahrenstellen nimmt im Tagesverlauf zu, kammnah und in Rinnen und Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Anzahl der Gefahrenstellen nimmt im Tagesverlauf zu.</avActivityHighlights>
+          <avActivityComment>Am Vormittag herrscht GERINE Lawinengefahr: Vereinzelte kleine Nasschnee- oder Gleitschneelawinen. In hohen Lagen nordseitig kleines Triebschneeproblem.&#13;
+Am Nachmittag steigt die Lawinengefahr oberhalb etwa 1800 m auf MÄßIG an. Neuschnee und Wind bilden frischen Triebschnee, der kammnah im N über O bis S seitigem Gelände und in eingewehten Rinnen als dünnes Schneebrett oder Triebschneeschollen ausgelöst werden kann.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt und kompakt und schließt oft mit einem Harschdeckel ab. Auf diese Unterlage fallen tagsüber 5 bis 10 cm Neuschnee mit viel Wind. Neuschnee und Triebschnee binden in mittleren Lagen meist gut mit der Altschneedecke. Mit zunehmender Höhe wird die Verbindung zur Altschneedecke schlechter.</snowpackStructureComment>
+          <wxSynopsisComment>Kaltfrontdurchgang am späten Vormittag bzw. zu Mittag: Die Berge gelangen rasch mehr und mehr in Wolken und Nebel. Es regnet und schneit zeitweise, wobei der Regen schnell in Schneefall übergeht. Am Nachmittag werden die Schneeschauer häufiger. Zu Tagesbeginn hat es in 2000 m um 0 Grad. Tagsüber frischt kräftiger Nordwestwind auf und führt zu einem Temperatursturz um 5 bis 10 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit Neuschnee und Wind steigt die Lawinengefahr - Triebschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID838RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID838RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagsüber kühlt es ab und es fallen ein paar Zentimeter Schnee</avActivityHighlights>
+          <avActivityComment>Günstige Lawinensituation. Gefahrenstellen gibt es nur vereinzelt. Am Vormittag ist eine kleine Nassschnee- oder Gleitschneelawine möglich. Am Nachmittag bilden sich einzelne kammnahe Einwehungen.</avActivityComment>
+          <snowpackStructureComment>Gut gesetzte und kompakte Schneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag kann bis Mittag noch zeitweise die Sonne scheinen. Am Nachmittag verdichten sich die Wolken und hüllen die Berge in Nebel. Kräftiger Nordwestwind, der einen Temperatursturz und Schneeschauer bringt, frischt auf.</wxSynopsisComment>
+          <tendencyComment>Mit Neuschnee und Wind Anstieg der Lawinengefahr - Triebschneeproblem.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID838RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-11T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID838RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-11T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-12T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden, kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>bei Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Der Föhn bricht zusammen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. In mittleren Lagen können vor allem bei Regen kleine oder mittlere Nasschnee- oder Gleitschneelawinen abgehen. In hohen und hochalpinen Lagen ist der Triebschnee zu beachten. Nordseitig der Föhntriebschnee der letzten Tage, ost- und südseitig der frische Triebschnee, der sich am Nachmittag bildet. Der Föhntriebschnee benötigt meist große Zusatzbelastung für eine Schneebrettauslösung. Der frische Triebschnee kann mit geringer Zusatzbelastung ausgelöst werden, ist vorerst aber noch geringmächtig.</avActivityComment>
+          <snowpackStructureComment>Kompakte und gut gesetzte Schneedecke. Harschdeckel dominieren.</snowpackStructureComment>
+          <wxSynopsisComment>Der Föhn bricht bis Mittag zusammen. Am Nachmittag kommt kräftiger Nordwestwind auf. Die Sicht wird oft eingeschränkt und zeitweise schneit es, bis Mittag fällt in mittleren Lagen noch Regen. Die Temperaturen sinken in 2000 m von 0 auf -8 Grad, in 3000 m von -5 auf -13 Grad.</wxSynopsisComment>
+          <tendencyComment>Ergiebiger Neuschnee und Wind bringen einen deutlichen Anstiger der Lawinengefahr in den Hochlagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

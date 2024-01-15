@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2314RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2314RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen aller Richtungen, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Waldgrenze durch Triebschnee in allen Expositionen!</avActivityHighlights>
+          <avActivityComment>In den nördlichen und westlichen Bergregionen der Steiermark herrscht oberhalb der Waldgrenze mäßige Lawinengefahr. An einigen Gefahrenstellen können durch Zusatzbelastung Schneebrettlawinen ausgelöst werden. Diese Gefahrenstellen sind Triebschneeansammlungen hinter Geländekanten und in Einfahrtsbereichen zu Rinnen und Mulden aller Expositionen. Aufgrund des Altschneeproblems gibt es im extremen Steilgelände der Nordsektoren zusätzlich vereinzelte Gefahrenstellen, die - anders als beim Triebschneeproblem - oberflächlich nicht gut erkennbar sind.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist noch geringmächtig und immer wieder durchbrochen, aber durch eine Abfolge von Schmelzkrusten und weichen Schichten mit kantigen Kristallen relativ instabil (Altschneeproblem). Teilweise hat sich Oberflächenreif gebildet. Unterhalb von etwa 1500 m fehlt im Norden der Steiermark noch ein durchgängiges Schneedeckenfundament. Seit Freitag sind 20 bis 40 cm kalter Neuschnee gefallen, der durch kräftigen Wind aus Nord bis Südwest in Rinnen, Mulden, Waldrandbereiche und generell in den Ost- bis Südsektor verlagert wurde. Seit Mittwoch ist zusätzlich auch der Nordsektor von Triebschnee betroffen. Vielerorts ist aber nach wie vor ungebundener Pulverschnee zu finden. Exponierte Bereiche sind abgeweht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch präsentiert sich der Himmel in der Steiermark großteils bewölkt, nur im Süden kommt immer wieder die Sonne durch.  Es bleibt aber weitgehend niederschlagsfrei. Die Wolkenuntergrenze liegt meist über dem Gipfelniveau, wodurch die Sichtbedingungen kaum eingeschränkt sind. Die Temperatur steigt in 2000 m von etwa -10 Grad in der Früh auf +1 Grad am Nachmittag, wobei die Erwärmung im Westen früher einsetzt, als im Osten. Der Wind weht im Westen mäßig, im Osten zunehmend kräftig aus Süd bis Südwest. &#13;
+Am Donnerstag bleibt es mild, im Norden der Steiermark kommt aber kräftiger Westwind auf und es kann ein wenig schneien. Am Freitag erreicht uns dann die nächste Störung mit sinkenden Temperaturen und Neuschnee in den Nordstaugebieten. </wxSynopsisComment>
+          <tendencyComment>Die Erwärmung kann kurzzeitig zu kleinen, spontaner Lawinenabgängen und Wechtenbrüchen führen, das Triebschneeproblem entspannt sich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2314RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2314RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist im Randgebirge gering, jedoch gibt es vereinzelt Gefahrenstellen, an denen kleinere Schneebrettlawinen ausgelöst werden können. Diese Gefahrenstellen sind frische Triebschneebereiche in Kammnähe, hinter Geländekanten und in Einfahrten zu steilen Rinnen und Mulden. Es sind aber keine großen Lawinen zu erwarten. </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist noch geringmächtig und immer wieder durchbrochen, aber durch eine Abfolge von Schmelzkrusten und weichen Schichten mit kantigen Kristallen relativ instabil (Altenschneeproblem). Teilweise hat sich Oberflächenreif gebildet. Seit Freitag sind darauf 20 bis 30 cm kalter Neuschnee gefallen, der durch mäßigen Wind aus Nord bis Südwest teilweise in Rinnen und Mulden verlagert wurde. Vielerorts ist aber nach wie vor ungebundener Pulverschnee zu finden. Exponierte Bereiche sind abgeweht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch präsentiert sich der Himmel in der Steiermark großteils bewölkt, nur im Süden kommt immer wieder die Sonne durch.  Es bleibt aber weitgehend niederschlagsfrei. Die Wolkenuntergrenze liegt meist über dem Gipfelniveau, wodurch die Sichtbedingungen kaum eingeschränkt sind. Die Temperatur steigt in 2000 m von etwa -10 Grad in der Früh auf +1 Grad am Nachmittag, wobei die Erwärmung im Westen früher einsetzt, als im Osten. Der Wind weht im Westen mäßig, im Osten zunehmend kräftig aus Süd bis Südwest. &#13;
+Am Donnerstag bleibt es mild, im Norden der Steiermark kommt aber kräftiger Westwind auf und es kann ein wenig schneien. Am Freitag erreicht uns dann die nächste Störung mit sinkenden Temperaturen und Neuschnee in den Nordstaugebieten. </wxSynopsisComment>
+          <tendencyComment>Die Erwärmung kann kurzzeitig zu kleinen, spontaner Lawinenabgängen führen, das Triebschneeproblem entspannt sich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

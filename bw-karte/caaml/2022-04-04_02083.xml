@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2083RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-04T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2083RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-04T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-05T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>durch Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bis in die mittleren Lagen mäßiges Nassschnee- darüber Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>&#13;
+Durch etwas Regen bis in die mittleren Lagen sind je nach Schneelage kleine bis mittlere Nassschneelawinen im Steilgelände zu erwarten. Ab der Waldgrenze und vor allem hochalpin sind nordost- bis südseitig Triebschneeablagerungen vorhanden, die im Steilgelände bei geringer Zusatzbelastung ausgelöst werden können. Auf Grundlawinen ist zu achten und Hänge mit Rissen in der Schneedecke sollten gemieden werden.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Der zuletzt gefallene auf einer kompakten, oft schon feuchten Altschneedecke liegende Neuschnee wird mit dem Regen bis in mittlere Lagen oberflächig feucht bis nass und die Schneedecke verliert somit an Festigkeit. Vor allem in den höheren Lagen ist teils störanfälliger älterer aber auch frischer Triebschnee vorhanden, der ungenügend mit der verharschten Altschneedecke bindet oder auf weicheren Schichten liegt. Exponierte Gipfel- und Kammlagen sind oft abgeweht, hart und eisig.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht auf den Bergen von der Früh weg durch dichte Wolken eingeschränkt, dazu kommen Regen und Schneefall. Die Schneefallgrenze steigt im Tagesverlauf von Talnähe auf etwa 1400 m. Es weht starker bis stürmischer Wind aus West bis Nordwest. Temperaturen in 1500 m um 0 Grad, in 2000 m um -2 Grad.&#13;
+Am Mittwoch herrscht auf den Bergen von der Früh weg günstiges Bergwetter mit viel Sonnenschein, dünnen Schleierwolken und guten Sichtverhältnissen. Am späteren Nachmittag entstehen in den Salzkammergutbergen größere Quellwolken und in weiterer Folge auch einzelne Regenschauer. Der Wind weht mäßig stark aus westlichen Richtungen. Temperaturen in 1500 m um 5 Grad, in 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>&#13;
+Es wird deutlich milder und am Nachmittag gibt es Regenschauer. Triebschnee und spontane Lawinenaktivitäten beachten.&#13;
+</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

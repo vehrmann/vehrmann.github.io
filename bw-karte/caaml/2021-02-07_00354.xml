@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID354RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID354RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe, oberhalb der Waldgrenze mäßige Lawinengefahr. Nächtlicher Regen kann zunächst noch zu Rutschungen führen, in der Folge wird es jedoch rasch kälter und die Schneefallgrenze sinkt kontinuierlich ab. In den Hochlagen entstehen durch die Windeinwirkung und etwas Neuschnee vorwiegend in den Expositionen Nord über Ost bis Süd frische Triebschneelinsen. Sie sind im Sinne der Schneebrettgefahr vor allem hinter Geländeübergängen und in Rinnen und Mulden - insbesondere in deren Einfahrtsbereichen - zu beachten. Zudem besteht in schattseitigen Hochlagen nach wie vor ein Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>Zunächst sorgen milde Temperaturen und  der nächtliche Regen für einen zusätzlichen Feuchtigkeitseintrag, in der Folge wird es kälter und es fällt Neuschnee. In den Hochlagen bilden sich mit dem starken Westwind Triebschneelinsen, die mit dem Untergrund nicht gut binden. Zudem konnten in schattigen Hochlagen noch Schwachschichten innerhalb der Altschneedecke überdauern.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Sonntag auf Montag sinkt die Schneefallgrenze kontinuierlich ab und somit schneit es bis in tiefere Lagen. Montagmorgen klingen die Niederschläge weitgehend ab, es dominieren aber auch weiterhin dichtere Wolken, aus denen es ab Mittag neuerlich leicht schneien kann. Der Wind dreht und weht am Montag stark aus westlichen bis nordwestlichen Richtungen. Damit gehen auch die Temperaturen spürbar zurück, die Mittagswerte liegen in 1000m bei -1, in 1500m bei -5 und in 2000m bei -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag überwiegen Wolken und es kann zeitweise etwas schneien. Der in der Nacht zum Teil starke bis stürmische Wind aus südwestlichen Richtungen lässt tagsüber nach und weht mäßig bis stark aus westlichen bis nordwestlichen Richtungen. Die Temperaturen liegen in 1500m um Mittag bei -4 Grad. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID354RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID354RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr.</avActivityHighlights>
+          <avActivityComment>In den Türnitzer Alpen herrscht geringe Lawinengefahr. Nächtlicher Regen kann die Schneedecke destabilisieren und zu Rutschungen führen, allerdings geht mit den rückläufigen Temperaturen die Nassschneeproblematik in der Folge zurück. Mit sinkender Schneefallgrenze wird bei Westwind etwas Neuschnee fallen, allerdings sind die erwarteten Mengen kaum lawinenrelevant.</avActivityComment>
+          <snowpackStructureComment>Durch die milden Temperaturen wurde die Schneedecke durchfeuchtet. Der zusätzliche Nässeeintrag durch den nächtlichen Regen kann die Schneedecke zunächst noch destabilisieren, bevor die Temperaturen zurückgehen und in der Folge etwas Neuschnee fällt.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Sonntag auf Montag sinkt die Schneefallgrenze kontinuierlich ab und somit schneit es bis in tiefere Lagen. Montagmorgen klingen die Niederschläge weitgehend ab, es dominieren aber auch weiterhin dichtere Wolken, aus denen es ab Mittag neuerlich leicht schneien kann. Der Wind dreht und weht am Montag stark aus westlichen bis nordwestlichen Richtungen. Damit gehen auch die Temperaturen spürbar zurück, die Mittagswerte liegen in 1000m bei -1 und in 1500m bei -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag überwiegen Wolken und es kann zeitweise etwas schneien. Der in der Nacht zum Teil starke bis stürmische Wind aus südwestlichen Richtungen lässt tagsüber nach und weht mäßig bis stark aus westlichen bis nordwestlichen Richtungen. Die Temperaturen liegen in 1500m um Mittag bei -4 Grad. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

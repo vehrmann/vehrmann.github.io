@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID639RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID639RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den höheren Lagen herrscht erhebliche Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den höheren Bereichen herrscht erhebliche Lawinengefahr. Durch den bei Windeinfluss gefallenen Neuschnee sind frische Triebschneebereiche entstanden bzw. entstehen laufend neu. Gefahrenstellen befinden sich in Bereichen von Geländeübergängen sowie in Rinnen und Mulden inklusive deren Einfahrten, bei stärkerer Windeinwirkung selbst in kammferneren Geländeabschnitten. Am stärksten sind die Expositionen von Nord über Ost bis Süd von Einwehungen betroffenen. Es kann bereits die geringe Zusatzbelastung eines einzelnen Tourengehers zu einer Schneebrettauslösung führen. Zudem kann sich die frische Auflage aus Neu- und Triebschnee im Steilgelände spontan lösen.</avActivityComment>
+          <snowpackStructureComment>In den vorangegangenen Tagen ist es laufend zu Schneezuwächsen gekommen, in den Ybbstaler Alpen wurden Pegelanstiege bis zu einem halben Meter verzeichnet, weiter ostwärts fielen die Mengen geringer aus. Ein paar Zentimeter Neuschnee werden für den Donnerstag noch erwartet. Durch den stürmischen Wind hat sich frischer Triebschnee gebildet, der weichere Einlagerungen, Graupel, mittlerweile ältere Verfrachtungen oder verharschten Altschnee mit ungünstiger Bindung überdeckt und somit störanfällig ist. Die Altschneedecke ist hingegen weitestgehend verharscht und stabil.</snowpackStructureComment>
+          <wxSynopsisComment>In den Niederösterreichischen Alpen dominieren über weite Strecken die Wolken, aus denen es immer wieder schneien kann. Einmal mehr liegt der Niederschlagsschwerpunkt in den Ybbstaler Alpen, weiter ostwärts schneit es seltener und weniger, hier sind zudem auch kurzzeitige Auflockerungen möglich. Die Temperaturen liegen in 1000m bei -3 Grad, in 1500m bei -8 Grad und in 2000m bei -12 Grad. Der Wind lässt etwas nach und weht mäßig bis stark aus überwiegend nördlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>Auch am Freitag überwiegen noch die Wolken und es ist mit Schneeschauern zu rechnen. Der Wind lässt bei Mittagstemperaturen um -7 Grad in 1500m zwar weiter nach, dennoch sollte im Hinblick auf die Lawinengefahr der entstandene Triebschnee beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID639RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID639RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-17T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es besteht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet. Durch Neuschnee und Wind sind stellenweise Triebschneelinsen entstanden. Somit existieren vereinzelte Gefahrenstellen hinter Geländekanten in den höheren, windbeeinflussten Lagen.</avActivityComment>
+          <snowpackStructureComment>In den vorangegangenen Tagen kam es immer wieder zu Schneezuwächsen, auch am Donnerstag wird es noch etwas schneien. Die Mengen fielen in den Türnitzer Alpen ergiebiger aus als weiter Richtung Osten. Der Neuschnee lagerte sich auf zuvor ausgeaperten Böden oder stabilen Altschneeresten in höheren Lagen ab. Durch die Windeinwirkung sind in den Hochlagen frische, meist jedoch geringmächtige Triebschneelinsen entstanden, in den tieferen Bereichen wurde der Schnee bereits feucht.</snowpackStructureComment>
+          <wxSynopsisComment>In den Niederösterreichischen Alpen dominieren über weite Strecken die Wolken, aus denen es immer wieder schneien kann. Einmal mehr liegt der Niederschlagsschwerpunkt in den Ybbstaler Alpen, weiter ostwärts schneit es seltener und weniger, hier sind zudem auch kurzzeitige Auflockerungen möglich. Die Temperaturen liegen in 1000m bei -3 Grad, in 1500m bei -8 Grad und in 2000m bei -12 Grad. Der Wind lässt etwas nach und weht mäßig bis stark aus überwiegend nördlichen Richtungen.</wxSynopsisComment>
+          <tendencyComment>Auch am Freitag überwiegen noch die Wolken und es ist mit Schneeschauern zu rechnen. Der Wind lässt bei Mittagstemperaturen um -7 Grad in 1500m zwar weiter nach, dennoch sollte im Hinblick auf die Lawinengefahr der entstandene Triebschnee beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

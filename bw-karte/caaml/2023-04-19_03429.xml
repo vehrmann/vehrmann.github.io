@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3429RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3429RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in den Hochlagen, frischer durch Südwind, älterer ost- und südseitig</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontanen Lawinenaktivität bis mittlere Lagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem in den mittleren Lagen und in den Hochlagen Triebschnee meiden!</avActivityHighlights>
+          <avActivityComment>Mäßige Lawinengefahr über rund 1400 m. Zu beachten ist stellenweise älterer Triebschnee im Ost- und Südsektor der Hochlagen, der noch gestört werden könnte. Durch zunehmenden Wind um Süd wird sich hochgelegen während des Tages frischer Triebschnee bilden, der zu meiden ist. Gefahrenstellen treten dann meist in kammnahen Steilhängen auf. Durch steigende Temperaturen sind aus steilen Hängen spontane Nass- und Gleitschneelawinen möglich. Zu beachten sind nicht entladende Hänge der mittleren Lagen und stellenweise tiefen Lagen wo nach ausreichend Schnee vorhanden ist.</avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Donnerstag gibt es etwas Neuschnee. Der Wind dreht dann auf Süd und legt am Donnerstag zu. Somit kann sich vor allem in den Hochlagen frischer störanfälliger Triebschnee bilden. Hochgelegen ist auch noch älterer Triebschnee vorhanden, der noch Schwachschichten enthalten kann. Durch milderer Temperaturen im Tagesverlauf wird der Schnee im Tagesverlauf in den mittleren Lagen feucht bis nass. Der Schnee vom vergangen Wochenende konnte sich schon deutlich setzen.</snowpackStructureComment>
+          <wxSynopsisComment>Vorerst schneit und regnet es am Donnerstag noch. Im Lauf des Vormittags klingt der Niederschlag ab, am Nachmittag lockern die Wolken auf. In den Hochlagen kommt zum Teil starker Süd- bis Südostwind auf. Die Temperaturen steigen am Vormittag deutlich an. In 1500 m beträgt die Temperatur -1 bis 4 Grad, in 2000 m -4 bis 0 Grad.&#13;
+Am Freitag wechseln Wolken und Sonnenschein. Im Bereich der Kalkalpen kann es am Nachmittag einzelne leichte Schauer aus Quellwolken geben. In den Hochlagen weht zum Teil lebhafter Wind aus südlichen Richtungen. In 1500 m steigt die Temperatur von 5 auf 7 Grad, in 2000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschneeproblem und sehr hochgelegen Triebschnee beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3429RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-19T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3429RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-19T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-20T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dort wo ausreichend Schnee vorhanden ist</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einzelne Gefahrenstellen - geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Überwiegend geringe Lawinengefahr. Aus nicht entladenem Steilgelände sind, durch steigende Temperaturen einzelne spontane Nass- und Gleitschneelawinen aus dem Steilgelände möglich. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke und ältere kammnahe Triebschneeablagerungen konnten sich schon deutlich setzen. Die Schneedecke wird nach etwas Neuschnee durch mildere Temperaturen im Tagesverlauf feucht bis nass. </snowpackStructureComment>
+          <wxSynopsisComment>Vorerst schneit und regnet es am Donnerstag noch. Im Lauf des Vormittags klingt der Niederschlag ab, am Nachmittag lockern die Wolken auf. In den Hochlagen kommt zum Teil starker Süd- bis Südostwind auf. Die Temperaturen steigen am Vormittag deutlich an. In 1500 m beträgt die Temperatur -1 bis 4 Grad, in 2000 m -4 bis 0 Grad.&#13;
+Am Freitag wechseln Wolken und Sonnenschein. Im Bereich der Kalkalpen kann es am Nachmittag einzelne leichte Schauer aus Quellwolken geben. In den Hochlagen weht zum Teil lebhafter Wind aus südlichen Richtungen. In 1500 m steigt die Temperatur von 5 auf 7 Grad, in 2000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Auf Nassschneelawinen ist zu achten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

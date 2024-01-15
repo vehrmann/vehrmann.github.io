@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3318RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-05T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3318RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-05T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-06T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Bereiche unterhalb von Gleitschneerissen meiden.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen im extrem steilen Gelände</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING.&#13;
+Es geht eine geringe Gefährdung durch spontane Gleitschneelawinen aus, die aus extrem steilem und noch nicht entladenem Grasmattengelände jederzeit abgehen können.&#13;
+Aufgrund von Triebschnee gibt es nur sehr wenige, kleinräumige Gefahrenstellen. Kleine Schneebretter sind am ehesten im extrem steilen, kammnahen Gelände insbesondere bei großer Zusatzbelastung auslösbar.</avActivityComment>
+          <snowpackStructureComment>Auf einer durchfeuchteten Altschneedecke liegen je nach Höhenlage einige Zentimeter gesetzter Neuschnee. In exponierten Bereichen gibt es kleinräumig geringmächtigen Triebschnee durch Wind aus West bis Nord. Hinweise auf Schwachschichten innerhalb der Schneedecke gibt es nicht, einziger Schwachpunkt ist das schwache Schneedeckenfundament.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag zeigt sich oft die Sonne, abschnittsweise machen sich aber auch etwas mehr Wolkenfelder bemerkbar. Es bleibt jedoch trocken. Die Sicht ist gut, kann aber in mittleren Lagen örtlich ein wenig eingeschränkt sein. Der Wind weht schwach bis mäßig aus nordwestlichen Richtungen. In 2000m -7 bis -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3318RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-05T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3318RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-05T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-06T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mögliche Schwachschicht hochalpin an Harsch- oder Eiskrusten, verborgen unter Neu-/Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>Vermeide Triebschneeablagerungen in steilem Gelände, insbesondere an Übergängen von wenig zu viel Schnee.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Einzelne Gefahrenstellen im Altschnee, Vorsicht vor Triebschnee in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 2500m MÄSSIG, darunter GERING. &#13;
+Einzelne Gefahrenstellen für Schneebrettlawinen befinden sich an sehr steilen Hängen aller Expositionen. Dort können Lawinen mittlerer Größe mit meist großer Zusatzbelastung im Altschnee ausgelöst werden. Triebschneeablagerungen befinden sich kammnah und in Rinnen und Mulden, speziell im Südsektor. Eine Auslösung, meist kleiner Schneebrettlawinen, ist dort bereits bei geringer Zusatzbelastung möglich. Sie können aber in tiefere Schichten durchreißen und dann mittlere Größe erreichen.&#13;
+Unterhalb von 2400m sind vereinzelt kleine bis mittlere Gleitschneelawinen nicht ausgeschlossen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der letzten Tage hat sich durch Sonneneinstrahlung zwischen und nach den Schneefällen schnell setzen können. Stellenweise hat sich eine oberflächliche Harschkruste ausgebildet. Teilweise ist Triebschnee auf einer lockeren Schicht zu liegen gekommen. Dort sind Bruchauslösungen möglich. &#13;
+In den Hochlagen liegen rund 10 bis 20cm gesetzter Neuschnee. Die Verbindung vom Neuschnee zur Unterlage wird mit zunehmender Höhe ungünstiger. Schwachschichten im Altschnee gibt es am ehesten an den Harschkrusten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag zeigt sich oft die Sonne, abschnittsweise machen sich aber auch etwas mehr Wolkenfelder bemerkbar. Es bleibt jedoch trocken. Die Sicht ist gut, kann aber in mittleren Lagen örtlich ein wenig eingeschränkt sein. Der Wind weht schwach bis mäßig aus nordwestlichen Richtungen. In 2000m -7 bis -5 Grad, in 3000m um -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit Neuschnee steigt die Triebschneeproblematik etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-14"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3318RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-05T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3318RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-05T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-06T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vorsicht an sehr steilen Hängen, besonders an Übergängen von wenig zu viel Schnee.</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen im extremen Steilgelände</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. &#13;
+Es gibt nur sehr wenige und kleinräumige Gefahrenstellen durch das schwache Altschneefundament, auf dem spontane Lawinen aus extremem Steilgelände möglich sind. Triebschnee kann nur noch  im extrem steilen, kammnahen Gelände bei großer Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist bis in die Hochlagen durchfeuchtet und bodennah durch aufbauende Umwandlung geschwächt. Der wenige Neuschnee der Vorwoche ist gesetzt und durch die kräftige Frühlingssonne oberflächlich zum Teil verharscht. Die Sonneneinstrahlung weicht die Schneedecke untertags wieder auf. In exponierten Bereichen gibt es geringmächtigen Triebschnee durch Wind aus West bis Nord.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag zeigt sich oft die Sonne, abschnittsweise machen sich aber auch etwas mehr Wolkenfelder bemerkbar. Es bleibt jedoch trocken. Die Sicht ist gut, kann aber in mittleren Lagen örtlich ein wenig eingeschränkt sein. Der Wind weht schwach bis mäßig aus nordwestlichen Richtungen. In 2000m -7 bis -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

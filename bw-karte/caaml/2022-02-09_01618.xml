@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1618RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-09T06:28:45+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1618RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-09T06:28:45+00:00</beginPosition>
+          <endPosition>2022-02-10T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Kammlagen, eingewehtem Steilgelände, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>über 1800m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfällige Triebschneeansammlungen beachten</avActivityHighlights>
+          <avActivityComment>Mit dem stürmischen Wind sind in den letzten Tagen umfangreiche Triebschneeansammlungen entstanden. Die Gefahrenstellen liegen vor allen in den Expositionen West über Nord bis Ost über 1800m in Kammlagen, eingewehtem Steilgelände, Rinnen und Mulden, sowie an Übergängen von wenig zu viel Schnee. Lawinen können bereits durch geringe Zusatzbelastungen ausgelöst werden. Lawinen können stellenweise auch die Altschneedecke mitreißen und groß werden. In der Altschneedecke über 1800m sind störanfällige Zwischenschichten eingelagert, die besonders durch große Zusatzbelastung vor allem im schattseitigen Steilgelände noch ausgelöst werden können. Mit der tageszeitlichen Erwärmung und Sonneneinstrahlung steigt die Auslösebereitschaft von Schneebrettlawinen an sehr steilen Sonnenhängen etwas an. Aus sonnseitigen Fels- und Schrofengelände sind dann spontane Lockerschneelawinen zu erwarten. Aktivitäten abseits gesicherter Bereiche erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Mit der Erwärmung und Einstrahlung sind an steilen Grashängen unterhalb 2000m im Tagesverlauf Gleitschneelawinen und Rutsche zu erwarten.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Gestern gab es eine markante Erwärmung von bis zu 13 Grad. Mit der Sonneneinstrahlung konnte sich die Schneedecke vor allem an sonnenbeschienenen Hängen setzen und verfestigen. Die Nacht war sternenklar, durch die Abstrahlung konnte sich südseitig ein leichter Schmelzharschdeckel ausbilden. An sonnen-abgewandten Expositionen liegt noch lockerer Pulverschnee. Die Verbindung zu den in den letzten Tagen entstandenen mächtigen Triebschneeansammlungen zur darunterliegenden Altschneedecke ist teilweise noch schlecht und störanfällig. Vor allem in höheren Lagen der Expositionen West über Nord bis Ost liegt der Triebschnee auf weichen Schichten, die Verbindung ist schwach und Lawinen leicht auslösbar. In der Altschneedecke, vor allem in schattseitigen Lagen sind lockere Altschnee- und eingelagerte Graupelschichten zu finden, die vor allem bei größeren Zusatzbelastungen noch störanfällig sind.</snowpackStructureComment>
+          <wxSynopsisComment>Bei kräftigem Hochdruckeinfluss kündigt sich sonniges und sehr mildes Bergwetter an, der Himmel bleibt weitgehend wolkenlos. Die Nullgradgrenze steigt knapp über 3000m. Im Hochgebirge bleibt aber weiterhin recht windig aus West. Temperatur in 2000m: um +5 Grad, Höhenwind: lebhaft aus West.</wxSynopsisComment>
+          <tendencyComment>Mit der Erwärmung und Einstrahlung kann sich die Schneedecke weiter verfestigen. Die Lawinengefahr geht in den nächsten Tagen  langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

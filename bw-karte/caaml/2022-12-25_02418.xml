@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2418RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-25T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2418RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-25T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-26T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nach wie vor herrscht geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Niederösterreichischen Alpen herrscht weiterhin geringe Lawinengefahr. Gefahrenstellen sind aufgrund der dürftigen Schneelage kaum vorhanden.</avActivityComment>
+          <snowpackStructureComment>Durch die milde Witterung und durch Regen wurde die Schneedecke angefeuchtet bis durchnässt, in den Hochlagen ist sie hart, stellenweise auch eisig. Bedingt durch den überaus milden Wetterverlauf rund um Weihnachten wurden die ohnedies geringen Schneereserven weiter dezimiert bzw. ist je nach Höhenlage die vollständige Ausaperung weiter vorangeschritten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Stefanitag werden die Wolken im Tagesverlauf dichter, tagsüber bleibt es dabei jedoch noch niederschlagsfrei. Es ist bei Mittagstemperaturen um +7 Grad in 1500m und +3 Grad in 2000m noch sehr mild für die Jahreszeit. Der Wind legt zu und weht stürmisch aus westlichen Richtungen. Ab den Abendstunden ist mit leichten Niederschlägen zu rechnen.</wxSynopsisComment>
+          <tendencyComment>Auch in der Nacht auf den Dienstag kann es (bei sinkender Schneefallgrenze) leicht regnen oder etwas schneien. Letzte Niederschläge klingen am Dienstagmorgen bald ab und die Sonne kommt zum Vorschein. Zunächst ist noch mit überaus stürmischem Wind aus nordwestlichen Richtungen zu rechnen, er lässt im Tagesverlauf jedoch etwas nach. Die Temperaturen gehen deutlich zurück, die Mittagswerte liegen in 1500m bei -4 und in 2000m bei -7 Grad. Im Hinblick auf die Lawinensituation ändert sich nichts Wesentliches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

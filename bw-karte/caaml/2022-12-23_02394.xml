@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2394RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2394RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, hochalpin, oberhalb der Schneefallgrenze, stellenweise leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur aus steilen nicht entladenen Bereichen wo ausreichend Schnee vorhanden ist</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen ist das mäßige Triebschneeproblem zu beachten!</avActivityHighlights>
+          <avActivityComment>Im Steilgelände der Hochlagen, vor allem in den Kamm- und Gipfellagen sowie in Mulden, Rinnen und bei Geländeübergängen sind frische Triebschneeablagerungen, die durch Neuschnee und stürmischen Wind um West gebildet wurden, zu beachten. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Eine Auslösung von Schneebrettlawinen ist insbesondere durch große, vereinzelt auch durch geringe Zusatzbelastung möglich. Lawinen bis mittlerer Größe sind möglich. Nur mehr sehr selten sind aus regenbeeinflussten sehr steilen nicht entladenen Bereichen spontane nasse Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>In den Hochlagen haben sich durch Neuschnee und stürmischen Wind um West frische Triebschneeablagerungen gebildet, die noch nicht immer ausreichend mit der Altschneedecke binden. Mit den milden Temperaturen und der Einstrahlung kann sie die Schneedecke setzen. In den schattseitigen Hochlagen sind bodennahe kantige bindungslose Kristalle vorhanden, die das Schneedeckenfundament schwächen. Die Schneedecke wurde durch Regen bis teils in die Hochlagen hinauf an bzw. auch durchfeuchtet. In den höheren Lagen kann sich die Oberfläche mit der Abkühlung etwas festigen. Die Schneehöhen sind unterdurchschnittlich. Die tiefen Lagen sind überwiegend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag halten sich am Vormittag noch oft dichte Wolken mit unergiebigem Regen und Schneefall (Schneefallgrenze 1600 bis 1800 m). Ab Mittag setzt sich trockenes Wetter durch, die Sicht wird vorübergehend etwas besser. In 1500 m um 1 Grad, in 2000 m um -3 Grad. Der Wind weht in exponierten Lagen mit 40 bis 60 km/h aus westlicher Richtung.&#13;
+Am Sonntag halten sich an den Bergen in der Früh noch Restwolken, tagsüber bessert sich die Sicht aber rasch und die Sonne putzt sämtliche Wolken weg. Der Wind weht nur schwach und die Luft ist extrem mild: In 1500 m hat es zu Mittag 6 Grad und in 2000 m 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Schneebrettgefahr in den Hochlagen geht mit der Setzung der Schneedecke zurück. Mit den sehr milden Temperaturen und der Einstrahlung sind aus dem Steilgelände spontane Lockerschneelawinen möglich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2394RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2394RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-23T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>nur aus steilen nicht entladenen Bereichen wo ausreichend Schnee vorhanden ist</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Nur mehr vereinzelt sind aus sehr steilen nicht entladenen Bereichen spontane nasse Lawinen möglich. Auf Grund der unterdurchschnittlichen Schneehöhen sind die Tourenmöglichkeiten eingeschränkt.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke wurde durch Regen an bzw. auch durchfeuchtet. In den höheren Lagen kann sich die Oberfläche mit der Abkühlung im Tagesverlauf etwas festigen. Die Schneehöhen sind unterdurchschnittlich. Die tiefen Lagen sind überwiegend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag halten sich am Vormittag noch oft dichte Wolken mit unergiebigem Regen und Schneefall (Schneefallgrenze 1600 bis 1800 m). Ab Mittag setzt sich trockenes Wetter durch, die Sicht wird vorübergehend etwas besser. In 1500 m um 1 Grad, in 2000 m um -3 Grad. Der Wind weht in exponierten Lagen mit 40 bis 60 km/h aus westlicher Richtung.&#13;
+Am Sonntag halten sich an den Bergen in der Früh noch Restwolken, tagsüber bessert sich die Sicht aber rasch und die Sonne putzt sämtliche Wolken weg. Der Wind weht nur schwach und die Luft ist extrem mild: In 1500 m hat es zu Mittag 6 Grad und in 2000 m 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentlich Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

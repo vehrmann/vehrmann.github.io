@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID190RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID190RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee, kalt und sehr locker, auf ungünstiger Unterlage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee auf ungünstiger Unterlage</avActivityHighlights>
+          <avActivityComment>ERHEBLICHE Schneebrettgefahr oberhalb der Waldgrenze! Gefahrenstellen durch frischen Triebschnee gibt es sowohl kammnah als auch kammfern, bevorzugt in Steilhängen der Sektoren von Nord über Ost bis Südwest, in steilen Rinnen und Mulden und im lichten Hochwald. Eine Auslösung ist an vielen Stellen bereits bei geringer Zusatzbelastung möglich. Lawinen können mittlere, vereinzelt auch große Ausmaße annehmen und in den Hochlagen Staubanteil entwickeln. Touren und Variantenfahrten erfordern Erfahrung in der Lawinenbeurteilung und auch sehr gute Geländekenntnis, da schlechte Sicht die Gefahreneinschätzung erschwert.</avActivityComment>
+          <snowpackStructureComment>Von Dienstag bis Donnerstagfrüh fallen verbreitet 20 bis 40 cm, in der Venedigergruppe mitunter bis zu 60 cm sehr kalter, trockener Neuschnee. Tagsüber kommen nochmals 10 bis 20 cm dazu. Der Neuschnee wurde und wird von starkem bis stürmischem Wind aus West bis Nord umfangreich in Rinnen, Mulden und generell auf die Ost- und Südseiten verfrachtet. Exponierte Bereiche sind abgeweht und hart. Sonst ist die Unterlage für Neu- und Triebschnee vielfach kalter, aufbauend umgewandelter Pulver, in kammfernen, windberuhigten Bereichen auch Oberflächenreif. Die Störanfälligkeit des gebundenen Schnees ist auf dieser Unterlage hoch. Eine weitere Bruchfläche bilden kantige Kristallformen unter Wind- und Schmelzharschkrusten.</snowpackStructureComment>
+          <wxSynopsisComment>Das Licht ist häufig diffus oder die Sicht durch Wolken, Nebel und Schneetreiben eingeschränkt. Der Westwind erreicht in den Hochlagen der Tauern Spitzen über 100 km/h am Vormittag. In den Nordalpen weht er mit Böen bis 80 km/h. Am Nachmittag wird der Schneefall seltener, es gibt längere trockene Abschnitte. Die Sicht wird aber nur zaghaft besser. Temperaturen in 2000 m um -13 Grad, in 3000 m um -20 Grad.</wxSynopsisComment>
+          <tendencyComment>Sonnig mit leichter Frostabschwächung und nur schwachem Wind am Freitag. Ausgeprägtes Triebschneeproblem mit weiterhin teils ERHEBLICHER Schneebrettgefahr. Zurückhaltung und Erfahrung bleiben abseits der gesicherten Räumen wichtig!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID190RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID190RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, in Rinnen und steilen Mulden, vom lichten Hochwald aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Störanfälliger Triebschnee</avActivityHighlights>
+          <avActivityComment>ERHEBLICHE Schneebrettgefahr oberhalb der Waldgrenze! Gefahrenstellen durch frischen Triebschnee gibt es sowohl kammnah als auch kammfern, bevorzugt in Steilhängen der Sektoren von Nord über Ost bis Südwest, in steilen Rinnen und Mulden und im lichten Hochwald. Eine Auslösung ist an vielen Stellen bereits bei geringer Zusatzbelastung möglich. Lawinen können mittlere, vereinzelt auch große Ausmaße annehmen und in den Hochlagen Staubanteil entwickeln. Touren und Variantenfahrten erfordern Erfahrung in der Lawinenbeurteilung und auch sehr gute Geländekenntnis, da schlechte Sicht die Gefahreneinschätzung erschwert.</avActivityComment>
+          <snowpackStructureComment>Von Dienstag bis Donnerstagfrüh fallen verbreitet 20 bis 40 cm sehr kalter, trockener Neuschnee, in den südlichen Niederen Tauern 10 bis 20 cm. Tagsüber kommen nur noch wenige Zentimeter dazu. Der Neuschnee wurde und wird von starkem bis stürmischem Wind aus West bis Nord umfangreich in Rinnen, Mulden und generell auf die Ost- und Südseiten verfrachtet. Exponierte Bereiche sind abgeweht und hart. Sonst ist die Unterlage für Neu- und Triebschnee vielfach kalter, aufbauend umgewandelter Pulver, in kammfernen, windberuhigten Bereichen auch Oberflächenreif. Die Störanfälligkeit des gebundenen Schnees ist auf dieser Unterlage hoch. Eine weitere Bruchfläche bilden kantige Kristallformen unter Wind- und Schmelzharschkrusten.</snowpackStructureComment>
+          <wxSynopsisComment>Das Licht ist häufig diffus oder die Sicht durch Wolken, Nebel und Schneetreiben eingeschränkt. Der Westwind erreicht in den Hochlagen der Tauern Spitzen über 100 km/h am Vormittag. In den Nordalpen weht er mit Böen bis 80 km/h. Am Nachmittag wird der Schneefall seltener, es gibt längere trockene Abschnitte. Die Sicht wird aber nur zaghaft besser. Temperaturen in 2000 m um -13 Grad, in 3000 m um -20 Grad.</wxSynopsisComment>
+          <tendencyComment>Sonnig mit leichter Frostabschwächung und nur schwachem Wind am Freitag. Ausgeprägtes Triebschneeproblem mit weiterhin teils ERHEBLICHER Schneebrettgefahr. Zurückhaltung und Erfahrung bleiben abseits der gesicherten Räumen wichtig!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID190RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID190RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, in Rinnen und steilen Mulden vom lichten Hochwald aufwärts</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Heikler Triebschnee erfordert Erfahrung</avActivityHighlights>
+          <avActivityComment>ERHEBLICHE Schneebrettgefahr vom lichten Hochwald aufwärts! Gefahrenstellen durch frischen Triebschnee gibt es sowohl kammnah als auch kammfern, bevorzugt in Steilhängen der Sektoren von Nordost über Ost bis Süd, in steilen Rinnen und Mulden und im lichten Hochwald. Eine Auslösung ist an vielen Stellen bereits bei geringer Zusatzbelastung möglich. Lawinen können mittlere Ausmaße erreichen. Touren und Variantenfahrten erfordern Erfahrung in der Lawinenbeurteilung und auch sehr gute Geländekenntnis, da schlechte Sicht die Gefahreneinschätzung erschwert.</avActivityComment>
+          <snowpackStructureComment>Von Dienstag bis Donnerstagfrüh fallen 15 bis 40 cm sehr kalter, trockener Neuschnee. Tagsüber kommen nur noch wenige Zentimeter dazu. Der Neuschnee wurde und wird von starkem bis stürmischem Wind aus West bis Nordwest umfangreich in Rinnen, Mulden und generell auf die Ost- und Südostseiten verfrachtet. Exponierte Bereiche sind abgeweht und hart. Sonst ist die Unterlage für Neu- und Triebschnee vielfach kalter, aufbauend umgewandelter Pulver, in kammfernen, windberuhigten Bereichen auch Oberflächenreif. Die Störanfälligkeit des gebundenen Schnees ist auf dieser Unterlage hoch.</snowpackStructureComment>
+          <wxSynopsisComment>Das Licht ist häufig diffus oder die Sicht durch Wolken, Nebel und Schneetreiben eingeschränkt. Der Westwind weht in den freien Kamm- und Gipfellagen mit 40 bis 60 km/h. Am Nachmittag wird der Schneefall seltener, es gibt längere trockene Abschnitte. Die Sicht wird aber nur zaghaft besser. Temperaturen in 1500 m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Sonnig mit leichter Frostabschwächung und nur schwachem Wind am Freitag. Ausgeprägtes Triebschneeproblem - Zurückhaltung und Vorsicht in den kritischen Bereichen sind wichtig!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID190RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID190RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, auf ungünstiger Unterlage, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nordwestwind verfrachtet Neu- und Altschnee</avActivityHighlights>
+          <avActivityComment>Es besteht MÄßIGE Schneebrettgefahr! Gefahrenstellen durch frischen Triebschnee gibt es sowohl kammnah als auch kammfern, bevorzugt in Steilhängen der Sektoren von Nordwest über Ost bis Südwest, in steilen Rinnen und Mulden. Eine Auslösung ist an einigen Stellen bereits bei geringer Zusatzbelastung, also etwa auch durch eine einzelne Person im Aufstieg, möglich. Lawinen können mittlere, vereinzelt auch große Ausmaße annehmen.</avActivityComment>
+          <snowpackStructureComment>5 bis 10 Zentimeter Neuschnee, der - wie auch der kalte Altschnee - von starkem, teilweise auch stürmischem Wind umfangreich in Rinnen, Mulden und generell auf die Ost- und Südseiten verfrachtet wird. Die Unterlage für Neu- und Triebschnee ist kalter, aufbauend umgewandelter Pulver, in kammfernen Bereichen auch Oberflächenreif. Die Störanfälligkeit des gebundenen Schnees ist auf dieser Unterlage hoch. Eine weitere Bruchfläche bilden kantige Kristallformen unter (teilweise bereits überschneiten) Wind- und Schmelzharschkrusten. Umfangreiche ältere Triebschneepakete gibt es zudem in den nördlichen Sektoren.</snowpackStructureComment>
+          <wxSynopsisComment>Das Licht ist häufig diffus oder die Sicht durch Wolken, Nebel und Schneetreiben eingeschränkt. Der Nordwestwind weht in den Hochlagen mit 50 bis 70 km/h. Am Nachmittag wird der Schneefall seltener, es gibt längere trockene Abschnitte. Die Sicht wird aber nur zaghaft besser. Temperaturen in 2000 m um -13 Grad, in 3000 m um -20 Grad.</wxSynopsisComment>
+          <tendencyComment>Sonnig mit leichter Frostabschwächung und nur schwachem Wind am Freitag. Ausgeprägtes Triebschneeproblem mit weiterhin teils ERHEBLICHER Schneebrettgefahr. Zurückhaltung und Erfahrung bleiben abseits der gesicherten Räumen wichtig!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

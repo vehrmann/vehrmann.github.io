@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2370RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2370RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Trotz geringer Lawinengefahr schattseitg einige Altschneeprobleme!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in der gesamten Steiermark gering. Älterer Triebschnee kann schattseitig an vereinzelten Stellen (kammnah und dort hinter Geländekanten sowie an Rand- und Einfahrtsbereichen von Rinnen und Mulden) mit großer Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Das Schneedeckenfundament ist aufgrund der Wechsel zwischen warmen und kalten Phasen großteils stabil, nur in schattigen Hochlagen besteht noch vereinzelt ein Altschneeproblem (älterer Triebschnee auf kantigem Fundament). Die in den vergangenen Tagen entstandenen, meist gering mächtigen Triebschneeablagerungen haben sich aufgrund der relativ hohen Temperaturen hingegen weitgehend gesetzt. Durch Einstrahlung und  kräftige Erwärmung haben sich südseitig teils firnartige Verhältnisse eingestellt.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Der Mittwoch gestaltet sich alpennordseitig wolkig, die höheren Gipfel geraten dabei am Nachmittag zeitweise in Nebel. Am späteren Nachmittag setzt hier unergiebiger Schneefall oder Regen ein und die Temperaturen gehen um einige Grade zurück. Die Schneefallgrenze liegt bei ca. 1.700m. Alpensüdseitig sind die Wolken dünner und hier bleibt es milder und auch meist niederschlagsfrei. Die Temperaturen gehen in 2.000m auf +1 Grad (nordalpin) bzw. +3 Grad (südalpin) zurück. Dazu wehr schwacher bis mäßig starker Wind aus westlicher Richtung.&#13;
+Der Donnerstag zeigt sich am Vormittag alpennordseitig noch von seiner sonnigen Seite, am Nachmittag zieht es zu, bei Winddrehung auf stärker werdenden Nordwestwind setzt leichter Regen und Schneefall ein. Alpensüdseitig wirkt sich die Wetterverschlechterung nur in abgeschwächter Form mit teils starker Bewölkung aus. </wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

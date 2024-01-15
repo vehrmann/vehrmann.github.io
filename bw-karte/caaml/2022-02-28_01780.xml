@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1780RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1780RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>oberhalb der Waldgrenze, kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im erweiterten Nordsektor, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr oberhalb der Waldgrenze</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen der Ybbstaler Alpen, der Gippel-Göller-Region und auch der Rax-Schneeberg-Gruppe wird die Lawinengefahr als mäßig beurteilt, ansonsten als gering. Das Hauptproblem bildet der frische Triebschnee in den Leebereichen der Sektoren Ost über Süd bis West, der in den vergangenen Tagen bei mäßigem bis starkem Wind aus nördlichen Richtungen entstanden ist. Dazu kommen Graupeleinlagerungen im frischen Triebschnee bzw. zwischen Triebschnee und Altschnee, die bereits durch geringe Zusatzbelastung eines einzelnen Tourengehers gestört werden können. Gefahrenstellen befinden sich generell in Kammnähe, hinter Geländeübergängen sowie in Rinnen und Mulden sowie deren Einfahrtsbereichen. Zudem besteht in den von älterem Triebschnee betroffenen Nordostexpositionen noch ein Altschneeproblem.</avActivityComment>
+          <snowpackStructureComment>Am Wochenende sind bis etwa 20cm Neuschnee gefallen, am Montag hat es nur noch unergiebig geschneit. Durch den Einfluss des Windes (aus nordwestlichen bis nordöstlichen Richtungen) sind frische Verfrachtungen entstanden. Dieser, stellenweise von Graupel oder weichen Einlagerungen durchzogene, Triebschnee lagert großteils auf verharschten Oberflächen. Gipfelbereiche sind oftmals abgeblasen, eisig oder lediglich dünn überschneit. Nordostseitig schwächen kantige Kornformen zum Teil die Altschneedecke. Aufgegangene Risse und Schneemäuler in der Schneedecke deuten auf Gleitschneeaktivitäten hin, deren Bewegungsneigung während der derzeitigen kalten Wetterphase aber abgenommen hat.</snowpackStructureComment>
+          <wxSynopsisComment>Passend zum meteorologischen Frühlingsbeginn stellt sich am Dienstag deutlich freundlicheres Bergwetter ein. Es ist ganzstags strahlend sonnig, einzelne Schleierwolken stören den sonnigen Gesamteindruck nicht. Der Wind lässt nach und weht nur noch schwach bis mäßig aus nördlichen Richtungen. Es wird etwas milder als zuletzt, bis zum Nachmittag steigen die Temperaturen in 1500m Seehöhe auf rund minus 4 Grad, in 2000 m auf um minus 7 Grad. In Lagen unterhalb von 1000 m sind zarte Plusgrade zu erwarten.</wxSynopsisComment>
+          <tendencyComment>Der Sonnenschein und die Temperaturmilderung hält auch am Mittwoch an. Dazu weiterhin nur schwacher bis mäßiger Wind aus nördlichen Richtungen. Mit Temperaturmilderung und Sonnenschein langsame Entspannung der Triebschneeproblematik, jedoch zunehmend sonnseitige Rutschungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1780RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1780RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, kleinräumige Triebschneelinsen in höheren Lagen beachten.</avActivityHighlights>
+          <avActivityComment>In den Türnitzer und Gutensteiner Alpen herrscht ebenso wie im Semmering-Wechsel-Gebiet geringe Lawinengefahr. Dennoch konnten sich auch hier in den höheren, windausgesetzten Lagen frische Verfrachtungen bilden. Gefahrenstellen in Form von (meist kleinräumigen) Triebschneelinsen betreffen vorwiegend den erweiterten Südsektor sowie generell kammnahes Gelände, hier können vereinzelt kleinere Schneebretter ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Am Wochenende sind bis maximal knapp 10cm Neuschnee gefallen (in den östlichen Regionen auch weniger), am Montag ist kaum noch Schnee hinzugekommen. Durch den Wind sind frische Triebschneelinsen entstanden, stellenweise schwächen weichere Einlagerungen oder auch Graupel die frische Auflage. Schattseitig bildeten sich im Altschnee stellenweise kantige Kornformen aus. Vereinzelte Risse in der Schneedecke deuten auf seltene Gleitschneeaktivitäten hin, deren Bewegungsneigung während der derzeitigen kalten Wetterphase aber weiter abgenommen hat.</snowpackStructureComment>
+          <wxSynopsisComment>Passend zum meteorologischen Frühlingsbeginn stellt sich am Dienstag deutlich freundlicheres Bergwetter ein. Es ist ganzstags strahlend sonnig, einzelne Schleierwolken stören den sonnigen Gesamteindruck nicht. Der Wind lässt nach und weht nur noch schwach bis mäßig aus nördlichen Richtungen. Es wird etwas milder als zuletzt, bis zum Nachmittag steigen die Temperaturen in 1500m Seehöhe auf rund minus 4 Grad, in 2000 m auf um minus 7 Grad. In Lagen unterhalb von 1000 m sind zarte Plusgrade zu erwarten.</wxSynopsisComment>
+          <tendencyComment>Der Sonnenschein und die Temperaturmilderung hält auch am Mittwoch an. Dazu weiterhin nur schwacher bis mäßiger Wind aus nördlichen Richtungen. Mit Temperaturmilderung und Sonnenschein weitere Entspannung, jedoch zunehmend sonnseitige Rutschungen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

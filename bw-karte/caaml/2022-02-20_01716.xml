@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1716RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1716RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, kammfern, hinter Geländekanten, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas frischer Triebschnee über der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Etwas frischer Triebschnee ist über der Waldgrenze und teils im lichten Bergwald zu beachten. Kleinräumige Gefahrenstellen können kammnah und kammfern auftreten. Im Steilgelände könnte lokal schon geringe Zusatzbelastung für das Auslösen von meist nur kleinen Schneebrettlawinen ausreichen. In den schattseitigen Hochlagen sind lokal im Steilgelände noch Schwachschichten in der Altschneedecke, wie bei Übergängen von mehr zu wenig Schnee, die angesprochen werden können. Risse in der Schneedecke weisen auf Gleitschneeaktivität hin. Diese Hänge sollten gemieden werden. </avActivityComment>
+          <snowpackStructureComment>Eine paar Schneeschauer und stürmischer Wind um West bilden etwas frischen Triebschnee, der nicht immer ausreichend bindet. Die Schneedecke ist geprägt von wechselnden Temperaturbedingungen und immer wieder stürmischen Wind. Die Schneeoberfläche es oft hart, verhascht, windgepresst und auch vereist. Hochgelegen und schattseitig enthält die Altschneedecke teils noch Schwachschichten, die wenn sie nahe an der Oberfläche liegen auch angesprochen werden können. In den mittleren Lagen ist die Altschneedecke im Inneren auch feucht bis teils nass.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag weht stürmischer Wind aus West bis Nordwest mit Spitzen über 100 km/h. Am Vormittag wird die Sicht stark durch Wolken, Nebel und Schneeschauer eingeschränkt. Ab Mittag bessert sich die Sicht und die Sonne scheint zeitweise. In 1500 m um -3 Grad, in  2000 m um -8 Grad.&#13;
+Am Dienstag wird die Sicht stark durch Wolken, Nebel und Schneefall eingeschränkt. Am Vormittag schneit es durchgehend. Am Nachmittag macht der Schneefall Pausen und die Sicht bessert sich etwas. Der Wind weht stark bis stürmisch aus Nordwest. In 1500 m um -6 Grad, in 2000 m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag steigt die Lawinengefahr durch Neuschnee und Sturm an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

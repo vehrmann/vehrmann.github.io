@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3508RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3508RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen zunehmende Gefahr der Selbstauslösung von nassen Lockerschneelawinen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1600m mäßig, unterhalb davon gering. Das Hauptproblem ist Nassschnee. Bei Sonne und tageszeitlicher Erwärmung können sich nasse Lockerschneelawinen aus felsdurchsetztem Steilgelände von selbst lösen. Zudem ist überall dort, wo noch ausreichend Schnee liegt, aus steilem Gelände mit glattem Untergrund die Selbstauslösungen von Gleitschneelawinen möglich. Lawinen sind in der Regel klein bis mittelgroß.</avActivityComment>
+          <snowpackStructureComment>Der starke Regen der letzten Tage hat zu vielen Selbstauslösungen kleiner und mittelgroßer Lockerschnee- und Gleitschneelawinen geführt. Die Schneedecke im Bayerischen Alpenraum ist stark durchfeuchtet, in mittleren Lagen oft bis zum Boden durchnässt, damit sind Festigkeitseinbußen verbunden. Durch den Regen ist die Schneedecke stark zurückgegangen, nordseitig ist der Boden bis 1400 m ausgeapert, sonnseitig bis in die Gipfelregionen der mittleren Lagen. In den Hochlagen oberhalb 2400 m haben sich vereinzelte Triebschneeansammlungen gut verbunden und gesetzt. Bei Aufklaren in der Nacht zum Sonntag entsteht dünner Schmelzharsch, die tagsüber rasch aufweicht. Die Durchfeuchtung des Schnees setzt sich dann auch in den Hochlagen fort.</snowpackStructureComment>
+          <tendencyComment>Die nächsten Tage bleibt das Wetter wechselhaft und mild. Das Nassschneeproblem wird nur langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3508RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3508RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Auf Wanderwegen die Gefahr von am Boden abgleitenden Schneedeckenresten von oberhalb beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Das Hauptproblem ist Nassschnee. Vereinzelte nasse Lockerschneelawinen können sich aus dem felsdurchsetzten Steilgelände von selbst lösen. Zudem ist überall dort, wo noch ausreichend Schnee liegt, aus steilem Gelände mit glattem Untergrund die Selbstauslösungen von Gleitschneelawinen möglich. Lawinen sind in der Regel klein.</avActivityComment>
+          <snowpackStructureComment>Der starke Regen der letzten Tage hat zu vielen Selbstauslösungen kleiner und mittelgroßer Lockerschnee- und Gleitschneelawinen geführt. Die Schneedecke im Bayerischen Alpenraum ist meist bis zum Boden durchnässt, damit sind Festigkeitseinbußen verbunden. Durch den Regen ist die Schneedecke stark zurückgegangen, nordseitig ist der Boden bis 1400 m ausgeapert, sonnseitig bis in die Gipfelregionen.</snowpackStructureComment>
+          <tendencyComment>Die nächsten Tage bleibt das Wetter wechselhaft und mild. Das Nassschneeproblem wird nur langsam zurückgehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

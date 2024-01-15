@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1050RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1050RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Am Dienstag Vormittag entsteht frischer störanfälliger Triebschnee.</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze ist die Lawinengefahr als erheblich einzustufen. Frischer Triebschnee, der sich am Dienstag Vormittag bildet, ist bereits bei geringer Zusatzbelastung in Form mittelgroßer Schneebretter auslösbar. Gefahrenstellen befinden sich im kammnahen, nord- über ost- bis südgerichteten Steilgelände sowie in frisch eingewehten Rinnen und Mulden.&#13;
+Daneben können in den Hochlagen bodennahe Schwachschichten im Altschnee insbesondere mit großer Zusatzbelastung und am Übergang von viel zu wenig Schnee gestört werden. Vor allem bei der Einfahrt in Rinnen und Mulden, an Geländekanten und im felsigen Steilgelände können Schneebrettlawinen ausgelöst werden. Lawinen können in eingewehten Hängen auch groß werden. &#13;
+Des Weiteren kommt es in mittleren Lagen vereinzelt zur Selbstauslösung von Gleitschneelawinen. Betroffen sind steile Wiesenhänge aller Expositionen. Je nach Schneelage sind Lawinen mittlerer Größe nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Seit gestern lagerte sich im Durchschnitt 10cm lockerer Neuschnee ab und überdeckt in höheren Lagen eine durch Wind geprägte Altschneedecke. Mit kräftigem Nordwest-Wind und vorhergesagtem Neuschnee entstehen am Dienstag Vormittag frische Triebschneeansammlungen. Sie liegen auf lockerem, kaltem Schnee und sind entsprechend störanfällig. Unterhalb 2000m ist eine dünne Eislamelle eingeschneit, unter der sich bei Strahlungsverhältnissen eine störanfällige Schicht aus kantige Schneekristallen bildet. Daneben finden sich in den höheren Lagen im Bereich älterer Triebschneepakete und bodennah in allen Expositionen Schneeschichten aus aufgebaut umgewandelten Kristallen. Besonders an Stellen mit wenig Schnee sind diese störanfällig. Unterhalb der Waldgrenze bedeckt der Neuschnee eine gut gesetzte und verharschte Altschneedecke. Zum Boden hin ist diese teils feucht, was Gleitbewegungen begünstigt.</snowpackStructureComment>
+          <wxSynopsisComment>...</wxSynopsisComment>
+          <tendencyComment>Das Wetter bleibt die nächsten Tage wechselhaft. Die Lawinengefahr wird bei Wind und weiterem Neuschnee angespannt bleiben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

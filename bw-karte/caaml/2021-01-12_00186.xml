@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID186RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID186RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auf ungünstiger Unterlage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee auf ungünstiger Unterlage, in den Hochlagen herrscht mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>In den Hochlagen herrscht mäßige Lawinengefahr, es gilt vor allem den frischen Triebschnee zu beachten, der mit der Unterlage nicht gut bindet. Es kann bereits die geringe Zusatzbelastung eines einzelnen Tourengehers ausreichen, um ein Schneebrett auslösen zu können. Gefahrenstellen finden sich vorwiegend nord- bis südostseitig, hinter Geländekanten und in eingewehten Rinnen oder Mulden sowie in deren Einfahrtsbereichen.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee und der lockere, bereits gefallene Schnee werden vom überaus stürmischen Wind verfrachtet und lagern sich vor allem in den Hochlagen als gebundener Triebschnee ab. Die Unterlagen sind dabei ungünstig, es werden Reif, weiche Schichten oder auch ältere Triebschneebereiche überdeckt. Die Bindung ist schlecht und die frische Triebschneeauflage entsprechend störanfällig. Vereinzelt schwächen zudem kantige Formen den Altschnee. Nach wie vor sind die Schneemengen unterdurchschnittlich und die Tourenmöglichkeiten dementsprechend eingeschränkt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist speziell westlich der Rax-Schneeberggruppe noch mit Restwolken zu rechnen, aus denen es zeitweise leicht und unergiebig schneien kann. Zudem weht überaus stürmischer Wind aus westlichen bis nordwestlichen Richtungen. Es wird mit Mittagswerten um -9 Grad in 1500m und -12 Grad in 2000m recht kalt.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag überwiegen überall die Wolken und es fallen bei stürmischem Nordwestwind ein paar Zentimeter Neuschnee. Im Sinne der Lawinengefahr gilt es vor allem die Triebschneebereiche zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID186RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-01-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID186RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-01-12T17:00:00+00:00</beginPosition>
+          <endPosition>2021-01-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Stürmischer Wind und etwas frischer Triebschnee</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, Gefahrenstellen existieren nur vereinzelt. Durch den stürmischen Wind bilden sich frische Triebschneelinsen, die zwar nicht gut mit der Unterlage binden, jedoch meist nur kleinräumig ausgeprägt sind.</avActivityComment>
+          <snowpackStructureComment>In windexponierten Bereichen wird der Neuschnee durch den stürmischen Wind verfrachtet und bildet frischen Triebschnee. Er überdeckt stellenweise Reif und bindet nicht gut, ist meist allerdings nur kleinräumig vorhanden. Nach wie vor sind die Schneemengen unterdurchschnittlich und die Tourenmöglichkeiten dementsprechend eingeschränkt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ist speziell westlich der Rax-Schneeberggruppe noch mit Restwolken zu rechnen, aus denen es zeitweise leicht und unergiebig schneien kann. Zudem weht überaus stürmischer Wind aus westlichen bis nordwestlichen Richtungen. Es wird mit Mittagstemperaturen um -5 Grad in 1000m und -9 Grad in 1500m recht kalt.</wxSynopsisComment>
+          <tendencyComment>Am Donnerstag überwiegen überall die Wolken und es fallen bei stürmischem Nordwestwind ein paar Zentimeter Neuschnee. Im Sinne der Lawinengefahr gilt es vor allem die Triebschneebereiche zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

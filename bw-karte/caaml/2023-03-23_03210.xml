@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3210RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-23T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3210RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-23T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-24T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität, am Nachmittag verstärkt durch Regen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt, verstärkt bei Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem, verstärkt durch Regenschauer am Nachmittag - aufgrund der nur mehr geringen Schneelage erst ab den mittleren Lagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird als mäßig eingestuft. Durch die milden Temperaturen und Regenschauer bis in die Hochlagen sind im Steilgelände daher je nach Schneelage und aus nicht entladenem Steilgelände spontane Nassschneelawinen zu erwarten. Meist sind kleine bis teils mittlere Lawinen möglich. Steile Hänge mit Rissen in der Schneedecke sind zu meiden und nur mehr vereinzelt gibt es hochalpin im schattigen Steilgelände Gefahrenstellen.</avActivityComment>
+          <snowpackStructureComment>Wegen einer bewölkten Nacht kann sich die Schneedecke oberflächig kaum stabilisieren, sie wird rasch weich und verliert an Festigkeit. Je nach Exposition und Höhe ist sie, bzw. verstärkt durch Regenschauer bis in die Hochlagen, schon feucht bis nass. Nur vereinzelt kann sie schattseitig in hohen Lagen noch Schwachschichten enthalten. Tiefe und sonnseitige mittlere Lagen sind aper und die Schneedecke wird vorerst weiter abgebaut.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag gibt es am Vormittag und in der Früh noch Chancen auf Sonne, wenn auch bald dichtere Wolken die Sicht einschränken. Ab Mittag nehmen die Wolken von Nordwesten zu und in den Bergen kommen Regenschauer und einzelne Gewitter auf, die teils kräftiger ausfallen können. Der Westwind weht anfangs mäßig, mit aufkommen der Front aber teils stark. In 1500 m um 9 Grad, in 2000 m um 7 Grad.&#13;
+Am Samstag sehr unbeständig. Es scheint am Vormittag zwar phasenweise die Sonne, in der Früh können aber noch dichte (Rest-)Wolken die Sicht einschränken. Zudem sind immer wieder leichte Schauer möglich (Schneefallgrenze bei 1400 m). Der Wind weht kräftig bis stark aus West. In 1500 m um 0 Grad, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Eine Kaltfront bringt etwas Schnee und Abkühlung. Die Nassschneeproblematik geht somit deutlich zurück. Je nach Windeinfluss und Schneefall kann die Lawinengefahr lokal etwas steigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

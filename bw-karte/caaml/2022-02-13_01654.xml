@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1654RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1654RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Im Tagesverlauf steigt die Gefahr nasser Lawinen in tieferen Lagen leicht an.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist oberhalb der Waldgrenze mäßig, darunter gering. Das Hauptproblem sind störanfällige Zwischenschichten im Altschnee. Gefahrenstellen befinden sich in Steilhängen der Expositionen West über Nord bis Ost an eher schneearmen Stellen, wie zum Beispiel am Rand triebschneeverfüllter Rinnen. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. Schneebrettlawinen können insbesondere mit großer Zusatzbelastung, wie zum Beispiel durch eine Skifahrergruppe ohne Abstände, ausgelöst werden. Lawinen können vereinzelt groß werden.&#13;
+Daneben können sich im Tagesverlauf mit zunehmender Durchfeuchtung vor allem in mittleren Lagen aus felsdurchsetztem Steilgelände meist kleine, nasse Lockerschneelawinen von selbst lösen. An steilen Grashängen sind vereinzelt auch mittelgroße Gleitschneelawinen möglich - Gleitschneemäuler weisen auf die Gefahr hin.&#13;
+Kammnah sind außerdem in den Hochlagen kleine Triebschneeansammlungen stellenweise störanfällig.</avActivityComment>
+          <snowpackStructureComment>Die Schneeoberfläche höherer Lagen ist windgeprägt, nur in geschützten und schattigen Bereichen liegt noch lockerer Schnee. Unter den Triebschneepaketen der letzten großen Niederschlagsperiode finden sich in der Altschneedecke   in höheren Lagen lokal kantige Kristalle unter einer Harschkruste. Diese Schwachschicht ist mit zunehmender Höhe ausgeprägter und liegt - in Abhängigkeit von der Verteilung des alten Triebschnees  - mancherorts empfindlich nahe an der Schneeoberfläche. Von außen ist diese Gefahr nicht erkennbar. Kammnah sind kleine, frische Triebschneeansammlungen teils nicht gut mit der Altschneeoberfläche verbunden. In tieferen Lagen und sonnseitig ist die Schneedecke am Morgen oberflächlich verharscht und vielerorts durchfeuchtet, im Tagesverlauf verliert sie durch Sonneneinstrahlung und warme Temperaturen an Festigkeit.</snowpackStructureComment>
+          <tendencyComment>Mit etwas Neuschnee und Wind wird die Triebschneeproblematik in höheren Lagen am Dienstag und Mittwoch wieder größer.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID594RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID594RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Oberhalb der Waldgrenze mäßige Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Oberhalb der Waldgrenze ist die Lawinengefahr wegen frischem Triebschnee mäßig. Besonders in den Expositionen Nord über Ost bis Süd können Triebschneepakete als Schneebrettlawinen ausgelöst werden (z.B. hinter Geländekanten, in Rinnen oder kammnah). </avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils stabil, eventuelle Schwachschichten aus kantigen Kristallen sind meist von dicken Krusten überdeckt. In den Hochlagen ist schattseitig noch lockerer Schnee zu finden. Darauf fiel seit Mittwoch bis zu 20cm Neuschnee und unter Windeinfluss bildeten sich Triebschneepakete, die nicht überall gut mit dem Untergrund verbunden sind. Als Schwachschicht kommen eingeschneiter Oberflächenreif und lockerer Neuschnee in Frage. </snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Freitag erreicht uns eine Kaltfront mit stürmischem Wind aus Nordwest und einigen Zentimetern Neuschnee in den Nordstaugebieten. Die Schneefallgrenze liegt zwischen 1000 und 1200m, die Temperaturen in 2000m liegen zwischen -3 und -5 Grad. Bereits am Vormittag lockert es wieder auf und es wird für einige Stunden sonnig, bevor die Bewölkung am Nachmittag wieder zunimmt. </wxSynopsisComment>
+          <tendencyComment>Der Samstag bleibt niederschlagsfrei, aber es ziehen immer wieder Wolken durch. Der Wind dreht auf Südwest und die Temperaturen in 2000m liegen bei -1 Grad. An der Lawinengefahr ändert sich nur wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID594RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID594RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, aber vereinzelte Gefahrenstellen durch Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering, nur vereinzelt können Triebschneelinsen als kleine Schneebrettlawinen ausgelöst werden (z.B. hinter Geländekanten, in Rinnen oder kammnah). Gefahrenstellen finden sich vorwiegend in den Expositionen Nord über Ost nach Süd. Weiterhin besteht wegen harten, vereisten Oberflächen vielerorts Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Das Schneedeckenfundament ist großteils stabil, eventuelle Schwachschichten aus kantigen Kristallen sind meist von dicken Krusten überdeckt. In den Hochlagen ist schattseitig noch lockerer Schnee zu finden. Darauf liegen wenige Zentimeter trockener Neuschnee, bzw. kleine Triebschneelinsen, die nicht überall gut mit dem Untergrund verbunden sind.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht auf Freitag erreicht uns eine Kaltfront mit stürmischem Wind aus Nordwest und einigen unergiebigen Schneeschauern. Die Schneefallgrenze liegt zwischen 1200 und 1500m, die Temperaturen in 2000m liegen bei etwa -2 Grad. Bereits am Vormittag lockert es wieder auf und es wird für einige Stunden sonnig, bevor die Bewölkung am Nachmittag wieder zunimmt. </wxSynopsisComment>
+          <tendencyComment>Der Samstag bleibt niederschlagsfrei, aber es ziehen immer wieder Wolken durch. Der Wind dreht auf Südwest und die Temperaturen in 2000m liegen bei -1 Grad. An der Lawinengefahr ändert sich nur wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

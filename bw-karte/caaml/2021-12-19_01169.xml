@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1169RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1169RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ein kleines Altschneeproblem, kammnah, schneearm und sehr steil - nur ganz seltene Gefahrenstellen, Absturzrisiko ist deutlich höher</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstige Situation, kaum Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Es gibt sehr wenige potenzielle Gefahrenstellen wo man mit durchwegs großer Zusatzbelastung ein Schneebrett im Altschneeproblem auslösen kann. Am ehesten in extrem steilen und eher schneearmen Hängen oberhalb von etwa 2200 m im Ost- und Nordsektor. Schneearme und extrem steile Hänge in den Kammbereichen sollte man daher meiden. &#13;
+Die Absturzgefahr ist mit der dünnen Neuschneeauflage (wenige Zentimeter) deutlich größer als die Lawinengefahr.</avActivityComment>
+          <snowpackStructureComment>Ein paar Zentimeter Neuschnee ändern noch nichts, obwohl unter der Schmelzharschkruste eine weiche Schicht liegt. Die Neuschneemenge vom Montag ist noch zu gering. Bis ca. 2200 m hinauf gibt es oberflächlich diese Schmelzharschkruste. Eine potenzielle störanfällige Schicht aus kantigem und weichem Altschnee gibt es ab etwa 2000/2200m im Ost- und Nordsektor. Diese Schwachschicht ist derzeit aber nicht leicht auslösbar bzw. oft nur kleinräumig und nicht zusammenhängend vorhanden. Die Gleitschneebewegung der letzten Tage ist praktisch gestoppt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag Temperatursturz und eisiger Nordwind (um 30 km/h). Die Gipfel sind vor allem am Vormittag teilweise im Nebel, am Nachmittag reißt es unterschiedlich stark auf. Teilweise wird es noch richtig sonnig. Es schneit da und dort bis etwa Mittag, Mengen sehr gering, von nix bis ca. 5 cm sehr kalt und locker. In 2000 m um -8 Grad, in 3000m -12 Grad.&#13;
+Am Dienstag scheint von früh bis spät die Sonne. Wolkenlos. In 2000 m -8 bis -4 Grad, in 3000 m -9 Grad. Wenig oder kein Wind.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1169RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1169RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>In schneearmen Steilhängen im Nordsektor, insbesondere ober 2200 m, große Zusatzbelastung</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kleinräumige, dünne Triebschneeschollen als kleines Nebenthema</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Günstig, etwas Vorsicht weiterhin im schneearmen Nordsektor im Hochgebirge</avActivityHighlights>
+          <avActivityComment>Oberhalb 2200 m herrscht eine mäßige Lawinengefahr. Darunter ist sie gering. &#13;
+Das Hauptproblem sind störanfällige Zwischenschichten im bodennahen Altschneepaket. Einzelne Schneebrettlawinen können in den Hochlagen an schattigen Steilhängen insbesondere mit großer Zusatzbelastung ausgelöst werden, dort vor allem an Stellen mit geringer Schneehöhe, zum Beispiel bei der Einfahrt zu Rinnen und Mulden. Ausgelöste Lawinen können kleine bis mittlere Größe erreichen.&#13;
+Kleinräumige und dünne Triebschneeschollen können im Steilen zu kleinen Rutschen führen.</avActivityComment>
+          <snowpackStructureComment>Ein paar Zentimeter Neuschnee ändern noch nichts, obwohl unter der Schmelzharschkruste eine weiche Schicht liegt. Die Neuschneemenge vom Montag ist noch zu gering. Kammnah können sich eventuell dünne Triebschneeschollen bilden.&#13;
+Bis ca. 2200 m hinauf gibt es diese oberflächliche Schmelzharschkruste. Im Inneren sind die letzten Schneepakete relativ gut verbunden. Eine potenzielle störanfällige Schicht aus kantigem und weichem Altschnee gibt es teilweise in den Hochlagen. Die Tendenz zur Bruchausbreitung ist dabei meist mäßig stark ausgeprägt. Die Gleitschneebewegung der letzten Tage ist gestoppt.&#13;
+</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag Temperatursturz und eisiger Nordwind (um 30 km/h). Die Gipfel sind vor allem am Vormittag teilweise im Nebel, am Nachmittag reißt es unterschiedlich stark auf. Teilweise wird es noch richtig sonnig. Es schneit da und dort bis etwa Mittag, Mengen sehr gering, von nix bis ca. 5 cm sehr kalt und locker. In 2000 m um -8 Grad, in 3000m -12 Grad.&#13;
+Am Dienstag scheint von früh bis spät die Sonne. Wolkenlos. In 2000 m -8 bis -4 Grad, in 3000 m -9 Grad. Wenig oder kein Wind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1169RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1169RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>In schneearmen Steilhängen im Nordsektor, insbesondere ober 2200 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Kleinräumige und dünne Triebschneeschollen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem im schneearmen Hochgebirge beachten</avActivityHighlights>
+          <avActivityComment>Oberhalb 2000 m herrscht mäßige Lawinengefahr. Darunter ist sie gering. &#13;
+Das Hauptproblem sind vereinzelt störanfällige Zwischenschichten im bodennahen Altschneepaket und vereinzelt zwischen den älteren Triebschneepaketen. Einzelne Schneebrettlawinen können in den Hochlagen an schattigen Steilhängen insbesondere mit großer Zusatzbelastung ausgelöst werden, dort vor allem an Stellen mit geringer Schneehöhe, zum Beispiel bei der Einfahrt zu Rinnen und Mulden. Ausgelöste Lawinen können mittlere Größe erreichen.&#13;
+Kleinräumige und dünne Triebschneeschollen (durch den Neuschnee mit Wind) können im Steilen zu kleinen Rutschen führen.</avActivityComment>
+          <snowpackStructureComment>Ein paar Zentimeter Neuschnee ändern noch nichts, obwohl unter der Schmelzharschkruste eine weiche Schicht liegt. Die Neuschneemenge vom Montag ist einfach noch zu wenig. Kammnah können sich eventuell dünne Triebschneeschollen bilden.&#13;
+Bis ca. 2500 m hinauf gibt es oberflächlich diese Schmelzharschkruste. Darüber dominieren Windharschdeckel. Im Inneren hat sich die Verbindung zwischen den letzten Triebschneepaketen weiter verbessert. Potenziell störanfällige Schichten aus kantigen und weichen Zwischenschichten und bodennahem Altschnee gibt es oberhalb von etwa 2000/2200 m aufwärts, insbesondere in den schneearmen und windausgesetzten Zonen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag Temperatursturz und eisiger Nordwind (bis Mittag noch um 40 bis 50 km/h). Die Gipfel sind vor allem am Vormittag teilweise im Nebel, am Nachmittag reißt es unterschiedlich stark auf. Teilweise wird es noch richtig sonnig. Es schneit da und dort bis etwa Mittag, Mengen sehr gering, von nix bis ca. 5 cm sehr kalt und locker. In 2000 m um -8 Grad, in 3000m -12 Grad.&#13;
+Am Dienstag scheint von früh bis spät die Sonne. Wolkenlos. In 2000 m -8 bis -4 Grad, in 3000 m -9 Grad. Wenig oder kein Wind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

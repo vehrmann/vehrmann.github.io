@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3066RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3066RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-08T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt frische Triebschneelinsen in höheren Lagen sowie Absturzgefahr im Steilgelände beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Einige wenige Gefahrenstellen in Form von frischen, dünnen Triebschneelinsen existieren hinter Geländekanten und in Einfahrten zu extrem steilen Rinnen und Mulden höhergelegener Schattseiten. Sie können vereinzelt ausgelöst werden. Kleine nasse Lockerschneerutsche aus extrem steilem felsdurchsetztem Gelände sind vereinzelt möglich. Exponierte Bereiche sind oft hart und vereist, hier besteht  Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Die oft vom Wind bearbeitete Schneedecke ist weitgehend stabil, das Schneedeckenfundament bis in höhere Lagen schon feucht. Mit stürmischem Westwind können sich in den Schattseiten dünne Triebschneelinsen auf einer noch lockeren (Kältereserven) Schneeoberfläche ablagern. Sonne und diffuse Strahlung sowie etwas Regen führen zudem zu einer Anfeuchtung der Schneedecke. Exponierte Bereiche der Hochlagen sind nach wie vor abgeweht und oft vereist. Tiefere bis mittlere Lagen apern weiter aus. </snowpackStructureComment>
+          <wxSynopsisComment>In eine weiterhin kräftige Westströmung eingelagerte schwache Störung sorgt in der ersten Tageshälfte für dichtere Wolken und immer wieder durchziehende Schnee-, Graupel- und Regenschauer bei einer Schneefallgrenze um 1600m. Ab Mittag Nimmt die Schauerneigung ab und es lockert immer öfter auf. Der Wind aus westlichen Richtungen ist auf den Bergen weiterhin stark bis stürmisch, tendenziell nimmt er am Nachmittag etwas ab. Es bleibt mild, das Temperaturniveau sinkt in der Höhe im Tagesverlauf nur leicht. In 2000m werden am Nachmittag Werte um den Gefrierpunkt, in 1500m um +4 Grad und in 1.000m Werte um +7 Grad erreicht.</wxSynopsisComment>
+          <tendencyComment>Der Freitag gestaltet sich durchaus freundlich, erst am Nachmittag werden die Wolken allerorts dichter und der Westwind legt wieder zu. In der Nacht auf Samstag kühlt es aus heutiger Sicht bei stürmischem Nordwestwind deutlich ab, es bleibt aber weitgehend trocken.&#13;
+An der Lawinengefahr ändert sich wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

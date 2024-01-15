@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1913RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1913RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kleine bis mittlere Nassschneelawinen aus dem Steilgelände und Gleitschneelawinen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das vorherrschende Lawinenproblem ist Nassschnee. Fehlende nächtliche Abkühlung und leichter Regen fördern die Selbstauslösung kleiner bis mittelgroßer nasser Lockerschneelawinen aus felsdurchsetztem Steilgelände aller Hangrichtungen. An steilen Wiesenhängen und im lückigen Bergwald ist das Abrutschen von Gleitschneelawinen am glatten Boden möglich, die vereinzelt auch größere Ausmaße erreichen können.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt und kompakt. Fehlende nächtliche Abstrahlung und leichter Regen führen in den mittleren Lagen zum Aufweichen und allmählichen Durchfeuchten der Schneedecke. Durch das oberflächliche Eindringen des Schmelzwassers verliert die Schneedecke an Festigkeit. Teilweise ist auch die Schneedeckenbasis schon feucht, was Gleitbewegungen der Schneedecke begünstigt. Sonnseitig ist der Boden bis 1400 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Bei wechselhaftem, mildem Wetter setzt sich die Durchfeuchtung der Schneedecke fort. Die Lawinengefahr wird sich die nächsten Tage aber nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1913RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1913RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem unterhalb 2200 m sind kleine bis mittlere Nassschneelawinen aus dem Steilgelände und Gleitschneelawinen zu beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb von 2200 m gering, darunter ist sie mäßig. Das vorherrschende Lawinenproblem ist Nassschnee. Fehlende nächtliche Abkühlung und leichter Regen fördern die Selbstauslösung kleiner bis mittelgroßer nasser Lockerschneelawinen aus felsdurchsetztem Steilgelände aller Hangrichtungen. An steilen Wiesenhängen und im lückigen Bergwald ist das Abrutschen von Gleitschneelawinen am glatten Boden möglich, die vereinzelt auch größere Ausmaße erreichen können.&#13;
+Starker Wind aus Nordwest lässt in den Hochlagen ein Triebschneeproblem entstehen. Frischer, kleinräumiger Triebschnee ist störanfällig und  vom einzelnen Skifahrer in Form kleiner Schneebretter auszulösen. Die Absturzgefahr beachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt und kompakt. Schattseitig findet sich in den Hochlagen an der Oberfläche oft noch bindungsarmer, aufgefrorener Pulver, an windexponierten Stellen häufig Windharsch. Starker Nordwestwind bildet am Mittwoch frische, kleine Triebschneeansammlungen. Fehlende nächtliche Abstrahlung und leichter Regen führen in den mittleren Lagen zum Aufweichen und allmählichen Durchfeuchten der Schneedecke. Das oberflächliche Eindringen des Schmelzwassers führt in der Schneedecke zu Festigkeitseinbußen. Teilweise ist auch die Schneedeckenbasis schon feucht, was Gleitbewegungen der Schneedecke begünstigt. Sonnseitig ist der Boden bis 1400 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Bei wechselhaftem, mildem Wetter setzt sich die Durchfeuchtung der Schneedecke fort. Die Lawinengefahr wird sich die nächsten Tage aber nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

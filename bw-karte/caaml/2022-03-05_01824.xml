@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1824RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1824RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>dünner, kammnaher Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In Hochlagen einzelne lokale Gefahrenstellen beachten, sonst günstige Bedingungen!</avActivityHighlights>
+          <avActivityComment>Vor allem im Nordsektor und schattseitigen Hochlagen gibt es einzelne Gefahrenstellen, wo Schneebrettlawinen vereinzelt bei große Zusatzbelastung ausgelöst werden können. Überwiegend Übergänge von wenig zu viel Schnee und einzelne gut gefüllte schattige Steilhänge/Rinnen sind hier zu beachten. Spontane Lawinen aus felsdurchsetztem Steilgelände sind trotz Sonnenschein weiterhin kaum zu erwarten. Kalter böiger Nordwind mit bis zu 40 km/h kann lokal etwas Schnee verfrachten.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gut gesetzt, weitgehend gefestigt, enthält aber in schattigen höheren Lagen teils Schwachschichten wie kantige Kristalle. Der Schnee ist oberflächig in höheren Lagen nord- und schattseitig locker, oft auch windgepresst bzw. bis in mittlere Lagen und sonnseitig auch tragfähig verharscht. Nur lokal ist Triebschnee vorhanden, der auf einer Harsch- oder weicheren Schicht liegt und in höheren Lagen teils störanfällig ist. </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag herrscht anfangs sonniges Bergwetter. Die Sicht ist zunächst sehr gut. Tagsüber ziehen hohe Wolkenfelder durch und es entstehen bald Quellwolken, die den Sonnenschein beeinträchtigen können. In exponierten Kamm- und Gipfellagen weht der Nordostwind mit 30 bis 40 km/h. In 1500 m -9 bis -6 Grad, in 2000 m um -9 Grad. &#13;
+Am Montag ist die Sicht auf den Bergen oft durch tiefe Wolken und Nebel eingeschränkt und stellenweise kann es leicht schneien. Der Wind weht mit Böen bis 40 km/h aus nördlicher Richtung. In 1500 m um -9 Grad, in 2000 m -10 Grad.</wxSynopsisComment>
+          <tendencyComment>Es bleibt noch kühl. Weiterhin wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

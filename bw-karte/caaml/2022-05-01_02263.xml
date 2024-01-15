@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2263RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-05-01T14:29:53+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2263RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-05-01T14:29:53+00:00</beginPosition>
+          <endPosition>2022-05-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelte Gefahrenstellen.</avActivityHighlights>
+          <avActivityComment>Die vereinzelten Gefahrenstellen gehen von oberflächlichen Nassschneerutschen oder – meist kleinen Nassschneelawinen aus, welche im zeitlichen Zusammenhang mit der Tageserwärmung oder dem Regeneintrag im extremen Steilgelände von selbst abgehen können.&#13;
+Zudem ist im schattseitigen Steilgelände der Hochlagen die Auslösung eines feuchten Schneebrettes noch nicht ganz auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Eine geschlossene Schneedecke befindet sich meist nur noch in Höhenlagen oberhalb von ca. 2.000m sowie in Rinnen und Mulden tieferer Lagen. Das Schneefundament ist kompakt und isotherm und mit einer recht dünnen Neuschneeschicht überzogen. Dieser wird mit der starken diffusen Strahlung rasch feucht. Als potentielle Schachschichten können am ehesten die eingeschneiten, schmutzigen Schichten der Saharastaubereignisse angesprochen werden. Insgesamt sind die Schneehöhen bzw. Schneemengen für Anfang Mai eher unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag geht es im Bergland mit meist dichten Wolken, häufigen Sichteinschränkungen sowie schaueranfälligem Wetter weiter. Dabei können über alle Gebirgsgruppen verteilt zeitweise Regenschauer durchziehen, oberhalb von rund 2.000m in Form von Schneeschauern. Vereinzelt können die Schauer auch gewittrig sein und zwar vor allem nach möglichen sonnigen Auflockerungen am Nachmittag, begleitet von Graupel. Der Wind weht meist schwach bis mäßig aus Südost, vor allem in den Nordalpen kann der föhnige Südostwind in exponierten Lagen in Böen teils auch lebhaft auffrischen. In 2.000m hat es zu Mittag rund +1 Grad, in 1.500m +6 Grad.&#13;
+Am Dienstag setzt sich das unbeständige Bergwetter fort. Der Vormittag verläuft oft noch recht sonnig und trocken, auch wenn es da oder dort zwischendurch schon zu Sichteinschränkungen kommen kann, zunächst durch hochnebelartige Wolken, allmählich durch zunehmende Quellbewölkung. Ab etwa Mittag überwiegen dann wieder Quellwolken, die Gipfel geraten immer wieder in Nebel und in der Folge ist mit lokalen Schauern und Gewittern zu rechnen. Bei meist schwachem Wind aus südlichen Richtungen werden in 2.000m rund +4 Grad erreicht.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung der Lawinensituation. Das wechselhafte Wetter hält die gesamte erste Maiwoche an. Immer wieder etwas Schnee in den Hochlagen, gleichzeitig rasch fortschreitende Ausaperung aufgrund der bewölkten und daher zu warmen Nächte.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1532RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1532RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr oberhalb der Waldgrenze durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den Ybbstaler und Türnitzer Alpen, im Gippel-Göller-Gebiet und in der Rax-Schneeberg-Gruppe herrscht oberhalb der Waldgrenze erhebliche Lawinengefahr. Gefahrenstellen sind frische Triebschneepakete in kammferneren Leehängen und Hohlformen. Vor allem die Einfahrtsbereiche zu Rinnen und Mulden sind zu beachten. Die Auslösung von Schneebrettlawinen ist hier schon durch geringe Zusatzbelastung möglich.</avActivityComment>
+          <snowpackStructureComment>Das stürmische Wetter der letzten Zeit, aber insbesondere der Orkan vom Sonntag hat eine sehr inhomogene Schneedecke hinterlassen, mit stark abgewehten exponierten Bereichen, an denen der Altschnee freigefresst wurde. Frischer Triebschnee, oft durchsetzt mit Graupeleinlagen, konnte sich nur in windgeschützten Hanbereichen wie Mulden, seitlich eingewehte Rinnen oder Bereichen hinter Geländekanten bilden.  Schattseitig schwächen zusätzlich Schwachschichten im Altschnee die Stabilität der Schneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Angetrieben vom Sturmtief „Nadia“ über dem Baltikum bestimmt weiterhin eine westliche bis nordwestliche Höhenströmung das Bergwetter. In sie eingelagert überquert am Montag eine Kaltfront die niederösterreichischen Alpen und Voralpen. Nach kurzer Wetterberuhigung über Nacht mit Aufhören der Niederschläge und nachlassendem Wind zieht es in den Vormittagsstunden rasch wieder zu und von Westen her breiten sich Schneefälle weiter Richtung Rax und Schneeberg aus. Der meiste Schnee, bis etwa 20cm dürfte in den Ybbstaler und Türnitzer Alpen fallen. Die Schneefallgrenze sinkt dabei von 500m auf 300m. Auch der Wind aus West bis Nordwest wird dabei wieder stärker. Die Temperaturen erreichen um die Mittagszeit in 2.000m -8 Grad, in 1.500m -5 Grad und in 1.000m -1 Grad. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Dienstag erreicht ein Höhentrog die Ostalpen. An der Rückseite stellt sich eine stürmische Nordwestströmung mit sehr feuchten Luftmassen ein, die bis Mittwoch für weiteren Neuschnee sorgen wird, wobei dieser in den Ybbstaler Alpen am üppigsten ausfallen dürfte. Die Lawinengefahr steigt dabei markant an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1532RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-30T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1532RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-30T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-31T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, verbliebene Triebschneelinsen vor allem im erweiterten Ostsektor beachten!</avActivityHighlights>
+          <avActivityComment>In den Gutensteiner Alpen und im Wechselgebiet herrscht geringe Lawinengefahr. Am Montag steht zwar wieder ein stürmischer Tag bevor, viel Neuschnee, aber auch noch verfachtungsfähiger Altschnee steht derzeit nicht zur Verfügung. Ganz ausschließen sollte man kleine Triebschneelinsen im erweiterten Ostsektor denoch nicht, sie könnten zumindest bei großer Zusatzbelastung ausgelöst werden. </avActivityComment>
+          <snowpackStructureComment>Der orkanartige Sturm vom Sonntag hat die Altschneedecke stark beansprucht. Im exponierten, kammnahen Gelände wurde die Altschneedecke erotiert, andernorts entstand wieder harter Pressschnee. Einige Triebschneenester konnten sich in Verbindung mit Graupeleinlagen in entsprechend vom Wind geschützten Geländeabschnitten bilden. In tieferen Lagen wurde der Schnee durch die relativ hohen Temperaturen oder kurzem Regeneintrag weich. </snowpackStructureComment>
+          <wxSynopsisComment>Angetrieben vom Sturmtief „Nadia“ über dem Baltikum bestimmt weiterhin eine westliche bis nordwestliche Höhenströmung das Bergwetter. In sie eingelagert überquert am Montag eine Kaltfront die niederösterreichischen Alpen und Voralpen. Nach kurzer Wetterberuhigung über Nacht mit Aufhören der Niederschläge und nachlassendem Wind zieht es in den Vormittagsstunden rasch wieder zu und von Westen her breiten sich Schneefälle weiter Richtung Rax und Schneeberg aus. Der meiste Schnee, bis etwa 20cm dürfte in den Ybbstaler und Türnitzer Alpen fallen. Die Schneefallgrenze sinkt dabei von 500m auf 300m. Auch der Wind aus West bis Nordwest wird dabei wieder stärker. Die Temperaturen erreichen um die Mittagszeit in 2.000m -8 Grad, in 1.500m -5 Grad und in 1.000m -1 Grad. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Dienstag erreicht ein Höhentrog die Ostalpen. An der Rückseite stellt sich eine stürmische Nordwestströmung mit sehr feuchten Luftmassen ein, die bis Mittwoch für weiteren Neuschnee sorgen wird, wobei dieser in den Ybbstaler Alpen am üppigsten ausfallen dürfte. Die Lawinengefahr steigt dabei markant an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

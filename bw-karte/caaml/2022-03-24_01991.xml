@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1991RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1991RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-24T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-25T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-24T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-25T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2600Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühlingshafte Verhältnisse</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang. Nach einer klaren Nacht, in der die Schneedecke gut abstrahlen und sich verfestigen kann, herrschen am Morgen und Vormittag günstige Verhältnisse. Die Lawinengefahr wird mit GERING beurteilt. Mit der tageszeitlichen Erwärmung und Sonneneinstrahlung wird die Schneedecke unter rund 2600 m wieder aufgeweicht und feucht und die Wahrscheinlichkeit von Nass- und Gleitschneelawinen steigt an. Die Lawinengefahr steigt unter 2600 m bis rund 1800 m auf MÄSSIG. In noch schneereicheren Geländeteilen könnten die Lawinen auch etwas größer werden.</avActivityComment>
+          <snowpackStructureComment>Die nach klarer Nacht verharschte und auch eisige Schneeoberfläche wird m Tagesverlauf mit steigenden Temperaturen und Sonneneinstrahlung, vor allem in sonnseitigen Expositionen, weich und feucht. Die Ausaperung ist in sonnseitigen Expositionen bereits hoch hinauf fortgeschritten.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet mit sehr milden Luftmassen über Mitteleuropa ist auch am Freitag für strahlend sonniges Bergwetter in den Kärntner Bergen verantwortlich. Am Nachmittag machen sich ein paar Quellwolken bemerkbar. Die Schauerneigung ist gering. Bei sehr schwachem Wind liegen die Temperaturhöchstwerte in 1000 m um 15 Grad, in 2000 m um 4 Grad und in 3000 m um -5 Grad. Am Samstag hat das Wetter kaum eine Änderung zu bieten, lediglich von den Tauern bis zu den Nockbergen ist die ein kurzer lokaler Schauer nicht ganz ausgeschlossen.</wxSynopsisComment>
+          <tendencyComment>Der tageszeitliche Anstieg der Lawinengefahr bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1991RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1991RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-24T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-25T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-24T23:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-25T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-25T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tageszeitlicher Anstieg der Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang. Die Schneedecke kann während der Nachtstunden gut abstrahlen und sich verfestigen. Am Morgen und Vormittag wird die Lawinengefahr mit GERING beurteilt. Mit zunehmender Aufweichung und Durchfeuchtung verliert die Schneedecke an Festigkeit. Die Wahrscheinlichkeit von Nass- und Gleitschneelawinen nimmt zu und die Lawinengefahr steigt auf MÄSSIG an. Die vor allem ab einer Höhe von 1800 m, da hier meist noch eine durchgehende Schneedecke vorhanden ist.</avActivityComment>
+          <snowpackStructureComment>Die nach klarer Nacht verharschte und auch eisige Schneeoberfläche wird m Tagesverlauf mit steigenden Temperaturen und Sonneneinstrahlung, vor allem in sonnseitigen Expositionen, weich und feucht. Die Ausaperung ist in sonnseitigen Expositionen bereits hoch hinauf fortgeschritten.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet mit sehr milden Luftmassen über Mitteleuropa ist auch am Freitag für strahlend sonniges Bergwetter in den Kärntner Bergen verantwortlich. Am Nachmittag machen sich ein paar Quellwolken bemerkbar. Die Schauerneigung ist gering. Bei sehr schwachem Wind liegen die Temperaturhöchstwerte in 1000 m um 15 Grad, in 2000 m um 4 Grad und in 3000 m um -5 Grad. Am Samstag hat das Wetter kaum eine Änderung zu bieten, lediglich von den Tauern bis zu den Nockbergen ist die ein kurzer lokaler Schauer nicht ganz ausgeschlossen.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1991RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-24T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1991RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-24T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-25T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frühlingshafte Bedingungen bei geringer Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Einzelne Gleitschneelawinen aus steileren Wiesenhängen werden im Tagesverlauf mit steigenden Temperaturen und der Sonneneinstrahlung wahrscheinlicher.</avActivityComment>
+          <snowpackStructureComment>Die nach klarer Nacht verharschte und auch eisige Schneeoberfläche wird m Tagesverlauf mit steigenden Temperaturen und Sonneneinstrahlung, vor allem in sonnseitigen Expositionen, weich und feucht. Die Ausaperung ist in sonnseitigen Expositionen bereits hoch hinauf fortgeschritten.</snowpackStructureComment>
+          <wxSynopsisComment>Ein kräftiges Hochdruckgebiet mit sehr milden Luftmassen über Mitteleuropa ist auch am Freitag für strahlend sonniges Bergwetter in den Kärntner Bergen verantwortlich. Am Nachmittag machen sich ein paar Quellwolken bemerkbar. Die Schauerneigung ist gering. Bei sehr schwachem Wind liegen die Temperaturhöchstwerte in 1000 m um 15 Grad, in 2000 m um 4 Grad und in 3000 m um -5 Grad. Am Samstag hat das Wetter kaum eine Änderung zu bieten, lediglich von den Tauern bis zu den Nockbergen ist die ein kurzer lokaler Schauer nicht ganz ausgeschlossen.</wxSynopsisComment>
+          <tendencyComment>Es wird keine wesentliche Änderung der Lawinengefahr erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

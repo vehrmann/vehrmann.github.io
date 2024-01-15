@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID66RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID66RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, wenige Gefahrenpunkte</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, kammnahe Triebschneepakete</avActivityHighlights>
+          <avActivityComment>Wenige Gefahrenstellen. Einige wenige Punkte existieren, wo man ein trockenes Schneebrett auslösen kann. Am ehesten im sehr steilen und nordseitigen Gelände oberhalb von 2200 m am Übergang von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Harte Windharschdeckel, Schmelzkrusten und gepresster Pulverschnee überwiegen. Ältere Triebschneepakete im Hochgebirge sind verfestigt; sie liegen teilweise auf weichen, bodennahen Schichten (Zuckerschnee durch die aufbauende Umwandlung), welcher zur Bruchausbreitung neigen kann. Schneelage ist deutlich unterdurchschnittlich.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist es wolkenlos, die Fernsicht ist in höheren Lagen ausgezeichnet. Abgesehen von lokalen Fallwinden bleibt der Wind schwach. Temperaturen in 2000m +3 Grad, in 3000m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung bis Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID66RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID66RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, vereinzelt auslösbar im Übergang von wenig zu viel, beginnt ab ca. 2300 m aufwärts</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände in den schneereichen Zonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vorsicht bei schneearmen Übergängen im sehr steilen Nordsektor, vereinzelt Gleitschnee</avActivityHighlights>
+          <avActivityComment>Beachten sollte man alte Triebschneepakete im steilen und kalten Nordsektor (W-N-O) oberhalb von etwa 2300 m, insbesondere wenn die umliegenden Bereiche schneearm und abgeblasen sind. Vereinzelt kann man dort mit großer Zusatzbelastung (zu Fuß, beim Beisammenstehen, Sprung, Sturz etc.) ein mittelgroßes Schneebrett auslösen. Gefahrenstellen gibt es kammnah und kammfern hinter Geländekanten. Zweites und nachgeordnetes Gefahrenmoment sind wenige spontane Gleitschneelawinen aus dem sehr steilen Grasmattengelände in den schneereichen Zonen.</avActivityComment>
+          <snowpackStructureComment>Feste Oberflächen dominieren, teilweise sehr hart, nur windgeschützter findet man auch gesetzten Pulver oder hochalpin oberhalb von 2500 m schnittige Windharschdeckel. Alte Triebschneepakete sind kompakt oder hart, im Nordsektor liegen sie teilweise auf weichen Schichten. Bodennah findet man in den schneearmen und abgeblasenen Zonen losen Zuckerschnee durch die aufbauende Umwandlung der letzten Woche.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag bleibt der Himmel wolkenlos, die Fernsicht ist in höheren Lagen ausgezeichnet. Der Wind weht meist schwach, in exponierten Lagen erreicht er um 30 km/h aus Süd. Temperaturen in 2000m um 2 Grad, in 3000m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung bis Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID66RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID66RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-18T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, wenige Gefahrenpunkte im schneearmen Zonen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen im hochalpinen Nordsektor</avActivityHighlights>
+          <avActivityComment>Weiterhin geringe Lawinengefahr. Es gibt wenige Gefahrenstellen. Einige wenige Punkte existieren, wo man ein trockenes Schneebrett auslösen kann. Am ehesten im sehr steilen und nordseitigen Gelände oberhalb von 2200 m am Übergang von wenig zu mehr Schnee.</avActivityComment>
+          <snowpackStructureComment>Deutlich mehr Schnee als nördlich der Tauern. Häufig gibt es Krusten und verfestigte Schichten an der Oberfläche, rein schattseitig findet man auch alten Pulver. Die Schneedecke ist relativ stabil und neigt kaum zu Brüchen. Labilere Kombinationen mit dünnen Triebschneepaketen auf bindungslosen, bodennahen Schichten findet man in abgewehten und schneearmen Kammbereichen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag bleibt der Himmel wolkenlos, die Fernsicht ist in höheren Lagen ausgezeichnet. Der Wind weht meist schwach. Temperaturen in 2000m -1 Grad, in 3000m -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung bis Sonntag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

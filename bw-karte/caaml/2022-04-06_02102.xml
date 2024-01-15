@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2102RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2102RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - spontane Nassschneerutsche beachten.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr, dennoch ist mit der Erwärmung vereinzelt mit kleineren, spontanen Nassschneelawinen aus steilem Gelände zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil. Mit der Erwärmung wird die Schneedecke durchfeuchtet. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Sehr wechselhaftes Bergwetter! Anfangs halten sich im Osten und &#13;
+Südosten noch stärkere Restwolken, in der Früh kann es auch noch leicht &#13;
+regnen, oberhalb 2000m auch schneien. In weiterer Folge sollte es im &#13;
+gesamten Bergland auch längere sonnige Abschnitte geben. Ab Mittag &#13;
+nehmen Wolken und Quellwolken allgemein wieder zu, lokale Schauer &#13;
+dürften sich am ehesten von der Turrach bis zur Seetaler Alpe bilden. &#13;
+Wind und Höchsttemperatur in 2000m Höhe: Zunächst eher kräftig aus &#13;
+Nordwest, im Tagesverlauf zunehmend aus Südwest bis West mit 20 bis 50 &#13;
+km/h, 3 bis 6 Grad.&#13;
+Freitag: Viele Wolken ziehen über die Steiermark und an der &#13;
+Alpennordseite regnet und schneit es. An der Alpensüdseite ist nur &#13;
+vereinzelt mit Schauern zu rechnen, meist bleibt es dort &#13;
+niederschlagsfrei mit ein wenig Sonne. Der Wind legt zu!&#13;
+</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2102RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2102RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>oberhalb der Baumgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr über der Baumgrenze - Triebschnee beachten.</avActivityHighlights>
+          <avActivityComment>Über der Baumgrenze herrscht mäßige Lawinengefahr. Gefahrenstellen sind ältere Triebschneepakete in den Sektoren Nord und Ost. Besonders in den Einfahrtsbereichen von Rinnen und Mulden können noch durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden. Vereinzelte spontane Nassschneerutsche sind aus extrem steilem Gelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil. Darauf liegt Neuschnee vom Wochenende, der sich bereits gesetzt hat, aber nicht überall gut mit der Altschneedecke verbunden ist. </snowpackStructureComment>
+          <wxSynopsisComment>&#13;
+Sehr wechselhaftes Bergwetter! Anfangs halten sich im Osten und &#13;
+Südosten noch stärkere Restwolken, in der Früh kann es auch noch leicht &#13;
+regnen, oberhalb 2000m auch schneien. In weiterer Folge sollte es im &#13;
+gesamten Bergland auch längere sonnige Abschnitte geben. Ab Mittag &#13;
+nehmen Wolken und Quellwolken allgemein wieder zu, lokale Schauer &#13;
+dürften sich am ehesten von der Turrach bis zur Seetaler Alpe bilden. &#13;
+Wind und Höchsttemperatur in 2000m Höhe: Zunächst eher kräftig aus &#13;
+Nordwest, im Tagesverlauf zunehmend aus Südwest bis West mit 20 bis 50 &#13;
+km/h, 3 bis 6 Grad.&#13;
+Freitag: Viele Wolken ziehen über die Steiermark und an der &#13;
+Alpennordseite regnet und schneit es. An der Alpensüdseite ist nur &#13;
+vereinzelt mit Schauern zu rechnen, meist bleibt es dort &#13;
+niederschlagsfrei mit ein wenig Sonne. Der Wind legt zu!&#13;
+</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2102RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-06T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2102RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-06T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-07T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinenaktivität am Nachmittag</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr - Nassschneeproblem.</avActivityHighlights>
+          <avActivityComment>Es herrscht mäßige Lawinengefahr. Gefahrenstellen sind ältere und frische Triebschneepakete in den Sektoren Nord und Ost, oberhalb von 2000m, die teils bereits durch geringe Zusatzbelastung als Schneebrettlawine ausgelöst werden können. Außerdem muss mit dem Regeneintrag vermehrt mit spontanen Nassschneelawinen aus steilem Gelände gerechnet werden.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist generell stabil. Die Schneedeckenoberfläche wurde durch die Erwärmung weich und feucht. Ältere Triebschneepakete finden sich noch oberhalb von 2000m. Diese sind noch nicht mit der Altschneedecke verbunden. </snowpackStructureComment>
+          <wxSynopsisComment>Sehr wechselhaftes Bergwetter! Anfangs halten sich im Osten und Südosten noch stärkere Restwolken, in der Früh kann es auch noch leicht regnen, oberhalb 2000m auch schneien. In weiterer Folge sollte es im gesamten Bergland auch längere sonnige Abschnitte geben. Ab Mittag nehmen Wolken und Quellwolken allgemein wieder zu, lokale Schauer dürften sich am ehesten von der Turrach bis zur Seetaler Alpe bilden. Wind und Höchsttemperatur in 2000m Höhe: Zunächst eher kräftig aus Nordwest, im Tagesverlauf zunehmend aus Südwest bis West mit 20 bis 50 km/h, 3 bis 6 Grad.&#13;
+Freitag: Viele Wolken ziehen über die Steiermark und an der Alpennordseite regnet und schneit es. An der Alpensüdseite ist nur vereinzelt mit Schauern zu rechnen, meist bleibt es dort niederschlagsfrei mit ein wenig Sonne. Der Wind legt zu!</wxSynopsisComment>
+          <tendencyComment>Oberhalb von 2000m stellt sich ein Triebschneeproblem ein. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

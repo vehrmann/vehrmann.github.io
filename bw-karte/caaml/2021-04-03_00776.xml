@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID776RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID776RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten, dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt spontane Lawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Durch etwas Neuschnee und Windeinfluss kleinräumigen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Über der Baumgrenze gibt es kleinräumigen Triebschnee durch etwas Neuschnee und stärkeren Wind in den Hochlagen aus Nordwest gebildet wurde. Mögliche Gefahrenstellen sind vor allem in den höheren Lagen im kammnahen Steilgelände vorhanden. Hier könnten Schneebrettlawinen durch Zusatzbelastung ausgelöst werden. Die Gefahr von spontanen Nassschneelawinen ist mit den kalten Temperaturen deutlich zurück gegangen. Vereinzelt sind auf steilen vergrasten Hängen Gleitschneelawinen nicht auszuschließen.</avActivityComment>
+          <snowpackStructureComment>Nur wenig Neuschnee bei teils lebhaften Windeinfluss ergibt etwas frischen Triebschnee, der teils schlecht bindet. Die Altschneedecke hat sich mit den kälteren Temperaturen oberflächig gefestigt. Im Inneren ist sie oft feucht und auch nass. Tiefe Lagen sind überwiegend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht anfangs noch durch dichte Restwolken und letzte leichte Schneeschauer eingeschränkt. Tagsüber herrschen bei wechselnder Quellbewölkung und längeren sonnigen Phasen meist brauchbare Sichtverhältnisse. Es weht mäßiger, in den Hochlagen teils lebhafter Wind aus Nordwest bis Nord. Temperaturen in 1500 m um -4 Grad, in 2000 m um -8 Grad.&#13;
+Am Montag scheint die Sonne zunächst meist ungetrübt. Im Tagesverlauf ziehen zunächst dünne Schleierwolken auf. Am Nachmittag verdichtet sich die Bewölkung. Zum Abend hin geraten höhere Lagen in Nebel, in der Folge kommt es zu einem Wetter- und Temperatursturz mit kräftigem Schneefall. Es weht starker, ab Mittag zunehmend stürmischer Wind aus westlichen Richtungen. Temperatur in 1500 m zu Mittag um 4 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag ist etwas frischer Triebschnee von Wochenende zu beachten. Durch mildere Temperaturen und mit der Einstrahlung sind sonnseitig spontane Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID776RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID776RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringmächte Altschneedecke wurde durch etwas Neuschnee überdeckt!</avActivityHighlights>
+          <avActivityComment>Nur punktuell in den Kamm- und Gipfellagen könnte es etwas frische Triebschnee geben. Mit der Abkühlung kaum Gefahr für spontane Nassschneelawinen. Nur dort wo auf steilen Wiesenhängen noch ausreichend Schnee liegt können Gleitschneelawinen nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Nur wenig Neuschnee und nur etwas Windeinfluss könnten zu kleinräumigem Triebschnee führen. Die nur mehr teils vorhandene geringmächtige Altschneedecke konnte sich mit der Abkühlung festigen. Tiefe Lagen sind überwiegend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag ist die Sicht anfangs noch durch dichte Restwolken und letzte leichte Schneeschauer eingeschränkt. Tagsüber herrschen bei wechselnder Quellbewölkung und längeren sonnigen Phasen meist brauchbare Sichtverhältnisse. Es weht mäßiger, in den Hochlagen teils lebhafter Wind aus Nordwest bis Nord. Temperaturen in 1500 m um -4 Grad, in 2000 m um -8 Grad.&#13;
+Am Montag scheint die Sonne zunächst meist ungetrübt. Im Tagesverlauf ziehen zunächst dünne Schleierwolken auf. Am Nachmittag verdichtet sich die Bewölkung. Zum Abend hin geraten höhere Lagen in Nebel, in der Folge kommt es zu einem Wetter- und Temperatursturz mit kräftigem Schneefall. Es weht starker, ab Mittag zunehmend stürmischer Wind aus westlichen Richtungen. Temperatur in 1500 m zu Mittag um 4 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

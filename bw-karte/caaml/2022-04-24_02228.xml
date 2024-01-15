@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2228RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-24T05:19:12+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2228RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-24T05:19:12+00:00</beginPosition>
+          <endPosition>2022-04-25T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>im Tagesverlauf steigt die Gefahr von Nassschneelawinen unterhalb 2200m leicht an</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <comment>Im Tagesverlauf entstehen in höheren Lagen frische, meist kleine Triebschneeansammlungen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>frischen Triebschnee beachten, Im Tagesverlauf unterhalb etwa 2200m leichter Anstieg der Gefahr von nassen Lawinen</avActivityHighlights>
+          <avActivityComment>Es herrschen verbreitet günstige Bedingungen und ein geringe Lawinengefahr. im Tagesverlauf steigt die Gefahr von feuchten Rutschen unterhalb etwa 2200m leicht an. Zu beachten sind die frischen Triebschneeansammlungen, die auch heute mit den Niederschlägen und dem böigen SW-Wind entstehen. Diese meist kleineren Triebschneeansammlungen sind in höheren Lagen störanfällig und können bereits von einzelnen Wintersportlern ausgelöst werden. Dabei ist die Absturzgefahr eher größer als die Gefahr einer Verschüttung. In den schneereicheren Gebieten sind an sehr steilen Grashängen  kleinere Gleitschneelawinen nicht auszuschließen. In sehr steilen Schattenhängen können in hochalpinen Lagen sehr vereinzelt noch Schwachschichten im Altschnee gestört werden. </avActivityComment>
+          <snowpackStructureComment>Die Nacht war teilweise bewölkt und die Abstrahlung daher nicht sehr gut. Nur in hohen Lagen ist die Schneeoberfläche tragfähig. Mit den frühlingshaften Wetterbedingungen verliert die Schneedecke im Tagesverlauf an Festigkeit und die Gefahr von nassen Lawinen steigt etwas an. Mit dem böigen SW-Wind sind in höheren Lagen kleinere Triebschneeansammlungen entstanden. Im Tagesverlauf kommen mit dem Neuschnee noch weitere, kleine Treibschneeansammlungen dazu. in höheren Lagen ist die Bindung zur verharschen Altschneedecke oft störanfällig. In tiefen und mittleren Lagen liegt nur noch wenig Schnee. In hochalpinen Lagen sind vor allem an sehr steilen Schattenhängen noch sehr vereinzelt Gefahrenstellen für trockene Lawinen vorhanden. Kleine bis mittlere Schneebrettlawinen können dort im oberen Teil der Schneedecke oder im Bereich von Saharastaubschichten vereinzelt noch ausgelöst werden.</snowpackStructureComment>
+          <wxSynopsisComment>Neben dichten Wolken scheint am Vormittag noch zeitweise die Sonne. Im Bergland ist bereits mit ersten Schneeschauern zu rechnen. Am Nachmittag ist der Himmel oft schon trüb, die Sichten verschlechtern sich und die Schauer werden häufiger. Die Schneefallgrenze liegt meist bei 1500 bis 1900 Meter. Temperatur in 2000 m: 1 Grad. Höhenwind: mäßig bis frisch, in Schauernähe stark böig aus Südwest.</wxSynopsisComment>
+          <tendencyComment> Zu Wochenbeginn gibt es trübes, kühles und unbeständiges Frühlingswetter. Die Lawinengefahr kann in höheren Lagen mit den Niederschlägen und dem Windeinfluss etwas ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

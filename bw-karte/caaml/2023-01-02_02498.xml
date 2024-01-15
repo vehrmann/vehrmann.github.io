@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2498RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2498RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt; 2400 m überdeckte Schwachschichten im Altschnee sind schwierig zu erkennen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>neuerer Triebschnee sowie Schwachschichten im Altschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Der jüngste Triebschnee ist vor allem schattseitig in windgeschützten, kammnahen Bereichen teilweise störanfällig. Gefahrenstellen befinden sich vor allem in Hochlagen und in Föhngebieten. Kleinräumige Einwehungen sind leicht auslösbar. Zudem sind vor allem oberhalb ca. 2400 m besonders an steilen Schattenhängen ungünstig aufgebaute Altschneeschichten vorhanden. Ausgelöste Lawinen können teilweise die gesamte Schneedecke mitreißen und dann auch vereinzelt groß werden. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind weiterhin kleine bis mittlere Nass- und Gleitschneelawinen möglich. Dies vor allem an steilen Sonnenhängen.</avActivityComment>
+          <snowpackStructureComment>Mit zeitweise starkem Südwestwind wurden in den letzten Tagen in höheren Lagen immer wieder Triebschneeansammlungen gebildet. In hohen Lagen sind diese vor allem in windgeschützten Schattenhängen teils störanfällig. In Hochlagen sind vor allem in steilen Schattenhängen Schwachschichten in der Schneedecke vorhanden. Diese Gefahrenstellen sind von außen nicht erkennbar. Insgesamt hat sich die Schneedecke in den letzten Tagen mit warmen Temperaturen und Sonneneinstrahlung sowie nächtlicher Abstrahlung meist gut gesetzt und verfestigt. In Hochlagen dominieren windverpresste und verharschte Oberflächen. Nur in windgeschützten schattseitigen Bereichen ist der Schnee noch weich. Unter 1800m liegt nur wenig Schnee und unter 1400 m ist der Boden weitgehend ausgeapert. Rückmeldungen aus den Tourengebieten sind derzeit aufgrund der Schneelage spärlich.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Dienstag: Der Föhn ist zu Ende, es trübt ein und in den nördlichen Regionen beginnt es in den Morgenstunden leicht zu regnen. Die Schneefallgrenze sinkt gegen 1500 m. Im Montafon könnte es bis zum Morgen weitgehend trocken bleiben. Dienstag: Eine schwache Kaltfront sorgt für überwiegend trübes Bergwetter mit Wolken und Nebel. Oberhalb von 1500 m gibt es in den nördlichen Gebirgsgruppen unergiebigen und nur kosmetischen Neuschnee. Schon nachmittags sind nur mehr wenige Schauer dabei. Rätikon, Silvretta und Verwall gehen eher leer aus. Temperaturen in 2000 m: um -1 Grad, Höhenwind: meist nur mäßig aus West bis Südwest</wxSynopsisComment>
+          <tendencyComment>Ein Zwischenhoch bringt am Mittwoch die Sonne zurück. Die Gefahr von trockene Lawinen ändert sich nicht wesentlich. Die Gefahr von nassen Lawinen nimmt mit der Abkühlung ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2498RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-02T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2498RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-02T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-03T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>feuchte Rutsche und Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>nur noch sehr wenig Schnee - im Tagesverlauf sind vereinzelt feuchte Rutsche und Gleitschneelawinen möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Aus noch nicht entladenem steilen glatten Hängen können vereinzelt kleine Gleitschneelawinen und feuchte Rutsche abgehen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich in den letzten Tagen  mit warmen Temperaturen und Sonneneinstrahlung gut gesetzt und verfestigt. Unter 1800 m liegt wenig Schnee und unter 1400 m ist der Boden weitgehend ausgeapert.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht auf Dienstag: Der Föhn ist zu Ende, es trübt ein und in den nördlichen Regionen beginnt es in den Morgenstunden leicht zu regnen. Die Schneefallgrenze sinkt gegen 1500 m. Im Montafon könnte es bis zum Morgen weitgehend trocken bleiben. Dienstag: Eine schwache Kaltfront sorgt für überwiegend trübes Bergwetter mit Wolken und Nebel. Oberhalb von 1500 m gibt es in den nördlichen Gebirgsgruppen unergiebigen und nur kosmetischen Neuschnee. Schon nachmittags sind nur mehr wenige Schauer dabei. Rätikon, Silvretta und Verwall gehen eher leer aus. Temperaturen in 2000 m: um -1 Grad, Höhenwind: meist nur mäßig aus West bis Südwest</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2997RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2997RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah,</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee im Nordsektor!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb der Baumgrenze gering, darüber mäßig. Die Gefahrenstellen befinden sich vor allem im Nordsektor. Hier können bei geringer Zusatzbelastungen kleine bis mittlere Lawinen (Schneebretter) ausgelöst werden. Vereinzelt sind noch spontane Lockerschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Der Wind aus Ost bis Süd hat frischen Triebschnee in den Nordsektor verfrachtet. Der Triebschnee liegt meist auf einer Harschschicht. Die Verbindung der kalten Schneeschicht mit dem darunterliegenden warmen Harschdeckel ist schlecht. Die bodennahe Schneeschicht ist bis in die Hochlagen feucht. </snowpackStructureComment>
+          <wxSynopsisComment>In den westlichen Nordalpen sowie in den Hochlagen der Niederen Tauern scheint mit schwachem Südostwind öfter die Sonne. Überall sonst dominieren bis über 2000m hinauf Wolken und Nebel, die Sichten sind teils eingeschränkt. Entland des Randgebirges sind ein paar Schneeflocken möglich. Es weht mäßiger Südostwind und die Temperaturen steigen ein wenig an. In 2000m Höhe hat es zu Mittag -5 Grad am Zirbitzkogel und -3 Grad am Grimming.&#13;
+ </wxSynopsisComment>
+          <tendencyComment>In der Regionen der Nordalpen scheint auch am Donnerstag für mehrere Stunden die Sonne. Sonst dominieren weiterhin Wolken, Nebel und schlechte Sichten. Stellen- und zeitweise fallen auch ein paar Schneeflocken. Mäßiger Wind aus Süd bis Südost, im Norden weht Föhn. In 2000m Höhe liegt die Temperatur um 2- Grad. Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2997RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2997RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-28T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Altschneeproblem - vereinzelte Gefahrenbereiche!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Einige wenige Gefahrenstellen durch Schneebretter beschränken sich auf die Hochlagen des extrem steilen schattseitigen Geländes oberhalb von 1900m. Eine Schneebrettauslösung ist meist nur noch bei großer Zusatzbelastung möglich. Im Nordsektor haben sich frische Triebschneelinsen gebildet, die leicht auslösbar sind. Allerdings werden bei einer Auslösung nur Rutsche erwartet.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich gut setzen, die einzelnen Schichten gut verbinden. Frischer Triebschnee lagerte sich im Nordsektor auf einer Harschschicht ab. Schattseitige Hochlagen weisen oft recht harte Verhältnisse auf, viele Hangzonen sind hier auch abgeweht. Im Grazer Bergland liegt nur mehr wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>In den westlichen Nordalpen sowie in den Hochlagen der Niederen Tauern scheint mit schwachem Südostwind öfter die Sonne. Überall sonst dominieren bis über 2000m hinauf Wolken und Nebel, die Sichten sind teils eingeschränkt. Entland des Randgebirges sind ein paar Schneeflocken möglich. Es weht mäßiger Südostwind und die Temperaturen steigen ein wenig an. In 2000m Höhe hat es zu Mittag -5 Grad am Zirbitzkogel und -3 Grad am Grimming.&#13;
+ </wxSynopsisComment>
+          <tendencyComment>Donnerstag: Es dominieren weiterhin Wolken, Nebel und schlechte Sichten. Stellen- und zeitweise fallen auch ein paar Schneeflocken. Mäßiger Wind aus Süd bis Südost, im Norden weht Föhn. In 2000m Höhe liegt die Temperatur um 2- Grad. Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

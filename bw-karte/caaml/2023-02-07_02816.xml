@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2816RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2816RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch frischen Triebschnee im West- und Nordsektor! Vorsicht vor Absturzgefahr an vereisten Stellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig eingestuft, darunter ist sie gering. Das Hauptproblem sind frische Triebschneeablagerungen in schattigen Bereichen, insbesondere der Expositionen West bis Nord. Hier können an einigen Stellen hinter Geländeübergängen schon durch geringe Zusatzbelastung Schneebrettlawinen ausgelöst werden. Sonnseitig ist auf Schneemäuler zu achten, Bereiche unterhalb sind möglichst zu meiden. Exponierte Bereiche sind oft abgeweht und vereist - Vorsicht vor Absturzgefahr!</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der vergangenen Woche hat sich weitgehend gesetzt und stabilisiert. An der Oberfläche ist durch die tiefen Temperaturen eine lockere Schicht entstanden, die schattseitig auch tagsüber erhalten bleibt. Mit zunehmendem Ost- bis Südostwind kann diese Schicht von Triebschnee überlagert werden und zur Schwachschicht werden. Im Schneedeckenfundament befinden sich zum Teil Schwachschichten aus kantigen Kristallen oder Schwimmschnee. Sonnseitig ist mit langsamem Anstieg der Gleitschneeaktivität zu rechnen. Die Schneedecke ist allgemein stark vom Wind beeinflusst und sehr unregelmäßig verteilt. Exponierte Bereiche sind abgeweht und oft vereist. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch herrscht weiterhin sonniges, kaltes Bergwetter in Niederösterreich. In 1500 m Seehöhe ist mit -10 Grad zu rechnen, der Wind hat auf Ost gedreht und weht mäßig bis lebhaft. Am Donnerstag dreht der Wind weiter Richtung Süd, es wird ein wenig milder und bleibt sonnig.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahrenstufe ändert sich nur wenig, allerdings nimmt mit dem Südwind das schattseitige Triebschneeproblem ein wenig zu und sonnseitig ist vermehrt mit Gleitschneelawinen zu rechnen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2816RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2816RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-07T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>sehr vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, dennoch vereinzelte Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist generell gering. Dennoch können in schattigen Steilhängen vereinzelt kleinere Triebschneeansammlungen als Schneebrettlawinen ausgelöst werden. Sonnseitig ist auf Schneemäuler zu achten, Bereiche unterhalb sind möglichst zu meiden. </avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der vergangenen Woche hat sich weitgehend gesetzt und stabilisiert. An der Oberfläche ist durch die tiefen Temperaturen eine lockere Schicht entstanden, die schattseitig auch tagsüber erhalten bleibt. Mit zunehmendem Ost- bis Südostwind kann diese Schicht von Triebschnee überlagert werden. Sonnseitig ist mit einem langsamen Anstieg der Gleitschneeaktivität zu rechnen. </snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch herrscht weiterhin sonniges, kaltes Bergwetter in Niederösterreich. In 1500 m Seehöhe ist mit -10 Grad zu rechnen, der Wind hat auf Ost gedreht und weht mäßig bis lebhaft. Am Donnerstag dreht der Wind weiter Richtung Süd, es wird ein wenig milder und bleibt sonnig.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahrenstufe ändert sich nur wenig, allerdings nimmt mit dem Südwind das schattseitige Triebschneeproblem ein wenig zu und sonnseitig ist vermehrt mit Gleitschneelawinen zu rechnen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

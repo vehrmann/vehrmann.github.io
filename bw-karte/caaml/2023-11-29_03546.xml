@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3546RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3546RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen besteht noch ein Triebschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit MÄSSIG beurteilt. Treibschneeablagerungen können noch immer durch eine geringe Zusatzbelastung gestört und als Schneebrettlawine abrutschen. Unterhalb der Waldgrenze wird die Lawinengefahr durch spontane Lawinen aus steilen Grasmattenhängen mit GERING beurteilt.</avActivityComment>
+          <snowpackStructureComment>Die teils mächtigeren Triebschneeablagerungen in den Hohen Tauern, entlang der Landesgrenze, haben sich mit der Sonneneinstrahlung am Mittwoch schon etwas setzen und auch mit der Altschneedecke verbinden können. Der Setzungsprozess ist auf Grund der sehr kalten Temperaturen aber etwas verzögert. In der Altschneedecke sind Harschkrusten und auch aufbauend umgewandelte Schichten vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag wird von Südwesten her feuchte und nach und nach mildere Luft herangeführt. Es gibt unwirtliches Bergwetter mit in exponierten Lagen stürmischem Südwestwind. Vormittags schneit es verbreitet ein wenig. Mit den milden Luftmassen steigt die Schneefallgrenze bis zum Nachmittag auf 900 bis 1300 m, im Süden sogar noch etwas höher. Nennenswerte beschränken sich später am Tag auf die südlichen und östlichen Gebirgsgruppen. Die Temperaturen steigen in 2000 m von -5 Grad in der Früh auf -1 Grad am Nachmittag und in 3000 m vom -10 Grad auf -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Freitag  regnet und schneit es bei einer Schneefallgrenze von voraussichtlich 1500 m in den Hohen Tauern und 2400 m in den Karawanken von Südosten her häufiger und intensiver. Erst am Abend sickert von Norden her langsam kältere Luft ein und die Niederschläge intensivieren sich im ganzen Bergland. Leichter Anstieg der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3546RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-11-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3546RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-11-29T17:00:00+00:00</beginPosition>
+          <endPosition>2023-11-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Vereinzelte kleine Triebschneelinsen oberhalb der Waldgrenze können vereinzelt noch durch eine geringe Zusatzbelastung gestört werden.</avActivityComment>
+          <snowpackStructureComment>Die Triebschneelinsen in höheren Lagen haben sich schon etwas setzen können. In der lückenhaften Altschneedecke sind Harschkrusten und aufbauend umgewandelte Schichten vorhanden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag wird von Südwesten her feuchte und nach und nach mildere Luft herangeführt. Es gibt unwirtliches Bergwetter mit in exponierten Lagen stürmischem Südwestwind. Vormittags schneit es verbreitet ein wenig. Mit den milden Luftmassen steigt die Schneefallgrenze bis zum Nachmittag auf 900 bis 1300 m, im Süden sogar noch etwas höher. Nennenswerte beschränken sich später am Tag auf die südlichen und östlichen Gebirgsgruppen. Die Temperaturen steigen in 2000 m von -5 Grad in der Früh auf -1 Grad am Nachmittag und in 3000 m vom -10 Grad auf -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Vorerst keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

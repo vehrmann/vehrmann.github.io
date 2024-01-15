@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1925RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-17T06:26:52+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1925RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-17T06:26:52+00:00</beginPosition>
+          <endPosition>2022-03-18T07:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T06:26:52+00:00</beginPosition>
+                  <endPosition>2022-03-17T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-17T11:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-18T07:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb etwa 2400m älterer Triebschnee in Kamm- und Passlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Erwärmung und Strahlungseinfluss Tagesgang der spontanen Lawinenaktivität an steilen und stark besonnten Hängen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den frühen Vormittagsstunden herrschen recht günstige Lawinenverhältnisse. Mit Erwärmung und Einstrahlung rascher tageszeitlicher Anstieg der Lawinengefahr beachten!</avActivityHighlights>
+          <avActivityComment>Ältere, meist kleine Triebschneeansammlungen sind vor allem an Nordhängen teils störanfällig. Gefahrenstellen liegen besonders in Kamm- und Passlagen oberhalb etwa 2400m. Diese sollten vor allem im absturzgefährdeten Gelände gemieden werden. Mit der tageszeitlichen Erwärmung und Sonneneinstrahlung nimmt die Gefahr von nassen Lawinen im Tagesverlauf rasch zu und es sind vermehrt mittlere, aber auch einzelne große Nass- und Gleitschneelawinen zu erwarten. Dies vor allem an steilen Ost-, Süd- und Westhängen unterhalb von etwa 2600m sowie an allen Expositionen unterhalb etwa 2200m. Bereiche unterhalb von Gleitschneerissen sollten gemieden werden. Mittlere nasse Lockerschneelawinen können zudem von einzelnen Wintersportler ausgelöst werden. Touren sollten früh gestartet und rechtzeitig beendet werden.</avActivityComment>
+          <snowpackStructureComment>Die Nacht war wechselnd bis stark bewölkt und verminderte die Abstrahlung der Schneedecke. Es konnte sich oft nur ein brüchiger Harschdeckel ausbilden, der im Laufe des Vormittags je nach Neigung und Exposition unterschiedlich rasch aufweicht. Eine ausgedehnte Schichtbewölkung und Saharastaub lassen die Sonne kaum zur Geltung kommen. Aber der Saharastaubeintrag hat die Schneeoberfläche bräunlich-gelb eingefärbt, die Sonneneinstrahlung wird weniger reflektiert, was wiederum den Wärmeeintrag in die Schneedecke erhöht. Das führte auch gestern trotz ausgesprochen diffusen Verhältnissen zu einer erhöhten Nassschneelawinenaktivität zum Teil bis in Höhen von etwa 2600m hinauf. In mittleren Lagen ist die Schneedeckenbasis feucht. An sehr steilen Grashängen begünstigt das die Gleitbewegung der Schneedecke. Die meist kleinen Triebschneeansammlungen der vergangenen Tage liegen an Nordhängen auf einer kantig aufgebauten Altschneedecke und sind teils noch störanfällig.</snowpackStructureComment>
+          <wxSynopsisComment>Schwacher Hochdruckeinfluss. Dennoch kommt die Sonne kaum zur Geltung, da ein ausgedehnter Cirrenschirm den Himmel überzieht. Der viele Saharastaub in der Luftmasse sorgt noch zusätzlich für Eintrübung, insgesamt sind also ausgesprochen diffuse Verhältnisse zu erwarten. Dennoch mild und windschwach in allen Höhen. Temperatur in 2000 m: um 6 Grad, der Höhenwind weht schwach aus nördlicher Richtung.</wxSynopsisComment>
+          <tendencyComment>Auch in der Nacht auf Freitag ist es bewölkt und die Abstrahlung reduziert. Tagsüber bringt eine nordöstliche Strömung wolkenreiche Luft, die Sonne bleibt dabei bis zum Nachmittag im Hintergrund und es wird etwas kühler. Am Vormittag herrschen recht günstige Bedingungen. Im Tagesverlauf steigt die Gefahr von Nassschneelawinen nur leicht an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

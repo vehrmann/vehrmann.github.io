@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3038RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3038RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Vermeide ältere Triebschneeablagerungen im extrem steilen, hochalpinen Gelände, insbesondere oberhalb Geländefallen (z.B. Felsabbrüche).</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Sehr vereinzelte, kleinräumige Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING. Sehr vereinzelte Gefahrenstellen für trockene Schneebrettlawinen liegen an extrem steilen (&gt;40°), kammnahen Schattenhängen in der Höhe. Vorsicht im absturzgefährdetem Gelände. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein stabil. Die schon älteren Triebschneeansammlungen der letzten Woche haben sich verfestigt,Schwachschichten tiefer im Altschnee (Tauernbereich, hochalpin) sind gut überdeckt und derzeit ebenfalls kaum ansprechbar. Schneedeckenuntersuchungen und Rückmeldungen unser Beobachter bestätigen die günstige Lawinensituation.&#13;
+Die Schneelage ist für die Jahreszeit unterdurchschnittlich. Dies gilt besonders für tiefe (&lt;1000m) und mittlere Lagen (&lt;2000m), Sonnenhänge sind dort meist aper. An Schattenhängen oberhalb 1800m findet man trockenen, in windgeschützten Lagen auch pulvrigen (z.T. bereits aufbauend umgewandelten) Schnee. An Sonnenhängen bzw. allgemein unterhalb 1800m hat sich an der Oberfläche ein Schmelzharschdeckel gebildet, welcher bei starker Bewölkung am Montag kaum aufweicht. </snowpackStructureComment>
+          <wxSynopsisComment>Mehrschichtige Wolken schränken am Montag die Sicht im Gebirge zum Teil ein oder sorgen für diffuses Licht. In den Nockbergen und den Niederen Tauern schneit es zeitweise leicht, sonst fällt kaum Schnee. Der Wind weht im Hochgebirge und im Lungau mit etwa 30 km/h aus unterschiedlicher Richtung. In 2000m um -6 Grad, in 3000m -12 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag im Süden bewölkt, im Norden sonniger. Entlang der Tauern teils starker Südföhn. Kaum Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

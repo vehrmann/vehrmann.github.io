@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2075RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2075RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kammnah, stellenweise leicht auslösbar, auch kammfern</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Tagesgang der spontanen Lawinenaktivität, starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang für spontane Lawinen und lokales Triebschneeproblem über der Waldgrenze!</avActivityHighlights>
+          <avActivityComment>Durch mildere Temperaturen und Einstrahlung steigt die Gefahr für spontane Lawinen im Tagesverlauf an. Vor allem aus besonnten Bereichen kann der letzte Neuschnee aus dem Steilgelände als Lockerschnee- teils auch als Schneebrettlawine (dort wo er windgepresst ist) abrutschen. Zudem legt der Wind aus westlichen Richtungen etwas zu. Somit gibt es Gefahrenstellen durch frischen Triebschnee. Im steilen Gelände könnten Schneebrettlawinen lokal bereits durch geringe Zusatzbelastung ausgelöst werden. Aus nicht entladenem Steilgelände sind einzelne spontane Gleitschneelawinen weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>In den höheren Lagen gibt es vor allem kammnah frischen Triebschnee durch Wind um West, der auch leicht zu stören ist. Mit den steigenden Temperaturen und mit der Einstrahlung wird der letzte Neuschnee zunehmend feucht. Auf einer verharschten und harten Altschneedecke liegen rund 25 cm (hochgelegen und lokal auch mehr) noch lockerer Schnee, der im Tagesverlauf sonnseitig angefeuchtet wird.</snowpackStructureComment>
+          <wxSynopsisComment>Am Montag herrscht trockenes Wetter mit viel Sonnenschein und guten Sichtverhältnissen. Es weht lebhafter Wind, am Nachmittag starker Wind aus westlichen Richtungen. Die Temperaturen steigen markant an. Temperaturen in 1500 m zwischen -7 und 0 Grad, in 2000 m zwischen -10 und -3 Grad.&#13;
+Am Dienstag ist die Sicht auf den Bergen von der Früh weg durch dichte Wolken eingeschränkt, dazu kommen Regen und Schneefall. Die Schneefallgrenze steigt im Tagesverlauf auf 900 bis 1500 m. Es weht starker Wind aus West bis Nordwest. Temperaturen in 1500 m um 0 Grad, in 2000 m um -2 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Dienstag Triebschneeproblem über der Waldgrenze und Nassschneeproblem unter der Schneefallgrenze.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

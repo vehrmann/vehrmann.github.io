@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2033RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2033RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-29T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-30T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>keine nächtliche Ausstrahlung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem bei geringer Lawinengefahr beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Trotzdem können in sehr steilem Gelände vereinzelte Auslösungen von nassen Lawinen aufgrund der fehlenden nächtlichen Ausstrahlung unabhängig von der Tageszeit nicht ganz ausgeschlossen werden. Aus steilen Wald- und Wiesenhängen sind Gleitschneerutsche weiterhin möglich, Schneemäuler sind dahingehend als Gefahrenzeichn zu beachten. Im Bereich mit noch harten Oberflächen (abgeschattete Rinnen und Einfahrtsbereiche) herrscht Absturzgefahr. Aufgrund dichter Bewölkung herrschen oft schlechte Sichtbedingungen.</avActivityComment>
+          <snowpackStructureComment>Aufgrund dichter Bewölkung kann sich die Schneedecke in der Nacht oft nicht ausreichend verfestigen und gestaltet sich von Beginn an (bzw. mit einwirkender diffuser Strahlung) oft bis zur Oberfläche weich bzw. feucht. Nur in höhergelegenen, schattigen Rinnen mit Kältereserven bleibt die Oberfläche noch härter. Vielerorts ist die Schneedecke bis zum Boden hin nass. Tiefe und mittlere Lagen sind zunehmend ausgeapert.</snowpackStructureComment>
+          <wxSynopsisComment>Nach einer verbreitet bewölkten Nacht dominieren bei südwestlicher Höhenströmung auch am Mittwoch in den Bergen zunehmend die Wolken, sonnige Abschnitte gibt es nur vereinzelt in der Früh und am Vormittag. Die Schauerneigung steigt am Nachmittag etwas an, es bleibt aber weitgehend trocken. Trotz leichtem Temperaturrückgang gegenüber den Vortagen bleibt es vorerst noch mild, bis Mittag steigen die Werte in 1500m auf +7 Grad, in 2000m auf +1 Grad an, am Nachmittag beginnt das Temperaturniveau zu sinken. Der Südwestwind ist meist mäßig, in exponierten Lagen der östlichen Gebirgsgruppen mitunter auch stark. </wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Donnerstag stellt sich das Wetter um, bei allmählich sinkender Schneefallgrenze (1400m bis 1000m) regnet bzw. schneit es verbreitet. Richtung Wochenende kühlt es weiter ab, dazu schneit es unter Windeinfluss immer wieder, womit sich eine spätwinterliche Phase mit einem Anstieg der Lawinengefahr abzeichnet.    </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

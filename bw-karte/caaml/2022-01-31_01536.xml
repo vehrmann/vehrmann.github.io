@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1536RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1536RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-31T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit starkem Wind und Neuschnee bilden sich umfangreiche und störanfällige Triebschneeansammlungen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1400 m erheblich, darunter ist sie mäßig. Die Hauptgefahr geht von Neu- und Triebschnee aus. Viele Gefahrenstellen befinden sich im Steilgelände aller Hangrichtungen vor allem kammnah, in eingewehten Rinnen und Mulden und auch kammfern hinter Geländekanten. Mittelgroße Schneebrettlawinen können vielerorts bereits durch einen einzelnen Skifahrer ausgelöst werden. Besonders in den Hochlagen können Lawinen an stark eingewehten Hängen auch groß werden. Lockerschnee- und Schneebrettlawinen können sich zudem aus steilen Hängen von selbst lösen und in den Hauptniederschlagsgebieten ebenfalls groß werden.</avActivityComment>
+          <snowpackStructureComment>Stürmischer Wind, kalte Temperaturen und Neuschneemengen zwischen 20 und 40 cm, in Staulagen bis zu 50 cm, lassen umfangreiche, störanfällige Triebschneeansammlungen entstehen. Innerhalb der Triebschneepakete können sich in Niederschlagspausen schwache Zwischenschichten bilden und stellenweise ist Graupel eingelagert. Insgesamt ist die Schneedecke stark vom Wind geprägt. Die Altschneedecke ist meist stabil, in tiefen Lagen ist sie geringmächtig und durchfeuchtet.</snowpackStructureComment>
+          <tendencyComment>Es sind weitere Niederschläge und starker Wind angekündigt. Die Lawinengefahr wird weiter ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

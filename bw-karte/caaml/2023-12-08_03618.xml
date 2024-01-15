@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3618RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3618RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-08T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Kammnahen, störanfälligen Triebschnee meiden</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im Bayerischen Alpenraum ist mäßig. Das Hauptproblem ist Triebschnee. Dieser kann durch geringe Zusatzbelastung wie z.B. durch einen einzelnen Skifahrer ausgelöst werden. Gefahrenstellen befinden sich im kammnahen Steilgelände der Expositionen Nordwest über Ost bis Süd und nehmen an Anzahl und Umfang mit der Höhe zu. Schneebrettlawinen können mittlere Größe erreichen.&#13;
+An steilen Wiesenhängen und im steilen, lückigen Bergwald ist zudem in allen Expositionen die Selbstauslösung von kleinen und mittelgroßen Gleitschneelawinen möglich. Gleitschneerisse weisen auf die Gefahrenstellen hin, Bereiche unterhalb davon sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Auffrischender Wind aus südwestlichen Richtungen verfrachtet den Schnee in den höheren Lagen und es bilden sich frische, störanfällige Triebschneeansammlungen. Auch im Bereich des älteren Triebschnees der letzten Tage sind vor allem in den Hochlagen noch störanfällige Zwischenschichten erhalten geblieben, wo dieser auf Oberflächenreif oder einer lockeren Schneeoberfläche zu liegen gekommen ist. Die für diese Jahreszeit überdurchschnittlich mächtige Altschneedecke hat sich gut gesetzt und ist stabil. In mittleren und tiefen Lagen ist die Schneedeckenbasis oft nass und Gleitbewegungen auf glattem Untergrund sind die Folge.</snowpackStructureComment>
+          <tendencyComment>Stürmisches Wetter verstärkt am Sonntag das Triebschneeproblem in den Hochlagen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

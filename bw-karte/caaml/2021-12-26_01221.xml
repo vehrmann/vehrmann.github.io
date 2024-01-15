@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1221RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1221RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneedecke trotz Durchnässung weitgehend stabil</avActivityHighlights>
+          <avActivityComment>Es herrscht eine geringe Lawinengefahr im bayerischen Alpenraum. Vereinzelte Nassschneelawinen sind in mittleren Lagen das Hauptproblem. Diese sind meist klein und können sich im felsigen Steilgelände, in steilen Waldschneisen oder an glatten Wiesenhängen, dort wo noch genügend Schnee liegt und noch keine Lawinen abgegangen sind, von selbst lösen. Mit Sonneneinstrahlung sind die Südexpositionen im Tagesverlauf etwas stärker betroffen.&#13;
+Außerdem können in den Hochlagen noch vereinzelt schwache Zwischenschichten in der Altschneedecke gestört werden. Dies ist insbesondere mit großer Zusatzbelastung an schattigen, extrem steilen Hängen am Übergang von wenig zu viel Schnee, zum Beispiel bei der Einfahrt in Rinnen und Mulden möglich. Ausgelöste Lawinen sind meist klein, die Absturzgefahr höher einzuschätzen als die Gefahr verschüttet zu werden.</avActivityComment>
+          <snowpackStructureComment>Die markante Schichtung innerhalb der Schneedecke mit Harschdeckeln im Wechsel mit weichen Schneeschichten hat sich  unterhalb 1500 m mit dem massiven Wassereintrag in den letzten Tagen weitgehend aufgelöst. Die Schneedecke ist hier  insgesamt spannungsarm und stabil. Zum Boden hin ist die Schneedecke feucht bis nass und Gleitbewegungen sind daher nicht auszuschließen. Nachts bildet sich an der Schneeoberfläche unter klarem Himmel ein Harschdeckel unterschiedlicher Dicke, der sonnseitig tagsüber wieder auftaut. Im Wald bleibt der Schnee nass und weich. In höheren Lagen ist die Schneedecke sehr kompakt mit nur geringen Einsinktiefen. Schwache Schneeschichten aus kantigen Kristallen finden sich am ehesten noch bodennah an schattigen Hängen oberhalb 2200 m. </snowpackStructureComment>
+          <tendencyComment>Mitte der Woche ist starker Regen bis in die Hochlagen angekündigt. Die Lawinengefahr wird dann wieder ansteigen. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

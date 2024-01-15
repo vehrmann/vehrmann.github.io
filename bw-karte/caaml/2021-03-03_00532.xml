@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID532RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID532RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-03T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nur hochalpines punktuelles Altschneeproblem - kaum Tagesgang bei abgeschirmter Sonne!</avActivityHighlights>
+          <avActivityComment>Bei überwiegend geringer Lawinengefahr gibt es nur sehr wenige Gefahrenstellen. Hochalpin im sehr steilen schattseitigen Gelände könnten Schneebrettlawinen auf Grund des Altschneeproblems durch Zusatzbelastung vereinzelt ausgelöst werden. Bei abgeschirmter Sonne kommt es kaum zu einen Tagesgang für spontane Nassschneelawinen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist allgemein gut gesetzt, meist tragfähig und über Nacht verharscht die Oberfläche. Im Tagesgang weicht die Oberfläche bei abgeschirmter Sonne kaum auf. Hochgelegen gibt es auch teils eine lockere Schneeoberfläche. Nord- und schattseitige sehr hohe Lagen enthalten lokal, meist tieferliegende teils noch zu störende Schwachschichten. Die Schneehöhen sind in den Hochlagen deutlich unterdurchschnittlich, in tiefen und mittleren Lagen wird es wieder zunehmend aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ziehen ausgebreitete Wolken durch, die den Sonnenschein beeinträchtigen oder die Sonne abschirmen. Nordwestwind frischt auf. In 1500 m hat es um 5 Grad, in 2000 m um 1 Grad.&#13;
+Am Freitag stecken die Berge in Wolken und es regnet und schneit länger anhaltend. In 1500 m hat es um -4 Grad, in 2000 m um -6 Grad. Durch lebhaften Nordwind fühlt sich die Luft noch kälter an.</wxSynopsisComment>
+          <tendencyComment>Im Freitag steigt die Lawinengefahr für Schneebrettlawinen durch Neuschnee unter Windeinfluss an über der Waldgrenze an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

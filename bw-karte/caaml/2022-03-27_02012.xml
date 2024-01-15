@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2012RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2012RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-27T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr. Vormittags Absturzgefahr auf harten Oberflächen beachten.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das vorherrschende Lawinenproblem ist Nassschnee. Vereinzelte Gefahrenstellen finden sich besonders im sonnseitigen, felsdurchsetzten Steilgelände. Im Laufe des Tages können sich hier vereinzelt kleinere, nasse Lockerschneelawinen lösen. &#13;
+An steilen Wiesenhängen und im lückigen Bergwald ist zudem das Abrutschen vereinzelter Gleitschneelawinen am glatten Boden möglich, die mittlere Größe erreichen können.</avActivityComment>
+          <snowpackStructureComment>Am Morgen ist die Schneedecke tragfähig verharscht, oberflächlich sehr hart und weitgehend stabil.   Im Laufe des Vormittags weicht sie mit Wärme und Sonne erst an Ost-, dann an Süd- und Westhängen wieder auf. Teilweise wird in den mittleren Lagen am Nachmittag auch schattseitig der Schnee oberflächlich weich. Insgesamt ist die Schneedecke tiefreichend durchfeuchtet und zum Boden hin oft nass, was Gleitbewegungen begünstigt. Die Schneemächtigkeit ist für die Jahreszeit unterdurchschnittlich, sonnseitig ist der Boden bis 1500 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Am Dienstag wird es bedeckt und etwas kühler. Die Lawinengefahr wird sich wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2012RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-27T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2012RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-27T16:00:00+00:00</beginPosition>
+          <endPosition>2022-03-28T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-27T22:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-28T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2022-03-28T10:00:00+00:00</beginPosition>
+                  <endPosition>2022-03-28T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Zunehmende Einsinktiefen im Tagesverlauf weisen auf die Gefahr von Nassschneelawinen hin.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Das vorherrschende Lawinenproblem ist Nassschnee. Gefahrenstellen finden sich besonders im sonnseitigen, felsdurchsetzten Steilgelände. Im Laufe des Tages können sich hier kleine bis mittelgroße nasse Lockerschneelawinen lösen. &#13;
+An steilen Wiesenhängen und im lückigen Bergwald ist zudem das Abrutschen von Gleitschneelawinen am glatten Boden möglich. Der Schwerpunkt liegt hierbei im Allgäu und am Nachmittag. Gleitschneelawinen können vereinzelt größere Ausmaße erreichen.</avActivityComment>
+          <snowpackStructureComment>Morgens ist die Schneedecke tragfähig verharscht, oberflächlich sehr hart und weitgehend stabil.  Im Laufe des Vormittags firnt sie mit Wärme und Sonne erst an Ost-, dann an Süd- und Westhängen wieder auf. Teilweise wird am Nachmittag in den mittleren Lagen auch schattseitig der Schnee oberflächlich weich. Durch das Aufweichen verliert die Schneedecke an Festigkeit und Bindung. Zum Boden hin ist der Schnee bis in die Hochlagen hinein oft nass, was Gleitbewegungen der Schneedecke begünstigt. Die Schneemächtigkeit ist für die Jahreszeit unterdurchschnittlich, sonnseitig ist der Boden bis 1500 m weitgehend ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Am Dienstag wird es bedeckt und etwas kühler. Die Lawinengefahr wird sich wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

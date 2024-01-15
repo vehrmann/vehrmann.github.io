@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2863RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2863RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor und ostseitig, Hochlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>tageszeitlicher Anstieg für spontane Lawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor und ostseitig,Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Südseitig im Tagesverlauf spontane Lawinen - in den Hochlagen einzelne Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>In den schattseitigen Hochlagen sind im sehr steilem Gelände vereinzelt noch ältere Gefahrenstellen vorhanden. Hier könnten stellenweise Schneebrettlawinen insbesondere durch große Zusatzbelastung ausgelöst werden. Zu beachten ist kammnahes Steilgelände, verfüllte steile Mulden und Rinnen und überwiegend gut erkennbarer ältere Triebschnee.&#13;
+Im Tagesverlauf steigt vor allem sonnseitig unter rund 2400 m Höhe die spontane Lawinenaktivität an. Aus steilem stark besonnten Hängen sind dann Lockerschneelawinen zu beachten.&#13;
+Steile vergraste Hänge mit Rissen in der Schneedecke sind weiterhin zu meiden.</avActivityComment>
+          <snowpackStructureComment>Über Nacht festigt sich die Schneeoberfläche. Sie ist dann oft verharscht und je nach Höhe und Exposition unterschiedlich tragfähig. Vor allem sonnseitig wird sie mit den milden Temperaturen und der starken Einstrahlung dann feucht, teils auch nass. Die Schneedecke ist gesetzt, enthält teils lockere Schichten oder schattseitig eventuell Oberflächenreif. Die Schneedecke ist allgemein stark windbeeinflusst, sehr unregelmäßig verteilt und teilweise ist es völlig abgeblasen. Im Schneedeckenfundament sind kantige Kristalle und Schmelzkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag folgt auf den Bergen erneut sehr sonniges und oft wolkenloses Wetter mit ausgezeichneter Fernsicht. Der Wind weht meist nur schwach bis mäßig aus West bis Nord. In 1500 m liegen die Temperaturen zwischen 5 und 7 Grad, in 2000 m um 4 Grad.&#13;
+Wenig Änderungen am Mittwoch: Auf den Bergen überwiegt oft strahlender Sonnenschein und recht mildes Wetter, während in Tallagen kalte Luft sowie auch Nebel lagert. In 1500 m 9 Grad, in 2000 m um 7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2863RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2863RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>tageszeitlicher Anstieg für spontane Lawinen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anfangs überwiegend geringe Lawinengefahr - südseitig im Tagesverlauf spontane Lawinen!</avActivityHighlights>
+          <avActivityComment>Nur sehr vereinzelt und im sehr steilen Gelände sind einzelne Gefahrenstellen vorhanden, die zu beachten sind. Im Tagesverlauf steigt vor allem sonnseitig die spontane Lawinenaktivität an. Aus steilem stark besonnten Hängen sind dann spontane Lawinen zu beachten. Steile vergraste Hänge mit Rissen in der Schneedecke sind zu meiden.</avActivityComment>
+          <snowpackStructureComment>Über Nacht festigt sich die Schneeoberfläche. Sie ist dann oft verharscht und je nach Höhe und Exposition unterschiedlich tragfähig. Vor allem sonnseitig wird sie mit den milden Temperaturen und der starken Einstrahlung dann feucht bis teils auch nass. Die Schneedecke ist gesetzt, enthält teils lockere Schichten oder schattseitig eventuell Oberflächenreif. Die Schneedecke ist allgemein stark windbeeinflusst, sehr unregelmäßig verteilt und teilweise ist es völlig abgeblasen. Im Schneedeckenfundament sind kantige Kristalle und Schmelzkrusten eingelagert.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag folgt auf den Bergen erneut sehr sonniges und oft wolkenloses Wetter mit ausgezeichneter Fernsicht. Der Wind weht meist nur schwach bis mäßig aus West bis Nord. In 1500 m liegen die Temperaturen zwischen 5 und 7 Grad, in 2000 m um 4 Grad.&#13;
+Wenig Änderungen am Mittwoch: Auf den Bergen überwiegt oft strahlender Sonnenschein und recht mildes Wetter, während in Tallagen kalte Luft sowie auch Nebel lagert. In 1500 m 9 Grad, in 2000 m um 7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

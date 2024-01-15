@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3135RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3135RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>etwa oberhalb ca. 1800 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>mit Strahlung und Erwärmung kleine Lockerschneelawinen; an glatten Grashängen kleine Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind in höheren Lagen störanfällig</avActivityHighlights>
+          <avActivityComment>Neu- und kleinräumiger Triebschnee kann in höheren Lagen mit großer Zusatzbelastung als kleine bis mittlere Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen W über N bis E und in eingewehten Rinnen und Mulden. Mit tageszeitliche Erwärmung und Sonneneinstrahlung sind vor allem an sehr steilen Sonnenhängen kleine Lockerschneelawinen möglich. An steilen, glatten Grashängen sind auch kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der seit Montag gefallene Neuschnee konnte sich weiter setzen und zunehmend mit der recht kompakten Altschneedecke verbinden. In höheren Lagen ist der jüngste Neu- und Triebschnee teilweise noch störanfällig. Strahlung und Erwärmung führen besonders an Sonnenhängen im Tagesverlauf zu einem Festigkeitsverlust. In tieferen Lagen liegt nur sehr wenig Schnee. </snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Starke Bewölkung und im Bergland zeitweise schwache Schneeschauer. Vermehrt Auflockerungen zum Morgen hin. Donnerstag: Ausgedehnte Wolkenfelder in höheren Schichten dämpfen die Sonne zeitweise. Insgesamt überwiegt aber der freundliche Eindruck mit guten Sichten, die zeitweise aber etwas diffus sein können. Temperaturanstieg in 2000m von -4 auf +2 Grad. Höhenwind: mäßiger Nordwest- bis Westwind.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird sehr sonnig und mit Temperaturen in 2000 m von +6 bis + 9 Grad sehr warm. In höheren Lagen und in Föhnschneisen macht sich kräftiger Südwind bemerkbar.  Die Gefahr trockener Lawinen nimmt langsam ab. Die Gefahr nasser Lawinen wird wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3135RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3135RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-15T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände, hinter Geländeknicken, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>teilweise Schwachschichten im Mittelteil</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in hohen Lagen erhebliche Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Der jüngste Neu- und Triebschnee sowie schwacher Altschnee sind die Hauptgefahr. Gefahrenstellen sind im eingewehten Steilgelände, hinter Geländekanten sowie in Rinnen und Mulden anzutreffen. Kleine bis mittelgroße Schneebrettlawinen können durch einzelne Wintersportler ausgelöst werden. Mit weiterer Erwärmung und Einstrahlung wird die Schneedecke störanfällig. Spontane Auslösungen aus sehr steilen Geländeabschnitten sind möglich. Wenn solche die Altschneedecke mitreissen können Lawinen auch groß werden. Aktivitäten im freien Gelände erfordern Erfahrung in der Lawinen- und Geländebeurteilung. Mit Erwärmung und Sonneneinstrahlung sind vor allem an sehr steilen Sonnenhängen feuchte Rutsche und kleine Lockerschneelawinen möglich. An steilen, glatten Grashängen sind auch kleine Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Mit zunehmender Seehöhe ist die Bindung innerhalb der Neu- und Triebschneeschichten und vor allem zur Altschneeoberfläche an schattseitigen Steilhängen teilweise nur mäßig bis schwach und daher störanfällig. An hochgelegenen, sehr steilen Schattenhängen weist die Schneedecke im Mittelteil teilweise noch ungünstige Schichten auf. Solche können jedoch meist nur mit großer Zusatzbelastung gestört werden. Vorwiegend an steilen Hängen von NE über E bis SE oberhalb ca. 2200 m wurden am Mittwoch in der Silvretta und im Verwall einige mittlere und auch grössere spontane Schneebretter beobachtet. Auch Sprengungen führten zu grösseren Auslösungen. In tieferen Lagen liegt nur wenig Schnee. </snowpackStructureComment>
+          <wxSynopsisComment> Nacht: Starke Bewölkung und im Bergland zeitweise schwache Schneeschauer. Vermehrt Auflockerungen zum Morgen hin. Donnerstag: Ausgedehnte Wolkenfelder in höheren Schichten dämpfen die Sonne zeitweise. Insgesamt überwiegt aber der freundliche Eindruck mit guten Sichten, die zeitweise aber etwas diffus sein können. Temperaturanstieg in 2000m von -4 auf +2 Grad. Höhenwind: mäßiger Nordwest- bis Westwind.</wxSynopsisComment>
+          <tendencyComment>Der Freitag wird sehr sonnig und mit Temperaturen in 2000 m von +6 bis + 9 Grad sehr warm. In höheren Lagen und in Föhnschneisen macht sich kräftiger Südwind bemerkbar.  Die Gefahr trockener Lawinen nimmt langsam ab. Die Gefahr nasser Lawinen wird wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

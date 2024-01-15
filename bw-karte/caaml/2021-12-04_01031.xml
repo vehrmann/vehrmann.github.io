@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1031RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1031RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neuschnee und Wind bilden in den Hochlagen frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen der Ybbstaler Alpen herrscht mäßige Lawinengefahr, ansonsten wird sie mit gering bewertet. Mit der erwarteten Kombination aus Neuschnee und Wind wird sich in den Hochlagen der Nord-, Ost- bis Südexpositionen frischer Triebschnee ausbilden. Mitunter kann eine Störung bereits durch die geringe Zusatzbelastung einer einzelnen Person erfolgen.</avActivityComment>
+          <snowpackStructureComment>In den Ybbstaler Alpen liegt bereits etwas mehr Schnee als in den östlichen Gebirgsgruppen. Weitere 15 bis 20cm Neuschnee werden durch die erwarteten Niederschläge von Samstagabend bis Sonntag noch hinzukommen. Durch starken bis stürmischen Wind kann sich frischer Triebschnee bilden, der in den Hochlagen zum Teil gestört werden kann. Mitunter kann anfänglicher Regen die Schneedecke noch etwas anfeuchten, bevor die Temperaturen nachhaltig zurückgehen und es bis in tiefe Lagen schneien wird.</snowpackStructureComment>
+          <wxSynopsisComment>Bereits in den Nachtstunden breiten sich Schneefälle auf die gesamten Niederösterreichischen Alpen aus. Auch tagsüber bleibt es am Sonntag überwiegend trüb und es ist mit weiteren Schneefällen zu rechnen. Der Wind weht zunächst noch stark bis stürmisch aus westlichen Richtungen, er dreht im Tagesverlauf auf Nordwest bis Nord und lässt dabei nach. Es wird deutlich kälter, die Mittagstemperaturen liegen in 1500m um -6 Grad und in 2000m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag ist in den westlichen Gebirgsgruppen noch mit dichteren Restwolken und zeitweise leichten Niederschlägen zu rechnen. Auf den Bergen weht mitunter starker Wind aus nordwestlichen Richtungen. Mit Temperaturen um -7 Grad in 1500m und -11 Grad in 2000m wird es noch eine Spur kälter. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches, weiterhin sollte vorrangig der frische Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1031RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1031RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-04T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen entsteht frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Es besteht geringe Lawinengefahr, dennoch existieren vor allem in den Hochlagen der Rax-Schneeberggruppe vereinzelte Gefahrenstellen. Diese finden sich vorwiegend in Kammnähe der Expositionen Nord, Ost bis Süd. Der frische Triebschnee kann (stellenweise bereits durch geringe Zusatzbelastung) als kleineres Schneebrett ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneemengen sind in der frühen Saison noch überschaubar, durch den prognostizierten Schneefall ab Samstagabend werden insgesamt bis etwa 15cm Neuschnee hinzukommen. Durch die starke bis stürmische Windeinwirkung entstehen in den Hochlagen abseits abgewehter Hangzonen frisch mit Triebschnee befüllte Bereiche. In Lagen, wo es anfänglich noch regnet, wird die Schneedecke zudem etwas angefeuchtet.</snowpackStructureComment>
+          <wxSynopsisComment>Bereits in den Nachtstunden breiten sich Schneefälle auf die gesamten Niederösterreichischen Alpen aus. Auch tagsüber bleibt es am Sonntag überwiegend trüb und es ist mit weiteren Schneefällen zu rechnen. Der Wind weht zunächst noch stark bis stürmisch aus westlichen Richtungen, er dreht im Tagesverlauf auf Nordwest bis Nord und lässt dabei nach. Es wird deutlich kälter, die Mittagstemperaturen liegen in 1500m um -6 Grad und in 2000m um -9 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Montag sind die östlichen Gebirgsgruppen etwas begünstigt, hier bleibt es weitgehend niederschlagsfrei und zwischenzeitlich kann sich auch die Sonne zeigen. Auf den Bergen weht mitunter starker Wind aus nordwestlichen Richtungen. Mit Temperaturen um -7 Grad in 1500m und -11 Grad in 2000m wird es noch eine Spur kälter. Im Hinblick auf die Lawinengefahr ändert sich nichts Wesentliches, weiterhin sollte vorrangig der frische Triebschnee in den Hochlagen beachtet werden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1615RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1615RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, kammnah, kammfern, hinter Geländekanten, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls, nasse Lockerschneelawinen, Schneebrett- und Gleitschneelawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliches Triebschneeproblem in den Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze ERHEBLICH, darunter MÄßIG. Schneebretter können an einigen Stellen bereits durch geringe Zusatzbelastung ausgelöst werden und dabei mittlere bis große Ausmaße annehmen. Gefahrenstellen gibt es sowohl kammnah, als auch kammfern hinter Geländekanten und in Rinnen. Aus stark besonnten, noch nicht entladenen Steilbereichen in den Hochlagen sind auch einige spontane Lawinen der Größe zwei (mittel) und drei (groß) möglich. In tiefen und mittleren Lagen kommt es mit der Erwärmung zu kleinen bis mittelgroßen oberflächlichen Lockerschneelawinen. Aus sehr steilem Grasmattengelände sind zudem Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Zu Wochenbeginn fielen verbreitet 30 bis 60 cm kalter Neuschnee. Der Windeinfluss aus West bis Nord (hochalpin vorübergehend auch Nordost bis Ost) war zum Teil extrem und hat den Schnee sehr unterschiedlich abgelegt und teilweise für hüfthohe Einsinktiefen gesorgt. Exponierte Flächen wurden blank gefegt, untypische Wechten und Dünen sind entstanden. Mit der Erwärmung ist in allen Höhenlagen eine deutliche Setzung im Neuschnee festzustellen, in tiefen und mittleren Lagen führt sie tagsüber zu einer markanten, zumindest oberflächlichen Anfeuchtung. Mögliche Bruchflächen für Schneebretter liegen innerhalb des Neu-/Triebschnees (eingelagerter Graupel), daneben kommt in erster Linie die Oberfläche vom Sonntag (überwehter Pulver bzw. dünne weiche Schicht mit Graupel auf Schmelzharschkruste) in Frage. Ein Durchreißen auf tiefer liegende Schwachschichten wurde zuletzt nur vereinzelt beobachtet.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch ausgezeichnete Sicht und kaum Wolken. Der Wind weht nur im Hochgebirge noch mit 30 bis 50 km/h aus Nordwest, sonst stört er kaum. Es wird noch deutlich wärmer: In 2000 m hat es um 4 Grad, in 3000 m um 0 Grad!&#13;
+Am Donnerstag unverändert sonnig, die Sicht ist perfekt. Nach Mittag ziehen harmlose Wolken durch, sie beeinträchtigen den freundlichen Wettercharakter aber kaum. In den Nordalpen kommt am Nachmittag mäßiger Westwind auf. In 2000 m langsame Abkühlung von +3 auf -1 Grad, in 3000 m von 0 auf -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Störanfälligkeit im Triebschnee geht zurück, Nass- und Gleitschneeproblem in tiefen und mittleren Lagen bleiben bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-19"/>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1615RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1615RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-08T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in Rinnen und steilen Mulden aller Richtungen. Heikel: Übergang in die Triebschneebereiche</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>starker Erwärmungsimpuls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßiges Triebschneeproblem in den Hochlagen, Nassschneeproblem in tieferen Lagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄßIG. Triebschneeproblem: in den Hochlagen gibt es einige Gefahrenstellen in Rinnen aller Richtungen und vermehrt im steilen Ost- und Südsektor (NO-O-S-SW). Diese sind nicht allzu dick, aber zum Teil noch störanfällig und können schon mit geringer Zusatzbelastung als kleines bis mittelgroßes Schneebrett ausgelöst werden. Heikel sind insbesondere die Übergange von wenig zu mehr Schnee. Nassschneeproblem: Bis in mittlere Höhenlagen sind insbesondere aus stark besonntem Steilgelände kleine bis mittelgroße Lockerschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Zu Wochenbeginn fielen unter starkem Windeinfluss um 10 bis 20 cm Neuschnee. Windexponiertes Gelände ist oft komplett abgeblasen, Rinnen und Mulden bis in den lichten Wald mit Triebschnee gefüllt. Durch die Erwärmung hat sich die Neuschneeauflage bereits gesetzt, bis in mittlere Höhenlagen kommt es tagsüber aber zu einer markanten Anfeuchtung und zu einem Festigkeitsverlust.</snowpackStructureComment>
+          <wxSynopsisComment>Beste Fernsicht und Sonnenschein am Mittwoch. Der Wind stört nicht mehr und die Temperaturen steigen auf frühlingshafte 3 bis 6 Grad in 2000 m.&#13;
+Am Donnerstag unverändert sonnig mit sehr guter Sicht. Der Wind stört nicht und die Temperaturen gehen tagsüber leicht zurück, in 2000 m von +4 auf +1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Störanfälligkeit im Triebschnee geht zurück, das Nassschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

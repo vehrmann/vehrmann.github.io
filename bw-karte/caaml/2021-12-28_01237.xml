@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1237RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1237RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität, mit einsetzendem Regen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Schneebrettgefahr über der Waldgrenze, unterhalb der Schneefallgrenze Nassschneeproblem!</avActivityHighlights>
+          <avActivityComment>Durch Neuschnee und starken Windeinfluss um West bis Nordwest entsteht über der Waldgrenze frischer störanfälliger Triebschnee. Die Anzahl der Gefahrenstellen nehmen mit der Höhe und im Tagesverlauf zu. Schneebrettlawinen können bereits durch geringe Zusatzbelastung ausgelöst werden. Unterhalb der Schneefallgrenze steigt die Gefahr für spontane Nassschneelawinen an. Aus nicht entladenen Bereichen und dort wo noch ausrechend Schnee vorhanden ist muss mit spontanen Nassschneelawinen gerechnet werden. Das Nassschneeproblem verschärft sich in der Nacht auf Donnerstag durch den Anstieg der Schneefallgrenze (bis rund 2300 m) und weiteren Regen.</avActivityComment>
+          <snowpackStructureComment>Bis Mittwochmittag wird mit rund 20 cm Neuschnee gerechnet, der durch starken bis stürmischen Wind vor allem über der Waldgrenze verfrachtet wird. Der frische Triebschnee bindet mit der oberflächig meist harten Altschneedecke nicht ausreichend. Unterhalb der Schneefallgrenze wird die Schneedecke durch den Regeneintrag schwer und verliert rasch an Festigkeit. In den schattseitigen Hochlagen kann die Altschneedecke noch Schwachschichten enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch herrschen auf den Bergen wechselnde Sichtverhältnisse. Bis über die Mittagsstunden regnet und schneit es aus meist dichten Wolken. Schnee fällt dabei oberhalb von etwa 1100 bis 1300 m. Am Nachmittag können die Wolken vorübergehend auflockern oder aufhellen. Es weht lebhafter bis starker, im Hochgebirge teils stürmischer Wind aus West bis Nordwest. Temperatur in 1500 m um 0 Grad, in 2000 m um -3 Grad.&#13;
+In der Nacht auf Donnerstag steigt die Schneefallgrenze markant an und es gibt einiges an Niederschlag.&#13;
+Am Donnerstag stecken die Berge meist in dichten Wolken und es regnet häufig, Schnee fällt erst oberhalb von 2000 bis 2300 m. Es weht lebhafter bis starker West- bis Nordwestwind, in den Hochlagen weht der Wind stürmisch. In 1500 m hat es um 6 Grad, in 2000 m um 3 Grad.</wxSynopsisComment>
+          <tendencyComment>Mit der steigenden Schneefallgrenze, den sehr milden Temperaturen und Regen rückt das Nassschneeproblem bis in die Hochlagen. Zudem entsteht über der Schneefallgrenze weiterer umfangreicher Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

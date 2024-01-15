@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1088RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1088RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-10T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicherer Triebschnee</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker bis stürmischer Nordwestwind - frischen Triebschnee beachten - erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Starker bis stürmischer Wind und etwas Schneefall bilden frischen störanfälligen Triebschnee. Steile Mulden und Rinnen sowie eingewehtes Steilgelände fast aller Expositionen sind betroffen. Daneben sind älter überdeckte Verfrachtungen im Nord- und Ostsektor noch vorhanden. Eine Auslösung von Schneebrettlawinen ist bereits bei geringer Zusatzbelastung möglich. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe deutlich zu. Im eingewehten Steilgelände sind einzelne spontane Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall und drehender Wind in den vergangenen Tagen hat zu Verfrachtungen geführt. Diese älteren und auch frisch gebildeten Ablagerungen sind teils störanfällig und überdeckt. Die Schneedecke konnte sich etwas setzen und binden, ist oberflächig oft locker, pulvrig mit zunehmender Höhe auch windbeeinflusst und gepresst. Die Schneedecke ist sehr unregelmäßig verteilt, verfüllte Mulden, Rinnen und Kammlagen sowie abgeblasenen Bereich sind vorhanden. Die Altschneedecke und die Triebschneepakete können zum Teil Schwachschichten wie stellenweise Oberflächenreif oder weichere eingelagerte Schichten enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stecken die Berge häufig in Wolken, zusätzlich ist die Sicht immer wieder durch Schneefall eingeschränkt. Es weht starker bis stürmischer Nordwestwind. Temperaturen in 1500 m um -6 Grad, in 2000 m um -9 Grad.&#13;
+Am Sonntag wird die Sicht am Vormittag durch Wolken, Nebel und etwas Schneefall eingeschränkt. Am Nachmittag bessern sich die Sichtverhältnisse deutlich und die Sonne kommt zum Vorschein. Es weht lebhafter Nordwestwind. In 1500 m um -5 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Entspannung der Lawinensituation. Triebschnee beachten und meiden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1088RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1088RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-10T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>eingewehtes Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischen und älteren Triebschnee beachten - mäßige, teils erhebliche Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Bereits ab der Waldgrenze, teils darunter bildet sich frischer Triebschnee durch starken, teils stürmischen Wind um Nordwest. Daneben sind ältere überdeckte Verfrachtungen im Nord- und Ostsektor in verfüllten, steilen Mulden und Rinnen, sowie in Kammlagen zu beachten. Eine Auslösung von frischen ost- bis südseitigen Verfrachtungen ist bei geringer, ansonsten bei großer Zusatzbelastung möglich. Mit der Höhe nimmt die Anzahl der Gefahrenstellen auch zu. Einzelne spontane Lawinen im Steilgelände sind möglich.</avActivityComment>
+          <snowpackStructureComment>Immer wieder Schneefall und drehender Wind in den vergangenen Tagen hat zu Verfrachtungen geführt. Diese älteren und auch frisch gebildeten Ablagerungen sind teils störanfällig und überdeckt. Die Schneedecke konnte sich etwas setzen und binden, ist oberflächig oft locker, pulvrig mit zunehmender Höhe auch windbeeinflusst und gepresst. Die Schneedecke ist sehr unregelmäßig verteilt, verfüllte Mulden, Rinnen und Kammlagen sowie abgeblasenen Bereich sind vorhanden. Die Altschneedecke und die Triebschneepakete können zum Teil Schwachschichten wie stellenweise Oberflächenreif oder weichere eingelagerte Schichten enthalten.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag stecken die Berge häufig in Wolken, zusätzlich ist die Sicht immer wieder durch Schneefall eingeschränkt. Es weht starker bis stürmischer Nordwestwind. Temperaturen in 1500 m um -6 Grad, in 2000 m um -9 Grad.&#13;
+Am Sonntag wird die Sicht am Vormittag durch Wolken, Nebel und etwas Schneefall eingeschränkt. Am Nachmittag bessern sich die Sichtverhältnisse deutlich und die Sonne kommt zum Vorschein. Es weht lebhafter Nordwestwind. In 1500 m um -5 Grad, in 2000 m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine Entspannung der Lawinensituation. Triebschnee beachten und meiden.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1391RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1391RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-15T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein günstige Lawinensituation; Altschneeproblem in nördlichen Expositionen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein mit GERING beurteilt. Vereinzelte Gefahrenstellen, wo ein kleines bis mittelgroßes Schneebrett durch eine große Zusatzbelastung ausgelöst werden kann, befinden sich in nördlichen Expositionen. Südseitig können sich auf Grund der Sonneneinstrahlung auch spontane Lawinen lösen.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Die Schneedecke ist gut gesetzt und stabil. Die Schichten sind gut miteinander verbunden. Ein Bruch bei der obersten Schmelzharschkruste/Eiskruste ist nur ganz vereinzelt im schattigen hohen und hochalpinen Gelände erzielbar (Altschneeproblem). Schattseitig trifft man noch auf alten Pulverschnee, sonnseitig auf Harsch aller Arten. Stellenweise ist Windharsch anzutreffen, der meist jedoch nur in Schollen bricht und nur sehr vereinzelt zur Bruchausbreitung neigt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag überwiegt in den Kärntner Gebirgsgruppen erneut sehr sonniges Wetter. Ein paar durchziehende hohe Wolken stören den Sonnenschein kaum. Am Nachmittag wird der Nordwind stärker und dann sinken auch die Temperaturen langsam. Es bleibt noch recht mild mit Temperaturen um -5 5 Grad in 3000 m und +2 Grad in 2000 m. Am Montag sorgt eine Wetterumstellung für viele Wolken, vor allem in den Hohen Tauern. Abseits der Hohen Tauern ziehen die Wolken am Nachmittag ab. Der Wind legt kräftig zu.</wxSynopsisComment>
+          <tendencyComment>Mit kräftig auflebendem Nordwestwind nimmt die Lawinengefahr in den nördlichen Gebirgsregionen wieder etwas zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2359RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-12-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2359RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-12-19T17:00:00+00:00</beginPosition>
+          <endPosition>2022-12-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr, wenig Schnee und eingeschränkte Tourenmöglichkeiten!</avActivityHighlights>
+          <avActivityComment>Weiterhin überwiegt die geringe Lawinengefahr. Vor allem hochalpin könnten vereinzelt Schwachschichten im Schneedeckenfundament angesprochen werden. Mögliche Gefahrenpunkte sind hochgelegene kammnahe Steilhänge sowie sehr steile verfüllte Mulden und Rinnen. Mit den sehr milden Temperaturen und je nach Einstrahlung sind am Dienstag kleine feuchte Lockerschnee- und Feuchtschneelawinen aus dem Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Mit den milden Temperaturen und der Einstrahlung kann sich die Schneedecke weiter setzen. Die Schneeoberfläche wird je nach Höhe und Exposition unterschiedlich stark angefeuchtet. Vor allem in den schattseitigen Hochlagen sind weiterhin bodennahe aufbauend umgewandelte Schichten vorhanden, die das geringmächtige Schneedeckenfundament schwächen. Mit der Abkühlung am Mittwoch kann sich an der Schneeoberfläche höhergelegen eine dünne Harschschicht bilden. Durch etwas Neuschneefall und mäßigen Wind um West ab Mittwochnachmittag können sich in den Hochlagen kammnah frische Triebschneelinsen bilden. Die Schneehöhen sind unterdurchschnittlich und schränken daher die Skitourenmöglichkeiten ein.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag ist die Sicht gut. Meist scheint auch die Sonne. Hohe Wolkenfelder ziehen weit über den Gipfeln durch und können für diffuses Licht sorgen. Der Wind weht schwach aus Süd. In 1500 m um 9 Grad, in 2000 m um 7 Grad.&#13;
+Am Mittwoch überwiegen die Wolken und am Nachmittag beginnt es etwas zu schneien. Die Schneefallgrenze liegt bei etwa 1600 m. Der Wind um West ist schwach bis mäßig. In 1500 m kühlt es auf 2 Grad ab und in 2000 m auf 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

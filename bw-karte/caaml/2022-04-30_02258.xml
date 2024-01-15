@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2258RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-30T05:26:24+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2258RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-30T05:26:24+00:00</beginPosition>
+          <endPosition>2022-05-01T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zunehmend in Kammlagen des Hochgebirges</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>überwiegend geringe Lawinengefahr - im Hochgebirge mit Neu- und Triebschnee leichter Gefahrenanstieg</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend gering. Gefahrenstellen sind vor allem noch an sehr steilen Schattenhängen des Hochgebirges und im extremen Steilgelände anzutreffen. Dort können insbesondere mit großer Zusatzbelastung vereinzelt noch Schwachschichten im Altschnee gestört und als kleine Schneebrettlawinen ausgelöst werden. Neben einer Verschüttung ist dabei auch die Mitreiss- und Absturzgefahr zu beachten. Vor allem im Hochgebirge sind im Tagesverlauf kleinräumig frische Triebschneeansammlungen zu beachten. In Bereichen mit Regeneinfluss und in mittleren Lagen sind bis zur deutlichen Abkühlung noch kleine Nassschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Nach einer bewölkten und milden Nacht setzten am Morgen leichte Niederschläge ein. Die Schneefallgrenze lag bei ca. 1800 m. Die Schneedecke ist bis in höhere Lagen durchfeuchtet, darüber überwiegend kompakt und stabil. Vor allem im Hochgebirge sind kleinräumig ältere Triebschneeansammlungen in schattseitigen Steilhängen stellenweise noch störanfällig. Kleine Schneebrettauslösungen sind dort vereinzelt noch im oberen Teil der Altschneedecke möglich. In tiefen und mittleren Lagen liegt ohnehin nur noch wenig Schnee.  Dem Lawinenwarndienst liegen nur noch wenige Informationen zur Schneedecke vor.</snowpackStructureComment>
+          <wxSynopsisComment>Der Vormittag ist trüb und es regnet zum Teil kräftig - Schnee fällt oberhalb von ca. 1500 bis 1800 m. Nachmittags sind nur noch Schauer zu erwarten. Die Sichten sind schlecht.  Temperatur in 2000 m: Rückgang auf -1 Grad, Höhenwind: schwach bis mäßig aus W-NW</wxSynopsisComment>
+          <tendencyComment>Die Niederschläge werden in der Nacht seltener. Der Sonntag verläuft unbeständig. Bei schlechten Sichten regnet und schneit es vor allem nachmittags. Die  Schneefallgrenze liegt bei 1700 m. Die Lawinengefahr wird mit Neuschnee und Wind in höheren Lagen leicht ansteigen. Die tägliche Lageberichterstellung wird nun eingestellt.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3842RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3842RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Gleitschneelawinen zu jeder Tageszeit und in allen Expositionen möglich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>kleinräumig verteilte Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Bereiche unter Gleitschneerissen meiden, Triebschnee in der Höhe vorsichtig beurteilen.</avActivityHighlights>
+          <avActivityComment>Weiterhin stellen spontan abgehende Gleitschneelawinen die Hauptgefahr dar. Betroffen sind Steilhänge aller Expositionen mit glattem Untergrund wie Grasmatten oder Fels. Je nach Schneemächtigkeit in den Anrissgebieten können die Lawinen mittlere Größe erreichen, wobei die Auslauflängen in tieferen Lagen eher klein bleiben. Offene Schneemäuler sind als Gefahrenzeichen zu werten, Bereiche darunter sind nach Möglichkeit zu meiden! &#13;
+Seit Neujahr kann sich immer wieder frischer Triebschnee bilden. Die Gefahrenstellen befinden sich oberhalb der Waldgrenze vor allem im erweiterten ostseitigen Steilgelände hinter kammnahen Geländeübergängen. Diese können vereinzelt auch noch durch geringe Zusatzbelastung ausgelöst werden und als kleine Schneebrettlawine abrutschen. Im verharschten oder vereisten Steilgelände herrscht akute Absturzgefahr bzw. Ausrutschgefahr! Die meist dünne Neu- bzw. Triebschneeauflage bindet hier schlecht!</avActivityComment>
+          <snowpackStructureComment>Bis zu 25cm Neuschnee sind in der Nacht zu Neujahr auf den steirischen Bergen gefallen, am meisten schneite es dabei von der Turrach über das Zirbitzgebiet bis zur Koralpe. Deutlich weniger waren es in den Tauern und Nordalpen. Dazu wehte immer wieder teils stürmischer Wind aus West bis Südwest, der Triebschnee entstehen ließ. Mit den wechselnden Temperaturen hat sich der Neuschnee etwas gesetzt, die Störanfälligkeit ist damit zurückgegangen. Mögliche Schwachschichten bilden der Übergang zur Altschnee-Oberfläche  sowie weicherer Neuschnee. &#13;
+Die Altschneedecke ist hingegen kompakt und ohne nennenswerte Schwachschichten und schließt mit einer dicken, tragfähigen Schmelzharschkruste ab, die für Schifahrer unangenehmen Rillen sind mit dem Regen von Weihnachten entstanden. &#13;
+Auf glattem Untergrund gleitet die Schneedecke nach wie vor und reißt auf.</snowpackStructureComment>
+          <wxSynopsisComment>Eine Kaltfront zieht vormittags von Nordwesten her durch, danach wird leichter Zwischenhochdruckeinfluss wirksam. Vor allem im Bereich der Nordalpen dominieren bis Mittag teils dichte Wolken mit einigen Schauern, die Schneefallgrenze liegt bei 1.400m. Am Nachmittag lockern die Wolken dann auf und die Sonne zeigt sich. Alpensüdseitig bleibt es hingegen ganztags sonnig. Auf den Bergen weht teils stürmischer Westwind, nur von der Turrach bis zur Koralpe ist der Wind schwächer. Die Mittagstemperaturen liegen auf den Bergen der nördlichen Obersteiermark  in 2.000m bei -5 Grad und in 1.500m bei -1 Grad. Alpensüdseitig ist es um etwa 3 Grad milder.&#13;
+Am Freitag dreht die Höhenströmung über dem Alpenraum auf Südwest und es wird föhnig. Zum Abend hin greifen erste Niederschläge auf die Südstauregionen über. Am Samstag beeinflusst ein Tief über dem Golf von Genua mit Regen und Schnee das Wettergeschehen. Am Sonntag erreichen uns dann sehr kalte, arktische Luftmassen. </wxSynopsisComment>
+          <tendencyComment>Die Lawinensituation ändert sich nur wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3842RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3842RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-03T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ganz vereinzelt</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>vereinzelt dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Allgemein geringe Lawinengefahr, aber dennoch Vorsicht vor vereinzelten, spontanen Gleitschneelawinen sowie einigen Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>Es herrscht allgemein geringe Lawinengefahr. Dennoch sind ganz vereinzelt noch spontane kleine Gleitschneelawinen nicht ganz auszuschließen. Gefahrenstellen sind vor allem steile Wiesenhänge. Offene Schneemäuler sind als Gefahrenzeichen zu werten und Bereiche darunter sind nach Möglichkeit zu meiden! Weiters haben sich im erweiterten ostseitgen Gelände, vorwiegend hinter kammnahen Geländeübergängen einige dünne Triebschneelinsen gebildet, die aber nur bei großer Zusatzbelastung ausgelöst werden können. Dabei überwiegt die Absturzgefahr durch ausrutschen.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist kompakt und ohne nennenswerte Schwachschichten und oberflächlich mit verharschten Abflussrillen durchsetzt. Auf glattem Untergrund im wiesenbewachsenen Steilgelände gleitet die Schneedecke. Mit dem auffrischenden Westwind sowie etwas Neuschnee hat sich vor allem in ostseitigen Geländeabschnitten Triebschnee ansammeln können, der auf der verharschten Altschneeoberfläche schlecht bindet. </snowpackStructureComment>
+          <wxSynopsisComment>Eine Kaltfront zieht vormittags von Nordwesten her durch, danach wird leichter Zwischenhochdruckeinfluss wirksam. Vor allem im Bereich der Nordalpen dominieren bis Mittag teils dichte Wolken mit einigen Schauern, die Schneefallgrenze liegt bei 1.400m. Am Nachmittag lockern die Wolken dann auf und die Sonne zeigt sich. Alpensüdseitig bleibt es hingegen ganztags sonnig. Auf den Bergen weht teils stürmischer Westwind, nur von der Turrach bis zur Koralpe ist der Wind schwächer. Die Mittagstemperaturen liegen auf den Bergen der nördlichen Obersteiermark  in 2.000m bei -5 Grad und in 1.500m bei -1 Grad. Alpensüdseitig ist es um etwa 3 Grad milder.&#13;
+Am Freitag dreht die Höhenströmung über dem Alpenraum auf Südwest und es wird föhnig. Zum Abend hin greifen erste Niederschläge auf die Südstauregionen über. Am Samstag beeinflusst ein Tief über dem Golf von Genua mit Regen und Schnee das Wettergeschehen. Am Sonntag erreichen uns dann sehr kalte, arktische Luftmassen. </wxSynopsisComment>
+          <tendencyComment>Die Lawinensituation ändert sich nur wenig, weiterhin geringe Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-14"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

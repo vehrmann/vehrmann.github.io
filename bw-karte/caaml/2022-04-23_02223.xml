@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2223RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-23T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2223RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-23T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr auf vereisten und verharschten Flächen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr im bayerischen Alpenraum ist gering. Vereinzelt kann Nassschnee ein Problem darstellen. Kleinere nasse Lockerschnee- oder Schneebrettlawinen sind an extrem steilen Hängen, an denen noch genügend Schnee liegt, möglich. An steilen Wiesenhängen sind zudem Gleitschneelawinen nicht auszuschließen. Mit warmen Temperaturen steigt die Zahl der Gefahrenstellen am Samstag im Tagesverlauf leicht an.&#13;
+Ab Sonntag entstehen in den Hochlagen kammnah kleinräumige Triebschneeansammlungen, die stellenweise störanfällig sind. Potentielle Lawinen bleiben klein, die Absturzgefahr überwiegt die Gefahr einer Verschüttung.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Insgesamt ist die Schneedecke kompakt und weitgehend stabil. Schattseitig ist der Schnee hart und oft vereist. Oberflächlich weicht die Schneedecke bei warmen Temperaturen meist bis zur Saharastaubkruste auf. Ab Sonntag fallen oberhalb von rund 2000 m bei teils stürmischem Wind einige Zentimeter Neuschnee.&#13;
+</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr bleibt gering. Die nächste Aktualisierung des Lawinenberichts erfolgt voraussichtlich am Montag.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

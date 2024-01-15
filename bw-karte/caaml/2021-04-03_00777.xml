@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID777RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID777RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Wind! Frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Es herrscht oberhalb der Baumgrenze mäßige Lawinengefahr. Der Triebschnee ist leicht durch Tourengeher auslösbar. Vereinzelte Gleit- und Nassschneerutsche können nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>Am Samstag sind bis zu 10 Zentimeter kalter Neuschnee gefallen. Zusätzlich weht starker bis stürmischer Wind. Es bildete sich frischer spröder Triebschnee, der auf einer harten Altschneedecke abgelagert wurde. Der Temperaturrückgang führte zu einer Verfestigung des Schneedeckenfundamentes. Die Verbindung zwischen der Altschneeschicht und der darüber liegenden Triebschneeschicht ist nicht ausreichend. Am Sonntag wird der Schnee durch den starken Wind weiter bearbeitet. </snowpackStructureComment>
+          <wxSynopsisComment>Neben sonnigen Abschnitten hüllen sich die Berge am Ostersonntag oft auch in Wolken. Dabei gehen besonders am Vormittag noch ein paar  Schneeschauer nieder, der Nachmittag verläuft dann aber oft schon niederschlagsfrei und später werden auch die sonnigen Phasen länger. Der Höhenwind weht mäßig bis lebhaft aus Nordwest. In 1500m Seehöhe liegen die Temperaturen um die Mittagszeit bei rund minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Auf den Bergen scheint am Vormittag oft die Sonne und nur hohe Schleierwolken zeigen sich über den Gipfeln. Im Laufe des Nachmittag ziehen aber von Nordwesten her dichte Wolkenfelder auf und abends breiten sich Regen und Schneefall aus, die Schneefallgrenze sinkt in der Nacht rasch in tiefe Lagen.  Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID777RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-03T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID777RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-03T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-04T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - etwas Neuschnee.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. In den Gipfelregionen sind auf kleinräumig frische Triebschneeablagerungen zu achten. </avActivityComment>
+          <snowpackStructureComment>In den mittleren  Lagen ist der Schnee feucht bzw. nass. Oberflächlich konnte sich eine dünne Schmelzharschkruste durch den Temperaturrückgang bilden. </snowpackStructureComment>
+          <wxSynopsisComment>Neben sonnigen Abschnitten hüllen sich die Berge am Ostersonntag oft auch in Wolken. Dabei gehen besonders am Vormittag noch ein paar Schneeschauer nieder, der Nachmittag verläuft dann aber oft schon niederschlagsfrei und später werden auch die sonnigen Phasen länger. Der Höhenwind weht mäßig bis lebhaft aus Nordwest. In 1500m Seehöhe liegen die Temperaturen um die Mittagszeit bei rund minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Auf den Bergen scheint am Montag Vormittag oft die Sonne und nur hohe Schleierwolken zeigen sich über den Gipfeln. Im Laufe des Nachmittag ziehen aber von Nordwesten her dichte Wolkenfelder auf und abends breiten sich Regen und Schneefall aus, die Schneefallgrenze sinkt in der Nacht rasch in tiefe Lagen. Der Höhenwind bläst bereits tagsüber lebhaft, mit der Kaltfront abends dann aber stark bis stürmisch aus Nordwest. Temperaturen auf 1500m Seehöhe maximal um plus 5 Grad mittags, in der Nacht kühlt es wieder auf minus 9 Grad ab. Ein Anstieg der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

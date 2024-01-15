@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3116RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3116RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee in höheren Lagen, in mittleren Lagen nasser Schnee.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1800 m mäßig, unterhalb davon ist sie gering. Hauptproblem ist in höheren Lagen frischer Triebschnee. Dieser kann an einigen Stellen bereits von einzelnen Personen als Schneebrettlawine ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen Nordwest über Nord bis Südost sowie in frisch eingewehten Rinnen und Mulden. Lawinen können vereinzelt mittlere Größe erreichen.&#13;
+In mittleren Lagen  ist aus felsdurchsetztem Steilgelände sowie steilen Wiesenhängen die Selbstauslösung einzelner nasser Lockerschnee- und Gleitschneelawinen möglich. Die Lawinen sind eher klein.</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke ist bis in die Hochlagen hinein durchfeuchtet und hat sich gesetzt. In der Nacht auf Dienstag setzt bei kräftigem Wind aus Südwest etwas Niederschlag ein, der unterhalb 1600 m als Regen fällt. In höheren Lagen entstehen frische, kleinere Triebschneeansammlungen, die sich mit der angefeuchteten Altschneeoberfläche meist gut verbinden. Innerhalb der frischen und älteren Triebschneepakete sind teils schwache Zwischenschichten eingelagert. Diese können störanfällig sein.</snowpackStructureComment>
+          <tendencyComment>Es wird in den nächsten Tagen kühler. Kräftiger Wind und etwas Neuschnee lassen das Triebschneeproblem wieder mehr in den Vordergrund treten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3116RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-03-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3116RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-03-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-03-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee in mittleren Lagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist allgemein gering. Das Hauptproblem ist Nassschnee. Durch Regen und Durchfeuchtung lösen sich dort, wo noch ausreichend Schnee vorhanden ist, aus steilem, felsigen Gelände und an steilen Wiesenhängen nasse Lockerschnee- und Gleitschneelawinen von selbst. Die Lawinen bleiben meist klein, vereinzelte Lawinen mittlerer Größe sind aber nicht auszuschließen.&#13;
+Zudem kann in höheren Lagen frischer Triebschnee problematisch sein. An einzelnen Stellen kann dieser bereits durch geringe Zusatzbelastung ausgelöst werden. Gefahrenstellen befinden sich vor allem im kammnahen Steilgelände der Expositionen Nordwest über Nord bis Südost und in frisch eingewehten Rinnen und Mulden. Schneebrettlawinen bleiben in der Regel klein.</avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Dienstag setzt bei kräftigem Wind aus Südwest etwas Niederschlag ein, der unterhalb 1600 m als Regen fällt. In höheren Lagen entstehen frische, kleinere Triebschneeansammlungen, die sich mit der angefeuchteten Altschneeoberfläche meist gut verbinden. Im extremen Steilgelände kann der frische Triebschnee aber mancherorts störanfällig sein.</snowpackStructureComment>
+          <tendencyComment>Es wird in den nächsten Tagen kühler. Kräftiger Wind und etwas Neuschnee lassen das Triebschneeproblem wieder mehr in den Vordergrund treten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1624RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1624RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-09T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen sind im Triebschnee stellenweise störanfällige Bereiche erhalten geblieben.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das Hauptproblem sind störanfällige Zwischenschichten im Altschnee. Einige Gefahrenstellen befinden sich im kammnahen Steilgelände der Expositionen Nord über Ost bis Südost sowie in eingewehten Rinnen und Mulden. In diesen Bereichen ist insbesondere bei großer Zusatzbelastung, z.B. durch eine Skifahrergruppe ohne Abstände, die Auslösung auch großer Schneebrettlawinen möglich. Vor allem am Übergang von viel zu wenig Schnee, also an der Einfahrt in triebschneeverfüllte Rinnen kann auch der einzelne Skifahrer noch tieferliegende Schwachschichten im Altschnee auslösen.&#13;
+Mit der tageszeitlichen Erwärmung und Sonneneinstrahlung ist aus dem felsdurchsetzten, sonnseitigen Steilgelände mit der Selbstauslösung von meist mittelgroßen Lockerschneelawinen zu rechnen. An steilen, glatten Wiesenhängen und im lückigen Bergwald kann die Schneedecke auch am Boden abgleiten.</avActivityComment>
+          <snowpackStructureComment>Erwärmung und Sonne haben zu einer guten Setzung und Verfestigung der oberflächennahen Schneeschichten geführt. Insgesamt ist die Schneedecke stark vom Wind geprägt, Rücken und Grate sind abgeblasen, in leeseitigen Rinnen und Mulden liegt der verfrachtete Schnee meterhoch. Die Verbindung der umfangreichen Triebschneeansammlungen mit den Wind- und Schmelzharschoberflächen und pulvrigem Schnee der Altschneedecke ist noch nicht ausreichend. Der Triebschnee ist stellenweise noch störanfällig. Zudem finden sich im Altschneepaket in allen Expositionen aufgebaut kantige Kristalle im Bereich einer dünnen Harschschicht. Diese Schwachschicht ist in den Hochlagen besonders ausgeprägt und liegt je nach Windeinfluss näher an der Oberfläche oder verborgen unter mächtigen Triebschneepaketen. Bis in höhere Lagen wurde die Schneedecke oberflächlich feucht. Nachts entsteht ein Schmelzharschdeckel, der am Donnerstag wieder aufweicht. Mit der oberflächlichen Durchfeuchtung sind Festigkeitseinbußen in der Schneedecke verbunden.</snowpackStructureComment>
+          <tendencyComment>Am Freitag beendet eine schwache Kaltfront das frühlingshafte Wetter mit etwas Neuschnee. Die Lawinengefahr wird sich am Wochenende bei kühleren Temperaturen weiter entspannen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

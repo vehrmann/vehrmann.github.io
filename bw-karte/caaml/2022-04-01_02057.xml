@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2057RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2057RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2022-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Absturzrisiko ist deutlich größer als jede Lawinengefahr</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr – Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>&#13;
+Die Lawinengefahr wird überwiegend mit gering beurteilt. In steilen Rinnen und Einfahrtsbereichen besteht durch die harte bis eisige Oberfläche Absturzgefahr, dazu herrschen schlechte Sichtbedingungen. Außerdem kann der frische Neuschnee und kleinräumige, geringe Triebschnee die Gefahrenstellen überdecken.&#13;
+</avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung konnte sich die Schneedecke stabilisieren. Generell hat sich der gefallene Neuschnee gut mit der Altschneedecke verbunden, aber mit zunehmendem Wind aus nördlicher Richtung bilden sich kleinräumig frische Triebschneelinsen hinter Geländekanten. Diese überdecken in hohen Lagen den eisigen und harten Untergrund, wo vorwiegend Absturzgefahr herrscht. In mittleren Lagen liegt der Neuschnee meist grundlos. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag hängen dichte Wolken im Bergland und dazu schneit es auch immer wieder, am meisten in den Ybbstaler und Türnitzer Alpen. Der Niederschlag intensiviert sich am Nachmittag und der Wind weht anfangs noch mäßig, später lebhaft aus Nordwest bis Nord. Die Temperaturen sind wieder winterlich und liegen in 1500m um -7 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Sonntag halten sich anfangs noch dichte Restwolken, in den Ybbstaler Alpen schneit es noch unergiebig, aber im Laufe des Tages lockert es etwas auf. Weiterhin mäßiger Wind aus Nordwest und winterliches Temperaturniveau. Die Gefahrenstellen durch frischen Triebschnee mehren sich langsam.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

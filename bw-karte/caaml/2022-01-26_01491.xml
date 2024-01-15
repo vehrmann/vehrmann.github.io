@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1491RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-01-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1491RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-01-26T17:00:00+00:00</beginPosition>
+          <endPosition>2022-01-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, teilweise kammfern, exponiertes Gelände ist abgeweht</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze vor allem aber in den kammnahen Hochlagen frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Zu beachten ist frischer Triebschnee vor allem in den Kammlagen über der Waldgrenze. Ältere Verfrachtungen wurden überdeckt. Schneebrettlawinen können insbesondere durch große Zusatzbelastung ausgelöst werden. Frische Verfrachtungen können aber schon bereits durch geringe Zusatzbelastung gestört werden. Gefahrenstellen befinden sich vor allem im Ost- und Südsektor im kammnahen Steilgelände. Die Anzahl der Gefahrenstellen nimmt mit der Höhe zu. Auf Grund der nur sehr wenigen Gefahrenstellen, beispielweise in kammnahen lichten Bergwäldern, ist in den tiefen und mittleren Lagen die Lawinengefahr überwiegend gering. Aus besonntem, felsdurchsetztem, extrem steilen Gelände können sich kleine Lockerschneelawinen lösen.</avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen konnte sich die Schneedecke bei sonnigem Wetter setzen. In den höheren Lagen gibt es aber noch verfrachtungsfähigen Schnee. Somit konnten sich vor allem in den hohen Kammlagen durch starken Wind um West bis Nordwest frische Triebschneeablagerungen in Leebereichen bilden. Älterer Triebschnee wurde dabei überdeckt. Kantige weichere Schichten, dünner Harsch und teilweise überdeckter Oberflächenreif sind in der Schneedecke vorhanden. Die Bindung der Schichten im Altschnee hat sich aber mit der Setzung gebessert. Die Schneeoberfläche ist je nach Höhenlagen und Exposition unterschiedlich ausgeprägt. Schattseitig und hochgelegen ist sie auch noch locker und sonnseitig bzw. in tieferen Lagen ist sie hart und verharscht (tragfähig bis brüchig). </snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag ist es im Gebirge erneut oft sonnig, allerdings mischen schon deutlich mehr hohe Wolkenfelder mit. Der Wind weht lebhaft bis stark aus West bis Nordwest, vor allem oberhalb der Baumgrenze. In 1500 m 0 Grad, in 2000 m um -4 Grad.&#13;
+Der Freitag bringt ein gänzlich anderes Bild als zuletzt: Es überwiegen dichte Wolken mit stark eingeschränkter Sicht und Schneefall, dazu weht oft starker bis stürmischer West- bis Nordwestwind. Insgesamt lässt der Niederschlag am Nachmittag etwas nach. In 1500 m kälter mit -6 Grad, in 2000m um -10 Grad.</wxSynopsisComment>
+          <tendencyComment>In der Nacht auf Freitag beginnt es bei stürmischen Wind zu schneien. Anstieg der Lawinengefahr durch frischen Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

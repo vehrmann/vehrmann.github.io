@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3781RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3781RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-27T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Absturzgefahr auf eisigen Flächen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Das Hauptproblem ist Gleitschnee. An steilen Hängen mit glattem Untergrund, an denen noch genügend Schnee liegt, sind einzelne Gleitschneelawinen möglich. Diese können sich unabhängig von der Exposition zu jeder Tages- und Nachtzeit von selbst lösen und bleiben meist klein. Gleitschneerisse geben Hinweise auf Gefahrenstellen. &#13;
+Vereinzelt können kleinere Schneebrettlawinen noch kammnah und schattseitig im sehr steilen Gelände höherer Lagen ausgelöst werden. Dies in der Regel nur mit großer Zusatzbelastung, zum Beispiel durch einen Fußgänger oder eine Gruppe von Skifahrern.</avActivityComment>
+          <snowpackStructureComment>Mit der klaren Nacht auf Donnerstag kann sich auf freien Flächen ein tragfähiger Harschdeckel bilden. Dieser weicht mit Sonneneinstrahlung im Tagesverlauf langsam wieder auf, schattseitig bleibt es meist eisig. Die Schneedecke ist unterhalb des Harschdeckels durchfeuchtet und zum Boden hin oft nass. Gleitbewegungen auf glattem Untergrund sind dementsprechend möglich. In sehr steilen Schattenhängen können vereinzelt noch schwache Schneeschichten zu finden sein. Unterhalb 1400 m apert der Boden aus. Skitouren ohne Tragepassagen sind im bayerischen Alpenraum kaum mehr möglich.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich zum Freitag wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3781RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3781RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-27T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wechtenbrüche und Absturzgefahr auf eisigen Flächen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb 2400 m mäßig, darüber ist sie gering. Das Hauptproblem ist Gleitschnee. An steilen Hängen mit glattem Untergrund unterhalb von ca. 2400 m, an denen noch genügend Schnee liegt, sind Gleitschneelawinen möglich. Diese können sich unabhängig von der Exposition zu jeder Tages- und Nachtzeit von selbst lösen. Gleitschneelawinen können in höheren Lagen mittlere Größe erreichen, ansonsten sind sie meist klein. Gleitschneerisse geben Hinweise auf Gefahrenstellen. &#13;
+Im Altschnee finden sich mit zunehmender Höhe vereinzelt Gefahrenstellen an eher schneearmen Stellen, sowie bei der Einfahrt in Rinnen und Mulden. Zur Auslösung von Schneebrettlawinen braucht es meist große Zusatzbelastung, zum Beispiel durch einen  Fußgänger. Schneebrettlawinen können mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>Mit der klaren Nacht auf Donnerstag kann sich auf freien Flächen ein sehr harter, tragfähiger Harschdeckel bilden. Dieser weicht mit Sonneneinstrahlung im Tagesverlauf teilweise wieder auf, schattseitig bleibt es meist eisig. Die Schneedecke ist unterhalb des Harschdeckels bis in die Hochlagen durchfeuchtet und zum Boden hin oft nass. Gleitbewegungen auf glattem Untergrund sind dementsprechend möglich. In sehr steilen Schattenhängen können vereinzelt noch schwache Schneeschichten im Bereich von Harschdeckeln zu finden sein. Die Schneemächtigkeiten sind sehr unterschiedlich verteilt und Rücken und Grate abgeblasen. Unterhalb 1400 m apert der Boden aus. Skitouren ohne Tragepassagen sind im bayerischen Alpenraum kaum mehr möglich.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr wird sich zum Freitag wenig ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

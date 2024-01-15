@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1591RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1591RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Die Übergangsbereiche zu den Triebschneeablagerungen noch vorsichtig beurteilen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb rund 1600 m mit MÄSSIG und darunter mit GERING beurteilt. Das Hauptproblem bildet dabei noch immer der Triebschnee dieser Woche, der vereinzelt auch noch durch eine geringe, allgemein aber nur durch eine große Zusatzbelastung gestört werden kann. Besonderes Augenmerk muss dabei bei den Übergängen von abgeblasenen Geländeteilen zu eingeblasenen Mulden und Rinnen gelegt werden. Sonnseitig ist durch die Sonneneinstrahlung mit spontanen feuchten Lockerschneelawinen zu rechnen.</avActivityComment>
+          <snowpackStructureComment>Die seit Wochenbeginn entstandenen, teils umfangreichen Triebschneeablagerungen, hab sich mit Sonneneinstrahlung und ruhigem Wetter schon recht gut setzen können. Die Bindung zur Altschneedecke, in der vereinzelt noch aufbauend umgewandelte Schichten vorhanden sind, konnte sich ebenfalls verbessern. Sonnseitig wird dir Schneedecke im Tagesverlauf bis in mittlere Lagen feucht.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag herrscht in den Bergen wieder recht sonniges Wetter, dass aber von harmlosen, ausgedehnten durchziehenden Wolken in hohen Schichten immer wieder getrübt wird. Mit mäßig auffrischendem Südwestwind stauen sich im Tagesverlauf im Süden tiefere Wolken. Mit Temperaturen in 3000 m um -7, in 2000 m zwischen -5 und -2 Grad und in 1000 m zwischen -4 und +5 Grad kann es auch recht mild werden.&#13;
+Am Montag kann es in den Hohen Tauern bis zu den Nockbergen mit einer rasch durchziehenden Kaltfront auch noch etwas länger Schneefall geben. Der Wind aus Nordwest frischt auf und kann auch stürmisch werden. Südlich der Tauern lockert es bald wieder auf.</wxSynopsisComment>
+          <tendencyComment>Mit etwas Neuschnee und stürmisch auflebendem Wind steigt die Lawinengefahr wieder etwas an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1591RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1591RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit GERING beurteilt. Sonnseitig kann es zu spontanen, feuchten Lockerschneelawinen und Rutschen kommen. Gefahrenstellen für kleine Schneebrettlawinen sind kaum noch vorhanden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich bereits gut setzen und verfestigen. Sie wird von einem Harschdeckel abgeschlossen der im Tagesverlauf feucht und aufgeweicht wird. Triebschneelinsen welche schlecht mit der Altschneedecke verbunden sind, sind kaum noch zu finden.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag herrscht in den Bergen wieder recht sonniges Wetter, dass aber von harmlosen, ausgedehnten durchziehenden Wolken in hohen Schichten immer wieder getrübt wird. Mit mäßig auffrischendem Südwestwind stauen sich im Tagesverlauf im Süden tiefere Wolken. Mit Temperaturen in 3000 m um -7, in 2000 m zwischen -5 und -2 Grad und in 1000 m zwischen -4 und +5 Grad kann es auch recht mild werden.&#13;
+Am Montag kann es in den Hohen Tauern bis zu den Nockbergen mit einer rasch durchziehenden Kaltfront auch noch etwas länger Schneefall geben. Der Wind aus Nordwest frischt auf und kann auch stürmisch werden. Südlich der Tauern lockert es bald wieder auf.</wxSynopsisComment>
+          <tendencyComment>In den nördlichen Gebirgsgruppen steigt die Lawinengefahr mit etwas Neuschnee und Wind leicht an.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-19"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

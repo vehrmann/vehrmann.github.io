@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID76RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID76RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Etwas Regen in der Früh</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin ab etwa 2400, wenige Gefahrenpunkte</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee, teilweise mit Eiskruste</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Vereinzelt sind nasse Rutsche und Gleitschneelawinen möglich, sowohl mit dem Regen in der Früh, als auch bei Sonnenschein tagsüber. Ab etwa 2400 m sind schattseitig einzelne ältere Triebschneepakete vorhanden. Diese sind am ehesten mit großer Zusatzbelastung im schneearmen Steilgelände hinter Geländekanten oder bei der Einfahrt in Rinnen auslösbar.</avActivityComment>
+          <snowpackStructureComment>Eine zusammenhängende Schneedecke gibt es ab etwa 1800 m. An der Oberfläche dominieren Harschdeckel oder eine dünne Eiskruste, die tagsüber teilweise weich werden. Ältere Triebschneepakete im Hochgebirge sind verfestigt; sie liegen teilweise auf weichen, bodennahen Schichten, welche kaum zur Bruchausbreitung neigen.</snowpackStructureComment>
+          <wxSynopsisComment>Die Nacht auf Dienstag ist bewölkt und in der Früh regnet es zeitweise. Regen fällt bis etwa 2400 m hinauf, darüber schneit es unergiebig (5 cm). Tagsüber ist die Sicht am Dienstag meist gut, die Gipfel sind oft frei. Es ist sehr mild: In 1500 m 4 bis 8 Grad, in 2500 m um 0 Grad. In hohen und hochalpinen Lagen weht kräftiger Westwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID76RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID76RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen ab etwa 2400 m, an wenigen Stellen auslösbar im Übergang von wenig zu viel</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>sehr vereinzelt, aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Hochalpin vereinzelt  auch frische Gefahrenstellen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering. Im sehr steilen und kalten Nordsektor ab etwa 2400 m, insbesondere wenn die umliegenden Bereiche schneearm und abgeblasen sind, kann man vereinzelt mit großer Zusatzbelastung (zu Fuß, beim Beisammenstehen, Sprung, Sturz etc.) ein kleines bis mittelgroßes Schneebrett auslösen. Mit geringer Zusatzbelastung kann man in schattigen (vor allem ostseitigen) und hochalpinen Lagen frische und gut erkennbare Triebschneeschollen brechen - Vorsicht Absturzgefahr.Weiters sind einzelne spontane Gleitschneelawinen aus dem sehr steilen Grasmattengelände möglich.</avActivityComment>
+          <snowpackStructureComment>Feste Oberflächen oder Eiskrusten dominieren, tagsüber können in mittleren Lagen die harten Oberflächen etwas weicher werden. Windgeschützt ab etwa 2400 m findet man auch etwas Pulver bzw. im Nordsektor lockeren „Raschelpulver“. Der Wind findet auch am Dienstag nur wenig Schnee zum Verfrachten und bildet am ehesten im kammnahen Ostsektor frische Triebschneeschollen. Alte Triebschneepakete sind kompakt oder hart und mittlerweile ziemlich spannungsarm. Bodennah findet man in den schneearmen und abgeblasenen Zonen losen Zuckerschnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag regnet es in der Früh bis etwa 2400 m hinauf zeitweise, darüber fällt etwas Schnee (um 5 cm, max. 10 cm). Tagsüber wird die Sicht rasch besser und die meisten Gipfel sind frei. Es ist sehr mild für die Jahreszeit. In 2500 m um +1 Grad, in 3500 m um -5 Grad. Hochalpin weht auf Gipfeln und Graten kräftiger Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+      <locRef xlink:href="AT-05-06"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID76RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2020-12-21T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID76RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2020-12-21T17:00:00+00:00</beginPosition>
+          <endPosition>2020-12-22T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin, an wenigen (schneearmen) Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>sehr vereinzelt</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenige Gefahrenstellen schattseitig</avActivityHighlights>
+          <avActivityComment>Die Lawinengefar ist gering. Ein trockenes Schneebrett ist am ehesten im schattigen Steilgelände ab etwa 2300 m am Übergang von wenig zu mehr Schnee mit großer Zusatzbelastung auslösbar.&#13;
+Einzelne Gleitschneelawinen aus sehr steilem Grasmattengelände sind möglich.</avActivityComment>
+          <snowpackStructureComment>Häufig gibt es Krusten und verfestigte Schichten an der Oberfläche, rein schattseitig findet man ab etwa 2300 m auch Pulver. Die Schneedecke ist relativ stabil und neigt kaum zu Brüchen. Labilere Kombinationen mit dünnen Triebschneepaketen auf bindungslosen, bodennahen Schichten findet man in abgewehten und schneearmen Kammbereichen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag regnet es in der Früh und am Vormittag ein wenig bis etwa 2300 m hinauf, darüber fällt unergiebig Schnee. Bis Mittag bessert sich die Sicht deutlich und der Nachmittag bringt gute Sichtverhältnisse, die Gipfel sind meist frei. Mit 2 bis 7 Grad in 2000 m sehr mild für die Jahreszeit. Schwacher bis mäßiger Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-02"/>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

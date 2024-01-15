@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2791RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2791RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-04T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Triebschnee meiden, dieser ist teils überschneit und schwer zu erkennen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1400 m erheblich, unterhalb davon mäßig. Das Hauptproblem ist der Triebschnee.  Schneebrettlawinen können durch geringe Zusatzbelastung, wie zum Beispiel durch einen einzelnen Skifahrer, ausgelöst werden. Gefahrenstellen befinden sich  im kammnahen Steilgelände der Expositionen Nord über Ost bis Süd, aber auch kammfern unterhalb von Geländekanten, in Rinnen und Mulden und im Waldübergangsbereich in eingewehten Schneisen und Lichtungen. Anzahl und Umfang der Gefahrenstellen nehmen mit der Höhe zu. In eingefrachteten Hängen können Lawinen groß werden.&#13;
+Vereinzelt lösen sich kleine bis mittlere  Lockerschneelawinen aus felsigem Steilgelände von selbst. </avActivityComment>
+          <snowpackStructureComment>In den letzten Tagen ist begleitet von Sturm aus westlichen Richtungen in höheren Lagen verbreitet ein halber Meter Schnee gefallen. Dieser hat sich in windabgewandten Bereichen in Form von umfangreichen Triebschneeansammlungen abgelagert. Auch wenn sich der Neu- und Triebschnee bereits etwas setzen konnte, ist die Bindung zur Altschneeoberfläche noch überwiegend schlecht. Schattseitig liegt der Triebschnee auf weichen Schneeschichten, sonnseitig vielerorts auf einem Schmelzharschdeckel unter dem sich kantige Kristalle finden. Oberflächennah und innerhalb der Triebschneepakete ist häufig Graupel eingelagert. Lawinenereignisse und Schneedeckentests bestätigen die Störanfälligkeit der Schneedecke. Unterhalb 1400 m ist Feuchtigkeit in die Schneedecke eingedrungen, was nachts zu Harschbildung und einer gewissen Stabilisierung der Schneedecke führt.</snowpackStructureComment>
+          <tendencyComment>Die Lawinenlage entspannt sich langsam.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3641RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3641RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Ergiebiger Schnee/Regen im Allgäu</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m erheblich, unterhalb mäßig. Das Hauptproblem ist Nassschnee. Im Tagesverlauf des Dienstags ist bis über 2000 m in allen Expositionen an noch nicht entladenen Steilhängen mit der Selbstauslösung von Nassschneelawinen zu rechnen. Zudem können sich im felsdurchsetzten Steilgelände nasse Lockerschneelawinen von selbst lösen. An steilen, glatten Wiesenhängen und im lückigen Bergwald rutschen nasse Gleitschneelawinen auf dem Boden ab. Gleitschneerisse weisen auf die Gefahrenstellen hin. Insbesondere im Höhenbereich zwischen 1500 und 2000 m sind einige Lawinen mittlerer Größe zu erwarten.&#13;
+In den Hochlagen ist zudem frischer Triebschnee problematisch. Dieser kann durch geringe Zusatzbelastung, z.B. durch einen einzelnen Skifahrer, ausgelöst werden. Gefahrenstellen befinden sich kammnah im Steilgelände der Expositionen Nordwest über Ost bis Süd, auch kammfern hinter Geländekanten sowie in Rinnen und Mulden. Schneebrettlawinen können mittlere Größe erreichen.</avActivityComment>
+          <snowpackStructureComment>In mittleren Lagen ist die Schneedecke durch Regeneintrag bis zum Boden völlig durchnässt. Verlust der Bindung, große Einsinktiefen und  Gleitbewegungen auf nassem Untergrund sind die Folge. In den Hochlagen setzt ergiebiger Schneefall begleitet von starkem Wind aus südwestlichen Richtungen ein und lässt frischen Triebschnee entstehen. Temperaturunterschiede am Übergang von Neu- zu Altschnee können zur Bildung von kantigen Kristallen beitragen. Das Altschneefundament ist in den Hochlagen  gut gesetzt und weitgehend stabil.</snowpackStructureComment>
+          <tendencyComment>Die Lawinenlage wird vorerst angespannt bleiben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3641RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3641RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-11T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschnee, im Tagesverlauf bis in die Hochlagen</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Das Hauptproblem ist Nassschnee. Im Tagesverlauf des Dienstags ist bis über 2000 m in allen Expositionen an noch nicht entladenen Steilhängen mit der Selbstauslösung von Nassschneelawinen zu rechnen. Zudem können sich im felsdurchsetzten Steilgelände nasse Lockerschneelawinen von selbst lösen. An steilen, glatten Wiesenhängen und im lückigen Bergwald rutschen nasse Gleitschneelawinen auf dem Boden ab. Gleitschneerisse weisen auf die Gefahrenstellen hin. Insbesondere im Höhenbereich zwischen 1500 und 2000 m sind vereinzelt Lawinen mittlerer Größe zu erwarten. &#13;
+In den Hochlagen ist zudem frischer Triebschnee problematisch. Dieser kann durch geringe Zusatzbelastung, z.B. durch einen einzelnen Skifahrer, ausgelöst werden. Gefahrenstellen befinden sich kammnah im Steilgelände der Expositionen Nordwest über Ost bis Süd, auch kammfern hinter Geländekanten sowie in Rinnen und Mulden. Schneebrettlawinen bleiben eher klein.</avActivityComment>
+          <snowpackStructureComment>In mittleren Lagen ist die Schneedecke durch Regeneintrag bis zum Boden völlig durchnässt. Verlust der Bindung, große Einsinktiefen und  Gleitbewegungen auf nassem Untergrund sind die Folge. In den Hochlagen setzt Schneefall begleitet von starkem Wind aus südwestlichen Richtungen ein und lässt frischen Triebschnee entstehen. Temperaturunterschiede am Übergang von Neu- zu Altschnee können zur Bildung von kantigen Kristallen beitragen. Das Altschneefundament ist in den Hochlagen gut gesetzt und weitgehend stabil.</snowpackStructureComment>
+          <tendencyComment>Je nach Neuschneemenge kann die Lawinengefahr zur Wochenmitte wieder ansteigen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1236RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1236RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den höheren Lagen auf kleinräumigen, störanfälligen Triebschnee achten. Weitere Durchnässung der Schneedecke am Nachmittag durch Regen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb der Waldgrenze mäßig und steigt darunter im Tagesverlauf von gering auf mäßig an. Das Hauptproblem ist Triebschnee und verlagert sich am Nachmittag auf Nassschnee. Mit stürmischem Wind entstehen oberhalb der Waldgrenze kleinräumig Triebschneeansammlungen. Der Triebschnee ist im Steilgelände aller Expositionen sowie in eingewehten Rinnen und Mulden leicht auszulösen. Die Lawinen bleiben meist klein. Am Nachmittag wird der Triebschnee bereits wieder feucht.&#13;
+Nass- und Gleitschneelawinen können sich mit Schwerpunkt am Nachmittag im felsigen Steilgelände, in steilen Waldschneisen oder an noch nicht entladenen glatten Wiesenhängen, an welchen noch genügend Schnee liegt, von selbst lösen. Lawinen werden klein bis mittelgroß.</avActivityComment>
+          <snowpackStructureComment>&#13;
+Oberhalb 1200 m werden ca. 10 cm Neuschnee von stürmischem Wind aus westlichen Richtungen verfrachtet.  Es entstehen störanfällige Triebschneeansammlungen, die auf harten Wind- oder Schmelzharschdeckeln, in höheren Lagen auch auf wenigen Zentimetern lockerem Neuschnee zu liegen kommen. Unterhalb der Wind- und Schmelzharschdeckel finden sich örtlich in Schattenhängen Schichten aus aufgebauten, bindungsarmen Schneekristallen. Mit Regen am Nachmittag bis in die Gipfellagen werden die Triebschneeansammlungen schon wieder feucht und die bereits tiefreichend durchnässte Schneedecke zunehmend geschwächt. Auch an der Grenze zum Boden ist die Schneedecke vielerorts feucht bis nass, was Gleitbewegungen ermöglicht, besonders, wenn zusätzlich Regen in geöffnete Gleitschneerisse abfließt.&#13;
+</snowpackStructureComment>
+          <tendencyComment>Am Donnerstag sind milde Temperaturen und starker Regen bis in die Hochlagen angekündigt. Das Nassschneeproblem bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1236RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1236RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mit stürmischem Wind bilden sich störanfällige Triebschneeansammlungen. In mittleren und tiefen Lagen Festigkeitsverluste mit Schwerpunkt am Nachmittag durch Regen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr oberhalb 2000 m ist erheblich, darunter ist sie mäßig. Das Hauptproblem ist Triebschnee, der bereits von einem einzelnen Skifahrer ausgelöst werden kann. Die Gefahrenstellen befinden sich oberhalb der Waldgrenze im kammnahen Steilgelände aller Expositionen sowie in eingewehten Rinnen und Mulden und hinter Geländekanten. Sie nehmen in Umfang und Anzahl mit der Höhe zu. Die Lawinen können mittelgroß werden.&#13;
+In mittleren Lagen können sich mit Schwerpunkt am Nachmittag zudem kleine bis mittlere Nass- und Gleitschneelawinen im felsigen Steilgelände, in steilen Waldschneisen oder an noch nicht entladenen glatten Wiesenhängen an welchen noch genügend Schnee liegt von selbst lösen.</avActivityComment>
+          <snowpackStructureComment>Oberhalb 1200 m werden 10-20 cm Neuschnee von stürmischem Wind aus westlichen Richtungen verfrachtet.  Es entstehen störanfällige Triebschneeansammlungen, die auf harten Wind- oder Schmelzharschdeckeln, in den Hochlagen auch auf wenigen Zentimetern lockerem Neuschnee oder auf dünnen, schlecht gebundenen Triebschneeschichten von Dienstag zu liegen kommen. Unterhalb der Wind- und Schmelzharschdeckel finden sich örtlich in Schattenhängen Schichten aus aufgebauten, bindungsarmen Schneekristallen. Kantige Kristalle gibt es auch noch teilweise bodennah an schattigen Hängen oberhalb 2200 m. Regeneintrag bis 2000 m am Nachmittag schwächt die bereits tiefreichend durchfeuchtete Schneedecke der tiefen und mittleren Lagen zunehmend. Auch an der Grenze zum Boden ist die Schneedecke vielerorts feucht bis nass, was Gleitbewegungen ermöglicht, besonders, wenn zusätzlich Regen in geöffnete Gleitschneerisse abfließt. </snowpackStructureComment>
+          <tendencyComment>Am Donnerstag sind milde Temperaturen und starker Regen bis in die Hochlagen angekündigt. Das Nassschneeproblem wird sich weiter in die Höhe verlagern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1236RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-12-28T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1236RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-12-28T17:00:00+00:00</beginPosition>
+          <endPosition>2021-12-29T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-28T23:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2021-12-29T11:00:00+00:00</beginPosition>
+                  <endPosition>2021-12-29T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Stürmischer Wind lässt in den höheren Lagen störanfälligen Triebschnee entstehen. Regen in die durchnässte Schneedecke führt mit Schwerpunkt am Nachmittag zu Festigkeitsverlusten.</avActivityHighlights>
+          <avActivityComment>Im Allgäu herrscht in den Hochlagen eine erhebliche Lawinengefahr, unterhalb 2000 m steigt sie im Tagesverlauf von mäßig auf erheblich an. Das Hauptproblem ist Triebschnee und geht zum Nachmittag in Nassschnee über. Triebschneeansammlungen lassen sich oberhalb der Waldgrenze bereits vom einzelnen Skifahrer auslösen. Die Gefahrenstellen befinden sich im Steilgelände aller Expositionen und in eingewehten Rinnen und Mulden sowie hinter Geländekanten. Umfang und Anzahl der Gefahrenstellen nehmen mit der Höhe zu. Lawinen können mittlere Größe erreichen. &#13;
+Mit den milden Temperaturen und Regeneintrag können sich mit Schwerpunkt am Nachmittag unterhalb 2200 m Nass- und Gleitschneelawinen im felsigen Steilgelände, in steilen Waldschneisen oder an glatten Wiesenhängen von selbst lösen. In schneereichen Gebieten und Bereichen in denen sich die Hänge noch nicht entladen haben sind große Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Oberhalb 1200 m werden in der Nacht von Dienstag auf Mittwoch 10-20 cm Neuschnee von Sturmböen aus westlichen Richtungen verfrachtet.  Es entstehen störanfällige Triebschneeansammlungen, die auf harten Wind- oder Schmelzharschdeckeln, in den Hochlagen auch auf wenigen Zentimetern lockerem Neuschnee oder auf schlecht gebundenen Triebschneeschichten von Dienstag zu liegen kommen. Unterhalb der Wind- und Schmelzharschdeckel finden sich örtlich in Schattenhängen Schichten aus aufgebauten, bindungsarmen Schneekristallen. Kantige Kristalle gibt es auch noch teilweise bodennah an schattigen Hängen oberhalb 2200 m. Regeneintrag bis 2000 m am Nachmittag schwächt die bereits tiefreichend durchfeuchtete Schneedecke der tiefen und mittleren Lagen zunehmend. Auch an der Grenze zum Boden ist die Schneedecke vielerorts feucht bis nass, was Gleitbewegungen ermöglicht, besonders, wenn zusätzlich Regen in geöffnete Gleitschneerisse abfließt. </snowpackStructureComment>
+          <tendencyComment>Am Donnerstag ist starker Regen bis in die Hochlagen angekündigt. Die Lawinenlage wird angespannt bleiben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

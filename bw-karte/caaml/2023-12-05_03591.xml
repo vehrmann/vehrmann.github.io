@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3591RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3591RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb der Waldgrenze mit mäßig beurteilt. Die Gefahrenstellen befinden sich vor allem im Nordsektor. In Hängen über 30 Grad kann noch bei geringer Zusatzbelastung ein Schneebrett ausgelöst werden. Vorsicht hinter Geländekanten und bei Einfahrten von Rinnen und Mulden, hier sollten die Triebschneemengen nicht unterschätzt werden. In den mittleren Lagen sind Gleitschneelawinen weiterhin möglich.</avActivityComment>
+          <snowpackStructureComment>In den tiefen und mittleren Lagen ist das Schneedeckenfundament feucht. An der Schneedeckenoberfläche hat sich ein Harschdeckel gebildet.  In den Hochlagen liegt im Nordsektor frischer Triebschnee auf Oberflächenreif auf. Der Wind hat die Schneedecke massiv bearbeitet. Luvhänge sind teils schneelos. Rinnen und Mulden wurden mit Triebschnee gefüllt. Schwachschichten sind in den Hochlagen im frischem Neuschnee bzw. Triebschnee, als auch im Übergang zum Altschnee zu finden. Es haben sich zudem frische instabile Wechten gebildet! Durch die Erwärmung am Dienstag konnte sich die Schneedecke schon etwas setzen. </snowpackStructureComment>
+          <wxSynopsisComment>Meist ist es wolkenverhangen und trüb. In der Schneeberg-Rax Region schneit es am Vormittag noch teils länger anhaltend. Es werden in den niederösterreichischen Alpen 10 - 15cm Neuschnee erwartet. Niederschlagsschwerpunkt liegt dieses mal zwischen Göller und Schneeberg. Der Höhenwind dreht auf Nordwest bis Nord und weht mäßig. Mittagstemperaturen in 1500m Seehöhe meist um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3591RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3591RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus extrem steilem Grasmattengelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering beurteilt. Frische Wechten sowie Triebschnee sind in Kammnähe bzw. hinter Geländekanten auslösbar. In den mittleren und tiefen Lagen sind auch kleine Gleitschneerutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Der Schnee wurde feucht und an der Schneedeckenoberfläche hat sich ein Harschdeckel gebildet. Die Schneedecke ist bis zum Boden homogen. Auf die feuchte Schneedecke lagerte sich in den Hochlagen der kalte Neuschnee bzw. Triebschnee ab. &#13;
+Der Neuschnee am Mittwoch überdeckt den Harschdeckel bzw. Oberflächenreif. </snowpackStructureComment>
+          <wxSynopsisComment>Meist ist es wolkenverhangen und trüb. In der Schneeberg-Rax Region schneit es am Vormittag noch teils länger anhaltend. Es werden in den niederösterreichischen Alpen 10 - 15cm Neuschnee erwartet. Niederschlagsschwerpunkt liegt dieses mal zwischen Göller und Schneeberg. Der Höhenwind dreht auf Nordwest bis Nord und weht mäßig. Mittagstemperaturen in 1500m Seehöhe meist um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

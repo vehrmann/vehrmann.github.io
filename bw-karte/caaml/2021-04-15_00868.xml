@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID868RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID868RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kurzzeitig direkte Sonneneinstrahlung, ganztägig diffuse Strahlung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr in den höheren Lagen!</avActivityHighlights>
+          <avActivityComment>In den höheren Lagen herrscht noch erhebliche Lawinengefahr. Der Wind hat den gefallenen Neuschnee verfrachtet und Triebschneebereiche gebildet. Gefahrenstellen finden sich hinter Geländeübergängen, in Rinnen und Mulden, hauptsächlich in den Expositionen Nord über Ost bis Süd. Eine Schneebrettauslösung kann bereits durch die geringe Zusatzbelastung eines einzelnen Tourengehers erfolgen. Darüber hinaus sind spontane Auslösungen aus dem (felsdurchsetzten) Steilgelände sowie Gleitschneerutschungen aus Wiesenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneezuwächse fielen mit bis etwa 60cm ergiebig aus. Durch den starken, zum Teil auch stürmischen Wind sind Triebschneepakete entstanden, die stellenweise noch störanfällig sind. Hauptsächlich schwächen lockere Einlagerungen innerhalb der frischen Auflage den Schneedeckenaufbau, stellenweise zudem auch noch der Übergang zum Altschnee. Der Setzungsprozess hat zwar begonnen, wird mangels direkter Einstrahlung und vergleichsweise tiefen Temperaturen aber noch etwas gehemmt. Durch die Anfeuchtung der Schneedecke sind spontane Auslösungen möglich, bedingt durch die Bodenwärme entsteht ein Schmierfilm, der Gleitschneeaktivitäten fördern kann.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag beginnt zwar noch mit sonnigeren Auflockerungen, allerdings ziehen rasch dichtere Wolkenfelder auf, die dann insgesamt überwiegen, nur zwischenzeitlich gibt es sonnigere Phasen. Am Morgen ist noch mit stärkerem Wind zu rechnen, er lässt allerdings am Vormittag spürbar nach und weht anschließend nur noch mäßig aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei +1 Grad, in 1500m bei -4 Grad und in 2000m bei -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Samstag überwiegen insgesamt die Wolken und es weht bei -3 Grad in 1500m mäßiger Wind aus nördlichen Richtungen. Die Setzung schreitet voran und die Lawinengefahr nimmt tendenziell ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID868RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID868RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kurzzeitig direkte Sonneneinstrahlung, ganztägig diffuse Strahlung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Der Wind hat den gefallenen Neuschnee verfrachtet und Triebschneebereiche ausgebildet, die in den höheren Lagen noch störanfällig sein können. Darüber hinaus besteht die Möglichkeit von spontanen Auslösungen aus dem Steilgelände sowie von Gleitschneerutschungen aus Wiesenhängen und Böschungen.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneezuwächse fielen mit bis zu einem halben Meter ergiebig aus. Neuschnee und durch die Windeinwirkung stellenweise entstandener Triebschnee überdecken Altschneereste oder zuvor ausgeaperte Bereiche. Der Setzungsprozess hat eingesetzt, durch die Anfeuchtung der Schneedecke sind spontane Rutschungen möglich. Bedingt durch die Bodenwärme entsteht ein Schmierfilm, der Gleitschneeaktivitäten fördern kann.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag beginnt zwar noch mit sonnigeren Auflockerungen, allerdings ziehen rasch dichtere Wolkenfelder auf, die dann insgesamt überwiegen, nur zwischenzeitlich gibt es sonnigere Phasen. Am Morgen ist noch mit stärkerem Wind zu rechnen, er lässt allerdings am Vormittag spürbar nach und weht anschließend nur noch mäßig aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei +1 Grad, in 1500m bei -4 Grad und in 2000m bei -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Samstag überwiegen insgesamt die Wolken und es weht bei -3 Grad in 1500m mäßiger Wind aus nördlichen Richtungen. Die Setzung schreitet voran und die Lawinengefahr nimmt tendenziell ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID868RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID868RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>kurzzeitig direkte Sonneneinstrahlung, ganztägig diffuse Strahlung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Vereinzelt ist noch auf den entstandenen Triebschnee in höheren Lagen zu achten. Ansonsten besteht noch die Möglichkeit von vereinzelten spontanen Rutschungen aus dem Steilgelände sowie von kleineren Gleitschneeaktivitäten auf Wiesenhängen und Böschungen.</avActivityComment>
+          <snowpackStructureComment>Die Neuschneezuwächse fielen recht ergiebig aus. Neuschnee und durch die Windeinwirkung stellenweise entstandener Triebschnee überdecken Altschneereste oder zuvor ausgeaperte Bereiche. Der Setzungsprozess hat eingesetzt, durch die Anfeuchtung der Schneedecke sind vereinzelt spontane Rutschungen möglich. Bedingt durch die Bodenwärme entsteht ein Schmierfilm, der Gleitschneeaktivitäten fördern kann.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag beginnt zwar noch mit sonnigeren Auflockerungen, allerdings ziehen rasch dichtere Wolkenfelder auf, die dann insgesamt überwiegen, nur zwischenzeitlich gibt es sonnigere Phasen. Am Morgen ist noch mit stärkerem Wind zu rechnen, er lässt allerdings am Vormittag spürbar nach und weht anschließend nur noch mäßig aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei +1 Grad, in 1500m bei -4 Grad und in 2000m bei -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Samstag überwiegen insgesamt die Wolken und es weht bei -3 Grad in 1500m mäßiger Wind aus nördlichen Richtungen. Die Setzung schreitet voran und die Lawinengefahr nimmt tendenziell ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+    <Bulletin gml:id="RID868RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID868RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In den Hochlagen herrscht mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>In den Hochlagen besteht mäßige Lawinengefahr. Der überaus stürmische Wind hat frischen Triebschnee hinter Geländeübergängen in den höheren Bereichen gebildet, die vereinzelt noch störanfällig sein können. Bei Zusatzbelastung ist die Auslösung (kleinerer) Schneebrettlawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschneezuwachs der vorangegangenen Tage fiel hier deutlich geringer aus als in den angrenzenden Gebirgsgruppen. Allerdings wehte überaus stürmischer Wind und somit konnten sich in den Hochlagen Triebschneelinsen ausbilden, die weichere Schichten oder eine stabile Altschneedecke überdecken.</snowpackStructureComment>
+          <wxSynopsisComment>Der Freitag beginnt zwar noch mit sonnigeren Auflockerungen, allerdings ziehen rasch dichtere Wolkenfelder auf, die dann insgesamt überwiegen, nur zwischenzeitlich gibt es sonnigere Phasen. Am Morgen ist noch mit stärkerem Wind zu rechnen, er lässt allerdings am Vormittag spürbar nach und weht anschließend nur noch mäßig aus nordwestlichen Richtungen. Die Mittagstemperaturen liegen in 1000m bei +1 Grad, in 1500m bei -4 Grad und in 2000m bei -8 Grad.</wxSynopsisComment>
+          <tendencyComment>Auch am Samstag überwiegen insgesamt die Wolken und es weht bei -3 Grad in 1500m mäßiger Wind aus nördlichen Richtungen. Die Setzung schreitet voran und die Lawinengefahr nimmt tendenziell ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

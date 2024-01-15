@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID587RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID587RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-10T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>oberhalb der Waldgrenze</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem in den höheren, teils auch mittleren Lagen Triebschnee meiden - mäßige Schneebrettgefahr!</avActivityHighlights>
+          <avActivityComment>Ab der Waldgrenze, vermehrt in höheren Lagen sind in kammnahen Steilhängen und steilen Rinnen zuletzt gebildete Verfrachtungen vorhanden, die durch stärkeren Wind um Nordwest entstanden sind. Eine Auslösung von Schneebrettlawinen ist bei großer, aber auch bereits durch geringe Zusatzbelastung hier möglich. Ein wenig Regen bis in die mittleren Lagen und mildere Temperaturen können die Schneedecke hier oberflächig etwas destabilisieren und im Steilgelände mit Zusatzbelastung auch Lawinen ausgelöst werden. Absturzgefahr beachten.</avActivityComment>
+          <snowpackStructureComment>Der am Mittwoch gefallene Neuschnee und älterer noch locker gebliebene Schnee wurde teils ab der Waldgrenze, vor allem aber in den Hochlagen verfrachtet. Dieser und auch teils älterer Triebschnee binden mit der oberflächig meist lockeren, windbeeinflussten oder abgeblasenen Altschneedecke, die selbst überwiegend stabil und tragfähig ist, ungenügend. Durch die milderen Temperaturen kann die Schneedecke sich etwas setzen, wird aber bei Regen bis in die mittleren Lagen auch angefeuchtet. Die Schneehöhen sind sehr unterdurchschnittlich, womit allgemein nur wenig Schnee liegt.</snowpackStructureComment>
+          <wxSynopsisComment>Am Donnerstag stecken die Berge bis über die Mittagsstunden in dichten Wolken und es regnet und schneit ein wenig. Am Nachmittag werden die Wolken dünner und die Sicht bessert sich. In 1500 m hat es -2 bis 5 Grad, in 2000 m um 1 Grad.&#13;
+Am Freitag gibt es sehr windiges und wechselhaftes Bergwetter mit Wolken und Sonnenschein, zeitweise ziehen auch Schneeschauer durch. In 1500 m hat es um -2 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Lebhafter bis stürmischer Westwind in der Nacht zum Freitag bildet frischen Triebschnee, der zu beachten ist.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

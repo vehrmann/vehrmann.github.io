@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2867RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2867RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vereinzelt sind schwache Schichten im Altschnee der Hochlagen erhalten geblieben!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Hochlagen mäßig, darunter ist sie gering, steigt dann im Tagesverlauf auch unterhalb 2000 m auf mäßig an. Das Hauptproblem sind weiterhin schwache Schichten im Altschnee. Im kammnahen, nord- bis ostexponierten Steilgelände können vereinzelt noch Schneebrettlawinen vor allem in schneearmen Bereichen, wie zum Beispiel bei der Einfahrt in steile Rinnen, von einem einzelnen Wintersportler ausgelöst werden. Lawinen erreichen mittlere Größe.&#13;
+Mit Sonneneinstrahlung und tageszeitlicher Erwärmung nimmt im Tagesverlauf die Gefahr der Selbstauslösung von mittelgroßen, oberflächlichen Nassschneelawinen zu.  An glatten, steilen Wiesenhängen mittlerer Lagen sind vereinzelt mittelgroße Gleitschneelawinen zu erwarten. Gleitschneerisse weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>In mittleren Lagen ist die Schneedecke allgemein gut gesetzt und verfestigt. Vor allem an sonnenbeschienenen Hängen bildet sich über Nacht Schmelzharsch, der im Tagesverlauf dann wieder aufweicht. Mit Sonneneinstrahlung und tageszeitlicher Erwärmung werden die  oberflächennahen Schneeschichten durchfeuchtet, was mit Festigkeitseinbußen verbunden ist. Sonnseitig apert der Boden bis weit in mittlere Lagen aus. In höheren Lagen sind  bodennah wie auch in der oberen Hälfte der Schneedecke stellenweise schwache Zwischenschichten aus aufgebauten, kantigen Schneekristallen erhalten geblieben.</snowpackStructureComment>
+          <tendencyComment>Das Altschneeproblem geht langsam zurück, Nassschnee wird mehr zum Thema. Die Lawinensituation wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2867RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2867RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-13T23:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-02-14T11:00:00+00:00</beginPosition>
+                  <endPosition>2023-02-14T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wenig Schnee in mittleren Lagen der bayerischen Alpen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist am Vormittag gering, steigt im Tagesverlauf auf mäßig an. Problematisch sind vereinzelt schwache Zwischenschichten im Altschnee im extremen, nord- bis ostexponierten Steilgelände. Dort können Lawinen noch mit großer Zusatzbelastung ausgelöst werden und mittlere Größe erreichen.&#13;
+Mit Sonneneinstrahlung und tageszeitlichem Temperaturanstieg ist im Tagesverlauf  aus dem Steilgelände mit der Selbstauslösung auch mittelgroßer, oberflächlicher Nassschneelawinen zu rechnen.  An glatten, steilen Wiesenhängen können sich vereinzelt kleinere Gleitschneelawinen am Boden lösen. Gleitschneerisse weisen auf die Gefahr hin.</avActivityComment>
+          <snowpackStructureComment>Am Morgen ist die Schneedecke mittlerer Lagen meist verharscht, gut gesetzt und stabil.  Im Tagesverlauf führt Sonneneinstrahlung bei milden Temperaturen zu einer stärkeren Durchfeuchtung der Schneeoberfläche, Festigkeitseinbußen der Schneedecke sind die Folge. Im schattseitigen, extremen Steilgelände sind im Altschnee stellenweise noch schwache Zwischenschichten aus kantig aufgebauten Schneekristallen anzutreffen, die zu stören sind. Sonnseitig ist der Boden bis in mittlere Lagen vielerorts wieder ausgeapert.</snowpackStructureComment>
+          <tendencyComment>Das Altschneeproblem geht langsam zurück, Nassschnee wird mehr zum Thema. Die Lawinensituation wird sich in den nächsten Tagen nicht wesentlich ändern.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

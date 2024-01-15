@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2717RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-27T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2717RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-27T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-28T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>vereinzelt, in exponiertem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr durch einzelne Gefahrenstellen!</avActivityHighlights>
+          <avActivityComment>Es herrscht in den höheren Lagen mäßige, darunter geringe Lawinengefahr. Zum Teil sind ältere Triebschneeablagerungen in verfüllten Steilhängen, steilen Rinnen sowie Mulden vorhanden, die insbesondere bei großer, in Hochlagen nur teils bei geringer Zusatzbelastung ausgelöst werden können. Mit zunehmender Höhe und entsprechender Exposition sind die Gefahrenstellen allgemein etwas vermehrt vorhanden. </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich gut gesetzt und weitgehend gefestigt. Etwas Neuschnee liegt auf einer durch die kalten Temperaturen und vorwiegend in den höheren Lagen noch locker, pulvrig, sonst durch Windeinfluss gepressten, in mittleren Lagen teilweise auch harten, dünn verharscht Schneedecke. Oberflächennahe, von einigen Zentimeter überschneit ist schattseitig Oberflächenreif vorhanden. Im Schneedeckenfundament sind Harschschichten sowie nordseitig kantige Kristalle vorhanden. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag ist die Sicht auf den Bergen häufig durch dichte Wolken eingeschränkt. Speziell am Vormittag kann es noch recht verbreitet schneien, der Nachmittag bringt schon längere trockene Phasen. Der Wind weht schwach bis mäßig aus nördlichen Richtungen. Temperaturen in 1500 m um -9 Grad, in 2000 m um -10 Grad.&#13;
+Am Sonntag ist die Sicht anfangs in tieferen Lagen örtlich durch Hochnebelfelder eingeschränkt, darüber startet der Tag bereits mit viel Sonnenschein. Gegen Abend ziehen dichtere Wolken über die Gipfel. Es weht schwacher bis mäßiger Wind aus Nordwest bis Nordost. Temperaturen in 1500 m um -6 Grad, in 2000 m um -9 Grad</wxSynopsisComment>
+          <tendencyComment>Vorerst noch keine Änderung bei der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

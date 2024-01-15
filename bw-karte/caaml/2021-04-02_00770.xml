@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID770RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-02T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID770RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-02T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-03T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Starker Wind! Frischer Triebschnee!</avActivityHighlights>
+          <avActivityComment>Es herrscht oberhalb der Baumgrenze mäßige Lawinengefahr. Der Triebschnee ist leicht durch Tourengeher auslösbar. Vereinzelte Gleit- und Nassschneerutsche können nicht ausgeschlossen werden. </avActivityComment>
+          <snowpackStructureComment>In den Hochlagen bildet sich am Samstag eine frische Triebschneeschicht auf einer nassen Altschneedecke aus. Die Verbindung ist zwischen den genannten Schichten nicht ausreichend.  </snowpackStructureComment>
+          <wxSynopsisComment>Recht turbulentes, spätwinterlich kaltes Bergwetter bringt der Karsamstag. Immer wieder verdichten sich die Wolken und bringen besonders am Nordrand der Gebirge häufig Schnee-, vereinzelt auch Graupelschauer. Die Schneefallgrenze pendelt meist zwischen rund 500 und 800m Seehöhe. Kurze sonnige Momente dazwischen gibt es aber auch. Der Gipfelwind bläst teils lebhaft bis kräftig aus Nordwest und verschärft das Kälteempfinden. In 1500m Seehöhe liegen die Temperaturen um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Ostersonntag ziehen in den niederösterreichischen Bergen noch wiederholt dichte Wolken durch und besonders am Vormittag gehen ein paar Schneeschauer nieder. Der Nachmittag verläuft meist schon trocken und die Wolken lockern zunehmend auf. Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID770RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-04-02T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID770RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-04-02T16:00:00+00:00</beginPosition>
+          <endPosition>2021-04-03T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - etwas Neuschnee.</avActivityHighlights>
+          <avActivityComment>Es herrscht geringe Lawinengefahr. Im Tagesverlauf bilden sich in den Hochlagen kleinräumig oberhalb der Baumgrenze frische Triebschneeablagerungen. Trotz kühlerer Temperaturen sind  aus steilen Wiesenhängen weiterhin Gleitschneerutsche möglich.</avActivityComment>
+          <snowpackStructureComment>In den mittleren  Lagen ist der Schnee feucht bzw. nass. Der Neuschnee lagert sich auf der feuchten Altschneedecke ab.</snowpackStructureComment>
+          <wxSynopsisComment>Recht turbulentes, spätwinterlich kaltes Bergwetter bringt der Karsamstag. Immer wieder verdichten sich die Wolken und bringen besonders am Nordrand der Gebirge häufig Schnee-, vereinzelt auch Graupelschauer. Die Schneefallgrenze pendelt meist zwischen rund 500 und 800m Seehöhe. Kurze sonnige Momente dazwischen gibt es aber auch. Der Gipfelwind bläst teils lebhaft bis kräftig aus Nordwest und verschärft das Kälteempfinden. In 1500m Seehöhe liegen die Temperaturen um minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Am Ostersonntag ziehen in den niederösterreichischen Bergen noch wiederholt dichte Wolken durch und besonders am Vormittag gehen ein paar Schneeschauer nieder. Der Nachmittag verläuft meist schon trocken und die Wolken lockern zunehmend auf. Keine wesentliche Änderung der Lawinengefahr wird erwartet. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

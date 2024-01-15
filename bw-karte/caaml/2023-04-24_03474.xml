@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3474RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-24T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3474RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-24T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Seehöhe in Kammlagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>in höheren Lagen frischer Triebschnee</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist mäßig. Mit zunehmender Seehöhe ist vor allem in Kammlagen frischer Triebschnee zu beachten. Kleine Schneebrettlawinen können leicht ausgelöst werden. Spontan sind aus sehr steilen Geländeabschnitten Rutsche und Lockerschneelawinen möglich - speziell mit Sonneneinstrahlung am Mittwoch. Die Gefahr nasser Lawinen ist mit der Abkühlung vorübergehend wieder zurück gegangen - mangels nächtlicher Abstrahlung gefriert die Schneedecke jedoch kaum. Mit  Tageserwärmung und Einstrahlung steigt sie vor allem am Mittwoch wieder an. An steilen Grashängen sind nach wie vor Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Über Nacht und am Dienstag gibt es bis in mittlere Lagen etwas Neuschnee. Mit  Windeinfluss entstehen mit zunehmender Seehöhe vor allem in Kammlagen frische Triebschneeansammlungen. Bis in die Hochlagen verbindet sich der Neuschnee gut mit der oberflächlich durchfeuchteten bzw. oft durchnässten Altschneedecke. In tiefen und mittleren Lagen ist der Boden vor allem sonnseitig bereits oft wieder ausgeapert.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Bei wechselnder bis starker Bewölkung ist wiederholt mit Schauern zu rechnen. Die Schneefallgrenze sinkt von 1500 bis auf 1100 m. Dienstag: Es überwiegen Wolken und Nebel sowie wiederholt schauerartige Schneefälle bis ca. 1100 m. Auflockerungen sind zwar möglich, aber kaum von nennenswerter Dauer. Temperatur in 2000 m: um -4 Grad, Höhenwind: mäßig bis lebhaft aus West bis Nordwest Mittwoch: Zuerst recht sonnig, am Nachmittag bewölkter, aber meist noch trocken. Erst gegen Tagesende steigt die Wahrscheinlichkeit für Schauer. Temperatur in 2000 m: -4 bis 0 Grad</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag wird trotz Wolkenfeldern teilweise sonnig. Es bleibt trocken. Der Freitag wird wechselhaft. Die Lawinengefahr ändert sich nicht wesentlich. Im Hochgebirge bleibt Triebschnee störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID3474RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-24T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3474RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-24T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-26T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit zunehmender Seehöhe Kammlagen, Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberflächennahe Schwachschichten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>mit Neu- und Triebschnee in höheren Lagen erhebliche Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in höheren Lagen erheblich. Mit zunehmender Seehöhe ist vor allem in Kammlagen frischer Triebschnee zu beachten. Kleine bis mittlere Schneebrettlawinen können leicht ausgelöst werden. Wenn solche in tiefere Schichten durchbrechen und die Altschneedecke mitreißen können solche auch groß werden. Dies vor allem im schattseitigen Steilgelände oberhalb etwa 2400 m. Spontan sind aus sehr steilen Geländeabschnitten Rutsche und Lockerschneelawinen möglich - speziell mit Sonneneinstrahlung am Mittwoch. Die Gefahr nasser Lawinen ist mit der Abkühlung vorübergehend wieder zurück gegangen - mangels nächtlicher Abstrahlung gefriert die Schneedecke jedoch kaum. Mit Tageserwärmung und Einstrahlung steigt sie vor allem am Mittwoch wieder an. An steilen Grashängen sind nach wie vor Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Über Nacht und am Dienstag gibt es bis in mittlere Lagen etwas Neuschnee. Am meisten - 20-40 cm - wird im Verwall, Lechquellengebirge und in den Allgäuer Alpen erwartet. Mit  Windeinfluss entstehen mit zunehmender Seehöhe vor allem in Kammlagen frische Triebschneeansammlungen. Bis in die Hochlagen verbindet sich der Neuschnee gut mit der oberflächlich durchfeuchteten bzw. oft durchnässten Altschneedecke. Besonders an hoch gelegenen Schattenhängen sind oberflächennahe Schichten teils noch störanfällig. Im schattseitigen Steilgelände sind oberhalb etwa 2400 m auch noch ungünstige Zwischenschichten in der Altschneedecke erhalten geblieben. Meist können diese jedoch nur mit großer Zusatzlast gestört werden.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Bei wechselnder bis starker Bewölkung ist wiederholt mit Schauern zu rechnen. Die Schneefallgrenze sinkt von 1500 bis auf 1100 m. Dienstag: Es überwiegen Wolken und Nebel sowie wiederholt schauerartige Schneefälle bis ca. 1100 m. Auflockerungen sind zwar möglich, aber kaum von nennenswerter Dauer. Temperatur in 2000 m: um -4 Grad, Höhenwind: mäßig bis lebhaft aus West bis Nordwest Mittwoch: Zuerst recht sonnig, am Nachmittag bewölkter, aber meist noch trocken. Erst gegen Tagesende steigt die Wahrscheinlichkeit für Schauer. Temperatur in 2000 m: -4 bis 0 Grad</wxSynopsisComment>
+          <tendencyComment>Der Donnerstag wird trotz Wolkenfeldern teilweise sonnig. Es bleibt trocken. Der Freitag wird wechselhaft. Die Lawinengefahr ändert sich nicht wesentlich. Im Hochgebirge bleibt Triebschnee störanfällig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

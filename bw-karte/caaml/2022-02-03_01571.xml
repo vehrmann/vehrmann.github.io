@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1571RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-03T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1571RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-03T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-04T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Umfangreichen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist oberhalb 1500 m erheblich, darunter ist sie mäßig. Die Hauptgefahr geht vom umfangreichen Triebschnee aus. Gefahrenstellen befinden sich überwiegend im kammnahen Steilgelände der Expositionen Nordwest über Ost bis Südost, in eingewehten Rinnen und Mulden und auch kammfern hinter Geländekanten. Lokal können Gefahrenstellen auch in allen anderen Expositionen vorkommen. Mittelgroße bis große Schneebrettlawinen lassen sich durch einen einzelnen Skifahrer auslösen. Zudem können sich vor allem in den Hochlagen noch mittlere bis stellenweise große Lockerschnee- und Schneebrettlawinen aus sehr steilen Hängen von selbst lösen.&#13;
+Bis in die mittleren Lagen ist die Selbstauslösung von meist mittleren Gleit- und Nassschneelawinen an glatten, steilen Wiesenhängen und aus felsdurchsetztem Steilgelände möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist deutlich vom Wind geprägt, Rinnen und Mulden sind stark verfüllt. Umfangreiche Triebschneeansammlungen haben sich gebildet und sind störanfällig, oft ist Graupel eingelagert. Frischere Einwehungen in den höheren Lagen sind sehr vorsichtig zu beurteilen. Die milden Temperaturen fördern jedoch zunehmend die Setzung und Verbindung der Schichten. An der Grenze zur Altschneedecke finden sich stellenweise kantige Kristalle unterhalb einer dünnen Harschschicht. Bis in die mittleren Lagen ist die Schneedecke vor allem im Westen des bayerischen Alpenraums oft feucht. An der Grenze zum Boden ist sie teilweise nass.</snowpackStructureComment>
+          <tendencyComment>Die Lawinenlage wird sich weiter entspannen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

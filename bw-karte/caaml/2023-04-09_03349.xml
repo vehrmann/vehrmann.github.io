@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3349RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3349RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>kammnah, hinter Geländekanten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Freundlicher Ostermontag – weiterhin Triebschnee in den Hochlagen beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit gering bewertet, aber in den Hochlagen gilt es noch Triebschneeablagerungen hinter Geländekanten und in steilen Rinnen zu beachten. Hier können vormittags Lawinen teilweise noch durch große Zusatzbelastung ausgelöst werden, es werden aber nur kleine Lawinen erwartet. Die Gefahrenstellen nehmen mit der Höhe zu. Mit Sonneneinstrahlung sind zudem spontane Lockerschneerutsche aus extrem steilen Sonnenhängen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee des Wochenendes lagerte sich mit Wind aus nördlicher Richtung hinter Geländekanten als Triebschneeansammlungen ab. Im Übergang zum Altschnee befinden sich noch weiche Schichten aus Oberflächenreif oder lockerem Neuschnee, weshalb die Verbindung anfangs noch eher schlecht ist. Mit der Einstrahlung am Montag setzt sich die Schneedecke rasch, kann aber durch den Feuchtigkeitseintrag oberflächlich an Stabilität verlieren. In mittleren und tiefen Lagen apert der Neuschnee besonders südseitig schnell wieder aus. </snowpackStructureComment>
+          <wxSynopsisComment>Am Ostermontag halten sich anfangs noch ein paar Restwolken im Bergland, aber es lockert am Vormittag langsam überall auf und es zeigt sich öfter die Sonne. Die Schauerneigung ist nur mehr gering und der Wind weht schwach aus Nord. Die Temperaturen steigen auf bis zu +3 Grad in 1500 m Seehöhe. &#13;
+Dienstagnacht wird es kurzfristig deutlich wärmer und es zieht dichte Bewölkung auf. Am Vormittag kommen schon wieder kühlere Luftmassen aus Nordwest, die Temperaturen liegen zu Mittag in 1500 m um +2 Grad und es kann zeitweise leicht schauern. </wxSynopsisComment>
+          <tendencyComment>Es wird keine wesentliche Änderung der Lawinengefahr erwartet! Am Montag wird der letzte Lagebericht der Saison ausgegeben.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

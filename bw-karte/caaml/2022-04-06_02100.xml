@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2100RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-04-06T05:26:18+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2100RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-04-06T05:26:18+00:00</beginPosition>
+          <endPosition>2022-04-07T06:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Kammlagen, windbeeinflusste Steilhänge, &gt;2200m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>mit Erwärmung im Tagesverlauf nasse Lawinen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Neu- und Triebschnee sind in Hochlagen teilweise störanfällig - mit Erwärmung untertags nasse Lawinen</avActivityHighlights>
+          <avActivityComment>Es besteht mäßige Lawinengefahr. Frischer und älterer Triebschnee vom Wochenende sind in hohen Lagen teilweise noch störanfällig. Kleine bis mittlere Lawinen können dort von einzelnen Wintersportler ausgelöst werden. Gefahrenstellen sind vor allem in Kammlagen und im Hochgebirge anzutreffen. Mit der Tageserwärmung tritt vor allem in tieferen Lagen ein Festigkeitsverlust ein. Es sind an allen Expositionen feuchte Locker- und Nassschneelawinen zu erwarten. Zudem sind weiterhin Gleitschneelawinen an sehr steilen Grashängen möglich. Vorsicht unterhalb von Gleitschneerissen. In ganz tiefen Lagen liegt kaum noch Schnee.</avActivityComment>
+          <snowpackStructureComment>Bis heute morgen gab es in höheren Lagen bis zu 10 cm Neuschnee.  Zeitweise führte mäßiger Wind zu Verfrachtungen. Die Verbindung zur Altschneedecke ist meist gut, mit zunehmender Seehöhe und in Kammlagen teilweise auch nur mäßig. Kleine bis mittlere Lawinen können dort noch innerhalb des Neu- und Triebschnees oder im Bereich von Saharastaubschichten  ausgelöst werden. Mit Regeneintrag wurde die Schneedecke bis in mittlere Lagen feucht. Lagen unterhalb ca. 1000 bis 1200 m sind meist aper.</snowpackStructureComment>
+          <wxSynopsisComment>Am Vormittag ist es über dem Unterland und in den nördlichen Regionen anfangs noch bewölkt, sonst scheint die Sonne. In der zweiten Tageshälfte bilden sich vermehrt Quellwolken, welche vor allem über dem Bergland einzelne Regenschauer bringen. Die Schneefallgrenze liegt bei knapp 2000 m. Temperatur in 2000m: 2 Grad. Höhenwind: mäßig bis frisch aus West bis Südwest</wxSynopsisComment>
+          <tendencyComment>In der Nacht regnet es. Der Donnerstag wird sehr windig und mild. Die Lawinengefahr ändert sich nicht wesentlich. In hohen Lagen ist frischer Triebschnee zu beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

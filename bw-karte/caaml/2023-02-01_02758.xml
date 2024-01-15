@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2758RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2758RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in steilen Rinnen und Mulden aller Expositionen, kleinräumige Triebschneepakete, kammnah und kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>oberhalb der Waldgrenze, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Erhebliche Lawinengefahr durch frischen Triebschnee in den Hochlagen.</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist in den Gurk- und Seetaler Alpen oberhalb der Waldgrenze ERHEBLICH, darunter GERING. Neuschnee und stürmischer Nordwestwind der letzten Tage bildeten umfangreiche Triebschneeablagerungen in allen Expositionen, im Laufe des Donnerstags nehmen diese in Ausmaß und Verbreitung weiter zu. Die Triebschneeansammlungen lagern kammnah und kammfern, in steilen Rinnen und Mulden sowie im Waldgrenzbereich und lichten Waldschneisen. Kritisch zu beurteilen sind vor allem die Übergangsbereiche von wenig zu viel Schnee sowie die Einfahrtsbereiche zu Rinnen und Mulden. Die Triebschneeansammlungen werden zum Teil vom frischen Neuschnee überdeckt und sind im Gelände damit schwer zu erkennen. Schwachschichten im Neu- und Triebschnee können allerdings bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst und Lawinen gefährlich groß werden. Schlechte Sicht schränkt die Gefahrenbeurteilung im Gelände zusätzlich ein! Darüber hinaus vereinzelt noch Schwachschichten im Altschnee durch große Zusatzbelastung angesprochen werden und große Lawinen verursachen. </avActivityComment>
+          <snowpackStructureComment>In der Nacht auf Mittwoch und am Mittwoch ist kaum Neuschnee zusammengekommen. Bestehende lockere Schichten an der Schneeoberfläche wurden lebhaften bis kräftigen Nordwestwind in alle Expositionen verfrachtet. Schwachschichten befinden sich &#13;
+im frischen Triebschneepaket sowie am Übergang zu bestehenden Triebschneelinsen bzw. der Altschneeoberfläche. &#13;
+Zusätzlich finden sich tiefer in der Schneedecke Schwachschichten aus &#13;
+kantigen Kristallen rund um Harschkrusten, die das Schneedeckenfundament&#13;
+ schwächen. Diese sind aber nur an wenigen Stellen im Gelände und meist &#13;
+durch große Zusatzbelastung auslösbar. </snowpackStructureComment>
+          <wxSynopsisComment>Eine lebhafter Nordwestströmung bringt stürmischen Wind und etwas Schneefall! Donnerstagmorgen setzt Schneefall ein, der bis zum Abend anhält und sich nachmittags etwas intensiviert. Die Schneefallgrenze liegt dabei zwischen 800 und 1000 m, in tiefen Lagen wird es regnen, darüber sind gute 20 cm Neuschnee möglich Dazu weht kräftiger Nordwestwind. In 2000 m liegt die Temperatur mittags um -6 Grad, die Nullgradgrenze liegt um 1200 m.&#13;
+Der Schneefall hält bis Freitagvormittag an und lässt dann vorübergehend nach. Die Schneefallgrenze steigt im Tagesverlauf gegen 1000 - 1200 m an. Weiterhin weht kräftiger Nordwestwind auf den Bergen. Die Temperatur liegt in 2000 m mittags um -4 Grad, die Nullgradgrenze steigt im Laufe des Tages auf 1500 m an.</wxSynopsisComment>
+          <tendencyComment>Wenig Veränderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2758RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2758RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>ergiebiger Neuschnee, spontane Lawinenaktivität</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Große Lawinengefahr! Spontane Schneebrett- und Lockerschneelawinen wahrscheinlich!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht Gefahrenstufe 4, also GROßE Lawinengefahr, darunter ist die Lawinengefahr ERHEBLICH! Sponante Schneebrett- und Lockerschneelawinen sind aus steilen Hängen aller Expositionen wahrscheinlich. Die Anzahl und Verbreitung der Gefahrenstellen nimmt mit der Höhe zu. Mit zunehmender Mächtigkeit des Neu- und Triebschnees können Lawinen auch in tiefliegende Schwachschichten durchbrechen und groß werden. In tiefen Lagen sind bei vorübergehendem Regen oder Schneeregen im Tagesverlauf auch spontane, nasse Schneebrett- und Lockerschneelawinen aus steilem Wald- und Wiesengelände möglich, welche exponierte Verkehrswege gefährden können.&#13;
+Darüber hinaus können Schneebrettlawinen im Gelände bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst werden. Der frische Neuschnee überdeckt bestehende Gefahrenstellen durch Triebschneepakete, die Gefahrenstellen sind somit im Gelände schwer zu erkennen! </avActivityComment>
+          <snowpackStructureComment>Im Laufe des Mittwochs sind 10 - 20 cm Neuschnee gefallen, in der Nacht auf Donnerstag und am Donnerstag ist mit einem weiteren, deutlichen Schneezuwachs zu rechnen. Der Neuschnee wird von stürmischen Nordwestwind stark verfrachtet und je nach Windeinfluss in allen Expositionen als lockerer Neuschnee oder gebundener Triebschnee abgelegt. Schwachschichten im frischen Neu- und Triebschnee sind leicht zu stören. Tiefer in der Schneedecke befinden sich darüber hinaus Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen.&#13;
+Vorübergehender Regen oder Schneeregen führt in Lagen unter 800 m zu&#13;
+einer Anfeuchtung der Schneedecke. Durch die zusätzliche Belastung der Schwachschichten und Bindungsverlust, entstehen spontane, nasse Lockerschnee - Schneebrettlawinen.</snowpackStructureComment>
+          <wxSynopsisComment>Eine lebhafter Nordwestströmung bringt stürmischen Wind und intensiven Schneefall! Ab Mittwochabend nimmt der Schneefall nach und nach zu. Den ganzen Donnertag hindurch schneit es anhaltend und kräftig, voraussichtlich lässt der Niederschlag erst Freitagmorgen langsam etwas nach. In ganz tiefen Lagen kann es vorübergehend auch regnen oder schneeregnen, die Schneefallgrenze liegt meist zwischen 600 - 800 m, bei kräftigem Schneefall kann die Schneefallgrenze auch in Tallagen sinken.Auf den Bergen sind bis Donnerstagnacht verbreitet 40 - 70 cm Neuschnee zu erwarten. Der Schwerpunkt liegt dabei im Bereich von Dachstein und dem Toten Gebirge, hier sind im Staubereich lokal auch 100 cm Neuschnee möglich. Der Schnee wird vom stürmischen Nordwestwind massiv verfrachtet. In 2000 m liegt die Temperatur mittags um -8 Grad, die Nullgradgrenze liegt um 800 m.&#13;
+Der intensive Schneefall hält bis Freitagvormittag an und lässt dann vorübergehend etwas nach. Die Schneefallgrenze steigt im Tagesverlauf gegen 1000 m an, in tiefen Lagen wird es voraussichtlich regnen. Weiterhin weht stürmischer Nordwestwind auf den Bergen. Die Temperatur liegt in 2000 m mittags um -5 Grad, die Nullgradgrenze steigt im Laufe des Tages auf 1200 m an.</wxSynopsisComment>
+          <tendencyComment>Mit leichter Erwärmung nimmt die Wahrscheinlichkeit für spontane Lawinenaktivität besonders in tiefen Lagen zu, die Lawinengefahr steigt an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2758RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2758RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete, in steilen Rinnen und steilen Mulden aller Expositionen, kammnah und kammfern, im Waldrandbereich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Über der Waldgrenze MÄßIGE Lawinengefahr durch frischen Triebschnee!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht MÄßIGE Lawinengefahr, darunter ist die Lawinengefahr GERING. Neuschnee und stürmischer Nordwestwind führen zu kleinräumigen Triebschneeablagerungen in allen Expositionen. Die Triebschneeansammlungen lagern kammnah und kammfern, in steilen Rinnen und Mulden sowie im Waldgrenzbereich und lichten Waldschneisen. Kritisch zu beurteilen sind vor allem die Übergangsbereiche von wenig zu viel Schnee sowie die Einfahrtsbereiche zu Rinnen und Mulden. Die Triebschneeansammlungen werden zum Teil von etwas frischem Neuschnee überdeckt und sind im Gelände damit schwer zu erkennen. Die Schwachschichten im Neu- und Triebschnee sind störanfällig und können bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst werden und mittlere Größe erreichen. Schlechte Sicht schränkt die Gefahrenbeurteilung im Gelände zusätzlich ein! </avActivityComment>
+          <snowpackStructureComment>Der Mittwoch hat kaum Neuschnee gebracht, in der Nacht auf Donnerstag fällt etwas Neuschne zwischen Stubalpe und Hochwechsel. Weiter südlich kommt kaum Neuschnee dazu. Der Neuschnee sowie die lockere Schneeoberfläche werden vom stürmischen Nordwestwind stark verfrachtet und je nach Windeinfluss Rinnen und Mulden aller Expositionen als gebundene Triebschneepakete abgelegt. Die Triebschneepakete lagern auf meiner meist kompakten Altschneedecke bzw. älteren Triebschneepaketen. Schwachschichten befinden sich im frischen Neu- und Triebschnee bzw. am Übergang zur bestehenden Altschneedecke.</snowpackStructureComment>
+          <wxSynopsisComment>Eine lebhafter Nordwestströmung bringt stürmischen Wind und Schneefall! Ab Mittwochabend nimmt der Schneefall langsam zu. Am Donnerstag schneit es bis in die Nachmittagsstunden,  im Bereich des Randgebirges, von der Stubalpe bis zum Wechselgebiet ist mit etwa 20 cm Neuschnee zu rechnen. Weiter südlich, zwischen Pack und Soboth kommt nur wenig Neuschnee an. Dazu weht starker bis stürmischer Nordwestwind. In 2000 m liegt die Temperatur mittags um -8 Grad, die Nullgradgrenze liegt um 800 m.&#13;
+In der Nacht auf Freitag schneit es nur leicht, erst in den Vormittagsstunden setzt erneut leichter Schneefall ein. Die Schneefallgrenze steigt gehen 1000 m an, in tiefen Lagen wird es regnen. Weiterhin weht starker Nordwestwind auf den Bergen. Die Temperatur liegt in 2000 m mittags um -4 Grad, die Nullgradgrenze steigt im Laufe des Tages auf 1500 m an.</wxSynopsisComment>
+          <tendencyComment>Neuschnee und stürmischer Wind sorgen weiterhin für störanfällige Triebschneepakete! Die Lawinengefahr ändert sich wenig.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2758RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2758RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar, in Rinnen und Mulden aller Richtunge kammnah und kammfern, im Waldrandbereich und Waldschneisen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und Mulden aller Richtungen, an wenigen Stellen im Gelände auslösbar</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>GROßE Lawinengefahr über der Waldgrenze! Störanfällige Schwachschichten im Triebschnee</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht Gefahrenstufe 4, also GROßE Lawinengefahr, darunter ist die Lawinengefahr MÄßIG! Neuschnee und stürmischer Nordwestwind führen zu umfangreichen Triebschneeablagerungen in allen Expositionen. Die Triebschneeansammlungen lagern kammnah und kammfern, in steilen Rinnen und Mulden sowie im Waldgrenzbereich und lichten Waldschneisen. Kritisch zu beurteilen sind vor allem die Übergangsbereiche von wenig zu viel Schnee sowie die Einfahrtsbereiche zu Rinnen und Mulden. Die Triebschneeansammlungen werden zum Teil vom frischen Neuschnee überdeckt und sind im Gelände damit schwer zu erkennen. Schwachschichten im Neu- und Triebschnee können allerdings bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst und Lawinen gefährlich groß werden. SchlechteSicht schränkt die Gefahrenbeurteilung im Gelände zusätzlich ein!&#13;
+Dazu sind sponante Schneebrett- und Lockerschneelawinen sind aus steilen Hängen aller Expositionen möglich. Unterhalb der Waldgrenze sind bei vorübergehendem Regen oder Schneeregen im Tagesverlauf auch spontane, nasse Schneebrett- und Lockerschneelawinen aus steilem Wald- und Wiesengelände möglich, welche exponierte Verkehrswege gefährden können. </avActivityComment>
+          <snowpackStructureComment>Der Mittwoch hat kaum Neuschnee gebracht, in der Nacht auf Donnerstag setzt Schneefall ein und bis Donnerstagabend ist mit 20 - 40 cm Neuschnee zu rechnen. Der Neuschnee wird von stürmischen Nordwestwind stark verfrachtet und je nach Windeinfluss in allen Expositionen als lockerer Neuschnee oder gebundener Triebschnee abgelegt. Schwachschichten im frischen Neu- und Triebschnee sind bereits durch geringe Zusatzbelastung leicht zu stören. Tiefer in der Schneedecke befinden sich darüber hinaus Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen. Diese können meist nur noch durch große Zusatzbelastung angesprochen werden, ausgelöste Lawinen können dann jedoch mittlere bis große Ausmaße erreichen.&#13;
+Vorübergehender Regen oder Schneeregen führt in Lagen unter 1000 m zu einer Anfeuchtung der Schneedecke. Durch die zusätzliche Belastung der Schwachschichten und Bindungsverlust, entstehen spontane, nasse Lockerschnee- und Schneebrettlawinen.</snowpackStructureComment>
+          <wxSynopsisComment>Eine lebhafter Nordwestströmung bringt stürmischen Wind und Schneefall! Ab Mittwochabend nimmt der Schneefall nach und nach zu. Den ganzen Donnertag hindurch schneit es anhaltend und zeitweise kräftig, voraussichtlich lässt der Niederschlag erst Freitagmorgen langsam etwas nach. In ganz tiefen Lagen kann es vorübergehend auch regnen oder schneeregnen, die Schneefallgrenze liegt meist zwischen 800 - 1000 m, bei kräftigem Schneefall kann die Schneefallgrenze vorübergehend auch in tiefe Lagen sinken. Auf den Bergen sind bis Donnerstagnacht verbreitet 20 - 40 cm Neuschnee zu erwarten. Der Schnee wird vom stürmischen Nordwestwind massiv verfrachtet. In 2000 m liegt die Temperatur mittags um -6 Grad, die Nullgradgrenze liegt um 1200 m.&#13;
+Der Schneefall hält bis Freitagvormittag an und lässt dann vorübergehend nach. Die Schneefallgrenze steigt im Tagesverlauf gegen 1000 - 1200 m an, in tiefen Lagen wird es zeitweise regnen. Weiterhin weht starker Nordwestwind auf den Bergen. Die Temperatur liegt in 2000 m mittags um -4 Grad, die Nullgradgrenze steigt im Laufe des Tages auf 1500 m an.</wxSynopsisComment>
+          <tendencyComment>Mit leichter Erwärmung nimmt die Wahrscheinlichkeit für spontane Lawinenaktivität besonders in tiefen Lagen zu, die Lawinengefahr steigt an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+    </Bulletin>
+    <Bulletin gml:id="RID2758RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-02-01T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2758RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-02-01T17:00:00+00:00</beginPosition>
+          <endPosition>2023-02-02T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in Rinnen und steilen Mulden aller Expositionen, sehr leicht auslösbar, kammnah und kammfern, im Waldrandbereich und in Waldschneisen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>ERHEBLICHE Lawinengefahr über der Waldgrenze! Störanfällige Schwachschichten im Triebschnee!</avActivityHighlights>
+          <avActivityComment>Über der Waldgrenze herrscht ERHEBLICHE Lawinengefahr, darunter ist die Lawinengefahr MÄßIG. Neuschnee und stürmischer Nordwestwind führen zu Triebschneeablagerungen in allen Expositionen. Die Triebschneeansammlungen lagern kammnah und kammfern, in steilen Rinnen und Mulden sowie im Waldgrenzbereich und lichten Waldschneisen. Kritisch zu beurteilen sind vor allem die Übergangsbereiche von wenig zu viel Schnee sowie die Einfahrtsbereiche zu Rinnen und Mulden. Die Triebschneeansammlungen werden zum Teil vom frischen Neuschnee überdeckt und sind im Gelände damit schwer zu erkennen. Schwachschichten im Neu- und Triebschnee können allerdings bereits bei geringer Zusatzbelastung, also von einem einzelnen Skifahrer, ausgelöst und mittlere Größe erreichen. Schlechte Sicht schränkt die Gefahrenbeurteilung im Gelände zusätzlich ein! Dazu sind kleine, sponante Schneebrett- und Lockerschneelawinen aus sehr steilem Fels- und Schrofengelände der Hochlagen möglich. </avActivityComment>
+          <snowpackStructureComment>Der Mittwoch hat kaum Neuschnee gebracht, in tiefen Lagen wurde die Schneedecke bereits durch Regen und feuchten Schneefall angefeuchtet. In der Nacht auf Donnerstag setzt Schneefall ein und bis Donnerstagabend ist mit 20 - 30 cm Neuschnee zu rechnen. Der Neuschnee wird von stürmischen Nordwestwind stark verfrachtet und je nach Windeinfluss in allen Expositionen als lockerer Neuschnee oder gebundener Triebschnee abgelegt. Schwachschichten im frischen Neu- und Triebschnee sind bereits durch geringe Zusatzbelastung leicht zu stören. Tiefer in der Schneedecke befinden sich darüber hinaus Schichten aus kantigen Kristallen um Schmelzharschkrusten, welche den Schneedeckenaufbau schwächen. Diese können nur noch an wenigen Stellen im Gelände durch große Zusatzbelastung angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>Eine lebhafter Nordwestströmung bringt stürmischen Wind und Schneefall! Ab Mittwochabend nimmt der Schneefall nach und nach zu. Den ganzen Donnertag hindurch schneit es, voraussichtlich lässt der Niederschlag erst Donnerstagnachmittag etwas nach. Auf den Bergen sind bis Donnerstagnacht verbreitet 20 - 30 cm Neuschnee zu erwarten. Der Schnee wird vom stürmischen Nordwestwind massiv verfrachtet. In 2000 m liegt die Temperatur mittags um -8 Grad, die Nullgradgrenze liegt um 800 m.&#13;
+In der Nacht auf Freitag schneit es nur leicht, erst in den Vormittagsstunden setzt erneut Schneefall ein. Die Schneefallgrenze steigt gehen 1000 m an, in tiefen Lagen wird es regnen. Weiterhin weht starker Nordwestwind auf den Bergen. Die Temperatur liegt in 2000 m mittags um -4 Grad, die Nullgradgrenze steigt im Laufe des Tages auf 1500 m an.</wxSynopsisComment>
+          <tendencyComment>Mit leichter Erwärmung nimmt die Wahrscheinlichkeit für spontane Lawinenaktivität besonders in tiefen Lagen zu, die Lawinengefahr steigt an. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-11"/>
+      <locRef xlink:href="AT-06-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

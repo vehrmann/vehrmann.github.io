@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1939RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1939RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-18T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>vereinzelt, sonnseitiges Steilgelände bis in mittlere Lagen</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahe Hochlagen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr - in höheren Lagen lokales Triebschnee- und sonnseitig kleines Nassschneeproblem beachten!</avActivityHighlights>
+          <avActivityComment>Überwiegend günstige Verhältnisse. In schattseitigen Hochlagen gibt es einzelne Gefahrenstellen durch eingelagerte ältere Schwachschichten (großer Zusatzbelastung) sowie kleinräumig und kammnahe etwas frischen Triebschnee in den höheren Lagen, der im sehr steilen Gelände bei geringer Zusatzbelastung ausgelöst werden kann. Hänge mit Rissen in der Schneedecke und Gleitschneeaktivität sollten generell gemieden werden. Spontane Lawinen sind im stark besonnten Steilgelände vereinzelt möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich über Nacht gefestigt und geht durch die zurückgegangenen Temperaturen nur vorwiegend sonnseitig etwas auf. Bis in die mittleren sonnseitigen Lagen ist sie oft schon durchfeuchtet. Nur in den Hochlagen ist teils zu störender Triebschnee durch starken Wind um Südost lokal vorhanden und die Altschneedecke enthält hochalpin und schattseitig teils noch ältere kantige, teils lockere Schwachschichten. </snowpackStructureComment>
+          <wxSynopsisComment>Im Bereich der Kalkalpen scheint meist die Sonne. Tagsüber legt der Ost- bis Südostwind zu und erreicht in freien Lagen Spitzen um 40 km/h. In 1500 m beträgt die Temperatur -3 bis 1 Grad, in 2000 m -4 Grad.&#13;
+Am Sonntag scheint die Sonne im Bereich der Berge meist ungetrübt. In den Hochlagen weht Südostwind mit Spitzen um 40 km/h. In 1500 m beträgt die Temperatur -2 bis 2 Grad, in 2000 m um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird milder, sehr sonnig mit trockener Luft. Leichter Tagesgang der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

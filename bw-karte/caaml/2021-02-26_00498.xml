@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID498RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-02-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID498RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-02-26T17:00:00+00:00</beginPosition>
+          <endPosition>2021-02-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frische Triebschneelinsen!</avActivityHighlights>
+          <avActivityComment>In Niederösterreich herrscht geringe Lawinengefahr. Die Neuschneemengen der Nachtstunden halten sich in Grenzen. Ein Tourengeher kann maximal eine kleine Lawine auslösen.  Mit der Sonneneinstrahlung sind sonnseitig nasse Lockerschneerutsche möglich. </avActivityComment>
+          <snowpackStructureComment>Mit der Abkühlung verfestigt sich die Altschneedecke. In den Hochlagen wird diese sehr hart bzw. eisig. Auf der harten Schicht lagert sich der wenige Neuschnee, welcher in der Nacht von Freitag auf Samstag fällt, ab.</snowpackStructureComment>
+          <wxSynopsisComment>In der Nacht von Freitag auf Samstag kommt es zu einem Wetterumschwung. Von Nordwesten her ziehen mit einer Kaltfront Wolkenbänder sowie Schauerstaffeln durch. Am häufigsten regnet und schneit es im Mostviertel. Die Schneefallgrenze sinkt dabei auf 1000 bis 700m Seehöhe. Mäßiger, am Alpenostrand lebhafter Nordwestwind frischt auf. Es wird zwischen 5 und 10cm Neuschnee erwartet. &#13;
+Die letzten Schneeschauer ziehen auch im Mostviertel noch in den Morgenstunden ab, ab dem Vormittag bleibt es bereits weitgehend niederschlagsfrei. Schneefallgrenze 700 bis 1000m Seehöhe. Die Wolken lockern tagsüber immer häufiger auf und die Sonne setzt sich durch. Es hat in 1500m -3 Grad.&#13;
+Der Sonntag ist wieder sonnig.</wxSynopsisComment>
+          <tendencyComment>Weiterhin geringe Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

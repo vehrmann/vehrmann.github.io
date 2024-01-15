@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID2521RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID2521RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2023-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>favourable situation</type>
+              <comment>Absturzgefahr beachten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Schneemangel in den niederösterreichischen Alpen</avActivityHighlights>
+          <avActivityComment>Aufgrund von Schneemangel existieren in den Niederösterreichischen Alpen kaum noch lawinenrelevante Gefahrenstellen. Im vornehmlich schattigen Steilgelände ist auf harten, vereisten Oberflächen die Absturzgefahr zu beachten! Mit etwas frischem Neu - und Triebschnee sind diese in hohen Lagen vorübergehend schlecht zu erkennen und vorsichtig zu beurteilen.</avActivityComment>
+          <snowpackStructureComment>Durch die anhaltend milden Temperaturen sowie ausbleibenden Niederschlag ist in allen Höhenlagen nur mehr eine durchbrochene, gesetzte bzw. schwach feuchte Schneedecke vorhanden. Die Sonnseiten sind meist schneefrei. Mit der Abkühlung sowie der nächtlichen Ausstrahlung ist die Schneeoberfläche mitunter verharscht, zumindest sonnseitig wird sie aber rasch angefeuchtet und faul. In schattigen Bereichen bleibt die Schneeoberfläche bei vorhandenen Kältereserven hart. Oberhalb von etwa 1300 - 1600 m können frische, kleinräumige Neu- oder Triebschneelinsen vom Vortag vormals apere Flächen oder bestehende Altschneefelder überdecken.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag ist erst noch etwas Restbewölkung vorhanden, aus der es zeitweise auch &#13;
+noch geringfügig regnen oder schneien kann. Die Schneefallgrenze liegt dabei um &#13;
+1300 m Seehöhe. Tagsüber setzt sich dann mehr und mehr sonniges Wetter &#13;
+durch.  Der Wind  lässt deutlich nach und weht meist nur noch schwach. &#13;
+Die Temperaturen steigen wieder an und erreichen in 1500 m rund 4 Grad, in 2000 m liegt die Temperatur mittags um den Gefrierpunkt.</wxSynopsisComment>
+          <tendencyComment>Am Samstag scheint in den niederösterreichischen Bergen häufig die Sonne und es &#13;
+ziehen nur dünne, hohe Wolkenfelder durch. Der Höhenwind weht schwach &#13;
+aus Südwest. Die Temperaturen in 1500 m Seehöhe liegen um 6 Grad, in 2000 m mittags um 3 Grad. &#13;
+ Die Lawinengefahr bleibt weiterhin gering.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

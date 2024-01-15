@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID555RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID555RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>dünne und kleinräumige Triebschneepakete, auf ungünstiger Unterlage, hinter Geländekanten, kammnah, in Rinnen und steilen Mulden</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßige Lawinengefahr in Hochlagen!</avActivityHighlights>
+          <avActivityComment>In Höhenlagen über 1.900m herrscht mäßige, sonst geringe Lawinengefahr. Am Freitag hat sich vor allem in den Expositionen Ost bis Süd frischer Triebschnee gebildet. Auch in den übrigen Hangrichtungen sind neue Triebschneelinsen entstanden. Mit der Sonneneinstrahlung und Erwärmung nehmen die Gefahrenstellen sonnseitig ab und beschränken sich meist nur noch auf Schattlagen, wo sie meist kleinräumig verteilt (z.B. hinter Geländekanten, in Rinnen oder kammnah), aufgrund der guten Sicht sowie Windzeichen aber leicht zu erkennen sind. Weiterhin steht auch die Absturzgefahr im Vordergrund, da die Neuschneeauflage auf der harten Altschneeunterlage sehr schlecht bindet und bei Belastung leicht abrutscht.</avActivityComment>
+          <snowpackStructureComment>10-20cm Neuschnee vom Freitag liegen auf einer verharschten und daher auch sehr harte Altschneedecke. Die Verbindung zwischen Alt- und Neuschnee ist ungünstig, auch der vom mäßig starken Wind gebildete frische Triebschnee bindet schlecht am Altschnee. Potentielle Schwachschichten sind am ehesten noch in ausgesprochenen Schattlagen in Form überwehten Pulverschnees denkbar. Mit der schon kräftigen  Sonneneinstrahlung setzt sich die Neuschneeauflage sonnseitig.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag setzt sich das strahlend schöne Bergwetter fort. Die Luft ist recht trocken mit guter Fernsicht. Der Nordwestwind weht anfangs nur schwach, wird aber am Nachmittag langsam stärker. Die Temperaturen liegen zu Mittag in 2.000m bei -2 Grad und in 1.500m bei +2 Grad. Zum Alpenostrand hin liegt das Temperaturniveau um etwa 2 Grad tiefer.&#13;
+In der Nacht zum Montag verdichten sich die Wolken und vor allem in den westlichen Nordalpen kann es dabei etwas schneien. Im Laufe des Vormittages lockern die Wolken aber überall wieder auf. Die Temperaturen liegen deutlich tiefer als am Sonntag und es weht lebhafter Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Abnahme der Lawinengefahr!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-04-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID555RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2021-03-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID555RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2021-03-06T17:00:00+00:00</beginPosition>
+          <endPosition>2021-03-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>sehr wenige Gefahrenpunkte im Gelände, Wenn, dann ist das Absturzrisiko deutlich größer als die Lawinengefahr</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Aufgrund des nur geringen Neuschneezuwachses vom Freitag weiterhin geringe Lawinengefahr. Absturzgefahr beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist gering, die Gefahrenstellen beschränken sich auf ganz vereinzelte Triebschneelinsen, die vor allem im schattseitigen Gelände liegen, insbesondere hinter Geländekanten sowie kammnah. Dort, wo am Freitag frischer Schnee gefallen ist, ist die Verbindung zum Altschnee sehr schlecht. Die Abrutsch- bzw. Absturzgefahr auf den vom Neuschnee überdeckten  harten und oft vereisten Altschneeoberflächen sollte nicht unterschätzt werden!</avActivityComment>
+          <snowpackStructureComment>Am Freitag sind in den nördlicheren Gebirgsgruppen 5-10cm Neuschnee gefallen, für größere Triebschneeansammlungen reichten die Niederschläge aber nicht aus. Somit liegt regional eine recht dünne Schneeauflage auf einer harten, verharschten Altschneedecke. Hier ist die Verbindung zwischen Neuschnee und Altschnee schlecht und die Abrutschgefahr im Steilgelände groß. In den südlicheren Gebirgsregionen fiel kaum Neuschnee, hier dominieren weiterhin die verharschten Altschnee-Oberflächen.  </snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag setzt sich das strahlend schöne Bergwetter fort. Die Luft ist recht trocken mit guter Fernsicht. Der Nordwestwind weht meist nur schwach. Die Temperaturen liegen zu Mittag in 2.000m bei -2 Grad und in 1.500m bei +2 Grad. &#13;
+In der Nacht zum Montag werden die Wolken vorübergehend etwas dichter, tagsüber wechseln Wolken mit sonnigen Phasen. Die Temperaturen liegen deutlich tiefer als am Sonntag und es weht lebhafter Nordwestwind.</wxSynopsisComment>
+          <tendencyComment>Keine Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-15"/>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+      <locRef xlink:href="AT-06-12"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1646RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-02-12T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1646RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-02-12T17:00:00+00:00</beginPosition>
+          <endPosition>2022-02-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in schattigen Lagen und hochalpin</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>frischer kleinräumiger Triebschnee</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Unter Beachtung lokaler Gefahrenstellen gute Tourenbedingungen!</avActivityHighlights>
+          <avActivityComment>In den kammnahen Hochlagen konnte sich durch Südwind frischer Triebschnee bilden, der in steileren Lagen auch leicht gestört werden kann. Auf Grund des Altschneeproblems sind in den hochgelegenen Nord- und Schattlagen Gefahrenstellen wie Übergänge von mehr zu wenig Schnee vorhanden. Hier könnten Schneebrettlawinen insbesondere durch große Zusatzbelastung ausgelöst werden. Sonnseitig sind mit der starken Einstrahlung und mit den milden Temperaturen kleinere spontane Lockerschneelawinen möglich. Auf vergrasten Steilhängen sind einzelne Gleitschneelawinen weiterhin nicht auszuschließen. Hänge mit Rissen in der Schneedecke sollten gemieden werden.</avActivityComment>
+          <snowpackStructureComment>In den kammnahen Hochlagen hab sich durch Südwind frische kleinere Triebschneeablagerungen gebildet, die nicht immer mit der Altschneedecke ausreichend binden. In den höheren schattigen Lagen sind in der Altschneedecke noch Schwachschichten (kantige Kristalle) in der Altschneedecke eingelagert, die auch angesprochen werden könnten. Die Schneeoberfläche ist je nach Höhe und Exposition unterschiedlich ausgeprägt. Sie ist sonnseitig verharscht, bevor sie unter Tags aufweicht. Sehr oft ist sie windgepresst und schatt- und nordseitig höher gelegen auch noch locker.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag erneut ausgezeichnetes Bergwetter mit guter Fernsicht, abschnittsweise machen sich ein paar harmlose hohe Wolken bemerkbar. Der Wind weht schwach bis mäßig aus Ost bis Süd. In 1500 m 1 oder 2 Grad, in 2000 m um -2 Grad.&#13;
+Am Montag geht sich noch einmal gutes Tourenwetter aus, oft scheint bei guter Sicht die Sonne. Zeitweilige hohe Wolken stören kaum. Der Wind weht schwach bis mäßig aus Ost bis Süd. In 1500 m um 3 Grad, in 2000 m um -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation!</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

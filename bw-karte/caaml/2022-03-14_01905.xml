@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID1905RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1905RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>sehr wenige Gefahrenpunkte im Gelände; allgemein wenig Schnee; Anfeuchtung</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anfeuchtung - kleine Nasschneelawinen sind möglich</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist GERING.&#13;
+Das Hauptpeoblem ist am Dienstag die Anfeuchtung. Im sehr steilen Gelände sind kleine Nasschneelawinen oder auch kleine Gleitschneelawinen möglich. In schneearmen Übergängen von wenig zu mehr Schnee könnte man an sehr wenigen Stellen und im extrem steilen Gelände ein altes trockenes Schneebrett stören (kleines Altschneeproblem). </avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist gezeichnet vom stürmischen Winter und der langen trockenen Phase. Die Oberflächen verharscht oder hart. Schneehöhen sind deutlich unterdurchschnittlich. Mit der Wärme und diffusen Sonne kommt es zu einer oberflächlichen Anfeuchtung. Oberhalb der Waldgrenze ist das Gelände abgeblasen. Im Altschnee gibt es weiche Schichten aus kantigen Kristallen, die aber höchstens ganz vereinzelt im Gelände angesprochen werden können. </snowpackStructureComment>
+          <wxSynopsisComment>Wolkenfelder über Gipfelniveau sorgen am Dienstag häufig für diffuses Licht. In der Nacht regnet es zeitweise. Schwacher Südwind. Wärmer und feuchter als zuletzt: in 2000m bis 3 Grad.&#13;
+Am Mittwoch sorgen dichte Wolken und abklingende Niederschläge zunächst für Sichteinschränkungen. Die höheren Gipfel sind leicht angezuckert. Im Tagesverlauf brechen die Wolken auf, der Nachmittag bringt sonnige Phasen. Nordwestwind mit 40 bis 60 km/h. Temperaturen in 2000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1905RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1905RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>von oberflächlichen Feuchtschneerutschen bis mittelgroßen Nassschneelawinen; betrifft sehr steilen Gelände</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>vereinzelt Gleitschneelawinen aus extrem steilen Grashängen; auf Risse achten; mittel bis groß</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wärme und diffuse Sonne - mäßiges Nassschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist MÄSSIG. &#13;
+Hauptproblem sind heute Wärme und diffuse Strahlung. Damit sind im Steilgelände Feuchtschneerutsche (selbst abgetreten oder spontan) ein Thema. Ebenso können sich aus dem extremen, oft felsdurchsetzten Steilgelände mittelgroße Nassschneelawinen lösen. &#13;
+Auch Gleitschneelawinen werden aktiver. Einzelnen können aus extrem steilen Grasmattengelände abgehen. Diese können mittelgroß, vereinzelt groß werden.&#13;
+Nebenthema: Sehr wenige Gefahrenstellen gibt es an schneeärmeren Übergängen im schattigen Steilgelände (Altschneeproblem). Dort könnte man mit großer Zusatzbelastung ein seltenes Schneebrett auslösen, das mittlere Ausmaße annehmen kann. </avActivityComment>
+          <snowpackStructureComment>Der erste wärmere Tag nach einer bewölkten Nacht. Die Oberflächen werden weicher und feuchter als zuletzt, und die Feuchtigkeit geht tiefer hinein in die Schneedecke. Betrifft sonnseitig die Höhen bis um 2500m, schattseitig bis etwa 2000m. &#13;
+Die Oberfläche der Altschneedecke besteht schattseitig aus kantigem Pulverschnee in den höheren Lagen. Im Inneren der derzeit noch kompakten Altschneedecke gibt es zwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit kaum angesprochen werden. </snowpackStructureComment>
+          <wxSynopsisComment>Wolkenfelder über Gipfelniveau sorgen am Dienstag häufig für diffuses Licht. Am späten Nachmittag könnte es da und dort leicht regnen oder tröpfeln (Schneefallgrenze 2200m); in der Nacht nimmt die Regenwahrscheinlichkeit deutlich zu. Wind: tagsüber schwach/mäßig, am späten Nachmittag und Abend kräftig aus Süd (um 40 km/h). Wärmer und feuchter als zuletzt: in 2000m bis 6 Grad.&#13;
+Am Mittwoch sorgen dichte Wolken und abklingende Niederschläge zunächst für starke Sichteinschränkungen. Die hohen Berge sind leicht angezuckert. Im Tagesverlauf brechen die Wolken auf, der Nachmittag bringt längere sonnige Phasen. Nordwestwind mit 40 km/h in exponierten Zonen. Temperaturen in 2000m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-20"/>
+      <locRef xlink:href="AT-05-21"/>
+      <locRef xlink:href="AT-05-12"/>
+      <locRef xlink:href="AT-05-13"/>
+      <locRef xlink:href="AT-05-14"/>
+      <locRef xlink:href="AT-05-15"/>
+      <locRef xlink:href="AT-05-08"/>
+      <locRef xlink:href="AT-05-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1905RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1905RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>5-15 cm dicke Triebschneepakete durch Föhn vom Wochenende, tlw. hart, primär Mitreiß-Absturzrisiko; ober 2200m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Feuchtschneerutsche bis mittelgroße Nassschneelawinen; vereinzelt Gleitschneelawinen; mittel bis groß; unter 2200m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Mäßiges Nassschneeproblem - steilen Föhntriebschnee im Hochgebirge beachten</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist auf Grund der Wärme und des Föhntriebschnees vom Wochenende MÄSSIG.&#13;
+Nassschneeproblem unter 2200m: Hauptproblem sind heute Wärme und diffuse Strahlung. Damit sind im Steilgelände Feuchtschneerutsche (selbst abgetreten oder spontan) ein Thema. Ebenso können sich aus dem extremen, oft felsdurchsetzten Steilgelände mittelgroße Nassschneelawinen lösen. Auch Gleitschneelawinen werden aktiver. Einzelnen können aus extrem steilen Grasmattengelände abgehen. Diese können mittelgroß, vereinzelt groß werden.&#13;
+Altschneeproblem ober 2200m: Dort wo der Föhn am Wochenende wehte (Windzeichen sind gut erkennbar) gibt es im schattseitigen Lee Triebschneepakete, die insbesondere bei großer Zusatzbelastung oberhalb von 2000m auslösbar sind (W-N-O). Potenzielle Lawinen sind meist klein, Mitreiß-und Absturzrisiko überwiegen daher, vereinzelt könnte es jedoch für eine Verschüttung ausreichen.</avActivityComment>
+          <snowpackStructureComment>Der erste wärmere Tag nach einer bewölkten Nacht. Die Oberflächen werden weicher und feuchter als zuletzt, und die Feuchtigkeit geht tiefer hinein in die Schneedecke. Betrifft sonnseitig die Höhen bis um 2500m, schattseitig bis etwa 2000m.Der Föhn am Wochenende hat im Lee (Nordsektor und Mulden) unterschiedlich starke Triebschneepakete hinterlassen, nicht selten sind diese hart, aber tlw. auslösbar weil die Schichten auf Reif und kantigem Pulverschnee lagern. Umfang und Mächtigkeit sind meist überschaubar. Die auslösbaren Schichten sind meist 5 bis 15 cm dick. Abseits vom Windeinfluß findet man schattseitig kantigem Pulverschnee in den höheren Lagen. &#13;
+Im Inneren der Altschneedecke gibt es zwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit kaum angesprochen werden. </snowpackStructureComment>
+          <wxSynopsisComment>Wolkenfelder über Gipfelniveau sorgen am Dienstag häufig für diffuses Licht. Am späten Nachmittag könnte es da und dort leicht regnen oder tröpfeln (Schneefallgrenze 2200m); in der Nacht nimmt die Regenwahrscheinlichkeit deutlich zu. Wind: Südwind mit 40 bis 60 km/h. Wärmer und feuchter als zuletzt: in 2000m bis 6 Grad, in 3000m um -3 Grad.&#13;
+Am Mittwoch sorgen dichte Wolken und abklingende Niederschläge zunächst für starke Sichteinschränkungen. Rund 5 cm Neuschnee oberhalb von etwa 2000m. Im Tagesverlauf brechen die Wolken auf, der Nachmittag bringt längere sonnige Phasen. Nordwestwind mit 40 bis 60 km/h in exponierten Zonen. Temperaturen in 2000m um 0 Grad, in 3000m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Nassschneeproblem bleibt gleich - Triebschneeproblem nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-04"/>
+      <locRef xlink:href="AT-05-05"/>
+      <locRef xlink:href="AT-05-06"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1905RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1905RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>im Nordsektor 10-20 cm dicke Triebschneepakete durch letzten Föhn, tlw. hart, aber auslösbar, Fernaulösungen denkbar; ober 2500m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>Feuchtschneerutsche bis mittelgroße Nassschneelawinen; einige Gleitschneelawinen aus extrem steilen Grashängen; mittel bis groß; unter 2200m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Nassschneeproblem bis 2200m - in den Hochlagen Triebschneeproblem ober 2500m</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unter ca. 2500m MÄSSIG, darüber gerade noch ERHEBLICH.&#13;
+Nassschneeproblem unter 2200m: Im Steilgelände &#13;
+sind Feuchtschneerutsche (selbst abgetreten oder spontan) ein Thema. Ebenso &#13;
+können sich aus dem extremen, oft felsdurchsetzten Steilgelände &#13;
+mittelgroße Nassschneelawinen lösen. Auch Gleitschneelawinen werden &#13;
+aktiver. Einzelnen können aus extrem steilen Grasmattengelände abgehen. &#13;
+Diese können mittelgroß, vereinzelt groß werden.&#13;
+Altschneeproblem: Dort wo der Föhn am Wochenende wehte (viele harte Windzeichen) gibt es im erweiterten Nordsektor (W-N-O) noch einige  Triebschneepakete, die zumindest oberhalb von etwa 2500m bereits durch den Impuls einer Person ausgelöst werden können. Auch Fernauslösungen sind noch denkbar. Die Situation ist nicht leicht einzuschätzen, weil es viele harte und abgewehte Flächen gibt. Potenzielle Lawinen sind klein bis mittelgroß, könnten jedoch für eine Verschüttung ausreichen.</avActivityComment>
+          <snowpackStructureComment>Der erste wärmere Tag nach einer bewölkten Nacht. Die Oberflächen werden weicher und feuchter als zuletzt, und die Feuchtigkeit geht tiefer hinein in die Schneedecke. Betrifft sonnseitig die Höhen bis um 2500m, schattseitig bis etwa 2000m.&#13;
+Der Föhn am Wochenende&#13;
+ hat im Lee (Nordsektor und Mulden) gibt es unterschiedlich starke Triebschneepakete, nicht selten hart, &#13;
+aber tlw. leicht auslösbar weil die Schichten auf Reif und kantigem &#13;
+Pulverschnee lagern. Umfang und Mächtigkeit sind unterschiedlich. Die&#13;
+ leicht auslösbaren Schichten sind meist 10 bis 20 cm dick.&#13;
+Abseits vom Windeinfluß findet man schattseitig stabilen Pulver auf &#13;
+kompaktem Altschnee. Im Inneren der Altschneedecke gibt es zwar kantige, weiche Schichten &#13;
+(Altschneeproblem). Diese Schichten können derzeit kaum angesprochen &#13;
+werden. </snowpackStructureComment>
+          <wxSynopsisComment>Wolkenfelder über Gipfelniveau sorgen am Dienstag häufig für diffuses Licht. Am späten Nachmittag könnte es da und dort leicht regnen oder tröpfeln (Schneefallgrenze 2200m); in der Nacht nimmt die Regenwahrscheinlichkeit deutlich zu. Wind: Südwind mit 40 bis 60 km/h. Wärmer und feuchter als zuletzt: in 2000m bis 6 Grad, in 3000m um -3 Grad.&#13;
+Am Mittwoch sorgen dichte Wolken und abklingende Niederschläge zunächst für starke Sichteinschränkungen. Rund 5 cm Neuschnee oberhalb von etwa 2200m. Im Tagesverlauf brechen die Wolken auf, der Nachmittag bringt längere sonnige Phasen. Nordwestwind mit 40 km/h in exponierten Zonen. Temperaturen in 2000m um 0 Grad, in 3000m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Nasschneeproblem unverändert - das Triebschneeproblem nimmt ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID1905RGR5">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2022-03-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID1905RGR5">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2022-03-14T17:00:00+00:00</beginPosition>
+          <endPosition>2022-03-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>von oberflächlichen Feuchtschneerutschen bis mittelgroßen Nassschneelawinen; betrifft sehr steilen Gelände unter 2200m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>vereinzelt Gleitschneelawinen aus extrem steilen Grashängen; auf Risse achten; mittel bis groß</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Wärme und diffuse Sonne - mäßiges Nassschneeproblem</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist unterhalb von etwa 2200m MÄSSIG, darüber GERING.&#13;
+Hauptproblem sind heute Wärme und diffuse Strahlung. Damit sind im Steilgelände Feuchtschneerutsche (selbst abgetreten oder spontan) ein Thema. Ebenso können sich aus dem extremen, oft felsdurchsetzten Steilgelände mittelgroße Nassschneelawinen lösen.&#13;
+Auch Gleitschneelawinen werden aktiver. Einzelnen können aus extrem steilen Grasmattengelände abgehen. Diese können mittelgroß, vereinzelt groß werden.&#13;
+Nebenthema: Sehr wenige Gefahrenstellen gibt es an schneeärmeren Übergängen im schattigen Steilgelände (Altschneeproblem). Dort könnte man mit großer Zusatzbelastung ein seltenes Schneebrett auslösen, das mittlere Ausmaße annehmen kann.</avActivityComment>
+          <snowpackStructureComment>Der erste wärmere Tag nach einer bewölkten Nacht. Die Oberflächen werden weicher und feuchter als zuletzt, und die Feuchtigkeit geht tiefer hinein in die Schneedecke. Betrifft sonnseitig die Höhen bis um 2500m, schattseitig bis etwa 2000m.&#13;
+Die Oberfläche der Altschneedecke besteht schattseitig aus kantigem Pulverschnee in den höheren Lagen. Im Inneren der derzeit noch kompakten Altschneedecke gibt es zwar kantige, weiche Schichten (Altschneeproblem). Diese Schichten können derzeit kaum angesprochen werden.</snowpackStructureComment>
+          <wxSynopsisComment>Wolkenfelder über Gipfelniveau sorgen am Dienstag häufig für diffuses Licht. Am späten Nachmittag könnte es da und dort leicht regnen oder tröpfeln (Schneefallgrenze 2200m); in der Nacht nimmt die Regenwahrscheinlichkeit deutlich zu. Wind: tagsüber schwach/mäßig, am späten Nachmittag und Abend kräftig aus Süd (um 40 km/h). Wärmer und feuchter als zuletzt: in 2000m bis 6 Grad, in 3000m um -3 Grad.&#13;
+Am Mittwoch sorgen dichte Wolken und abklingende Niederschläge zunächst für starke Sichteinschränkungen. Die hohen Berge sind leicht angezuckert. Im Tagesverlauf brechen die Wolken auf, der Nachmittag bringt längere sonnige Phasen. Nordwestwind um 40 km/h in exponierten Zonen. Temperaturen in 2000m um 0 Grad, in 3000m um -6 Grad.</wxSynopsisComment>
+          <tendencyComment>Wenig Änderung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-05-18"/>
+      <locRef xlink:href="AT-05-17"/>
+      <locRef xlink:href="AT-05-16"/>
+      <locRef xlink:href="AT-05-09"/>
+      <locRef xlink:href="AT-05-10"/>
+      <locRef xlink:href="AT-05-11"/>
+      <locRef xlink:href="AT-05-03"/>
+      <locRef xlink:href="AT-05-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

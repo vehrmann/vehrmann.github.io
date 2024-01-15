@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3900RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-09T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3900RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-09T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-10T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>kammnahes Steilgelände, hinter Geländekanten sowie in eingewehten Rinnen und Mulden</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steile Grashänge, Felsplatten</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gefahrenstellen nehmen mit der Seehöhe an Umfang und Verbreitung zu</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend mäßig. Triebschnee ist das Hauptproblem. Gefahrenstellen finden sich im kammnahen Steilgelände, hinter Geländekanten sowie in eingewehten Rinnen und Mulden. Umfang und Verbreitung nehmen mit der Seehöhe zu. Einzelne Wintersportler können kleine bis mittlere Lawinen auslösen. Zudem können sich vor allem aus felsdurchsetztem und stark besonntem Steilgelände weiterhin Lockerschneelawinen selbst lösen oder durch einzelne Wintersportler ausgelöst werden. An steilen Grashängen und Felsplatten aller Expositionen sind weiterhin Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee seit Freitag konnte sich weiter setzen und bis in mittlere Lagen gut mit der Altschneedecke verbinden. Mit zunehmender Seehöhe dauert dieser Prozess temperaturbedingt noch länger. Oberflächennahe Schichten sind teilweise noch störanfällig. Mit Windeinfluss wurde in exponierten Bereichen zudem kleinräumig frischer Triebschnee gebildet. Lockerschneerutsche und kleine Lawinenauslösungen durch Wintersportler bestätigten die Störanfälligkeit. Die Altschneedecke mit sehr unregelmäßiger Oberfläche auf kleinstem Raum (eisig, abgeblasen, windgepresst) ist überwiegend stabil. Der warme Boden und die bis zum Boden feuchte Schneedecke führen dazu, dass die gesamte Schneedecke weiterhin auf glattem Untergrund abgleiten kann.</snowpackStructureComment>
+          <wxSynopsisComment>Nacht: Abgesehen vom restlichen Hochnebel ziehen abends und nachts auch dichtere Wolken mit ein paar Flocken im Bergland durch. Mittwoch: Ruhiges Bergwetter. Am Rande eines Tiefs zeigen sich aus der Nacht heraus noch einige Wolken. Diese dünnen aus und der Tag verläuft überall zumindest zeitweise sonnig. Temperaturen in 2000 m: um -6 Grad. Höhenwind: schwach bis mäßig aus Südost.</wxSynopsisComment>
+          <tendencyComment>Es wird sehr sonnig und der Frost schwächt sich weiter ab. Die Lawinengefahr ändert sich nicht wesentlich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3353RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-04-09T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3353RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-04-09T16:00:00+00:00</beginPosition>
+          <endPosition>2023-04-10T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-09T22:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-10T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2023-04-10T10:00:00+00:00</beginPosition>
+                  <endPosition>2023-04-10T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Touren frühzeitig starten und rechtzeitig beenden!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr steigt im Tagesverlauf von gering auf mäßig an. Nassschnee ist das Hauptproblem. Aus sonnenexponiertem Steilgelände muss im Tagesverlauf mit feuchten und nassen Lawinen gerechnet werden. Diese können auch auf glattem Untergrund abgleiten. In höheren Lagen sind vereinzelte Lawinen mittlerer Größe nicht auszuschließen.&#13;
+Im extremen Steilgelände kann der Neuschnee der letzten Tage zudem von einzelnen Personen als kleine Schneebretter ausgelöst werden. Dies ist vor allem kammnah an windbeeinflussten Hängen der Hochlagen möglich. Die Absturzgefahr ist dabei höher einzuschätzen als die Gefahr verschüttet zu werden.</avActivityComment>
+          <snowpackStructureComment>In der klaren Nacht auf Montag setzt sich der am Wochenende gefallene  Schnee weiter und sonnseitig bildet sich ein dünner Schmelzharschdeckel, der mit Sonneneinstrahlung rasch aufweicht. Im Tagesverlauf dringt Feuchtigkeit in die Schneedecke ein, so dass diese an Festigkeit verliert und ins rutschen kommt. Die Schneedeckenbasis ist in mittleren Lagen vielerorts nass. Schattseitig überdeckt lockerer Neuschnee eine kompakte und weitgehend stabile Altschneedecke. Unterhalb 1300 m liegt kaum Schnee.</snowpackStructureComment>
+          <tendencyComment>Triebschneeansammlungen entstehen ab Dienstag in höheren Lagen, ansonsten bleibt Nassschnee problematisch.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
