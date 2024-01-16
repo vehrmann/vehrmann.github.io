@@ -36,6 +36,9 @@
     <link rel="stylesheet" href="./js/imports/leaflet.measure.css">
     <script src="./js/imports/leaflet.measure.js"></script>
 
+    <!-- Turf (geospatial engine) / https://github.com/Turfjs/turf -->
+    <script src="./node_modules/@turf/turf/turf.min.js"></script>
+
     <!-- LEAFLET GPX (analysis and parsing of a GPX files) / https://github.com/mpetazzoni/leaflet-gpx
     ### CONSIDER NODE/IMPORT ###-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
@@ -54,10 +57,9 @@
     <!-- <script src="./js/own/dev_map_vector.js"></script> Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
 
-    <script src="./js/own/dev_map_gpx.js"></script>
-
     <script src="./js/own/map_control_group.js"></script>
-
+    <script src="./js/own/map_chronotrains.js"></script>        <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
+    <script src="./js/own/dev_map_gpx.js"></script>
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
     <script src="./js/own/dev_measure.js"></script>
 
@@ -75,7 +77,6 @@
 
     <!-- <script src="./js/own/dev_map_bergwacht.js"></script> -->
     <!-- <script src="./js/own/dev_map_schutzgebiete.js"></script> -->
-    <!-- <script src="./js/own/dev_map_chronotrains.js"></script> -->
 </html>
 
 
@@ -87,10 +88,10 @@
 
 <!--
 BUGS:
-    - Grouping menu becomes crowded, maybe think about another layouting option
-    - implement latest-date/latest-available-file function for imageoverlay of weather
-IMPROVEMENTS:
     - set default opacity for every overlay+respective slider individually
+    - implement latest-date/latest-available-file function for imageoverlay of weather
+    - chronotrains load really slow, maybe only load upon toggle
+IMPROVEMENTS:
     - include other weather maps from lawine.report + respective legends + potentially slider for date range
     - insert legend for Schneehöhen (upon hover of attribution)
     - order layers, esp. Schneehöhe after it is added
@@ -104,8 +105,10 @@ IMPROVEMENTS:
     - GPS-location-button
     - Geo-Tools (Altitude, dstance, Area, Drawing, ...)
     - Routing
+    - search function
     - side-by-side: make optional and make maps selectable
     - consider useful z-indices for each overlay
+    - Grouping menu becomes crowded, maybe think about another layouting option
 EXTEND:
     BASELAYERS:
         - Swisstopo
@@ -118,7 +121,6 @@ EXTEND:
     OBERLAYS:
         - Strava Heatmaps
         - ATHM
-        - IsoChrones / ChronoTrains
         - Schutzgebiete
         - Webcams
         - Wetter / Schnee / Lawinenlage / LLB

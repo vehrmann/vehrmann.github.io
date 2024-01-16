@@ -19,6 +19,7 @@ function group_map_control() {
         //'Temperatur':               'Wetter',
         'Wind':                     'Wetter',
         'Rotwandgebiet':            'Schutzgebiete',
+        'ChronoTrains':             'ÖPNV',
         'OpenSeaMap':               'Seekarte',
     };
 
@@ -100,6 +101,12 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             //overlay_maps[overlay_weather_snowline.name].setOpacity(opacity_value);
             //overlay_maps[overlay_weather_snowdiff.name].setOpacity(opacity_value);
             break;
+            case 'ÖPNV':
+                overlay_maps[overlay_chronotrains.name].setStyle({
+                    opacity:        opacity_value,
+                    fillOpacity:    opacity_value
+                    })
+                break;
         case 'Schutzgebiete':
             //gpx.setOpacity(opacity_value)     // find the proper name of the gpx layer
             break;

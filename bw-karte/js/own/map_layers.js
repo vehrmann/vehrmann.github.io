@@ -52,8 +52,12 @@ function getActualWeather(type) {
     return [img_url, attribution_text];
 }
 
+
+
+
 const overlay_weather_bbox =            [[45.6167, 9.4], [47.8167, 13.0333]]    // from weathermaps.settings.bbox @ https://gitlab.com/albina-euregio/albina-website/-/blob/master/app/config.json?ref_type=heads
 const overlay_weather_defaultopacity =  0.7
+let chronotrains_station_id =           '8004128'
 
 const overlay_weather_wording =         {
     //'identifier': ['Control Label', 'className', 'url-part']
@@ -71,6 +75,9 @@ const overlay_weather_wording =         {
 
 let [url_wind, attribution_wind] =              getActualWeather('wind');
 let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight');
+
+
+
 
 // BASELAYERS
 
@@ -449,6 +456,12 @@ const overlay_openseamap = {
     'attribution':      '&copy; <a href="https://www.openseamap.org" target="_blank">OpenSeaMap</a>'
 };
 
+const overlay_chronotrains = {
+    'featuregroup':     true,
+    'opacity':          0.8,
+    'name':             'ChronoTrains',
+    'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
+}
 
 /*
 basemap.de

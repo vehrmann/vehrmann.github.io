@@ -4,14 +4,13 @@ const fullscreen_button_title_cancel =  "Vollbildmodus beenden";
 
 let general_map_settings = {
     'center':               [47.66, 11.86],
-    'zoom':                 14,
+    'zoom':                 10,//14,
     'minZoom':              3,
     'maxZoom':              22,
     'default_map':          baselayer_topo_bergfex,
     //'slopesOpacity':        0.4,
     //'heatmapOpacity':       0.5,
     //'skiroutesOpacity':     0.5,
-    //'chronotrainsOpacity':  0.2,
     //'heatmapType':          'winter',
     //'heatmapColor':         'hot',
     //'slopesResolution':     'MR_AlpsEast'
@@ -70,15 +69,14 @@ let overlay_maps_list = [                               // list with all map ser
     //overlay_weather_snowline,
     //overlay_weather_snowdiff,
 
+    // ChronoTrains
+    overlay_chronotrains,
+
     // Seekarte
     overlay_openseamap
 ];
-let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
-let overlay_maps =  create_tile_layers(overlay_maps_list);
 
-let map = L.map(
-    'map',
-    {   
+let map = L.map('map', {   
         center:             general_map_settings.center,
         zoom:               general_map_settings.zoom,
         minZoom:            general_map_settings.minZoom,
@@ -90,9 +88,10 @@ let map = L.map(
         //rotate:           true,
         //touchRotate:      true,
         //renderer:           labels_renderer,
-        layers:             base_maps[general_map_settings.default_map.name]       // selected by default
-    }
-);
+    });
+let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
+let overlay_maps =  create_tile_layers(overlay_maps_list);
+map.addLayer(base_maps[general_map_settings.default_map.name])  // default map can only be added after it was created
 
 let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 let map_scale =     L.control.scale({imperial: false}).addTo(map);
@@ -125,37 +124,46 @@ L.control.locate(locate_options).addTo(map);
 
 
 function create_single_tile_layer(layer_object) {
-    let tile_layer;
-    if (layer_object.wms) {
-        tile_layer = L.tileLayer.wms(
-            layer_object.url, {
-                layers:         layer_object.layers,
-                minZoom:        layer_object.minZoom,
-                maxNativeZoom:  layer_object.maxNativeZoom,
-                maxZoom:        layer_object.maxZoom,
-                opacity:        layer_object.opacity,
-                attribution:    layer_object.attribution
-            }
-        );
-    } else if (layer_object.imageoverlay) {
-        let overlay_options =   {   opacity:        layer_object.opacity,
-                                    interactive:    layer_object.interactive,
-                                    className:      layer_object.className,
-                                    attribution:    layer_object.attribution
-                                }
-        tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, overlay_options)
+    let tile_layer, layer_options;
+
+    // ImageOverlay (weather maps)
+    if (layer_object.imageoverlay) {
+        layer_options = {   opacity:        layer_object.opacity,
+                            interactive:    layer_object.interactive,
+                            className:      layer_object.className,
+                            attribution:    layer_object.attribution
+                        }
+        tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, layer_options)
+
+    // FeatureGroup (chronotrains)
+    } else if (layer_object.featuregroup) {
+        layer_options = {   attribution:    layer_object.attribution
+                        }
+        tile_layer = L.featureGroup(null, layer_options)    // layer is added later
+
+    // WMS
+    } else if (layer_object.wms) {
+        layer_options = {   layers:         layer_object.layers,
+                            minZoom:        layer_object.minZoom,
+                            maxNativeZoom:  layer_object.maxNativeZoom,
+                            maxZoom:        layer_object.maxZoom,
+                            opacity:        layer_object.opacity,
+                            attribution:    layer_object.attribution
+                        }
+        tile_layer = L.tileLayer.wms( layer_object.url, layer_options );
+
+    // WMTS
     } else {
-        tile_layer = L.tileLayer(
-            layer_object.url, {
-                ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
-                minZoom:        layer_object.minZoom,
-                maxNativeZoom:  layer_object.maxNativeZoom,
-                maxZoom:        layer_object.maxZoom,
-                opacity:        layer_object.opacity,
-                attribution:    layer_object.attribution
-            }
-        );
+        layer_options = {   ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
+                            minZoom:        layer_object.minZoom,
+                            maxNativeZoom:  layer_object.maxNativeZoom,
+                            maxZoom:        layer_object.maxZoom,
+                            opacity:        layer_object.opacity,
+                            attribution:    layer_object.attribution
+                        }
+        tile_layer = L.tileLayer( layer_object.url, layer_options );
     };
+
     return tile_layer;
 }
 
