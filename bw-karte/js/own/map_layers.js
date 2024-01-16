@@ -1,93 +1,6 @@
-function fetchHeader(url, header_item) {
-    try {
-        let req=new XMLHttpRequest();
-        req.open("HEAD", url, false);
-        req.send(null);
-        if(req.status== 200){
-            return req.getResponseHeader(header_item);
-        }
-        else return false;
-    } catch(er) {
-        return er.message;
-    }
-}
+let chronotrains_station_id =           '8004128'       // move to general settings
 
-function getFormattedDatetimeString(datetime, hour_offset, format_type) {
-    const year =    datetime.getFullYear();
-    const month =   ('0' + (datetime.getMonth() + 1)).slice(-2);      // add 1 to month because months are zero-indexed
-    const day =     ('0' + datetime.getDate()).slice(-2);
-    const hours =   ('0' + (datetime.getHours() + hour_offset) ).slice(-2)
-    let formatted_datetime_string;
-    switch(format_type) {
-        case 'url':
-            formatted_datetime_string = `${year}-${month}-${day}_${hours}-00` 
-            break;
-        case 'legend':
-            formatted_datetime_string = `${day}.${month}.${year} ${hours}:00 Uhr`
-            break;
-    }
-    return formatted_datetime_string
-}
-
-function getActualWeather(type) {
-    let time =              new Date();
-    let utc_hour_offset =   time.getTimezoneOffset() / 60;
-    let formatted_datetime_string_utc, img_url, img_content_length;
-
-    const wording = overlay_weather_wording[type];
-
-    do {
-        formatted_datetime_string_utc = getFormattedDatetimeString(time, utc_hour_offset, 'url');
-        img_url = `https://static.avalanche.report/zamg_meteo/overlays/${wording.url_part}/${formatted_datetime_string_utc}_${wording.url_part}_V2.gif`;
-        img_content_length = fetchHeader(img_url, 'Content-Length');
-        time.setTime(time.getTime() - 60 * 60 * 1000);
-    } while (!img_content_length || img_content_length < 10000);
-
-    const formatted_datetime_string_local = getFormattedDatetimeString(time, 0, 'legend');
-    const attribution_text = `${wording.layer_control_label} am ${formatted_datetime_string_local} ` +
-        `(Quelle: <a href="https://lawinen.report/weather/map/${wording.url_part}" target="_blank">lawinen.report</a>` +
-        ` / <span id="weather_legend_${wording.class_name}" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
-        `<img style="position: absolute; right: 5; bottom: 22px; display: none;" src="./icons/weather_legend_${wording.class_name}.jpg">`;
-
-    return [img_url, attribution_text];
-}
-
-
-
-
-const overlay_weather_bbox =            [[45.6167, 9.4], [47.8167, 13.0333]]    // from weathermaps.settings.bbox @ https://gitlab.com/albina-euregio/albina-website/-/blob/master/app/config.json?ref_type=heads
-const overlay_weather_defaultopacity =  0.7
-let chronotrains_station_id =           '8004128'
-
-const overlay_weather_wording =         {
-    //'identifier': ['Control Label', 'className', 'url-part']
-    'wind':         {   'layer_control_label':  'Wind',
-                        'class_name':           'wind',
-                        'url_part':             'wind'
-                    },
-    'snowheight':   {   'layer_control_label':  'Schneehöhen',
-                        'class_name':           'snowheight',
-                        'url_part':             'snow-height'
-                    }
-}
-
-// newsnow forecast intervalls: 6, 12, 24, 48, 72
-
-let [url_wind, attribution_wind] =              getActualWeather('wind');
-let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight');
-
-
-
-
-// BASELAYERS
-
-/*
-const baselayer_topo_realitymaps = {
-    'url':              'https://tms2.realitymaps.de/summer2d/{z}/{x}/{y}.jpeg',    // needs an y-offset of +5253 to work
-    'name':             'Realitymaps'
-};
-*/
-
+// BASELAYERS TOPO
 const baselayer_topo_swisstopo = {
     'url':              'https://wmts{s}.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg',
     'subdomains':       [   '1','2','3','4','5','6','7','8','9',
@@ -105,6 +18,13 @@ const baselayer_topo_opentopomap = {
     'minZoom':          3,      // checked
     'maxNativeZoom':    17,     // checked
     'name':             'OpenTopoMap'
+};
+
+const baselayer_topo_alpenkarteeu = {
+    'url':              'https://cdn.schneidergeo.com/tiles/{z}/{x}/{y}.png',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    16,     // checked
+    'name':             'Alpenkarte.eu'
 };
 
 const baselayer_topo_stamen = {
@@ -134,13 +54,6 @@ const baselayer_topo_alpenverein = {
     'subdomains':       ['0', '1', '2', '3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
-    /*'attribution':      '',
-    'detect_retina':    False,
-    'overlay':          False,
-    'control':          True,
-    'show':             False,
-    'tms':              False,
-    'opacity':          0.5,*/
     'name':             'Alpenverein'
 };
 
@@ -163,16 +76,16 @@ const baselayer_topo_mapycz = {     // Wanderkarte
 const baselayer_topo_mapycz2 = {    // Basiskarte
     'url':              'https://{s}.mapy.cz/base-en/{z}-{x}-{y}',
     'subdomains':       ['windytiles'],
-    //'minZoom':          3,      // xx
-    //'maxNativeZoom':    16,     // xx
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz2'
 };
 
 const baselayer_topo_mapycz3 = {    // Winterkarte
     'url':              'https://windytiles.mapy.cz/winter-en{s}/{z}-{x}-{y}',
     'subdomains':       ['', '-down'],
-    //'minZoom':          3,      // xx
-    //'maxNativeZoom':    16,     // xx
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz3'
 };
 
@@ -192,14 +105,6 @@ const baselayer_topo_kartverketnoraster = {
     'name':             'Kartverket.no Raster'
 };
 
-const baselayer_topo_kartverketnoseamap = {
-    'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjokartraster&zoom={z}&x={x}&y={y}',
-    // also available as wms
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    20,     // checked
-    'name':             'Kartverket.no Seamap'
-};
-
 const baselayer_topo_kartverketnovector = {
     'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}',
     'wms':              true,                   // only available as WMS
@@ -217,46 +122,14 @@ const baselayer_topo_google = {
 };
 
 const baselayer_topo_esri = {
-    'url':              'https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
-    'subdomains':       ['server', 'services'],
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    16,     // checked
-    'name':             'ESRI.'
-};
-
-const baselayer_sat_esri = {
-    'url':              'https://{s}.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    'url':              'https://{s}.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
     'subdomains':       ['server', 'services'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
-    'name':             'ESRI..'
+    'name':             'ESRI.'
 };
 
-const baselayer_sat_bayern = {
-    'url':              'https://geoservices.bayern.de/wms/v2/ogc_dop80_oa.cgi?',
-    'wms':              true,
-    'layers':           'by_dop80c',
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    18,     // checked
-    'name':             'Bayern'
-};
-
-const baselayer_sat_google = {
-    'url':              'https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
-    'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    21,     // checked
-    'name':             'Google..'
-};
-
-const baselayer_sat_googlehybrid = {
-    'url':              'https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',
-    'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    21,     // checked
-    'name':             'Google Hybrid'
-};
-
+// BASELAYERS STREET
 const baselayer_street_bkg = {
     'url':              'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/default/WEBMERCATOR/{z}/{y}/{x}.png',
     'minZoom':          3,      // checked
@@ -274,14 +147,6 @@ const baselayer_street_google = {
     'name':             'Google...'
 };
 
-const baselayer_street_oepnv = {
-    'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    17,     // checked
-    'name':             'ÖPNV',
-    'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
-};
-
 const baselayer_street_osm = {
     'url':              'https://{s}tile.openstreetmap.org/{z}/{x}/{y}.png',
     'subdomains':       ['', 'a.', 'b.', 'c.'],
@@ -297,15 +162,57 @@ const baselayer_street_basemapat = {
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
     'name':             'basemap.at'
-}
+};
 
+// OVERLAY SATELLITE
+const overlay_sat_esri = {
+    'url':              'https://{s}.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    'subdomains':       ['server', 'services'],
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    19,     // checked
+    'name':             'ESRI..'
+};
+
+const overlay_sat_bayern = {
+    'url':              'https://geoservices.bayern.de/wms/v2/ogc_dop80_oa.cgi?',
+    'wms':              true,
+    'layers':           'by_dop80c',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    18,     // checked
+    'name':             'Bayern'
+};
+
+const overlay_sat_google = {
+    'url':              'https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+    'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    21,     // checked
+    'name':             'Google..'
+};
+
+const overlay_sat_googlehybrid = {
+    'url':              'https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',
+    'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    21,     // checked
+    'name':             'Google Hybrid'
+};
+
+// OVERLAYS HILLSHADE
+const overlay_hillshade_esri = {
+    'url':              'https://{s}.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
+    'subdomains':       ['server', 'services'],
+    //'minZoom':          3,      // checked
+    //'maxNativeZoom':    16,     // checked
+    'name':             'ESRI...'
+};
 
 
 // OVERLAYS SLOPES
 const overlay_openslopemap_low = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_LR_All_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'minZoom':          8,      // checked
+    'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
     'name':             'Low Resolution 10m/20m',
@@ -315,7 +222,7 @@ const overlay_openslopemap_low = {
 const overlay_openslopemap_med = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_MR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'minZoom':          8,      // checked
+    'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
     'name':             'Medium Resolution 5m interpol. ⭐'
@@ -324,7 +231,7 @@ const overlay_openslopemap_med = {
 const overlay_openslopemap_high = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_HR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'minZoom':          8,      // checked
+    'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
     'name':             'High Resolution 5m'
@@ -333,7 +240,7 @@ const overlay_openslopemap_high = {
 const overlay_openslopemap_ultrahigh = {
     'url':              'https://tileserver{s}.openslopemap.org/OSloOVERLAY_UHR_AlpsEast_16/{z}/{x}/{y}.png',
     'subdomains':       ['1', '2', '3', '4'],
-    'minZoom':          8,      // checked
+    'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
     'name':             'UltraHigh Resolution 2,5m interpol.'
@@ -430,40 +337,86 @@ const overlay_weather_snowdiff = {
 };
 */
 
-// OVERLAYS OTHER
-const overlay_opensnowmap = {
+// OVERLAYS WINTERSPORTS
+const overlay_wintersports_opensnowmap = {
     'url':              'https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png',
-    'minZoom':          9,      // checked
+    'minNativeZoom':    9,      // checked
     'maxNativeZoom':    18,     // checked
     'name':             'OpenSnowMap',
     'attribution':      '&copy; <a href="https://www.opensnowmap.org" target="_blank">OpenSnowMap</a>'
 };
 
-const overlay_skirouten_av_sac = {
+const overlay_wintersports_skirouten_av_sac = {
     'url':              'https://w{s}.oastatic.com/map/v1/png/oac_winter_alpine_overlay/{z}/{x}/{y}/t.png',
     'subdomains':       ['0', '1', '2', '3'],
-    'minZoom':          11,     // checked
+    'minNativeZoom':    11,     // checked
     'maxNativeZoom':    17,     // checked
     'name':             'Skirouten AV/SAC',
 };
 
-const overlay_openseamap = {
+// OVERLAYS SCHUTZGEBIETE
+const overlay_schutzgebiete_rotwand = {
+    'featuregroup':     true,
+    'opacity':          0.5,
+    'name':             'Rotwandgebiet',
+    'attribution':      'XXX'   // xxx
+};
+
+// OVERLAYS ÖPNV
+const overlay_oepnv_oepnvkarte = {
+    'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    17,     // checked
+    'name':             'ÖPNV-Karte',
+    'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
+};
+
+const overlay_oepnv_chronotrains = {
+    'featuregroup':     true,
+    'opacity':          0.8,
+    'name':             'ChronoTrains',
+    'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
+};
+
+// OVERLAYS CYCLING
+const overlay_cycling_cyclosm = {
+    'url':              'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png',
+    'subdomains':       ['a', 'b', 'c'],
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    20,     // checked
+    'name':             'CyclOSM',
+    'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
+};
+
+const overlay_cycling_cyclosmlite = {
+    'url':              'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png',
+    'subdomains':       ['a', 'b', 'c'],
+    'minNativeZoom':    11,     // checked
+    'maxNativeZoom':    20,     // checked
+    'name':             'CyclOSM Lite',
+    'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
+};
+
+// OVERLAYS SEAMAPS
+const overlay_seamaps_openseamap = {
     'url':              'https://{s}.openseamap.org/seamark/{z}/{x}/{y}.png',
     'subdomains':       ['tiles', 't1'],
-    'minZoom':          9,      // checked
+    'minNativeZoom':    9,      // checked
     'maxNativeZoom':    18,     // checked
     'name':             'OpenSeaMap',
     'attribution':      '&copy; <a href="https://www.openseamap.org" target="_blank">OpenSeaMap</a>'
 };
 
-const overlay_chronotrains = {
-    'featuregroup':     true,
-    'opacity':          0.8,
-    'name':             'ChronoTrains',
-    'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
-}
+const overlay_seamaps_kartverketno = {
+    'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjokartraster&zoom={z}&x={x}&y={y}',
+    // also available as wms
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    20,     // checked
+    'name':             'Kartverket.no Seamap'
+};
 
-/*
+
+/* FURTHER POTENTIAL SOURCES
 basemap.de
 
 "Microsoft Maps"                        'http://r0.ortho.tiles.virtualearth.net/tiles/r{q}.png?g=45'
@@ -475,7 +428,6 @@ basemap.de
 "Hike Bike Map (Hills Underlay)"        'http://tiles.wmflabs.org/hillshading/{0}/{1}/{2}.png'
 "OpenPisteMap"                          'http://openpistemap.org/tiles/contours/{0}/{1}/{2}.png'
 "Relief"                                'http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg'
-"CyclOSM"                               'https://c.tile-cyclosm.openstreetmap.fr/cyclosm/{0}/{1}/{2}.png'
 "Yandex RU"                             'https://core-renderer-tiles.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}'
 
 "Top Yandex RU"                         'https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&amp;x={1}&amp;y={2}&amp;z={0}'
@@ -496,6 +448,11 @@ basemap.de
 "Eniro Nautical (NO,SE)"                'http://map01.eniro.com/geowebcache/service/tms1.0.0/nautical/{0}/{1}/{2}.png'
 
 "Geofabrik.routing_eu"                  'https://tools.geofabrik.de/osmi/tiles/routing/{0}/{1}/{2}.png'
+
+const baselayer_topo_realitymaps = {
+    'url':              'https://tms2.realitymaps.de/summer2d/{z}/{x}/{y}.jpeg',    // needs an y-offset of +5253 to work
+    'name':             'Realitymaps'
+};
 */
 
 
@@ -511,27 +468,4 @@ const heatmap_strava_activities = {
 };
 const heatmap_strava_url_base =   'https://strava-heatmap.tiles.freemap.sk/';
 const heatmap_strava_url_end =    '/{z}/{x}/{y}.png'
-*/
-
-/*
-lawine.report
-    Filename-Times seem to be in UTC (Lokalzeit ist UTC+1 im Winter sowie UTC+2 im Sommer)
-    - temp:
-        - stündlich
-            um 15:50
-            https://static.avalanche.report/zamg_meteo/overlays/temp/2024-01-15_14-00_temp_V2.gif   hat Messwerte, wird als 15 Uhr in Stundenauswahl/Legende angezeigt, erstellt um 15:41 (Lokalzeit?)
-            https://static.avalanche.report/zamg_meteo/overlays/temp/2024-01-15_15-00_temp_V2.gif   hat keine Messwerte, wird als 16 Uhr in Stundenauswahl/Legende angezeigt, erstellt um 8:27 (Lokalzeit?) 
-        - Vorhersage: 3 Tage
-    - wind
-        - wie temp
-        - zusätzlich PNG mit wind direction (normal map o.ä.)
-    - snow height
-        - stündlich
-        - bis aktuelle Zeit - 2h
-        - Bsp: 2024-01-15_12-00_snow-height_V2.gif (Dateiname in UTC!) wurde am 15.1.2024 13:38:20 erstellt (Lokalzeit!))
-    - snow new
-    - snow line
-    - snow diff
-
-
 */

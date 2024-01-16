@@ -6,61 +6,48 @@ function group_map_control() {
         step:       '0.01'
     };
 
-    let group_headers = {
-        /* text of label:               header-label which is placed above that overlay-label, 
-                                        first_item indicates if a separator-div needs to be inserted or not (true does not need one),
-                                        opacity_slider needed or not */
-        'Swisstopo':                {   'header':           'Topo',
-                                        'first_item':       true,
-                                        'opacity_slider':   false
+    let group_headers_baselayers = {
+        'Swisstopo':        {   'header':       'Topo',
+                                'first_item':   true
+                            },
+        'ESRI..':           {   'header':       'Satellit',
+                                'first_item':   false
+                            },
+        'OpenStreetMap':    {   'header':       'Straße',
+                                'first_item':   false
+                            }
+    };
+
+    let group_headers_overlays = {
+        // text of overlay-label:   header-label which is placed above that overlay-label, first_item indicates if a separator-div needs to be inserted or not (true does not need one)
+        'Low Resolution 10m/20m':   {   'header':       'Hangneigung',
+                                        'first_item':   true
                                     },
-        'OpenStreetMap':            {   'header':           'Straße',
-                                        'first_item':       false,
-                                        'opacity_slider':   false
+        'Wind':                     {   'header':       'Wetter',
+                                        'first_item':   true
                                     },
-        'ESRI..':                   {   'header':           'Satellit',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
+        'OpenSnowMap':              {   'header':       'Wintersport',
+                                        'first_item':   true
                                     },
-        'ESRI...':                  {   'header':           'Schummerung',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
+        'Rotwandgebiet':            {   'header':       'Schutzgebiete',
+                                        'first_item':   true
                                     },
-        'Low Resolution 10m/20m':   {   'header':           'Hangneigung',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
+        'ÖPNV-Karte':               {   'header':       'ÖPNV',
+                                        'first_item':   true
                                     },
-        'Wind':                     {   'header':           'Wetter',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'OpenSnowMap':              {   'header':           'Wintersport',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'Rotwandgebiet':            {   'header':           'Schutzgebiete',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'ÖPNV-Karte':               {   'header':           'ÖPNV',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'CyclOSM':                  {   'header':           'Fahrrad',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'OpenSeaMap':               {   'header':           'Seekarte',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
+        'OpenSeaMap':               {   'header':       'Seekarte',
+                                        'first_item':   true
                                     }
     };
 
-    let labels = document.querySelectorAll('.leaflet-control-layers-base label, .leaflet-control-layers-overlays label');
-    add_headers(labels, group_headers);
+    let labels_baselayers = document.querySelectorAll('.leaflet-control-layers-base label');
+    let labels_overlays =   document.querySelectorAll('.leaflet-control-layers-overlays label');    // also iterates over chronotrains-control
+
+    add_headers(labels_baselayers, group_headers_baselayers, false);
+    add_headers(labels_overlays, group_headers_overlays, true);
 
     // Iterate through the labels to find and insert headers from the group-headers-list as well as separator-divs
-    function add_headers(labels, group_headers) {
+    function add_headers(labels, group_headers, add_opacity_sliders) {
         labels.forEach(label => {
             let label_text = label.textContent.trim();
             if (label_text in group_headers) {
@@ -74,27 +61,23 @@ function group_map_control() {
                 }
 
                 // insert header-div
-                let header_div =        document.createElement('div');
-                header_div.className =  "leaflet-control-layers-custom-header"
+                let header_div =    document.createElement('div');
+                header_div.className = "leaflet-control-layers-custom-header"
 
-                let header_label =      document.createElement('label');
-                let header_text =       group_headers[label_text].header
+                let header_label =  document.createElement('label');
+                let header_text =        group_headers[label_text].header
                 header_label.textContent = header_text;
 
                 header_div.appendChild(header_label);
 
-                if ( group_headers[label_text].opacity_slider ) {
+                if (add_opacity_sliders) {
                     let header_input = Object.assign(document.createElement('input'), header_input_attributes);
                     header_input.setAttribute('id', header_text);
-
-                    header_input.addEventListener('input', function () {
-                        updateOverlayOpacity(this.id, this.value);
-                    });
-
-                    header_input.value = 0.7;
+                    header_input.setAttribute('onchange', 'updateOverlayOpacity(this.id, this.value)');
+                    header_input.value = 0.7
                     header_div.appendChild(header_input);
                 }
-                label.parentNode.insertBefore(header_div, label);
+                label.parentNode.insertBefore(header_div, label)
             }
         });
 
@@ -111,15 +94,6 @@ function group_map_control() {
 // pretify this function, add opacity to Schutzgebiete. Add blur/saturation (for slopes)
 function updateOverlayOpacity(overlay_type, opacity_value) {
     switch(overlay_type) {
-        case 'Satellit':
-            satellite_maps[overlay_sat_esri.name].setOpacity(opacity_value);
-            satellite_maps[overlay_sat_bayern.name].setOpacity(opacity_value);
-            satellite_maps[overlay_sat_google.name].setOpacity(opacity_value);
-            satellite_maps[overlay_sat_googlehybrid.name].setOpacity(opacity_value);
-            break;
-        case 'Schummerung':
-            hillshade_maps[overlay_hillshade_esri.name].setOpacity(opacity_value);
-            break;
         case 'Hangneigung':
             slopeangle_maps[overlay_openslopemap_low.name].setOpacity(opacity_value);
             slopeangle_maps[overlay_openslopemap_med.name].setOpacity(opacity_value);
@@ -145,15 +119,11 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             });
             break;
         case 'ÖPNV':
-            oepnv_maps[overlay_oepnv_oepnvkarte.name].setOpacity(opacity_value);
+            oepnv_maps[overlay_oepnv_oepnvkarte.name].setOpacity(opacity_value)
             oepnv_maps[overlay_oepnv_chronotrains.name].setStyle({
                 opacity:        opacity_value,
                 fillOpacity:    opacity_value
-                });
-            break;
-        case 'Fahrrad':
-            cycling_maps[overlay_cycling_cyclosm.name].setOpacity(opacity_value);
-            cycling_maps[overlay_cycling_cyclosmlite.name].setOpacity(opacity_value);
+                })
             break;
         case 'Seekarte':
             seamaps_maps[overlay_seamaps_openseamap.name].setOpacity(opacity_value);
@@ -169,14 +139,11 @@ function addLayerControlClass(layer_control, class_name) {
     container.className += ` ${class_name}`;
 }
 
-addLayerControlClass(layer_control_satellite,       'layer-control-satellite');
-addLayerControlClass(layer_control_hillshade,       'layer-control-hillshade');
 addLayerControlClass(layer_control_slopeangle,      'layer-control-slopeangle');
 addLayerControlClass(layer_control_weather,         'layer-control-weather');
 addLayerControlClass(layer_control_wintersports,    'layer-control-wintersports');
 addLayerControlClass(layer_control_schutzgebiete,   'layer-control-schutzgebiete');
 addLayerControlClass(layer_control_oepnv,           'layer-control-oepnv');
-addLayerControlClass(layer_control_cycling,         'layer-control-cycling');
 addLayerControlClass(layer_control_seamaps,         'layer-control-seamaps');
 
 

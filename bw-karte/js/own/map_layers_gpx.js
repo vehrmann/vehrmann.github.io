@@ -16,8 +16,6 @@ new L.GPX(gpx_path,
         }
     }
     ).on('loaded', function(e) {
-    var gpx = e.target;
-    //map.fitBounds(gpx.getBounds());
-    layer_control.addOverlay(gpx, 'Rotwandgebiet');
-    group_map_control();                                // only group layer-entries after GPX-files are loaded
-}).addTo(map);
+    let gpx = e.target;
+    schutzgebiete_maps[overlay_schutzgebiete_rotwand.name].addLayer(gpx);
+});

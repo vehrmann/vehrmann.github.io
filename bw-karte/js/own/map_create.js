@@ -21,6 +21,7 @@ let base_maps_list = [                                  // list with all map ser
     // Topographisch
     baselayer_topo_swisstopo,
     baselayer_topo_opentopomap,
+    baselayer_topo_alpenkarteeu,
     baselayer_topo_stamen,
     baselayer_topo_bergfex,
     baselayer_topo_various,
@@ -31,50 +32,68 @@ let base_maps_list = [                                  // list with all map ser
 //    baselayer_topo_mapycz3,
     baselayer_topo_mtbmapcz,
     baselayer_topo_kartverketnoraster,
-    baselayer_topo_kartverketnoseamap,
     baselayer_topo_kartverketnovector,
     baselayer_topo_google,
     baselayer_topo_esri,
-
-    // Satellit
-    baselayer_sat_esri,
-    baselayer_sat_bayern,
-    baselayer_sat_google,
-    baselayer_sat_googlehybrid,
 
     // Straße
     baselayer_street_osm,
     baselayer_street_bkg,
     baselayer_street_google,
-    baselayer_street_oepnv,
-    baselayer_street_basemapat,
+    baselayer_street_basemapat
 ];
 
-let overlay_maps_list = [                               // list with all map service variables which should be added to the overlay map menu
-    // Wintersport
-    overlay_opensnowmap,
-    overlay_skirouten_av_sac,
+let satellite_maps_list = [
+    overlay_sat_esri,
+    overlay_sat_bayern,
+    overlay_sat_google,
+    overlay_sat_googlehybrid
+];
 
-    // Hangneigung
+let hillshade_maps_list = [
+    overlay_hillshade_esri
+];
+
+let wintersports_maps_list = [
+    overlay_wintersports_opensnowmap,
+    overlay_wintersports_skirouten_av_sac,
+];
+
+let slopeangle_maps_list = [
     overlay_openslopemap_low,
     overlay_openslopemap_med,
     overlay_openslopemap_high,
-    overlay_openslopemap_ultrahigh,
+    overlay_openslopemap_ultrahigh
+];
 
-    // Wetter
+let weather_maps_list = [
     //overlay_weather_temperature,
     overlay_weather_wind,
     overlay_weather_snowheight,
     //overlay_weather_snownew,
     //overlay_weather_snowline,
     //overlay_weather_snowdiff,
-
-    // ChronoTrains
-    overlay_chronotrains,
-
-    // Seekarte
-    overlay_openseamap
 ];
+
+let schutzgebiete_maps_list = [
+    overlay_schutzgebiete_rotwand    
+];
+
+let oepnv_maps_list = [
+    overlay_oepnv_oepnvkarte,
+    overlay_oepnv_chronotrains
+];
+
+let cycling_maps_list = [
+    overlay_cycling_cyclosm,
+    overlay_cycling_cyclosmlite
+];
+
+let seamaps_maps_list = [
+    overlay_seamaps_openseamap,
+    overlay_seamaps_kartverketno
+];
+
 
 let map = L.map('map', {   
         center:             general_map_settings.center,
@@ -89,11 +108,31 @@ let map = L.map('map', {
         //touchRotate:      true,
         //renderer:           labels_renderer,
     });
-let base_maps =     create_tile_layers(base_maps_list);     // {L.tileLayer_1, L.tileLayer_2, ...}
-let overlay_maps =  create_tile_layers(overlay_maps_list);
-map.addLayer(base_maps[general_map_settings.default_map.name])  // default map can only be added after it was created
 
-let layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
+let base_maps =             create_tile_layers(base_maps_list);                     // {L.tileLayer_1, L.tileLayer_2, ...}
+let satellite_maps =        create_tile_layers(satellite_maps_list);
+let hillshade_maps =        create_tile_layers(hillshade_maps_list);
+let slopeangle_maps =       create_tile_layers(slopeangle_maps_list);
+let weather_maps =          create_tile_layers(weather_maps_list);
+let wintersports_maps =     create_tile_layers(wintersports_maps_list);
+let schutzgebiete_maps =    create_tile_layers(schutzgebiete_maps_list);
+let oepnv_maps =            create_tile_layers(oepnv_maps_list);
+let cycling_maps =          create_tile_layers(cycling_maps_list);
+let seamaps_maps =          create_tile_layers(seamaps_maps_list);
+
+map.addLayer(base_maps[general_map_settings.default_map.name])                      // default map can only be added after it was created
+let layer_control_basic =           L.control.layers(base_maps, null,           {autoZIndex: false}).addTo(map);
+let layer_control_satellite =       L.control.layers(null, satellite_maps,      {autoZIndex: false}).addTo(map);
+let layer_control_hillshade =       L.control.layers(null, hillshade_maps,      {autoZIndex: false}).addTo(map);
+let layer_control_slopeangle =      L.control.layers(null, slopeangle_maps,     {autoZIndex: false}).addTo(map);
+let layer_control_weather =         L.control.layers(null, weather_maps,        {autoZIndex: false}).addTo(map);
+let layer_control_wintersports =    L.control.layers(null, wintersports_maps,   {autoZIndex: false}).addTo(map);
+let layer_control_schutzgebiete =   L.control.layers(null, schutzgebiete_maps,  {autoZIndex: false}).addTo(map);
+let layer_control_oepnv =           L.control.layers(null, oepnv_maps,          {autoZIndex: false}).addTo(map);
+let layer_control_cycling =         L.control.layers(null, cycling_maps,        {autoZIndex: false}).addTo(map);
+let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        {autoZIndex: false}).addTo(map);
+
+
 let map_scale =     L.control.scale({imperial: false}).addTo(map);
 let fullscreen_control = new L.control.fullscreen({
     position:               fullscreen_button_position,
@@ -114,13 +153,13 @@ let locate_options = {
     drawMarker:             true,
     //circleStyle
     //markerStyle
-    strings:                {
-                                title: "Meine Position anzeigen",
+    strings:                {   title: "Meine Position anzeigen",
                                 //text, metersUnit, feetUnit, popup, outsideMapBoundsMsg
                             },
-    
   }
 L.control.locate(locate_options).addTo(map);
+
+
 
 
 function create_single_tile_layer(layer_object) {
@@ -135,7 +174,7 @@ function create_single_tile_layer(layer_object) {
                         }
         tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, layer_options)
 
-    // FeatureGroup (chronotrains)
+    // FeatureGroup (Chronotrains, Schutzgebiete)
     } else if (layer_object.featuregroup) {
         layer_options = {   attribution:    layer_object.attribution
                         }
@@ -144,7 +183,7 @@ function create_single_tile_layer(layer_object) {
     // WMS
     } else if (layer_object.wms) {
         layer_options = {   layers:         layer_object.layers,
-                            minZoom:        layer_object.minZoom,
+                            minNativeZoom:  layer_object.minNativeZoom,
                             maxNativeZoom:  layer_object.maxNativeZoom,
                             maxZoom:        layer_object.maxZoom,
                             opacity:        layer_object.opacity,
@@ -155,7 +194,7 @@ function create_single_tile_layer(layer_object) {
     // WMTS
     } else {
         layer_options = {   ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
-                            minZoom:        layer_object.minZoom,
+                            minNativeZoom:  layer_object.minNativeZoom,
                             maxNativeZoom:  layer_object.maxNativeZoom,
                             maxZoom:        layer_object.maxZoom,
                             opacity:        layer_object.opacity,

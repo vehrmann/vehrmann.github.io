@@ -28,9 +28,10 @@ function processAndAddPolygons(data, color, identifier) {
         polygon.map(ring => ring.map(coord => [coord[1], coord[0]]))
     );
 
+    // add flipped_polygons to poly-object along with some option data
     polys[identifier] = {   polygon:    L.polygon(flipped_polygons),
                             color:      color,
-                            opacity:    overlay_chronotrains.opacity
+                            opacity:    overlay_oepnv_chronotrains.opacity
                         };
 }
 
@@ -65,7 +66,7 @@ fetch(json_file)
             let current_polygon_subtracted = subtractPolygons(current_polygon, key);
 
             current_polygon_subtracted.bindPopup(`${key}h ab ${station}`)
-            overlay_maps[overlay_chronotrains.name].addLayer(current_polygon_subtracted);
+            oepnv_maps[overlay_oepnv_chronotrains.name].addLayer(current_polygon_subtracted);
         }
     })
     .catch(error => console.error('Error fetching the JSON data:', error));
