@@ -51,7 +51,7 @@ body {
 .layer-control-satellite a {
     background-image: url(../icons/satellite_8414448.png) !important;
     background-size: 38px 38px !important;
-    transform: rotate(180deg) translate(-1px, 1px);
+    transform: translate(1px, -1px);
 }
 
 .layer-control-hillshade a {
@@ -69,14 +69,14 @@ body {
     background-size: 30px 30px !important;
 }
 
-.layer-control-wintersports a {
-	background-image: url(../icons/wintersports_310391.png) !important;
-    background-size: 30px 30px !important;
-}
-
 .layer-control-schutzgebiete a {
 	/* background-image: url(../icons/schutzgebiete_7653227.svg) !important; */
     background-image: url(../icons/schutzgebiete_1922230.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-wintersports a {
+	background-image: url(../icons/wintersports_310391.png) !important;
     background-size: 30px 30px !important;
 }
 
@@ -87,6 +87,11 @@ body {
 
 .layer-control-cycling a {
 	background-image: url(../icons/cycling_3198344.png) !important;
+    background-size: 34px 34px !important;
+}
+
+.layer-control-car a {
+	background-image: url(../icons/car_846338.png) !important;
     background-size: 34px 34px !important;
 }
 

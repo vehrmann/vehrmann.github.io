@@ -7,53 +7,57 @@ function group_map_control() {
     };
 
     let group_headers = {
-        /* text of label:               header-label which is placed above that overlay-label, 
-                                        first_item indicates if a separator-div needs to be inserted or not (true does not need one),
-                                        opacity_slider needed or not */
-        'Swisstopo':                {   'header':           'Topo',
-                                        'first_item':       true,
-                                        'opacity_slider':   false
-                                    },
-        'OpenStreetMap':            {   'header':           'Straße',
-                                        'first_item':       false,
-                                        'opacity_slider':   false
-                                    },
-        'ESRI..':                   {   'header':           'Satellit',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'ESRI...':                  {   'header':           'Schummerung',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'Low Resolution 10m/20m':   {   'header':           'Hangneigung',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'Wind':                     {   'header':           'Wetter',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'OpenSnowMap':              {   'header':           'Wintersport',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'Rotwandgebiet':            {   'header':           'Schutzgebiete',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'ÖPNV-Karte':               {   'header':           'ÖPNV',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'CyclOSM':                  {   'header':           'Fahrrad',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    },
-        'OpenSeaMap':               {   'header':           'Seekarte',
-                                        'first_item':       true,
-                                        'opacity_slider':   true
-                                    }
+        /* text of label:                       header-label which is placed above that overlay-label, 
+                                                first_item indicates if a separator-div needs to be inserted or not (true does not need one),
+                                                opacity_slider needed or not */
+        'Swisstopo':                        {   'header':           'Topo',
+                                                'first_item':       true,
+                                                'opacity_slider':   false
+                                            },
+        'OpenStreetMap':                    {   'header':           'Straße',
+                                                'first_item':       false,
+                                                'opacity_slider':   false
+                                            },
+        'ESRI..':                           {   'header':           'Satellit',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'ESRI...':                          {   'header':           'Schummerung',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'Low Resolution 10m/20m':           {   'header':           'Hangneigung',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'Wind':                             {   'header':           'Wetter',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'Rotwandgebiet':                    {   'header':           'Schutzgebiete',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'OpenSnowMap':                      {   'header':           'Wintersport',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'ÖPNV-Karte':                       {   'header':           'ÖPNV',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'CyclOSM':                          {   'header':           'Fahrrad',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'Mautstraßen (ohne Autobahnen)':    {   'header':           'Auto',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
+        'OpenSeaMap':                       {   'header':           'Seekarte',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            }
     };
 
     let labels = document.querySelectorAll('.leaflet-control-layers-base label, .leaflet-control-layers-overlays label');
@@ -134,15 +138,15 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             //weather_maps[overlay_weather_snowline.name].setOpacity(opacity_value);
             //weather_maps[overlay_weather_snowdiff.name].setOpacity(opacity_value);
             break;
-        case 'Wintersport':
-            wintersports_maps[overlay_wintersports_opensnowmap.name].setOpacity(opacity_value);
-            wintersports_maps[overlay_wintersports_skirouten_av_sac.name].setOpacity(opacity_value);
-            break;
         case 'Schutzgebiete':
             schutzgebiete_maps[overlay_schutzgebiete_rotwand.name].setStyle({
                 opacity:        opacity_value,
                 fillOpacity:    opacity_value
             });
+            break;
+        case 'Wintersport':
+            wintersports_maps[overlay_wintersports_opensnowmap.name].setOpacity(opacity_value);
+            wintersports_maps[overlay_wintersports_skirouten_av_sac.name].setOpacity(opacity_value);
             break;
         case 'ÖPNV':
             oepnv_maps[overlay_oepnv_oepnvkarte.name].setOpacity(opacity_value);
@@ -154,6 +158,12 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
         case 'Fahrrad':
             cycling_maps[overlay_cycling_cyclosm.name].setOpacity(opacity_value);
             cycling_maps[overlay_cycling_cyclosmlite.name].setOpacity(opacity_value);
+            break;
+        case 'Auto':
+            car_maps[overlay_car_highways_toll_without_motorway.name].setStyle({
+                opacity:        opacity_value,
+                //fillOpacity:    opacity_value
+            });
             break;
         case 'Seekarte':
             seamaps_maps[overlay_seamaps_openseamap.name].setOpacity(opacity_value);
@@ -173,10 +183,11 @@ addLayerControlClass(layer_control_satellite,       'layer-control-satellite');
 addLayerControlClass(layer_control_hillshade,       'layer-control-hillshade');
 addLayerControlClass(layer_control_slopeangle,      'layer-control-slopeangle');
 addLayerControlClass(layer_control_weather,         'layer-control-weather');
-addLayerControlClass(layer_control_wintersports,    'layer-control-wintersports');
 addLayerControlClass(layer_control_schutzgebiete,   'layer-control-schutzgebiete');
+addLayerControlClass(layer_control_wintersports,    'layer-control-wintersports');
 addLayerControlClass(layer_control_oepnv,           'layer-control-oepnv');
 addLayerControlClass(layer_control_cycling,         'layer-control-cycling');
+addLayerControlClass(layer_control_car,             'layer-control-car');
 addLayerControlClass(layer_control_seamaps,         'layer-control-seamaps');
 
 

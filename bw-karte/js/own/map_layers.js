@@ -404,6 +404,16 @@ const overlay_cycling_cyclosmlite = {
     'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
 };
 
+// OVERLAYS CAR
+const overlay_car_highways_toll_without_motorway = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
+    'featuregroup':     true,
+    'opacity':          0.5,
+    'name':             'Mautstraßen (ohne Autobahnen)',
+    'attribution':      'XXX'   // xxx
+};
+
 // OVERLAYS SEAMAPS
 const overlay_seamaps_openseamap = {
     'url':              'https://{s}.openseamap.org/seamark/{z}/{x}/{y}.png',

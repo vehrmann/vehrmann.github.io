@@ -16,7 +16,11 @@
     <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
     <!-- <script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script> -->
 
-    <!-- LEAFLET ZOOMINFO (shows current zoom level) / https://github.com/flaviocarmo/Leaflet.zoominfo -->
+    <!--    LEAFLET CascadeButtons (adds button menu cascading) / https://github.com/clavijojuan/L.cascadeButtons/tree/master
+    <link rel="stylesheet" href="./js/imports/L.cascadeButtons.css">
+    <script src="./js/imports/L.cascadeButtons.js"></script> -->
+
+    <!-- LEAFLET Zoominfo (shows current zoom level) / https://github.com/flaviocarmo/Leaflet.zoominfo -->
     <link rel="stylesheet" href="./js/imports/L.Control.Zoominfo.css">
     <script src="./js/imports/L.Control.Zoominfo.js"></script>
 
@@ -24,11 +28,7 @@
     <link rel="stylesheet" href="./js/imports/Control.FullScreen.css">
     <script src="./js/imports/Control.FullScreen.js"></script>
 
-    <!--    LEAFLET CascadeButtons (adds button menu cascading) / https://github.com/clavijojuan/L.cascadeButtons/tree/master
-    <link rel="stylesheet" href="./js/imports/L.cascadeButtons.css">
-    <script src="./js/imports/L.cascadeButtons.js"></script> -->
-
-    <!-- LEAFLET locatecontrol (to geolocate the user) / https://github.com/domoritz/leaflet-locatecontrol -->
+    <!-- LEAFLET Locate (to geolocate the user) / https://github.com/domoritz/leaflet-locatecontrol -->
     <link rel="stylesheet" href="./js/imports/L.Control.Locate.min.css" />
     <script src="./js/imports/L.Control.Locate.min.js" charset="utf-8"></script>
 
@@ -36,14 +36,14 @@
     <link rel="stylesheet" href="./node_modules/leaflet-geosearch/dist/geosearch.css" />
     <script src="./node_modules/leaflet-geosearch/dist/geosearch.umd.js"></script>
 
-    <!-- LEAFLET MEASURE (distance and area measurement) / https://github.com/ptma/Leaflet.Measure -->
+    <!-- LEAFLET Measure (distance and area measurement) / https://github.com/ptma/Leaflet.Measure -->
     <link rel="stylesheet" href="./js/imports/leaflet.measure.css">
     <script src="./js/imports/leaflet.measure.js"></script>
 
     <!-- Turf (geospatial engine) / https://github.com/Turfjs/turf -->
     <script src="./node_modules/@turf/turf/turf.min.js"></script>
 
-    <!-- LEAFLET GPX (analysis and parsing of a GPX files) / https://github.com/mpetazzoni/leaflet-gpx -->
+    <!-- LEAFLET GPX (analysis and parsing of GPX files) / https://github.com/mpetazzoni/leaflet-gpx -->
     <script src="./js/imports/gpx.js"></script>
 
     <!-- LEAFLET GEOMAN (map tools) / https://github.com/geoman-io/leaflet-geoman 
@@ -57,11 +57,10 @@
 
     <!-- OWN SCRIPTS -->
     <!-- <script src=".js/own/dev_playground.js"></script> -->
-    <script src="./js/own/map_layers_weather.js"></script>
+    <script src="./js/own/map_layers_weather.js"></script>              <!-- weather data needs to be declared before respective layers are created -->
     <script src="./js/own/map_layers.js"></script>
-    <!-- <script src="./js/own/dev_map_vector.js"></script> Layers in vector format (in development, esp. styling is tricky)-->
+    <!-- <script src="./js/own/dev_map_vector.js"></script> -->         <!-- Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
-
     <script src="./js/own/map_control_group.js"></script>
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
     <script src="./js/own/map_layers_gpx.js"></script>
@@ -81,17 +80,13 @@
     -->
 
     <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
-
-
     <!-- <script src="./js/own/map_geoman.js"></script> -->
-
     <!-- <script src="./js/own/dev_map_bergwacht.js"></script> -->
     <!-- <script src="./js/own/dev_map_schutzgebiete.js"></script> -->
 </html>
 
 
 <!-- https://github.com/dayjournal/Leaflet.Control.Opacity -->
-<!-- https://github.com/digidem/leaflet-side-by-side -->
 <!-- https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup + https://github.com/Leaflet/Leaflet.markercluster -->
 <!-- https://github.com/zimmicz/Leaflet-Coordinates-Control -->
 
@@ -132,6 +127,11 @@ IMPROVEMENTS:
     - add slide-in menu (like e.g. wanderreitkarte)
     - gpx import
     - add legends where necessary
+
+DATA:
+    - seperate toll highways into tunnels, pedestrians, streets
+    - distill gpx data, maybe use python
+    - save overpass queries as source code
 EXTEND:
     BASELAYERS:
         - baselayer_topo_mapycz2 & baselayer_topo_mapycz3

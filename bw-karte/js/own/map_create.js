@@ -85,6 +85,10 @@ let cycling_maps_list = [
     overlay_cycling_cyclosmlite
 ];
 
+let car_maps_list = [
+    overlay_car_highways_toll_without_motorway
+];
+
 let seamaps_maps_list = [
     overlay_seamaps_openseamap,
     overlay_seamaps_kartverketno
@@ -114,6 +118,7 @@ let wintersports_maps =     create_tile_layers(wintersports_maps_list);
 let schutzgebiete_maps =    create_tile_layers(schutzgebiete_maps_list);
 let oepnv_maps =            create_tile_layers(oepnv_maps_list);
 let cycling_maps =          create_tile_layers(cycling_maps_list);
+let car_maps =              create_tile_layers(car_maps_list);
 let seamaps_maps =          create_tile_layers(seamaps_maps_list);
 
 map.addLayer(base_maps[general_map_settings.default_map.name])                      // default map can only be added after it was created
@@ -122,10 +127,11 @@ let layer_control_satellite =       L.control.layers(null, satellite_maps,      
 let layer_control_hillshade =       L.control.layers(null, hillshade_maps,      {autoZIndex: false}).addTo(map);
 let layer_control_slopeangle =      L.control.layers(null, slopeangle_maps,     {autoZIndex: false}).addTo(map);
 let layer_control_weather =         L.control.layers(null, weather_maps,        {autoZIndex: false}).addTo(map);
-let layer_control_wintersports =    L.control.layers(null, wintersports_maps,   {autoZIndex: false}).addTo(map);
 let layer_control_schutzgebiete =   L.control.layers(null, schutzgebiete_maps,  {autoZIndex: false}).addTo(map);
+let layer_control_wintersports =    L.control.layers(null, wintersports_maps,   {autoZIndex: false}).addTo(map);
 let layer_control_oepnv =           L.control.layers(null, oepnv_maps,          {autoZIndex: false}).addTo(map);
 let layer_control_cycling =         L.control.layers(null, cycling_maps,        {autoZIndex: false}).addTo(map);
+let layer_control_car =             L.control.layers(null, car_maps,            {autoZIndex: false}).addTo(map);
 let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        {autoZIndex: false}).addTo(map);
 
 
