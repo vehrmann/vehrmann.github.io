@@ -237,17 +237,6 @@ function getSearchcontrol() {
         keepResult:         true,
     };
     let search_control = new GeoSearchControl(search_control_options);
-
-
-
-
-
-
-        
-        
-
-
-
     return search_control;
 }
 
