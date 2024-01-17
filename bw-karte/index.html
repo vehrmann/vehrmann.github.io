@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="./js/imports/L.Control.Locate.min.css" />
     <script src="./js/imports/L.Control.Locate.min.js" charset="utf-8"></script>
 
+    <!-- LEAFLET Geosearch (search functionality) / https://github.com/smeijer/leaflet-geosearch -->
+    <link rel="stylesheet" href="./node_modules/leaflet-geosearch/dist/geosearch.css" />
+    <script src="./node_modules/leaflet-geosearch/dist/geosearch.umd.js"></script>
+
     <!-- LEAFLET MEASURE (distance and area measurement) / https://github.com/ptma/Leaflet.Measure -->
     <link rel="stylesheet" href="./js/imports/leaflet.measure.css">
     <script src="./js/imports/leaflet.measure.js"></script>
@@ -65,6 +69,8 @@
     </script>
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
     <script src="./js/own/dev_measure.js"></script>
+    <!-- <script src=".js/own/dev_playground.js"></script> -->
+
 
 
     <!-- Settings control in development for entering preferences such as zoom-steps, layers, default positions etc.
@@ -93,7 +99,7 @@
 BUGS:
     - check correct time of weather images
     - z-index of slopes and seamaps are too low when switching base maps
-    - set default opacity for every overlay+respective slider individually
+    - set default opacity for every overlay+respective slider individually, can be stored in layer definition
     - chronotrains load really slow, maybe only load upon toggle
     - drawn/measured elements should be always on top of all other layers
     - width of controls should be equal (chronotrains is to narrow)
@@ -118,11 +124,11 @@ IMPROVEMENTS:
     - side-by-side: make optional and make maps selectable
     - consider useful z-indices for each overlay
     - Grouping menu becomes crowded, maybe think about another layouting option
+    - individual locate button for overlays such as Schutzgebiete (add: <span style="display: inline-block; transform: rotate(-45deg); font-size: 1.6em;">   ⮞</span>)
+    - import geosearch differently
 EXTEND:
     BASELAYERS:
         - baselayer_topo_mapycz2 & baselayer_topo_mapycz3
-        - Swisstopo
-        - Basemap.at
         - BayernAtlas (different tms...)
         - Bing
         - IGN
@@ -131,7 +137,7 @@ EXTEND:
         - Strava Heatmaps
         - ATHM
         - Schutzgebiete
-        - Webcams
+        - Webcams   https://lawinenwarndienst.bayern.de/schnee-wetter-bayern/webcams/
         - Wetter / Schnee / Lawinenlage / LLB
         - ExoLabs?
         - Klettergebiete etc. (https://www.thecrag.com/de/artikel/geolocation / https://www.bergsteigen.com/touren/klettern/)
