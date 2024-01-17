@@ -220,12 +220,33 @@ function getLocateControl() {
 
 
 function getSearchcontrol() {
-    var GeoSearchControl = window.GeoSearch.GeoSearchControl;
-    var OpenStreetMapProvider = window.GeoSearch.OpenStreetMapProvider;
+    let GeoSearchControl = window.GeoSearch.GeoSearchControl;
+    let OpenStreetMapProvider = window.GeoSearch.OpenStreetMapProvider;
 
-    var search_control = new GeoSearchControl({
-        provider: new OpenStreetMapProvider()
-    });
+    let search_control_options = {
+        provider:           new OpenStreetMapProvider(),
+        autoComplete:       true,
+        autoCompleteDelay:  250,
+        style:              'button',
+        searchLabel:        'Adresse/POI eingeben',
+        notFoundMessage:    'Kann nicht gefunden werden',
+
+        retainZoomLevel:    true,
+        animateZoom:        true,
+        autoClose:          false,
+        keepResult:         true,
+    };
+    let search_control = new GeoSearchControl(search_control_options);
+
+
+
+
+
+
+        
+        
+
+
 
     return search_control;
 }

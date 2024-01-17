@@ -55,7 +55,8 @@
 
 
 
-    <!-- OWN SCRIPTS -->   
+    <!-- OWN SCRIPTS -->
+    <!-- <script src=".js/own/dev_playground.js"></script> -->
     <script src="./js/own/map_layers_weather.js"></script>
     <script src="./js/own/map_layers.js"></script>
     <!-- <script src="./js/own/dev_map_vector.js"></script> Layers in vector format (in development, esp. styling is tricky)-->
@@ -69,7 +70,6 @@
     </script>
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
     <script src="./js/own/dev_measure.js"></script>
-    <!-- <script src=".js/own/dev_playground.js"></script> -->
 
 
 
@@ -104,8 +104,11 @@ BUGS:
     - drawn/measured elements should be always on top of all other layers
     - width of controls should be equal (chronotrains is to narrow)
     - max-width of hover-legends should be 100% on mobile (width of legend is dependet on width of attribution-box)
-    - can't chose map when zoom level not right (e.g. Skirouten)
+    - can't choose map when zoom level not right (e.g. Skirouten)
+    - refine search bar behaviour (esc, closing etc.), implement live-search when typing
 IMPROVEMENTS:
+    - when searching, "BY" refines search. somehow use that e.g. translate "Bayern" to "BY" in the background
+    - add shortcut for search bar (and maybe other tools)
     - possibility to change a map between being an overlay and being a base-map
     - mark control which has active layer (e.g. outline, background-color, additional icon in corner)
     - implement latest-date/latest-available-file function for imageoverlay of weather
@@ -120,10 +123,8 @@ IMPROVEMENTS:
     - Country-Filter/Flag for some maps
     - opacity, blur etc. for overlays
     - Routing
-    - search function
     - side-by-side: make optional and make maps selectable
     - consider useful z-indices for each overlay
-    - Grouping menu becomes crowded, maybe think about another layouting option
     - individual locate button for overlays such as Schutzgebiete (add: <span style="display: inline-block; transform: rotate(-45deg); font-size: 1.6em;">   ⮞</span>)
     - import geosearch differently
 EXTEND:
