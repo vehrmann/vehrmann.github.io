@@ -1,7 +1,3 @@
-const fullscreen_button_position =      "topleft";
-const fullscreen_button_title =         "Vollbildmodus";
-const fullscreen_button_title_cancel =  "Vollbildmodus beenden";
-
 let general_map_settings = {
     'center':               [47.66, 11.86],
     'zoom':                 10,//14,
@@ -133,35 +129,6 @@ let layer_control_cycling =         L.control.layers(null, cycling_maps,        
 let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        {autoZIndex: false}).addTo(map);
 
 
-let map_scale =     L.control.scale({imperial: false}).addTo(map);
-let fullscreen_control = new L.control.fullscreen({
-    position:               fullscreen_button_position,
-    title:                  fullscreen_button_title,
-    titleCancel:            fullscreen_button_title_cancel,
-    content:                null,   // change the content of the button, can be HTML, default null
-    forceSeparateButton:    false,  // force separate button to detach from zoom buttons, default false
-    forcePseudoFullscreen:  false,  // force use of pseudo full screen even if full screen API is available, default false
-    fullscreenElement:      false   // Dom element to render in full screen, false by default, fallback to map._container
-});
-map.addControl(fullscreen_control);
-
-let locate_options = {
-    position:               "topleft",
-    flyTo:                  true,
-    keepCurrentZoomLevel:   true,
-    drawCircle:             true,
-    drawMarker:             true,
-    //circleStyle
-    //markerStyle
-    strings:                {   title: "Meine Position anzeigen",
-                                //text, metersUnit, feetUnit, popup, outsideMapBoundsMsg
-                            },
-  }
-L.control.locate(locate_options).addTo(map);
-
-
-
-
 function create_single_tile_layer(layer_object) {
     let tile_layer, layer_options;
 
@@ -206,6 +173,7 @@ function create_single_tile_layer(layer_object) {
     return tile_layer;
 }
 
+
 function create_tile_layers(tile_layer_list) {
     let tile_layers = {};
     for (let t in tile_layer_list) {
@@ -214,3 +182,65 @@ function create_tile_layers(tile_layer_list) {
     };
     return tile_layers;
 }
+
+
+function getFullscreenControl() {
+    let fullscreen_control_options = {
+        position:               "topleft",
+        title:                  "Vollbildmodus",
+        titleCancel:            "Vollbildmodus beenden",
+        content:                null,   // change the content of the button, can be HTML, default null
+        forceSeparateButton:    false,  // force separate button to detach from zoom buttons, default false
+        forcePseudoFullscreen:  false,  // force use of pseudo full screen even if full screen API is available, default false
+        fullscreenElement:      false   // Dom element to render in full screen, false by default, fallback to map._container
+    };
+    let fullscreen_control = new L.control.fullscreen({fullscreen_control_options});
+
+    return fullscreen_control;
+}
+
+
+function getLocateControl() {
+    let locate_control_options = {
+        position:               "topleft",
+        flyTo:                  true,
+        keepCurrentZoomLevel:   true,
+        drawCircle:             true,
+        drawMarker:             true,
+        //circleStyle
+        //markerStyle
+        strings:                {   title: "Meine Position anzeigen",
+                                    //text, metersUnit, feetUnit, popup, outsideMapBoundsMsg
+                                },
+    };
+    let locate_control = L.control.locate(locate_control_options);
+
+    return locate_control;
+}
+
+
+function getSearchcontrol() {
+    var GeoSearchControl = window.GeoSearch.GeoSearchControl;
+    var OpenStreetMapProvider = window.GeoSearch.OpenStreetMapProvider;
+
+    var search_control = new GeoSearchControl({
+        provider: new OpenStreetMapProvider()
+    });
+
+    return search_control;
+}
+
+
+function getMapscaleControl() {
+    let mapscale_control_options = {
+        imperial: false,
+    };
+    let mapscale_control = L.control.scale(mapscale_control_options);
+
+    return mapscale_control;
+}
+
+map.addControl(getFullscreenControl());
+map.addControl(getLocateControl());
+map.addControl(getSearchcontrol());
+map.addControl(getMapscaleControl());

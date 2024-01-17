@@ -129,6 +129,7 @@ const baselayer_topo_esri = {
     'name':             'ESRI.'
 };
 
+
 // BASELAYERS STREET
 const baselayer_street_bkg = {
     'url':              'https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/default/WEBMERCATOR/{z}/{y}/{x}.png',
@@ -164,6 +165,7 @@ const baselayer_street_basemapat = {
     'name':             'basemap.at'
 };
 
+
 // OVERLAY SATELLITE
 const overlay_sat_esri = {
     'url':              'https://{s}.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -198,12 +200,13 @@ const overlay_sat_googlehybrid = {
     'name':             'Google Hybrid'
 };
 
+
 // OVERLAYS HILLSHADE
 const overlay_hillshade_esri = {
     'url':              'https://{s}.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
     'subdomains':       ['server', 'services'],
-    //'minZoom':          3,      // checked
-    //'maxNativeZoom':    16,     // checked
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    16,     // checked
     'name':             'ESRI...'
 };
 
@@ -356,6 +359,8 @@ const overlay_wintersports_skirouten_av_sac = {
 
 // OVERLAYS SCHUTZGEBIETE
 const overlay_schutzgebiete_rotwand = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
     'featuregroup':     true,
     'opacity':          0.5,
     'name':             'Rotwandgebiet',
@@ -372,6 +377,8 @@ const overlay_oepnv_oepnvkarte = {
 };
 
 const overlay_oepnv_chronotrains = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
     'featuregroup':     true,
     'opacity':          0.8,
     'name':             'ChronoTrains',
@@ -418,36 +425,51 @@ const overlay_seamaps_kartverketno = {
 
 /* FURTHER POTENTIAL SOURCES
 basemap.de
+basemap.at
+Swisstopo
 
-"Microsoft Maps"                        'http://r0.ortho.tiles.virtualearth.net/tiles/r{q}.png?g=45'
-"Microsoft Hybrid"                      'http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45'
-"Microsoft Earth"                       'http://a0.ortho.tiles.virtualearth.net/tiles/a{q}.jpg?g=45'
+
+https://openskimap.org/#2/40/-100
+https://www.xctrails.org/map/map.html?type=xc
 
 "Public Transport"                      'http://openptmap.org/tiles/{0}/{1}/{2}.png'
 "Hike Bike Map"                         'https://tiles.wmflabs.org/hikebike/{0}/{1}/{2}.png'
 "Hike Bike Map (Hills Underlay)"        'http://tiles.wmflabs.org/hillshading/{0}/{1}/{2}.png'
-"OpenPisteMap"                          'http://openpistemap.org/tiles/contours/{0}/{1}/{2}.png'
-"Relief"                                'http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg'
-"Yandex RU"                             'https://core-renderer-tiles.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}'
+"Relief"                                'http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg' // Schulatlas-Style
 
+"Yandex RU"                             'https://core-renderer-tiles.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}'
 "Top Yandex RU"                         'https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&amp;x={1}&amp;y={2}&amp;z={0}'
 "Yandex NK"                             'https://01.pvec.maps.yandex.net/?l=wmap&amp;x={1}&amp;y={2}&amp;z={0}'
 "Top Yandex NK"                         'https://wvec.maps.yandex.net/?l=wskl&amp;x={1}&amp;y={2}&amp;z={0}'
 "Yandex Satellite RU"                   'https://sat01.maps.yandex.net/tiles?l=sat&amp;x={1}&amp;y={2}&amp;z={0}'
 "Yandex Traffic RU"                     'https://core-jams-rdr-cache.maps.yandex.net/1.1/tiles?trf&amp;l=trf,trfe&amp;x={1}&amp;y={2}&amp;z={0}'
 
-"Wikimapia"                             'http://i{rnd}.wikimapia.org/?x={1}&amp;y={2}&amp;zoom={0}'
-"Top Wikimapia"                         'http://i{rnd}.wikimapia.org/?x={1}&amp;y={2}&amp;zoom={0}&amp;type=hybrid'
-
-"Wanderreitkarte Topo (DE, NL)"         'http://www.wanderreitkarte.de/topo/{0}/{1}/{2}.png'
-"Wanderreitkarte HillShade (DE, NL)"    'http://www.wanderreitkarte.de/hills/{0}/{1}/{2}.png'
-"Wanderreitkarte BaseLayer (DE, NL)"    'http://www.wanderreitkarte.de/base/{0}/{1}/{2}.png'
+"Wikimapia"                             seems not to include Bing anymore, Yahoo Satellite does not work either
 
 "Eniro Map (NO,SE,FI,DK,PL))"           'http://map01.eniro.com/geowebcache/service/tms1.0.0/map/{0}/{1}/{2}.png'
 "Eniro Aerial (NO,SE,DK)"               'http://map01.eniro.com/geowebcache/service/tms1.0.0/aerial/{0}/{1}/{2}.png'
 "Eniro Nautical (NO,SE)"                'http://map01.eniro.com/geowebcache/service/tms1.0.0/nautical/{0}/{1}/{2}.png'
 
-"Geofabrik.routing_eu"                  'https://tools.geofabrik.de/osmi/tiles/routing/{0}/{1}/{2}.png'
+"Geofabrik.routing_eu"                  'https://tools.geofabrik.de/osmi/tiles/routing/{0}/{1}/{2}.png' // not necessary
+
+/*
+const baselayer_topo_wanderreitkarte1 = {
+    'url':              'https://www.wanderreitkarte.de/topo/{z}/{x}/{y}.png',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    19,     // checked
+    'name':             'Wanderreitkarte.'
+};
+
+const baselayer_topo_wanderreitkarte2 = {
+    'url':              'https://tradi.wanderreitkarte.de/tradi/{z}/{x}/{y}.png',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    19,     // checked
+    'name':             'Wanderreitkarte..'
+};
+
+"Wanderreitkarte.."    'http://www.wanderreitkarte.de/hills/{z}/{x}/{y}.png'
+"Wanderreitkarte..."    'http://www.wanderreitkarte.de/base/{z}/{x}/{y}.png'
+
 
 const baselayer_topo_realitymaps = {
     'url':              'https://tms2.realitymaps.de/summer2d/{z}/{x}/{y}.jpeg',    // needs an y-offset of +5253 to work
