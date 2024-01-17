@@ -36,14 +36,26 @@ body {
 }
 */
 
+
+.leaflet-geosearch-button a {
+    background-image: url(../icons/search_8634862.png) !important;
+    background-size: 18px 18px !important;
+}
+
+/* a magnifying glass is shown with ::before and ::after which is too small for the icon, so hide it */
+.leaflet-geosearch-button a::before,
+.leaflet-geosearch-button a::after {
+    display: none !important;
+}
+
 .layer-control-satellite a {
-	background-image: url(../icons/satellite_8414448.png) !important;
+    background-image: url(../icons/satellite_8414448.png) !important;
     background-size: 38px 38px !important;
     transform: rotate(180deg) translate(-1px, 1px);
 }
 
 .layer-control-hillshade a {
-	background-image: url(../icons/hillshade_992325.png) !important;
+    background-image: url(../icons/hillshade_992325.png) !important;
     background-size: 38px 38px !important;
 }
 

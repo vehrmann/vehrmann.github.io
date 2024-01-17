@@ -3,7 +3,7 @@ let general_map_settings = {
     'zoom':                 10,//14,
     'minZoom':              3,
     'maxZoom':              22,
-    'default_map':          baselayer_topo_bergfex,
+    'default_map':          baselayer_topo_mapycz  //baselayer_topo_bergfex,
     //'slopesOpacity':        0.4,
     //'heatmapOpacity':       0.5,
     //'skiroutesOpacity':     0.5,
