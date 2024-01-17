@@ -1,4 +1,4 @@
-let chronotrains_station_id =           '8004128'       // move to general settings
+let chronotrains_station_id = '8004128'         // move to general settings
 
 // BASELAYERS TOPO
 const baselayer_topo_swisstopo = {
