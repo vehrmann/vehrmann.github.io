@@ -350,7 +350,7 @@ const overlay_wintersports_opensnowmap = {
 };
 
 const overlay_wintersports_skirouten_av_sac = {
-    'url':              'https://w{s}.oastatic.com/map/v1/png/oac_winter_alpine_overlay/{z}/{x}/{y}/t.png',
+    'url':              'https://w{s}.oa static.com/map/v1/png/oac _ winter _ alpine _ overlay/{z}/{x}/{y}/t.png',
     'subdomains':       ['0', '1', '2', '3'],
     'minNativeZoom':    11,     // checked
     'maxNativeZoom':    17,     // checked
