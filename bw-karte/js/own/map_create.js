@@ -130,44 +130,47 @@ let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        
 
 
 function create_single_tile_layer(layer_object) {
-    let tile_layer, layer_options;
+    let layer_url, layer_options, tile_layer;
 
     // ImageOverlay (weather maps)
     if (layer_object.imageoverlay) {
+        layer_url = layer_object.url.replace(/\s/g, '');
         layer_options = {   opacity:        layer_object.opacity,
                             interactive:    layer_object.interactive,
                             className:      layer_object.className,
                             attribution:    layer_object.attribution
-                        }
-        tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, layer_options)
+                        };
+        tile_layer = L.imageOverlay(layer_object.url, layer_object.bbox, layer_options);
 
     // FeatureGroup (Chronotrains, Schutzgebiete)
     } else if (layer_object.featuregroup) {
         layer_options = {   attribution:    layer_object.attribution
-                        }
-        tile_layer = L.featureGroup(null, layer_options)    // layer is added later
+                        };
+        tile_layer = L.featureGroup(null, layer_options);       // layer is added later
 
     // WMS
     } else if (layer_object.wms) {
+        layer_url = layer_object.url.replace(/\s/g, '');
         layer_options = {   layers:         layer_object.layers,
                             minNativeZoom:  layer_object.minNativeZoom,
                             maxNativeZoom:  layer_object.maxNativeZoom,
                             maxZoom:        layer_object.maxZoom,
                             opacity:        layer_object.opacity,
                             attribution:    layer_object.attribution
-                        }
-        tile_layer = L.tileLayer.wms( layer_object.url, layer_options );
+                        };
+        tile_layer = L.tileLayer.wms( layer_url, layer_options );
 
     // WMTS
     } else {
+        layer_url = layer_object.url.replace(/\s/g, '');
         layer_options = {   ...(layer_object.subdomains ? { subdomains: layer_object.subdomains } : {}),    // nur falls subdomains vorhanden sind, werden sie ausgelesen
                             minNativeZoom:  layer_object.minNativeZoom,
                             maxNativeZoom:  layer_object.maxNativeZoom,
                             maxZoom:        layer_object.maxZoom,
                             opacity:        layer_object.opacity,
                             attribution:    layer_object.attribution
-                        }
-        tile_layer = L.tileLayer( layer_object.url, layer_options );
+                        };
+        tile_layer = L.tileLayer( layer_url, layer_options );
     };
 
     return tile_layer;

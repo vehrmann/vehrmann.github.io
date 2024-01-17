@@ -21,7 +21,7 @@ const baselayer_topo_opentopomap = {
 };
 
 const baselayer_topo_alpenkarteeu = {
-    'url':              'https://cdn.schneidergeo.com/tiles/{z}/{x}/{y}.png',
+    'url':              'https://cdn.schneider geo.com/tiles/{z}/{x}/{y}.png',
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
     'name':             'Alpenkarte.eu'
@@ -35,14 +35,14 @@ const baselayer_topo_stamen = {
 };
 
 const baselayer_topo_bergfex = {
-    'url':              'https://tiles.bergfex.at/styles/bergfex-osm/{z}/{x}/{y}{r}.jpg',
+    'url':              'https://tiles.berg fex.at/styles/berg fex-osm/{z}/{x}/{y}{r}.jpg',
     'minZoom':          3,      // checked
     'maxNativeZoom':    18,     // checked
     'name':             'Bergfex'
 };
 
 const baselayer_topo_various = {
-    'url':              'https://w{s}.oastatic.com/map/v1/topo/pro_ign_os_swisstopo/{z}/{x}/{y}/t.png',
+    'url':              'https://w{s}.oa static.com/map/v1/topo/pro _ ign _ os _ swisstopo/{z}/{x}/{y}/t.png',
     'subdomains':       ['0', '1', '2', '3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
@@ -50,7 +50,7 @@ const baselayer_topo_various = {
 };
 
 const baselayer_topo_alpenverein = {
-    'url':              'https://w{s}.oastatic.com/map/v1/topo/avk_osm/{z}/{x}/{y}/t.png',
+    'url':              'https://w{s}.oa static.com/map/v1/topo/avk _ osm/{z}/{x}/{y}/t.png',
     'subdomains':       ['0', '1', '2', '3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
