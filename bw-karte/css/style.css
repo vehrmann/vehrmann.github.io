@@ -144,3 +144,19 @@ body {
     display:    none;
 }
 /* END: ATTRIBUTION / LEGENDS */
+
+
+/* START: MOBILE */
+@media only screen and (max-width: 600px) {
+    .leaflet-top.leaflet-right > div {
+        scale: calc(32 / 46);
+        /* margin-top: -4px;  equals same distance between buttons like on left side */
+        margin-top: -6px;
+        margin-right: 3px;
+    }
+
+    .leaflet-top.leaflet-right > div:first-child {
+        margin-top: 3px !important;
+    }
+}
+/* END: MOBILE */
