@@ -30,6 +30,10 @@ function group_map_control() {
                                                 'first_item':       true,
                                                 'opacity_slider':   true
                                             },
+        'Österreich & Bayern, morgens':     {   'header':           'Lawinenlage',
+                                                'first_item':       true,
+                                                'opacity_slider':   true
+                                            },
         'Wind':                             {   'header':           'Wetter',
                                                 'first_item':       true,
                                                 'opacity_slider':   true
@@ -130,6 +134,10 @@ function updateOverlayOpacity(overlay_type, opacity_value) {
             slopeangle_maps[overlay_openslopemap_high.name].setOpacity(opacity_value);
             slopeangle_maps[overlay_openslopemap_ultrahigh.name].setOpacity(opacity_value);
             break;
+        case 'Lawinenlage':
+            lawinenlage_maps[overlay_lawinenlage_atde_am.name].setOpacity(opacity_value);
+            lawinenlage_maps[overlay_lawinenlage_atde_pm.name].setOpacity(opacity_value);
+            break;
         case 'Wetter':
             //weather_maps[overlay_weather_temperature.name].setOpacity(opacity_value);
             weather_maps[overlay_weather_wind.name].setOpacity(opacity_value);
@@ -182,6 +190,7 @@ function addLayerControlClass(layer_control, class_name) {
 addLayerControlClass(layer_control_satellite,       'layer-control-satellite');
 addLayerControlClass(layer_control_hillshade,       'layer-control-hillshade');
 addLayerControlClass(layer_control_slopeangle,      'layer-control-slopeangle');
+addLayerControlClass(layer_control_lawinenlage,     'layer-control-lawinenlage');
 addLayerControlClass(layer_control_weather,         'layer-control-weather');
 addLayerControlClass(layer_control_schutzgebiete,   'layer-control-schutzgebiete');
 addLayerControlClass(layer_control_wintersports,    'layer-control-wintersports');

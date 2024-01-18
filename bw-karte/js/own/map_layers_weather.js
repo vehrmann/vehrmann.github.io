@@ -72,7 +72,6 @@ const overlay_weather_wording =         {
 let [url_wind, attribution_wind] =              getActualWeather('wind');
 let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight');
 
-
 /*
 lawine.report
     Filename-Times seem to be in UTC (Lokalzeit ist UTC+1 im Winter sowie UTC+2 im Sommer)

@@ -1,22 +1,26 @@
+/* START: MAIN MAP SETTINGS */
 body {
     margin: 0;
 }
+
 #map {
   height: 100vh;
   /* border: 1px solid red; */
 }
 
+/* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */
+.leaflet-tile-container img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
 .leaflet-container.crosshair-cursor-enabled {
     cursor:crosshair;
 }
+/* END: MAIN MAP SETTINGS */
 
-/* smaller margins so that control buttons are closer together */
-.leaflet-right .leaflet-control {
-    margin-top: 6px;
-    margin-right: 6px;
-}
 
-/* START: OWN CONTROL BUTTONS */
+
+/* START: CONTROL ICONS */
 .leaflet-control-layers-toggle {
 	background-image: url(../icons/layers_841577.png) !important;
     background-size: 30px 30px !important;
@@ -36,12 +40,10 @@ body {
 }
 */
 
-
 .leaflet-geosearch-button a {
     background-image: url(../icons/search_8634862.png) !important;
     background-size: 18px 18px !important;
 }
-
 /* a magnifying glass is shown with ::before and ::after which is too small for the icon, so hide it */
 .leaflet-geosearch-button a::before,
 .leaflet-geosearch-button a::after {
@@ -62,6 +64,11 @@ body {
 .layer-control-slopeangle a {
 	background-image: url(../icons/slopeangle_5519963.png) !important;
     background-size: 30px 30px !important;
+}
+
+.layer-control-lawinenlage a {
+	background-image: url(../icons/avalanche2.png) !important;
+    background-size: 36px !important;
 }
 
 .layer-control-weather a {
@@ -99,25 +106,41 @@ body {
 	background-image: url(../icons/seamaps_9199848.png) !important;
     background-size: 30px 30px !important;
 }
-/* END: OWN CONTROL BUTTONS */
+/* END: CONTROL ICONS */
 
+
+
+/* START: LAYER CONTROLS */
+/* smaller margins so that control buttons are closer together */
+.leaflet-right .leaflet-control {
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+/* style headers */
 .leaflet-control-layers-custom-header {
     font-weight: bold;
     display: flex;
 }
+
+.leaflet-control-layers-custom-header label {
+    margin-right: 10px;
+}
+
+/* style inputs (opacity sliders) */
 .leaflet-control-layers-custom-header input {
     margin-left: auto;
     width: 7em;
 }
+/* END: LAYER CONTROLS */
 
-/* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */
-.leaflet-tile-container img {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
-}
 
+
+/* START: ATTRIBUTION / LEGENDS */
 .weather_legend_img {
     position:   absolute;
     bottom:     5vh;
     max-width:  95%;
     display:    none;
 }
+/* END: ATTRIBUTION / LEGENDS */

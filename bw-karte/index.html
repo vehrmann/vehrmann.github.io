@@ -56,14 +56,16 @@
 
 
     <!-- OWN SCRIPTS -->
-    <!-- <script src=".js/own/dev_playground.js"></script> -->
+    <!-- <script src="./js/own/dev_playground.js"></script> -->
+    <script src="./js/own/general_functions.js"></script>
     <script src="./js/own/map_layers_weather.js"></script>              <!-- weather data needs to be declared before respective layers are created -->
     <script src="./js/own/map_layers.js"></script>
     <!-- <script src="./js/own/dev_map_vector.js"></script> -->         <!-- Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
     <script src="./js/own/map_control_group.js"></script>
+    <script src="./js/own/map_layer_lawinenlage.js"></script>
+    <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
-    <script src="./js/own/map_layers_gpx.js"></script>
     <script>
         group_map_control();        // only group layer-entries after GPX-files are loaded
     </script>
@@ -103,6 +105,7 @@ BUGS:
     - can't choose map when zoom level not right (e.g. Skirouten)
     - refine search bar behaviour (esc, closing etc.), implement live-search when typing
 IMPROVEMENTS:
+    - switching between AM and PM Lawinenlage should disable the other one
     - when searching, "BY" refines search. somehow use that e.g. translate "Bayern" to "BY" in the background
     - add keyboard shortcut for zoom, map pane, layers?
     - possibility to change a map between being an overlay and being a base-map
@@ -127,11 +130,18 @@ IMPROVEMENTS:
     - add slide-in menu (like e.g. wanderreitkarte)
     - gpx import
     - add legends where necessary
-
 DATA:
+    - Lawinenlage date: check if overlay was actually fetched
+    - Lawinenlage date label: style it green/red dependent on its age
+    - make Lawinenlage clickable so that it reads the color of the overlayimage and maybe extend to actual report/area/problem etc.
+    - extend Lawinenlage to Italy, Switzerland, France, Slovenia, ...
     - seperate toll highways into tunnels, pedestrians, streets
+    - make toll roads clickable with information about times, who has to pay, fee
     - distill gpx data, maybe use python
     - save overpass queries as source code
+UX:
+    - mobile: make collapsable menu, esp. layer controls
+    - mobile: layer controls extend screen vertically
 EXTEND:
     BASELAYERS:
         - baselayer_topo_mapycz2 & baselayer_topo_mapycz3
@@ -141,18 +151,27 @@ EXTEND:
         - Schweden
     OBERLAYS:
         - Strava Heatmaps
-        - ATHM
-        - Schutzgebiete
+        - Contour lines
         - Fotos
         - Webcams   https://lawinenwarndienst.bayern.de/schnee-wetter-bayern/webcams/
-        - Wetter / Schnee / Lawinenlage / LLB
-        - ExoLabs?
         - Klettergebiete etc. (https://www.thecrag.com/de/artikel/geolocation / https://www.bergsteigen.com/touren/klettern/)
-        - BW-spezifische Orte & Gebiete
-        - Übergabepunkte
+    WEATHER:
+        - Regenradar
         - Wind direction for weather overlay (kind of normal map available)
-    LLB
+        - Schnee (Höhe, Diff, Schneefallgrenze)
+    LAWINE
+        - ExoLabs?
         - https://avalanche.report/albina_files
+        - Problems
+        - Risk
+        - Report
+        - ATHM
+    BERGWACHT
+        - Schutzgebiete
+        - BW-spezifische Orte & Gebiete
+        - Ausbildung / Tests
+        - Gebietskenntnis
+        - Übergabepunkte
     ACADEMY
         - Lehrinhalter verlinken
         - Ortovox Snowlab

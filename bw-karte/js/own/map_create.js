@@ -62,6 +62,11 @@ let slopeangle_maps_list = [
     overlay_openslopemap_ultrahigh
 ];
 
+let lawinenlage_maps_list = [
+    overlay_lawinenlage_atde_am,
+    overlay_lawinenlage_atde_pm
+];
+
 let weather_maps_list = [
     //overlay_weather_temperature,
     overlay_weather_wind,
@@ -113,6 +118,7 @@ let base_maps =             create_tile_layers(base_maps_list);                 
 let satellite_maps =        create_tile_layers(satellite_maps_list);
 let hillshade_maps =        create_tile_layers(hillshade_maps_list);
 let slopeangle_maps =       create_tile_layers(slopeangle_maps_list);
+let lawinenlage_maps =      create_tile_layers(lawinenlage_maps_list);
 let weather_maps =          create_tile_layers(weather_maps_list);
 let wintersports_maps =     create_tile_layers(wintersports_maps_list);
 let schutzgebiete_maps =    create_tile_layers(schutzgebiete_maps_list);
@@ -126,6 +132,7 @@ let layer_control_basic =           L.control.layers(base_maps, null,           
 let layer_control_satellite =       L.control.layers(null, satellite_maps,      {autoZIndex: false}).addTo(map);
 let layer_control_hillshade =       L.control.layers(null, hillshade_maps,      {autoZIndex: false}).addTo(map);
 let layer_control_slopeangle =      L.control.layers(null, slopeangle_maps,     {autoZIndex: false}).addTo(map);
+let layer_control_lawinenlage =     L.control.layers(null, lawinenlage_maps,    {autoZIndex: false}).addTo(map);
 let layer_control_weather =         L.control.layers(null, weather_maps,        {autoZIndex: false}).addTo(map);
 let layer_control_schutzgebiete =   L.control.layers(null, schutzgebiete_maps,  {autoZIndex: false}).addTo(map);
 let layer_control_wintersports =    L.control.layers(null, wintersports_maps,   {autoZIndex: false}).addTo(map);
@@ -134,13 +141,13 @@ let layer_control_cycling =         L.control.layers(null, cycling_maps,        
 let layer_control_car =             L.control.layers(null, car_maps,            {autoZIndex: false}).addTo(map);
 let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        {autoZIndex: false}).addTo(map);
 
-
 function create_single_tile_layer(layer_object) {
     let layer_url, layer_options, tile_layer;
 
     // ImageOverlay (weather maps)
     if (layer_object.imageoverlay) {
         layer_url = layer_object.url.replace(/\s/g, '');
+        
         layer_options = {   opacity:        layer_object.opacity,
                             interactive:    layer_object.interactive,
                             className:      layer_object.className,

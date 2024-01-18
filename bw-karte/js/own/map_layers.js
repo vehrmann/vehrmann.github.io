@@ -249,6 +249,31 @@ const overlay_openslopemap_ultrahigh = {
     'name':             'UltraHigh Resolution 2,5m interpol.'
 };
 
+
+// OVERLAYS LAWINENLAGE
+const overlay_lawinenlage_atde_am = {
+    'url':              '',                                         // serUrl is used later via fetching a json
+    'imageoverlay':     true,
+    'bbox':             null,                                       // setBounds is used later via fetching a json
+    'opacity':          0.7,                                        // overlay_lawinenlage_defaultopacity
+    'interactive':      false,
+    'className':        'overlay_lawinenlage_atde_am',
+    'name':             'Österreich & Bayern, morgens',
+    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst-bayern.de/res/start_winter.php" target="_blank">Bayern</a>'
+};
+
+const overlay_lawinenlage_atde_pm = {
+    'url':              '',                                         // serUrl is used later via fetching a json
+    'imageoverlay':     true,
+    'bbox':             null,                                       // setBounds is used later via fetching a json
+    'opacity':          0.7,                                        // overlay_lawinenlage_defaultopacity
+    'interactive':      false,
+    'className':        'overlay_lawinenlage_atde_pm',
+    'name':             'Österreich & Bayern, mittags',
+    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst-bayern.de/res/start_winter.php" target="_blank">Bayern</a>'
+};
+
+
 // OVERLAYS WEATHER
 /*
 const overlay_weather_temperature = {
