@@ -1,4 +1,19 @@
-let chronotrains_station_id = '8004128'         // move to general settings
+// important for default opacities: grouped layers should get the same value as the initial slider value is set correspondingly 
+const default_opacity_overlay_sat =             1.0
+const default_opacity_overlay_hillshade =       0.5
+const default_opacity_overlay_openslopemap =    0.5
+const default_opacity_overlay_lawinenlage =     0.7
+const default_opacity_overlay_weather =         0.5
+const default_opacity_overlay_schutzgebiete =   0.5
+const default_opacity_overlay_wintersports =    1.0
+const default_opacity_overlay_cycling =         0.6
+const default_opacity_overlay_seamaps =         1.0
+const default_opacity_overlay_oepnv =           0.8
+const default_opacity_overlay_car =             0.8 
+let chronotrains_station_id =                   '8004128'
+
+
+
 
 // BASELAYERS TOPO
 const baselayer_topo_swisstopo = {
@@ -172,6 +187,7 @@ const overlay_sat_esri = {
     'subdomains':       ['server', 'services'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
+    'opacity':          default_opacity_overlay_sat,
     'name':             'ESRI..'
 };
 
@@ -181,6 +197,7 @@ const overlay_sat_bayern = {
     'layers':           'by_dop80c',
     'minZoom':          3,      // checked
     'maxNativeZoom':    18,     // checked
+    'opacity':          default_opacity_overlay_sat,
     'name':             'Bayern'
 };
 
@@ -189,6 +206,7 @@ const overlay_sat_google = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    21,     // checked
+    'opacity':          default_opacity_overlay_sat,
     'name':             'Google..'
 };
 
@@ -197,6 +215,7 @@ const overlay_sat_googlehybrid = {
     'subdomains':       ['mt0', 'mt1', 'mt2', 'mt3'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    21,     // checked
+    'opacity':          default_opacity_overlay_sat,
     'name':             'Google Hybrid'
 };
 
@@ -207,6 +226,7 @@ const overlay_hillshade_esri = {
     'subdomains':       ['server', 'services'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    16,     // checked
+    'opacity':          default_opacity_overlay_hillshade,
     'name':             'ESRI...'
 };
 
@@ -217,7 +237,7 @@ const overlay_openslopemap_low = {
     'subdomains':       ['1', '2', '3', '4'],
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_openslopemap,
     'name':             'Low Resolution 10m/20m',
     'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
@@ -227,7 +247,7 @@ const overlay_openslopemap_med = {
     'subdomains':       ['1', '2', '3', '4'],
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_openslopemap,
     'name':             'Medium Resolution 5m interpol. ⭐',
     'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
@@ -237,7 +257,7 @@ const overlay_openslopemap_high = {
     'subdomains':       ['1', '2', '3', '4'],
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_openslopemap,
     'name':             'High Resolution 5m',
     'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
@@ -247,7 +267,7 @@ const overlay_openslopemap_ultrahigh = {
     'subdomains':       ['1', '2', '3', '4'],
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_openslopemap,
     'name':             'UltraHigh Resolution 2,5m interpol.',
     'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
@@ -258,7 +278,7 @@ const overlay_lawinenlage_atde_am = {
     'url':              '',                                         // serUrl is used later via fetching a json
     'imageoverlay':     true,
     'bbox':             null,                                       // setBounds is used later via fetching a json
-    'opacity':          0.7,                                        // overlay_lawinenlage_defaultopacity
+    'opacity':          default_opacity_overlay_lawinenlage,
     'interactive':      false,
     'className':        'overlay_lawinenlage_atde_am',
     'name':             'Österreich & Bayern, morgens',
@@ -269,7 +289,7 @@ const overlay_lawinenlage_atde_pm = {
     'url':              '',                                         // serUrl is used later via fetching a json
     'imageoverlay':     true,
     'bbox':             null,                                       // setBounds is used later via fetching a json
-    'opacity':          0.7,                                        // overlay_lawinenlage_defaultopacity
+    'opacity':          default_opacity_overlay_lawinenlage,
     'interactive':      false,
     'className':        'overlay_lawinenlage_atde_pm',
     'name':             'Österreich & Bayern, mittags',
@@ -283,7 +303,7 @@ const overlay_weather_temperature = {
     'url':              `https://static.avalanche.report/zamg_meteo/overlays/temp/${formatted_datetime_string_utc}_temp_V2.gif`,
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_temperature',
     'name':             'Temperatur',
@@ -300,7 +320,7 @@ const overlay_weather_wind = {
     'url':              url_wind,
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_wind',
     'name':             'Wind',
@@ -311,7 +331,7 @@ const overlay_weather_snowheight = {
     'url':              url_snowheight,
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_snowheight',
     'name':             'Schneehöhen',
@@ -323,7 +343,7 @@ const overlay_weather_snownew = {
     'url':              'https://static.avalanche.report/zamg_meteo/overlays/new-snow/2023-12-31_18-00_new-snow_6h_V2.gif',
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_snownew',
     'name':             'Neuschnee',
@@ -339,7 +359,7 @@ const overlay_weather_snowline = {
     'url':              'https://static.avalanche.report/zamg_meteo/overlays/snow-line/2024-01-19_00-00_snow-line_V2.gif',
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_snowline',
     'name':             'Schneefallgrenze',
@@ -355,7 +375,7 @@ const overlay_weather_snowdiff = {
     'url':              'https://static.avalanche.report/zamg_meteo/overlays/diff-snow/2024-01-15_06-00_diff-snow_6h_V2.gif',
     'imageoverlay':     true,
     'bbox':             overlay_weather_bbox,
-    'opacity':          overlay_weather_defaultopacity,
+    'opacity':          default_opacity_overlay_weather,
     'interactive':      false,
     'className':        'overlay_weather_snowdiff',
     'name':             'Schneedifferenz',
@@ -374,6 +394,7 @@ const overlay_wintersports_opensnowmap = {
     'subdomains':       ['pistes', 'tiles-pistes'],
     'minNativeZoom':    9,      // checked
     'maxNativeZoom':    18,     // checked
+    'opacity':          default_opacity_overlay_wintersports,
     'name':             'OpenSnowMap',
     'attribution':      '&copy; <a href="https://www.opensnowmap.org" target="_blank">OpenSnowMap</a>'
 };
@@ -383,6 +404,7 @@ const overlay_wintersports_skirouten_av_sac = {
     'subdomains':       ['0', '1', '2', '3'],
     'minNativeZoom':    11,     // checked
     'maxNativeZoom':    17,     // checked
+    'opacity':          default_opacity_overlay_wintersports,
     'name':             'Skirouten AV/SAC',
 };
 
@@ -392,7 +414,7 @@ const overlay_schutzgebiete_rotwand = {
     //'minZoom':          x,      // xx
     //'maxNativeZoom':    x,     // xx
     'featuregroup':     true,
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_schutzgebiete,
     'name':             'Rotwandgebiet',
     //'attribution':      'XXX'     // maybe link to overpass-query?
 };
@@ -402,6 +424,7 @@ const overlay_oepnv_oepnvkarte = {
     'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
     'minZoom':          3,      // checked
     'maxNativeZoom':    17,     // checked
+    'opacity':          default_opacity_overlay_oepnv,
     'name':             'ÖPNV-Karte',
     'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
 };
@@ -410,7 +433,7 @@ const overlay_oepnv_chronotrains = {
     //'minZoom':          x,      // xx
     //'maxNativeZoom':    x,     // xx
     'featuregroup':     true,
-    'opacity':          0.8,
+    'opacity':          default_opacity_overlay_oepnv,
     'name':             'ChronoTrains',
     'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
 };
@@ -421,6 +444,7 @@ const overlay_cycling_cyclosm = {
     'subdomains':       ['a', 'b', 'c'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    20,     // checked
+    'opacity':          default_opacity_overlay_cycling,
     'name':             'CyclOSM',
     'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
 };
@@ -430,6 +454,7 @@ const overlay_cycling_cyclosmlite = {
     'subdomains':       ['a', 'b', 'c'],
     'minNativeZoom':    11,     // checked
     'maxNativeZoom':    20,     // checked
+    'opacity':          default_opacity_overlay_cycling,
     'name':             'CyclOSM Lite',
     'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
 };
@@ -439,7 +464,7 @@ const overlay_car_highways_toll_without_motorway = {
     //'minZoom':          x,      // xx
     //'maxNativeZoom':    x,     // xx
     'featuregroup':     true,
-    'opacity':          0.5,
+    'opacity':          default_opacity_overlay_car,
     'name':             'Mautstraßen (ohne Autobahnen)',
     //'attribution':      'XXX'     // maybe link to overpass-query?
 };
@@ -450,6 +475,7 @@ const overlay_seamaps_openseamap = {
     'subdomains':       ['tiles', 't1'],
     'minNativeZoom':    9,      // checked
     'maxNativeZoom':    18,     // checked
+    'opacity':          default_opacity_overlay_seamaps,
     'name':             'OpenSeaMap',
     'attribution':      '&copy; <a href="https://www.openseamap.org" target="_blank">OpenSeaMap</a>'
 };
@@ -459,6 +485,7 @@ const overlay_seamaps_kartverketno = {
     // also available as wms
     'minZoom':          3,      // checked
     'maxNativeZoom':    20,     // checked
+    'opacity':          default_opacity_overlay_seamaps,
     'name':             'Kartverket.no Seamap'
 };
 

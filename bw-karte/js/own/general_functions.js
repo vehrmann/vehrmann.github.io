@@ -1,3 +1,19 @@
+// Function to fetch the header of an url (e.g. to check weather image-overlays
+function fetchHeader(url, header_item) {
+    try {
+        let req=new XMLHttpRequest();
+        req.open("HEAD", url, false);
+        req.send(null);
+        if(req.status== 200){
+            return req.getResponseHeader(header_item);
+        }
+        else return false;
+    } catch(er) {
+        return er.message;
+    }
+}
+
+
 // Function to fetch JSON
 function fetchJson(url) {
     return new Promise((resolve, reject) => {

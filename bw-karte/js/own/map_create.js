@@ -3,13 +3,7 @@ let general_map_settings = {
     'zoom':                 10,//14,
     'minZoom':              3,
     'maxZoom':              22,
-    'default_map':          baselayer_topo_mapycz  //baselayer_topo_bergfex,
-    //'slopesOpacity':        0.4,
-    //'heatmapOpacity':       0.5,
-    //'skiroutesOpacity':     0.5,
-    //'heatmapType':          'winter',
-    //'heatmapColor':         'hot',
-    //'slopesResolution':     'MR_AlpsEast'
+    'default_map':          baselayer_topo_mapycz  //baselayer_topo_bergfex
 };
 
 
@@ -157,7 +151,8 @@ function create_single_tile_layer(layer_object) {
 
     // FeatureGroup (Chronotrains, Schutzgebiete)
     } else if (layer_object.featuregroup) {
-        layer_options = {   attribution:    layer_object.attribution
+        layer_options = {   opacity:        layer_object.opacity,
+                            attribution:    layer_object.attribution
                         };
         tile_layer = L.featureGroup(null, layer_options);       // layer is added later
 

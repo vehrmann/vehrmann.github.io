@@ -1,18 +1,3 @@
-// needed to fetch weather image-overlays
-function fetchHeader(url, header_item) {
-    try {
-        let req=new XMLHttpRequest();
-        req.open("HEAD", url, false);
-        req.send(null);
-        if(req.status== 200){
-            return req.getResponseHeader(header_item);
-        }
-        else return false;
-    } catch(er) {
-        return er.message;
-    }
-}
-
 function getFormattedDatetimeString(datetime, hour_offset, format_type) {
     const year =    datetime.getFullYear();
     const month =   ('0' + (datetime.getMonth() + 1)).slice(-2);      // add 1 to month because months are zero-indexed
@@ -55,7 +40,6 @@ function getActualWeather(type) {
 
 
 const overlay_weather_bbox =            [[45.6167, 9.4], [47.8167, 13.0333]]    // from weathermaps.settings.bbox @ https://gitlab.com/albina-euregio/albina-website/-/blob/master/app/config.json?ref_type=heads
-const overlay_weather_defaultopacity =  0.7
 const overlay_weather_wording =         {
     'wind':         {   'layer_control_label':  'Wind',
                         'class_name':           'wind',

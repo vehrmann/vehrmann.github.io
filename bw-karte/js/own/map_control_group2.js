@@ -12,68 +12,55 @@ function group_map_control() {
                                                                 opacity_slider needed or not */
         [baselayer_topo_swisstopo.name]:                    {   'header':           'Topo',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   false,
-                                                                'default_opacity':  [baselayer_topo_swisstopo.opacity]
+                                                                'opacity_slider':   false
                                                             },
         [baselayer_street_osm.name]:                        {   'header':           'Straße',
                                                                 'first_item':       false,
-                                                                'opacity_slider':   false,
-                                                                'default_opacity':  [baselayer_street_osm.opacity]
+                                                                'opacity_slider':   false
                                                             },
         [overlay_sat_esri.name]:                            {   'header':           'Satellit',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_sat_esri.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_hillshade_esri.name]:                      {   'header':           'Schummerung',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_hillshade_esri.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_openslopemap_low.name]:                    {   'header':           'Hangneigung',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_openslopemap_low.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_lawinenlage_atde_am.name]:                 {   'header':           'Lawinenlage',
                                                                 'first_item':       true,
                                                                 'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_lawinenlage_atde_am.opacity]
                                                             },
         [overlay_weather_wind.name]:                        {   'header':           'Wetter',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_weather_wind.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_schutzgebiete_rotwand.name]:               {   'header':           'Schutzgebiete',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_schutzgebiete_rotwand.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_wintersports_opensnowmap.name]:            {   'header':           'Wintersport',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_wintersports_opensnowmap.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_oepnv_oepnvkarte.name]:                    {   'header':           'ÖPNV',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_oepnv_oepnvkarte.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_cycling_cyclosm.name]:                     {   'header':           'Fahrrad',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_cycling_cyclosm.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_car_highways_toll_without_motorway.name]:  {   'header':           'Auto',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_car_highways_toll_without_motorway.opacity]
+                                                                'opacity_slider':   true
                                                             },
         [overlay_seamaps_openseamap.name]:                  {   'header':           'Seekarte',
                                                                 'first_item':       true,
-                                                                'opacity_slider':   true,
-                                                                'default_opacity':  [overlay_seamaps_openseamap.opacity]
+                                                                'opacity_slider':   true
                                                             }
     };
 
@@ -114,8 +101,8 @@ function group_map_control() {
                         updateOverlayOpacity(this.id, this.value);
                     });
 
-                    //header_input.value = 0.7;     // xxx here the default opacity value should be called
-                    header_input.value = group_headers[label_text].default_opacity
+                    header_input.value = 0.7;     // xxx here the default opacity value should be called
+                    //header_input.value = group_headers[label_text].opacity
                     header_div.appendChild(header_input);
                 }
                 label.parentNode.insertBefore(header_div, label);

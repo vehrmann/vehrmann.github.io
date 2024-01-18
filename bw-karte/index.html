@@ -57,6 +57,7 @@
 
     <!-- OWN SCRIPTS -->
     <!-- <script src="./js/own/dev_playground.js"></script> -->
+    <!-- <script src="./js/own/dev_general_settings.js"></script> -->
     <script src="./js/own/general_functions.js"></script>
     <script src="./js/own/map_layers_weather.js"></script>              <!-- weather data needs to be declared before respective layers are created -->
     <script src="./js/own/map_layers.js"></script>
@@ -95,15 +96,17 @@
 
 <!--
 BUGS:
+    - layer controls: when toggle-button is clicked, also input slider is clicked (on mobile due to not having hover on touchscreens)
     - check correct time of weather images
     - z-index of slopes and seamaps are too low when switching base maps
-    - set default opacity for every overlay+respective slider individually, can be stored in layer definition
     - chronotrains load really slow, maybe only load upon toggle
     - width of controls should be equal (chronotrains is to narrow)
     - max-width of hover-legends should be 100% on mobile (width of legend is dependet on width of attribution-box)
     - can't choose map when zoom level not right (e.g. Skirouten)
     - refine search bar behaviour (esc, closing etc.), implement live-search when typing
 IMPROVEMENTS:
+    - rework create_single_tile_layer()
+    - check if group_headers could be more generic by just listing the layers and retrieving names, opacity etc. automatically
     - switching between AM and PM Lawinenlage should disable the other one
     - when searching, "BY" refines search. somehow use that e.g. translate "Bayern" to "BY" in the background
     - add keyboard shortcut for zoom, map pane, layers?
@@ -130,6 +133,7 @@ IMPROVEMENTS:
     - gpx import
     - check where class names for elements (especially layers) make sense and where/how they are defined
 DATA:
+    - div element which shows datetime for weather, Lawinenlage etc.
     - Lawinenlage date: check if overlay was actually fetched
     - Lawinenlage date label: style it green/red dependent on its age
     - make Lawinenlage clickable so that it reads the color of the overlayimage and maybe extend to actual report/area/problem etc.
@@ -146,6 +150,7 @@ LEGENDS:
 UX:
     - mobile: make collapsable menu, esp. layer controls
     - mobile: layer controls extend screen vertically
+    - "clear all" buttons which resets all overlays
     - drawn/measured elements should be always on top of all other layers
 EXTEND:
     BASELAYERS:
