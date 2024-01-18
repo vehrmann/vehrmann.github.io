@@ -219,7 +219,7 @@ const overlay_openslopemap_low = {
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
     'name':             'Low Resolution 10m/20m',
-    //'className':        'tilelayer-overlay-openslopemap-low'
+    'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
 
 const overlay_openslopemap_med = {
@@ -228,7 +228,8 @@ const overlay_openslopemap_med = {
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
-    'name':             'Medium Resolution 5m interpol. ⭐'
+    'name':             'Medium Resolution 5m interpol. ⭐',
+    'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
 
 const overlay_openslopemap_high = {
@@ -237,7 +238,8 @@ const overlay_openslopemap_high = {
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
-    'name':             'High Resolution 5m'
+    'name':             'High Resolution 5m',
+    'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
 
 const overlay_openslopemap_ultrahigh = {
@@ -246,7 +248,8 @@ const overlay_openslopemap_ultrahigh = {
     'minNativeZoom':    8,      // checked
     'maxNativeZoom':    16,     // checked
     'opacity':          0.5,
-    'name':             'UltraHigh Resolution 2,5m interpol.'
+    'name':             'UltraHigh Resolution 2,5m interpol.',
+    'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
 
 
@@ -259,7 +262,7 @@ const overlay_lawinenlage_atde_am = {
     'interactive':      false,
     'className':        'overlay_lawinenlage_atde_am',
     'name':             'Österreich & Bayern, morgens',
-    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst-bayern.de/res/start_winter.php" target="_blank">Bayern</a>'
+    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst.bayern.de" target="_blank">Bayern</a>'
 };
 
 const overlay_lawinenlage_atde_pm = {
@@ -270,7 +273,7 @@ const overlay_lawinenlage_atde_pm = {
     'interactive':      false,
     'className':        'overlay_lawinenlage_atde_pm',
     'name':             'Österreich & Bayern, mittags',
-    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst-bayern.de/res/start_winter.php" target="_blank">Bayern</a>'
+    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst.bayern.de" target="_blank">Bayern</a>'
 };
 
 
@@ -367,7 +370,8 @@ const overlay_weather_snowdiff = {
 
 // OVERLAYS WINTERSPORTS
 const overlay_wintersports_opensnowmap = {
-    'url':              'https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png',
+    'url':              'https://tiles.opensnowmap.org/{s}/{z}/{x}/{y}.png',
+    'subdomains':       ['pistes', 'tiles-pistes'],
     'minNativeZoom':    9,      // checked
     'maxNativeZoom':    18,     // checked
     'name':             'OpenSnowMap',
@@ -382,6 +386,7 @@ const overlay_wintersports_skirouten_av_sac = {
     'name':             'Skirouten AV/SAC',
 };
 
+
 // OVERLAYS SCHUTZGEBIETE
 const overlay_schutzgebiete_rotwand = {
     //'minZoom':          x,      // xx
@@ -389,7 +394,7 @@ const overlay_schutzgebiete_rotwand = {
     'featuregroup':     true,
     'opacity':          0.5,
     'name':             'Rotwandgebiet',
-    'attribution':      'XXX'   // xxx
+    //'attribution':      'XXX'     // maybe link to overpass-query?
 };
 
 // OVERLAYS ÖPNV
@@ -436,7 +441,7 @@ const overlay_car_highways_toll_without_motorway = {
     'featuregroup':     true,
     'opacity':          0.5,
     'name':             'Mautstraßen (ohne Autobahnen)',
-    'attribution':      'XXX'   // xxx
+    //'attribution':      'XXX'     // maybe link to overpass-query?
 };
 
 // OVERLAYS SEAMAPS
@@ -459,10 +464,35 @@ const overlay_seamaps_kartverketno = {
 
 
 /* FURTHER POTENTIAL SOURCES
-basemap.de
-basemap.at
-Swisstopo
 
+https://tileserver4.openslopemap.org/OSloContourOAM_AlpsEast_16/9/270/181.png
+https://peaks.openslopemap.org/9/269/180.png
+https://tileserver1.openslopemap.org/WinterLayer/13/4377/2859.png
+
+basemap.de
+
+Bayern
+    https://wmtsod2.bayernwolke.de/wmts/by_amtl_karte/smerc/9/271/178
+    https://geoservices.bayern.de/wms/v2/ogc_dop80_oa.cgi?&service=WMS&request=GetMap&layers=by_dop80c&styles=&format=image%2Fjpeg&transparent=false&version=1.1.1&height=256&width=256&srs=EPSG%3A3857&bbox=1252344.2714243277,6026906.806229579,1330615.7883883484,6105178.3231936
+
+basemap.at
+    https://maps2.wien.gv.at/basemap/bmapgrau/normal/google3857/9/178/275.png
+    https://maps3.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/9/179/271.jpeg    
+    https://maps2.wien.gv.at/basemap/bmapoberflaeche/grau/google3857/9/181/272.jpeg
+    https://maps1.wien.gv.at/basemap/bmapgelaende/grau/google3857/9/181/271.jpeg
+    https://maps1.wien.gv.at/basemap/bmapoverlay/normal/google3857/13/2860/4380.png
+Tirol
+    https://gis.tirol.gv.at/arcgis/services/Service_Public/terrain/MapServer/WMSServer?&service=WMS&request=GetMap&layers=Image_Gelaendeneigung_Wintersport&styles=&format=image%2Fpng&transparent=true&version=1.1.1&height=256&width=256&srs=EPSG%3A3857&bbox=1369751.5468703588,5929067.410024555,1389319.4261113636,5948635.289265559
+
+
+Swisstopo
+    https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.hangneigung-ueber_30/default/current/3857/9/269/180.png
+    ... 
+
+https://www.openandromaps.org/
+https://www.thunderforest.com/      // needs API key
+https://tile.waymarkedtrails.org/hiking/13/4377/2858.png
+https://tile.waymarkedtrails.org/slopes/13/4380/2858.png
 
 https://openskimap.org/#2/40/-100
 https://www.xctrails.org/map/map.html?type=xc

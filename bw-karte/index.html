@@ -99,7 +99,6 @@ BUGS:
     - z-index of slopes and seamaps are too low when switching base maps
     - set default opacity for every overlay+respective slider individually, can be stored in layer definition
     - chronotrains load really slow, maybe only load upon toggle
-    - drawn/measured elements should be always on top of all other layers
     - width of controls should be equal (chronotrains is to narrow)
     - max-width of hover-legends should be 100% on mobile (width of legend is dependet on width of attribution-box)
     - can't choose map when zoom level not right (e.g. Skirouten)
@@ -116,7 +115,7 @@ IMPROVEMENTS:
     - cluster all added controls and stuff into one .js
     - remove "Messwerkzeuge"-title and align items in slide-open-menu
     - Geo-Tools (Altitude, dstance, Area, Drawing, ...)
-    - add elevation to measuring tool / labels
+    - measure: distance, elevation/altitude, steepness, LLB, ...
     - add min-/max-zooms to all map layers
     - add attribution links to all map layers
     - Country-Filter/Flag for some maps
@@ -129,7 +128,7 @@ IMPROVEMENTS:
     - align margins/paddings of tool controls similar to layer controls
     - add slide-in menu (like e.g. wanderreitkarte)
     - gpx import
-    - add legends where necessary
+    - check where class names for elements (especially layers) make sense and where/how they are defined
 DATA:
     - Lawinenlage date: check if overlay was actually fetched
     - Lawinenlage date label: style it green/red dependent on its age
@@ -139,9 +138,15 @@ DATA:
     - make toll roads clickable with information about times, who has to pay, fee
     - distill gpx data, maybe use python
     - save overpass queries as source code
+    - hwen using hgt, mention data source as attribution
+LEGENDS:
+    - Lawinenlage
+    - OpenSlopeMap
+    - CyclOSM
 UX:
     - mobile: make collapsable menu, esp. layer controls
     - mobile: layer controls extend screen vertically
+    - drawn/measured elements should be always on top of all other layers
 EXTEND:
     BASELAYERS:
         - baselayer_topo_mapycz2 & baselayer_topo_mapycz3
