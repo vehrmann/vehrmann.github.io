@@ -1,15 +1,15 @@
 // important for default opacities: grouped layers should get the same value as the initial slider value is set correspondingly 
 const default_opacity_overlay_sat =             1.0
 const default_opacity_overlay_hillshade =       0.5
-const default_opacity_overlay_openslopemap =    0.5
-const default_opacity_overlay_lawinenlage =     0.7
-const default_opacity_overlay_weather =         0.5
-const default_opacity_overlay_schutzgebiete =   0.5
+const default_opacity_overlay_openslopemap =    0.4
+const default_opacity_overlay_lawinenlage =     0.65
+const default_opacity_overlay_weather =         0.75
+const default_opacity_overlay_schutzgebiete =   0.75
 const default_opacity_overlay_wintersports =    1.0
-const default_opacity_overlay_cycling =         0.6
+const default_opacity_overlay_cycling =         1.0
 const default_opacity_overlay_seamaps =         1.0
 const default_opacity_overlay_oepnv =           0.8
-const default_opacity_overlay_car =             0.8 
+const default_opacity_overlay_car =             0.9
 let chronotrains_station_id =                   '8004128'
 
 

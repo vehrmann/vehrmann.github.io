@@ -36,7 +36,7 @@ new L.GPX(gpx_path,
         {
             //fill:     'orange',
             color:    'red',
-            opacity:  0.75,
+            opacity:  0.9,
             weight:   4,
         }
     }
