@@ -9,8 +9,14 @@ body {
 }
 
 /* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */
+/* seems to be fixed in version 1.9.4
 .leaflet-tile-container img {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+*/
+/* necessary to apply as used by leaflet for ".leaflet-tile-container img" to get rid of white cross-lines */
+.leaflet-tile-container svg {
+    mix-blend-mode: plus-lighter;
 }
 
 .leaflet-container.crosshair-cursor-enabled {
@@ -66,7 +72,7 @@ body {
     background-size: 30px 30px !important;
 }
 
-.layer-control-lawinenlage a {
+.layer-control-avalancherisk a {
 	background-image: url(../icons/avalanche2.png) !important;
     background-size: 36px !important;
 }
@@ -131,6 +137,10 @@ body {
 .leaflet-control-layers-custom-header input {
     margin-left: auto;
     width: 7em;
+}
+
+.datepicker-arrow {
+    cursor: pointer;
 }
 /* END: LAYER CONTROLS */
 
