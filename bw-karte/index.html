@@ -14,7 +14,7 @@
         <div id="map"></div>
     </body>
     <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
-    <!-- <script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script> -->
+    <script src="./node_modules/leaflet.vectorgrid/dist/Leaflet.VectorGrid.bundled.min.js"></script>
 
     <!--    LEAFLET CascadeButtons (adds button menu cascading) / https://github.com/clavijojuan/L.cascadeButtons/tree/master
     <link rel="stylesheet" href="./js/imports/L.cascadeButtons.css">
@@ -53,39 +53,42 @@
     <!-- LEAFLET side-by-side (map comparison via split screen) / https://github.com/digidem/leaflet-side-by-side -->
     <!-- <script src="./js/imports/leaflet-side-by-side.js"></script> script updated like suggested here: https://github.com/digidem/leaflet-side-by-side/issues/47#issue-1438458238 --> 
 
-
+    <!-- <script src="https://cdn.jsdelivr.net/npm/node-fetch@3.3.2/src/index.min.js"></script> -->
 
     <!-- OWN SCRIPTS -->
     <!-- <script src="./js/own/dev_playground.js"></script> -->
-    <!-- <script src="./js/own/dev_general_settings.js"></script> -->
+    <script src="./js/own/general_settings.js"></script>
     <script src="./js/own/general_functions.js"></script>
-    <script src="./js/own/map_layers_weather.js"></script>              <!-- weather data needs to be declared before respective layers are created -->
-    <script src="./js/own/map_layers.js"></script>
-    <!-- <script src="./js/own/dev_map_vector.js"></script> -->         <!-- Layers in vector format (in development, esp. styling is tricky)-->
     <script src="./js/own/map_create.js"></script>
-    <script src="./js/own/map_control_group.js"></script>
-    <script src="./js/own/map_layer_lawinenlage.js"></script>
+
+    <script src="./js/own/map_layers_weather.js"></script>              <!-- dev, check script / weather data needs to be declared before respective layers are created -->
+    <script src="./js/own/map_layers.js"></script>
+
+    <script src="./js/own/map_controls_layers.js"></script>
+    <script src="./js/own/map_controls_layer_group.js"></script>
+    <script src="./js/own/map_controls_tools.js"></script>
+    <script src="./js/own/map_keyboardcontrols.js"></script>
+
+    <script src="./js/own/map_layer_lawinenlage_vector.js"></script>
     <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
     <script>
-        group_map_control();        // only group layer-entries after GPX-files are loaded
+        group_map_control();                                            // only group layer-entries after GPX-files are loaded
     </script>
+
+
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
-    <script src="./js/own/dev_measure.js"></script>
-    <script src="./js/own/map_keyboardcontrols.js"></script>
+    <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
+    <!-- <script src="./js/own/map_geoman.js"></script> -->
 
-
+    <!-- Layers in vector format (in development, esp. styling is tricky)-->
+    <!-- <script src="./js/own/dev_map_vector.js"></script> -->
 
     <!-- Settings control in development for entering preferences such as zoom-steps, layers, default positions etc.
         Could this potentially be stored in a cookie?  
     <script src="./js/own/dev_map_settingscontrol.js"></script>
     <link rel="stylesheet" href="./css/dev_map_settingscontrol.css">
     -->
-
-    <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
-    <!-- <script src="./js/own/map_geoman.js"></script> -->
-    <!-- <script src="./js/own/dev_map_bergwacht.js"></script> -->
-    <!-- <script src="./js/own/dev_map_schutzgebiete.js"></script> -->
 </html>
 
 
@@ -96,6 +99,7 @@
 
 <!--
 BUGS:
+    - distinguish between no avalanche risk reported and avalanche risk = 0
     - when leaving search using esc, the keyboard focus is not in the map anymore (+/- does not work via keyboard)
     - layer controls: when toggle-button is clicked, also input slider is clicked (on mobile due to not having hover on touchscreens)
     - check correct time of weather images
@@ -104,10 +108,15 @@ BUGS:
     - width of controls should be equal (chronotrains is to narrow)
     - max-width of hover-legends should be 100% on mobile (width of legend is dependet on width of attribution-box)
     - can't choose map when zoom level not right (e.g. Skirouten)
-    - refine search bar behaviour (esc, closing etc.), implement live-search when typing
     - Schutzgebiete and car overlays opacities in gpx-script are hardcoded
     - find out in chrome inspector where opacity of chronotrains is changed 
 IMPROVEMENTS:
+    - include date picker for avalanche risk
+    - for avalanche risk overlay, include "aktualisiert"
+    - in general_functions.js, combine the two getFormattedDatetime(String) functions into one
+    - include chronotrain-json-fetching into general functions
+    - refine search bar behaviour (esc, closing etc.), implement live-search when typing
+    - translation of hover buttons
     - where usefull, add individual opacity sliders to each layer (e.g. chronotrains and oepnvkarte), on the other side, make sure that certain layers cannot be chosen simultanously (e.g. sat / slopes / weather,...)
     - rearranging layers via z-index +/- buttons would be useful
     - order layers, esp. Schneehöhe after it is added
@@ -118,7 +127,7 @@ IMPROVEMENTS:
     - add keyboard shortcut for zoom, map pane, layers?
     - possibility to change a map between being an overlay and being a base-map
     - mark control which has active layer (e.g. outline, background-color, additional icon in corner)
-    - implement latest-date/latest-available-file function for imageoverlay of weather
+    - implement latest-date/latest-available-file function for imageoverlay of weather and for avalanche risk
     - include other weather maps from lawine.report + respective legends + potentially slider for date range
     - cluster all added controls and stuff into one .js
     - remove "Messwerkzeuge"-title and align items in slide-open-menu
@@ -137,7 +146,10 @@ IMPROVEMENTS:
     - add slide-in menu (like e.g. wanderreitkarte)
     - gpx import
     - check where class names for elements (especially layers) make sense and where/how they are defined
+    - redraw icons with consistent line thickness
 DATA:
+    - make avalanche risk regions clickable for further details (problems, directions, report,...)
+    - historical weather overlays might have different bbounds
     - div element which shows datetime for weather, Lawinenlage etc.
     - Lawinenlage date: check if overlay was actually fetched
     - Lawinenlage date label: style it green/red dependent on its age
@@ -157,6 +169,7 @@ UX:
     - mobile: layer controls extend screen vertically
     - "clear all" buttons which resets all overlays
     - drawn/measured elements should be always on top of all other layers
+    - date div/span of avalanche risk should have equal width as letter width of weekday abbr. is not constant 
 EXTEND:
     BASELAYERS:
         - baselayer_topo_mapycz2 & baselayer_topo_mapycz3
