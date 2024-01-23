@@ -1,20 +1,3 @@
-function getFormattedDatetimeString(datetime, hour_offset, format_type) {
-    const year =    datetime.getFullYear();
-    const month =   ('0' + (datetime.getMonth() + 1)).slice(-2);      // add 1 to month because months are zero-indexed
-    const day =     ('0' + datetime.getDate()).slice(-2);
-    const hours =   ('0' + (datetime.getHours() + hour_offset) ).slice(-2)
-    let formatted_datetime_string;
-    switch(format_type) {
-        case 'url':
-            formatted_datetime_string = `${year}-${month}-${day}_${hours}-00` 
-            break;
-        case 'legend':
-            formatted_datetime_string = `${day}.${month}.${year} ${hours}:00 Uhr`
-            break;
-    }
-    return formatted_datetime_string
-}
-
 function getActualWeather(type) {
     let time =              new Date();
     let utc_hour_offset =   time.getTimezoneOffset() / 60;

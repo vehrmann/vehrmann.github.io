@@ -172,7 +172,7 @@ var vectorTileStyling = {
 			poi_name: [],
 			road_name: [],
 			housenum_name: [],
-		};
+};
 
 		// Monkey-patch some properties for nextzen layer names, because
 		// instead of "building" the data layer is called "buildings" and so on
@@ -183,13 +183,6 @@ var vectorTileStyling = {
 		vectorTileStyling.roads      = vectorTileStyling.road;
 
 
-        var o1_url = 'https://w0.oastatic.com/map/v1/pbf/osm/{z}/{x}/{y}/t.pbf'
-        //'https://w3.oastatic.com/map/v1/pbf/osm/{z}/{x}/{y}/t.pbf'
-        var o1_options = {
-            rendererFactory:        L.canvas.tile,
-            vectorTileLayerStyles:  vectorTileStyling,
-        };
-        var o1_layer = L.vectorGrid.protobuf(o1_url, o1_options);
         
         var nextzenTilesUrl = "https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt?api_key={apikey}";
         var nextzenVectorTileOptions = {
@@ -200,10 +193,40 @@ var vectorTileStyling = {
         };
         var nextzenTilesPbfLayer = L.vectorGrid.protobuf(nextzenTilesUrl, nextzenVectorTileOptions);
         
+        var o1_url = 'https://w0.oastatic.com/map/v1/pbf/osm/{z}/{x}/{y}/t.pbf'
+        //'https://w3.oastatic.com/map/v1/pbf/osm/{z}/{x}/{y}/t.pbf'
+        var o1_options = {
+            rendererFactory:        L.canvas.tile,
+            vectorTileLayerStyles:  vectorTileStyling,
+        };
+        var o1_layer = L.vectorGrid.protobuf(o1_url, o1_options);
+
+
+        var eaws_url = 'https://static.avalanche.report/eaws_pbf/{z}/{x}/{y}.pbf'
+        var eaws_options = {
+            maxNativeZoom:          10,
+            //interactive:            true,
+            //bubblingMouseEvents:    true,
+            rendererFactory:        L.canvas.tile,
+            vectorTileLayerStyles:  vectorTileStyling,
+        };
+        var eaws_layer = L.vectorGrid.protobuf(eaws_url, eaws_options);
+        
         
         let test_layer_control = L.control.layers({
             //'Google' : create_single_tile_layer(baselayer_street_google)
             "NextZen Vector Tiles": nextzenTilesPbfLayer,
-            "O1":                   o1_layer
-        
-        }, {}).addTo(map);
+            "O1":                   o1_layer,
+            "EAWS":                 eaws_layer
+        },{}, {position: 'bottomleft'}).addTo(map);
+
+
+        /*
+        eaws_layer.on('click', function(e) {        
+            var popLocation= e.latlng;
+            alert("clco")
+        });
+        */
+       'DE-BY-11'
+       'CZ-04'
+       'CZ-06'

@@ -1,20 +1,3 @@
-// important for default opacities: grouped layers should get the same value as the initial slider value is set correspondingly 
-const default_opacity_overlay_sat =             1.0
-const default_opacity_overlay_hillshade =       0.5
-const default_opacity_overlay_openslopemap =    0.4
-const default_opacity_overlay_lawinenlage =     0.65
-const default_opacity_overlay_weather =         0.75
-const default_opacity_overlay_schutzgebiete =   0.75
-const default_opacity_overlay_wintersports =    1.0
-const default_opacity_overlay_cycling =         1.0
-const default_opacity_overlay_seamaps =         1.0
-const default_opacity_overlay_oepnv =           0.8
-const default_opacity_overlay_car =             0.9
-let chronotrains_station_id =                   '8004128'
-
-
-
-
 // BASELAYERS TOPO
 const baselayer_topo_swisstopo = {
     'url':              'https://wmts{s}.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg',
@@ -272,28 +255,32 @@ const overlay_openslopemap_ultrahigh = {
     'attribution':      '&copy; <a href="https://www.openslopemap.org/" target="_blank">OpenSlopeMap</a>'
 };
 
-
-// OVERLAYS LAWINENLAGE
-const overlay_lawinenlage_atde_am = {
-    'url':              '',                                         // serUrl is used later via fetching a json
-    'imageoverlay':     true,
-    'bbox':             null,                                       // setBounds is used later via fetching a json
-    'opacity':          default_opacity_overlay_lawinenlage,
-    'interactive':      false,
-    'className':        'overlay_lawinenlage_atde_am',
-    'name':             'Österreich & Bayern, morgens',
-    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst.bayern.de" target="_blank">Bayern</a>'
+// OVERLAYS AVALANCHERISK
+let layer_vectormap_eaws_am
+let layer_vectormap_eaws_pm
+// initialize so that layers can be called later from outside their setup-function
+const overlay_avalancherisk_am = {
+    'url':              url_eaws_vectormap,
+    'maxNativeZoom':    10,     // checked
+    //'vectoroverlay':    true,
+    //'options':          options_vectormap_eaws_am,
+    'opacity':          default_opacity_overlay_avalancherisk,
+    'interactive':      true,
+    'className':        'overlay_avalancherisk_am',
+    'name':             'Vormittag',
+    'attribution':      `&copy; <a href="${url_eaws_bulletins}" target="_blank">Bulletins</a> der Lawinenwarndienste`
 };
 
-const overlay_lawinenlage_atde_pm = {
-    'url':              '',                                         // serUrl is used later via fetching a json
-    'imageoverlay':     true,
-    'bbox':             null,                                       // setBounds is used later via fetching a json
-    'opacity':          default_opacity_overlay_lawinenlage,
-    'interactive':      false,
-    'className':        'overlay_lawinenlage_atde_pm',
-    'name':             'Österreich & Bayern, mittags',
-    'attribution':      '&copy; Lawinenwarndienste <a href="https://lawinen.report/" target="_blank">Österreich</a> & <a href="https://www.lawinenwarndienst.bayern.de" target="_blank">Bayern</a>'
+const overlay_avalancherisk_pm = {
+    'url':              url_eaws_vectormap,
+    'maxNativeZoom':    10,     // checked
+    //'vectoroverlay':    true,
+    //'options':          options_vectormap_eaws_am,
+    'opacity':          default_opacity_overlay_avalancherisk,
+    'interactive':      true,
+    'className':        'overlay_avalancherisk_pm',
+    'name':             'Nachmittag',
+    'attribution':      `&copy; <a href="${url_eaws_bulletins}" target="_blank">Bulletins</a> der Lawinenwarndienste`
 };
 
 
@@ -388,6 +375,18 @@ const overlay_weather_snowdiff = {
 };
 */
 
+
+// OVERLAYS SCHUTZGEBIETE
+const overlay_schutzgebiete_rotwand = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
+    'featuregroup':     true,
+    'opacity':          default_opacity_overlay_schutzgebiete,
+    'name':             'Rotwandgebiet',
+    //'attribution':      'XXX'     // maybe link to overpass-query?
+};
+
+
 // OVERLAYS WINTERSPORTS
 const overlay_wintersports_opensnowmap = {
     'url':              'https://tiles.opensnowmap.org/{s}/{z}/{x}/{y}.png',
@@ -408,35 +407,6 @@ const overlay_wintersports_skirouten_av_sac = {
     'name':             'Skirouten AV/SAC',
 };
 
-
-// OVERLAYS SCHUTZGEBIETE
-const overlay_schutzgebiete_rotwand = {
-    //'minZoom':          x,      // xx
-    //'maxNativeZoom':    x,     // xx
-    'featuregroup':     true,
-    'opacity':          default_opacity_overlay_schutzgebiete,
-    'name':             'Rotwandgebiet',
-    //'attribution':      'XXX'     // maybe link to overpass-query?
-};
-
-// OVERLAYS ÖPNV
-const overlay_oepnv_oepnvkarte = {
-    'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
-    'minZoom':          3,      // checked
-    'maxNativeZoom':    17,     // checked
-    'opacity':          default_opacity_overlay_oepnv,
-    'name':             'ÖPNV-Karte',
-    'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
-};
-
-const overlay_oepnv_chronotrains = {
-    //'minZoom':          x,      // xx
-    //'maxNativeZoom':    x,     // xx
-    'featuregroup':     true,
-    'opacity':          default_opacity_overlay_oepnv,
-    'name':             'ChronoTrains',
-    'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
-};
 
 // OVERLAYS CYCLING
 const overlay_cycling_cyclosm = {
@@ -459,6 +429,27 @@ const overlay_cycling_cyclosmlite = {
     'attribution':      '&copy; <a href="https://www.cyclosm.org/" target="_blank">CyclOSM</a>'
 };
 
+
+// OVERLAYS ÖPNV
+const overlay_oepnv_oepnvkarte = {
+    'url':              'https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png',
+    'minZoom':          3,      // checked
+    'maxNativeZoom':    17,     // checked
+    'opacity':          default_opacity_overlay_oepnv,
+    'name':             'ÖPNV-Karte',
+    'attribution':      '&copy; <a href="https://www.xn--pnvkarte-m4a.de" target="_blank">ÖPNVKarte</a>'
+};
+
+const overlay_oepnv_chronotrains = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
+    'featuregroup':     true,
+    'opacity':          default_opacity_overlay_oepnv,
+    'name':             'ChronoTrains',
+    'attribution':      `&copy; <a href="https://www.chronotrains.com/de/station/${chronotrains_station_id}" target="_blank">ChronoTrains</a>`
+};
+
+
 // OVERLAYS CAR
 const overlay_car_highways_toll_without_motorway = {
     //'minZoom':          x,      // xx
@@ -468,6 +459,7 @@ const overlay_car_highways_toll_without_motorway = {
     'name':             'Mautstraßen (ohne Autobahnen)',
     //'attribution':      'XXX'     // maybe link to overpass-query?
 };
+
 
 // OVERLAYS SEAMAPS
 const overlay_seamaps_openseamap = {
