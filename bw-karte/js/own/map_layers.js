@@ -268,7 +268,7 @@ const overlay_avalancherisk_am = {
     'interactive':      true,
     'className':        'overlay_avalancherisk_am',
     'name':             'Vormittag',
-    'attribution':      `&copy; <a href="${url_eaws_bulletins}" target="_blank">Bulletins</a> der Lawinenwarndienste`
+    'attribution':      `&copy; <a href="${url_eaws_bulletins}yyyy-mm-dd" target="_blank">Bulletins</a> der Lawinenwarndienste`
 };
 
 const overlay_avalancherisk_pm = {
@@ -280,7 +280,7 @@ const overlay_avalancherisk_pm = {
     'interactive':      true,
     'className':        'overlay_avalancherisk_pm',
     'name':             'Nachmittag',
-    'attribution':      `&copy; <a href="${url_eaws_bulletins}" target="_blank">Bulletins</a> der Lawinenwarndienste`
+    'attribution':      `&copy; <a href="${url_eaws_bulletins}yyyy-mm-dd" target="_blank">Bulletins</a> der Lawinenwarndienste`
 };
 
 

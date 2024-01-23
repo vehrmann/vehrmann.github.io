@@ -126,7 +126,7 @@ function createAvalancheRiskMaps() {
                     'micro-regions':            { stroke: false, fill: false },
                     'micro-regions_elevation':  generateStyles(time_period)
                 },
-                attribution:            overlay.attribution
+                attribution:            overlay.attribution.replace('yyyy-mm-dd', url_eaws_bulletins_date)
             };
 
             let layer_vectormap_eaws = L.vectorGrid.protobuf(overlay.url, options_vectormap_eaws);

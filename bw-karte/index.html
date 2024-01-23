@@ -69,7 +69,7 @@
     <script src="./js/own/map_controls_tools.js"></script>
     <script src="./js/own/map_keyboardcontrols.js"></script>
 
-    <script src="./js/own/map_layer_lawinenlage_vector.js"></script>
+    <script src="./js/own/map_layers_avalancherisk_vector.js"></script>
     <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
     <script>
@@ -111,7 +111,7 @@ BUGS:
     - Schutzgebiete and car overlays opacities in gpx-script are hardcoded
     - find out in chrome inspector where opacity of chronotrains is changed 
 IMPROVEMENTS:
-    - include date picker for avalanche risk
+    - include date picker for avalanche risk        // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
     - for avalanche risk overlay, include "aktualisiert"
     - in general_functions.js, combine the two getFormattedDatetime(String) functions into one
     - include chronotrain-json-fetching into general functions
@@ -159,7 +159,7 @@ DATA:
     - make toll roads clickable with information about times, who has to pay, fee
     - distill gpx data, maybe use python
     - save overpass queries as source code
-    - hwen using hgt, mention data source as attribution
+    - when using hgt, mention data source as attribution
 LEGENDS:
     - Lawinenlage
     - OpenSlopeMap
