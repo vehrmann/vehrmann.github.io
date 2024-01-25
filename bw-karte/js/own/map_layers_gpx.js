@@ -44,3 +44,29 @@ new L.GPX(gpx_path,
     let gpx = e.target;
     car_maps[overlay_car_highways_toll_without_motorway.name].addLayer(gpx);
 });
+
+
+const jsonFileUrl = './gpx/at_autobahnabschnitte_mautfrei_output.geojson';
+fetch(jsonFileUrl)
+.then(response => {
+    if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    
+    // Parse the JSON from the response
+    return response.json();
+})
+.then(data => {
+    layer_at_motorway_wo_toll = L.geoJSON(data, {
+        onEachFeature: function (feature, layer) {
+            if (feature.properties && feature.properties.name) {
+                layer.bindPopup(feature.properties.name);
+            }
+        }
+    })
+    
+    car_maps[overlay_car_at_motorway_wo_toll.name].addLayer(layer_at_motorway_wo_toll);
+})
+.catch(error => {
+    console.error('Error fetching JSON:', error.message);
+});
