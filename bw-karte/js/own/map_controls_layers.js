@@ -69,6 +69,7 @@ let schutzgebiete_maps_list = [
 let wintersports_maps_list = [
     overlay_wintersports_opensnowmap,
     overlay_wintersports_skirouten_av_sac,
+    overlay_wintersports_skitourenabende
 ];
 
 
@@ -85,7 +86,8 @@ let oepnv_maps_list = [
 
 
 let car_maps_list = [
-    overlay_car_highways_toll_without_motorway
+    overlay_car_highways_toll_without_motorway,
+    overlay_car_at_motorway_wo_toll
 ];
 
 
@@ -151,6 +153,11 @@ function create_single_tile_layer(layer_object) {
                             attribution:    layer_object.attribution
                         };
         tile_layer = L.featureGroup(null, layer_options);       // layer is added later
+    
+    // GeoJSON (Skitourenabende)
+    } else if (layer_object.geojson) {
+        layer_options = {};
+        tile_layer = L.geoJSON(null, layer_options);            // layer is added later
 
     // WMS
     } else if (layer_object.wms) {
