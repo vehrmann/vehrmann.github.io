@@ -11,8 +11,14 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
+        <!-- <canvas id="canvas_avalanchecompass" width="250" height="250" style="border: 1px solid #000;"></canvas> -->
         <div id="map"></div>
     </body>
+    <!-- flatpickr (datetime picker) / https://github.com/flatpickr/flatpickr -->
+    <!-- consider npm import 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
+
     <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
     <script src="./node_modules/leaflet.vectorgrid/dist/Leaflet.VectorGrid.bundled.min.js"></script>
 
@@ -35,6 +41,10 @@
     <!-- LEAFLET Geosearch (search functionality) / https://github.com/smeijer/leaflet-geosearch -->
     <link rel="stylesheet" href="./node_modules/leaflet-geosearch/dist/geosearch.css" />
     <script src="./node_modules/leaflet-geosearch/dist/geosearch.umd.js"></script>
+
+    <!-- LEAFLET Coordinates (mouseclick coordinates) / https://github.com/zimmicz/Leaflet-Coordinates-Control -->
+    <link rel="stylesheet" href="./js/imports/Control.Coordinates.css">
+    <script src="./js/imports/Control.Coordinates.js"></script>
 
     <!-- LEAFLET Measure (distance and area measurement) / https://github.com/ptma/Leaflet.Measure -->
     <link rel="stylesheet" href="./js/imports/leaflet.measure.css">
@@ -70,11 +80,33 @@
     <script src="./js/own/map_keyboardcontrols.js"></script>
 
     <script src="./js/own/map_layers_avalancherisk_vector.js"></script>
+    <script src="./js/own/dev_avalanche_compass.js"></script>
     <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
+    <script src="./js/own/map_layer_skitourenabende.js"></script>
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
     <script>
         group_map_control();                                            // only group layer-entries after GPX-files are loaded
     </script>
+    <!-- https://github.com/teastman/Leaflet.pattern
+    <script src="./js/imports/leaflet.pattern.js"></script>
+    <script>
+        // potentially useful for avalanche risk level 5 (red-black striped)
+        let stripes = new L.StripePattern({
+                                weight:         4,
+                                spaceWeight:    4,
+                                color:          'red',
+                                spaceColor:     'black',
+                                opacity:        1,
+                                spaceOpacity:   1
+        }).addTo(map);
+
+        var circle = new L.Circle(general_map_settings.center, 4000.0, {
+                                fillPattern:    stripes,
+                                stroke:         false,
+                                fillOpacity:    1
+        }).addTo(map);
+    </script>
+    -->
 
 
     <!-- <script src="./js/own/dev_altitude.js"></script> -->
@@ -91,10 +123,8 @@
     -->
 </html>
 
-
 <!-- https://github.com/dayjournal/Leaflet.Control.Opacity -->
 <!-- https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup + https://github.com/Leaflet/Leaflet.markercluster -->
-<!-- https://github.com/zimmicz/Leaflet-Coordinates-Control -->
 
 
 <!--
@@ -111,6 +141,7 @@ BUGS:
     - Schutzgebiete and car overlays opacities in gpx-script are hardcoded
     - find out in chrome inspector where opacity of chronotrains is changed 
 IMPROVEMENTS:
+    - include go-to button or similar for layers (e.g. schutzgebiete)
     - include date picker for avalanche risk        // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
     - for avalanche risk overlay, include "aktualisiert"
     - in general_functions.js, combine the two getFormattedDatetime(String) functions into one
@@ -147,6 +178,10 @@ IMPROVEMENTS:
     - gpx import
     - check where class names for elements (especially layers) make sense and where/how they are defined
     - redraw icons with consistent line thickness
+    - own icon for skitourenabende
+    - marker cluster for skitourenabende
+    - fetch skitourenabende data from json file and not from within script
+    - load layers etc. only when respective button is toggled, esp. for larger stuff such as avalanche risk
 DATA:
     - make avalanche risk regions clickable for further details (problems, directions, report,...)
     - historical weather overlays might have different bbounds
@@ -160,6 +195,9 @@ DATA:
     - distill gpx data, maybe use python
     - save overpass queries as source code
     - when using hgt, mention data source as attribution
+    - Nachtskitouren
+    - Slopes Switzerland and others
+    - w3w
 LEGENDS:
     - Lawinenlage
     - OpenSlopeMap
