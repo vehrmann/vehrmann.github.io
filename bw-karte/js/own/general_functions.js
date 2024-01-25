@@ -1,3 +1,21 @@
+// Function to check if an url exists
+function checkURL(url) {
+    return fetch(url)
+        .then(response => {
+            if (response.ok) {
+                //console.log('URL exists:', url);
+                return response;
+            } else {
+                throw new Error(`URL does not exist: ${url}`);
+            }
+        })
+        .catch(error => {
+            //console.error(error.message);
+            return false;
+        });
+}
+
+
 // Function to fetch the header of an url (e.g. to check weather image-overlays)
 function fetchHeader(url, header_item) {
     try {
