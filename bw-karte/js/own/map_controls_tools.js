@@ -76,8 +76,15 @@ function getMapscaleControl() {
 }
 
 
+const coordinates_control = new L.Control.Coordinates();
+map.on('click', function(e) {
+	coordinates_control.setCoordinates(e);
+});
+
+
 map.addControl(getFullscreenControl());
 map.addControl(getLocateControl());
 map.addControl(getSearchControl());
 map.addControl(getMeasureControl());
+map.addControl(coordinates_control);
 map.addControl(getMapscaleControl());
