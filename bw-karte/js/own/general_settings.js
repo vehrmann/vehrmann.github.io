@@ -64,11 +64,13 @@ const color_avalancherisk_1 =       '#ccff66'    // low
 const color_avalancherisk_2 =       '#ffff00'    // moderate
 const color_avalancherisk_3 =       '#ff9900'    // considerable
 const color_avalancherisk_4 =       '#ff0000'    // high
+const color_avalancherisk_5 =       '#000000'    // very high
 const colors_avalancherisk =        [   color_avalancherisk_0, 
                                         color_avalancherisk_1,
                                         color_avalancherisk_2, 
                                         color_avalancherisk_3,
-                                        color_avalancherisk_4
+                                        color_avalancherisk_4,
+                                        color_avalancherisk_5
                                     ]
 const fill_opacity_avalancherisk =  1
 
