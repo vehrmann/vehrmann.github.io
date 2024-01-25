@@ -73,7 +73,7 @@ body {
 }
 
 .layer-control-avalancherisk a {
-	background-image: url(../icons/avalanche2.png) !important;
+	background-image: url(../icons/avalanche.png) !important;
     background-size: 36px !important;
 }
 
@@ -115,6 +115,12 @@ body {
 /* END: CONTROL ICONS */
 
 
+/* START: POPUP ICONS */
+.icon_avalancheproblems {
+    width: 100px;
+}
+/* END: POPUP ICONS */
+
 
 /* START: LAYER CONTROLS */
 /* smaller margins so that control buttons are closer together */
@@ -139,7 +145,28 @@ body {
     width: 7em;
 }
 
-.datepicker-arrow {
+/* hide avalancherisk_datepicker_input as displaying is done via span.textContent due to styling reasons */
+.avalancherisk_datepicker_input {
+    width:      0px;
+    border:     0px;
+    margin:     0px;
+    padding:    0px
+}
+.avalancherisk_datepicker_arrow_left {
+    margin-right: 5px;
+}
+.avalancherisk_datepicker_arrow_right {
+    margin-left: 5px;
+}
+.avalancherisk_datepicker_span {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+.avalancherisk_datepicker_arrow_left,
+.avalancherisk_datepicker_arrow_right,
+.avalancherisk_datepicker_span {
+    font-size: 14px;
     cursor: pointer;
 }
 /* END: LAYER CONTROLS */
