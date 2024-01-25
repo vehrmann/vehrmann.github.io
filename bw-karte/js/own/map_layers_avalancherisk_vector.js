@@ -1,9 +1,102 @@
-let current_date = new Date();
-let am_chosen, pm_chosen = false;
-let control_is_expanded = false;
+let current_date =                  new Date();
+let am_chosen, pm_chosen =          false;
+let control_is_expanded =           false;
 let opacity_overlay_avalancherisk = default_opacity_overlay_avalancherisk;
+var input_date_visible = false;
+
+
+// Function to find the region in a specific bulletin (=json-data)
+function findRegionWithinBulletin(bulletin_json_data, target_region) {
+    console.log("target_region", target_region)
+    console.log("bulletin_json_data", bulletin_json_data)
+    const bulletins = bulletin_json_data.bulletins;
+
+    for (const bulletin of bulletins) {
+        const regions = bulletin.regions;
+
+        for (const region of regions) {
+            if (region.regionID === target_region) {
+                // Found the bulletin for the target region
+                return bulletin;
+            }
+        }
+    }
+
+    // If no bulletin is found for the target region
+    return null;
+}
+
+// Function to get a region bulletin with fallbacks
+function getRegionBulletin(url) {
+    return checkURL(url)
+    .then(result => {
+        if (result) {
+            // Return the url if checkURL succeeded
+            return url;
+        } else {
+            // Modify url by removing the last region part after the last dash (changes region from e.g. DE-BY-51 to DE-BY)
+            let last_dash_index = url.lastIndexOf('-');
+            if (last_dash_index !== -1) {
+                let url_extension = url.substring(url.lastIndexOf('.')); // Keeps e.g., .json
+                url = url.substring(0, last_dash_index) + url_extension;
+
+                // Recursively try with the modified URL
+                return getRegionBulletin(url);
+            } else {
+                // If all attempts fail, return false
+                return false;
+            }
+        }
+    });
+}
+
+// Function to find and read bulletin of a clicked region, read its avalanche problems and show them as icons in a popup
+function setupPopup(layer, url_eaws_bulletins_date) {
+    layer.bindPopup();
+
+    layer.on('click', async function (event) {
+        let properties = event.layer.properties;
+        let region = properties.id;
+        let bulletin_url = `${url_eaws_bulletins}${url_eaws_bulletins_date}/${url_eaws_bulletins_date}-${region}${slug_eaws_bulletin}.json`;
+        let popup_content = `No bulletin found for region ${region}`;
+
+        try {
+            const valid_bulletin_url = await getRegionBulletin(bulletin_url);
+
+            if (!valid_bulletin_url) {
+                throw new Error('All attempts failed. No valid URL found.');
+            }
+
+            const response = await fetch(valid_bulletin_url);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const json_data = await response.json();
+
+            const region_bulletin = findRegionWithinBulletin(json_data, region);
+            if (region_bulletin) {
+                const icon_list = region_bulletin.avalancheProblems.map(problem => {
+                    let img = `<img src="./icons/avalancheproblems_${problem.problemType}_c.webp"
+                                    alt="${problem.problemType}"
+                                    class="icon_avalancheproblems">`;
+                    return img;
+                });
+                popup_content = `<h4>Bulletin for region ${region}</h4>` + icon_list.join('\n');
+            }
+
+        } catch (error) {
+            console.error(`Error during popup setup for region ${region}:`, error);
+        }
+        this.setPopupContent(popup_content);
+        this.openPopup();
+    });
+}
+
 
 function createAvalancheRiskMaps() {
+
     let url_eaws_bulletins_date = getFormattedDatetime(current_date, null, 'yyyy-mm-dd')
 
     // Create a list with bulletin-ratings.json-file-URLs from all regions
@@ -142,23 +235,18 @@ function createAvalancheRiskMaps() {
             return layer_vectormap_eaws
         };
 
+
         // Create avalanche risk vector map layers
         layer_vectormap_eaws_am = createAvalancheRiskLayer(overlay_avalancherisk_am, 'am', am_chosen);
         layer_vectormap_eaws_pm = createAvalancheRiskLayer(overlay_avalancherisk_pm, 'pm', pm_chosen);
 
-        /*
-        layer_vectormap_eaws_am.on('click', function (event) {
-            let properties = event.layer.properties
-            console.log('Clicked on feature: ', properties);
-            let popup = L.popup()
-                            .setLatLng(event.latlng)        // Set the position of the popup based on the click event
-                            .setContent(`ID: ${properties.id} / elevation: ${properties.elevation}`);   // Set the content of the popup
-            popup.addTo(map);
-        });
-        */
+
+        // Setup popups for each avalanche-risk layer to show more detailed information when a region is clicked
+        setupPopup(layer_vectormap_eaws_am, url_eaws_bulletins_date);
+        setupPopup(layer_vectormap_eaws_pm, url_eaws_bulletins_date);
 
 
-        // add header to the control group
+        // Add header to the control group
         let group_headers = {
             ['Vormittag']:  {   'header':           'Lawinenlage',
                                 'first_item':       true,
@@ -169,67 +257,96 @@ function createAvalancheRiskMaps() {
 
         let labels = document.querySelectorAll('.leaflet-control-layers-base label, .leaflet-control-layers-overlays label');
         add_headers(labels, group_headers);
-        
-        // Needed for toggling am vs. pm and storing visibility when bulletin date is changed
-        let checkboxes = document.querySelectorAll('.layer-control-avalancherisk input[type="checkbox"]')
 
-        // Insert date span and arrows
-        const header_element =      document.querySelector('.layer-control-avalancherisk .leaflet-control-layers-custom-header');
-        const div_date_control =    document.createElement('div');
-        const span_date =           document.createElement('span');
-        const span_leftarrow =      document.createElement('span');
-        const span_rightarrow =     document.createElement('span');
 
-        // Set the initial date and content for the date span
-        span_date.textContent =         getFormattedDatetime(current_date, 'de-DE', 'DD, dd.mm.yyyy')
-        span_leftarrow.textContent =    '◄ ';
-        span_rightarrow.textContent =   ' ►';
-        span_leftarrow.className =      'datepicker-arrow';
-        span_rightarrow.className =     'datepicker-arrow';
-
-        // Add event listeners to the arrows for changing the date
+        // Add event listeners to the datepicker arrows as well as when chosing date from datepicker calendar for changing the date of the data
         function handleDateChange(date_offset) {
             current_date.setDate(current_date.getDate() + date_offset);
-            span_date.textContent = getFormattedDatetime(current_date, 'de-DE', 'DD, dd.mm.yyyy');
-        
+            input_date.value = getFormattedDatetime(current_date, null, 'yyyy-mm-dd');
+            
+            //span_date.textContent = input_date.value //getFormattedDatetime(current_date, null, 'DD, dd.mm.yyyy');   //XXX
+            span_date.textContent = getFormattedDatetime( new Date(input_date.value), null, 'DD, dd.mm.yyyy')       // set the new date     //XXX
+
             am_chosen = checkboxes[0].checked;
             pm_chosen = checkboxes[1].checked;
-        
+
             map.removeLayer(layer_vectormap_eaws_am);
             map.removeLayer(layer_vectormap_eaws_pm);
-        
+
             layer_control_avalancherisk.removeLayer(layer_vectormap_eaws_am);
             layer_control_avalancherisk.removeLayer(layer_vectormap_eaws_pm);
             control_is_expanded = true;
             createAvalancheRiskMaps();
         }
-        
+
+        // Needed for toggling am vs. pm and storing visibility when bulletin date is changed
+        let checkboxes = document.querySelectorAll('.layer-control-avalancherisk input[type="checkbox"]')
+
+        // Create div + date span + arrows
+        let div_date_control =  document.createElement('div');
+        let input_date =        document.createElement('input');
+        input_date.type =       'date'
+        let span_date =         document.createElement('span');
+        let span_leftarrow =    document.createElement('span');
+        let span_rightarrow =   document.createElement('span');
+
+        // Set the initial date and content for the date span
+        input_date.value =              getFormattedDatetime(current_date, null, 'yyyy-mm-dd')
+        //span_date.textContent =         input_date.value;   //XXX
+        span_date.textContent =         getFormattedDatetime( new Date(input_date.value), null, 'DD, dd.mm.yyyy')   //XXX
+        span_leftarrow.textContent =    '◄';
+        span_rightarrow.textContent =   '►';
+        input_date.className =          'avalancherisk_datepicker_input'
+        span_date.className =           'avalancherisk_datepicker_span'
+        span_leftarrow.className =      'avalancherisk_datepicker_arrow_left';
+        span_rightarrow.className =     'avalancherisk_datepicker_arrow_right';
+
         span_leftarrow.addEventListener('click', function () {
             handleDateChange(-1);
         });
-        
+
         span_rightarrow.addEventListener('click', function () {
             handleDateChange(1);
         });
 
-        // Append the spans to the date control container
-        div_date_control.appendChild(span_leftarrow);
-        div_date_control.appendChild(span_date);
-        div_date_control.appendChild(span_rightarrow);
+        let input_date_visible = false;
+        span_date.addEventListener('click', function () {
+            if (input_date_visible) {
+                input_date_visible = false
+                //when clicked next to picker, next toggle needs to take place 2x
+            } else {
+                input_date.showPicker();                        // opens datepicker calendar
+                input_date_visible = true
+            }
+        });
 
-        // Insert the container after the header element
+        input_date.addEventListener('change', function () {
+
+            const date_components = span_date.textContent.split(', ')[1].split('.');
+            const day =     parseInt(date_components[0], 10);
+            const month =   parseInt(date_components[1], 10) - 1; // Months are zero-based in JavaScript
+            const year =    parseInt(date_components[2], 10);
+
+            let date_offset = ( new Date(input_date.value) - new Date(year, month, day) ) / (24*60*60*1000)    //XXX
+            handleDateChange(date_offset)
+        });
+
+        // Append the spans to the date control container, input_date will be invisible and is only needed to show calendar when span_date is clicked
+        div_date_control.append(span_leftarrow, span_date, input_date, span_rightarrow);
+
+        // Insert the div_date_control after the header element
+        let header_element = document.querySelector('.layer-control-avalancherisk .leaflet-control-layers-custom-header');
         header_element.insertAdjacentElement('afterend', div_date_control);
 
+        // Ensures that only one checkbox is checked at a time: if both checkboxes are checked, click the other one so the respective avalancherisk-overlay is hidden
         checkboxes.forEach(this_checkbox => {
             this_checkbox.addEventListener('change', function () {
-                const other_checkbox = Array.from(checkboxes).find(cb => cb !== this_checkbox);
-                // if both checkboxes are checked, click the other one so the respective avalancherisk-overlay is hidden
+                let other_checkbox = Array.from(checkboxes).find(cb => cb !== this_checkbox);
                 if ( other_checkbox.checked && this_checkbox.checked ) {
                     other_checkbox.click()
                     am_chosen = !am_chosen
                     pm_chosen = !pm_chosen
                 }
-                // else: both avalancherisk-overlays are hidden
             });
         });
     })
