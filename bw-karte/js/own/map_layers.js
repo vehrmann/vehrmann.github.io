@@ -407,6 +407,11 @@ const overlay_wintersports_skirouten_av_sac = {
     'name':             'Skirouten AV/SAC',
 };
 
+const overlay_wintersports_skitourenabende = {
+    'geojson':          true,
+    'name':             'Skitourenabende',
+};
+
 
 // OVERLAYS CYCLING
 const overlay_cycling_cyclosm = {
@@ -458,6 +463,11 @@ const overlay_car_highways_toll_without_motorway = {
     'opacity':          default_opacity_overlay_car,
     'name':             'Mautstraßen (ohne Autobahnen)',
     //'attribution':      'XXX'     // maybe link to overpass-query?
+};
+
+const overlay_car_at_motorway_wo_toll = {
+    'geojson':          true,
+    'name':             'Mautfreie Autobahnabschnitte Österreich',
 };
 
 
