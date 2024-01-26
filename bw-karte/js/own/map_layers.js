@@ -25,12 +25,14 @@ const baselayer_topo_alpenkarteeu = {
     'name':             'Alpenkarte.eu'
 };
 
+
 const baselayer_topo_stamen = {
     'url':              'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png',
     'minZoom':          3,      // checked
     'maxNativeZoom':    15,     // checked, kann auch weiter gezoomt werden, aber dann wird Relief nicht angezeigt und zu viele Straßendetails etc. werden sichtbar
     'name':             'Stamen'
 };
+
 
 const baselayer_topo_bergfex = {
     'url':              'https://tiles.berg fex.at/styles/berg fex-osm/{z}/{x}/{y}{r}.jpg',
@@ -65,7 +67,7 @@ const baselayer_topo_freemapsk = {
 
 const baselayer_topo_mapycz = {     // Wanderkarte
     'url':              'https://{s}.mapy.cz/turist-en/{z}-{x}-{y}',
-    'subdomains':       ['windytiles'],
+    'subdomains':       ['wind y tiles'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz'
@@ -73,14 +75,14 @@ const baselayer_topo_mapycz = {     // Wanderkarte
 
 const baselayer_topo_mapycz2 = {    // Basiskarte
     'url':              'https://{s}.mapy.cz/base-en/{z}-{x}-{y}',
-    'subdomains':       ['windytiles'],
+    'subdomains':       ['wind y tiles'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz2'
 };
 
 const baselayer_topo_mapycz3 = {    // Winterkarte
-    'url':              'https://windytiles.mapy.cz/winter-en{s}/{z}-{x}-{y}',
+    'url':              'https://wind y tiles.mapy.cz/winter-en{s}/{z}-{x}-{y}',
     'subdomains':       ['', '-down'],
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
@@ -97,7 +99,7 @@ const baselayer_topo_mtbmapcz = {
 
 const baselayer_topo_kartverketnoraster = {
     'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}',
-    // also available as wms
+    // also available as WMS
     'minZoom':          3,      // checked
     'maxNativeZoom':    20,     // checked
     'name':             'Kartverket.no Raster'
@@ -105,7 +107,7 @@ const baselayer_topo_kartverketnoraster = {
 
 const baselayer_topo_kartverketnovector = {
     'url':              'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}',
-    'wms':              true,                   // only available as WMS
+    'wms':              true,   // only available as WMS
     'minZoom':          3,      // checked
     'maxNativeZoom':    20,     // checked
     'name':             'Kartverket.no Vector'
@@ -468,6 +470,31 @@ const overlay_car_highways_toll_without_motorway = {
 const overlay_car_at_motorway_wo_toll = {
     'geojson':          true,
     'name':             'Mautfreie Autobahnabschnitte Österreich',
+};
+
+const overlay_car_at_asfinag_toll = {
+    'url':              'https://odo.asfinag.at/wmts/geoserver/maps/wms?service=WMS&request=GetMap&styles=&format=image%2Fpng&transparent=true&version=1.1.1&tiled=true&exceptions=application%2Fvnd.ogc.se_inimage&tilesOrigin=-250000%2C-250000&width=256&height=256&srs=EPSG%3A3857',    
+    'wms':              true,
+    'layers':           'maps%3Agrp_verkauf',
+
+    /*
+    &request=GetMap
+    &layers=maps%3Agrp_verkauf
+    &styles=
+    &format=image%2Fpng
+    &transparent=true
+    &version=1.1.1
+    &tiled=true
+    &exceptions=application%2Fvnd.ogc.se_inimage
+    &tilesOrigin=-250000%2C-250000
+    &width=256&height=256
+    &srs=EPSG%3A3857
+    &bbox=1252344.2714243277,5948635.289265559,1565430.3392804097,6261721.357121641'
+    */
+    //'minZoom':          3,      // checked
+    //'maxNativeZoom':    18,     // checked
+    //'opacity':          default_opacity_overlay_sat,
+    'name':             'ASFINAG'
 };
 
 
