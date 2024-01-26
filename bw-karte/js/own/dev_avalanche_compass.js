@@ -2,6 +2,10 @@
 // coords start at lower left corner (?)
 const canvas =              document.getElementById('canvas_avalanchecompass')
 const ctx =                 canvas.getContext('2d')
+
+const canvas2 =             document.getElementById('canvas_avalancheproblems')
+const ctx2 = canvas2.getContext("2d");
+
 ctx.textAlign =             'center'
 ctx.textBaseline =          'middle'
 const center_x =            canvas.width / 2
@@ -183,6 +187,41 @@ function drawCircleSegments(circles) {
         let critical_zones =        circle.critical_zones
         let draw_directions =       (i === 0) ? true : false
         drawCircleSegment(circle_radii[i], avalanche_risk, critical_zones, altitude, draw_directions, key)
+        //alert(`risk: ${avalanche_risk} / problem: ${avalanche_problems}`)
+
+        let img = new Image();
+        let src = `./icons/avalancheproblems_${avalanche_problems[0]}_c.webp`;
+        
+        let offset_y = 30
+        let y_img = i * 100 + offset_y
+        let y_rect = 25 + i * (50 + 50) + offset_y
+        img.src = src
+
+        img.onload = function() {
+            ctx2.drawImage(img, 100, y_img, 80, 80);
+
+            // Draw a rectangle to the left of the image
+            ctx2.fillStyle = colors_avalancherisk[avalanche_risk];
+            ctx2.fillRect(25, y_rect, 50, 50);
+
+            // Draw text under the image
+            ctx2.fillStyle =    "black"; // You can change the text color here
+            ctx2.font =         "14px sans-serif"; // You can change the font and size here
+            ctx2.textAlign =    "center"
+            ctx2.textBaseline = "middle"
+            var text =          avalancheproblems_translations[avalanche_problems[0]].de
+            var x =             100 + 40
+            var y =             y_img + 80 + 10
+            ctx2.fillText(text, x, y);
+            
+
+            // Draw text in the middle of the rectangle
+            ctx2.font =         "40px sans-serif"; // You can change the font and size here
+            var text =          avalanche_risk
+            var x =             50
+            var y =             y_rect + 27
+            ctx2.fillText(text, x, y);
+        };
         i += 1
     }
 }
@@ -253,7 +292,7 @@ let circles_4 = {
                 }
 }
 
-drawCircleSegments(circles_1)
+drawCircleSegments(circles_2)
 
 
 

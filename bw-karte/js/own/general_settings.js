@@ -73,6 +73,15 @@ const colors_avalancherisk =        [   color_avalancherisk_0,
                                         color_avalancherisk_5
                                     ]
 const fill_opacity_avalancherisk =  1
+const avalancheproblems_translations =   {
+    'wind_slab':                {'de':  'Triebschnee'},
+    'persistent_weak_layers':   {'de':  'Altschnee'},
+    'new_snow':                 {'de':  'Neuschnee'},
+    'wet_snow':                 {'de':  'Nassschnee'},
+    'gliding_snow':             {'de':  'Gleitschnee'},
+    'cornice_failure':          {'de':  'Wechtenbruch'}
+    
+}
 
 
 // CHRONOTRAINS
