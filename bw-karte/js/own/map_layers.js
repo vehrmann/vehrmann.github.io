@@ -66,16 +66,14 @@ const baselayer_topo_freemapsk = {
 };
 
 const baselayer_topo_mapycz = {     // Wanderkarte
-    'url':              'https://{s}.mapy.cz/turist-en/{z}-{x}-{y}',
-    'subdomains':       ['wind y tiles'],
+    'url':              'https://wind y tiles.mapy.cz/turist-en/{z}-{x}-{y}',
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz'
 };
 
 const baselayer_topo_mapycz2 = {    // Basiskarte
-    'url':              'https://{s}.mapy.cz/base-en/{z}-{x}-{y}',
-    'subdomains':       ['wind y tiles'],
+    'url':              'https://wind y tiles.mapy.cz/base-en/{z}-{x}-{y}',
     'minZoom':          3,      // checked
     'maxNativeZoom':    19,     // checked
     'name':             'Mapy.cz2'
