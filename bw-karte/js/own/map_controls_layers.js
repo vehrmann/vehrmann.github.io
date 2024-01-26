@@ -3,7 +3,7 @@ let base_maps_list = [                                  // list with all map ser
     baselayer_topo_swisstopo,
     baselayer_topo_opentopomap,
     baselayer_topo_alpenkarteeu,
-    baselayer_topo_stamen,
+    //baselayer_topo_stamen,                            // excluded as it is not public anymore
     baselayer_topo_bergfex,
     baselayer_topo_various,
     baselayer_topo_alpenverein,
@@ -87,7 +87,8 @@ let oepnv_maps_list = [
 
 let car_maps_list = [
     overlay_car_highways_toll_without_motorway,
-    overlay_car_at_motorway_wo_toll
+    overlay_car_at_motorway_wo_toll,
+    overlay_car_at_asfinag_toll
 ];
 
 
