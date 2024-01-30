@@ -56,9 +56,11 @@ function setupPopup(layer, url_eaws_bulletins_date) {
 
     layer.on('click', async function (event) {
         let properties = event.layer.properties;
-        let region = properties.id;
-        let bulletin_url = `${url_eaws_bulletins}${url_eaws_bulletins_date}/${url_eaws_bulletins_date}-${region}${slug_eaws_bulletin}.json`;
-        let popup_content = `No bulletin found for region ${region}`;
+        let region_url = properties.id;
+        let bulletin_url = `${url_eaws_bulletins}${url_eaws_bulletins_date}/${url_eaws_bulletins_date}-${region_url}${slug_eaws_bulletin}.json`;
+
+        let region_popup = region_url.replace(/-/g, '‑');      // replace regular - with non-breaking hyphen
+        let popup_content = `Konnte für ${getFormattedDatetime(current_date, 'de-DE', 'DD, dd.mm.yyyy')} keinen Lawinenlagebericht für Region ${region_popup} finden`;
 
         try {
             const valid_bulletin_url = await getRegionBulletin(bulletin_url);
@@ -75,7 +77,7 @@ function setupPopup(layer, url_eaws_bulletins_date) {
 
             const json_data = await response.json();
 
-            const region_bulletin = findRegionWithinBulletin(json_data, region);
+            const region_bulletin = findRegionWithinBulletin(json_data, region_url);
             if (region_bulletin) {
                 const icon_list = region_bulletin.avalancheProblems.map(problem => {
                     let img = `<img src="./icons/avalancheproblems_${problem.problemType}_c.webp"
@@ -83,11 +85,11 @@ function setupPopup(layer, url_eaws_bulletins_date) {
                                     class="icon_avalancheproblems">`;
                     return img;
                 });
-                popup_content = `<h4>Bulletin for region ${region}</h4>` + icon_list.join('\n');
+                popup_content = `<h4>Lawinenlagebericht für ${getFormattedDatetime(current_date, 'de-DE', 'DD, dd.mm.yyyy')} für Region ${region_popup}</h4>` + icon_list.join('\n');
             }
 
         } catch (error) {
-            console.error(`Error during popup setup for region ${region}:`, error);
+            console.error(`Error during popup setup for region ${region_url}:`, error);
         }
         this.setPopupContent(popup_content);
         this.openPopup();
