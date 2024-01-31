@@ -57,6 +57,7 @@ function setupPopup(layer, url_eaws_bulletins_date) {
     layer.on('click', async function (event) {
         let properties = event.layer.properties;
         let region_url = properties.id;
+        // xxx
         let bulletin_url = `${url_eaws_bulletins}${url_eaws_bulletins_date}/${url_eaws_bulletins_date}-${region_url}${slug_eaws_bulletin}.json`;
 
         let region_popup = region_url.replace(/-/g, '‑');      // replace regular - with non-breaking hyphen
@@ -258,7 +259,7 @@ function createAvalancheRiskMaps() {
         };
 
         let labels = document.querySelectorAll('.leaflet-control-layers-base label, .leaflet-control-layers-overlays label');
-        add_headers(labels, group_headers);
+        addControlGroupHeaders(labels, group_headers);
 
 
         // Add event listeners to the datepicker arrows as well as when chosing date from datepicker calendar for changing the date of the data

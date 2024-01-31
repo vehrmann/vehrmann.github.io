@@ -103,7 +103,7 @@ function getFormattedDatetimeString(datetime, hour_offset, format_type) {
 
 
 // Iterate through the labels to find and insert headers from the group-headers-list as well as separator-divs
-function add_headers(labels, group_headers) {
+function addControlGroupHeaders(labels, group_headers) {
     labels.forEach(label => {
         let label_text = label.textContent.trim();
         if (label_text in group_headers) {

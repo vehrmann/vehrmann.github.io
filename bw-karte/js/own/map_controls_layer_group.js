@@ -67,7 +67,7 @@ function group_map_control() {
     };
 
     let labels = document.querySelectorAll('.leaflet-control-layers-base label, .leaflet-control-layers-overlays label');
-    add_headers(labels, group_headers);
+    addControlGroupHeaders(labels, group_headers);
 }
 
 // pretify this function, add opacity to Schutzgebiete. Add blur/saturation (for slopes)
