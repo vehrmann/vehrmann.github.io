@@ -57,7 +57,7 @@ function setupPopup(layer, url_eaws_bulletins_date) {
 
         let region_name, country_name, popup_content
         // create popup content basics (in German)
-        fetchJson('./eaws/micro-regions_names/de.json')
+        fetchJson(url_eaws_microregions_names)
         .then(json_data => {
             region_name = json_data[region_url]
             country_name = json_data[region_url.substring(0, 2)]
@@ -428,10 +428,67 @@ function createAvalancheRiskMaps() {
 
 }
 
-createAvalancheRiskMaps()
-
+//createAvalancheRiskMaps()
 /*
 check PL
 check SI (no hyphen?)
 check Spitzbergen
 */
+
+
+
+
+
+fetch(url_eaws_microregions_list)
+.then(response => {
+    if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+})
+.then(regions => {
+    regions.forEach(region => {
+        const file_url = `${url_eaws_microregions}${region}${slug_eaws_microregions}`;
+
+        fetchJson(file_url)
+        .then(json_data_microregion => {
+            json_data_microregion.features.forEach(feature => {
+
+                if (!feature.properties.end_date) {
+
+                    let fill_color = colors_avalancherisk[Math.floor(Math.random() * 4) + 1]
+                    if (feature.properties.id == "DE-BY-41") {
+                        fill_color = 'grey'                        
+                    }
+
+                    const microregion_layer = L.geoJSON(feature, {
+                        style: {
+                            stroke: true,
+                            color: 'black',
+                            weight: 0.5,
+                            fill: true,
+                            fillColor: fill_color,
+                            fillOpacity: 0.5
+                        }
+                    });
+
+
+                    // Add event listeners for mouseover and mouseout
+                    microregion_layer.on('mouseover', function () {
+                        this.setStyle({ weight: 2 });
+                        this.bringToFront()
+                        console.log("Region: ", feature.properties.id)
+                    });
+
+                    microregion_layer.on('mouseout', function () {
+                        this.setStyle({ weight: 0.5 });
+                    });
+
+                    microregion_layer.addTo(map);
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching microregion data:', error));
+    })
+})
+.catch(error => console.error('Error fetching microregions-list:', error));
