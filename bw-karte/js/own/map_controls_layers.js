@@ -65,6 +65,9 @@ let schutzgebiete_maps_list = [
     overlay_schutzgebiete_rotwand    
 ];
 
+let bergwacht_ausbildung_maps_list = [
+    overlay_bergwacht_eignungstest_winter_20240204    
+];
 
 let wintersports_maps_list = [
     overlay_wintersports_opensnowmap,
@@ -98,33 +101,35 @@ let seamaps_maps_list = [
 ];
 
 
-let base_maps =             create_tile_layers(base_maps_list);                     // {L.tileLayer_1, L.tileLayer_2, ...}
-let satellite_maps =        create_tile_layers(satellite_maps_list);
-let hillshade_maps =        create_tile_layers(hillshade_maps_list);
-let slopeangle_maps =       create_tile_layers(slopeangle_maps_list);
-let avalancherisk_maps =    create_tile_layers(avalancherisk_maps_list);
-let weather_maps =          create_tile_layers(weather_maps_list);
-let schutzgebiete_maps =    create_tile_layers(schutzgebiete_maps_list);
-let wintersports_maps =     create_tile_layers(wintersports_maps_list);
-let cycling_maps =          create_tile_layers(cycling_maps_list);
-let oepnv_maps =            create_tile_layers(oepnv_maps_list);
-let car_maps =              create_tile_layers(car_maps_list);
-let seamaps_maps =          create_tile_layers(seamaps_maps_list);
+let base_maps =                 create_tile_layers(base_maps_list);                     // {L.tileLayer_1, L.tileLayer_2, ...}
+let satellite_maps =            create_tile_layers(satellite_maps_list);
+let hillshade_maps =            create_tile_layers(hillshade_maps_list);
+let slopeangle_maps =           create_tile_layers(slopeangle_maps_list);
+let avalancherisk_maps =        create_tile_layers(avalancherisk_maps_list);
+let weather_maps =              create_tile_layers(weather_maps_list);
+let schutzgebiete_maps =        create_tile_layers(schutzgebiete_maps_list);
+let bergwacht_ausbildung_maps = create_tile_layers(bergwacht_ausbildung_maps_list);
+let wintersports_maps =         create_tile_layers(wintersports_maps_list);
+let cycling_maps =              create_tile_layers(cycling_maps_list);
+let oepnv_maps =                create_tile_layers(oepnv_maps_list);
+let car_maps =                  create_tile_layers(car_maps_list);
+let seamaps_maps =              create_tile_layers(seamaps_maps_list);
 
 map.addLayer(base_maps[general_map_settings.default_map])                      // default map can only be added after it was created
 
-let layer_control_basic =           L.control.layers(base_maps, null,           {autoZIndex: false}).addTo(map);
-let layer_control_satellite =       L.control.layers(null, satellite_maps,      {autoZIndex: false}).addTo(map);
-let layer_control_hillshade =       L.control.layers(null, hillshade_maps,      {autoZIndex: false}).addTo(map);
-let layer_control_slopeangle =      L.control.layers(null, slopeangle_maps,     {autoZIndex: false}).addTo(map);
-let layer_control_avalancherisk =   L.control.layers(null, avalancherisk_maps,  {autoZIndex: false}).addTo(map);
-let layer_control_weather =         L.control.layers(null, weather_maps,        {autoZIndex: false}).addTo(map);
-let layer_control_schutzgebiete =   L.control.layers(null, schutzgebiete_maps,  {autoZIndex: false}).addTo(map);
-let layer_control_wintersports =    L.control.layers(null, wintersports_maps,   {autoZIndex: false}).addTo(map);
-let layer_control_cycling =         L.control.layers(null, cycling_maps,        {autoZIndex: false}).addTo(map);
-let layer_control_oepnv =           L.control.layers(null, oepnv_maps,          {autoZIndex: false}).addTo(map);
-let layer_control_car =             L.control.layers(null, car_maps,            {autoZIndex: false}).addTo(map);
-let layer_control_seamaps =         L.control.layers(null, seamaps_maps,        {autoZIndex: false}).addTo(map);
+let layer_control_basic =                   L.control.layers(base_maps, null,                   {autoZIndex: false}).addTo(map);
+let layer_control_satellite =               L.control.layers(null, satellite_maps,              {autoZIndex: false}).addTo(map);
+let layer_control_hillshade =               L.control.layers(null, hillshade_maps,              {autoZIndex: false}).addTo(map);
+let layer_control_slopeangle =              L.control.layers(null, slopeangle_maps,             {autoZIndex: false}).addTo(map);
+let layer_control_avalancherisk =           L.control.layers(null, avalancherisk_maps,          {autoZIndex: false}).addTo(map);
+let layer_control_weather =                 L.control.layers(null, weather_maps,                {autoZIndex: false}).addTo(map);
+let layer_control_schutzgebiete =           L.control.layers(null, schutzgebiete_maps,          {autoZIndex: false}).addTo(map);
+let layer_control_bergwacht_ausbildung =    L.control.layers(null, bergwacht_ausbildung_maps,   {autoZIndex: false}).addTo(map);
+let layer_control_wintersports =            L.control.layers(null, wintersports_maps,           {autoZIndex: false}).addTo(map);
+let layer_control_cycling =                 L.control.layers(null, cycling_maps,                {autoZIndex: false}).addTo(map);
+let layer_control_oepnv =                   L.control.layers(null, oepnv_maps,                  {autoZIndex: false}).addTo(map);
+let layer_control_car =                     L.control.layers(null, car_maps,                    {autoZIndex: false}).addTo(map);
+let layer_control_seamaps =                 L.control.layers(null, seamaps_maps,                {autoZIndex: false}).addTo(map);
 
 
 function create_single_tile_layer(layer_object) {

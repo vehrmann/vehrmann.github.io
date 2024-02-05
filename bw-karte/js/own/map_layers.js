@@ -387,6 +387,17 @@ const overlay_schutzgebiete_rotwand = {
 };
 
 
+// OVERLAYS EIGNUNGSTESTS
+const overlay_bergwacht_eignungstest_winter_20240204 = {
+    //'minZoom':          x,      // xx
+    //'maxNativeZoom':    x,     // xx
+    'featuregroup':     true,
+    'opacity':          default_opacity_overlay_bergwacht_eignungstest,
+    'name':             'Winter: Sudelfeld 04.02.2024',
+    //'attribution':      'XXX'
+};
+
+
 // OVERLAYS WINTERSPORTS
 const overlay_wintersports_opensnowmap = {
     'url':              'https://tiles.opensnowmap.org/{s}/{z}/{x}/{y}.png',

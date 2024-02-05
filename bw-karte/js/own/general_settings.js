@@ -16,23 +16,32 @@ const header_input_attributes = {
 
 // DEFAULT LAYER OPACITIES
 // important for default opacities: grouped layers should get the same value as the initial slider value is set correspondingly 
-const default_opacity_overlay_sat =             1.0
-const default_opacity_overlay_hillshade =       0.5
-const default_opacity_overlay_openslopemap =    0.4
-const default_opacity_overlay_avalancherisk =   0.65
-const default_opacity_overlay_weather =         0.75
-const default_opacity_overlay_schutzgebiete =   0.75
-const default_opacity_overlay_wintersports =    1.0
-const default_opacity_overlay_cycling =         1.0
-const default_opacity_overlay_oepnv =           0.8
-const default_opacity_overlay_car =             0.9
-const default_opacity_overlay_seamaps =         1.0
+const default_opacity_overlay_sat =                     1.0
+const default_opacity_overlay_hillshade =               0.5
+const default_opacity_overlay_openslopemap =            0.4
+const default_opacity_overlay_avalancherisk =           0.65
+const default_opacity_overlay_weather =                 0.75
+const default_opacity_overlay_schutzgebiete =           0.75
+const default_opacity_overlay_bergwacht_eignungstest =  1.0
+const default_opacity_overlay_wintersports =            1.0
+const default_opacity_overlay_cycling =                 1.0
+const default_opacity_overlay_oepnv =                   0.8
+const default_opacity_overlay_car =                     0.9
+const default_opacity_overlay_seamaps =                 1.0
 
 
 // AVALANCHE RISK
 const url_eaws_vectormap =          'https://static.avalanche.report/eaws_pbf/{z}/{x}/{y}.pbf'      // contains outlines of regions, for some also different elevations
 const url_eaws_bulletins =          'https://static.avalanche.report/eaws_bulletins/'
-const [slug_eaws_bulletin, slug_eaws_ratings, slug_eaws_problems] = ['', '.ratings', '.problems']
+const url_eaws_microregions_list =  './eaws/micro-regions.json'                                     // own file which lists all relevant regions so they can be iterated through
+const url_eaws_microregions =       './eaws/micro-regions/'
+const url_eaws_microregions_names = './eaws/micro-regions_names/de.json'                            // contains (translated) names of microregions. Can be extended to other languages. Not all regions seem to be translated
+const slug_eaws_bulletin =          ''
+const slug_eaws_ratings =           '.ratings'
+const slug_eaws_problems =          '.problems'
+const slug_eaws_microregions =      '_micro-regions.geojson.json'                                   // comes after region-code, contains region's geometries as well as validity in some cases  
+
+
 //const url_eaws_metadata =           'https://static.avalanche.report/eaws_pbf/metadata.json'      // not needed yet
 
 const url_eaws_bulletins_regions =  [   'AD',

@@ -81,16 +81,66 @@
     <script src="./js/own/map_keyboardcontrols.js"></script>
 
     <script src="./js/own/map_layers_avalancherisk_vector.js"></script>
-    <script src="./js/own/dev_avalanche_compass.js"></script>
+    <!-- <script src="./js/own/dev_avalanche_compass.js"></script> -->
     <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
     <script src="./js/own/map_layer_skitourenabende.js"></script>
     <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
     <script>
         group_map_control();                                            // only group layer-entries after GPX-files are loaded
     </script>
-
     <script>
+        let geojson_path = './gpx/bw_eignungstest_winter_2024-02-04.geojson';
+        fetch(geojson_path)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            // Parse the JSON from the response
+            return response.json();
+        })
+        .then(geojson_data => {
+            layer_bergwacht_eignungstest = L.geoJSON(geojson_data, {
+                onEachFeature: function (feature, layer) {
+                    let description = feature.properties.description || ""
+                    layer.bindPopup('<strong>' + feature.properties.name + '</strong>' + description)
+                    layer.on('mouseover', function () {
+                        layer.openPopup();
+                    });
+                }
+            })
+            
+            bergwacht_ausbildung_maps[overlay_bergwacht_eignungstest_winter_20240204.name].addLayer(layer_bergwacht_eignungstest);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error.message);
+        });
+
+
     </script>
+
+    <!--
+    <script>
+
+        var contour_layer
+        fetch('./python/N47E011_contours_1200.geojson')
+        .then(response => response.json())
+        .then(data => {
+
+            contour_layer = L.geoJSON(data, {
+                        style: {
+                            stroke: true,
+                            color: 'blue',
+                            weight: 2
+                        }
+            });
+            contour_layer.addTo(map);
+        });
+
+        var rectangleBounds = [[47, 11], [48, 12]];
+        var rectangle = L.rectangle(rectangleBounds, {color: '#ff7800', weight: 1}).addTo(map);
+
+    </script>
+    -->
 
     <!-- https://github.com/teastman/Leaflet.pattern
     <script src="./js/imports/leaflet.pattern.js"></script>
