@@ -5,7 +5,13 @@
             "type": "Feature",
             "properties": {
                 "name":         "Parken & Treffpunkt",
-                "description":  "<ul><li>Einsammeln Tourenberichte</li><li>Einsammeln 3€ Ticket-Pfand</li><li>Zuordnung Gruppen</li><li>Auffahrt zur Bergwachthütte (6er- und 8er-Sessel)</li></ul>"
+                "description":  [   "<ul>",
+                                        "<li>Einsammeln Tourenberichte</li>",
+                                        "<li>Einsammeln 3€ Ticket-Pfand</li>",
+                                        "<li>Zuordnung Gruppen</li>",
+                                        "<li>Auffahrt zur Bergwachthütte (6er- und 8er-Sessel)</li>",
+                                    "</ul>"
+                                ]
             },
             "geometry": {
                 "coordinates": [
@@ -19,7 +25,12 @@
             "type": "Feature",
             "properties": {
                 "name":         "Bergwachthütte",
-                "description":  "<ul><li>Wechselpunkt für Prüfungsstationen</li><li>LVS-Theorie</li><li>Toilette</li></ul>"
+                "description":  [   "<ul>",
+                                        "<li>Wechselpunkt für Prüfungsstationen</li>",
+                                        "<li>LVS-Theorie</li>",
+                                        "<li>Toilette</li>",
+                                    "</ul>"
+                                ]
             },
             "geometry": {
                 "coordinates": [
@@ -34,7 +45,56 @@
             "type": "Feature",
             "properties": {
                 "name":         "Lawinensuchfeld",
-                "description":  "<ul><li>Einfachverschüttung<ul><li>5 Minuten</li><li>Sonde muss Suchplatte berühren</li><li>Treffer muss erkannt und angesagt werden</li></ul></li><li>Signalsuche<ul><li>inkl. Oberflächensuche nach Gegenständen (z.B. Skistock) und deren Überprüfung</li></ul></li><li>Grobsuche</li><li>Feinsuche/Einkreuzen</li><li>Punktortung/Sondieren</li><ul><li>Schematisch vorgehen (spiral- oder rechteckförmig größer werdend im 20-30cm Abstand)</li><li>Sonde 90° zur Schneeoberfläche</li><li>Nach einem Treffer Kontrollstich daneben mit deutlichem Tiefenunterschied</li><li>Sonde am Trefferpunkt stecken lassen</li></ul><li>Ausgraben ist nicht notwendig!</li></ul>"
+                "description":  [   "<ul>",
+                                        "<li>Einfachverschüttung",
+                                            "<ul>",
+                                                "<li>5 Minuten</li>",
+                                                "<li>LVS-Gerät muss mit dem Körper verbunden sein über Tragetasche, Schnur oder Handschlaufe</li>",
+                                                "<li>Man stellt sein Gerät auf \"Search\" und gibt dem Prüfer Bescheid, sobald man startklar ist</li>",
+                                                "<li>Sonde (und Schaufel, wird aber nicht benötigt) im Rucksack dabei</li>",
+                                                "<li>Sonde am besten ohne Hülle im Rucksack griffbereit verstauen</li>",
+                                                "<li>Sonde muss Suchplatte berühren</li>",
+                                                "<li>Treffer muss erkannt und angesagt werden</li>",
+                                            "</ul>",
+                                        "</li>",
+                                        "<li>Signalsuche",
+                                            "<ul>",
+                                                "<li>Beim Erstsignal laut \"Signal\" rufen, auch wenn man beim Start schon direkt ein Signal hat</li>",
+                                                "<li>Zur Signalsuche gehört auch die Oberflächensuche nach Gegenständen (z.B. Skistock) und deren Überprüfung</li>",
+                                            "</ul>",
+                                        "</li>",
+                                        "<li>Grobsuche",
+                                            "<ul>",
+                                                "<li>\"10 Meter\" ansagen</li>",
+                                                "<li>Hier bereits deutlich langsamer werden und tiefer gehen</li>",
+                                                "<li>Bei 5 Metern mit dem Gerät auf die Oberfläche</li>",
+                                            "</ul>",
+                                        "</li>",
+                                        "<li>Feinsuche/Einkreuzen",
+                                            "<ul>",
+                                                "<li>Gerät nicht mehr drehen oder schwenken</li>",
+                                                "<li>Minimum deutlich markieren (Kreuz in den Schnee kratzen, bei Stirnband etc. wird angemerkt, dass es vom Wind weggeweht werden könnte)</li>",
+                                            "</ul>",
+                                        "</li>",
+                                        "<li>Punktortung/Sondieren",
+                                            "<ul>",
+                                                "<li>Sonde nach dem Einkreuzen aus dem Rucksack holen, diesen wieder aufsetzen!</li>",
+                                                "<li>Schematisch vorgehen (spiral- oder rechteckförmig größer werdend im 20-30cm Abstand)</li>",
+                                                "<li>Sonde 90° zur Schneeoberfläche</li>",
+                                                "<li>Nach einem Treffer Kontrollstich daneben mit deutlichem Tiefenunterschied</li>",
+                                                "<li>Sonde am Trefferpunkt stecken lassen</li>",
+                                                "<li>\"Treffer\" ansagen</li>",
+                                            "</ul>",
+                                        "</li>",
+                                        "<li>Generelle Anmerkungen",
+                                            "<ul>",
+                                                "<li>Ausgraben ist nicht notwendig, außer ihr seid in der letzten Gruppe (gehört aber nicht zur Prüfungszeit)</li>",
+                                                "<li>Nichts in den Schnee legen, was den Hang hinunterrutschen könnte (Rucksack, ungesichertes LVS-Gerät, Sonde/Schaufel (immer in den Schnee stecken!))</li>",
+                                                "<li>Nicht mit ganz offenen Skischuh-Schnallen aufs Lawinenfeld</li>",
+                                            "</ul>",
+                                        "</li>",
+                                    "</ul>"
+                                ]
             },
             "geometry": {
                 "coordinates": [
@@ -92,7 +152,19 @@
             "type": "Feature",
             "properties": {
                 "name":         "Skitour",
-                "description":  "<ul><li>Spitzkehrentechnik</li><li>alle paar Minuten lockere Gesprächsrunden mit allen Teilnehmern<ul><li>Tourenplanung</li><li>Lawinenlage</li><li>Gefahrenstellen und -zeichen</li><li>Risikomanagement</li><li>Aufstiegs- und Abfahrtsstrategie</li></ul><li>Abfahrtstechnik (diese <i>kann</i> ausschlaggebend sein, wenn die Bewertung der Pistentechnik auf der Kippe steht)</li></ul>"
+                "description":  [   "<ul>",
+                                        "<li>Spitzkehrentechnik</li>",
+                                        "<li>alle paar Minuten lockere Gesprächsrunden mit allen Teilnehmern",
+                                            "<ul>",
+                                                "<li>Tourenplanung</li>",
+                                                "<li>Lawinenlage</li>",
+                                                "<li>Gefahrenstellen und -zeichen</li>",
+                                                "<li>Risikomanagement</li>",
+                                                "<li>Aufstiegs- und Abfahrtsstrategie</li>",
+                                            "</ul>",
+                                        "<li>Abfahrtstechnik (diese <i>kann</i> ausschlaggebend sein, wenn die Bewertung der Pistentechnik auf der Kippe steht)</li>",
+                                    "</ul>"
+                                ]
             },
             "geometry": {
                 "coordinates": [
@@ -208,7 +280,14 @@
             "type": "Feature",
             "properties": {
                 "name":         "Skitechnik auf der Piste",
-                "description":  "<ul><li>obere 2/3 des Hangs Kurzschwung</li><li>unteres 1/3 große Radien</li><li>fließender Übergang gewünscht</li></ul>"
+                "description":  [   "<ul>",
+                                        "<li>obere 2/3 des Hangs Kurzschwung</li>",
+                                        "<li>unteres 1/3 große Radien</li>",
+                                        "<li>fließender Übergang gewünscht</li>",
+                                        "<li>Nicht ohne Stockteller fahren!</li>",
+                                        "<li>Manche Prüfer wollen, dass man die Stockschlaufen verwendet</li>",
+                                    "</ul>"
+                                ]
             },
             "geometry": {
                 "coordinates": [

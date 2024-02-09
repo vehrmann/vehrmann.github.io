@@ -101,7 +101,9 @@
         .then(geojson_data => {
             layer_bergwacht_eignungstest = L.geoJSON(geojson_data, {
                 onEachFeature: function (feature, layer) {
-                    let description = feature.properties.description || ""
+                    let description = feature.properties.description.join("") || ""
+                    console.log("des:", description)
+                    //let description = feature.properties.description || ""
                     layer.bindPopup('<strong>' + feature.properties.name + '</strong>' + description)
                     layer.on('mouseover', function () {
                         layer.openPopup();
