@@ -8,11 +8,12 @@
 <body class="dark-mode">
     <div class="container">
         <h1>Portfolio Overview</h1>
-        
-        <div class="project">
+
+        <div class="project project-top">
             <h2>3D Product Configurator</h2>
+            <p><i>under development</i></p>
             <p>This configurator allows users to customize and view product variations and functionalities.</p>
-            <p>Used libraries: <a class="resource_link" href="https://modelviewer.dev/" target="_blank">Modelviewer</a> / <a class="resource_link" href="https://threejs.org/" target="_blank">Three.js</a></p>
+            <p>Used JavaScript libraries: <a class="resource_link" href="https://modelviewer.dev/" target="_blank">Modelviewer</a> / <a class="resource_link" href="https://threejs.org/" target="_blank">Three.js</a></p>
             <p>Used modelling software: <a class="resource_link" href="https://www.freecad.org/" target="_blank">FreeCAD</a> / <a class="resource_link" href="https://www.blender.org/" target="_blank">Blender</a></p>
             <a class="project_link" href="./vidajo/index.html">View Project</a>
         </div>
@@ -21,9 +22,23 @@
             <h2>Map Application</h2>
             <p><i>under development</i></p>
             <p>This map application provides various map layers as well as data layers for tour planning, dedicated to mountain sports and mountain rescue topics.</p>
-            <p>Used libraries: <a class="resource_link" href="https://leafletjs.com/" target="_blank">Leaflet</a></p>            
+            <p>Used JavaScript libraries: <a class="resource_link" href="https://leafletjs.com/" target="_blank">Leaflet</a></p>            
+            <p>Used data mining/modelling software: <a class="resource_link" href="https://overpass-turbo.eu/" target="_blank">Overpass Turbo</a> / <a class="resource_link" href="https://www.python.org/" target="_blank">Python</a></p>
             <a class="project_link" href="./bw-karte/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <p id="dyn" style="text-align: right; font-style: italic;"></p>
         </div>
     </div>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var current_date = new Date();
+        var month_names = ["January", "February", "March", "April", "May", "June",
+                            "July", "August", "September", "October", "November", "December"];
+        var current_month = month_names[current_date.getMonth()];
+        var current_year = current_date.getFullYear();
+        document.getElementById("dyn").textContent = `Vincent Ehrmann, ${current_month} ${current_year}`
+    });
+</script>
 </html>
