@@ -254,7 +254,12 @@ let bilderrahmen_selected =         true;
 let zubehoer_selected =             false;
 let raum_selected =                 false;
 
+
 modelviewer.addEventListener('load', function() {
+    // Hide the loader and show the model viewer
+    loader.style.display =      'none';
+    modelviewer.style.display = 'block';
+
     // registering scene and meshes, can only be done after modelviewer loaded
     // makes it possible to manipulate the mesh of the glb-model (translation, rotation and maybe animation-mixer)
     const threeJsScene = modelviewer[Object.getOwnPropertySymbols(modelviewer).find(e => e.description === 'scene')];
