@@ -54,7 +54,7 @@ let avalancherisk_maps_list = [
 let weather_maps_list = [
     //overlay_weather_temperature,
     overlay_weather_wind,
-    overlay_weather_snowheight,
+    //overlay_weather_snowheight,
     //overlay_weather_snownew,
     //overlay_weather_snowline,
     //overlay_weather_snowdiff,

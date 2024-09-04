@@ -18,6 +18,8 @@ function getActualWeather(type) {
         ` / <span id="weather_legend_${wording.class_name}" onmouseover="showImage(this.id)" onmouseout="hideImage(this.id)" style="cursor: pointer;">Legende &#9757;</span>)` +
         `<img class="weather_legend_img" src="./icons/weather_legend_${wording.class_name}.jpg">`;
 
+    //alert(img_url)
+    //alert(attribution_text)
     return [img_url, attribution_text];
 }
 
@@ -37,7 +39,7 @@ const overlay_weather_wording =         {
 // newsnow forecast intervalls: 6, 12, 24, 48, 72
 
 let [url_wind, attribution_wind] =              getActualWeather('wind');
-let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight');
+//let [url_snowheight, attribution_snowheight] =  getActualWeather('snowheight'); // seems to work only in winter
 
 /*
 lawine.report

@@ -314,6 +314,7 @@ const overlay_weather_wind = {
     'attribution':      attribution_wind
 };
 
+/*
 const overlay_weather_snowheight = {
     'url':              url_snowheight,
     'imageoverlay':     true,
@@ -324,6 +325,7 @@ const overlay_weather_snowheight = {
     'name':             'Schneehöhen',
     'attribution':      attribution_snowheight
 };
+*/
 
 /*
 const overlay_weather_snownew = {
