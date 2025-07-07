@@ -133,5 +133,5 @@ function createPaWoListener(key, slug) {
     });
 }
 
-createPaWoListener('p', 'van');
+createPaWoListener('q', 'van');
 handlePaWoModal('van', '123');
