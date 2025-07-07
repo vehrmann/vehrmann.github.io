@@ -1,0 +1,346 @@
+<html>
+    <head>
+        <!-- needed for nice displaying on mobile -->
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+        <link rel='icon' type='image/x-icon' href='./icons/favicon.ico' >
+
+        <!-- LEAFLET / https://leafletjs.com / https://github.com/Leaflet/Leaflet -->
+        <!-- <link rel='stylesheet' href='../node_modules/leaflet/dist/leaflet.css' /> -->
+        <!-- <script src='../node_modules/leaflet/dist/leaflet.js'></script> -->
+        <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' />
+        <script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script>
+
+        <!-- OWN CSS STYLES -->
+        <link rel='stylesheet' href='./css/style.css'>
+    </head>
+    <body>
+        <!-- <div><canvas id='canvas_avalanchecompass' width='250' height='250' style='border: 0px solid #000;'></canvas>
+             <canvas id='canvas_avalancheproblems' width='250' height='250' style='border: 0px solid #000;'></canvas></div> -->
+        <div id='map'></div>
+
+        <div id='pawo-modal-van' style='display:none; position:fixed; top:40%; left:50%; transform:translate(-50%, -50%);
+            background:white; padding:1rem 2rem; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.2); z-index:9999;'>
+            <label for='pawo-input-van'>PW:</label>
+            <input type='password' id='pawo-input-van' style='margin-left:10px;'>
+            <button id='pawo-submit-van'>OK</button>
+        </div>
+    </body>
+
+    <!-- flatpickr (datetime picker) / https://github.com/flatpickr/flatpickr -->
+    <!-- consider npm import 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
+
+    <!-- LEAFLET VectorGrid (display gridded vector data) / https://github.com/Leaflet/Leaflet.VectorGrid -->
+    <!-- <script src=''../node_modules/leaflet.vectorgrid/dist/Leaflet.VectorGrid.bundled.min.js'></script> -->
+    <script src='https://unpkg.com/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.bundled.min.js'></script>
+
+    <!--    LEAFLET CascadeButtons (adds button menu cascading) / https://github.com/clavijojuan/L.cascadeButtons/tree/master
+    <link rel="stylesheet" href="./js/imports/L.cascadeButtons.css">
+    <script src="./js/imports/L.cascadeButtons.js"></script> -->
+
+    <!-- LEAFLET Zoominfo (shows current zoom level) / https://github.com/flaviocarmo/Leaflet.zoominfo -->
+    <link rel="stylesheet" href="./js/imports/L.Control.Zoominfo.css">
+    <script src="./js/imports/L.Control.Zoominfo.js"></script>
+
+    <!-- LEAFLET FullScreen (adds fullscreen icon to map) / https://github.com/brunob/leaflet.fullscreen -->
+    <link rel="stylesheet" href="./js/imports/Control.FullScreen.css">
+    <script src="./js/imports/Control.FullScreen.js"></script>
+
+    <!-- LEAFLET Locate (to geolocate the user) / https://github.com/domoritz/leaflet-locatecontrol -->
+    <link rel="stylesheet" href="./js/imports/L.Control.Locate.min.css" />
+    <script src="./js/imports/L.Control.Locate.min.js" charset="utf-8"></script>
+
+    <!-- LEAFLET Geosearch (search functionality) / https://github.com/smeijer/leaflet-geosearch -->
+    <!-- <link rel='stylesheet' href="../node_modules/leaflet-geosearch/dist/geosearch.css' /> -->
+    <!-- <script src='../node_modules/leaflet-geosearch/dist/geosearch.umd.js'></script> -->
+    <link rel='stylesheet' href='https://unpkg.com/leaflet-geosearch@3.6.0/dist/geosearch.css' />
+    <script src='https://unpkg.com/leaflet-geosearch@3.6.0/dist/geosearch.umd.js'></script>
+
+    <!-- LEAFLET Coordinates (mouseclick coordinates) / https://github.com/zimmicz/Leaflet-Coordinates-Control -->
+    <link rel="stylesheet" href="./js/imports/Control.Coordinates.css">
+    <script src="./js/imports/Control.Coordinates.js"></script>
+
+    <!-- LEAFLET Measure (distance and area measurement) / https://github.com/ptma/Leaflet.Measure -->
+    <link rel="stylesheet" href="./js/imports/leaflet.measure.css">
+    <script src="./js/imports/leaflet.measure.js"></script>
+
+    <!-- Turf (geospatial engine) / https://github.com/Turfjs/turf -->
+    <!-- <script src="../node_modules/@turf/turf/turf.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7.2.0/turf.min.js"></script>
+
+    <!-- LEAFLET GPX (analysis and parsing of GPX files) / https://github.com/mpetazzoni/leaflet-gpx -->
+    <!--<script src="./js/imports/gpx.js"></script>-->
+
+    <!-- LEAFLET KML (display KML files) / https://github.com/windycom/leaflet-kml -->    
+    <script src="./js/imports/L.KML.js"></script>
+
+    <!-- LEAFLET GEOMAN (map tools) / https://github.com/geoman-io/leaflet-geoman 
+    <link rel="stylesheet" href="../node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css">
+    <script src="../node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.min.js"></script> -->
+
+    <!-- LEAFLET side-by-side (map comparison via split screen) / https://github.com/digidem/leaflet-side-by-side -->
+    <!-- <script src="./js/imports/leaflet-side-by-side.js"></script> script updated like suggested here: https://github.com/digidem/leaflet-side-by-side/issues/47#issue-1438458238 --> 
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/node-fetch@3.3.2/src/index.min.js"></script> -->
+
+
+    <!-- OWN SCRIPTS -->
+    <script src="./js/own/general_functions.js"></script>
+    <script src="./js/own/map_functions.js"></script>
+    <script src="./js/own/map_layers_weather.js"></script>              <!-- dev, check script / weather data needs to be declared before respective layers are created -->
+    <script src="./js/own/map_layers.js"></script>
+    <script src="./js/own/map_create.js"></script>
+    <script src="./js/own/map_tools.js"></script>
+
+    <!-- <script src="./js/own/map_layers_avalancherisk_vector.js"></script> -->
+    <!-- <script src="./js/own/dev_avalanche_compass.js"></script> -->
+    <script src="./js/own/map_layers_gpx.js"></script>                  <!-- currently used for Schutzgebiete + Auto, maybe generalize-->
+    <!-- <script src="./js/own/map_layer_skitourenabende.js"></script> -->
+    <script src="./js/own/map_layers_chronotrains.js"></script>         <!-- json polygons can only be added after FeatureGroup was created in map_create and control for it setup in map_control_group -->
+    <script>groupLayerControls()</script>                                          <!-- only group layer-entries after GPX-files are loaded -->
+    <script>
+        const url_vanspots = './content/van_sleeping.kml';
+        fetch(url_vanspots)
+            .then(res => res.text())
+            .then(kmltext => {
+                const parser = new DOMParser();
+                const kml = parser.parseFromString(kmltext, 'text/xml');
+                const kml_layer = new L.KML(kml);
+                tile_layers.van_maps['Stellplätze'].addLayer(kml_layer)
+            })
+            .catch(error => {
+                console.error('Error fetching KML:', error.message);
+            });
+    </script>
+    <!--
+    <script>
+        let geojson_path = './gpx/bw_eignungstest_winter_2024-02-04.geojson';
+        fetch(geojson_path)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            // Parse the JSON from the response
+            return response.json();
+        })
+        .then(geojson_data => {
+            layer_bergwacht_eignungstest = L.geoJSON(geojson_data, {
+                onEachFeature: function (feature, layer) {
+                    let description = feature.properties.description.join("") || ""
+                    console.log("des:", description)
+                    //let description = feature.properties.description || ""
+                    layer.bindPopup('<strong>' + feature.properties.name + '</strong>' + description)
+                    layer.on('mouseover', function () {
+                        layer.openPopup();
+                    });
+                }
+            })
+            
+            bergwacht_ausbildung_maps[overlay_bergwacht_eignungstest_winter_20240204.name].addLayer(layer_bergwacht_eignungstest);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error.message);
+        });
+    </script>
+    -->
+
+    <!--
+    <script>
+
+        var contour_layer
+        fetch('./python/N47E011_contours_1200.geojson')
+        .then(response => response.json())
+        .then(data => {
+
+            contour_layer = L.geoJSON(data, {
+                        style: {
+                            stroke: true,
+                            color: 'blue',
+                            weight: 2
+                        }
+            });
+            contour_layer.addTo(map);
+        });
+
+        var rectangleBounds = [[47, 11], [48, 12]];
+        var rectangle = L.rectangle(rectangleBounds, {color: '#ff7800', weight: 1}).addTo(map);
+
+    </script>
+    -->
+
+    <!-- https://github.com/teastman/Leaflet.pattern
+    <script src="./js/imports/leaflet.pattern.js"></script>
+    <script>
+        // potentially useful for avalanche risk level 5 (red-black striped)
+        let stripes = new L.StripePattern({
+                                weight:         4,
+                                spaceWeight:    4,
+                                color:          'red',
+                                spaceColor:     'black',
+                                opacity:        1,
+                                spaceOpacity:   1
+        }).addTo(map);
+
+        var circle = new L.Circle(general_map_settings.center, 4000.0, {
+                                fillPattern:    stripes,
+                                stroke:         false,
+                                fillOpacity:    1
+        }).addTo(map);
+    </script>
+    -->
+
+
+    <!-- <script src="./js/own/dev_altitude.js"></script> -->
+    <!-- <script src="./js/own/dev_map_sidebyside.js"></script> -->
+    <!-- <script src="./js/own/map_geoman.js"></script> -->
+
+    <!-- Layers in vector format (in development, esp. styling is tricky)-->
+    <!-- <script src="./js/own/dev_map_vector.js"></script> -->
+
+    <!-- Settings control in development for entering preferences such as zoom-steps, layers, default positions etc.
+        Could this potentially be stored in a cookie?  
+    <script src="./js/own/dev_map_settingscontrol.js"></script>
+    <link rel="stylesheet" href="./css/dev_map_settingscontrol.css">
+    -->
+</html>
+
+<!-- https://github.com/perliedman/node-hgt -->
+<!-- https://github.com/allartk/leaflet.offline -->
+<!-- https://github.com/dayjournal/Leaflet.Control.Opacity -->
+<!-- https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup + https://github.com/Leaflet/Leaflet.markercluster -->
+<!-- https://github.com/cscott530/leaflet-history -->
+
+
+<!--
+BUGS:
+    - jump to proper zoom level when switching between layers
+    - jump to visible area when switching between layers
+    - distinguish between no avalanche risk reported and avalanche risk = 0
+    - when leaving search using esc, the keyboard focus is not in the map anymore (+/- does not work via keyboard)
+    - layer controls: when toggle-button is clicked, also input slider is clicked (on mobile due to not having hover on touchscreens)
+    - check correct time of weather images
+    - z-index of slopes and seamaps are too low when switching base maps
+    - chronotrains load really slow, maybe only load upon toggle
+    - width of controls should be equal (chronotrains is to narrow)
+    - max-width of hover-legends should be 100% on mobile (width of legend is dependet on width of attribution-box)
+    - can't choose map when zoom level not right (e.g. Skirouten)
+    - Schutzgebiete and car overlays opacities in gpx-script are hardcoded
+    - find out in chrome inspector where opacity of chronotrains is changed 
+IMPROVEMENTS:
+    - include go-to button or similar for layers (e.g. schutzgebiete)
+    - include date picker for avalanche risk        // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+    - for avalanche risk overlay, include "aktualisiert"
+    - in general_functions.js, combine the two getFormattedDatetime(String) functions into one
+    - include chronotrain-json-fetching into general functions
+    - refine search bar behaviour (esc, closing etc.), implement live-search when typing
+    - translation of hover buttons
+    - where usefull, add individual opacity sliders to each layer (e.g. chronotrains and oepnvkarte), on the other side, make sure that certain layers cannot be chosen simultanously (e.g. sat / slopes / weather,...)
+    - rearranging layers via z-index +/- buttons would be useful
+    - order layers, esp. Schneehöhe after it is added
+    - rework create_single_tile_layer()
+    - check if group_headers could be more generic by just listing the layers and retrieving names, opacity etc. automatically
+    - switching between AM and PM Lawinenlage should disable the other one
+    - when searching, "BY" refines search. somehow use that e.g. translate "Bayern" to "BY" in the background
+    - add keyboard shortcut for zoom, map pane, layers?
+    - possibility to change a map between being an overlay and being a base-map
+    - mark control which has active layer (e.g. outline, background-color, additional icon in corner)
+    - implement latest-date/latest-available-file function for imageoverlay of weather and for avalanche risk
+    - include other weather maps from lawine.report + respective legends + potentially slider for date range
+    - cluster all added controls and stuff into one .js
+    - remove "Messwerkzeuge"-title and align items in slide-open-menu
+    - Geo-Tools (Altitude, dstance, Area, Drawing, ...)
+    - measure: distance, elevation/altitude, steepness, LLB, ...
+    - add min-/max-zooms to all map layers
+    - add attribution links to all map layers
+    - Country-Filter/Flag for some maps
+    - opacity, blur etc. for overlays
+    - Routing
+    - side-by-side: make optional and make maps selectable
+    - consider useful z-indices for each overlay
+    - individual locate button for overlays such as Schutzgebiete (add: <span style="display: inline-block; transform: rotate(-45deg); font-size: 1.6em;">   ⮞</span>)
+    - import geosearch differently
+    - align margins/paddings of tool controls similar to layer controls
+    - add slide-in menu (like e.g. wanderreitkarte)
+    - gpx import
+    - check where class names for elements (especially layers) make sense and where/how they are defined
+    - redraw icons with consistent line thickness
+    - own icon for skitourenabende
+    - marker cluster for skitourenabende
+    - fetch skitourenabende data from json file and not from within script
+    - load layers etc. only when respective button is toggled, esp. for larger stuff such as avalanche risk
+DATA:
+    - make avalanche risk regions clickable for further details (problems, directions, report,...)
+    - historical weather overlays might have different bbounds
+    - div element which shows datetime for weather, Lawinenlage etc.
+    - Lawinenlage date: check if overlay was actually fetched
+    - Lawinenlage date label: style it green/red dependent on its age
+    - make Lawinenlage clickable so that it reads the color of the overlayimage and maybe extend to actual report/area/problem etc.
+    - extend Lawinenlage to Italy, Switzerland, France, Slovenia, ...
+    - seperate toll highways into tunnels, pedestrians, streets
+    - make toll roads clickable with information about times, who has to pay, fee
+    - distill gpx data, maybe use python
+    - save overpass queries as source code
+    - when using hgt, mention data source as attribution
+    - Nachtskitouren
+    - Slopes Switzerland and others
+    - w3w
+LEGENDS:
+    - Lawinenlage
+    - OpenSlopeMap
+    - CyclOSM
+UX:
+    - mobile: make collapsable menu, esp. layer controls
+    - mobile: layer controls extend screen vertically
+    - "clear all" buttons which resets all overlays
+    - drawn/measured elements should be always on top of all other layers
+    - date div/span of avalanche risk should have equal width as letter width of weekday abbr. is not constant 
+EXTEND:
+    BASELAYERS:
+        - baselayer_topo_mapycz2 & baselayer_topo_mapycz3
+        - BayernAtlas (different tms...)
+        - Bing
+        - IGN
+        - Schweden
+    OBERLAYS:
+        - Strava Heatmaps
+        - Contour lines
+        - Fotos
+        - Webcams   https://lawinenwarndienst.bayern.de/schnee-wetter-bayern/webcams/
+        - Klettergebiete etc. (https://www.thecrag.com/de/artikel/geolocation / https://www.bergsteigen.com/touren/klettern/)
+    WEATHER:
+        - Regenradar
+        - Wind direction for weather overlay (kind of normal map available)
+        - Schnee (Höhe, Diff, Schneefallgrenze)
+    LAWINE
+        - ExoLabs?
+        - https://avalanche.report/albina_files
+        - Problems
+        - Risk
+        - Report
+        - ATHM
+    BERGWACHT
+        - Schutzgebiete
+        - BW-spezifische Orte & Gebiete
+        - Ausbildung / Tests
+        - Gebietskenntnis
+        - Übergabepunkte
+    ACADEMY
+        - Lehrinhalter verlinken
+        - Ortovox Snowlab
+        - Snow Crystals
+        - Lawinen-Blog
+        - ...
+        - Skitechnik
+        - Navigation
+    ABOUT
+        - Über uns
+        - Impressum
+        - Github etc.
+IDEAS:
+    - Links zu Fahrplänen, Touren, Hütten
+    - https://jsfiddle.net/vehrmann/uoednqk7/14/
+    - within HGT-file: check for maximum for an area
+NICE TO HAVE:
+    - Geo-Quiz
+-->

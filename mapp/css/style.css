@@ -1,0 +1,223 @@
+/* START: MAIN MAP SETTINGS */
+body {
+    margin: 0;
+}
+
+#map {
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+/* needed to get rid of gaps between tiles, also see https://github.com/Leaflet/Leaflet/issues/3575#issuecomment-203821877 */
+/* seems to be fixed in version 1.9.4
+.leaflet-tile-container img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+*/
+/* necessary to apply as used by leaflet for ".leaflet-tile-container img" to get rid of white cross-lines */
+.leaflet-tile-container svg {
+    mix-blend-mode: plus-lighter;
+}
+
+.leaflet-container.crosshair-cursor-enabled {
+    cursor:crosshair;
+}
+/* END: MAIN MAP SETTINGS */
+
+
+/* START: TOOL ICONS */
+.leaflet-geosearch-button a {
+    background-image: url(../icons/search_8634862.png) !important;
+    background-size: 18px 18px !important;
+}
+/* a magnifying glass is shown with ::before and ::after which is too small for the icon, so hide it */
+.leaflet-geosearch-button a::before,
+.leaflet-geosearch-button a::after {
+    display: none !important;
+}
+/* END: TOOL ICONS */
+
+
+/* START: CONTROL ICONS */
+.leaflet-control-layers-toggle {
+	background-image: url(../icons/layercontrol_layers.png) !important;
+    background-size: 30px 30px !important;
+}
+/*
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(../icons/layers_841577.png) !important;
+	background-size: 30px 30px !important;
+}
+*/
+
+/*
+.layer-control-streets a {
+	background-image: url(../icons/streets_10465614.png) !important;
+    background-size: 34px 34px !important;
+
+}
+*/
+
+.layer-control-satellite a {
+    background-image: url(../icons/layercontrol_satellite.png) !important;
+    background-size: 38px 38px !important;
+    transform: translate(1px, -1px);
+}
+
+.layer-control-hillshade a {
+    background-image: url(../icons/layercontrol_hillshade_992325.png) !important;
+    background-size: 38px 38px !important;
+}
+
+.layer-control-slopeangle a {
+	background-image: url(../icons/layercontrol_slopeangle.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-avalancherisk a {
+	background-image: url(../icons/layercontrol_avalanche.png) !important;
+    background-size: 36px !important;
+}
+
+.layer-control-weather a {
+	background-image: url(../icons/layercontrol_weather.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-schutzgebiete a {
+	/* background-image: url(../icons/schutzgebiete_7653227.svg) !important; */
+    background-image: url(../icons/layercontrol_schutzgebiete.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-bergwacht-eignungstests a {
+    background-image: url(../icons/layercontrol_test_937496.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-wintersports a {
+	background-image: url(../icons/layercontrol_wintersports.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-cycling a {
+	background-image: url(../icons/layercontrol_cycling.png) !important;
+    background-size: 34px 34px !important;
+}
+
+.layer-control-oepnv a {
+	background-image: url(../icons/layercontrol_train.png) !important;
+    background-size: 30px 30px !important;
+}
+
+.layer-control-car a {
+	background-image: url(../icons/layercontrol_car.png) !important;
+    background-size: 34px 34px !important;
+}
+
+.layer-control-van {
+    display: none;
+}
+
+.layer-control-van a {
+	background-image: url(../icons/layercontrol_van.png) !important;
+    background-size: 34px 34px !important;
+}
+
+.layer-control-seamaps a {
+	background-image: url(../icons/layercontrol_boat.png) !important;
+    background-size: 30px 30px !important;
+}
+/* END: CONTROL ICONS */
+
+
+/* START: POPUP ICONS */
+.llb_popup_header {
+    margin-bottom: 0px !important;
+}
+
+.llb_popup_date {
+    margin-top: 0px !important;
+}
+
+.llb_popup_icon {
+    width: 100px;
+}
+/* END: POPUP ICONS */
+
+
+/* START: LAYER CONTROLS */
+/* smaller margins so that control buttons are closer together */
+.leaflet-right .leaflet-control {
+    margin-top: 3px;
+    margin-right: 6px;
+}
+
+/* style headers */
+.leaflet-control-layers-custom-header {
+    font-weight: bold;
+    display: flex;
+}
+
+.leaflet-control-layers-custom-header label {
+    margin-right: 10px;
+}
+
+/* style inputs (opacity sliders) */
+.leaflet-control-layers-custom-header input {
+    margin-left: auto;
+    width: 7em;
+}
+
+/* hide avalancherisk_datepicker_input as displaying is done via span.textContent due to styling reasons */
+.avalancherisk_datepicker_input {
+    width:      0px;
+    border:     0px;
+    margin:     0px;
+    padding:    0px
+}
+.avalancherisk_datepicker_arrow_left {
+    margin-right: 5px;
+}
+.avalancherisk_datepicker_arrow_right {
+    margin-left: 5px;
+}
+.avalancherisk_datepicker_span {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+.avalancherisk_datepicker_arrow_left,
+.avalancherisk_datepicker_arrow_right,
+.avalancherisk_datepicker_span {
+    font-size: 14px;
+    cursor: pointer;
+}
+/* END: LAYER CONTROLS */
+
+
+
+/* START: ATTRIBUTION / LEGENDS */
+.weather_legend_img {
+    position:   absolute;
+    bottom:     5vh;
+    max-width:  95%;
+    display:    none;
+}
+/* END: ATTRIBUTION / LEGENDS */
+
+
+/* START: MOBILE */
+@media only screen and (max-width: 600px) {
+    .leaflet-top.leaflet-right > div {
+        scale: calc(32 / 46);
+        /* margin-top: -4px;  equals same distance between buttons like on left side */
+        margin-top: -6px;
+        margin-right: 3px;
+    }
+
+    .leaflet-top.leaflet-right > div:first-child {
+        margin-top: 3px !important;
+    }
+}
+/* END: MOBILE */
