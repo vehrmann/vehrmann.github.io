@@ -108,30 +108,27 @@ document.addEventListener('keydown', function (event) {
 });
 
 
-function handlePaWoModal(slug, pw) {
-    document.getElementById(`pawo-submit-${slug}`).addEventListener('click', function () {
-        const pawo = document.getElementById(`pawo-input-${slug}`).value;
-        document.getElementById(`pawo-modal-${slug}`).style.display = 'none';
-        if (pawo === pw) {
-            document.querySelector(`.layer-control-${slug}`).style.display = 'block';
-        } else {
-            alert('Leider falsch!');
+function cr(str, x) {return str.split('').map(c => String.fromCharCode(c.charCodeAt(0) - x)).join('')}
+function interceptGeoSearch() {
+    const input = document.querySelector('input.glass');
+    if (!input) return;
+
+    input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+            const value = input.value.trim().toLowerCase();
+
+            if (value === cr('fdpsshu', 3)) {
+                e.preventDefault();
+                e.stopPropagation(); // Prevent GeoSearch from triggering
+
+                document.querySelector('.layer-control-van').style.display = 'block';
+                input.value = '';
+            }
         }
     });
 }
 
-function createPaWoListener(key, slug) {
-    document.addEventListener('keydown', function (event) {
-        if (event.ctrlKey && event.key === key) {
-            event.preventDefault();
-            const modal = document.getElementById(`pawo-modal-${slug}`);
-            const input = document.getElementById(`pawo-input-${slug}`);
-            modal.style.display = 'block';
-            input.value = '';
-            input.focus();
-        }
-    });
-}
-
-createPaWoListener('q', 'van');
-handlePaWoModal('van', '123');
+// Wait until input is available in the DOM
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(interceptGeoSearch, 1000); // Delay to ensure Leaflet GeoSearch loads
+});
