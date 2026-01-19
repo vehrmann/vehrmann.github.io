@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interaktiver Ausbildungsplan - Bergwacht</title>
+    <title>Interaktiver Ausbildungsplan - Bergwacht München</title>
     <style>
         :root {
             --bw-blue: #007ec6;
@@ -18,31 +18,30 @@
             background-color: #f4f4f4;
             color: var(--bw-text);
             margin: 0;
-            padding: 20px;
-            padding-top: 80px; /* Platz für die Fixed Bar */
+            padding: 10px;
+            font-size: 0.85rem;
         }
 
         /* --- STEUERUNGSLEISTE --- */
         .control-bar {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 10px;
+            right: 10px;
             background: white;
-            padding: 15px 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 8px 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
             z-index: 1000;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 15px;
+            gap: 10px;
+            border-radius: 8px;
         }
 
         .toggle-switch {
             position: relative;
             display: inline-block;
-            width: 60px;
-            height: 34px;
+            width: 50px;
+            height: 28px;
         }
 
         .toggle-switch input { opacity: 0; width: 0; height: 0; }
@@ -59,52 +58,71 @@
         .slider:before {
             position: absolute;
             content: "";
-            height: 26px;
-            width: 26px;
-            left: 4px;
-            bottom: 4px;
+            height: 22px;
+            width: 22px;
+            left: 3px;
+            bottom: 3px;
             background-color: white;
             transition: .4s;
             border-radius: 50%;
         }
 
         input:checked + .slider { background-color: var(--bw-blue); }
-        input:checked + .slider:before { transform: translateX(26px); }
+        input:checked + .slider:before { transform: translateX(22px); }
 
-        .control-label { font-weight: bold; font-size: 1.1rem; }
+        .control-label { font-weight: bold; font-size: 0.9rem; }
 
 
         /* --- LAYOUT --- */
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
-            padding: 20px;
+            padding: 15px;
             box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
 
         .section-header {
             background-color: var(--bw-light-blue);
             color: white;
-            padding: 12px 18px;
-            margin-top: 35px;
-            margin-bottom: 18px;
+            padding: 8px 12px;
+            margin-top: 20px;
+            margin-bottom: 10px;
             font-weight: bold;
-            font-size: 1.2rem;
-            border-radius: 8px;
+            font-size: 1rem;
+            border-radius: 6px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.08);
         }
 
-        .module-grid, .complex-grid {
-            display: grid;
-            gap: 15px;
+        .main-header {
+            background: var(--bw-blue);
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
         }
-        .module-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
-        .complex-grid { grid-template-columns: repeat(4, 1fr); }
 
-        @media (max-width: 900px) { .complex-grid { grid-template-columns: 1fr 1fr; } }
-        @media (max-width: 600px) { .complex-grid { grid-template-columns: 1fr; } }
-        .column-group { display: flex; flex-direction: column; gap: 15px; }
+        .main-header h1 {
+            margin: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .grid-2col {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .module-grid {
+            display: grid;
+            gap: 10px 18px; /* vertikal 10px, horizontal 18px */
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (max-width: 900px) { .module-grid { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 600px) { .module-grid { grid-template-columns: 1fr; } }
+        .column-group { display: flex; flex-direction: column; gap: 10px; }
 
 
         /* --- MODULE STYLES --- */
@@ -129,26 +147,28 @@
 
         summary {
             list-style: none;
-            padding: 12px;
+            padding: 8px 10px;
             cursor: pointer;
-            min-height: 80px;
+            min-height: 60px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            border-radius: 8px;
+            border-radius: 6px;
+            font-size: 0.85rem;
         }
         summary::-webkit-details-marker { display: none; }
 
-        .module-title { font-weight: bold; padding-right: 30px; }
-        .module-meta { font-size: 0.85rem; opacity: 0.9; margin-top: 8px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 5px;}
+        .module-title { font-weight: bold; padding-right: 20px; font-size: 0.9rem; }
+        .module-meta { font-size: 0.75rem; opacity: 0.9; margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 4px;}
         .module.light .module-meta { border-top: 1px solid #ccc; }
         
         .module-content {
             background: white;
             color: var(--bw-text);
-            padding: 15px;
+            padding: 10px;
             cursor: auto;
-            border-radius: 0 0 8px 8px;
+            border-radius: 0 0 6px 6px;
+            font-size: 0.85rem;
         }
 
         .tag {
@@ -179,7 +199,7 @@
             opacity: 1;
             filter: none;
             box-shadow: 0 0 15px rgba(0, 126, 198, 0.6);
-            transform: scale(1.02);
+            transform: scale(1.005);
             z-index: 10;
         }
         
@@ -240,7 +260,7 @@
             opacity: 1;
             filter: none;
             /*box-shadow: 0 0 15px rgba(255, 193, 7, 0.6); /* Orange für OR */
-            transform: scale(1.02);
+            transform: scale(1.005);
             z-index: 10;
         }
 
@@ -258,8 +278,8 @@
 </div>
 
 <div class="container" id="mainContainer">
-    <header style="background:var(--bw-blue); color:white; padding:15px; margin-bottom:20px;">
-        <h1 style="margin:0;">Leitfaden Anwärterausbildung</h1>
+    <header class="main-header">
+        <h1>Leitfaden Anwärterausbildung</h1>
     </header>
 
     <!-- EINTRITTSBEDINGUNGEN -->
@@ -281,12 +301,12 @@
             <summary><span class="module-title"></span></summary>
         </details>
 
-        <details class="module" id="eintrittsbedingungen-gesamt" style="display: none;"></details>
+        <details class="module hidden" id="eintrittsbedingungen-gesamt"></details>
     </div>
 
     <!-- BASIS -->
     <div class="section-header">Basisausbildung</div>
-    <div class="complex-grid">
+    <div class="module-grid">
         <div class="column-group">
             <details class="module" id="12-monate-mitgliedschaft">
                 <summary><span class="module-title"></span></summary>
@@ -338,12 +358,12 @@
         </div>
 
         <!-- HELPER: Verstecktes Modul zur Gruppierung aller Basisausbildungsbedingungen -->
-        <details class="module" id="basisausbildung-gesamt" style="display: none;"></details>
+        <details class="module hidden" id="basisausbildung-gesamt"></details>
     </div>
 
     <!-- EIGNUNGSTESTS -->
     <div class="section-header">Eignungstests</div>
-    <div class="module-grid" style="grid-template-columns: 1fr 1fr;">
+    <div class="module-grid grid-2col">
         <details class="module" id="et-sommer">
             <summary><span class="module-title"></span></summary>
         </details>
@@ -355,7 +375,7 @@
 
     <!-- TECHNISCHE AUSBILDUNG -->
     <div class="section-header">Technische Ausbildung</div>
-    <div class="complex-grid">
+    <div class="module-grid">
         <div class="column-group">
             <details class="module" id="planmaessig">
                 <summary><span class="module-title"></span></summary>
