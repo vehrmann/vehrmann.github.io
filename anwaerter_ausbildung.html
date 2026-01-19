@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktiver Ausbildungsplan - Bergwacht</title>
+    <style>
+        :root {
+            --bw-blue: #007ec6;
+            --bw-light-blue: #6cb4e4;
+            --bw-red: #e30613;
+            --bw-text: #333;
+            --dimmed-opacity: 0.15; /* Wie stark soll ausgegraut werden? */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: var(--bw-text);
+            margin: 0;
+            padding: 20px;
+            padding-top: 80px; /* Platz für die Fixed Bar */
+        }
+
+        /* --- STEUERUNGSLEISTE --- */
+        .control-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .toggle-switch input { opacity: 0; width: 0; height: 0; }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider { background-color: var(--bw-blue); }
+        input:checked + .slider:before { transform: translateX(26px); }
+
+        .control-label { font-weight: bold; font-size: 1.1rem; }
+
+
+        /* --- LAYOUT --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        .section-header {
+            background-color: var(--bw-light-blue);
+            color: white;
+            padding: 12px 18px;
+            margin-top: 35px;
+            margin-bottom: 18px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .module-grid, .complex-grid {
+            display: grid;
+            gap: 15px;
+        }
+        .module-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+        .complex-grid { grid-template-columns: repeat(4, 1fr); }
+
+        @media (max-width: 900px) { .complex-grid { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 600px) { .complex-grid { grid-template-columns: 1fr; } }
+        .column-group { display: flex; flex-direction: column; gap: 15px; }
+
+
+        /* --- MODULE STYLES --- */
+        details.module {
+            background: var(--bw-blue);
+            color: white;
+            border-radius: 8px;
+            transition: all 0.3s ease; /* Weicher Übergang für das Ausgrauen */
+            border: 1px solid #005a8d;
+            position: relative;
+            overflow: hidden;
+        }
+
+        details.module.red { background: var(--bw-red); border-color: #b00000; }
+        
+        details.module.light {
+            background: white;
+            color: var(--bw-text);
+            border: 2px solid var(--bw-blue);
+        }
+        details.module.light summary { background: white; color: var(--bw-text); }
+
+        summary {
+            list-style: none;
+            padding: 12px;
+            cursor: pointer;
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 8px;
+        }
+        summary::-webkit-details-marker { display: none; }
+
+        .module-title { font-weight: bold; padding-right: 30px; }
+        .module-meta { font-size: 0.85rem; opacity: 0.9; margin-top: 8px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 5px;}
+        .module.light .module-meta { border-top: 1px solid #ccc; }
+        
+        .module-content {
+            background: white;
+            color: var(--bw-text);
+            padding: 15px;
+            cursor: auto;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .tag.winter { background: #eef6fb; color: #007ec6; }
+        .tag.summer { background: #fff8e1; color: #f57f17; }
+
+
+        /* --- LOGIK FÜR DAS AUSGRAUEN (DEPENDENCY MODE) --- */
+        
+        /* 1. Wenn der Modus an ist UND wir über den Container hovern ODER ein Modul aktiv ist: Alles dimmen */
+        body.dependency-mode .container.hovering-active details.module,
+        body.dependency-mode .container.has-active details.module {
+            opacity: var(--dimmed-opacity);
+            filter: grayscale(100%);
+        }
+
+        /* 2. Die Module, die Teil der Kette sind (hovered/clicked oder required), wieder sichtbar machen */
+        body.dependency-mode .container.hovering-active details.module.is-chain,
+        body.dependency-mode .container.has-active details.module.is-chain {
+            opacity: 1;
+            filter: none;
+            box-shadow: 0 0 15px rgba(0, 126, 198, 0.6);
+            transform: scale(1.02);
+            z-index: 10;
+        }
+        
+        /* Roter Rahmen für Prüfungen in der Kette 
+        body.dependency-mode .container.hovering-active details.module.red.is-chain {
+            box-shadow: 0 0 15px rgba(227, 6, 19, 0.6);
+        }*/
+
+        /* Pfeil-Indikator (optional) */
+        details.module.is-chain::after {
+            /* content: "★"; */ /* Kann man nutzen um Kette zu markieren */
+            position: absolute; top: 5px; right: 5px; font-size: 10px;
+        }
+
+        /* --- ODER-BEDINGUNGEN (Schraffierung beim Hover/Click) --- */
+        
+        /* Schraffierung nur für Module mit is-chain-or (beim Hover oder Click) */
+        body.dependency-mode .container.hovering-active details.module.is-chain-or::before,
+        body.dependency-mode .container.has-active details.module.is-chain-or::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 20px,
+                rgba(255, 255, 255, 0.2) 20px,
+                rgba(255, 255, 255, 0.2) 40px
+            );
+            pointer-events: none;
+            border-radius: 8px;
+            z-index: 1;
+        }
+
+        body.dependency-mode .container.hovering-active details.module.light.is-chain-or::before,
+        body.dependency-mode .container.has-active details.module.light.is-chain-or::before {
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255, 193, 7, 0.15) 10px,
+                rgba(255, 193, 7, 0.15) 12px
+            );
+        }
+
+        /* Inhalt über Schraffierung legen */
+        details.module summary {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Highlight für OR-Bedingungen */
+        body.dependency-mode .container.hovering-active details.module.is-chain-or,
+        body.dependency-mode .container.has-active details.module.is-chain-or {
+            opacity: 1;
+            filter: none;
+            /*box-shadow: 0 0 15px rgba(255, 193, 7, 0.6); /* Orange für OR */
+            transform: scale(1.02);
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Steuerungsleiste -->
+<div class="control-bar">
+    <label class="toggle-switch">
+        <input type="checkbox" id="dependencyToggle">
+        <span class="slider"></span>
+    </label>
+    <span class="control-label">Voraussetzungen anzeigen (Hover)</span>
+</div>
+
+<div class="container" id="mainContainer">
+    <header style="background:var(--bw-blue); color:white; padding:15px; margin-bottom:20px;">
+        <h1 style="margin:0;">Leitfaden Anwärterausbildung</h1>
+    </header>
+
+    <!-- EINTRITTSBEDINGUNGEN -->
+    <div class="section-header">Vorbereitung / Eintrittsbedingungen (Mindestalter: 16 Jahre)</div>
+    <div class="module-grid">
+        <details class="module" id="infoabend">
+            <summary><span class="module-title"></span></summary>
+        </details>
+
+        <details class="module" id="tourenbericht">
+            <summary><span class="module-title"></span></summary>
+        </details>
+
+        <details class="module" id="mitgliedsantrag">
+            <summary><span class="module-title"></span></summary>
+        </details>
+        
+        <details class="module" id="arbeitsmedizinische-untersuchung">
+            <summary><span class="module-title"></span></summary>
+        </details>
+
+        <details class="module" id="eintrittsbedingungen-gesamt" style="display: none;"></details>
+    </div>
+
+    <!-- BASIS -->
+    <div class="section-header">Basisausbildung</div>
+    <div class="complex-grid">
+        <div class="column-group">
+            <details class="module" id="12-monate-mitgliedschaft">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="12-diensttage">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="brk-bw-seminar">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="erste-hilfe">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <div class="column-group">
+            <details class="module" id="psa">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="anwaerterfahrt-sommer">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="behelfsmaessige-bergrettung">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <div class="column-group">
+            <details class="module" id="lawinenkunde">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="sichtung-skitechnik">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="skitechnik-training">
+                <summary><span class="module-title"></span></summary>
+            </details>
+
+            <details class="module" id="basisausbildung-winter">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <!-- HELPER: Verstecktes Modul zur Gruppierung aller Basisausbildungsbedingungen -->
+        <details class="module" id="basisausbildung-gesamt" style="display: none;"></details>
+    </div>
+
+    <!-- EIGNUNGSTESTS -->
+    <div class="section-header">Eignungstests</div>
+    <div class="module-grid" style="grid-template-columns: 1fr 1fr;">
+        <details class="module" id="et-sommer">
+            <summary><span class="module-title"></span></summary>
+        </details>
+
+        <details class="module" id="et-winter">
+            <summary><span class="module-title"></span></summary>
+        </details>
+    </div>
+
+    <!-- TECHNISCHE AUSBILDUNG -->
+    <div class="section-header">Technische Ausbildung</div>
+    <div class="complex-grid">
+        <div class="column-group">
+            <details class="module" id="planmaessig">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            
+            <details class="module" id="pruefungsvorbereitung-sommer">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <div class="column-group">
+            <details class="module" id="digitalfunk">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            <details class="module" id="notfallmedizin">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            <details class="module" id="rettungsdienstpraktikum">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <div class="column-group">
+            <details class="module" id="akja">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            
+            <details class="module" id="winterrettung">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            
+            <details class="module" id="pruefungsvorbereitung-winter">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+
+        <div class="column-group">
+            <details class="module" id="naturschutz-exkursionen">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            <details class="module" id="naturschutz-referat">
+                <summary><span class="module-title"></span></summary>
+            </details>
+            <details class="module" id="naturschutz-ausbildung">
+                <summary><span class="module-title"></span></summary>
+            </details>
+        </div>
+    </div>
+
+    <!-- ABSCHLUSS -->
+    <div class="section-header">Abschlussprüfungen</div>
+    <div class="module-grid">
+        <details class="module" id="pruefung-sommer">
+            <summary><span class="module-title"></span></summary>
+        </details>
+        
+        <details class="module" id="pruefung-winter">
+            <summary><span class="module-title"></span></summary>
+        </details>
+        
+        <details class="module" id="pruefung-luftrettung">
+            <summary><span class="module-title"></span></summary>
+        </details>
+        
+        <details class="module" id="pruefung-naturschutz">
+            <summary><span class="module-title"></span></summary>
+        </details>
+    </div>
+
+</div>
+
+<script>
+    // ============================================================================
+    // ZENTRALE MODUL-KONFIGURATION
+    // ============================================================================
+    const MODULES = {
+        // ===== EINTRITTSBEDINGUNGEN =====
+        "infoabend": {
+            title: "Info-Abend",
+            content: "Startpunkt"
+        },
+        "tourenbericht": {
+            title: "Tourenbericht",
+            content: "Kletter- und Skitouren"
+        },
+        "mitgliedsantrag": {
+            title: "Mitgliedsantrag",
+            content: "<ul><li>Bayrisches Rotes Kreuz</li><li>Bergwacht München</li></ul>",
+            required: ["infoabend"]
+        },
+        "arbeitsmedizinische-untersuchung": {
+            title: "Arbeitsmedizinische Untersuchung",
+            content: "ähnlich G41",
+            required: ["infoabend", "mitgliedsantrag"]
+        },
+        // HELPER: Verstecktes Modul zur Gruppierung aller Eintrittsbedingungen.
+        // Wird als gemeinsame Voraussetzung verwendet, damit nicht jedes Basismodul
+        // alle vier Eintrittsbedingungen einzeln auflisten muss.
+        "eintrittsbedingungen-gesamt": {
+            hidden: true,
+            required: ["infoabend", "tourenbericht", "mitgliedsantrag", "arbeitsmedizinische-untersuchung"]
+        },
+        
+        // ===== BASISAUSBILDUNG - ALLGEMEIN =====
+        "12-monate-mitgliedschaft": {
+            title: "12 Monate Mitgliedschaft",
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "12-diensttage": {
+            title: "12 Diensttage",
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "brk-bw-seminar": {
+            title: "BRK-/BW-Seminar",
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "erste-hilfe": {
+            title: "Erste Hilfe Kurs",
+            content: "Extern möglich",
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+
+        // ===== BASISAUSBILDUNG - WINTER =====
+        "sichtung-skitechnik": {
+            title: "Sichtung Skitechnik",
+            content: "1 Tag",
+            tag: { label: "Winter", type: "winter" },
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "lawinenkunde": {
+            title: "Lawinenkunde",
+            content: "3x 3h abends",
+            tag: { label: "Winter", type: "winter" },
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "basisausbildung-winter": {
+            title: "Basisausbildung Winter",
+            content: "4 Tage",
+            tag: { label: "Winter", type: "winter" },
+            required: ["sichtung-skitechnik", "lawinenkunde"]
+        },
+        "skitechnik-training": {
+            title: "Skitechnik Training",
+            content: "Optional",
+            style: "light",
+            required: ["eintrittsbedingungen-gesamt", "sichtung-skitechnik"]
+        },
+        
+        // ===== BASISAUSBILDUNG - SOMMER =====
+        "psa": {
+            title: "PSA-Check",
+            content: "Materialcheck der Kletterausrüstung",
+            required: ["eintrittsbedingungen-gesamt"]
+        },
+        "anwaerterfahrt-sommer": {
+            title: "Anwärterfahrt Sommer",
+            tag: { label: "Sommer", type: "summer" },
+            required: ["psa"]
+        },
+        "behelfsmaessige-bergrettung": {
+            title: "Behelfsmäßige Bergrettung",
+            tag: { label: "Sommer", type: "summer" },
+            required: ["anwaerterfahrt-sommer"]
+        },
+
+        // HELPER: Verstecktes Modul zur Gruppierung aller Basisausbildungsbedingungen.
+        "basisausbildung-gesamt": {
+            hidden: true,
+            required: [ "basisausbildung-winter", "behelfsmaessige-bergrettung", 
+                        "12-monate-mitgliedschaft", "12-diensttage", "brk-bw-seminar", "erste-hilfe"]
+        },
+
+        // ===== EIGNUNGSTESTS =====
+        "et-winter": {
+            title: "Eignungstest (ET) Winter",
+            content: "Prüfung Skitechnik",
+            style: "red",
+            required: ["basisausbildung-winter", "12-monate-mitgliedschaft", "12-diensttage"]
+        },
+        "et-sommer": {
+            title: "Eignungstest (ET) Sommer",
+            content: "Prüfung Klettern",
+            style: "red",
+            required: ["behelfsmaessige-bergrettung", "12-monate-mitgliedschaft", "12-diensttage"]
+        },
+        
+        // ===== TECHNISCHE AUSBILDUNG =====
+        "akja": {
+            title: "Akja-Einweisung",
+            content: "Nach ET Winter",
+            tag: { label: "Winter", type: "winter" },
+            required: ["et-winter"]
+        },
+        "winterrettung": {
+            title: "Grundausbildung Winterrettung",
+            tag: { label: "Winter", type: "winter" },
+            required: ["akja", "notfallmedizin"]
+        },
+        "pruefungsvorbereitung-winter": {
+            title: "Prüfungsvorbereitung Winter",
+            content: "Letzter Schliff",
+            tag: { label: "Winter", type: "winter" },
+            required: ["winterrettung", "et-sommer"]
+        },
+        "planmaessig": {
+            title: "Planmäßige Bergrettung",
+            tag: { label: "Sommer", type: "summer" },
+            required: ["et-sommer"]
+        },
+        "pruefungsvorbereitung-sommer": {
+            title: "Prüfungsvorbereitung Sommer",
+            content: "Vor der Prüfung",
+            tag: { label: "Sommer", type: "summer" },
+            required: ["planmaessig", "et-winter"]
+        },
+        "notfallmedizin": {
+            title: "Notfallmedizin",
+            content: '90h an ca. 10 Tagen<br><small style="opacity:0.7;">Voraussetzung: ET Winter ODER ET Sommer</small>',
+            required: ["erste-hilfe"],
+            requiredOr: ["et-winter", "et-sommer"]
+        },
+        "rettungsdienstpraktikum": {
+            title: "Rettungsdienstpraktikum",
+            content: "Optional",
+            style: "light",
+            required: ["notfallmedizin"]
+        },
+        "digitalfunk": {
+            title: "Digitalfunk",
+            content: "Einweisung",
+            requiredOr: ["et-winter", "et-sommer"]
+        },
+        "naturschutz-exkursionen": {
+            title: "2 Naturschutzexkursionen",
+            content: "Exkursionen",
+            requiredOr: ["et-winter", "et-sommer"]
+        },
+        "naturschutz-referat": {
+            title: "Referat Naturschutz",
+            content: "5 bis 10 min Vortrag beim Dienstabend",
+            requiredOr: ["et-winter", "et-sommer"]
+        },
+        "naturschutz-ausbildung": {
+            title: "Wissensbox & Naturschutzausbildung",
+            requiredOr: ["et-winter", "et-sommer"]
+        },
+        
+        // ===== ABSCHLUSSPRÜFUNGEN =====
+        "pruefung-sommer": {
+            title: "Prüfung Sommerrettung",
+            style: "red",
+            required: ["et-winter", "et-sommer", "pruefungsvorbereitung-sommer"]
+        },
+        "pruefung-winter": {
+            title: "Prüfung Winterrettung & Notfallmedizin",
+            style: "red",
+            required: ["et-winter", "et-sommer", "pruefungsvorbereitung-winter"]
+        },
+        "pruefung-luftrettung": {
+            title: "Ausbildung & Prüfung Luftrettung",
+            style: "red",
+            required: ["et-winter", "et-sommer"]
+        },
+        "pruefung-naturschutz": {
+            title: "Prüfung Naturschutz",
+            style: "red",
+            required: ["et-winter", "et-sommer", "naturschutz-exkursionen", "naturschutz-referat", "naturschutz-ausbildung"]
+        }
+    };
+    
+    // ============================================================================
+    // INITIALISIERUNG
+    // ============================================================================
+    const toggle = document.getElementById('dependencyToggle');
+    const container = document.getElementById('mainContainer');
+    const modules = document.querySelectorAll('.module');
+    
+    // Map erstellen für schnellen Zugriff per ID
+    const moduleMap = {};
+    modules.forEach(m => {
+        if(m.id) moduleMap[m.id] = m;
+    });
+
+    // ============================================================================
+    // MODULE AUS KONFIGURATION BEFÜLLEN
+    // ============================================================================
+    function generateModulesFromConfig() {
+        Object.entries(MODULES).forEach(([id, config]) => {
+            const module = document.getElementById(id);
+            if (!module || config.hidden) return;
+            
+            const summary = module.querySelector('summary');
+            if (!summary) return;
+            
+            // Titel setzen
+            const titleSpan = summary.querySelector('.module-title');
+            if (titleSpan && config.title) {
+                titleSpan.textContent = config.title;
+            }
+            
+            // Tags setzen (nach dem Titel)
+            if (config.tag && titleSpan) {
+                const existingTag = summary.querySelector('.tag');
+                if (!existingTag) {
+                    const tag = document.createElement('span');
+                    tag.className = `tag ${config.tag.type}`;
+                    tag.textContent = config.tag.label;
+                    // Tag nach dem Titel einfügen
+                    titleSpan.parentNode.insertBefore(tag, titleSpan.nextSibling);
+                }
+            }
+            
+            // Content setzen oder erstellen
+            if (config.style && !module.classList.contains(config.style)) {
+                module.classList.add(config.style);
+            }
+        });
+    }
+    
+    // Module beim Laden befüllen
+    generateModulesFromConfig();
+
+    // Toggle Event
+    toggle.addEventListener('change', (e) => {
+        if(e.target.checked) {
+            document.body.classList.add('dependency-mode');
+        } else {
+            document.body.classList.remove('dependency-mode');
+            resetHighlights();
+        }
+    });
+
+    // Variable für das aktuell aktive Modul
+    let activeModule = null;
+
+    // ============================================================================
+    // VORAUSSETZUNGEN-LOGIK
+    // ============================================================================
+    
+    // Rekursive Funktion um alle Voraussetzungen (Eltern, Großeltern...) zu finden
+    function getPrerequisites(moduleId, results = new Set(), orResults = new Set()) {
+        const moduleConfig = MODULES[moduleId];
+        if (!moduleConfig) return { required: results, optional: orResults };
+
+        // Standard-Voraussetzungen (UND)
+        if (moduleConfig.required) {
+            moduleConfig.required.forEach(reqId => {
+                if (!results.has(reqId) && moduleMap[reqId]) {
+                    results.add(reqId);
+                    // Rekursion: Suche Voraussetzungen der Voraussetzung
+                    const nested = getPrerequisites(reqId, results, orResults);
+                    nested.required.forEach(r => results.add(r));
+                    nested.optional.forEach(o => orResults.add(o));
+                }
+            });
+        }
+
+        // ODER-Voraussetzungen (mindestens eine)
+        if (moduleConfig.requiredOr) {
+            moduleConfig.requiredOr.forEach(reqId => {
+                if (!orResults.has(reqId) && moduleMap[reqId]) {
+                    orResults.add(reqId);
+                    // Rekursion für OR-Module
+                    const nested = getPrerequisites(reqId, results, orResults);
+                    nested.required.forEach(r => results.add(r));
+                    nested.optional.forEach(o => orResults.add(o));
+                }
+            });
+        }
+
+        return { required: results, optional: orResults };
+    }
+
+    // Hilfsfunktion: Markiere Voraussetzungen eines Moduls
+    function highlightPrerequisites(mod) {
+        // 1. Das Element selbst markieren
+        mod.classList.add('is-chain');
+
+        // 2. Alle Voraussetzungen finden und markieren
+        if (mod.id) {
+            const prereqs = getPrerequisites(mod.id);
+            
+            // WICHTIG: Erst OR-Voraussetzungen markieren (werden ggf. überschrieben)
+            prereqs.optional.forEach(reqId => {
+                if(moduleMap[reqId]) {
+                    moduleMap[reqId].classList.add('is-chain-or');
+                }
+            });
+            
+            // Dann Standard-Voraussetzungen (UND) - überschreibt OR falls vorhanden
+            prereqs.required.forEach(reqId => {
+                if(moduleMap[reqId]) {
+                    // Entferne OR-Klasse falls vorhanden, da dies eine feste Voraussetzung ist
+                    moduleMap[reqId].classList.remove('is-chain-or');
+                    moduleMap[reqId].classList.add('is-chain');
+                }
+            });
+        }
+    }
+
+    // Click Events für dauerhafte Aktivierung
+    modules.forEach(mod => {
+        mod.addEventListener('click', (e) => {
+            if (!toggle.checked) return;
+            
+            // Verhindere dass das details-Element auf/zugeklappt wird
+            if (e.target.tagName !== 'A') {
+                e.preventDefault();
+            }
+            
+            // Wenn das gleiche Modul nochmal geklickt wird, deaktiviere es
+            if (activeModule === mod) {
+                activeModule = null;
+                resetHighlights();
+                return;
+            }
+            
+            // Neues Modul aktivieren
+            activeModule = mod;
+            resetHighlights();
+            container.classList.add('has-active');
+            highlightPrerequisites(mod);
+        });
+    });
+
+    // Hover Events
+    modules.forEach(mod => {
+        mod.addEventListener('mouseenter', () => {
+            if (!toggle.checked) return;
+            // Nur hovern wenn kein Modul aktiv ist
+            if (activeModule) return;
+
+            container.classList.add('hovering-active');
+            highlightPrerequisites(mod);
+        });
+
+        mod.addEventListener('mouseleave', () => {
+            if (!toggle.checked) return;
+            // Nur zurücksetzen wenn kein Modul aktiv ist
+            if (activeModule) return;
+            resetHighlights();
+        });
+    });
+
+    function resetHighlights() {
+        container.classList.remove('hovering-active');
+        container.classList.remove('has-active');
+        modules.forEach(m => {
+            m.classList.remove('is-chain');
+            m.classList.remove('is-chain-or');
+        });
+    }
+</script>
+
+</body>
+</html>
+
+<!--
+Dieses interaktive HTML-Dokument stellt einen Ausbildungsplan für die Bergwacht dar.
+Es ermöglicht das Anzeigen von Voraussetzungen für verschiedene Ausbildungsmodule durch Hover- und Klick-Interaktionen.
+Die Voraussetzungen werden in einer zentralen JavaScript-Konfiguration definiert, die es einfach macht, 
+Module hinzuzufügen oder zu ändern.
+
+Offene Punkte / mögliche Erweiterungen:
+- section-header ausgrauen bei Voraussetzungen-Modus?
+- Animationen für das Ein-/Ausgrauen?
+- Nicht nur Voraussetzungen, sondern auch "Folge"-Module anzeigen?
+- Bessere mobile Unterstützung 
+- Empfehlungen für Zeitpunkt der Module (wann im Ausbildungsverlauf?)
+- Bei pruefungsvorbereitung-winter sollte et-sommer und bei pruefungsvorbereitung-sommer sollte et-winter als Voraussetzung sichtbar sein, da man für die Prüfungen beide ETs braucht.
+- Ist Akja-Einweisung Voraussetzung für Winterrettung oder Prüfungsvorbereitung Winter?
+- Braucht es für Naturschutzexkursionen & Referat eine Voraussetzung?
+-->
