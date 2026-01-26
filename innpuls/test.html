@@ -1,31 +1,5 @@
 <!doctype html>
 <html>
-<body>
-  <div id="status" class="hint">Lade Formular…</div>
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const CID = params.get("CID");
-    const PID = params.get("PID");
-    if (!CID || !PID) {
-      const el = document.getElementById("status");
-      el.textContent = "Fehler: Bitte URL mit Parametern aufrufen: ?CID=12345&PID=9876";
-      el.classList.add("error");
-    } else {
-      document.getElementById("status").textContent = `Prefill aktiv: CID=${CID}, PID=${PID}`;
-
-      // Prefill für Embedded Forms via Cognito.prefill ist supported【https://www.cognitoforms.com/support/65/data-integration/prefilling-a-form】
-      // ACHTUNG: "CID" und "PID" müssen die internen Feldnamen in Cognito sein【https://www.cognitoforms.com/support/65/data-integration/prefilling-a-form】
-      window.Cognito = window.Cognito || {};
-      Cognito.prefill({
-        CID: CID,
-        PID: PID
-      });
-    }
-  </script>
-  <script
-    src="https://www.cognitoforms.com/f/seamless.js"
-    data-key="k-_Vj7T67kSZxyRCfiEVJw"
-    data-form="2">
-  </script>
-</body>
+  <script src="https://www.cognitoforms.com/f/seamless.js" data-key="k-_Vj7T67kSZxyRCfiEVJw" data-form="2"></script>
+  <script>Cognito.prefill({"CID":12345,"PID":9876});</script>
 </html>
