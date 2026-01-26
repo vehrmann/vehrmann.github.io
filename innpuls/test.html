@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cognito Prefill Wrapper</title>
+</head>
+<body>
+  <div id="form1">
+    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="k-_Vj7T67kSZxyRCfiEVJw" data-form="2"></script>
+    <!--<script>Cognito.prefill({CID:12345,PID:9876});</script>-->
+    <script>
+      // Querystring auslesen z.B. ?CID=12345&PID=9876
+      const params = new URLSearchParams(window.location.search);
+      const CID = params.get("CID");
+      const PID = params.get("PID");
+      
+      if (CID && PID) {
+        Cognito.prefill({
+          CID: String(CID),
+          PID: String(PID)
+        });
+      }
+    </script>
+  </div>
+</body>
+</html>
